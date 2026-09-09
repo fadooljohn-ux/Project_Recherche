@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot1-injection-calibration-freeze-v0.1",
+  "status": "frozen_before_injection_calibration",
+  "recorded_utc": "2026-08-09T05:36:42Z",
+  "target": "J1744-1134",
+  "dataset": "nanograv_15yr_timing_v2.1.0",
+  "implementation_base_commit": "9f3babef50947372e46bd8d6609e5d68639cb0a0",
+  "authorization": "exact_284_injections_and_29_audits_only",
+  "authorized_injection_id": "pilot1-injection-calibration-v0.1",
+  "authorized_case_count": 284,
+  "authorized_full_covariance_audit_count": 29,
+  "case_order_sha256": "2cdf585ea5fb422177b259acb20ed351c41efa00b3eb8fa64a85165c9920c0fe",
+  "locked_threshold_delta_chi2": 23.33426855482562,
+  "trigger_comparison": "strictly_greater_than_threshold",
+  "frequency_recovery_tolerance": "one_independent_fourier_bin_inverse_span",
+  "astrometric_parameters": ["PX", "ELONG", "ELAT", "PMELONG", "PMELAT"],
+  "ordinary_absorption_measurement": "one_minus_exact_frequency_covariance_gls_postfit_amplitude_fraction_clipped_0_1",
+  "sensitivity_crossing_rule": "interpolate_only_between_sampled_fractions_that_bracket_target",
+  "observed_residual_search_authorized": false,
+  "candidate_or_discovery_claim_authorized": false,
+  "promotion_authorized_before_scorecard": false,
+  "prior_result_records": {
+    "corrective_benchmark": {
+      "logical_path": "run_records/pilot1/benchmark50-r1-summary.json",
+      "bytes": 58981,
+      "sha256": "25b332e89da6b175524f0b84c711a268c5c560386bc89ea0b214fa8a18010e2f"
+    },
+    "calibration_nulls": {
+      "logical_path": "run_records/pilot1/calibration-null-v0.1-summary.json",
+      "bytes": 53026,
+      "sha256": "c954083c8ad5c26db684f80a8ef02867eb4669d1351b31eed9e1aa18be91073a"
+    },
+    "sealed_evaluation": {
+      "logical_path": "run_records/pilot1/sealed-evaluation-v0.1-summary.json",
+      "bytes": 31718,
+      "sha256": "a3fc929fa11039adedaaa24b8abf4d8ffc66c49c35db40896a2d0a4c053ed60d"
+    }
+  },
+  "prior_wall_seconds": {
+    "corrective_benchmark_including_setup": 618.6965004999984,
+    "calibration_nulls_including_setup": 8.015001959000074,
+    "sealed_evaluation_including_setup": 4.693552792000537
+  },
+  "frozen_sha256": {
+    "src/pulsar_pilot/pilot1_injections.py": "5c2119449e3c3ca3ba61953db5419a56fd5eab6e2c09b517b6aa28cc51bc2364",
+    "tests/test_pilot1_injections.py": "808ad4a0e153d4355642436cba23b063e5bb2e8283d5176b9da7cc1ac629f93b",
+    "results/pilot1/injection_plan_v0.1.json": "4fef8e92c6961a3f24aecd8998ad453a84e8bd5d90bd4d84d8bca2b17e284a02",
+    "results/pilot1/sealed_evaluation_result_v0.1.json": "b9a8f5c80c3390332cd5b0b81749b1b00f9043bb4c38353a6c637975f0987439",
+    "docs/PILOT1_SEALED_EVALUATION_RESULT_v0.1.md": "d410f879e24558e1b34d5c9a1a071a9c5f06c7cfad6d32a5a17c0159d36c43bb",
+    "docs/PILOT1_INJECTION_FREEZE_v0.1.md": "e81aa55cb4916258e69f4b8aa5ce789d476f6c2ad203c96265fa53578a7a4b04",
+    "protocol/PILOT1_THRESHOLD_LOCK_v0.1.json": "5bbe1049543e7e639af1de436a27e7445966215958d7510bbfc7dbe9df54957d",
+    "src/pulsar_pilot/pilot1_benchmark.py": "d6939a4383b166a0e1c1f663008013c04d049dc69c9a2342428953be796467e9",
+    "src/pulsar_pilot/pilot1_runtime.py": "bf4472794c2fa778ba5ff55147577b756637744cbb393a1c94509f06612f41de",
+    "src/pulsar_pilot/c1.py": "e54276f617ad541dfe4bfe779fcd9760156cf012366db41f9a3b93e7bed6224a",
+    "src/pulsar_pilot/c1r1.py": "38850dbc99028b4ec5edad2910144b0c256836c2b9c787e48f5ec1c01d034176",
+    "src/pulsar_pilot/c3.py": "0ffb31f8a1beeaba55fa8d577ae0c7830829003eb5f23a327fc655f83a1d9053",
+    "src/pulsar_pilot/g2.py": "06a33411c5150c4f526caefa1e61723070b3e26edb9a8252253e5eb72f3562df",
+    "src/pulsar_pilot/config.py": "649212c727b9be69a1c478990ddd5008fe0591401a3c82c7f2e75bd3a6770c4f",
+    "src/pulsar_pilot/paths.py": "bd8c210d566f4505a12a331031ac89fe1946fa81a4be4d1d369cec662d26f03c",
+    "src/pulsar_pilot/provenance.py": "bc421fb77666a4e513382d8519a84000a302986d0d76917bdeea299442d85ae8",
+    "config/pilot1.yaml": "c86ef883d806d629f993544d0689efc3acc39c16469e91432bdaf5b401966e94",
+    "config/target.yaml": "c6f051fdf883c6629883510b83c103ff9e46039e5a083994fc65b78cb6710937"
+  },
+  "pixi_lock_sha256": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8",
+  "stop_rule": "any_failed_injection_or_promotion_scorecard_row_stops_progression",
+  "next_authorization_if_pass": "publish_complete_promotion_scorecard_and_begin_initial_v0.1"
+}

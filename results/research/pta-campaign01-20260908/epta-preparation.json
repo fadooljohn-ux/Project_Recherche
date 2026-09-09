@@ -1,0 +1,176 @@
+{
+  "created_utc": "2026-09-08T16:31:37.646545+00:00",
+  "observed_search_executed": false,
+  "results": [
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "b76801d39f97bffa798ca7f45d744183994b05cbb3b17c3ab29d5865a46f18e3",
+        "eligible_cells": 1304,
+        "excluded_cells": 14,
+        "frequency_count": 1318,
+        "median_worst_phase_amplitude_us": 0.37003207124743653,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/pta-campaign01-20260908/epta/calibration-cache/b76801d39f97bffa798ca7f45d744183994b05cbb3b17c3ab29d5865a46f18e3",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J0030+0451",
+        "threshold": 29.358825317893416,
+        "timing_rank": 33
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "preparation_sha256": "1892b072e7a20ff1eeb7a578f5d488daaf147534570823a72f09a503394d4428",
+      "profile_sha256": "5956d51f4ede2fdd93245eb84047d10d65c0d5e193bff14c5e3e98d8fcddfbaf",
+      "recovered_amplitude_us": 1000.0,
+      "target": "J0030+0451"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "a5a16ac3b4111f7f4553babb2dce51b15bbe5acd8c4a602d996ed0f1e0a0c4ea",
+        "eligible_cells": 953,
+        "excluded_cells": 14,
+        "frequency_count": 967,
+        "median_worst_phase_amplitude_us": 0.2590293953671545,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/pta-campaign01-20260908/epta/calibration-cache/a5a16ac3b4111f7f4553babb2dce51b15bbe5acd8c4a602d996ed0f1e0a0c4ea",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1730-2304",
+        "threshold": 28.7394808786751,
+        "timing_rank": 21
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "preparation_sha256": "f6fdf6ab25193ab793f417a2e1c52cc3d3fc234e7dd5e000f91317e90c75c95c",
+      "profile_sha256": "667e14744e689b652ac826bd62d27a8b73a427d3f6258f3e0dce0b75d69fbd53",
+      "recovered_amplitude_us": 999.9999999999998,
+      "target": "J1730-2304"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "745ae657d6765e1071b0d160b994922504f07099cf57e5b180c716bac041dc1f",
+        "eligible_cells": 1430,
+        "excluded_cells": 11,
+        "frequency_count": 1441,
+        "median_worst_phase_amplitude_us": 0.17768279872815407,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/pta-campaign01-20260908/epta/calibration-cache/745ae657d6765e1071b0d160b994922504f07099cf57e5b180c716bac041dc1f",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1744-1134",
+        "threshold": 29.537269079767555,
+        "timing_rank": 35
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "preparation_sha256": "f6d84804428606d74d66bec256941aba8829b130d74b5ca64ee9df21a11ebc66",
+      "profile_sha256": "dbd05863292fd15f7668ece8c92e55341cb5d471a7c61dfb0468f0b84c1ea0d6",
+      "recovered_amplitude_us": 1000.0,
+      "target": "J1744-1134"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "4402e4f0fae7552120a9dc8ec843733c298f41d26e626545327d3d27cd620de2",
+        "eligible_cells": 815,
+        "excluded_cells": 9,
+        "frequency_count": 824,
+        "median_worst_phase_amplitude_us": 1.5007252736483179,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/pta-campaign01-20260908/epta/calibration-cache/4402e4f0fae7552120a9dc8ec843733c298f41d26e626545327d3d27cd620de2",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1801-1417",
+        "threshold": 28.419424947587455,
+        "timing_rank": 18
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "preparation_sha256": "9cd602741c028c80095c81821c01b514775f1ba5396a952737cb0263b5e4fbae",
+      "profile_sha256": "00b76cf2a7efe1c4e953cae739af145fb46136b1f02c770b38e2bb4714dbeb6a",
+      "recovered_amplitude_us": 999.9999999999995,
+      "target": "J1801-1417"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "20d6eadcd2b44f0f8801a99900cba673482100aa6d899fc0708231f45c7a5afa",
+        "eligible_cells": 998,
+        "excluded_cells": 11,
+        "frequency_count": 1009,
+        "median_worst_phase_amplitude_us": 0.3933540243874286,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/pta-campaign01-20260908/epta/calibration-cache/20d6eadcd2b44f0f8801a99900cba673482100aa6d899fc0708231f45c7a5afa",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1843-1113",
+        "threshold": 28.82451392847573,
+        "timing_rank": 23
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "preparation_sha256": "8e4eca36f338ea545e43ed334d8918d8756f24fcd7c7ca78ee943b99a9a4a1c7",
+      "profile_sha256": "29d4247c5473bbb43c28235c640a95156cd5681f5e9fbb3f2a71945d4b9379b5",
+      "recovered_amplitude_us": 999.9999999999998,
+      "target": "J1843-1113"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "ee039a0c6ff6c236055da1c00a618b6891d280123ef05ddb5a274e5fa99e4ae8",
+        "eligible_cells": 842,
+        "excluded_cells": 11,
+        "frequency_count": 853,
+        "median_worst_phase_amplitude_us": 0.28944611834214473,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/pta-campaign01-20260908/epta/calibration-cache/ee039a0c6ff6c236055da1c00a618b6891d280123ef05ddb5a274e5fa99e4ae8",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1911+1347",
+        "threshold": 28.48860298275187,
+        "timing_rank": 22
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "preparation_sha256": "531e632b11d7ac2fef9ca47969c7862cf10a9f19604c177ce6f6355e37ff15e3",
+      "profile_sha256": "44a4065dcfc908482797b37a3bee69883ee7c6d6c5871c8485baf848e1fd3e27",
+      "recovered_amplitude_us": 1000.0,
+      "target": "J1911+1347"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "3cb8665fab7df899467590b9ad16e0b5a651f66fc3eb29b047628d8a3d5a242b",
+        "eligible_cells": 951,
+        "excluded_cells": 11,
+        "frequency_count": 962,
+        "median_worst_phase_amplitude_us": 0.5475555799750652,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/pta-campaign01-20260908/epta/calibration-cache/3cb8665fab7df899467590b9ad16e0b5a651f66fc3eb29b047628d8a3d5a242b",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J2124-3358",
+        "threshold": 28.729112789099926,
+        "timing_rank": 29
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "preparation_sha256": "aae10ba7d54b0d2ffaafd27186a1a6d616f72f05f7c2cc65eef7cb1dacd89a16",
+      "profile_sha256": "6e3e2233b40a44124a7682187b28b03406a360fcd7f88dd708808b8f60ba2c8a",
+      "recovered_amplitude_us": 1000.0000000000005,
+      "target": "J2124-3358"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "de2e8004f2cba5e4b0e7952cd9e108064a0a6063661efb2a31757e864af1c410",
+        "eligible_cells": 866,
+        "excluded_cells": 16,
+        "frequency_count": 882,
+        "median_worst_phase_amplitude_us": 1.7631505101785128,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/pta-campaign01-20260908/epta/calibration-cache/de2e8004f2cba5e4b0e7952cd9e108064a0a6063661efb2a31757e864af1c410",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J2322+2057",
+        "threshold": 28.555467999782095,
+        "timing_rank": 20
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "preparation_sha256": "8dee7a7beb24daea323567fa2d3fa37d01bcf36a879cb2f3eebbcf6201d9db6f",
+      "profile_sha256": "23120882ae86d5525e99dabca06a879ddda3e2fa010d5b3ce12c5f9f8f9517bb",
+      "recovered_amplitude_us": 1000.0000000000002,
+      "target": "J2322+2057"
+    }
+  ],
+  "selection_sha256": "e98b491e2df714c34d8453c722c33a640e14b9934eab974095c9f3b5c3b6389f",
+  "status": "PREPARED"
+}

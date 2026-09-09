@@ -1,0 +1,11 @@
+{
+  "check": "PINT Residuals use_pulse_numbers",
+  "maximum_centered_phase_difference_cycles": 1.706897963900042e-11,
+  "null_reduced_chi2": 1.0049990220989191,
+  "observed_search_executed": false,
+  "pulse_number_integer_spread": 3.0,
+  "source": "https://nanograv-pint.readthedocs.io/en/latest/_autosummary/pint.residuals.Residuals.html",
+  "status": "DEVELOPMENT_CHECK_PASS",
+  "target": "J1048-5832",
+  "tolerance_cycles": 1e-09
+}

@@ -1,0 +1,18 @@
+{
+  "target": "J1359-6038",
+  "created_utc": "2026-09-09T06:21:53.886205+00:00",
+  "result_path": "../Project Recherche Data/utmost-batch04-20260909/J1359-6038/run01/result.json",
+  "result_sha256": "e8293d14b3c50c7e6e8523fbfa3cdf7c17c91c5c7dc10b12197f9ae7fcbfe328",
+  "next_step": "Bounded review complete; preserve noise-sensitive candidate. Await informative independent data and owner-directed follow-up.",
+  "entries": [
+    {
+      "id": "utmost-batch04-20260909-J1359-6038-review",
+      "kind": "CANDIDATE_DEEP_REVIEW",
+      "status": "INCONCLUSIVE_NOISE_SENSITIVE",
+      "summary": "The approximately 96-day signal survives individual-day and time checks but falls from \u0394\u03c7\u00b2 41.76 to about 7.21 with broader red-noise coverage. TPA has 91.2% conditional detection power but does not corroborate the waveform (fixed-period \u0394\u03c7\u00b2 1.903; coefficient-contrast p 0.00568). This is informative non-corroboration, not a conclusive exclusion.",
+      "scope": "Four bounded steps; 512 nulls and 256 injections; existing TPA fixed-period comparison. Original search preserved.",
+      "source": "./docs/UTMOST_BATCH04_CANDIDATE_REVIEWS_2026-09-09.md",
+      "source_sha256": "0b461b3100c76127d2951a06261cd425bd322f4952c97c50331bdb726ce469c6"
+    }
+  ]
+}

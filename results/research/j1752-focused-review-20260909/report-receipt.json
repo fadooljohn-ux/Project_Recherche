@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-09-09T06:56:09.743120+00:00",
+  "pdf_path": "output/pdf/J1752-2806_Candidate_Report.pdf",
+  "pdf_sha256": "c52cd9891db6610f309d8734d1dcd0f73ea96d4ee72745932e286450f47035f1",
+  "manuscript_sha256": "32950068fa7686f48983fd2270038dfc4ea065727c3db2e50921866685732ef8",
+  "pages": 6,
+  "all_pages_rendered_and_visually_reviewed": true,
+  "original_search_unchanged": true,
+  "numerical_evidence": {
+    "scope.json": "b148eaa3b38a2d2a1fbe13ac508b6560f326dd11a14fbf866b2247acb1d6a54b",
+    "joint.json": "574831c78b0d64318943ead95645ac2ed15184c679f15a557cc517578cfd7c7a",
+    "null-generators.json": "0db2a76f5286043abbc2ff9312ffa333ace1087a368291dcd1806f6ba5a0438f",
+    "propagation.json": "5f70f170f3db64e0d493c880787d344c280632e7be871d784f5e42ee17f82d33",
+    "verification.json": "95e79075a48fbf1d93f0e85c3f2ef6471dfdd0870ed1a1d522973a1f2203b146"
+  },
+  "references_checked": [
+    "https://arxiv.org/abs/2002.12481",
+    "https://github.com/Molonglo/TimingDataRelease1",
+    "https://arxiv.org/abs/2404.02051",
+    "https://doi.org/10.5281/zenodo.8430591",
+    "https://pdg.lbl.gov/2020/reviews/rpp2020-rev-statistics.pdf"
+  ]
+}

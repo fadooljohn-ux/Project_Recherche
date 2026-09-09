@@ -1,0 +1,169 @@
+schema_version: 1
+design_id: pilot2-b1937-injection-remediation-design-v0.2.8
+status: frozen_zero_science_design_only
+target: B1937+21
+dataset: nanograv_15yr_timing_v2.1.0_wideband
+north_star_stage: S1
+
+authority:
+  implementation_authorized: false
+  real_root_context_preflight_authorized: false
+  execution_freeze_authorized: false
+  science_execution_authorized: false
+  observed_residual_access_authorized: false
+  observed_periodic_search_authorized: false
+  promotion_grade_authorized: false
+  discovery_claim_authorized: false
+  v0.2.7_resume_authorized: false
+
+baseline:
+  rebaseline_commit: 5e9e3ca517a78eab88c7f43abeb75ae00e971478
+  v0.2.7_execution_freeze_sha256: 8c45fe999b0c871d0cc383d47829aa175863a08d25bf00afef29f043f5dba5f8
+  v0.2.7_incident_sha256: d8da24c398c750885a9268c418e18b3eaaaf9d7e3919e85fec0da45bbbff6958
+  v0.2.7_startup_failure_audit_sha256: c9d00f3c021091c18722d1a288c91e218f447ce1f9ac3f507dda0b9fdc70ab9d
+  assembly_audit_sha256: a90b7d57d7ad804507293156e3ff87f3588e4e791564f9628d1148398b27d9b3
+  assembly_disposition: hold
+  blocking_findings: [ASM-001, ASM-002, ASM-003, ASM-004, ASM-005, ASM-006]
+  closeout_finding: ASM-007
+
+inventory:
+  policy: reuse_exact_unexecuted_v0.2.3_inventory_without_seed_churn
+  inventory_sha256: 811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b
+  main_cases: 240
+  phase_reference_cases: 60
+  annual_cases: 28
+  boundary_cases: 16
+  total_cases: 344
+  solver_audit_cases: 35
+  ids_or_seeds_may_change: false
+  v0.2.2_namespace_retired: true
+  consumed_v0.2.2_case_id: p2r2-inj-main-p00-a00-h00-n00
+  consumed_v0.2.2_seed: 2691995251659989168
+
+s1_m1_offline_resource_contract:
+  resolver_policy: project_owned_local_file_repository_only
+  network_policy: deny_and_count_all_connection_attempts
+  first_use_download_authorized: false
+  implicit_astropy_or_pint_cache_dependency_authorized: false
+  required_manifest_fields:
+    - logical_name
+    - controlled_relative_path
+    - source_url_or_publication
+    - license_or_redistribution_status
+    - bytes
+    - sha256
+    - consumer
+    - resolution_role
+  minimum_resource_classes:
+    - pint_global_clock_index
+    - observatory_clock_files
+    - gps_clock_file
+    - bipm2019_clock_file
+    - de440_ephemeris
+    - iers_tables
+  candidate_known_clock_files:
+    - index.txt
+    - time_ao.dat
+    - gps2utc.clk
+    - tai2tt_bipm2019.clk
+  completeness_rule: runtime_open_trace_must_equal_exact_manifest_allowlist
+  resolver_installation_order: before_any_pint_observatory_or_toa_load
+  same_context_function_required_for_preflight_and_execution: true
+  context_preflight_repetitions: 2
+  context_preflight_requires_separate_authorization: true
+  context_preflight_science_counters_must_all_be_zero: true
+
+s1_m1_environment_contract:
+  repository_files:
+    pixi_lock: pixi.lock
+    pixi_definition: pixi.toml
+    python_project: pyproject.toml
+  require_sha256_for_repository_files: true
+  require_resolved_package_manifest: true
+  require_python_identity: true
+  require_platform_and_process_architecture: true
+  require_precision_report: true
+  require_pint_astropy_numpy_scipy_versions: true
+  require_critical_module_hashes: true
+  require_environment_variable_allowlist: true
+  dependency_change_requires_new_version: true
+
+s1_m2_science_control_contract:
+  exact_closed_configuration_set:
+    - config/pilot2_calibration_v0.2.1.yaml
+    - config/pilot2_injection_remediation_v0.2.3.yaml
+    - future_v0.2.8_runner_configuration
+    - future_v0.2.8_resource_manifest
+    - future_v0.2.8_environment_manifest
+  bind_into_implementation_aggregate: true
+  bind_into_implementation_freeze: true
+  bind_into_readiness_freeze: true
+  bind_into_execution_freeze: true
+  bind_into_live_execution_binding: true
+  verify_remediation_freeze_during_live_gate: true
+  duplicate_yaml_members_rejected_recursively: true
+  exact_typed_schema_required: true
+  extra_members_rejected: true
+
+s1_m2_execution_freeze_contract:
+  exact_schema_required: true
+  missing_or_extra_members_rejected: true
+  verify_audit_identity_hashes_and_pass_status: true
+  verify_stable_data_root_identity_and_marker_hash: true
+  absolute_data_root_path_committed_to_git: false
+  verify_launch_contract: true
+  verify_environment_and_resource_manifests: true
+  verify_inventory_config_predecessor_and_threshold_bindings: true
+  repository_authorization_before_external_root_access: true
+
+s1_m2_ledger_contract:
+  exact_typed_schema_required: true
+  cross_field_state_machine_required: true
+  verify_completed_case_artifacts: true
+  verify_all_stage_result_artifacts: true
+  already_complete_requires_full_terminal_verification: true
+  pass_requires_exact_unique_inventory_count: 344
+  pass_requires_no_active_attempt: true
+  pass_requires_terminal_result: true
+  pass_requires_annual_mask: true
+  pass_requires_matching_execution_binding: true
+  impossible_state_combinations_fail_closed: true
+
+s1_m2_single_writer_contract:
+  mechanism: fcntl_flock_nonblocking_exclusive
+  lock_scope: data_root_and_version
+  acquire_before_first_mutation: true
+  retain_for_process_lifetime: true
+  pid_file_is_informational_not_authoritative: true
+  stale_file_deletion_not_used_for_lock_recovery: true
+  unique_same_directory_temporary_files: true
+  simultaneous_launch_test_required: true
+  interrupted_owner_test_required: true
+
+s1_m2_annual_mask_contract:
+  case_artifacts_mutated_after_commit: false
+  separate_durable_mask_artifact_required: true
+  commit_after_each_complete_period_group: true
+  required_fields:
+    - period_days
+    - signal_astrometry_correlation_limit
+    - ordinary_model_absorption_fraction_limit
+    - contributing_case_ids
+    - contributing_artifact_sha256
+    - maximum_signal_astrometry_correlation
+    - maximum_ordinary_model_absorption_fraction
+    - candidate_eligible
+  terminal_result_must_bind_mask_sha256: true
+
+future_validation_gates:
+  focused_tests_pass: required
+  full_current_suite_zero_failures_and_zero_ad_hoc_deselections: required
+  temporary_root_zero_case_dry_run: required
+  real_root_offline_context_preflight: separately_authorized_later
+  implementation_freeze: separately_authorized_later
+  readiness_freeze: separately_authorized_later
+  independent_read_only_sol_audit: separately_authorized_later
+  execution_freeze: prohibited_in_this_design_stage
+  science_execution: prohibited_in_this_design_stage
+
+next_gate: separate_user_direction_for_zero_science_v0.2.8_implementation

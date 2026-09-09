@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "record_id": "pilot2-b1937-v0.2.7-audit-finding-closure",
+  "status": "implemented_pending_zero_science_validation_and_freeze",
+  "source_audit": {
+    "record": "protocol/DEDICATED_SOL_AUDIT_RECORD_PILOT2_v0.2.6.json",
+    "record_sha256": "edbce474ff754ae549795700dba1d0cf8bcd7c27ee06124be7b878e8cb049666",
+    "disposition": "results/pilot2/dedicated_sol_audit_disposition_v0.2.6.json",
+    "disposition_sha256": "6558f33dd238e88dbde13974e302ef1230e0be20b3789557016bd8083944e6a2"
+  },
+  "closures": [
+    {
+      "finding_id": "SOL-V026-001",
+      "severity": "P1",
+      "remediation": "one object-pairs-aware trusted JSON entrypoint rejects duplicate member names before dictionary construction at repository authorization, predecessor, data-root marker, ledger, and recovered-artifact boundaries"
+    }
+  ],
+  "retained_controls": [
+    "exact_typed_live_context_binding",
+    "input_binding_hash_in_attempt_and_execution_binding",
+    "durable_nested_case_directories",
+    "durable_atomic_file_commit",
+    "complete_artifact_recovery_without_recomputation",
+    "repository_confined_exact_freeze_hashes"
+  ],
+  "inventory_policy": "reuse_exact_never_executed_v0.2.3_inventory_without_seed_churn",
+  "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+  "science_cases_executed": 0,
+  "execution_authorized": false,
+  "next_gate": "single_local_zero_science_validation_cycle_and_v0.2.7_readiness_freeze"
+}

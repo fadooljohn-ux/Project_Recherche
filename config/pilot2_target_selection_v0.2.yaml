@@ -1,0 +1,76 @@
+schema_version: 1
+selection_id: pilot2-metadata-target-selection-v0.2
+status: frozen_before_archive_inventory
+scientific_role: second_pulsar_generalization_of_calibrated_circular_signal_pipeline
+dataset: nanograv_15yr_timing_v2.1.0_wideband
+prior_target_excluded: J1744-1134
+
+archive:
+  logical_path: raw/zenodo-16051178/NANOGrav15yr_PulsarTiming_v2.1.0.tar.gz
+  bytes: 638719668
+  sha256: 91476bf20d4c8baa9f5ad39c6e114b581478a5a7e269876489cafc8f62c5708f
+  member_root: NANOGrav15yr_PulsarTiming_v2.1.0
+
+hard_eligibility:
+  combined_wideband_only: true
+  exclude_observatory_split_suffixes: [gbt, ao]
+  active_toa_count_minimum: 300
+  active_toa_count_maximum: 700
+  unique_floor_mjd_days_minimum: 150
+  span_days_minimum: 4500.0
+  median_toa_uncertainty_microseconds_maximum: 1.5
+  absolute_ecliptic_latitude_degrees_minimum: 10.0
+  par_ntoa_must_equal_active_tim_rows: true
+  required_companion_products:
+    - par
+    - tim
+    - noise
+    - config
+    - dmx
+    - correlation
+
+ranking:
+  method: fixed_capped_linear_score
+  tie_breakers: [lower_median_toa_uncertainty, lexical_pulsar_name]
+  components:
+    precision:
+      weight: 0.35
+      best_microseconds: 0.05
+      floor_microseconds: 1.5
+    span:
+      weight: 0.20
+      floor_days: 4500.0
+      best_days: 5800.0
+    unique_days:
+      weight: 0.15
+      floor: 150
+      best: 400
+    active_toas:
+      weight: 0.10
+      floor: 300
+      best: 700
+    annual_geometry:
+      weight: 0.10
+      floor_absolute_degrees: 10.0
+      best_absolute_degrees: 60.0
+    no_released_red_noise:
+      weight: 0.05
+    isolated_timing_model:
+      weight: 0.05
+
+selection_rule:
+  selected_target: highest_score_among_hard_eligible_targets
+  manual_override_authorized: false
+  observed_residual_access_authorized: false
+  observed_periodic_search_authorized: false
+
+pilot2_resource_scope:
+  initial_target_count: 1
+  existing_archive_reused: true
+  additional_download_bytes_maximum: 0
+  complete_data_root_gib_maximum: 1.5
+  preflight_wall_hours_maximum: 1.0
+  full_calibration_wall_hours_maximum: 6.0
+  peak_memory_gib_maximum: 16.0
+  initial_synthetic_benchmark_cases: 50
+  observed_searches: 0

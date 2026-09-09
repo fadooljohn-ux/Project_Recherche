@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot1-first-50-execution-freeze-v0.1",
+  "status": "frozen_before_first_pilot1_synthetic_realization",
+  "recorded_utc": "2026-08-09T04:29:34Z",
+  "target": "J1744-1134",
+  "dataset": "nanograv_15yr_timing_v2.1.0",
+  "implementation_base_commit": "9bc79446a2086039a95d5f944d258b1971b0f579",
+  "authorization": "first_50_benchmark_only",
+  "authorized_benchmark_id": "pilot1-first-50-v0.1",
+  "authorized_case_count": 50,
+  "benchmark_order_sha256": "bf7edc08ba5634e234c2d95329942f4ca28ee3aa53109661b60d491b0438ac15",
+  "sealed_evaluation_authorized": false,
+  "observed_residual_search_authorized": false,
+  "candidate_or_discovery_claim_authorized": false,
+  "promotion_evaluation_authorized": false,
+  "frozen_sha256": {
+    "src/pulsar_pilot/pilot1_benchmark.py": "678c76fd23634c3c925f7d9365cd76e0b435c7abbeaa5210ab4a9f601fc541c5",
+    "tests/test_pilot1_benchmark.py": "83e9480a306737a87ddef8d678b8b1e6c8ed40d233874dabf54bec77755fbb99",
+    "results/pilot1/benchmark50_plan.json": "91eb0d0dceab28a660cd0f658418c6eadf9f1f07997e448319e8d6ef355bf383",
+    "docs/PILOT1_BENCHMARK50_FREEZE.md": "4d43b30f0c32db0b812171c5731f26433f0318c37e11f2a79f0a67059f063b30",
+    "config/pilot1.yaml": "c86ef883d806d629f993544d0689efc3acc39c16469e91432bdaf5b401966e94",
+    "config/target.yaml": "c6f051fdf883c6629883510b83c103ff9e46039e5a083994fc65b78cb6710937",
+    "protocol/PILOT1_IMPLEMENTATION_RECORD_v0.1.json": "ecd68d8e491c32fb2e2b069fce1fde1a47fbf0a160ea6176de9ecbf24335033c"
+  },
+  "pixi_lock_sha256": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8",
+  "stop_rule": "any_failed_benchmark_scorecard_row_stops_progression",
+  "next_authorization_if_pass": "remaining_990_calibration_nulls_only"
+}

@@ -1,0 +1,2136 @@
+{
+  "original_grid_reproduced": {
+    "period_days": 118.42725685587168,
+    "delta_chi2": 34.914232612986154,
+    "amplitude_us": 1.5262366740398323,
+    "sin_cos_us": [
+      -1.2975072870802284,
+      -0.803662382569867
+    ],
+    "coefficient_covariance_us2": [
+      [
+        0.05067534344257311,
+        0.016221203890473376
+      ],
+      [
+        0.016221203890473383,
+        0.09429386563044502
+      ]
+    ],
+    "null_chi2": 203.67575897776192,
+    "rank": 82,
+    "dof_null": 162
+  },
+  "refined": {
+    "period_days": 118.86682633580926,
+    "delta_chi2": 35.31905513296764,
+    "amplitude_us": 1.5199940751980152,
+    "sin_cos_us": [
+      -1.3151245489876646,
+      -0.7621216499267432
+    ],
+    "coefficient_covariance_us2": [
+      [
+        0.05075022260761523,
+        0.01650328986741756
+      ],
+      [
+        0.01650328986741757,
+        0.09562684345870338
+      ]
+    ],
+    "null_chi2": 203.67575897776192,
+    "rank": 82,
+    "dof_null": 162
+  },
+  "profile_intervals": {
+    "conditional_68_percent": {
+      "envelope_days": [
+        118.2,
+        119.7
+      ],
+      "grid_resolution_days": 0.05,
+      "disjoint_components": 1
+    },
+    "conditional_95_percent": {
+      "envelope_days": [
+        117.6,
+        120.95
+      ],
+      "grid_resolution_days": 0.05,
+      "disjoint_components": 1
+    }
+  },
+  "uncertainty_scope": "Local fixed-noise profile likelihood; conditional on circular model and selected candidate, not global discovery confidence",
+  "annual_third_harmonic": {
+    "period_days": 121.75,
+    "delta_chi2": 29.051484444678305,
+    "amplitude_us": 1.3127030778637523,
+    "sin_cos_us": [
+      -1.3099343472270915,
+      -0.08521371126586673
+    ],
+    "coefficient_covariance_us2": [
+      [
+        0.06075485508477378,
+        0.014587065843201939
+      ],
+      [
+        0.014587065843201942,
+        0.06857235279323842
+      ]
+    ],
+    "null_chi2": 203.67575897776192,
+    "rank": 82,
+    "dof_null": 162
+  },
+  "joint_two_period_delta_chi2": 39.08731465033471,
+  "candidate_added_after_annual_delta_chi2": 10.035830205656406,
+  "annual_added_after_candidate_delta_chi2": 3.7682595173670705,
+  "leave_one_day_out": [
+    {
+      "removed_mjd_day": 56497,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 34.66611992798221,
+        "amplitude_us": 1.5173294981402512,
+        "sin_cos_us": [
+          -1.3091834051191775,
+          -0.7670251740895484
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05170616010742943,
+            0.015539815009516856
+          ],
+          [
+            0.015539815009516867,
+            0.09659864972383897
+          ]
+        ],
+        "null_chi2": 201.02032062242745,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.9,
+      "local_peak_statistic": 34.66634928729238
+    },
+    {
+      "removed_mjd_day": 56662,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.331414096420964,
+        "amplitude_us": 1.5211871832080375,
+        "sin_cos_us": [
+          -1.3158783565271985,
+          -0.7632002340013285
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05078674043537563,
+            0.01655554133134585
+          ],
+          [
+            0.016555541331345854,
+            0.09570160736581632
+          ]
+        ],
+        "null_chi2": 203.67255771100696,
+        "rank": 81,
+        "dof_null": 161
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.33095361464559
+    },
+    {
+      "removed_mjd_day": 56738,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 33.21022004567704,
+        "amplitude_us": 1.471494635487029,
+        "sin_cos_us": [
+          -1.2916773717513206,
+          -0.7048872459994612
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.051318042900985524,
+            0.017890045812019008
+          ],
+          [
+            0.017890045812019018,
+            0.09901364067106587
+          ]
+        ],
+        "null_chi2": 196.66076783094354,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.8,
+      "local_peak_statistic": 33.21631635382043
+    },
+    {
+      "removed_mjd_day": 56853,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.317308451002674,
+        "amplitude_us": 1.520134729690503,
+        "sin_cos_us": [
+          -1.315021197997366,
+          -0.7625803860766356
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.050750841630768415,
+            0.016500542256609355
+          ],
+          [
+            0.016500542256609355,
+            0.09563903906902049
+          ]
+        ],
+        "null_chi2": 203.6567570006747,
+        "rank": 81,
+        "dof_null": 161
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.316730829284815
+    },
+    {
+      "removed_mjd_day": 56873,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.54914442762585,
+        "amplitude_us": 1.52717044194561,
+        "sin_cos_us": [
+          -1.3204936893309773,
+          -0.7671675013902859
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.050842302961357624,
+            0.016588102739427155
+          ],
+          [
+            0.01658810273942715,
+            0.09570499138857662
+          ]
+        ],
+        "null_chi2": 202.77082277751526,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.54812015225782
+    },
+    {
+      "removed_mjd_day": 56955,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.59780519085372,
+        "amplitude_us": 1.5413742187777844,
+        "sin_cos_us": [
+          -1.314561603966268,
+          -0.8048367981711934
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05075083593940321,
+            0.01646810818281876
+          ],
+          [
+            0.016468108182818755,
+            0.09779963207954663
+          ]
+        ],
+        "null_chi2": 202.6316655026369,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.95,
+      "local_peak_statistic": 35.61121712417929
+    },
+    {
+      "removed_mjd_day": 56977,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 27.726225687738832,
+        "amplitude_us": 1.3775637019967613,
+        "sin_cos_us": [
+          -1.2271242754767235,
+          -0.6259774481518866
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05461663884962268,
+            0.022440734515758478
+          ],
+          [
+            0.0224407345157585,
+            0.10474571784500825
+          ]
+        ],
+        "null_chi2": 188.36903592098147,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 119.05,
+      "local_peak_statistic": 27.766183780193636
+    },
+    {
+      "removed_mjd_day": 56998,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.307708927722594,
+        "amplitude_us": 1.5196620327350865,
+        "sin_cos_us": [
+          -1.3150177870002409,
+          -0.7616435607352853
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05075170754452814,
+            0.016509939540256754
+          ],
+          [
+            0.016509939540256768,
+            0.09565662125497501
+          ]
+        ],
+        "null_chi2": 203.6567369434223,
+        "rank": 81,
+        "dof_null": 161
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.307221675111286
+    },
+    {
+      "removed_mjd_day": 57018,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 36.8657817245416,
+        "amplitude_us": 1.5709595148861442,
+        "sin_cos_us": [
+          -1.344704605509451,
+          -0.8122089148322506
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.051064457986866846,
+            0.01703660971983324
+          ],
+          [
+            0.01703660971983324,
+            0.0965320068596059
+          ]
+        ],
+        "null_chi2": 201.15471423610882,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 36.86660421327595
+    },
+    {
+      "removed_mjd_day": 57028,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 34.46304104514624,
+        "amplitude_us": 1.5051686007440106,
+        "sin_cos_us": [
+          -1.3041159545281054,
+          -0.7515411457870632
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.051054845391431444,
+            0.01679290283363901
+          ],
+          [
+            0.016792902833639014,
+            0.0959022592293807
+          ]
+        ],
+        "null_chi2": 197.32640704903173,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.9,
+      "local_peak_statistic": 34.463875862585
+    },
+    {
+      "removed_mjd_day": 57032,
+      "removed_toas": 3,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 34.17516977870407,
+        "amplitude_us": 1.5006398585045708,
+        "sin_cos_us": [
+          -1.299247508271987,
+          -0.7509167045562718
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05114148041098305,
+            0.016774466135154046
+          ],
+          [
+            0.01677446613515406,
+            0.09581494218382966
+          ]
+        ],
+        "null_chi2": 201.5774894135373,
+        "rank": 81,
+        "dof_null": 157
+      },
+      "local_peak_period_days": 118.9,
+      "local_peak_statistic": 34.17926245702214
+    },
+    {
+      "removed_mjd_day": 57053,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.39082010456947,
+        "amplitude_us": 1.5200362517701604,
+        "sin_cos_us": [
+          -1.3172350074391397,
+          -0.7585526625569828
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.050768205410924555,
+            0.016474004278433704
+          ],
+          [
+            0.016474004278433697,
+            0.095675486400727
+          ]
+        ],
+        "null_chi2": 201.57306136541712,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.391803989064634
+    },
+    {
+      "removed_mjd_day": 57069,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 28.851586186206458,
+        "amplitude_us": 1.3158357135028504,
+        "sin_cos_us": [
+          -1.2223890665951114,
+          -0.4870201174472032
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05180074761982432,
+            0.01963340917709349
+          ],
+          [
+            0.01963340917709349,
+            0.10495400053408
+          ]
+        ],
+        "null_chi2": 187.00232350991666,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.05,
+      "local_peak_statistic": 29.80843566023685
+    },
+    {
+      "removed_mjd_day": 57096,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.108416490747516,
+        "amplitude_us": 1.5244432437866409,
+        "sin_cos_us": [
+          -1.3179042540236217,
+          -0.7661955238404728
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.052263723548554235,
+            0.01328543742664136
+          ],
+          [
+            0.013285437426641351,
+            0.10250361246947315
+          ]
+        ],
+        "null_chi2": 200.06420308391267,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.10855714599652
+    },
+    {
+      "removed_mjd_day": 57116,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.216201449193434,
+        "amplitude_us": 1.5172536708597213,
+        "sin_cos_us": [
+          -1.313891821013946,
+          -0.7587799314754944
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05076464396628071,
+            0.01654238374812099
+          ],
+          [
+            0.01654238374812098,
+            0.09573282040192395
+          ]
+        ],
+        "null_chi2": 203.46753254149965,
+        "rank": 81,
+        "dof_null": 161
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.21585195966659
+    },
+    {
+      "removed_mjd_day": 57137,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 34.83241676929601,
+        "amplitude_us": 1.5086154497532696,
+        "sin_cos_us": [
+          -1.3070997223620278,
+          -0.7532668126469995
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05078225195779192,
+            0.016538632024603168
+          ],
+          [
+            0.016538632024603175,
+            0.09566584106769759
+          ]
+        ],
+        "null_chi2": 201.1785321376946,
+        "rank": 81,
+        "dof_null": 161
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 34.83173814370522
+    },
+    {
+      "removed_mjd_day": 57186,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.31497152517904,
+        "amplitude_us": 1.5177999051432158,
+        "sin_cos_us": [
+          -1.3158920522168787,
+          -0.7564024451078978
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.050760188480351395,
+            0.01643086243712231
+          ],
+          [
+            0.01643086243712232,
+            0.09615350948760984
+          ]
+        ],
+        "null_chi2": 202.17603988523211,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.31502981142233
+    },
+    {
+      "removed_mjd_day": 57200,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 33.9342257615393,
+        "amplitude_us": 1.4738483804742886,
+        "sin_cos_us": [
+          -1.297227043002616,
+          -0.6995934873405927
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05081396701758498,
+            0.01672646225348993
+          ],
+          [
+            0.016726462253489928,
+            0.09640822452540604
+          ]
+        ],
+        "null_chi2": 196.79666985104114,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 33.93511722068259
+    },
+    {
+      "removed_mjd_day": 57222,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 39.3009168853569,
+        "amplitude_us": 1.6363172862679027,
+        "sin_cos_us": [
+          -1.413928759132436,
+          -0.8236138205720952
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05267816692565837,
+            0.017670079660426326
+          ],
+          [
+            0.017670079660426313,
+            0.09633493703744378
+          ]
+        ],
+        "null_chi2": 200.98483159385432,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.6,
+      "local_peak_statistic": 39.46222216979802
+    },
+    {
+      "removed_mjd_day": 57239,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 36.80258156690283,
+        "amplitude_us": 1.6308963769681986,
+        "sin_cos_us": [
+          -1.3827307628725254,
+          -0.8647997628433766
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05360214765768104,
+            0.02086002143779964
+          ],
+          [
+            0.02086002143779965,
+            0.1022826525424634
+          ]
+        ],
+        "null_chi2": 201.8402026552696,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 36.80411692013847
+    },
+    {
+      "removed_mjd_day": 57305,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.59573438226555,
+        "amplitude_us": 1.5408992236398311,
+        "sin_cos_us": [
+          -1.3164459814434548,
+          -0.8008373089181179
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.050755080996225416,
+            0.01663854355454464
+          ],
+          [
+            0.016638543554544645,
+            0.09945053717856614
+          ]
+        ],
+        "null_chi2": 202.90840863228553,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.9,
+      "local_peak_statistic": 35.59797387511731
+    },
+    {
+      "removed_mjd_day": 57347,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 36.68834282573788,
+        "amplitude_us": 1.5274073458691348,
+        "sin_cos_us": [
+          -1.3714442306448484,
+          -0.6723941719303901
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.052864864058330206,
+            0.013250933146936754
+          ],
+          [
+            0.01325093314693675,
+            0.10064301270169296
+          ]
+        ],
+        "null_chi2": 202.28612614083522,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.65,
+      "local_peak_statistic": 36.753652355136715
+    },
+    {
+      "removed_mjd_day": 57375,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 32.09934080304037,
+        "amplitude_us": 1.4426268684204056,
+        "sin_cos_us": [
+          -1.2706199594505856,
+          -0.683152398908368
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05136911228201679,
+            0.017602857367664777
+          ],
+          [
+            0.017602857367664777,
+            0.09758045382277637
+          ]
+        ],
+        "null_chi2": 194.7947244060869,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.9,
+      "local_peak_statistic": 32.09946627310264
+    },
+    {
+      "removed_mjd_day": 57389,
+      "removed_toas": 3,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 19.272012549950997,
+        "amplitude_us": 1.2774015364977873,
+        "sin_cos_us": [
+          -1.0924727950669793,
+          -0.6620104814015033
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.06495986361879122,
+            0.022414714572812418
+          ],
+          [
+            0.02241471457281242,
+            0.09809687388978587
+          ]
+        ],
+        "null_chi2": 175.8210719793622,
+        "rank": 81,
+        "dof_null": 157
+      },
+      "local_peak_period_days": 119.2,
+      "local_peak_statistic": 19.403386123422433
+    },
+    {
+      "removed_mjd_day": 57417,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 36.32786396131766,
+        "amplitude_us": 1.5680723115289754,
+        "sin_cos_us": [
+          -1.3392285432359967,
+          -0.8156700823039998
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05128676989757371,
+            0.01769283379324568
+          ],
+          [
+            0.017692833793245672,
+            0.098264114710121
+          ]
+        ],
+        "null_chi2": 201.72876348644002,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 36.328257056598495
+    },
+    {
+      "removed_mjd_day": 57502,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.55207320295321,
+        "amplitude_us": 1.527952306411965,
+        "sin_cos_us": [
+          -1.3214803600665697,
+          -0.7670253637448853
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05090484212541263,
+            0.01662258382637338
+          ],
+          [
+            0.01662258382637339,
+            0.09571888260645169
+          ]
+        ],
+        "null_chi2": 203.64751420689683,
+        "rank": 81,
+        "dof_null": 161
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.551588885664444
+    },
+    {
+      "removed_mjd_day": 57523,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 33.93965381364456,
+        "amplitude_us": 1.5151582274366633,
+        "sin_cos_us": [
+          -1.2916827363328889,
+          -0.7919975775395987
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05223967058037454,
+            0.014444099567157373
+          ],
+          [
+            0.014444099567157366,
+            0.09847590936725138
+          ]
+        ],
+        "null_chi2": 198.99965721929152,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.9,
+      "local_peak_statistic": 33.93948763743455
+    },
+    {
+      "removed_mjd_day": 57537,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.58425755647267,
+        "amplitude_us": 1.5488957995365267,
+        "sin_cos_us": [
+          -1.3111994133683693,
+          -0.8245206463178106
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05076604850135077,
+            0.01621190576463411
+          ],
+          [
+            0.016211905764634115,
+            0.10101345290142441
+          ]
+        ],
+        "null_chi2": 196.738889308152,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.9,
+      "local_peak_statistic": 35.58465341782625
+    },
+    {
+      "removed_mjd_day": 57563,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 33.994652017639716,
+        "amplitude_us": 1.5009763209208329,
+        "sin_cos_us": [
+          -1.3028376676913829,
+          -0.7453481921957797
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.051459721621788246,
+            0.01746565845298594
+          ],
+          [
+            0.017465658452985925,
+            0.09693223808098449
+          ]
+        ],
+        "null_chi2": 201.7808457264326,
+        "rank": 82,
+        "dof_null": 160
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 33.99441400471897
+    },
+    {
+      "removed_mjd_day": 57564,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 34.07647299255093,
+        "amplitude_us": 1.5029416591194225,
+        "sin_cos_us": [
+          -1.3041099991363547,
+          -0.7470814820815858
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.0514493538087174,
+            0.017451047516391448
+          ],
+          [
+            0.01745104751639145,
+            0.09691164891951135
+          ]
+        ],
+        "null_chi2": 199.53270123119006,
+        "rank": 82,
+        "dof_null": 160
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 34.07614071328978
+    },
+    {
+      "removed_mjd_day": 57586,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 30.978923607119814,
+        "amplitude_us": 1.490452715133802,
+        "sin_cos_us": [
+          -1.2599286762827153,
+          -0.7962593966354227
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.055875182301358725,
+            0.0135052523204037
+          ],
+          [
+            0.01350525232040369,
+            0.09739269936362514
+          ]
+        ],
+        "null_chi2": 197.71285770524386,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 30.979895880861655
+    },
+    {
+      "removed_mjd_day": 57606,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 37.3483699303091,
+        "amplitude_us": 1.607384005380982,
+        "sin_cos_us": [
+          -1.3547828077986717,
+          -0.8650126498773044
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05137379265449324,
+            0.018062678553023667
+          ],
+          [
+            0.018062678553023667,
+            0.09953196614457273
+          ]
+        ],
+        "null_chi2": 200.2012911396834,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.9,
+      "local_peak_statistic": 37.351735032261274
+    },
+    {
+      "removed_mjd_day": 57627,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 32.13037462620852,
+        "amplitude_us": 1.5128848406979887,
+        "sin_cos_us": [
+          -1.2861397161918129,
+          -0.7966587548303361
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05813139506452434,
+            0.008032387692144951
+          ],
+          [
+            0.008032387692144951,
+            0.1053550306531649
+          ]
+        ],
+        "null_chi2": 199.36747180394678,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.9,
+      "local_peak_statistic": 32.130512020286375
+    },
+    {
+      "removed_mjd_day": 57648,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.302212632699884,
+        "amplitude_us": 1.5187131834338345,
+        "sin_cos_us": [
+          -1.3151859507798502,
+          -0.759457469781576
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05075023430313795,
+            0.01650278240699535
+          ],
+          [
+            0.016502782406995355,
+            0.09564886180594268
+          ]
+        ],
+        "null_chi2": 203.33655550422236,
+        "rank": 81,
+        "dof_null": 161
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.301656208055306
+    },
+    {
+      "removed_mjd_day": 57700,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 33.61329047698099,
+        "amplitude_us": 1.5014909550003614,
+        "sin_cos_us": [
+          -1.2918882269743692,
+          -0.7651796501168328
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05180609094853968,
+            0.016429478442627102
+          ],
+          [
+            0.016429478442627096,
+            0.09563343700907863
+          ]
+        ],
+        "null_chi2": 198.75461514265325,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 33.61421098568232
+    },
+    {
+      "removed_mjd_day": 57717,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 37.49886865680647,
+        "amplitude_us": 1.6165685242564016,
+        "sin_cos_us": [
+          -1.3415605630465726,
+          -0.9019473650356118
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05089147958759568,
+            0.01725022171199185
+          ],
+          [
+            0.017250221711991857,
+            0.0995789882064026
+          ]
+        ],
+        "null_chi2": 200.79238550846674,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.8,
+      "local_peak_statistic": 37.515858715257444
+    },
+    {
+      "removed_mjd_day": 57739,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.38792163863605,
+        "amplitude_us": 1.521993635601983,
+        "sin_cos_us": [
+          -1.3167134990390135,
+          -0.7633676625724852
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05077501741923316,
+            0.016522733303539764
+          ],
+          [
+            0.01652273330353975,
+            0.09564209048756005
+          ]
+        ],
+        "null_chi2": 203.64279925040273,
+        "rank": 81,
+        "dof_null": 161
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.38716670141205
+    },
+    {
+      "removed_mjd_day": 57767,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 33.789711181870864,
+        "amplitude_us": 1.4706634131981884,
+        "sin_cos_us": [
+          -1.2983852658870974,
+          -0.6906855842183455
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05091848087487274,
+            0.017219261488174948
+          ],
+          [
+            0.017219261488174948,
+            0.09867353354489954
+          ]
+        ],
+        "null_chi2": 199.9381989025945,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.95,
+      "local_peak_statistic": 33.80512320920766
+    },
+    {
+      "removed_mjd_day": 57788,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 33.19389277026334,
+        "amplitude_us": 1.6011313870629,
+        "sin_cos_us": [
+          -1.3738567429765283,
+          -0.8222769414351175
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.058098262189271846,
+            0.023920413751784664
+          ],
+          [
+            0.02392041375178467,
+            0.10311411709345986
+          ]
+        ],
+        "null_chi2": 196.1542007437214,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.8,
+      "local_peak_statistic": 33.19798728443008
+    },
+    {
+      "removed_mjd_day": 57809,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.03283678486214,
+        "amplitude_us": 1.5159529165594614,
+        "sin_cos_us": [
+          -1.310038772942088,
+          -0.7628313434918136
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05082056834815085,
+            0.016493473485622696
+          ],
+          [
+            0.016493473485622703,
+            0.09562821328366827
+          ]
+        ],
+        "null_chi2": 203.02185499881423,
+        "rank": 81,
+        "dof_null": 161
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.032358916486835
+    },
+    {
+      "removed_mjd_day": 57824,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.35645645584852,
+        "amplitude_us": 1.519089555434688,
+        "sin_cos_us": [
+          -1.3165273982285601,
+          -0.7578843494520096
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05075449695804097,
+            0.016490379209193492
+          ],
+          [
+            0.016490379209193495,
+            0.09566584004980282
+          ]
+        ],
+        "null_chi2": 203.2527427408778,
+        "rank": 81,
+        "dof_null": 161
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.35564695160086
+    },
+    {
+      "removed_mjd_day": 57852,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.30902645067619,
+        "amplitude_us": 1.5197420712721283,
+        "sin_cos_us": [
+          -1.3149849405301406,
+          -0.7618599407853395
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.050751411698630865,
+            0.016505518929999515
+          ],
+          [
+            0.01650551892999953,
+            0.09563102204547959
+          ]
+        ],
+        "null_chi2": 203.6493391856623,
+        "rank": 81,
+        "dof_null": 161
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.308485702760514
+    },
+    {
+      "removed_mjd_day": 57871,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 31.62654720340344,
+        "amplitude_us": 1.534377456774991,
+        "sin_cos_us": [
+          -1.331292627205388,
+          -0.762872283287226
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05881038322662962,
+            0.017473313613594808
+          ],
+          [
+            0.017473313613594808,
+            0.09574674961209703
+          ]
+        ],
+        "null_chi2": 198.68422887728732,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.9,
+      "local_peak_statistic": 31.625548681442634
+    },
+    {
+      "removed_mjd_day": 57893,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.13682681306861,
+        "amplitude_us": 1.512060534517891,
+        "sin_cos_us": [
+          -1.31336887580835,
+          -0.7492591381521091
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05075094852870561,
+            0.016508608151413567
+          ],
+          [
+            0.016508608151413567,
+            0.09566580657058758
+          ]
+        ],
+        "null_chi2": 199.24735520748789,
+        "rank": 81,
+        "dof_null": 161
+      },
+      "local_peak_period_days": 118.9,
+      "local_peak_statistic": 35.13637329150449
+    },
+    {
+      "removed_mjd_day": 57914,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 36.788477302051206,
+        "amplitude_us": 1.5784231873686005,
+        "sin_cos_us": [
+          -1.3529574881518818,
+          -0.8129734274111318
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.051635825264689426,
+            0.0176956829164961
+          ],
+          [
+            0.01769568291649609,
+            0.09723235580954662
+          ]
+        ],
+        "null_chi2": 203.2668968590445,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 36.787855801327865
+    },
+    {
+      "removed_mjd_day": 57935,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.86879604167662,
+        "amplitude_us": 1.5371665719162106,
+        "sin_cos_us": [
+          -1.335503653871778,
+          -0.7611248651251415
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.051493980707722285,
+            0.016481230070488448
+          ],
+          [
+            0.016481230070488455,
+            0.09562778137483785
+          ]
+        ],
+        "null_chi2": 202.780240638349,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.9,
+      "local_peak_statistic": 35.87151463503077
+    },
+    {
+      "removed_mjd_day": 57956,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.205176277798515,
+        "amplitude_us": 1.4953019703588613,
+        "sin_cos_us": [
+          -1.321224921768318,
+          -0.7002090321164065
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05079579019650641,
+            0.016058402989742964
+          ],
+          [
+            0.01605840298974296,
+            0.10016327713285607
+          ]
+        ],
+        "null_chi2": 202.3208028290366,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 119.05,
+      "local_peak_statistic": 35.26163199470512
+    },
+    {
+      "removed_mjd_day": 57978,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.36512054127895,
+        "amplitude_us": 1.5202965788547584,
+        "sin_cos_us": [
+          -1.3163409154009678,
+          -0.7606236139634538
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.050757603313183915,
+            0.016494200038682377
+          ],
+          [
+            0.016494200038682377,
+            0.09563803818604569
+          ]
+        ],
+        "null_chi2": 203.52136289392263,
+        "rank": 81,
+        "dof_null": 161
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.36444497650428
+    },
+    {
+      "removed_mjd_day": 57983,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.32471390593925,
+        "amplitude_us": 1.5201627866443779,
+        "sin_cos_us": [
+          -1.3156461631131284,
+          -0.761557661233937
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.050784883960643346,
+            0.01647275180273967
+          ],
+          [
+            0.01647275180273966,
+            0.09565380196115394
+          ]
+        ],
+        "null_chi2": 202.5896886003978,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.32413031945587
+    },
+    {
+      "removed_mjd_day": 58467,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.38411786484001,
+        "amplitude_us": 1.5212876042638284,
+        "sin_cos_us": [
+          -1.3164995382656777,
+          -0.7623286303380163
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05075719065528512,
+            0.016504338784231472
+          ],
+          [
+            0.01650433878423148,
+            0.09562700135464994
+          ]
+        ],
+        "null_chi2": 203.46949814753037,
+        "rank": 81,
+        "dof_null": 161
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.38331538318828
+    },
+    {
+      "removed_mjd_day": 58482,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.284245974833254,
+        "amplitude_us": 1.5175890517222144,
+        "sin_cos_us": [
+          -1.3156679395960171,
+          -0.7563692237434713
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.050785151054407916,
+            0.01603824378470989
+          ],
+          [
+            0.01603824378470988,
+            0.10190761537388059
+          ]
+        ],
+        "null_chi2": 203.37711181127065,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.9,
+      "local_peak_statistic": 35.28690513028629
+    },
+    {
+      "removed_mjd_day": 58509,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.378991657121155,
+        "amplitude_us": 1.521874016274818,
+        "sin_cos_us": [
+          -1.3168956024238045,
+          -0.7628148489176716
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05079804834512353,
+            0.016522009095366653
+          ],
+          [
+            0.01652200909536667,
+            0.09563417025622405
+          ]
+        ],
+        "null_chi2": 203.67011093517215,
+        "rank": 81,
+        "dof_null": 161
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.37835627964964
+    },
+    {
+      "removed_mjd_day": 58524,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 33.68574809469276,
+        "amplitude_us": 1.5206667247103265,
+        "sin_cos_us": [
+          -1.3175908214281074,
+          -0.7591980735813527
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05499408927394041,
+            0.012901031135339844
+          ],
+          [
+            0.012901031135339852,
+            0.09868516557048329
+          ]
+        ],
+        "null_chi2": 200.58478313959245,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.9,
+      "local_peak_statistic": 33.68595888922423
+    },
+    {
+      "removed_mjd_day": 58545,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.59546741569321,
+        "amplitude_us": 1.5413375929762103,
+        "sin_cos_us": [
+          -1.3170647771405275,
+          -0.8006634426133555
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05075972506403281,
+            0.016712784737785154
+          ],
+          [
+            0.01671278473778515,
+            0.10026030965130911
+          ]
+        ],
+        "null_chi2": 202.2725253259366,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.75,
+      "local_peak_statistic": 35.62973424719258
+    },
+    {
+      "removed_mjd_day": 58566,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.534114117348814,
+        "amplitude_us": 1.5268439844689294,
+        "sin_cos_us": [
+          -1.3183462095803091,
+          -0.7702050536020829
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05075432354137755,
+            0.01651357943768549
+          ],
+          [
+            0.01651357943768547,
+            0.09565266081212413
+          ]
+        ],
+        "null_chi2": 201.35990730244146,
+        "rank": 81,
+        "dof_null": 161
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.53474880664589
+    },
+    {
+      "removed_mjd_day": 58587,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 36.70583883015682,
+        "amplitude_us": 1.5685688768135448,
+        "sin_cos_us": [
+          -1.3566863412381789,
+          -0.7872804410156963
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05192580803623951,
+            0.017222515413509963
+          ],
+          [
+            0.01722251541350997,
+            0.0960682134763042
+          ]
+        ],
+        "null_chi2": 200.7218693532095,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 119.0,
+      "local_peak_statistic": 36.73564581432619
+    },
+    {
+      "removed_mjd_day": 58610,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.20522122969282,
+        "amplitude_us": 1.5173949394719632,
+        "sin_cos_us": [
+          -1.313914135961849,
+          -0.7590237451191832
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05077707937378951,
+            0.01657202649142243
+          ],
+          [
+            0.016572026491422424,
+            0.09580276648119042
+          ]
+        ],
+        "null_chi2": 203.5073727250503,
+        "rank": 81,
+        "dof_null": 161
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.20431326929016
+    },
+    {
+      "removed_mjd_day": 58629,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 34.38550640787928,
+        "amplitude_us": 1.5291275590231534,
+        "sin_cos_us": [
+          -1.323198042635235,
+          -0.7664059183816303
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.052740547660667415,
+            0.01749147401701495
+          ],
+          [
+            0.017491474017014945,
+            0.09611790551501115
+          ]
+        ],
+        "null_chi2": 199.8460560552772,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.9,
+      "local_peak_statistic": 34.38542705695701
+    },
+    {
+      "removed_mjd_day": 58651,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.63788221175601,
+        "amplitude_us": 1.522365443203371,
+        "sin_cos_us": [
+          -1.32315981614391,
+          -0.7528908576957287
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05077953839549323,
+            0.016469612337881065
+          ],
+          [
+            0.016469612337881058,
+            0.09566553169046511
+          ]
+        ],
+        "null_chi2": 201.79217148931815,
+        "rank": 81,
+        "dof_null": 161
+      },
+      "local_peak_period_days": 118.95,
+      "local_peak_statistic": 35.649307357635365
+    },
+    {
+      "removed_mjd_day": 58671,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.312984186172045,
+        "amplitude_us": 1.5196111110804837,
+        "sin_cos_us": [
+          -1.3151398924517375,
+          -0.7613310660949641
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05075025820708657,
+            0.016501455577154166
+          ],
+          [
+            0.016501455577154173,
+            0.09572135668062032
+          ]
+        ],
+        "null_chi2": 203.66307495839902,
+        "rank": 81,
+        "dof_null": 161
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.31223740047658
+    },
+    {
+      "removed_mjd_day": 58691,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 34.98140708345499,
+        "amplitude_us": 1.5189763388156223,
+        "sin_cos_us": [
+          -1.3146199053170486,
+          -0.7609623002658581
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05103508720068504,
+            0.017139462103614826
+          ],
+          [
+            0.01713946210361482,
+            0.09704760753908251
+          ]
+        ],
+        "null_chi2": 201.8796675765353,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 34.98081306586362
+    },
+    {
+      "removed_mjd_day": 58713,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.09390991908876,
+        "amplitude_us": 1.5073279689585575,
+        "sin_cos_us": [
+          -1.3160394613109598,
+          -0.7348998178507659
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.050752281115972256,
+            0.016383871386775144
+          ],
+          [
+            0.016383871386775134,
+            0.10458543276668184
+          ]
+        ],
+        "null_chi2": 202.5909299087408,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 119.25,
+      "local_peak_statistic": 35.186464108283516
+    },
+    {
+      "removed_mjd_day": 58734,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.56191976824512,
+        "amplitude_us": 1.5302364946561255,
+        "sin_cos_us": [
+          -1.3198993480090635,
+          -0.7742670344930845
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05082176115218961,
+            0.016685848106763046
+          ],
+          [
+            0.016685848106763046,
+            0.09609272136252939
+          ]
+        ],
+        "null_chi2": 203.43015584615097,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.5629172337393
+    },
+    {
+      "removed_mjd_day": 58755,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 34.464216679087414,
+        "amplitude_us": 1.5577899404326008,
+        "sin_cos_us": [
+          -1.352142779466846,
+          -0.773575725090103
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.055105537114164896,
+            0.01763878247879431
+          ],
+          [
+            0.01763878247879431,
+            0.09592620859168148
+          ]
+        ],
+        "null_chi2": 201.40428607724363,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 119.2,
+      "local_peak_statistic": 34.63699429895402
+    },
+    {
+      "removed_mjd_day": 58796,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.39723057064259,
+        "amplitude_us": 1.5471852173074618,
+        "sin_cos_us": [
+          -1.3302459410525362,
+          -0.7900809027991945
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.051639277523150874,
+            0.01813819835424889
+          ],
+          [
+            0.01813819835424888,
+            0.09863340057930861
+          ]
+        ],
+        "null_chi2": 203.10770133196934,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.8,
+      "local_peak_statistic": 35.409694826755825
+    },
+    {
+      "removed_mjd_day": 58817,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 31.926892160644062,
+        "amplitude_us": 1.4981264937266037,
+        "sin_cos_us": [
+          -1.2981136689783788,
+          -0.7478528555919672
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05425101763876226,
+            0.019511547757663922
+          ],
+          [
+            0.019511547757663932,
+            0.09821218570181407
+          ]
+        ],
+        "null_chi2": 198.98690716288675,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 31.92668856021234
+    },
+    {
+      "removed_mjd_day": 58839,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.310888239118285,
+        "amplitude_us": 1.5205087434098017,
+        "sin_cos_us": [
+          -1.3158113864867973,
+          -0.7619627510432164
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05082416730967579,
+            0.016479864443154905
+          ],
+          [
+            0.016479864443154902,
+            0.09563439738776006
+          ]
+        ],
+        "null_chi2": 202.89948394950648,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.31003422297195
+    },
+    {
+      "removed_mjd_day": 58908,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 34.82806015663051,
+        "amplitude_us": 1.499041817436828,
+        "sin_cos_us": [
+          -1.3100264738750718,
+          -0.7286679683990193
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05075152768799842,
+            0.016511853833726747
+          ],
+          [
+            0.016511853833726744,
+            0.09568304039483916
+          ]
+        ],
+        "null_chi2": 183.26999845164517,
+        "rank": 81,
+        "dof_null": 161
+      },
+      "local_peak_period_days": 119.0,
+      "local_peak_statistic": 34.86557071933714
+    },
+    {
+      "removed_mjd_day": 58950,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.34551610490676,
+        "amplitude_us": 1.5207081502312216,
+        "sin_cos_us": [
+          -1.3156731587935198,
+          -0.7625991197280163
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05075559506318785,
+            0.016507965659332383
+          ],
+          [
+            0.01650796565933238,
+            0.09563091292558583
+          ]
+        ],
+        "null_chi2": 203.64619850568727,
+        "rank": 81,
+        "dof_null": 161
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.3449566990409
+    },
+    {
+      "removed_mjd_day": 58973,
+      "removed_toas": 2,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.66752675893603,
+        "amplitude_us": 1.5272511094982704,
+        "sin_cos_us": [
+          -1.3220219974927645,
+          -0.7646919573324534
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05076822494660905,
+            0.016509954475128808
+          ],
+          [
+            0.016509954475128798,
+            0.0956293573161348
+          ]
+        ],
+        "null_chi2": 201.34701207983255,
+        "rank": 81,
+        "dof_null": 159
+      },
+      "local_peak_period_days": 118.9,
+      "local_peak_statistic": 35.66831409620834
+    },
+    {
+      "removed_mjd_day": 59040,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.40756326582014,
+        "amplitude_us": 1.5235136893147732,
+        "sin_cos_us": [
+          -1.3162185068070396,
+          -0.7672436404872695
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.050752339090097465,
+            0.016513199393272445
+          ],
+          [
+            0.01651319939327243,
+            0.09567324058388364
+          ]
+        ],
+        "null_chi2": 203.19882717871695,
+        "rank": 81,
+        "dof_null": 161
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 35.40816017465662
+    },
+    {
+      "removed_mjd_day": 59055,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 34.53448741330971,
+        "amplitude_us": 1.5280018414751246,
+        "sin_cos_us": [
+          -1.319835963240909,
+          -0.7699497760810856
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.0519012838691977,
+            0.018491539708809263
+          ],
+          [
+            0.018491539708809276,
+            0.09906127130728695
+          ]
+        ],
+        "null_chi2": 201.7593702535122,
+        "rank": 82,
+        "dof_null": 160
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 34.533997267771
+    },
+    {
+      "removed_mjd_day": 59056,
+      "removed_toas": 1,
+      "fixed_period": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 34.17011449964881,
+        "amplitude_us": 1.5165469871324884,
+        "sin_cos_us": [
+          -1.3131232039496412,
+          -0.7586977101782082
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05186362026593186,
+            0.01842821752147603
+          ],
+          [
+            0.01842821752147602,
+            0.09895481588785562
+          ]
+        ],
+        "null_chi2": 202.38115766457787,
+        "rank": 82,
+        "dof_null": 160
+      },
+      "local_peak_period_days": 118.85,
+      "local_peak_statistic": 34.169556903087255
+    }
+  ]
+}

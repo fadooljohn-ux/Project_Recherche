@@ -1,0 +1,13 @@
+{
+  "reviewer": "Claude Fable 5",
+  "review_date": "2026-08-09",
+  "verdict": "PASS",
+  "no_conditions_remaining": true,
+  "intent_sha256": "cd76bab246979e4aaa1e5513c10ba8c2951242054ce27271c6c1be429821c8ee",
+  "result_sha256": "720f3604058121ddc4aa7ff5a0be159089b28ca279328b18addd4d1904ce06bc",
+  "log_sha256": "efafe93f6dab0c2ba1894da87a3628e5fcee8e93696094d6056686e3d4dd5079",
+  "exactly_one_observed_scan_confirmed": true,
+  "null_disposition_correct": true,
+  "claim_boundary_accepted": true,
+  "additional_search_or_retry_authorized": false
+}

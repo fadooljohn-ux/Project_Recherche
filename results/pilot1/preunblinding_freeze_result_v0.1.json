@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "result_id": "pilot1-preunblinding-freeze-result-v0.1",
+  "status": "pass",
+  "recorded_utc": "2026-08-09T10:29:37Z",
+  "freeze_sha256": "00faa4a0f202c8ca452af6ddaf1f0c170303b382eac3ac1843d427fff4153e35",
+  "score": "15_of_15",
+  "criteria": {
+    "independent_audit_preserved_exactly": "PASS",
+    "audit_disposition_recorded": "PASS",
+    "locked_threshold_unchanged": "PASS",
+    "exactly_3000_structured_tail_cases_frozen": "PASS",
+    "structured_tail_ids_and_seeds_unique": "PASS",
+    "structured_tail_seeds_disjoint_from_prior_tail_sets": "PASS",
+    "exactly_160_deterministic_replay_cases_frozen": "PASS",
+    "new_random_recovery_realizations_prohibited": "PASS",
+    "further_tail_reroll_prohibited": "PASS",
+    "structured_tail_rebaseline_tripwire_frozen": "PASS",
+    "deletion_veto_cost_gate_frozen": "PASS",
+    "annual_mask_semantics_frozen": "PASS",
+    "independent_fable_signoff_required": "PASS",
+    "pipeline_operator_self_sign_prohibited": "PASS",
+    "observed_periodic_search_remains_locked": "PASS"
+  },
+  "inventory_sha256": {
+    "structured_tail_evaluation": "7df6d66e94cbb02b44961d998920cee85b073435d9859f6d175ddc888a7a0278",
+    "deletion_replay": "d2832b45c1e2f438620be91374cc4086e289a158bb8ed9d3373dc57c3c7561e5"
+  },
+  "verification": {
+    "repository_tests": "82_passed",
+    "lint": "pass",
+    "freeze_failures": 0
+  },
+  "authorization": {
+    "synthetic_preunblinding_validation": true,
+    "observed_residual_access": false,
+    "observed_periodic_search": false
+  },
+  "next_gate": "implement_and_execute_exact_frozen_synthetic_validation"
+}

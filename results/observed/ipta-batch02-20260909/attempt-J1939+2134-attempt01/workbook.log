@@ -1,0 +1,55 @@
+Inspect result written to file: ./outputs/recherche-master-20260908/Project-Recherche-Master.xlsx.pending.inspect.ndjson
+{
+  "status": "UPDATED",
+  "before_sha256": "b5dc28b85948eab27c5062e54cc236e5e3ed11cf4f0ffca0b21e601476c4bc3e",
+  "after_sha256": "e117344d060d1f01128491bf353ee3876a31ff7518a6db6dc18cdf5e014a15f6",
+  "backup": "../Recherche Recovery/20260907T223404/master-workbook-history/b5dc28b85948eab27c5062e54cc236e5e3ed11cf4f0ffca0b21e601476c4bc3e.xlsx",
+  "inventory_sha256": "d3fd89f2f0553d4d3e425c00157a77ab9527518937e85f1267cd93225bd596fa",
+  "targets_added": 0,
+  "work_log_rows_added": 1,
+  "searches_added": 0,
+  "historical_targets_preserved": true,
+  "target_routing_updates": 0,
+  "historical_target_science_preserved": true,
+  "historical_searches_preserved": true,
+  "historical_work_log_preserved": true,
+  "candidate_grades_preserved": true,
+  "overview": [
+    [
+      "Recorded work",
+      "Count"
+    ],
+    [
+      "Unique targets in register",
+      754
+    ],
+    [
+      "Targets with observed searches",
+      277
+    ],
+    [
+      "Original-search targets with no trigger",
+      266
+    ],
+    [
+      "Known-system targets with recovery",
+      4
+    ],
+    [
+      "Targets awaiting data",
+      2
+    ],
+    [
+      "Inventoried targets not searched",
+      475
+    ],
+    [
+      "Search / refinement records",
+      344
+    ],
+    [
+      "Current candidate targets",
+      7
+    ]
+  ]
+}

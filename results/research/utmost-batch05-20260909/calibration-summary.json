@@ -1,0 +1,19 @@
+{
+  "status": "CALIBRATION_COMPLETE",
+  "targets": 6,
+  "null_realizations": 24576,
+  "template_checks": 18,
+  "threshold_range": [
+    23.277353340551578,
+    23.60820285335253
+  ],
+  "grid_cells": 1194,
+  "excluded_cells": 28,
+  "sensitivity_median_range_us": [
+    147.98629621555023,
+    3859.3953107337998
+  ],
+  "seed": 799503214,
+  "search_count": 6,
+  "observed_search_executed": false
+}

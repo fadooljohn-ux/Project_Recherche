@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "readiness_id": "pilot2-b1937-injection-execution-readiness-v0.2.7",
+  "recorded_utc": "2026-08-11T01:58:50Z",
+  "status": "pass",
+  "execution_readiness": "pass",
+  "independent_sol_audit_status": "pending",
+  "gates": [
+    {
+      "name": "SOL-V026-001 duplicate JSON member rejection",
+      "status": "pass",
+      "evidence": "all trusted JSON objects and nested objects reject repeated member names before dictionary construction"
+    },
+    {
+      "name": "execution authorization trust boundary",
+      "status": "pass",
+      "evidence": "exploit-shaped duplicate authorization fails before predecessor loading even when its retained final value would otherwise pass"
+    },
+    {
+      "name": "artifact recovery trust boundary",
+      "status": "pass",
+      "evidence": "nested duplicate live-context member prevents interrupted-artifact adoption and terminally preserves the attempt"
+    },
+    {
+      "name": "ledger and data-root identity",
+      "status": "pass",
+      "evidence": "duplicate-bearing version ledger and marker fail before state or data-root trust"
+    },
+    {
+      "name": "retained typed context and durability controls",
+      "status": "pass",
+      "evidence": "exact typed binding, context hashes, parent-synced directories, and durable file commits remain tested"
+    },
+    {
+      "name": "repository validation",
+      "status": "pass",
+      "evidence": "309 passed, 0 failed, 3 documented historical deselections"
+    },
+    {
+      "name": "v0.2.7 zero-science boundary tests",
+      "status": "pass",
+      "evidence": "40 passed, 0 failed"
+    },
+    {
+      "name": "temporary-root dry run",
+      "status": "pass",
+      "evidence": "zero cases, draws, fits, scans, predecessor loads, external-root access, or observed residuals"
+    },
+    {
+      "name": "execution lock",
+      "status": "pass",
+      "evidence": "v0.2.7 execution freeze absent and execution unauthorized"
+    }
+  ],
+  "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+  "implementation_sha256": "ff2241b6f354db7bd35c81ee715a61f2e41069d10ca5551dcc4bbe57dfb09374",
+  "implementation_freeze_sha256": "b8bf2f33ffc3334e9b03cced8cdd389f04c536cec2f6249d33ea726e801cb533",
+  "zero_science_validation_sha256": "18de57134bb8dd417be1a7acb10f89c8b45586358ead8b903097db407bdd9c09",
+  "validation_manifest_sha256": "711a0c3a73942d547e87f68d3af052983ad822ae9ceaf3ecda97dba8efffd713",
+  "audit_finding_closure_sha256": "b5ee78bb25130ae081e90e5e7542bf99b205e8fa63c18d6059ad8cf1ebec6cb1",
+  "science_cases_executed": 0,
+  "execution_authorized": false,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "promotion_grade_authorized": false,
+  "discovery_claim_authorized": false,
+  "next_gate": "freeze_this_readiness_package_then_one_fresh_read_only_sol_audit"
+}

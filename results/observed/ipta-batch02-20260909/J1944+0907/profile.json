@@ -1,0 +1,30 @@
+{
+  "arrays": "arrays.npz",
+  "arrays_sha256": "4e68e6a49a3095d1657980e333fbec44ac40864c5eb2b4b839f345e5c9e119c0",
+  "layout": "first len(times) rows are TOA seconds; remaining rows are auxiliary measurements",
+  "observed_residuals_included": false,
+  "policy": {
+    "detection_probability": 0.95,
+    "false_alarm_probability": 0.01,
+    "maximum_condition_number": 10000000000.0,
+    "maximum_period_days": 1043.1553337100559,
+    "minimum_period_days": 30.0,
+    "minimum_retained_power": 0.2,
+    "null_count": 4096,
+    "oversampling": 5,
+    "search_count": 13,
+    "seed": 202609092008
+  },
+  "provenance": {
+    "campaign_manifest": "../Project Recherche Data/ipta-batch02-20260909/campaign.json",
+    "campaign_manifest_sha256": "bab31040e3d716499d588c46d0e6133ac1959cea4dad2d1f231310aba2e57156",
+    "context_sha256": "4e68e6a49a3095d1657980e333fbec44ac40864c5eb2b4b839f345e5c9e119c0",
+    "noise_model": "Fixed released EFAC/EQUAD/ECORR plus 34 red and 34 DM Fourier pairs; TEMPO2 epoch convention",
+    "preparation_receipt": "../Project Recherche Data/ipta-batch02-20260909/J1944+0907/attempt01/receipt.json",
+    "preparation_receipt_sha256": "a0633d3dab4f98280ca36c93722053430636c1d144b63a789a16e0870ca890c2",
+    "timing_model": "IPTA DR2 Version B TDB; released legacy TEMPO conventions; DM_SERIES POLY"
+  },
+  "reference_epoch_mjd_tdb": 54999.999816170384,
+  "schema": "recherche-target-calibration-v1",
+  "target": "J1944+0907"
+}

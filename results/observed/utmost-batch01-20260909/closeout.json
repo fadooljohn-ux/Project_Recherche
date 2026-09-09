@@ -1,0 +1,32 @@
+{
+  "status": "COMPLETE",
+  "targets": 4,
+  "toas": 873,
+  "no_trigger": 4,
+  "candidates": 0,
+  "execution_failures": 0,
+  "noise_adequacy_flags": 0,
+  "historical_result_files_preserved": 397,
+  "consumed_runs": [
+    "../Project Recherche Data/utmost-preparation01-20260909/J1807-0847/run01",
+    "../Project Recherche Data/utmost-preparation01-20260909/J0134-2937/run01",
+    "../Project Recherche Data/utmost-preparation01-20260909/J1453-6413/run01",
+    "../Project Recherche Data/utmost-preparation01-20260909/J1224-6407/run01"
+  ],
+  "remaining_UTMOST_coverage_candidates": 82,
+  "report_sha256": "e8c6aaaada49c7fb20bc9cecfa618f982d42e81bd981b8b610d7c15ba20ed099",
+  "master_sha256": "1fd5b5718ff4407b55fe468cd432938a6b9ff703fcb113ae678c8e5a8eaaf9c0",
+  "completed_utc": "2026-09-09T04:46:45.647011+00:00",
+  "result_hashes": {
+    "J1807-0847": "d5340d9631f9ab8a0b1e3995e3619e08f85dc839c5c0c25fc7c5eb967e5d3581",
+    "J0134-2937": "0f271ad86e33e4bacf4a4eaf2618c5f354f3ad7c2504027f5c4f0bb66eb94232",
+    "J1453-6413": "0a2417071de314741faa6689ba13792d6807bc8fdf0f38cb82ee996c60071b0e",
+    "J1224-6407": "d6ef7388401982288d8a1e4baceb3089b56c9d136633734c53d80a510626116e"
+  },
+  "observed_targets_in_master": 225,
+  "search_records_in_master": 256,
+  "workbook_readback_verified": true,
+  "historical_search_rows_preserved": 252,
+  "historical_work_log_preserved": true,
+  "operator_notes_preserved": true
+}

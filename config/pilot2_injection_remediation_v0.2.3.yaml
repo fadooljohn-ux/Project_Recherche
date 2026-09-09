@@ -1,0 +1,116 @@
+schema_version: 1
+plan_id: pilot2-b1937-injection-remediation-v0.2.3
+status: remediation_design_execution_not_authorized
+target: B1937+21
+dataset: nanograv_15yr_timing_v2.1.0_wideband
+scientific_role: prospective_replacement_after_v0.2.2_pre_record_implementation_crash
+
+authority:
+  execution_authorized: false
+  observed_residual_access_authorized: false
+  observed_periodic_search_authorized: false
+  promotion_grade_authorized: false
+  discovery_claim_authorized: false
+  v0.2.1_regrade_to_pass_authorized: false
+  v0.2.2_resume_authorized: false
+  v0.2.2_case_rerun_authorized: false
+
+source_bindings:
+  base_configuration:
+    logical_path: config/pilot2_calibration_v0.2.1.yaml
+    sha256: eecb8935f96afd3a9d450013eec81572c973840194c95ba8881100da67e5da19
+  v0.2.2_crash_audit:
+    logical_path: results/pilot2/injection_v022_crash_audit.json
+    sha256: 6d58ef1be4a03969be41ee3e0d916adaa252ee5bfa42d7c23244f203f878b473
+  v0.2.2_execution_freeze:
+    logical_path: protocol/PILOT2_INJECTION_EXECUTION_FREEZE_v0.2.2.json
+    sha256: 9e247d3d3c2eba0edc936b2db778683257ae5888c1bd581f682dc074ba768d03
+  v0.2.2_ledger:
+    logical_path: run_records/pilot2/calibration-v0.2.2-ledger.json
+    sha256: 9d0c2c2d1bef17cd4197975b899fc46fa2866c2111eeeee9931234290afcde19
+  v0.2.2_health:
+    logical_path: run_records/pilot2/calibration-v0.2.2-health.json
+    sha256: 292113f3663d47e74d12484aea19d054414d3e96b28c05972647a48a99c7ecf8
+  threshold_lock:
+    logical_path: run_records/pilot2/calibration-threshold-lock-v0.2.1.json
+    sha256: 6e624af784aabd92ce8b28babdaed4c863ca12c94caad756da005f14bf9b5117
+  sealed_gaussian_result:
+    logical_path: run_records/pilot2/sealed-gaussian-evaluation-v0.2.1.json
+    sha256: f3a8677ea28255c7c06afd815fad1d911fcadde9a1fb0a4b2bf464f78aa59034
+  structured_tail_result:
+    logical_path: run_records/pilot2/structured-tail-evaluation-v0.2.1.json
+    sha256: 540f5d12496a02687253b3d0a64e63208c8df53d8cdae3f3935cc8da4fc0f252
+  v0.2.1_terminal_result:
+    logical_path: run_records/pilot2/injection-evaluation-v0.2.1.json
+    sha256: 06cf10aa00231ecac05abccbe491b21c074371d749f8cc88dccff8cf034fba8c
+  v0.2.1_final_ledger:
+    logical_path: run_records/pilot2/calibration-v0.2.1-ledger.json
+    sha256: cb13ffc749cd4bec1ab41dfcfe056850507d52546c9425e2b4fbfff49c1bc621
+
+consumed_v0.2.2_case:
+  case_id: p2r2-inj-main-p00-a00-h00-n00
+  seed: 2691995251659989168
+  disposition: consumed_never_reuse
+
+prospective_inventory:
+  case_id_prefix: p2r3
+  inherited_recovery_ladders: config/pilot2_calibration_v0.2.1.yaml
+  main_base_seed: 19372340
+  annual_base_seed: 19372341
+  boundary_base_seed: 19372342
+  phase_reference_base_seed: 19372343
+  reuse_v0.2.1_case_ids: false
+  reuse_v0.2.1_seeds: false
+  reuse_v0.2.2_case_ids: false
+  reuse_v0.2.2_seeds: false
+  main_cases: 240
+  annual_cases: 28
+  boundary_cases: 16
+  phase_reference_cases: 60
+  total_cases: 344
+  solver_audit_fraction: 0.10
+  solver_audit_cases: 35
+
+phase_reference_controls:
+  purpose: high_information_phase_accuracy_gate_separate_from_detection_sensitivity
+  phases_radians: [0.0, 1.5707963267948966, 3.141592653589793, 4.71238898038469]
+  covariance_noise_realizations_per_phase: 3
+  period_amplitudes:
+    - {period_days: 50.0, amplitude_microseconds: 0.4}
+    - {period_days: 100.0, amplitude_microseconds: 0.4}
+    - {period_days: 200.0, amplitude_microseconds: 0.4}
+    - {period_days: 500.0, amplitude_microseconds: 2.0}
+    - {period_days: 1000.0, amplitude_microseconds: 4.0}
+  amplitude_rule: unchanged_from_v0.2.2
+  all_cases_must_trigger: true
+  phase_error_p90_maximum_radians: 0.1
+  numerical_limit_changed_from_v0.2.2: false
+
+application_integrity:
+  toa_adjustment_metric: toa_adjustment_maximum_absolute_error_microseconds
+  toa_adjustment_maximum_microseconds: 0.001
+  legacy_conflated_field_accepted: false
+  missing_canonical_metric_behavior: fail_closed
+
+warning_hygiene:
+  expected_arecibo_override_exact_substring: time_ao.dat overrides global clock file time_ao.dat
+  all_other_unexpected_warnings_fail: true
+
+resource_projection:
+  injection_scans: 344
+  primary_injection_fits: 688
+  explicit_full_covariance_audits: 35
+  measured_scan_seconds_each: 0.0019905758593813517
+  measured_primary_fit_seconds_each: 10.101615196251826
+  measured_audit_seconds_each: 67.50023775829978
+  measured_setup_seconds: 0.2856906250017346
+  contingency_multiplier: 1.25
+  projected_wall_hours_with_contingency: 3.2338159810008253
+
+resource_caps:
+  macbook_wall_hours_maximum: 6.0
+  peak_memory_gib_maximum: 16.0
+  complete_data_root_gib_maximum: 1.5
+  additional_download_bytes_maximum: 0
+
+next_gate: zero_science_implementation_validation_then_separate_execution_authorization

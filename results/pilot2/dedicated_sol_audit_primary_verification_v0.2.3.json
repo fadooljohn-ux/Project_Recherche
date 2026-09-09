@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "audit_id": "dedicated-sol-audit-pilot2-v0.2.3-2026-08-10",
+  "target_commit": "a3db08b3776e4a6a4d144b0a5b0cd9f62b44baea",
+  "verification_mode": "read_only_source_review_and_zero_science_mock_checks",
+  "science_cases_executed": 0,
+  "random_draws_generated": 0,
+  "timing_model_fits_executed": 0,
+  "periodic_scans_executed": 0,
+  "checks": [
+    {
+      "finding_id": "SOL-V023-001",
+      "status": "confirmed",
+      "method": "source_order_review",
+      "observed": "case computation precedes artifact and ledger commit; KeyboardInterrupt is outside Exception handling"
+    },
+    {
+      "finding_id": "SOL-V023-002",
+      "status": "confirmed",
+      "method": "malformed_present_execution_freeze_mock",
+      "observed": {
+        "gate_status": "fail",
+        "predecessor_loader_calls": 1
+      }
+    },
+    {
+      "finding_id": "SOL-V023-003",
+      "status": "confirmed",
+      "method": "failed_readiness_semantic_mock",
+      "observed": {
+        "execution_readiness_value": "fail",
+        "readiness_verifier_status": "pass"
+      }
+    },
+    {
+      "finding_id": "SOL-V023-004",
+      "status": "confirmed",
+      "method": "post_begin_exception_temporary_ledger_mock",
+      "observed": {
+        "stage_status": "running",
+        "active_stage": "injection_remediation_evaluation",
+        "hard_stop": null
+      }
+    },
+    {
+      "finding_id": "SOL-V023-005",
+      "status": "confirmed",
+      "method": "test_scope_review",
+      "observed": "no interrupt-boundary, malformed-present-freeze, failed-readiness, or post-begin execute integration tests"
+    }
+  ],
+  "safe_test_command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src pixi run pytest -q -p no:cacheprovider tests/test_pilot2_injection_runner_v023.py",
+  "safe_test_result": {
+    "passed": 9,
+    "failed": 0
+  },
+  "primary_disposition": "hold",
+  "execution_freeze_creation_allowed": false,
+  "next_gate": "separate_user_authorization_for_zero_science_v0.2.4_remediation"
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot1-discrepancy-diagnostic-freeze-v0.1",
+  "status": "frozen_before_observed_residual_diagnostics",
+  "authorization": "nonperiodic_residual_diagnostics_only",
+  "observed_residual_global_search_authorized": false,
+  "diagnostic_seed": 17441138,
+  "diagnostic_null_count": 1000,
+  "central_interval": 0.99,
+  "maximum_lag": 16,
+  "frozen_sha256": {
+    "src/pulsar_pilot/discrepancy.py": "fbf34e0c288faa31805ff4c0675b10051dab1e05a5a4914c606281a0b2692785",
+    "research/pilot1/discrepancy/RESEARCH_PROTOCOL_v0.1.md": "9364b346dbca3c00ee717a261653f4e11d84cfe22859483bdb3dae5a96fd2117",
+    "config/pilot1.yaml": "c86ef883d806d629f993544d0689efc3acc39c16469e91432bdaf5b401966e94",
+    "pixi.lock": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8"
+  }
+}

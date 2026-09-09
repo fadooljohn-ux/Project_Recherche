@@ -1,0 +1,15 @@
+{
+  "candidate_family_statistic": 15.22294047590367,
+  "code_sha256": "252af33c337a68cdc44b44c77a5d49e1a75f8c2fcb1d1b5bdabc5b18610114ea",
+  "completed_utc": "2026-09-08T17:27:59.920868+00:00",
+  "definition": "Compare the noise-family-profiled statistic at the original candidate period with each saved noise-only realization's maximum across the complete declared grid. This conservative candidate-specific comparison uses existing simulations and accounts for searching multiple periods within the finite family.",
+  "diagnostic_p_plus_one": 0.07992202729044834,
+  "different_global_peak_null_exceedances": 0,
+  "different_global_peak_period_days": 66.96088682325374,
+  "different_global_peak_statistic": 112.29346169877863,
+  "disposition": "INCONCLUSIVE_NOISE_SENSITIVE",
+  "null_count": 512,
+  "null_global_max_exceedances": 40,
+  "original_period_days": 567.405409397045,
+  "reason": "Original candidate is weakened by noise alternatives, fails conditional receiver-band/source consistency checks, and lacks PPTA corroboration. A different 67-day residual peak exposes unresolved structure within the limited model family; it is not confirmation of the original candidate or a calibrated new survey discovery."
+}

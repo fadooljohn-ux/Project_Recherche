@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "manifest_id": "pilot2-b1937-injection-validation-v0.2.6",
+  "recorded_utc": "2026-08-11T00:58:03Z",
+  "status": "pass",
+  "scope": "zero_science_exact_typed_context_binding_and_nested_directory_durability_validation",
+  "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+  "implementation_sha256": "3d56ab925e87f3938f4b85ded3c8c3683e5b2d80dc14b468a9bfa6fb6ba8183e",
+  "format_and_lint": {
+    "command": "pixi run ruff format --check src/pulsar_pilot/pilot2_injection_executor_v026.py src/pulsar_pilot/pilot2_injection_runner_v026.py tests/test_pilot2_injection_runner_v026.py && pixi run ruff check src/pulsar_pilot/pilot2_injection_executor_v026.py src/pulsar_pilot/pilot2_injection_runner_v026.py tests/test_pilot2_injection_runner_v026.py",
+    "status": "pass"
+  },
+  "repository_test_run": {
+    "command": "PYTHONPATH=src pixi run python -m pytest -q --deselect tests/test_pilot2_injection_runner_v022.py::test_execution_lock_precedes_predecessor_and_context_loading --deselect tests/test_pilot2_injection_runner_v022.py::test_zero_case_dry_run_executes_no_science --deselect tests/test_pilot2_injection_runner_v022.py::test_implementation_freeze_is_hash_bound_and_execution_locked",
+    "passed": 269,
+    "failed": 0,
+    "deselected": 3,
+    "elapsed_seconds": 7.99,
+    "status": "pass"
+  },
+  "intentional_deselections": [
+    "tests/test_pilot2_injection_runner_v022.py::test_execution_lock_precedes_predecessor_and_context_loading",
+    "tests/test_pilot2_injection_runner_v022.py::test_zero_case_dry_run_executes_no_science",
+    "tests/test_pilot2_injection_runner_v022.py::test_implementation_freeze_is_hash_bound_and_execution_locked"
+  ],
+  "v0.2.6_boundary_test_count": 33,
+  "v0.2.6_boundary_test_file": "tests/test_pilot2_injection_runner_v026.py",
+  "finding_closure_tests": {
+    "exact_typed_input_binding_mutations": 6,
+    "attempt_journal_input_binding_hash": "pass",
+    "execution_binding_context_commitment": "pass",
+    "nested_parent_directory_sync_sequence": "pass",
+    "case_family_directory_precreation": "pass",
+    "case_directory_sync_failure_before_executor": "pass"
+  },
+  "temporary_root_dry_run": {
+    "status": "pass",
+    "execution_gate": "locked",
+    "predecessors_loaded": false,
+    "external_project_data_root_used": false,
+    "science_cases_executed": 0
+  },
+  "science_cases_executed": 0,
+  "random_draws_generated": 0,
+  "timing_model_fits_executed": 0,
+  "periodic_scans_executed": 0,
+  "external_predecessor_records_loaded": 0,
+  "observed_residual_vectors_loaded": 0,
+  "execution_authorized": false
+}

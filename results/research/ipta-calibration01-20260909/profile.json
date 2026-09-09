@@ -1,0 +1,30 @@
+{
+  "arrays": "arrays.npz",
+  "arrays_sha256": "dcfdf717c23687f75334cc1f94603ccb4d0e6b6b43e1ccdde558ca75836c55a6",
+  "layout": "first len(times) rows are TOA seconds; remaining rows are auxiliary measurements",
+  "observed_residuals_included": false,
+  "policy": {
+    "detection_probability": 0.95,
+    "false_alarm_probability": 0.01,
+    "maximum_condition_number": 10000000000.0,
+    "maximum_period_days": 2000.0,
+    "minimum_period_days": 30.0,
+    "minimum_retained_power": 0.2,
+    "null_count": 4096,
+    "oversampling": 5,
+    "search_count": 1,
+    "seed": 202609091721
+  },
+  "provenance": {
+    "context_sha256": "dcfdf717c23687f75334cc1f94603ccb4d0e6b6b43e1ccdde558ca75836c55a6",
+    "noise_model": "Fixed released EFAC/EQUAD plus 74 red and 74 DM Fourier pairs; no ECORR in this target",
+    "preparation_receipt": "../Project Recherche Data/ipta-adapter01-20260909/J1721-2457/attempt03/receipt.json",
+    "preparation_receipt_sha256": "e1a390c5160217e3c3b2cc790c5c95a565fbe523df60df6f92100965786d97f5",
+    "scope": "One fixed circular search, 30-2000 days; calibration only; no observed residuals ingested",
+    "source_context": "../Project Recherche Data/ipta-adapter01-20260909/J1721-2457/attempt03/arrays.npz",
+    "timing_model": "IPTA DR2 Version B TDB; TEMPO2 legacy convention; explicit historical DM_SERIES POLY"
+  },
+  "reference_epoch_mjd_tdb": 54999.999816170384,
+  "schema": "recherche-target-calibration-v1",
+  "target": "J1721-2457"
+}

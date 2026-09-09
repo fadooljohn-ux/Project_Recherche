@@ -1,0 +1,131 @@
+{
+  "as_of": "2026-09-08",
+  "workbook": "./outputs/recherche-master-20260908/Project-Recherche-Master.xlsx",
+  "workbook_sha256": "5ecc8f54169b27b067d39c7e9f7be85c8160ad7b08b15c6c70230e5ceddd9bc6",
+  "targets": 88,
+  "observed_targets": 15,
+  "search_records": 16,
+  "work_records": 12,
+  "sources": [
+    {
+      "path": "../Project Recherche Data/mpta-batch01-20260908/selection.json",
+      "sha256": "c7019cba9baaf2fa7bc792a2c66ba62417be412436fa4e73f9c6af6e3e866ed6"
+    },
+    {
+      "path": "../Project Recherche Data/mpta-batch01-20260908/J1629-6902/run01/result.json",
+      "sha256": "8c93b5c7666df9bf87c4229eb2c32533d7c3ac0301f3d647b91af8ee2a6ff0bc"
+    },
+    {
+      "path": "../Project Recherche Data/mpta-batch01-20260908/J0711-6830/run01/result.json",
+      "sha256": "9bc628876a25c0c41cb732650e6b0abf3452d291c4de08cf24a4d391f5732c2c"
+    },
+    {
+      "path": "../Project Recherche Data/mpta-batch01-20260908/J1658-5324/run01/result.json",
+      "sha256": "095ed096acba4dc0eaf1940f092841061bc754461ccdec3ea241507920c7821d"
+    },
+    {
+      "path": "../Project Recherche Data/mpta-batch01-20260908/J0636-3044/run01/result.json",
+      "sha256": "aedc4263af752648ba35575d3f2c083deceeba10a4527db23311b3f1fcccfa2d"
+    },
+    {
+      "path": "../Project Recherche Data/mpta-batch01-20260908/J1843-1448/run01/result.json",
+      "sha256": "2a0a602476dc0153b87bb797cf41071bd63b75f83f5bd837835f19c2d8556a46"
+    },
+    {
+      "path": "../Project Recherche Data/mpta-batch01-20260908/J1843-1113/run01/result.json",
+      "sha256": "b6f3e52b5c172697df0a4a0212e0f34105a5d4d8b02a9b1d3da6a4088257cc6b"
+    },
+    {
+      "path": "../Project Recherche Data/mpta-batch01-20260908/J1730-2304/run01/result.json",
+      "sha256": "84292ecf2773afd514c321d943e50b21081cf727fae1e28b1c557640d9fa8ebc"
+    },
+    {
+      "path": "../Project Recherche Data/mpta-batch01-20260908/J2010-1323/run01/result.json",
+      "sha256": "a00a412b41110ae4f346ef9bd0077d0af7a6dc331a4b4d86bf20ab8983b41d93"
+    },
+    {
+      "path": "../Project Recherche Data/mpta-batch01-20260908/J2124-3358/run01/result.json",
+      "sha256": "51ba9096f12910d6a8743d7d4ca897c4ca562f61eaebc85acbf7e298292e0518"
+    },
+    {
+      "path": "../Project Recherche Data/mpta-batch01-20260908/J0931-1902/run01/result.json",
+      "sha256": "1306dfdd0249a8398a99b68bc67e2b01b4e5d7ceaac8b5d5eb5086c9627c9ead"
+    },
+    {
+      "path": "../Project Recherche Data/five-companion-benchmark-20260908/J1719-1438/run01/result.json",
+      "sha256": "5755d312887ed25508631a2c9bf42ef5650ef23837e25620a05fbc89827856ff"
+    },
+    {
+      "path": "../Project Recherche Data/five-companion-benchmark-20260908/J2322-2650/run01/result.json",
+      "sha256": "2cf4126aa6b97bf0d52e8da9e2e18bde0de2ae71a6394b7a6b342e10ed36561c"
+    },
+    {
+      "path": "../Project Recherche Data/five-companion-benchmark-20260908/J1544+4937/run01/result.json",
+      "sha256": "c7850158c54d2942a1dfdd734256e859511daeb3a8f7bd595290646fcbbe2b12"
+    },
+    {
+      "path": "../Project Recherche Data/operational-20260908/observed-runs/pilot2-ioc-observed-b1937-20260908-01/result.json",
+      "sha256": "bca91e1a88ed79625b34a34e19f4063516ac1e49d46d17cad4e5e232c449978d"
+    },
+    {
+      "path": "../Project Recherche Data/b1257-benchmark-20260908/run01/result.json",
+      "sha256": "757070982c6d815fb8d0cc6b235073edb7f90b18d221859bd6a63d8bc8b0b39b"
+    },
+    {
+      "path": "../Project Recherche Data/b1257-benchmark-20260908/refinement01/result.json",
+      "sha256": "f30a2938425df6edc9984920db38037c798821f31c7073e69ff3da55a66f3854"
+    },
+    {
+      "path": "./results/observed/five-companion-20260908-closeout.json",
+      "sha256": "e99ebf0b12300b62e3e1152906bd182bbcce82ac9de01c2efb4fc9af4d2fcb05"
+    },
+    {
+      "path": "./docs/REHABILITATION_STATUS_2026-09-07.md",
+      "sha256": "2e53780e31d0c9aecfa69b032e47d8e520de183bbd8e0ab8516757e7957560f3"
+    },
+    {
+      "path": "./results/qualification/stage5-terminal-verification.json",
+      "sha256": "e30394ceedfefe3a5b70b46974976cbd0147f2f00131b45d68485ea30aa0636a"
+    },
+    {
+      "path": "./docs/SOLVER_PRECISION_REPAIR_2026-09-08.md",
+      "sha256": "44aa6275dfa8da5cf94209a8b3873ac7bd7ee67409a7efe9400622789749c64f"
+    },
+    {
+      "path": "./results/qualification/qualification02-terminal-verification.json",
+      "sha256": "396566833fb68ba1474aef75963ee984ed4f7b6e7a803ef0cc8e6640755f8b09"
+    },
+    {
+      "path": "./results/qualification/stage6-operational-verification.json",
+      "sha256": "ce750eeafbd9216d0fcc39c6ac3562efe5df254468ee9652152e4b1e01c6c527"
+    },
+    {
+      "path": "./results/observed/b1257-20260908-closeout.json",
+      "sha256": "947f3b92aec4134c9af5e40c22dd79d32e275b85e10e43a4557516a71f9e8c17"
+    },
+    {
+      "path": "./results/observed/b1257-20260908-closeout.json",
+      "sha256": "947f3b92aec4134c9af5e40c22dd79d32e275b85e10e43a4557516a71f9e8c17"
+    },
+    {
+      "path": "./results/calibration/automatic-calibration-20260908.json",
+      "sha256": "801eaa4f18d5d94866f88d3abc2ed8b0af91eee09925830b3610f9cc80454f08"
+    },
+    {
+      "path": "./results/observed/mpta-batch01-20260908-closeout.json",
+      "sha256": "649746bc8ff24b5a7f7b0d381af7776ecda738806d84b51c5052e37a87b7b94f"
+    },
+    {
+      "path": "./docs/FIVE_COMPANION_BENCHMARK_2026-09-08.md",
+      "sha256": "008e94563206911c469376e9f6ed88dade61d3d5b7781ccba3f0aa6887d1c7ac"
+    },
+    {
+      "path": "./docs/FIVE_COMPANION_BENCHMARK_2026-09-08.md",
+      "sha256": "008e94563206911c469376e9f6ed88dade61d3d5b7781ccba3f0aa6887d1c7ac"
+    },
+    {
+      "path": "./docs/OPERATIONAL_REHABILITATION_ROADMAP_2026-09-07.md",
+      "sha256": "e1700af29e3765f4c376253c23c775d3354739e63b4b7b92b1dc17a1f6653295"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "gate_id": "pilot1-tail-robustness-v0.1",
+  "status": "fail",
+  "score": "20_of_22",
+  "failed_hard_gates": [
+    "contamination_evaluation_false_positive_rate",
+    "contamination_evaluation_false_positive_upper_95"
+  ],
+  "thresholds": {
+    "initial_v0p1_delta_chi2": 23.33426855482562,
+    "contamination_calibration_delta_chi2": 22.110293000754876,
+    "frozen_robust_delta_chi2": 23.33426855482562
+  },
+  "contamination_evaluation": {
+    "false_positives": 7,
+    "trials": 500,
+    "false_positive_rate": 0.014,
+    "wilson_95_upper": 0.02861306913778529,
+    "maximum_rate": 0.01,
+    "maximum_wilson_95_upper": 0.025
+  },
+  "observed_nonperiodic_localization": {
+    "combined_projected_absolute_excess_kurtosis": 1.2621408345547698,
+    "toa_block_absolute_excess_kurtosis": 2.0499442954895493,
+    "dm_block_absolute_excess_kurtosis": 0.6872126890177328,
+    "maximum_leave_one_coordinate_reduction_fraction": 0.36666497625343764,
+    "top_one_squared_energy_fraction": 0.027717988614022998,
+    "top_five_squared_energy_fraction": 0.08703225715371132,
+    "largest_influence_block": "dm",
+    "largest_influence_absolute_value": 4.512411531155272,
+    "observed_frequency_grid_scanned": false
+  },
+  "recovery": {
+    "contaminated_cases": 160,
+    "detected": 125,
+    "frequency_recovery_rate_among_triggers": 1.0,
+    "periods_monotonic": 5,
+    "periods_bracketing_50_and_90_percent": 5,
+    "complete_refit_audits": 16,
+    "complete_refit_failures": 0,
+    "full_covariance_audits": 4,
+    "full_covariance_audit_failures": 0
+  },
+  "resources": {
+    "incremental_wall_hours": 0.11212491605333424,
+    "peak_memory_gib": 0.5994682312011719,
+    "complete_data_root_gib": 0.7676119077950716
+  },
+  "external_record": {
+    "logical_path": "run_records/pilot1/tail-robustness-v0.1-summary.json",
+    "bytes": 46398,
+    "sha256": "2871026b1aa71135f7d24ff9d53cccdbb9a95373aa49798f3699e9bf9eaedee5"
+  },
+  "observed_residual_periodic_search_executed": false,
+  "next_gate": "disjoint_tail_robustness_r1_threshold_rebaseline"
+}

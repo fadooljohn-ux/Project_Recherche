@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "threshold_id": "pilot1-global-max-delta-chi2-threshold-v0.1",
+  "status": "locked_before_sealed_evaluation",
+  "recorded_utc": "2026-08-09T05:28:00Z",
+  "calibration_id": "pilot1-calibration-null-v0.1",
+  "calibration_summary": {
+    "logical_path": "run_records/pilot1/calibration-null-v0.1-summary.json",
+    "bytes": 53026,
+    "sha256": "c954083c8ad5c26db684f80a8ef02867eb4669d1351b31eed9e1aa18be91073a"
+  },
+  "trigger_statistic": "global_maximum_delta_chi2",
+  "value_delta_chi2": 23.33426855482562,
+  "estimator": "conservative_nearest_rank",
+  "quantile": 0.99,
+  "rank": 990,
+  "sample_count": 1000,
+  "trigger_comparison": "strictly_greater_than_threshold",
+  "threshold_retuning_after_evaluation_authorized": false
+}

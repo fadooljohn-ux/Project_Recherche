@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot2-b1937-preflight-execution-r1-freeze-v0.2.1",
+  "status": "frozen_before_first_pilot2_preflight_execution",
+  "target": "B1937+21",
+  "authorization": "same_exact_preflight_corrective_implementation_retry_only",
+  "authorization_sha256": "394f0fc5c8450fd7455dbaae84070e2b5bd462106b7599d9edacc257163591c3",
+  "preserved_failed_execution_freeze_sha256": "1a5fb8728eeddb96bc9e4a63c565ec7671155845037828445bb4ea54009e615e",
+  "preserved_failed_attempt_sha256": "6211e85a36c8cfe3d5a5c83a1d2f7a99d8fcce0c2d0149f2e45f327528003f57",
+  "corrective_data_root": "Pulsar-Timing-Pilot-v0.2-r1",
+  "authorized_counts": {
+    "selected_product_extractions": 6,
+    "released_fit_reproductions": 1,
+    "synthetic_null_cases": 20,
+    "synthetic_injection_cases": 30,
+    "full_covariance_solver_audits": 10,
+    "observed_periodic_searches": 0
+  },
+  "observed_residual_access_authorized": "one_aggregate_fit_reproduction_without_periodic_scan",
+  "observed_periodic_search_authorized": false,
+  "threshold_calibration_authorized": false,
+  "scientific_sensitivity_claim_authorized": false,
+  "case_order_sha256": "a12b25b37c09e2b404f439e799bf9611a7f1c82b589395d856d5304210c3afcc",
+  "corrective_controls": {
+    "arecibo_clock_cache_preseeded_from_controlled_byte_identical_file": true,
+    "process_socket_network_block_required": true,
+    "new_network_download_bytes_maximum": 0,
+    "wideband_residual_accessor": "calc_wideband_resids",
+    "case_order_and_seeds_unchanged": true
+  },
+  "implementation_constants": {
+    "synthetic_search_period_minimum_days": 30.0,
+    "synthetic_search_period_maximum_days": 2000.0,
+    "synthetic_frequency_oversampling": 5,
+    "reference_epoch": "released_model_PEPOCH",
+    "maximum_fit_iterations": 20,
+    "application_error_maximum_microseconds": 0.001,
+    "solver_amplitude_difference_maximum_microseconds": 0.01,
+    "solver_phase_difference_maximum_radians": 0.001,
+    "solver_chi2_difference_maximum": 0.1,
+    "runtime_projection_reference_workload": {
+      "scans": 1784,
+      "primary_fits": 568,
+      "audits": 29
+    }
+  },
+  "frozen_sha256": {
+    "config/pilot2_preflight_v0.2.yaml": "44bdddd80912d284a94e7d8d60819bc37aa3699f50289386709e04ecf05bb9aa",
+    "protocol/PILOT2_PREFLIGHT_PROTOCOL_v0.2.md": "64901243f3fe110f9b47ae90e8bb2d8f6c3a948742b9d221a1ba795c99e6fe6d",
+    "protocol/PILOT2_SELECTION_AND_PREFLIGHT_FREEZE_v0.2.json": "35be1d8bb27b150e5a8846fd02e9236e0db1f281f9d944a77828a65954bf13c1",
+    "protocol/PILOT2_PREFLIGHT_EXECUTION_FREEZE_v0.2.json": "1a5fb8728eeddb96bc9e4a63c565ec7671155845037828445bb4ea54009e615e",
+    "protocol/PILOT2_PREFLIGHT_CORRECTIVE_AUTHORIZATION_v0.2.1.json": "394f0fc5c8450fd7455dbaae84070e2b5bd462106b7599d9edacc257163591c3",
+    "results/pilot2/target_selection_v0.2.json": "48c49d4a6d2cf2830240f243bb2c2c9295a39ddbe0c0c064bb65ae6e9a57c24b",
+    "results/pilot2/preflight_failed_attempt_v0.2.json": "6211e85a36c8cfe3d5a5c83a1d2f7a99d8fcce0c2d0149f2e45f327528003f57",
+    "src/pulsar_pilot/pilot2_preflight.py": "41bb58463739ae066cc1d12710973c6049d05b7d604da3099d60a26a696d5ef2",
+    "tests/test_pilot2_preflight.py": "9f5c16b15c1913f0c5163e6824da4538a652ba55564eedc7b7a92d3a494b6d7f",
+    "pixi.lock": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8"
+  },
+  "resource_caps": {
+    "wall_hours_maximum": 1.0,
+    "peak_memory_gib_maximum": 16.0,
+    "complete_data_root_gib_maximum": 1.5,
+    "additional_download_bytes_maximum": 0
+  },
+  "stop_after": "publish_preflight_result_without_full_calibration"
+}

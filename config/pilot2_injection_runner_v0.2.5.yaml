@@ -1,0 +1,100 @@
+schema_version: 1
+runner_id: pilot2-b1937-injection-runner-v0.2.5
+status: implementation_design_execution_not_authorized
+target: B1937+21
+data_root_generation: Pulsar-Timing-Pilot-v0.2.1
+inventory_policy: reuse_unexecuted_v0.2.3_inventory_without_seed_churn
+
+authority:
+  execution_authorized: false
+  observed_residual_access_authorized: false
+  observed_periodic_search_authorized: false
+  promotion_grade_authorized: false
+  discovery_claim_authorized: false
+
+predecessor_bindings:
+  threshold_lock:
+    logical_path: run_records/pilot2/calibration-threshold-lock-v0.2.1.json
+    sha256: 6e624af784aabd92ce8b28babdaed4c863ca12c94caad756da005f14bf9b5117
+  sealed_gaussian_result:
+    logical_path: run_records/pilot2/sealed-gaussian-evaluation-v0.2.1.json
+    sha256: f3a8677ea28255c7c06afd815fad1d911fcadde9a1fb0a4b2bf464f78aa59034
+  structured_tail_result:
+    logical_path: run_records/pilot2/structured-tail-evaluation-v0.2.1.json
+    sha256: 540f5d12496a02687253b3d0a64e63208c8df53d8cdae3f3935cc8da4fc0f252
+  v0.2.1_terminal_result:
+    logical_path: run_records/pilot2/injection-evaluation-v0.2.1.json
+    sha256: 06cf10aa00231ecac05abccbe491b21c074371d749f8cc88dccff8cf034fba8c
+  v0.2.1_final_ledger:
+    logical_path: run_records/pilot2/calibration-v0.2.1-ledger.json
+    sha256: cb13ffc749cd4bec1ab41dfcfe056850507d52546c9425e2b4fbfff49c1bc621
+  v0.2.2_execution_freeze:
+    logical_path: protocol/PILOT2_INJECTION_EXECUTION_FREEZE_v0.2.2.json
+    sha256: 9e247d3d3c2eba0edc936b2db778683257ae5888c1bd581f682dc074ba768d03
+  v0.2.2_crash_audit:
+    logical_path: results/pilot2/injection_v022_crash_audit.json
+    sha256: 6d58ef1be4a03969be41ee3e0d916adaa252ee5bfa42d7c23244f203f878b473
+  v0.2.2_ledger:
+    logical_path: run_records/pilot2/calibration-v0.2.2-ledger.json
+    sha256: 9d0c2c2d1bef17cd4197975b899fc46fa2866c2111eeeee9931234290afcde19
+  v0.2.2_health:
+    logical_path: run_records/pilot2/calibration-v0.2.2-health.json
+    sha256: 292113f3663d47e74d12484aea19d054414d3e96b28c05972647a48a99c7ecf8
+  v0.2.4_sol_audit_record:
+    logical_path: protocol/DEDICATED_SOL_AUDIT_RECORD_PILOT2_v0.2.4.json
+    sha256: a26c0c3f86d9c5bf1fec439b14c329fdf8e186ab8ab3dcdd7dda8f6417de1230
+  v0.2.4_sol_audit_disposition:
+    logical_path: results/pilot2/dedicated_sol_audit_disposition_v0.2.4.json
+    sha256: b6c13b3bed5aac604a5d4f4f94defec920128d73d370cf3917d99d5564b2f47d
+
+paths:
+  ledger: run_records/pilot2/calibration-v0.2.5-ledger.json
+  health: run_records/pilot2/calibration-v0.2.5-health.json
+  dashboard: derived/pilot2/calibration-v0.2.5-dashboard/index.html
+  setup_log: run_records/pilot2/injection-v0.2.5-setup.log
+  case_root: derived/pilot2/calibration-v0.2.5/injections
+  result: run_records/pilot2/injection-evaluation-v0.2.5.json
+
+inventory:
+  total_cases: 344
+  main_cases: 240
+  phase_reference_cases: 60
+  annual_cases: 28
+  boundary_cases: 16
+  solver_audit_cases: 35
+  execution_order: [main, phase_reference, annual, boundary]
+
+execution_controls:
+  checkpoint_every_cases: 25
+  heartbeat_interval_seconds: 30
+  heartbeat_stale_after_seconds: 90
+  passive_review_interval_seconds: 1800
+  resume_requires_inventory_and_implementation_hash_match: true
+  resume_requires_existing_artifact_hash_match: true
+  attempt_journal_before_random_draw_or_fit: true
+  attempt_journal_file_fsync_before_executor: true
+  attempt_journal_macos_fullfsync_before_executor: true
+  attempt_journal_parent_directory_fsync_before_executor: true
+  interrupted_attempt_without_verified_artifact: consumed_terminal_hard_stop
+  interrupted_attempt_with_verified_artifact: adopt_without_recomputation
+  interrupted_artifact_requires_complete_exact_schema: true
+  unexpected_exception_writes_terminal_hard_stop: true
+  all_post_stage_activation_operations_inside_terminal_boundary: true
+  user_interrupt_before_attempt_journal_is_resumable: true
+  user_interrupt_after_attempt_journal_requires_recovery_disposition: true
+  repository_authorization_verified_before_data_root_access: true
+  readiness_semantic_must_equal_pass: true
+  execution_freeze_contract_and_hashes_must_verify: true
+  frozen_hash_paths_must_match_exact_allowlist: true
+  frozen_hash_paths_must_be_repository_relative_and_confined: true
+  stage_outcomes_sealed_until_terminal: true
+  failed_stage_reroll_authorized: false
+  promotion_after_runner_authorized: false
+
+resource_caps:
+  wall_hours_maximum: 6.0
+  peak_memory_gib_maximum: 16.0
+  complete_data_root_gib_maximum: 1.5
+  additional_download_bytes_maximum: 0
+
+next_gate: implementation_and_readiness_freeze_then_separate_execution_authorization

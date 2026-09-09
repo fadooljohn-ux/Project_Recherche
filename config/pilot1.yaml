@@ -1,0 +1,105 @@
+schema_version: 1
+plan_id: pilot1-calibration-v0.1
+status: design_for_review
+execution_authorized: false
+target: J1744-1134
+dataset: nanograv_15yr_timing_v2.1.0
+scientific_role: calibrate_single_target_circular_signal_search
+
+detector:
+  trigger: covariance_whitened_gls_circular_scan
+  trigger_statistic: global_maximum_delta_chi2
+  covariance_source: released_white_and_PLRedNoise_model
+  timing_design_matrix_projected: true
+  grader: ProjectCircularSignal_joint_timing_refit
+  primary_solver: WidebandDownhillFitter_low_rank_covariance
+  audit_solver: WidebandTOAFitter_explicit_full_covariance
+  preserve_release_red_noise: true
+  wavex_allowed: false
+  false_alarm_probability_source: empirical_sealed_evaluation_nulls
+
+nulls:
+  construction: frozen_release_covariance_gaussian_realizations_at_actual_toas
+  calibration_count: 1000
+  sealed_evaluation_count: 500
+  calibration_seed: 17441135
+  sealed_evaluation_seed: 17441136
+  calibration_and_evaluation_sets_disjoint: true
+  threshold_quantile: 0.99
+  threshold_estimator: conservative_nearest_rank
+  trigger_comparison: strictly_greater_than_threshold
+  evaluation_binomial_interval: wilson_95_percent
+  minimum_empirical_resolution: 0.001
+
+injections:
+  reference_epoch_mjd_tdb: 56078.0
+  insertion_domain: toa
+  maximum_application_error_microseconds: 0.001
+  main_matrix:
+    periods_days: [50.0, 100.0, 200.0, 500.0, 1000.0]
+    amplitudes_microseconds: [0.5, 1.0, 2.0, 5.0]
+    phases_radians: [0.0, 1.5707963267948966, 3.141592653589793, 4.71238898038469]
+    covariance_noise_realizations_per_phase: 3
+  annual_identifiability_matrix:
+    periods_days: [300.0, 330.0, 350.0, 365.25, 380.0, 400.0, 450.0]
+    amplitudes_microseconds: [5.0]
+    phases_radians: [0.0, 1.5707963267948966, 3.141592653589793, 4.71238898038469]
+    covariance_noise_realizations_per_phase: 1
+  search_boundary_matrix:
+    periods_days: [30.0, 2000.0]
+    amplitudes_microseconds: [1.0, 5.0]
+    phases_radians: [0.0, 1.5707963267948966, 3.141592653589793, 4.71238898038469]
+    covariance_noise_realizations_per_phase: 1
+
+candidate_eligibility:
+  search_period_minimum_days: 30.0
+  search_period_maximum_days: 2000.0
+  maximum_signal_astrometry_correlation: 0.8
+  maximum_ordinary_model_absorption_fraction: 0.8
+  annual_mask_method: empirical_periodwise_identifiability_mask
+  masked_periods_are_reportable_as_sensitivity_gaps_only: true
+
+independent_audit:
+  deterministic_fraction: 0.10
+  selection_method: sha256_case_id_rank_lowest_fraction
+  amplitude_difference_maximum_microseconds: 0.01
+  phase_difference_maximum_radians: 0.001
+  chi2_difference_maximum: 0.1
+
+promotion_benchmarks:
+  evaluation_false_positive_rate_maximum: 0.01
+  evaluation_false_positive_rate_upper_95_maximum: 0.025
+  strong_control_amplitude_microseconds: 5.0
+  strong_control_recovery_rate_minimum: 0.90
+  injected_frequency_recovery_rate_minimum: 0.95
+  median_amplitude_bias_fraction_maximum: 0.10
+  phase_error_p90_maximum_radians: 0.10
+  minimum_periods_with_monotonic_detection_fraction: 3
+  minimum_periods_with_bracketed_50_and_90_percent_sensitivity: 3
+  annual_eligibility_violations_maximum: 0
+  independent_audit_failures_maximum: 0
+  unexpected_material_warnings_maximum: 0
+  null_whitened_variance_minimum: 0.90
+  null_whitened_variance_maximum: 1.10
+  null_maximum_absolute_ensemble_correlation: 0.10
+  published_100_day_reference_moon_masses: 0.56
+  projected_mass_pulsar_mass_solar: 1.4
+  published_100_day_sensitivity_ratio_minimum: 0.3333333333333333
+  published_100_day_sensitivity_ratio_maximum: 3.0
+
+resource_caps:
+  macbook_total_wall_hours: 4.0
+  peak_memory_gib: 16.0
+  complete_data_root_gib: 5.0
+  pilot0_average_fit_wall_seconds_for_planning: 8.473
+  pilot0_full_covariance_fit_wall_seconds_for_planning: 14.524
+  trigger_scan_seconds_per_case_allowance: 0.25
+
+promotion:
+  milestone: initial-v0.1
+  package_version_is_not_release_authorization: true
+  initial_scope: single_target_calibrated_research_pipeline
+  blind_real_data_search_during_calibration: false
+  promotion_requires_all_hard_benchmarks: true
+  post_promotion_search_requires_separate_freeze: true
+  discovery_claim_authorized: false

@@ -1,0 +1,64 @@
+{
+  "baseline_commit": "750a0b4239f22a2fc10bd7039f8b376236b1692a",
+  "stages_1_to_4": "complete",
+  "formal_qualification": "not_run",
+  "current_suite": {
+    "passed": 411,
+    "historical_checks_separated": 6
+  },
+  "historical_checks": {
+    "passed": 6,
+    "git_versions": 4
+  },
+  "final_affected_checks": {
+    "passed": 115,
+    "historical_checks_separated": 3
+  },
+  "fresh_environment_numerical_check": "pass",
+  "logs": {
+    "baseline-tests.txt": {
+      "path": "../Recherche Recovery/20260907T223404/baseline-tests.txt",
+      "sha256": "7011eeb4eabf17c10eec41ad542b74e91e1f1d4ba68ed5e7aa4ff16fee984af9"
+    },
+    "current-tests.txt": {
+      "path": "../Recherche Recovery/20260907T223404/current-tests.txt",
+      "sha256": "b864bd06d1e98de37bb3868b768272d817d0ca7aa25729aff59095bf5bbf7351"
+    },
+    "historical-tests.txt": {
+      "path": "../Recherche Recovery/20260907T223404/historical-tests.txt",
+      "sha256": "5c421d562406b718bcd732f30803db45c9d1a05514cfa422e21cb0fbf9371586"
+    },
+    "final-affected-tests.txt": {
+      "path": "../Recherche Recovery/20260907T223404/final-affected-tests.txt",
+      "sha256": "9f96de9406380537d64228701971087a9e19ea9506f0b6b2f82cc3efeb6d1336"
+    },
+    "reproduced-numerical-check.txt": {
+      "path": "../Recherche Recovery/20260907T223404/reproduced-numerical-check.txt",
+      "sha256": "a93ffdebbd524eee640a6c036a01064da3ccc78663605850ffb83c51a2d195c8"
+    },
+    "context-check.log": {
+      "path": "../Recherche Recovery/20260907T223404/context-check.log",
+      "sha256": "1f2546886aa470a68caed928707b871c6a7c7268188c1938867612cfbeb3b968"
+    },
+    "context-check-repaired.log": {
+      "path": "../Recherche Recovery/20260907T223404/context-check-repaired.log",
+      "sha256": "6cac825569cdf5a04b0acbf0f07f5ee04f19949d7e69acce6519e18bb7b1a60c"
+    },
+    "development-01.log": {
+      "path": "../Recherche Recovery/20260907T223404/development-01.log",
+      "sha256": "2cd45dd476b310bdb851d5562d20f44b2d260e94c5de9aacb4548a79154682eb"
+    },
+    "development-annual-02.log": {
+      "path": "../Recherche Recovery/20260907T223404/development-annual-02.log",
+      "sha256": "dcf288b015ddfb84d95a8e487c1f7cb232a8ebe6141690dc422c1171a1b3be81"
+    },
+    "development-stop-03.log": {
+      "path": "../Recherche Recovery/20260907T223404/development-stop-03.log",
+      "sha256": "b3a1080532aff1a1d6403f340ee9724d03c9cbbaf9f62b88ce16e17aab7140d4"
+    },
+    "environment-reproduction.log": {
+      "path": "../Recherche Recovery/20260907T223404/environment-reproduction.log",
+      "sha256": "06625b4f7e0d8703ffd76237794b6f9ec69184057e7b30e5ce98148201f651ed"
+    }
+  }
+}

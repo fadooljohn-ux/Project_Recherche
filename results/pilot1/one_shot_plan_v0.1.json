@@ -1,0 +1,45 @@
+{
+  "annual_mask": {
+    "masked_grid_frequencies_per_day": [
+      0.0028408954237001544,
+      0.002736079210698655,
+      0.0026312629976971555
+    ],
+    "masked_grid_indices": [
+      67,
+      64,
+      61
+    ],
+    "masked_grid_periods_days": [
+      352.00169343000294,
+      365.4864947220044,
+      380.0456286107417
+    ],
+    "selection_semantics": "nearest_period_cell_ties_to_lowest_index",
+    "target_periods_days": [
+      350.0,
+      365.25,
+      380.0
+    ]
+  },
+  "annual_mask_sha256": "512016d83cd6157a076f74ae1503ede38e505c60f947da94f81339f43f540c88",
+  "deletion_unit_inventory_sha256": "617809921a1598b120514273bbab9ce0374b322601fcdb96c346d75933164eb4",
+  "deletion_units": 749,
+  "frequency_grid": {
+    "algorithm": "linear_frequency_independent_bin_oversampling",
+    "frequency_count": 941,
+    "frequency_step_per_day": 3.493873766716648e-05,
+    "maximum_frequency_per_day": 0.03333333333333333,
+    "maximum_period_days": 2000.0,
+    "minimum_frequency_per_day": 0.0005,
+    "minimum_period_days": 30.0,
+    "oversampling": 5,
+    "span_days": 5724.305265554831
+  },
+  "frequency_grid_sha256": "437d0e1be27b9bd408c00ee9ceb898ebbfbfe027cfb149dfc00094a41d73e8b4",
+  "locked_threshold_delta_chi2": 23.33426855482562,
+  "observed_periodic_search_authorized": false,
+  "observed_residual_access_authorized": false,
+  "schema_version": 1,
+  "search_id": "pilot1-one-shot-observed-residual-search-v0.1"
+}

@@ -1,0 +1,80 @@
+schema_version: 1
+plan_id: pilot2-b1937-preflight-v0.2
+status: frozen_design_execution_not_authorized
+target: B1937+21
+scientific_role: second_pulsar_pipeline_generalization_preflight
+
+authority:
+  user_execution_authorization_required: true
+  observed_residual_reproduction_authorized: false
+  observed_periodic_search_authorized: false
+  threshold_calibration_authorized: false
+  external_adviser_role: passive_audit_and_recommendations_only
+
+source:
+  selection_result: results/pilot2/target_selection_v0.2.json
+  archive_logical_path: raw/zenodo-16051178/NANOGrav15yr_PulsarTiming_v2.1.0.tar.gz
+  archive_bytes: 638719668
+  archive_sha256: 91476bf20d4c8baa9f5ad39c6e114b581478a5a7e269876489cafc8f62c5708f
+  extract_only_hash_bound_selected_members: true
+  selected_member_count: 6
+  expected_selected_payload_bytes: 427936
+
+reproduction_gates:
+  active_toa_count_exact: 660
+  unique_floor_mjd_days_exact: 457
+  span_days_expected: 5798.043043897873
+  span_days_absolute_tolerance: 1.0e-6
+  median_toa_uncertainty_microseconds_expected: 0.008
+  median_toa_uncertainty_absolute_tolerance: 1.0e-12
+  released_red_noise_required: true
+  isolated_timing_model_required: true
+  model_and_toa_load_success_required: true
+  ordinary_wideband_fit_convergence_required: true
+  finite_timing_and_dm_residuals_required: true
+  unexpected_material_warnings_maximum: 0
+
+synthetic_benchmark:
+  total_unique_cases: 50
+  base_seed: 19372102
+  observed_residual_vector_used: false
+  threshold_locking_authorized: false
+  scientific_sensitivity_claim_authorized: false
+  null_cases: 20
+  injection_cases:
+    periods_days: [50.0, 200.0, 365.25, 1000.0, 2000.0]
+    amplitudes_microseconds: [1.0, 5.0]
+    phases_radians: [0.0, 2.0943951023931953, 4.1887902047863905]
+  explicit_full_covariance_audit:
+    selection: lowest_sha256_ranked_10_injection_case_ids
+    cases: 10
+  gates:
+    completed_cases_exact: 50
+    integrity_failures_maximum: 0
+    nonfinite_statistics_maximum: 0
+    solver_audit_failures_maximum: 0
+    projected_full_calibration_wall_hours_maximum: 6.0
+  diagnostics_not_gates:
+    - null_global_maxima_distribution
+    - injection_trigger_fraction
+    - injection_frequency_recovery_fraction
+    - annual_period_behavior
+    - search_boundary_behavior
+
+resources:
+  macbook_wall_hours_maximum: 1.0
+  peak_memory_gib_maximum: 16.0
+  complete_data_root_gib_maximum: 1.5
+  additional_download_bytes_maximum: 0
+
+stop_conditions:
+  - archive_or_member_hash_mismatch
+  - extraction_outside_dedicated_pilot2_root
+  - unexpected_file_extraction
+  - reproduction_gate_failure
+  - benchmark_integrity_or_solver_gate_failure
+  - wall_memory_or_storage_cap_exceeded
+  - any_observed_periodic_search_path_invoked
+
+next_gate_if_pass: separately_frozen_target_specific_full_calibration_design
+next_gate_if_fail: diagnose_and_rebaseline_without_observed_search

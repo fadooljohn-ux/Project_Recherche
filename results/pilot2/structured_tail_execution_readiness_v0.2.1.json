@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "assessment_id": "pilot2-b1937-structured-tail-execution-readiness-v0.2.1",
+  "recorded_utc": "2026-08-10T03:30:01Z",
+  "status": "pass",
+  "scope": "implementation_and_zero_case_readiness_only",
+  "inventory_sha256": "5dc1601881e58b64d5afd8f4a4236e441447155bfb9e6b9d03d58958b3331106",
+  "gaussian_implementation_sha256": "0dd97eb7319b722a04f581d7afc2ef73ac2bb7d6fec00e3c62a5e46d5baaf42a",
+  "structured_implementation_sha256": "27373b3642ac16817c1cc69bf66c4f5cc16aebb96d4bab469e48279f06763ceb",
+  "structured_implementation_freeze_sha256": "6e2d5ae4e443ca99182cbb24afa9f50d9b97a5bf642e714f92322b3d1212aee1",
+  "gaussian_prerequisites": {
+    "status": "pass",
+    "completed_cases": 7000,
+    "checkpoint_count": 280,
+    "case_artifact_ledger_verification": "pass",
+    "structured_cases_already_recorded": 0,
+    "threshold_lock_sha256": "6e624af784aabd92ce8b28babdaed4c863ca12c94caad756da005f14bf9b5117",
+    "sealed_evaluation_result_sha256": "f3a8677ea28255c7c06afd815fad1d911fcadde9a1fb0a4b2bf464f78aa59034"
+  },
+  "structured_inventory": {
+    "total_cases": 3000,
+    "cases_per_variant": 1000,
+    "variants": [
+      "timing_native_innovation_scale_mixture",
+      "dm_native_innovation_scale_mixture",
+      "clustered_utc_day_scale_mixture"
+    ],
+    "case_ids_and_seeds_frozen": true,
+    "reroll_authorized": false
+  },
+  "supervision_policy": {
+    "heartbeat_interval_seconds": 30,
+    "checkpoint_case_interval": 25,
+    "stale_after_seconds": 90,
+    "passive_review_interval_seconds": 900,
+    "codex_poll_while_heartbeat_fresh": false,
+    "scientific_outcomes_in_health_record": false,
+    "attention_events_only": [
+      "terminal_pass",
+      "terminal_fail",
+      "paused_or_interrupted",
+      "stale_attention_required"
+    ]
+  },
+  "estimated_execution": {
+    "structured_tail_wall_minutes_lower": 5,
+    "structured_tail_wall_minutes_upper": 20,
+    "estimate_status": "preexecution_estimate_not_benchmark",
+    "basis": "measured_7000_case_gaussian_run_plus_structured_generation_allowance"
+  },
+  "verification": {
+    "repository_tests": "158 passed",
+    "new_structured_tests": "7 passed",
+    "lint": "pass",
+    "zero_case_dry_run": "pass",
+    "recovery_test": "pass",
+    "execution_locked_before_setup_test": "pass",
+    "science_cases_executed": 0,
+    "random_draws_generated": 0,
+    "model_fits_executed": 0,
+    "periodic_scans_executed": 0
+  },
+  "scorecard": {
+    "overall": "PASS",
+    "passed": 15,
+    "total": 15,
+    "criteria": {
+      "additive_implementation_preserves_gaussian_freeze": "PASS",
+      "gaussian_prerequisite_artifact_integrity": "PASS",
+      "exact_3000_case_inventory": "PASS",
+      "three_disjoint_1000_case_variants": "PASS",
+      "threshold_hash_binding_and_no_retune": "PASS",
+      "resumable_artifact_ledger": "PASS",
+      "checkpoint_every_25_cases": "PASS",
+      "heartbeat_every_30_seconds": "PASS",
+      "stale_heartbeat_tripwire_at_90_seconds": "PASS",
+      "healthy_run_suppresses_codex_polling": "PASS",
+      "health_record_seals_scientific_outcomes": "PASS",
+      "hard_stop_controls": "PASS",
+      "authorization_required_before_setup": "PASS",
+      "observed_search_boundary": "PASS",
+      "zero_case_integrity_validation": "PASS"
+    }
+  },
+  "authority": {
+    "execution_authorized_by_this_artifact": false,
+    "structured_tail_execution_authorized": false,
+    "threshold_retuning_authorized": false,
+    "injection_evaluation_authorized": false,
+    "promotion_grade_authorized": false,
+    "observed_residual_access_authorized": false,
+    "observed_periodic_search_authorized": false,
+    "discovery_claim_authorized": false
+  },
+  "execution_gate_status": "locked_pending_explicit_user_authorization",
+  "disposition": "ready_for_separate_structured_tail_execution_authorization_freeze"
+}

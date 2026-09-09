@@ -1,0 +1,18 @@
+{
+  "target": "J1752-2806",
+  "created_utc": "2026-09-09T06:21:53.886205+00:00",
+  "result_path": "../Project Recherche Data/utmost-batch04-20260909/J1752-2806/run01/result.json",
+  "result_sha256": "95eeadd38dcb16ded708638fa9493b512365a4d82d13ff852081da5af89bb84a",
+  "next_step": "Bounded review complete; preserve noise-sensitive candidate. Await informative independent data and owner-directed follow-up.",
+  "entries": [
+    {
+      "id": "utmost-batch04-20260909-J1752-2806-review",
+      "kind": "CANDIDATE_DEEP_REVIEW",
+      "status": "INCONCLUSIVE_NOISE_SENSITIVE",
+      "summary": "The approximately 81.75-day signal survives every day deletion and has compatible early/late coefficients. However, its \u0394\u03c7\u00b2 falls from 57.67 to 1.81\u20132.28 under 32/64-mode red noise. The model-selected comparison retains statistic 25.91, with 0/512 null exceedances, because the preferred signal model returns to the released covariance while the preferred null uses steeper 64-mode noise. This model dependence warrants NOISE_SENSITIVE despite the interesting conditional tail. TPA has only 29.0% conditional detection power and no fixed-period support. That non-detection is underpowered and does not settle the candidate.",
+      "scope": "Four bounded steps; 512 nulls and 256 injections; existing TPA fixed-period comparison. Original search preserved.",
+      "source": "./docs/UTMOST_BATCH04_CANDIDATE_REVIEWS_2026-09-09.md",
+      "source_sha256": "0b461b3100c76127d2951a06261cd425bd322f4952c97c50331bdb726ce469c6"
+    }
+  ]
+}

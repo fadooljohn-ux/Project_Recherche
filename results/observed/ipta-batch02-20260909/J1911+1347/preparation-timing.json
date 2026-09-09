@@ -1,0 +1,61 @@
+{
+  "libstempo": "2.5.1",
+  "ephemeris": "DE436",
+  "clock": "TT(BIPM2015)",
+  "noise": {
+    "efac_JBO.DFB.1520": {
+      "value": 0.807678,
+      "flag": "group",
+      "flag_value": "JBO.DFB.1520"
+    },
+    "efac_NRT.BON.1400": {
+      "value": 0.857579,
+      "flag": "group",
+      "flag_value": "NRT.BON.1400"
+    },
+    "efac_NRT.BON.1600": {
+      "value": 1.18217,
+      "flag": "group",
+      "flag_value": "NRT.BON.1600"
+    },
+    "equad_JBO.DFB.1520": {
+      "value": 0.016968365095676077,
+      "flag": "group",
+      "flag_value": "JBO.DFB.1520"
+    },
+    "equad_NRT.BON.1400": {
+      "value": 0.5154659707832393,
+      "flag": "group",
+      "flag_value": "NRT.BON.1400"
+    },
+    "equad_NRT.BON.1600": {
+      "value": 0.00035746209801859364,
+      "flag": "group",
+      "flag_value": "NRT.BON.1600"
+    }
+  },
+  "longdouble_mantissa": 63,
+  "f0": "216.17123072376004031",
+  "pepoch": "54999.999816170382115",
+  "timing_names": [
+    "Offset",
+    "RAJ",
+    "DECJ",
+    "F0",
+    "F1",
+    "DM",
+    "DM1",
+    "DM2",
+    "PMRA",
+    "PMDEC",
+    "JUMP2",
+    "JUMP3"
+  ],
+  "derivative_relative_errors": {
+    "F0": 5.0265348364300604e-08,
+    "RAJ": 2.2764045845918378e-05,
+    "DM2": 3.0379803406810117e-06,
+    "JUMP2": 8.319627575058102e-12
+  },
+  "fit_performed": false
+}

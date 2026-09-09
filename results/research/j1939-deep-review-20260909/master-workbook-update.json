@@ -1,0 +1,28 @@
+{
+  "backup": "../Recherche Recovery/20260907T223404/master-workbook-history/99b7c9966639acf781fe487630cc0467e4459d51e374f719a202bcff808105f4.xlsx",
+  "batch": "../Project Recherche Data/pta-campaign01-20260908/inpta",
+  "changes": 6,
+  "completed": 0,
+  "counts": [
+    692,
+    221,
+    215,
+    4,
+    2,
+    469,
+    252,
+    2,
+    0
+  ],
+  "incomplete": 0,
+  "operation": "context_only",
+  "previous_sha256": "99b7c9966639acf781fe487630cc0467e4459d51e374f719a202bcff808105f4",
+  "selected": [
+    "J1730-2304",
+    "J1939+2134",
+    "J2124-3358"
+  ],
+  "sha256": "5f5049fca61abbd69c1694a4e0d82c7723c17a368453ec43d123a55cf883ec38",
+  "sheets": "{\"kind\":\"sheet\",\"id\":\"ws/06r3lh\",\"name\":\"Overview\",\"index\":0,\"range\":\"A1:E28\",\"address\":\"A1:E28\"}\n{\"kind\":\"sheet\",\"id\":\"ws/b6iwg8\",\"name\":\"Targets\",\"index\":1,\"range\":\"A1:T693\",\"address\":\"A1:T693\"}\n{\"kind\":\"sheet\",\"id\":\"ws/5z9hr1\",\"name\":\"Searches\",\"index\":2,\"range\":\"A1:V253\",\"address\":\"A1:V253\"}\n{\"kind\":\"sheet\",\"id\":\"ws/050clu\",\"name\":\"Work log\",\"index\":3,\"range\":\"A1:I86\",\"address\":\"A1:I86\"}",
+  "updated_utc": "2026-09-08T17:29:51.389Z"
+}

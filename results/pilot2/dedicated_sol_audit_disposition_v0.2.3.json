@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "audit_id": "dedicated-sol-audit-pilot2-v0.2.3-2026-08-10",
+  "target_commit": "a3db08b3776e4a6a4d144b0a5b0cd9f62b44baea",
+  "auditor_model": "gpt-5.6-sol",
+  "auditor_disposition": "hold",
+  "primary_disposition": "hold",
+  "execution_authorized": false,
+  "science_executed_during_audit": false,
+  "findings": [
+    {
+      "id": "SOL-V023-001",
+      "severity": "P1",
+      "title": "interruption_can_silently_rerun_a_consumed_case",
+      "primary_verification": "confirmed",
+      "evidence": [
+        "src/pulsar_pilot/pilot2_injection_runner_v023.py:408",
+        "src/pulsar_pilot/pilot2_injection_runner_v023.py:417",
+        "src/pulsar_pilot/pilot2_injection_runner_v023.py:438",
+        "src/pulsar_pilot/pilot2_injection_runner_v023.py:533"
+      ]
+    },
+    {
+      "id": "SOL-V023-002",
+      "severity": "P1",
+      "title": "execution_authorization_verification_is_incomplete_and_not_staged",
+      "primary_verification": "confirmed",
+      "evidence": [
+        "src/pulsar_pilot/pilot2_injection_runner_v023.py:193",
+        "src/pulsar_pilot/pilot2_injection_runner_v023.py:213"
+      ]
+    },
+    {
+      "id": "SOL-V023-003",
+      "severity": "P1",
+      "title": "readiness_verifier_does_not_require_a_passed_readiness_semantic",
+      "primary_verification": "confirmed",
+      "evidence": [
+        "src/pulsar_pilot/pilot2_injection_runner_v023.py:88",
+        "src/pulsar_pilot/pilot2_injection_runner_v023.py:128"
+      ]
+    },
+    {
+      "id": "SOL-V023-004",
+      "severity": "P1",
+      "title": "post_begin_exceptions_can_bypass_terminal_hard_stop",
+      "primary_verification": "confirmed",
+      "evidence": [
+        "src/pulsar_pilot/pilot2_injection_runner_v023.py:381",
+        "src/pulsar_pilot/pilot2_injection_runner_v023.py:387",
+        "src/pulsar_pilot/pilot2_injection_runner_v023.py:445"
+      ]
+    },
+    {
+      "id": "SOL-V023-005",
+      "severity": "P2",
+      "title": "validation_does_not_exercise_claimed_recovery_boundaries",
+      "primary_verification": "confirmed",
+      "evidence": [
+        "tests/test_pilot2_injection_runner_v023.py:115",
+        "tests/test_pilot2_injection_runner_v023.py:137",
+        "results/pilot2/injection_execution_readiness_v0.2.3.json:25"
+      ]
+    }
+  ],
+  "finding_counts": {"P0": 0, "P1": 4, "P2": 1, "P3": 0},
+  "current_execution_gate": "locked",
+  "execution_freeze_present": false,
+  "next_gate": "separate_user_authorization_for_zero_science_v0.2.4_remediation"
+}

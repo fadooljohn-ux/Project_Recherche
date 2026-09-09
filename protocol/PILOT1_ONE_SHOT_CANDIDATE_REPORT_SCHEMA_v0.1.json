@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "pilot1-one-shot-candidate-report-schema-v0.1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "search_id",
+    "execution_identity",
+    "detector",
+    "annual_mask",
+    "outcome",
+    "candidate_refits",
+    "deletion_diagnostics",
+    "mandatory_context",
+    "integrity",
+    "resources",
+    "authorization_boundary"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "search_id": {"const": "pilot1-one-shot-observed-residual-search-v0.1"},
+    "execution_identity": {
+      "type": "object",
+      "required": ["package_manifest_sha256", "freeze_sha256", "implementation_sha256", "fable_signoff_sha256", "user_authorization_sha256"]
+    },
+    "detector": {
+      "type": "object",
+      "required": ["locked_threshold_delta_chi2", "threshold_comparison", "period_minimum_days", "period_maximum_days", "frequency_count", "scan_count"]
+    },
+    "annual_mask": {
+      "type": "object",
+      "required": ["masked_grid_indices", "masked_grid_periods_days", "selection_semantics"]
+    },
+    "outcome": {
+      "type": "object",
+      "required": ["run_status", "candidate_present", "strongest_unmasked_statistic", "strongest_unmasked_frequency_per_day", "strongest_unmasked_period_days", "full_grid_maximum_statistic", "full_grid_maximum_masked"]
+    },
+    "candidate_refits": {
+      "type": ["object", "null"]
+    },
+    "deletion_diagnostics": {
+      "type": ["object", "null"],
+      "description": "Required for a threshold candidate; advisory only.",
+      "properties": {
+        "deletion_checks_as_hard_vetoes": {"const": false},
+        "paired_wideband_toa_row": {"$ref": "#/$defs/deletionMode"},
+        "all_rows_on_one_floor_mjd_utc_day": {"$ref": "#/$defs/deletionMode"}
+      }
+    },
+    "mandatory_context": {
+      "type": "object",
+      "required": ["original_tail_7_of_500", "r1_tail_7_of_1000", "clustered_day_16_of_1000", "clustered_day_wilson_95", "paired_row_false_veto_5_of_125", "paired_row_wilson_upper_95", "utc_day_false_veto_6_of_125", "utc_day_wilson_upper_95", "all_deletion_failures_amplitude_microseconds", "pooled_tail_role"]
+    },
+    "integrity": {
+      "type": "object",
+      "required": ["hashes_verified", "ordinary_refit_converged", "joint_refit_converged", "full_covariance_audit_passed", "warning_hygiene", "resource_envelope_passed", "observed_scan_count"]
+    },
+    "resources": {
+      "type": "object",
+      "required": ["wall_hours", "wall_hours_maximum", "peak_memory_gib", "peak_memory_gib_maximum", "complete_data_root_gib", "complete_data_root_gib_maximum", "envelope_tests"]
+    },
+    "authorization_boundary": {
+      "type": "object",
+      "required": ["single_execution_consumed", "additional_observed_search_authorized", "discovery_claim_authorized"]
+    }
+  },
+  "$defs": {
+    "deletionMode": {
+      "type": "object",
+      "required": ["unit_count", "minimum_trigger_statistic", "minimum_trigger_unit_id", "failed_stability_unit_count", "maximum_frequency_error_independent_bin_units", "mechanical_label", "candidate_authority"],
+      "properties": {
+        "mechanical_label": {"enum": ["DELETION_FRAGILE", "DELETION_STABLE"]},
+        "candidate_authority": {"const": "none_advisory_only"}
+      }
+    }
+  }
+}

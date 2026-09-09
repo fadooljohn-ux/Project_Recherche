@@ -1,0 +1,37 @@
+{
+  "evidence": "results/research/ipta-dr2-review-20260909/inventory.json",
+  "entries": [
+    [
+      "IPTA-DR2-20260909-INVENTORY",
+      "Source inventory",
+      "IPTA DR2 Version B; 65 targets",
+      "REVIEW COMPLETE",
+      "44 binary models; one wide companion; 20 isolated targets already searched in other releases.",
+      "Pinned public release; zero new isolated identities."
+    ],
+    [
+      "IPTA-DR2-20260909-COVERAGE",
+      "Coverage assessment",
+      "20 isolated IPTA datasets",
+      "14 COVERAGE CANDIDATES",
+      "14 meet duration/day criteria, with 40,088 TOAs. Six are too short. All 14 add unmatched site-days.",
+      "Overlap uses physical site and +/-1 observing day; unmatched rows do not alone prove independence."
+    ],
+    [
+      "IPTA-DR2-20260909-MODEL",
+      "Compatibility assessment",
+      "Legacy T2CMETHOD TEMPO",
+      "ADAPTER REQUIRED",
+      "All three model imports changed the timing convention. DE436, BIPM2015, clocks and noise bindings need preparation.",
+      "No fits, calibration or searches. Keep the qualified search solver unchanged."
+    ],
+    [
+      "IPTA-DR2-20260909-NEXT",
+      "Preparation recommendation",
+      "J1721-2457",
+      "NOT PREPARED OR LAUNCHED",
+      "Preferred bounded adapter target: 150 Nancay/Westerbork days over 12.76 years; prior search used MeerKAT.",
+      "J2010-1323 next; J1939+2134 separate follow-up. Binary support and J1752 NS follow-up deferred."
+    ]
+  ]
+}

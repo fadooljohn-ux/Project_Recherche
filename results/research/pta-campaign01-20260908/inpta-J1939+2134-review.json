@@ -1,0 +1,117 @@
+{
+  "code_sha256": "d6f792e42e4a9711edf3e092c1305be20c430aff2f2a2828229c9c4582d60fdf",
+  "created_utc": "2026-09-08T16:50:15.638269+00:00",
+  "diagnostics": {
+    "at_or_above_1400_MHz": {
+      "reason": "No residual degrees of freedom after nuisance projection",
+      "status": "UNIDENTIFIABLE",
+      "toas": 103
+    },
+    "below_1400_MHz": {
+      "amplitude_us": 1.9851959804682753,
+      "coefficient_covariance_us2": [
+        [
+          0.021673348869022464,
+          0.0012984370361325184
+        ],
+        [
+          0.0012984370361325199,
+          0.023995167424677374
+        ]
+      ],
+      "coefficients_us": [
+        -1.5988251523084098,
+        -1.1767587744365398
+      ],
+      "null_chi2": 3816.9279412326523,
+      "null_dof": 17923,
+      "null_reduced_chi2": 0.21296255879220288,
+      "period_days": 567.405409397045,
+      "statistic": 166.79991978384487,
+      "status": "FIT",
+      "toas": 18088
+    },
+    "first_half": {
+      "amplitude_us": 4.859991596248417,
+      "coefficient_covariance_us2": [
+        [
+          2.521740647312884,
+          -1.229790292901519
+        ],
+        [
+          -1.229790292901519,
+          2.069210023386938
+        ]
+      ],
+      "coefficients_us": [
+        -4.754373314770682,
+        1.0076967298754507
+      ],
+      "null_chi2": 593.3716975082074,
+      "null_dof": 6500,
+      "null_reduced_chi2": 0.09128795346280114,
+      "period_days": 567.405409397045,
+      "statistic": 10.13310321518361,
+      "status": "FIT",
+      "toas": 6572
+    },
+    "remove_largest_whitened_residual_day": {
+      "amplitude_us": 1.812626117990633,
+      "coefficient_covariance_us2": [
+        [
+          0.02002684375481652,
+          0.0010367081295460947
+        ],
+        [
+          0.001036708129546098,
+          0.02162026027154707
+        ]
+      ],
+      "coefficients_us": [
+        -1.4600391755872517,
+        -1.0741969323044496
+      ],
+      "null_chi2": 3816.8868650853574,
+      "null_dof": 17903,
+      "null_reduced_chi2": 0.2131981715402646,
+      "period_days": 567.405409397045,
+      "statistic": 152.682663495802,
+      "status": "FIT",
+      "toas": 18067
+    },
+    "second_half": {
+      "amplitude_us": 1.5575852487300168,
+      "coefficient_covariance_us2": [
+        [
+          0.04018229466749919,
+          0.01636695961373653
+        ],
+        [
+          0.01636695961373652,
+          0.08290472653021072
+        ]
+      ],
+      "coefficients_us": [
+        -1.5487469887294283,
+        0.1656942122190058
+      ],
+      "null_chi2": 3010.258432746182,
+      "null_dof": 11518,
+      "null_reduced_chi2": 0.2613525293233358,
+      "period_days": 567.405409397045,
+      "statistic": 68.01538627915397,
+      "status": "FIT",
+      "toas": 11619
+    }
+  },
+  "disposition": "UNCONFIRMED_PERIODIC_CANDIDATE",
+  "limitations": "Fixed source noise, source timing conversion and finite observing span; no planet confirmation or independent orbital validation.",
+  "noise_adequacy_flag": false,
+  "original_peak_period_days": 567.405409397045,
+  "original_result_sha256": "f027268999ab65e90ef34988839c628f7eb823b0253365c6f4dd8d774a5bf1d7",
+  "removed_day_mjd_tdb": 59994,
+  "removed_toas": 124,
+  "scope": "Descriptive fixed-frequency fits at the consumed grid peak; no new grid or threshold calibration. Split statistics are not judged against the full-data threshold.",
+  "source": "inpta",
+  "target": "J1939+2134"
+}

@@ -1,0 +1,136 @@
+{
+  "code_sha256": "8f274045dbe6033759cdd0ec76f7f21edecd3c87d661c6eff303a09fa3580b8e",
+  "created_utc": "2026-09-08T16:38:08.388489+00:00",
+  "diagnostics": {
+    "at_or_above_1400_MHz": {
+      "amplitude_us": 8.268496800319381,
+      "coefficient_covariance_us2": [
+        [
+          0.0017945476494937993,
+          7.134420214091138e-05
+        ],
+        [
+          7.134420214091138e-05,
+          0.0011539224801016767
+        ]
+      ],
+      "coefficients_us": [
+        7.220766830445577,
+        4.028469401302283
+      ],
+      "null_chi2": 5823061.610818564,
+      "null_dof": 1310,
+      "null_reduced_chi2": 4445.08519909814,
+      "period_days": 186.65497699315264,
+      "statistic": 41215.13496553991,
+      "status": "FIT",
+      "toas": 1338
+    },
+    "below_1400_MHz": {
+      "amplitude_us": 0.06924349752293536,
+      "coefficient_covariance_us2": [
+        [
+          0.003137451155214396,
+          -0.00011518411444807236
+        ],
+        [
+          -0.00011518411444807229,
+          0.0020437568476450252
+        ]
+      ],
+      "coefficients_us": [
+        0.01585576417634162,
+        0.06740368455502263
+      ],
+      "null_chi2": 620.9489893596369,
+      "null_dof": 589,
+      "null_reduced_chi2": 1.054242766315173,
+      "period_days": 186.65497699315264,
+      "statistic": 2.346374143492312,
+      "status": "FIT",
+      "toas": 611
+    },
+    "first_half": {
+      "amplitude_us": 0.2506991473193609,
+      "coefficient_covariance_us2": [
+        [
+          0.025714935626090216,
+          0.005259618254142615
+        ],
+        [
+          0.005259618254142622,
+          0.012997910805440634
+        ]
+      ],
+      "coefficients_us": [
+        -0.16896994843707672,
+        0.18520048323864124
+      ],
+      "null_chi2": 188.3300592011323,
+      "null_dof": 188,
+      "null_reduced_chi2": 1.001755634048576,
+      "period_days": 186.65497699315264,
+      "statistic": 5.161137543050387,
+      "status": "FIT",
+      "toas": 203
+    },
+    "remove_largest_whitened_residual_day": {
+      "amplitude_us": 0.016422659118386817,
+      "coefficient_covariance_us2": [
+        [
+          0.0013098560734840056,
+          -1.4948199413972587e-05
+        ],
+        [
+          -1.4948199413972593e-05,
+          0.0009021558603059142
+        ]
+      ],
+      "coefficients_us": [
+        0.003334957083393232,
+        0.016080478654898894
+      ],
+      "null_chi2": 1954.5732626793751,
+      "null_dof": 1913,
+      "null_reduced_chi2": 1.0217319721272218,
+      "period_days": 186.65497699315264,
+      "statistic": 0.2965303125661194,
+      "status": "FIT",
+      "toas": 1948
+    },
+    "second_half": {
+      "amplitude_us": 6.577152141907202,
+      "coefficient_covariance_us2": [
+        [
+          0.0017045965712236117,
+          -3.243897592499577e-05
+        ],
+        [
+          -3.243897592499582e-05,
+          0.0009916124144494134
+        ]
+      ],
+      "coefficients_us": [
+        5.955651405587121,
+        2.7909042679609493
+      ],
+      "null_chi2": 5963730.393599803,
+      "null_dof": 1711,
+      "null_reduced_chi2": 3485.5233159554664,
+      "period_days": 186.65497699315264,
+      "statistic": 29319.580922123045,
+      "status": "FIT",
+      "toas": 1746
+    }
+  },
+  "disposition": "INCONCLUSIVE_NOISE_SENSITIVE",
+  "limitations": "Fixed source noise, source timing conversion and finite observing span; no planet confirmation or independent orbital validation.",
+  "noise_adequacy_flag": true,
+  "original_peak_period_days": 186.65497699315264,
+  "original_result_sha256": "3af31634a916a5e9be32a12617d125c7e2ee7e330d016877012c0432030272b5",
+  "removed_day_mjd_tdb": 55211,
+  "removed_toas": 1,
+  "scope": "Descriptive fixed-frequency fits at the consumed grid peak; no new grid or threshold calibration. Split statistics are not judged against the full-data threshold.",
+  "source": "epta",
+  "target": "J1744-1134"
+}

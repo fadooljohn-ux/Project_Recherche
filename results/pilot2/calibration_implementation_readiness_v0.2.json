@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "assessment_id": "pilot2-b1937-calibration-implementation-readiness-v0.2",
+  "recorded_utc": "2026-08-09T14:17:36Z",
+  "status": "pass",
+  "scope": "runner_and_grader_implementation_only",
+  "inventory_sha256": "28bcd10edcf719c1d44cdef17dd8b200b332b127f13c8a1558b7b4b8acd69dc7",
+  "implementation_sha256": "2df7a506e9c927f07807d1fc67c6d3a9d2425f6422263e32aced6ab095bb6a37",
+  "scorecard": {
+    "overall": "PASS",
+    "passed": 12,
+    "total": 12,
+    "criteria": {
+      "repository_and_data_boundary": "PASS",
+      "execution_gate_fail_closed": "PASS",
+      "inventory_and_implementation_bound_resume": "PASS",
+      "artifact_ledger_sha256_verification": "PASS",
+      "checkpoint_every_25_cases": "PASS",
+      "heartbeat_every_30_seconds": "PASS",
+      "desktop_health_and_manual_refresh": "PASS",
+      "threshold_lock_before_sealed_evaluation": "PASS",
+      "structured_tail_grader": "PASS",
+      "injection_annual_map_and_promotion_graders": "PASS",
+      "interruption_and_corruption_recovery": "PASS",
+      "zero_case_integrity_validation": "PASS"
+    }
+  },
+  "verification": {
+    "full_test_suite": "138 passed",
+    "lint": "pass",
+    "changed_files_format": "pass",
+    "zero_case_dry_run": "pass",
+    "science_cases_executed": 0,
+    "random_draws_generated": 0,
+    "timing_model_fits_executed": 0,
+    "periodic_scans_executed": 0
+  },
+  "authority": {
+    "calibration_execution_authorized": false,
+    "observed_residual_access_authorized": false,
+    "observed_periodic_search_authorized": false,
+    "fable_review_required_for_this_phase": false,
+    "next_step_requires_separate_user_instruction": true
+  },
+  "disposition": "implementation_ready_for_separate_calibration_execution_freeze"
+}

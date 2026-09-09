@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot0-v0.4-stage-c-c1",
+  "previous_freeze_id": "pilot0-v0.3-stage-c-c0",
+  "status": "frozen_before_first_c1_run",
+  "recorded_utc": "2026-08-09T02:10:22Z",
+  "target": "J1744-1134",
+  "dataset": "nanograv_15yr_timing_v2.1.0",
+  "amendment": "A003",
+  "stage_c_authorization_sha256": "69bb2e9408e81699c0df035b7205d2792ea74b6e8abbe2038a8fbc3098876643",
+  "config_sha256": {
+    "config/target.yaml": "c6f051fdf883c6629883510b83c103ff9e46039e5a083994fc65b78cb6710937",
+    "config/injections.yaml": "c867dfb69b6abde92aef79bd585682306530d763a08f37149c10aead005e1027"
+  },
+  "authorized_cases": [
+    "C1"
+  ],
+  "blocked_cases": [
+    "C2",
+    "C3"
+  ],
+  "gate_c1": "not_run"
+}

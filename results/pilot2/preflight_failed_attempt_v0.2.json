@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "attempt_id": "pilot2-preflight-20260809T124110Z",
+  "status": "failed_pre_case_implementation_abort",
+  "target": "B1937+21",
+  "execution_freeze_sha256": "1a5fb8728eeddb96bc9e4a63c565ec7671155845037828445bb4ea54009e615e",
+  "completed_synthetic_cases": 0,
+  "completed_solver_audits": 0,
+  "observed_fit_reproduction_completed": false,
+  "observed_periodic_search_executed": false,
+  "threshold_calibration_executed": false,
+  "failure_class": "implementation_and_zero_download_control",
+  "failures": [
+    {
+      "id": "unexpected_network_download",
+      "detail": "PINT fetched time_ao.dat because its Astropy URL-cache entry was absent.",
+      "downloaded_bytes": 492183,
+      "downloaded_sha256": "7e1755bb794d84bb7e585d556dcf46fffde159ea5d7f9543cd54e7fcb55bf86d",
+      "controlled_clock_file_was_byte_identical": true
+    },
+    {
+      "id": "incompatible_residual_accessor",
+      "detail": "WidebandTOAResiduals has no calc_time_resids method in the pinned PINT release."
+    }
+  ],
+  "disposition": "preserved_failure_requires_corrective_r1_freeze_and_clean_data_root",
+  "failed_data_root": "Pulsar-Timing-Pilot-v0.2",
+  "corrective_data_root": "Pulsar-Timing-Pilot-v0.2-r1",
+  "run_log": {
+    "logical_path": "run_records/pilot2/pilot2-preflight-20260809T124110Z.log",
+    "bytes": 2177,
+    "sha256": "99de9c9883171ce4d17715d9b12aa086b8c97ba63010a5a41480e14c07a9f7b8"
+  }
+}

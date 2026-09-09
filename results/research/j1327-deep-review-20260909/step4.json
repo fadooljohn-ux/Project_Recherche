@@ -1,0 +1,36 @@
+{
+  "blind_search_executed": false,
+  "code_sha256": "37ac175db6e8a2e2c20f01476d46a086c65cee6eec00db955c39991f30432c30",
+  "completed_utc": "2026-09-09T05:00:52.202794+00:00",
+  "conditional_power_for_UTMOST_waveform_at_fixed_period_alpha_01": 0.11747257333603175,
+  "epochs": 12,
+  "fixed_period_fit": {
+    "amplitude_us": 86.66236742081458,
+    "coefficient_covariance_us2": [
+      [
+        15962.260943008687,
+        6176.532800974464
+      ],
+      [
+        6176.532800974468,
+        8372.555027225742
+      ]
+    ],
+    "delta_chi2": 0.8271466452519185,
+    "dof_null": 72,
+    "null_chi2": 69.63137426693831,
+    "period_days": 63.51198491255098,
+    "rank": 24,
+    "sin_cos_us": [
+      85.54648060463043,
+      -13.8623801398552
+    ]
+  },
+  "fixed_period_p": 0.6612830455933908,
+  "limit": "Independent later observations, only 12 epochs. Conditional fixed-period comparison, not a new campaign or phase-connected planet validation",
+  "preparation_sha256": "10a143db7f1d4c756eb18cb75d73787fe91ee6ba6e3b50c765800f137cceb8a6",
+  "profile_sha256": "4a92e88f2db6c21b3b49814ee0125d95de72592307ff1fddb28b5bd09ece536d",
+  "source": "Public TPA DR1",
+  "span_days": 477.73333949818334,
+  "toas": 96
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot1-first-50-corrective-replay-freeze-v0.2",
+  "status": "frozen_before_first_pilot1_synthetic_realization",
+  "recorded_utc": "2026-08-09T05:03:05Z",
+  "target": "J1744-1134",
+  "dataset": "nanograv_15yr_timing_v2.1.0",
+  "implementation_base_commit": "ef98ff3d1815afe6387d54653d81d2e5a7947df0",
+  "authorization": "same_first_50_corrective_replay_only",
+  "authorized_benchmark_id": "pilot1-first-50-corrective-replay-v0.2",
+  "authorized_case_count": 50,
+  "benchmark_order_sha256": "bf7edc08ba5634e234c2d95329942f4ca28ee3aa53109661b60d491b0438ac15",
+  "case_ids_seeds_order_unchanged_from_v0.1": true,
+  "scientific_thresholds_unchanged": true,
+  "sealed_evaluation_authorized": false,
+  "observed_residual_search_authorized": false,
+  "candidate_or_discovery_claim_authorized": false,
+  "promotion_evaluation_authorized": false,
+  "frozen_sha256": {
+    "src/pulsar_pilot/pilot1_benchmark.py": "d6939a4383b166a0e1c1f663008013c04d049dc69c9a2342428953be796467e9",
+    "tests/test_pilot1_benchmark.py": "c8b13784026e5b33ad8ebd27d73e798633dd301123cd1b2ad964008682f792ce",
+    "results/pilot1/benchmark50_r1_plan.json": "534cc130051a7c6b1bed18e7dd02241743c095161a8cd802b22b23511f3df666",
+    "docs/PILOT1_BENCHMARK50_R1_FREEZE.md": "648de369621f93051be4e60d05bb14f60997e04b057591e63eefd48010e8b328",
+    "results/pilot1/benchmark50_result_v0.1.json": "46397df4329b6278d7f8007f3e91153e5a418e5be6a800f19315422abc4e110f",
+    "docs/PILOT1_BENCHMARK50_RESULT_v0.1.md": "514ac4c949a6082fd8a0b0ca40f4f5a796119de3af6db434523e19c7b0c01b87",
+    "protocol/PILOT1_EXECUTION_FREEZE_v0.1.json": "518335a691ff81fb78dec3780e3c5744133dede722d626f06900dbb9d05dc140",
+    "config/pilot1.yaml": "c86ef883d806d629f993544d0689efc3acc39c16469e91432bdaf5b401966e94",
+    "config/target.yaml": "c6f051fdf883c6629883510b83c103ff9e46039e5a083994fc65b78cb6710937"
+  },
+  "pixi_lock_sha256": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8",
+  "correction": {
+    "failed_v0.1_gate": "toa_application_accuracy",
+    "old_metric": "mean-subtracted residual versus uncentered requested vector",
+    "new_hard_metric": "high-precision actual TOA adjustment versus requested adjustment",
+    "retained_diagnostic": "uncentered achieved residual versus requested residual"
+  },
+  "stop_rule": "any_failed_corrective_replay_scorecard_row_stops_progression",
+  "next_authorization_if_pass": "remaining_990_calibration_nulls_only"
+}

@@ -1,0 +1,49 @@
+{
+  "blind_search_executed": false,
+  "code_sha256": "d4ecde5a1a65c789ee6114806168e577eed7b24cd42942ab8fcb728a846fc89b",
+  "coefficient_contrast_chi2": 5.125318933387756,
+  "completed_utc": "2026-09-09T06:19:19.047420+00:00",
+  "conditional_coefficient_contrast_p": 0.07709942419768313,
+  "conditional_power_for_UTMOST_waveform_at_fixed_period_alpha_01": 0.29045803921548674,
+  "fixed_period_fit": {
+    "amplitude_us": 11.505875573424781,
+    "coefficient_covariance_us2": [
+      [
+        3531.554700929948,
+        -152.64857924700277
+      ],
+      [
+        -152.64857924700235,
+        3235.2943904905123
+      ]
+    ],
+    "delta_chi2": 0.04146243194509558,
+    "dof_null": 338,
+    "null_chi2": 340.9780401479223,
+    "period_days": 81.75186530200611,
+    "rank": 62,
+    "sin_cos_us": [
+      6.916891455347476,
+      9.19466069553815
+    ]
+  },
+  "fixed_period_p": 0.9794821983614488,
+  "gls_code_sha256": "b69eb86b1fc28da36dff4b6cece1d07c73324cabdb3b08419d1871f6177b844b",
+  "limit": "Different observations already searched in the earlier TPA campaign; fixed-period comparison only. Conditional known-noise and exact-period waveform prediction, not an independent discovery probability.",
+  "observed_sha256": "1f1e41920dbf3c8c107b6ae64478f05cd1b76300778f96cb545509c0af777110",
+  "observing_days": 50,
+  "preparation_sha256": "a3d4d86b7b384539937fbd4e1dd6c5e28a02a22b2c41154ea6e8d5f94df969b9",
+  "profile_sha256": "4cd4cdbaac50c71db325c46a1aa5f607a452c2a4f365ec7def9f24a9ff034f8e",
+  "source": "Saved public TPA DR1 observations",
+  "source_path": "../Project Recherche Data/tpa-batch09-20260908/J1752-2806",
+  "span_days": 1259.3787041009637,
+  "toas": 400,
+  "tpa_mjd_range": [
+    58787.783746763635,
+    60047.1624508646
+  ],
+  "utmost_mjd_range": [
+    56967.38272469896,
+    58427.208781512054
+  ]
+}

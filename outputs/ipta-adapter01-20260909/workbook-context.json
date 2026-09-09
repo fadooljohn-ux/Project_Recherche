@@ -1,0 +1,37 @@
+{
+  "evidence": "results/research/ipta-adapter01-20260909/closeout.json",
+  "entries": [
+    [
+      "IPTA-ADAPTER-20260909-REPAIRS",
+      "Adapter development",
+      "J1721-2457; IPTA DR2 Version B",
+      "LOCALIZED REPAIRS COMPLETE",
+      "Isolated Intel TEMPO2 runtime; space-free ephemeris path; explicit historical DM polynomial convention.",
+      "Original inputs and qualified Recherche source preserved. No binary support."
+    ],
+    [
+      "IPTA-ADAPTER-20260909-ATTEMPT02",
+      "Preparation attempt",
+      "J1721-2457; attempt02",
+      "FAILED; REPAIRED IN ATTEMPT03",
+      "Restricted clock package omitted legacy UT1 and date-dependent alternate GPS routes.",
+      "Failed evidence retained. Restored complete pinned clock resources and release overrides. No search launched."
+    ],
+    [
+      "IPTA-ADAPTER-20260909-ATTEMPT03",
+      "Timing/noise compatibility",
+      "J1721-2457; 150 TOAs",
+      "TIMING_NOISE_COMPATIBLE",
+      "Weighted RMS 17.7433 us; reduced chi-square 0.982058. Timing exports agree; covariance differences about 1e-15.",
+      "13 timing columns full rank; four finite-difference checks pass. Fixed released noise, not a planet result."
+    ],
+    [
+      "IPTA-ADAPTER-20260909-NEXT",
+      "Preparation closeout",
+      "J1721-2457",
+      "READY FOR CALIBRATION",
+      "Prepared timing, nuisance-design and covariance arrays; no threshold or sensitivity calibration yet.",
+      "Calibrate this target next. No period range frozen, search launched or J2010 expansion performed."
+    ]
+  ]
+}

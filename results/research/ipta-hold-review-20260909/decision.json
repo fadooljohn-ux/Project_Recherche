@@ -1,0 +1,28 @@
+{
+  "status": "PRIMARY_COMPARISON_RESOLVED",
+  "decision": "Replace historical summary equality with independently verified current fixed-model likelihood; retain historical differences",
+  "primary_targets": [
+    "J1843-1113",
+    "J0711-6830"
+  ],
+  "observation_changes": false,
+  "noise_parameter_changes": false,
+  "search_threshold_rule_changes": false,
+  "frozen_scientific_source_changes": false,
+  "code_sha256": {
+    "ipta_prepare.py": "ac1923efb8e2cc73f84a8c4c89d73264723315b5d2a88c950b50dbfc06af5e28",
+    "ipta_likelihood_audit.py": "edfe62a53afd1f324eff9579ecd9b30e1e23cc95f3d577828d4b9668c22a74cc",
+    "ipta_tempo2_reference.C": "c1045adcf0d16350fff9554ad01256477f320f222d10bdab70584b6c892240ed"
+  },
+  "source_evidence": {
+    "TEMPO2_reported_chi2": "Pinned reference/TKfit.C lines 430-440 sums data residuals, excluding prior constraint rows",
+    "publication": "https://academic.oup.com/mnras/article/490/4/4666/5586597"
+  },
+  "prior_note_correction": {
+    "file": "results/observed/ipta-batch02-20260909/bounded-preparation-diagnosis.json",
+    "target": "J1843-1113",
+    "incorrect_narrative_reduced_chi2": 0.94781902,
+    "correct_saved_reduced_chi2": 0.971980980460174,
+    "original_evidence_preserved": true
+  }
+}

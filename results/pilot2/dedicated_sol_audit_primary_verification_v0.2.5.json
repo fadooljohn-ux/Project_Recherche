@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "verification_id": "pilot2-b1937-v0.2.5-sol-audit-primary-verification",
+  "recorded_utc": "2026-08-10T11:42:01Z",
+  "target_commit": "96bfd5919cd538915e3f4177112452c34f5e8c65",
+  "status": "hold_confirmed",
+  "audit_report": "docs/audits/DEDICATED_SOL_AUDIT_PILOT2_v0.2.5_2026-08-10.md",
+  "audit_report_sha256": "6fc200b7bb0a17c3fa52a0f50aad2eb38b9382825fd1df4d63af511734da4ba7",
+  "findings": [
+    {
+      "finding_id": "SOL-V025-001",
+      "severity": "P1",
+      "primary_disposition": "confirmed",
+      "evidence": "input binding uses value equality for fields requiring concrete types; Python accepts False equal to 0 and integer shape lists equal to float shape lists; epoch, span, and count are not bound to a trusted original context"
+    },
+    {
+      "finding_id": "SOL-V025-002",
+      "severity": "P2",
+      "primary_disposition": "confirmed",
+      "evidence": "durable JSON recursively creates missing parents but synchronizes only the final containing directory; first-use case paths can introduce several unsynchronized ancestor entries"
+    }
+  ],
+  "prior_finding_disposition": {
+    "SOL-V024-001": "partial_remains_open",
+    "SOL-V024-002": "remains_open",
+    "SOL-V024-003": "closed"
+  },
+  "science_cases_executed": 0,
+  "random_draws_generated": 0,
+  "timing_model_fits_executed": 0,
+  "periodic_scans_executed": 0,
+  "external_data_roots_accessed": 0,
+  "scientific_outcomes_inspected": 0,
+  "execution_authorized": false,
+  "next_gate": "preserve_v0.2.5_hold_then_seek_direction_before_new_zero_science_remediation"
+}

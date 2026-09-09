@@ -1,0 +1,52 @@
+{
+  "status": "UPDATED",
+  "before_sha256": "f094ddd8d04874af9afb9c1382b2affd76d8858adea7422438bceaed5d5def7b",
+  "after_sha256": "612796225d3140f4d2f7b99eac1a978e47b512fab33b683549480038d023ce35",
+  "backup": "../Recherche Recovery/20260907T223404/master-workbook-history/f094ddd8d04874af9afb9c1382b2affd76d8858adea7422438bceaed5d5def7b.xlsx",
+  "inventory_sha256": "e003765efd49744a51395630bfa3f2444a30d78dffd2ae2191344a27b54a1318",
+  "targets_added": 0,
+  "work_log_rows_added": 1,
+  "searches_added": 0,
+  "historical_targets_preserved": true,
+  "historical_searches_preserved": true,
+  "historical_work_log_preserved": true,
+  "candidate_grades_preserved": true,
+  "overview": [
+    [
+      "Recorded work",
+      "Count"
+    ],
+    [
+      "Unique targets in register",
+      754
+    ],
+    [
+      "Targets with observed searches",
+      277
+    ],
+    [
+      "Original-search targets with no trigger",
+      266
+    ],
+    [
+      "Known-system targets with recovery",
+      4
+    ],
+    [
+      "Targets awaiting data",
+      2
+    ],
+    [
+      "Inventoried targets not searched",
+      475
+    ],
+    [
+      "Search / refinement records",
+      339
+    ],
+    [
+      "Current candidate targets",
+      7
+    ]
+  ]
+}

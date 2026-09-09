@@ -1,0 +1,51 @@
+schema_version: 1
+extension_id: pilot1-sensitivity-extension-v0.1
+status: frozen_design
+execution_authorized: false
+parent_plan: pilot1-calibration-v0.1
+target: J1744-1134
+dataset: nanograv_15yr_timing_v2.1.0
+
+matrix:
+  periods_days: [50.0, 100.0, 200.0, 500.0, 1000.0]
+  amplitudes_microseconds: [0.1, 0.2, 0.3, 0.4]
+  phases_radians: [0.0, 1.5707963267948966, 3.141592653589793, 4.71238898038469]
+  covariance_noise_realizations_per_phase: 3
+  base_seed: 17441139
+  case_count: 240
+
+independent_audit:
+  deterministic_fraction: 0.10
+  selection_method: sha256_case_id_rank_lowest_fraction
+  case_count: 24
+  amplitude_difference_maximum_microseconds: 0.01
+  phase_difference_maximum_radians: 0.001
+  chi2_difference_maximum: 0.1
+
+combination:
+  immutable_parent_amplitudes_microseconds: [0.5, 1.0, 2.0, 5.0]
+  recovered_definition: triggered_and_frequency_recovered
+  crossing_interpolation: linear_between_adjacent_sampled_detection_fractions
+
+hard_benchmarks:
+  minimum_periods_with_bracketed_50_and_90_percent_sensitivity: 3
+  extension_ordinary_fits_converged: true
+  extension_joint_fits_converged: true
+  injected_frequency_recovery_rate_minimum: 0.95
+  independent_audit_failures_maximum: 0
+  macbook_total_wall_hours_including_parent_maximum: 4.0
+  peak_memory_gib: 16.0
+  complete_data_root_gib: 5.0
+  observed_residual_search_executed: false
+
+published_reference_amendment:
+  original_value_moon_masses: 0.56
+  original_numeric_gate_outcome: fail_preserved
+  prospective_hard_gate: verified_noncomparable_contextual_reference
+  dossier: docs/PILOT1_REFERENCE_DISCREPANCY_DOSSIER_v0.1.md
+  numerical_ratio_is_promotion_gate: false
+
+promotion:
+  all_parent_hard_benchmarks_other_than_the_two_failed_rows_remain_binding: true
+  initial_v0p1_requires_all_amended_hard_benchmarks: true
+  observed_residual_periodic_search_authorized: false

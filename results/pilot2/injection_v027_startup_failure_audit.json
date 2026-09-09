@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "audit_id": "pilot2-b1937-v0.2.7-startup-failure-audit",
+  "recorded_utc": "2026-08-11T02:37:26Z",
+  "status": "terminal_failure_preserved",
+  "launch_commit": "90627cec0b5258ed04a000559b4210087ccdddac",
+  "execution_freeze_sha256": "8c45fe999b0c871d0cc383d47829aa175863a08d25bf00afef29f043f5dba5f8",
+  "authorized_data_root": "${RECHERCHE_ARCHIVE_ROOT}/Pulsar-Timing-Pilot-v0.2.1",
+  "launch_method": "managed_persistent_exec_session",
+  "process_exit_code": 1,
+  "failure_phase": "context_setup_before_first_attempt_journal",
+  "failure_class": "startup_clock_correction_dependency_blocked_by_network_denial",
+  "exception_type": "RuntimeError",
+  "exception_message": "Network access is disabled for the Pilot 2 preflight",
+  "root_cause_boundary": "PINT requested the global clock-correction index during release loading while the frozen network-denial control correctly rejected the connection",
+  "terminal_artifacts": {
+    "ledger": {
+      "logical_path": "run_records/pilot2/calibration-v0.2.7-ledger.json",
+      "bytes": 1164,
+      "sha256": "c0e67df3b5f257d8f0cac2a0222907007c8bbe827e49ea6f0e7e500d7b3fe60e"
+    },
+    "health": {
+      "logical_path": "run_records/pilot2/calibration-v0.2.7-health.json",
+      "bytes": 930,
+      "sha256": "ca16fcd38aa29ee7e7561b507c7ed2d0eab8b12b7c61893ee1ff990d48fb1b82"
+    },
+    "result": {
+      "logical_path": "run_records/pilot2/injection-evaluation-v0.2.7.json",
+      "bytes": 576,
+      "sha256": "7b9f2eb5b41b018a483cfe0e1de8be3e4789fc149995c64807cf4f9c4b101643"
+    },
+    "setup_log": {
+      "logical_path": "run_records/pilot2/injection-v0.2.7-setup.log",
+      "bytes": 299,
+      "sha256": "f2a62e4626b74dedfb991b7683455c8c11356ae7c090f93ce8882976e8a46921"
+    }
+  },
+  "integrity": {
+    "completed_case_records": 0,
+    "active_attempt": false,
+    "case_root_created": false,
+    "random_draws_generated": 0,
+    "timing_model_fits_executed": 0,
+    "periodic_scans_executed": 0,
+    "partial_scientific_metrics_recorded": false,
+    "observed_residual_vector_used": false,
+    "promotion_grade_executed": false,
+    "hard_stop_present": true,
+    "runtime_active": false
+  },
+  "restart_attempted": false,
+  "reroll_attempted": false,
+  "retuning_attempted": false,
+  "remediation_attempted": false,
+  "next_gate": "wait_for_user_guidance_before_incident_analysis_or_new_version"
+}

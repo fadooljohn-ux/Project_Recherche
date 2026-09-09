@@ -1,0 +1,283 @@
+{
+  "created_utc": "2026-09-08T11:27:56.332890+00:00",
+  "original_hashes": {
+    "mk2utc_observatory.clk": "932e6711c105f8502b5eeb740c9b1b8b8129ad766527c0b957de04cbe0c1766e",
+    "mpta-partim.tar.gz": "172eb9472f4788f22bfe3b24faad2dc0169fca680b80340e4c829201fdafc393",
+    "tai2tt_bipm2020.clk": "5b77068b5fd5407c7349227e27a73400357ba60902659045866ea6cd5023be49"
+  },
+  "policy": {
+    "detection_probability": 0.95,
+    "false_alarm_probability": 0.01,
+    "maximum_condition_number": 10000000000.0,
+    "maximum_period_days": 400.0,
+    "minimum_period_days": 30.0,
+    "minimum_retained_power": 0.2,
+    "null_count": 4096,
+    "oversampling": 5,
+    "search_count": 4,
+    "seed": 2026091000
+  },
+  "purpose": "Chromatic support development and conditional calibration; no observed search",
+  "rows": [
+    {
+      "batch_index": 0,
+      "chromatic_support": {
+        "event": {
+          "center_mjd": 60008.81,
+          "index": 6.93,
+          "kind": "gaussian",
+          "width_days": 661.02
+        },
+        "published_table_row": [
+          "J1721-2457",
+          "{-6.69}_{-2.29}^{+0.59}",
+          "{6.93}_{-4.55}^{+4.66}",
+          "{60008.81}_{-699.10}^{+55.30}",
+          "{661.02}_{-440.62}^{+361.53}",
+          "+",
+          "",
+          "",
+          ""
+        ],
+        "schema": "recherche-chromatic-v1",
+        "source": "https://arxiv.org/html/2412.01148v1#S3.SS7",
+        "table_sha256": "29af525cb4f944cfd2765f05914f65382cc480e67f77a68d119c6361aa7d3097"
+      },
+      "epochs": 66,
+      "exclusion_reasons": [
+        "published_deterministic_chromatic_structure"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -12.92,
+        "dm_amplitude": -12.88,
+        "dm_gamma": 4.32,
+        "efac": 1.07,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 9.88,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "769d739b33c19a0d2f9d4276a0457be38e05b33c9205c2e1dd127cb7103cf7ca",
+      "precision_proxy_us": 0.3528141966146851,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.3528141966146851,
+        "J1721-2457"
+      ],
+      "selected": true,
+      "span_days": 1206.706458026878,
+      "target": "J1721-2457",
+      "tim_sha256": "b9404a9b5c0dde85e122cc7cd5d494d519d610623d739e67820b37d9a615947b",
+      "toas": 2112
+    },
+    {
+      "batch_index": 1,
+      "chromatic_support": {
+        "event": {
+          "center_mjd": 58729.18,
+          "index": 3.21,
+          "kind": "gaussian",
+          "width_days": 1204.83
+        },
+        "published_table_row": [
+          "J1832-0836",
+          "{-5.64}_{-0.18}^{+0.55}",
+          "{3.21}_{-0.74}^{+1.00}",
+          "{58729.18}_{-80.10}^{+356.38}",
+          "{1204.83}_{-388.03}^{+230.77}",
+          "+",
+          "",
+          "",
+          ""
+        ],
+        "schema": "recherche-chromatic-v1",
+        "source": "https://arxiv.org/html/2412.01148v1#S3.SS7",
+        "table_sha256": "29af525cb4f944cfd2765f05914f65382cc480e67f77a68d119c6361aa7d3097"
+      },
+      "epochs": 76,
+      "exclusion_reasons": [
+        "published_deterministic_chromatic_structure"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.87,
+        "dm_amplitude": -12.83,
+        "dm_gamma": 2.55,
+        "efac": 0.98,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "1fc3a14bb62de6c7624aad0f9c2216743ed979be5a95eb37ce1c30574a092ea1",
+      "precision_proxy_us": 0.10754701183403717,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": true
+      },
+      "rank_key": [
+        2,
+        0,
+        0.10754701183403717,
+        "J1832-0836"
+      ],
+      "selected": true,
+      "span_days": 1564.9348395179404,
+      "target": "J1832-0836",
+      "tim_sha256": "300b7aa216c13102ceffb0006d956c8a80fb12465ec9dc143b7900d1665469d4",
+      "toas": 1949
+    },
+    {
+      "batch_index": 2,
+      "chromatic_support": {
+        "event": {
+          "center_mjd": 59149.1,
+          "index": 1.03,
+          "kind": "gaussian",
+          "width_days": 1320.09
+        },
+        "published_table_row": [
+          "J1747-4036",
+          "{-4.46}_{-0.04}^{+0.34}",
+          "{1.03}_{-0.71}^{+0.56}",
+          "{59149.10}_{-251.23}^{+394.24}",
+          "{1320.09}_{-460.96}^{+89.80}",
+          "-",
+          "",
+          "",
+          ""
+        ],
+        "schema": "recherche-chromatic-v1",
+        "source": "https://arxiv.org/html/2412.01148v1#S3.SS7",
+        "table_sha256": "29af525cb4f944cfd2765f05914f65382cc480e67f77a68d119c6361aa7d3097"
+      },
+      "epochs": 97,
+      "exclusion_reasons": [
+        "published_deterministic_chromatic_structure",
+        "published_scattering_process"
+      ],
+      "noise": {
+        "chrom_amplitude": -12.97,
+        "chrom_gamma": 2.61,
+        "chrom_index": 4.05,
+        "common_amplitude": -12.88,
+        "dm_amplitude": -12.83,
+        "dm_gamma": 1.41,
+        "efac": 1.04,
+        "log10_ecorr": null,
+        "log10_equad": -6.31,
+        "red_amplitude": -12.65,
+        "red_gamma": 2.48,
+        "solar_density": 18.17,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "fe0368fba0ac53ba05e15b3b1f8717848755428497667bcb943b7d1a244adbf5",
+      "precision_proxy_us": 0.17844326685482537,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": true
+      },
+      "rank_key": [
+        1,
+        1,
+        0.17844326685482537,
+        "J1747-4036"
+      ],
+      "selected": true,
+      "span_days": 1489.2031041415976,
+      "target": "J1747-4036",
+      "tim_sha256": "f12c8f1b2600c10910a10b0d5ac1dd7e26261981a353af3c8598c4e8f0efc03e",
+      "toas": 3098
+    },
+    {
+      "batch_index": 3,
+      "chromatic_support": {
+        "event": {
+          "index": 4.84,
+          "kind": "annual"
+        },
+        "published_table_row": [
+          "J1804-2858",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "{-5.78}_{-11.37}^{+0.18}",
+          "{4.84}_{-2.10}^{+6.20}",
+          "{1.41}_{-0.40}^{+3.51}"
+        ],
+        "schema": "recherche-chromatic-v1",
+        "source": "https://arxiv.org/html/2412.01148v1#S3.SS7",
+        "table_sha256": "29af525cb4f944cfd2765f05914f65382cc480e67f77a68d119c6361aa7d3097"
+      },
+      "epochs": 68,
+      "exclusion_reasons": [
+        "published_deterministic_chromatic_structure",
+        "published_scattering_process"
+      ],
+      "noise": {
+        "chrom_amplitude": -12.56,
+        "chrom_gamma": 1.87,
+        "chrom_index": 6.26,
+        "common_amplitude": -15.68,
+        "dm_amplitude": -11.47,
+        "dm_gamma": 4.02,
+        "efac": 1.07,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": -11.93,
+        "red_gamma": 2.13,
+        "solar_density": 5.3,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "3cb832c10f4b5d77a547461287d16595c4abeb0d6319f5336993d7ff9820aea9",
+      "precision_proxy_us": 0.36267130576273376,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        1,
+        0.36267130576273376,
+        "J1804-2858"
+      ],
+      "selected": true,
+      "span_days": 1447.0795662550881,
+      "target": "J1804-2858",
+      "tim_sha256": "5840250c79138a51054baee7b8af1a9a412903fc07630e63b23070091cf3a3c2",
+      "toas": 2167
+    }
+  ],
+  "selected": [
+    "J1721-2457",
+    "J1832-0836",
+    "J1747-4036",
+    "J1804-2858"
+  ],
+  "source_evidence_root": "../Project Recherche Data/mpta-batch01-20260908",
+  "source_selection_sha256": "c7019cba9baaf2fa7bc792a2c66ba62417be412436fa4e73f9c6af6e3e866ed6"
+}

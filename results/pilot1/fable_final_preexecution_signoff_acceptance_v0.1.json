@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "record_type": "fable-final-preexecution-signoff-acceptance-v0.1",
+  "status": "pass_awaiting_explicit_user_execution_authorization",
+  "reviewer_record": {
+    "path": "protocol/FABLE_FINAL_PREEXECUTION_SIGNOFF_v0.1.json",
+    "sha256": "e3aa4ba1430ec31064707c7bebecf93e595aa0e2a11ac0ecd67ebecdb516ac5b",
+    "reviewer": "Claude Fable 5",
+    "review_date": "2026-08-09",
+    "verdict": "PASS",
+    "no_conditions_remaining": true,
+    "observed_periodic_content_inspected": false
+  },
+  "score": {
+    "overall": "PASS",
+    "passed": 10,
+    "total": 10
+  },
+  "criteria": [
+    {"id": "F01", "test": "reviewer identity exact", "outcome": "PASS"},
+    {"id": "F02", "test": "unconditional PASS verdict", "outcome": "PASS"},
+    {"id": "F03", "test": "no conditions remaining", "outcome": "PASS"},
+    {"id": "F04", "test": "observed periodic content not inspected", "outcome": "PASS"},
+    {"id": "F05", "test": "package manifest hash exact", "outcome": "PASS"},
+    {"id": "F06", "test": "one-shot freeze hash exact", "outcome": "PASS"},
+    {"id": "F07", "test": "implementation hash exact", "outcome": "PASS"},
+    {"id": "F08", "test": "candidate schema hash exact", "outcome": "PASS"},
+    {"id": "F09", "test": "package and external prerequisites verify", "outcome": "PASS"},
+    {"id": "F10", "test": "98 tests and static checks pass", "outcome": "PASS"}
+  ],
+  "execution_boundary": {
+    "observed_residual_access_executed": false,
+    "observed_periodic_search_executed": false,
+    "one_shot_intent_present": false,
+    "one_shot_result_present": false,
+    "explicit_user_authorization_present": false,
+    "execution_state": "locked_awaiting_explicit_user_authorization"
+  },
+  "next_gate": "explicit_user_authorization_for_exactly_one_observed_residual_search_v0.1"
+}

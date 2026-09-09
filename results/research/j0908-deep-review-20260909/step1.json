@@ -1,0 +1,834 @@
+{
+  "candidate_added_after_harmonic": 17.443516481914283,
+  "code_sha256": "d4ecde5a1a65c789ee6114806168e577eed7b24cd42942ab8fcb728a846fc89b",
+  "completed_utc": "2026-09-09T06:19:03.830716+00:00",
+  "gls_code_sha256": "b69eb86b1fc28da36dff4b6cece1d07c73324cabdb3b08419d1871f6177b844b",
+  "leave_one_day_out": [
+    {
+      "amplitude_us": 50.232006708953854,
+      "removed_day": 57171,
+      "statistic": 28.80938905374467
+    },
+    {
+      "amplitude_us": 48.869530891968665,
+      "removed_day": 57180,
+      "statistic": 27.160018162748933
+    },
+    {
+      "amplitude_us": 45.043966701662086,
+      "removed_day": 57221,
+      "statistic": 20.92443010322171
+    },
+    {
+      "amplitude_us": 48.18889660321512,
+      "removed_day": 57290,
+      "statistic": 25.357373912064
+    },
+    {
+      "amplitude_us": 48.97326692533342,
+      "removed_day": 57292,
+      "statistic": 27.242757691775747
+    },
+    {
+      "amplitude_us": 49.94626371544709,
+      "removed_day": 57298,
+      "statistic": 28.45819227589353
+    },
+    {
+      "amplitude_us": 49.699068366663084,
+      "removed_day": 57311,
+      "statistic": 28.158194632593045
+    },
+    {
+      "amplitude_us": 49.61591006406975,
+      "removed_day": 57312,
+      "statistic": 28.05470525076251
+    },
+    {
+      "amplitude_us": 50.53431508081292,
+      "removed_day": 57326,
+      "statistic": 28.886550480888964
+    },
+    {
+      "amplitude_us": 47.32039393443308,
+      "removed_day": 57330,
+      "statistic": 24.732383220160266
+    },
+    {
+      "amplitude_us": 48.48908839361381,
+      "removed_day": 57332,
+      "statistic": 26.473050069770075
+    },
+    {
+      "amplitude_us": 49.74454180185595,
+      "removed_day": 57340,
+      "statistic": 28.095483474238698
+    },
+    {
+      "amplitude_us": 49.63141783954175,
+      "removed_day": 57346,
+      "statistic": 27.79247660316686
+    },
+    {
+      "amplitude_us": 50.06178659775792,
+      "removed_day": 57350,
+      "statistic": 28.479850310373187
+    },
+    {
+      "amplitude_us": 49.571315553683334,
+      "removed_day": 57356,
+      "statistic": 28.080526874420578
+    },
+    {
+      "amplitude_us": 49.61190604229222,
+      "removed_day": 57359,
+      "statistic": 28.062364406772915
+    },
+    {
+      "amplitude_us": 49.6449932712568,
+      "removed_day": 57366,
+      "statistic": 27.809127436272554
+    },
+    {
+      "amplitude_us": 49.231202698781885,
+      "removed_day": 57367,
+      "statistic": 27.144182125538606
+    },
+    {
+      "amplitude_us": 50.31811856339202,
+      "removed_day": 57368,
+      "statistic": 28.578600552104454
+    },
+    {
+      "amplitude_us": 47.43957604382387,
+      "removed_day": 57375,
+      "statistic": 25.204382626854073
+    },
+    {
+      "amplitude_us": 49.840768085840715,
+      "removed_day": 57396,
+      "statistic": 28.306754366805787
+    },
+    {
+      "amplitude_us": 49.77446648715619,
+      "removed_day": 57402,
+      "statistic": 28.290669073635442
+    },
+    {
+      "amplitude_us": 49.654528954761965,
+      "removed_day": 57405,
+      "statistic": 28.1032151904244
+    },
+    {
+      "amplitude_us": 49.907943157310555,
+      "removed_day": 57407,
+      "statistic": 28.41387457054888
+    },
+    {
+      "amplitude_us": 49.40706148462691,
+      "removed_day": 57409,
+      "statistic": 27.763159526074723
+    },
+    {
+      "amplitude_us": 48.76444004189046,
+      "removed_day": 57412,
+      "statistic": 27.004618921817816
+    },
+    {
+      "amplitude_us": 51.304062475650994,
+      "removed_day": 57419,
+      "statistic": 29.923570929110205
+    },
+    {
+      "amplitude_us": 50.15259960409304,
+      "removed_day": 57422,
+      "statistic": 28.317118954723398
+    },
+    {
+      "amplitude_us": 49.611108856499264,
+      "removed_day": 57428,
+      "statistic": 27.8729275092146
+    },
+    {
+      "amplitude_us": 49.8896357338085,
+      "removed_day": 57430,
+      "statistic": 28.336381449708952
+    },
+    {
+      "amplitude_us": 49.594769726148385,
+      "removed_day": 57432,
+      "statistic": 27.82129808779585
+    },
+    {
+      "amplitude_us": 49.55496407174533,
+      "removed_day": 57437,
+      "statistic": 27.955020172458596
+    },
+    {
+      "amplitude_us": 49.46753983059339,
+      "removed_day": 57438,
+      "statistic": 27.883072855677778
+    },
+    {
+      "amplitude_us": 49.81041874543554,
+      "removed_day": 57440,
+      "statistic": 28.306113125479754
+    },
+    {
+      "amplitude_us": 49.787076414456294,
+      "removed_day": 57442,
+      "statistic": 28.298972027288684
+    },
+    {
+      "amplitude_us": 49.84627792908311,
+      "removed_day": 57444,
+      "statistic": 28.374939799095294
+    },
+    {
+      "amplitude_us": 49.693914932620345,
+      "removed_day": 57445,
+      "statistic": 28.168920841609108
+    },
+    {
+      "amplitude_us": 49.70443129536511,
+      "removed_day": 57446,
+      "statistic": 28.145877505988935
+    },
+    {
+      "amplitude_us": 49.964607596490076,
+      "removed_day": 57447,
+      "statistic": 28.4216171988026
+    },
+    {
+      "amplitude_us": 49.314381415950486,
+      "removed_day": 57449,
+      "statistic": 27.566138229638973
+    },
+    {
+      "amplitude_us": 50.39706804872774,
+      "removed_day": 57457,
+      "statistic": 28.795881101408
+    },
+    {
+      "amplitude_us": 50.77630067417905,
+      "removed_day": 57458,
+      "statistic": 28.786426992921847
+    },
+    {
+      "amplitude_us": 48.82805189845029,
+      "removed_day": 57492,
+      "statistic": 27.115467113424444
+    },
+    {
+      "amplitude_us": 49.15857070053776,
+      "removed_day": 57494,
+      "statistic": 27.608029305505134
+    },
+    {
+      "amplitude_us": 49.727495725472686,
+      "removed_day": 57495,
+      "statistic": 28.21364369211952
+    },
+    {
+      "amplitude_us": 49.56970092065908,
+      "removed_day": 57496,
+      "statistic": 28.07071160938206
+    },
+    {
+      "amplitude_us": 49.65915643368823,
+      "removed_day": 57497,
+      "statistic": 28.180860543334227
+    },
+    {
+      "amplitude_us": 50.51841614485194,
+      "removed_day": 57512,
+      "statistic": 29.065463328334292
+    },
+    {
+      "amplitude_us": 48.59874007775483,
+      "removed_day": 57528,
+      "statistic": 26.49027145702903
+    },
+    {
+      "amplitude_us": 47.28121059079251,
+      "removed_day": 57529,
+      "statistic": 25.26440079642056
+    },
+    {
+      "amplitude_us": 47.51098641839453,
+      "removed_day": 57530,
+      "statistic": 25.669356774172073
+    },
+    {
+      "amplitude_us": 49.95120229214496,
+      "removed_day": 57531,
+      "statistic": 28.377549297459517
+    },
+    {
+      "amplitude_us": 49.106465936602774,
+      "removed_day": 57533,
+      "statistic": 27.4103916422392
+    },
+    {
+      "amplitude_us": 50.48444031372849,
+      "removed_day": 57534,
+      "statistic": 28.987616389099777
+    },
+    {
+      "amplitude_us": 49.39936149032087,
+      "removed_day": 57536,
+      "statistic": 27.849135435069662
+    },
+    {
+      "amplitude_us": 49.49528848782228,
+      "removed_day": 57537,
+      "statistic": 27.975018840137558
+    },
+    {
+      "amplitude_us": 50.02183295806858,
+      "removed_day": 57538,
+      "statistic": 28.549985766004834
+    },
+    {
+      "amplitude_us": 49.669984546563434,
+      "removed_day": 57539,
+      "statistic": 28.173945668739144
+    },
+    {
+      "amplitude_us": 49.82398298915383,
+      "removed_day": 57540,
+      "statistic": 28.329916902588202
+    },
+    {
+      "amplitude_us": 49.78071375768445,
+      "removed_day": 57541,
+      "statistic": 28.295946873935875
+    },
+    {
+      "amplitude_us": 49.512831562828694,
+      "removed_day": 57542,
+      "statistic": 27.976091798116578
+    },
+    {
+      "amplitude_us": 49.77670766967595,
+      "removed_day": 57543,
+      "statistic": 28.273517674203745
+    },
+    {
+      "amplitude_us": 50.36217823210123,
+      "removed_day": 57544,
+      "statistic": 28.937921759343126
+    },
+    {
+      "amplitude_us": 49.841094251942074,
+      "removed_day": 57545,
+      "statistic": 28.29826513054895
+    },
+    {
+      "amplitude_us": 49.889410842553076,
+      "removed_day": 57547,
+      "statistic": 28.294277034877645
+    },
+    {
+      "amplitude_us": 48.87171664603865,
+      "removed_day": 57550,
+      "statistic": 27.180982214770204
+    },
+    {
+      "amplitude_us": 48.30773358213712,
+      "removed_day": 57551,
+      "statistic": 26.58954053591841
+    },
+    {
+      "amplitude_us": 48.58705257727747,
+      "removed_day": 57552,
+      "statistic": 26.797823075543025
+    },
+    {
+      "amplitude_us": 49.84725301637438,
+      "removed_day": 57553,
+      "statistic": 27.97914490076174
+    },
+    {
+      "amplitude_us": 50.01698744741197,
+      "removed_day": 57563,
+      "statistic": 28.44358542632282
+    },
+    {
+      "amplitude_us": 50.31835243133118,
+      "removed_day": 57628,
+      "statistic": 26.29727258225276
+    },
+    {
+      "amplitude_us": 50.02785950018386,
+      "removed_day": 57651,
+      "statistic": 28.55999994854964
+    },
+    {
+      "amplitude_us": 49.8288070937249,
+      "removed_day": 57655,
+      "statistic": 28.30234975026648
+    },
+    {
+      "amplitude_us": 50.57764189747943,
+      "removed_day": 57657,
+      "statistic": 29.06276475898158
+    },
+    {
+      "amplitude_us": 49.36630731966745,
+      "removed_day": 57660,
+      "statistic": 27.795927122083175
+    },
+    {
+      "amplitude_us": 49.28167732472882,
+      "removed_day": 57666,
+      "statistic": 27.698455629000733
+    },
+    {
+      "amplitude_us": 50.24041072137055,
+      "removed_day": 57670,
+      "statistic": 28.70980965890425
+    },
+    {
+      "amplitude_us": 49.855843625616856,
+      "removed_day": 57704,
+      "statistic": 28.29503589598928
+    },
+    {
+      "amplitude_us": 51.388891092870445,
+      "removed_day": 57709,
+      "statistic": 29.751431145893342
+    },
+    {
+      "amplitude_us": 49.79633835210648,
+      "removed_day": 57718,
+      "statistic": 28.306651524983266
+    },
+    {
+      "amplitude_us": 50.761850792029065,
+      "removed_day": 57762,
+      "statistic": 28.915167976231206
+    },
+    {
+      "amplitude_us": 49.81341312951312,
+      "removed_day": 57779,
+      "statistic": 28.31311635673272
+    },
+    {
+      "amplitude_us": 49.57664956308952,
+      "removed_day": 57785,
+      "statistic": 28.043084156730984
+    },
+    {
+      "amplitude_us": 49.85481298672466,
+      "removed_day": 57790,
+      "statistic": 28.07714703801473
+    },
+    {
+      "amplitude_us": 49.77742596889534,
+      "removed_day": 57814,
+      "statistic": 28.259931321359296
+    },
+    {
+      "amplitude_us": 49.7740016349395,
+      "removed_day": 57818,
+      "statistic": 28.280597812263608
+    },
+    {
+      "amplitude_us": 49.84863938883561,
+      "removed_day": 57823,
+      "statistic": 28.35036186036868
+    },
+    {
+      "amplitude_us": 49.72094613147825,
+      "removed_day": 57827,
+      "statistic": 28.21752275380667
+    },
+    {
+      "amplitude_us": 49.29458816105136,
+      "removed_day": 57831,
+      "statistic": 27.68546167373656
+    },
+    {
+      "amplitude_us": 49.84850872284453,
+      "removed_day": 57833,
+      "statistic": 28.339636913488924
+    },
+    {
+      "amplitude_us": 49.71430379720073,
+      "removed_day": 57837,
+      "statistic": 28.150135030957017
+    },
+    {
+      "amplitude_us": 49.8105373917511,
+      "removed_day": 57842,
+      "statistic": 28.295611199514248
+    },
+    {
+      "amplitude_us": 49.9574775944744,
+      "removed_day": 57845,
+      "statistic": 28.471510356304684
+    },
+    {
+      "amplitude_us": 49.97708266365797,
+      "removed_day": 57847,
+      "statistic": 28.491114689105963
+    },
+    {
+      "amplitude_us": 49.77262518075831,
+      "removed_day": 57855,
+      "statistic": 28.288047269649113
+    },
+    {
+      "amplitude_us": 49.58336082087506,
+      "removed_day": 57862,
+      "statistic": 28.031648452154304
+    },
+    {
+      "amplitude_us": 49.69204820805179,
+      "removed_day": 57868,
+      "statistic": 28.175888950182575
+    },
+    {
+      "amplitude_us": 48.274391070909395,
+      "removed_day": 57887,
+      "statistic": 25.544610548916392
+    },
+    {
+      "amplitude_us": 49.49047039369839,
+      "removed_day": 57895,
+      "statistic": 27.83670196834885
+    },
+    {
+      "amplitude_us": 47.28087832688543,
+      "removed_day": 57923,
+      "statistic": 24.593023266132995
+    },
+    {
+      "amplitude_us": 50.57603511597661,
+      "removed_day": 57957,
+      "statistic": 28.83040835501587
+    },
+    {
+      "amplitude_us": 49.922062565994445,
+      "removed_day": 57970,
+      "statistic": 28.445057871379824
+    },
+    {
+      "amplitude_us": 49.26961750739348,
+      "removed_day": 57974,
+      "statistic": 27.58475224608182
+    },
+    {
+      "amplitude_us": 49.74932076631103,
+      "removed_day": 57979,
+      "statistic": 28.095564226885617
+    },
+    {
+      "amplitude_us": 49.992980184648545,
+      "removed_day": 57981,
+      "statistic": 28.336082714306528
+    },
+    {
+      "amplitude_us": 49.52479941344515,
+      "removed_day": 57998,
+      "statistic": 27.924589803523027
+    },
+    {
+      "amplitude_us": 54.20169305921417,
+      "removed_day": 58037,
+      "statistic": 30.03570567656027
+    },
+    {
+      "amplitude_us": 56.57536614425998,
+      "removed_day": 58079,
+      "statistic": 29.634687521101625
+    },
+    {
+      "amplitude_us": 52.13131592270956,
+      "removed_day": 58131,
+      "statistic": 29.512793545939644
+    },
+    {
+      "amplitude_us": 50.80882055196387,
+      "removed_day": 58139,
+      "statistic": 28.40924703123324
+    },
+    {
+      "amplitude_us": 49.88746173520042,
+      "removed_day": 58146,
+      "statistic": 28.293245902523665
+    },
+    {
+      "amplitude_us": 49.82802099141409,
+      "removed_day": 58156,
+      "statistic": 28.28346947446478
+    },
+    {
+      "amplitude_us": 51.61241480098455,
+      "removed_day": 58166,
+      "statistic": 29.44183368061919
+    },
+    {
+      "amplitude_us": 50.79708309940597,
+      "removed_day": 58172,
+      "statistic": 29.02832130398533
+    },
+    {
+      "amplitude_us": 50.130599676878255,
+      "removed_day": 58173,
+      "statistic": 28.210545267891554
+    },
+    {
+      "amplitude_us": 50.692095139548485,
+      "removed_day": 58182,
+      "statistic": 29.151661518667296
+    },
+    {
+      "amplitude_us": 49.61957884178228,
+      "removed_day": 58183,
+      "statistic": 27.955186313286553
+    },
+    {
+      "amplitude_us": 49.89957663863209,
+      "removed_day": 58196,
+      "statistic": 28.410600849077717
+    },
+    {
+      "amplitude_us": 50.07886366801931,
+      "removed_day": 58198,
+      "statistic": 28.584760657150547
+    },
+    {
+      "amplitude_us": 50.02329809417894,
+      "removed_day": 58200,
+      "statistic": 28.48760673690073
+    },
+    {
+      "amplitude_us": 51.44902401100401,
+      "removed_day": 58205,
+      "statistic": 29.93909825914536
+    },
+    {
+      "amplitude_us": 50.45366168577945,
+      "removed_day": 58211,
+      "statistic": 28.683524438671665
+    },
+    {
+      "amplitude_us": 49.67223042596646,
+      "removed_day": 58212,
+      "statistic": 27.915482750154553
+    },
+    {
+      "amplitude_us": 50.07879456034825,
+      "removed_day": 58219,
+      "statistic": 28.13585265562186
+    },
+    {
+      "amplitude_us": 49.91717697262957,
+      "removed_day": 58227,
+      "statistic": 28.37953460421072
+    },
+    {
+      "amplitude_us": 49.7619122003229,
+      "removed_day": 58228,
+      "statistic": 28.232849633168115
+    },
+    {
+      "amplitude_us": 49.73807613315906,
+      "removed_day": 58229,
+      "statistic": 28.221683945864907
+    },
+    {
+      "amplitude_us": 51.47638548368215,
+      "removed_day": 58238,
+      "statistic": 30.02053285148474
+    },
+    {
+      "amplitude_us": 50.287344481604094,
+      "removed_day": 58243,
+      "statistic": 28.647141344839504
+    },
+    {
+      "amplitude_us": 49.02392997703345,
+      "removed_day": 58251,
+      "statistic": 26.963648951902275
+    },
+    {
+      "amplitude_us": 48.4487148821133,
+      "removed_day": 58260,
+      "statistic": 26.35449811388174
+    },
+    {
+      "amplitude_us": 49.5364663493356,
+      "removed_day": 58267,
+      "statistic": 27.93646464000793
+    },
+    {
+      "amplitude_us": 50.013152196064574,
+      "removed_day": 58268,
+      "statistic": 28.491676206961493
+    },
+    {
+      "amplitude_us": 49.73116665520003,
+      "removed_day": 58273,
+      "statistic": 28.244320799747804
+    },
+    {
+      "amplitude_us": 49.805533064212625,
+      "removed_day": 58274,
+      "statistic": 28.304867078819562
+    },
+    {
+      "amplitude_us": 49.16758163155824,
+      "removed_day": 58281,
+      "statistic": 27.365220445607907
+    },
+    {
+      "amplitude_us": 52.75152947837985,
+      "removed_day": 58300,
+      "statistic": 29.35975075976384
+    },
+    {
+      "amplitude_us": 51.08070343207575,
+      "removed_day": 58326,
+      "statistic": 29.423566487905312
+    },
+    {
+      "amplitude_us": 49.76750061185469,
+      "removed_day": 58331,
+      "statistic": 28.21414395580859
+    },
+    {
+      "amplitude_us": 49.85199232612912,
+      "removed_day": 58335,
+      "statistic": 28.3914199353643
+    },
+    {
+      "amplitude_us": 50.351329622945975,
+      "removed_day": 58340,
+      "statistic": 28.707654230280927
+    },
+    {
+      "amplitude_us": 50.035391060533954,
+      "removed_day": 58347,
+      "statistic": 28.113164278751075
+    },
+    {
+      "amplitude_us": 49.48715067799757,
+      "removed_day": 58358,
+      "statistic": 27.321557630589908
+    },
+    {
+      "amplitude_us": 50.09075371828678,
+      "removed_day": 58369,
+      "statistic": 28.565979681530624
+    },
+    {
+      "amplitude_us": 49.87153937285295,
+      "removed_day": 58371,
+      "statistic": 28.373858099530228
+    },
+    {
+      "amplitude_us": 49.684974126155836,
+      "removed_day": 58376,
+      "statistic": 28.148347826829724
+    },
+    {
+      "amplitude_us": 50.529013533315776,
+      "removed_day": 58381,
+      "statistic": 28.99796451596447
+    },
+    {
+      "amplitude_us": 49.96484789374688,
+      "removed_day": 58386,
+      "statistic": 28.190156153711484
+    },
+    {
+      "amplitude_us": 50.806777306970076,
+      "removed_day": 58390,
+      "statistic": 29.09647884569388
+    },
+    {
+      "amplitude_us": 49.58158381971811,
+      "removed_day": 58395,
+      "statistic": 27.935350370334703
+    },
+    {
+      "amplitude_us": 50.06226041351151,
+      "removed_day": 58404,
+      "statistic": 28.575172647527385
+    },
+    {
+      "amplitude_us": 49.680192316165176,
+      "removed_day": 58409,
+      "statistic": 27.24451776056179
+    }
+  ],
+  "nearest_annual_harmonic": {
+    "amplitude_us": 46.32900968233929,
+    "coefficient_covariance_us2": [
+      [
+        84.22264203244931,
+        6.277786838681387
+      ],
+      [
+        6.2777868386813935,
+        76.68993061382596
+      ]
+    ],
+    "delta_chi2": 24.87094609794961,
+    "dof_null": 168,
+    "null_chi2": 168.96684171296104,
+    "period_days": 91.3125,
+    "rank": 5,
+    "sin_cos_us": [
+      31.880479742480713,
+      33.615653340900046
+    ]
+  },
+  "original_reproduced": {
+    "amplitude_us": 49.23591554457527,
+    "coefficient_covariance_us2": [
+      [
+        90.29274333925547,
+        -1.0765777830169285
+      ],
+      [
+        -1.0765777830169252,
+        86.49026777090575
+      ]
+    ],
+    "delta_chi2": 27.851779915840325,
+    "dof_null": 168,
+    "null_chi2": 168.96684171296104,
+    "period_days": 93.15004091835715,
+    "rank": 5,
+    "sin_cos_us": [
+      32.42388664459326,
+      37.05221929076739
+    ]
+  },
+  "refined": {
+    "amplitude_us": 49.77489852095082,
+    "coefficient_covariance_us2": [
+      [
+        88.2239641552061,
+        1.9981311053392374
+      ],
+      [
+        1.9981311053392246,
+        83.60724153298229
+      ]
+    ],
+    "delta_chi2": 28.289074392188425,
+    "dof_null": 168,
+    "null_chi2": 168.96684171296104,
+    "period_days": 92.67798390348638,
+    "rank": 5,
+    "sin_cos_us": [
+      33.25228219278243,
+      37.03817289962501
+    ]
+  }
+}

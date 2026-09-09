@@ -1,0 +1,7 @@
+{
+  "attempt": "attempt01",
+  "error": "Compatibility mismatch: published RMS rounding, published chi-square rounding",
+  "master_before_sha256": "5b7531d556c34a3a1224fc5fd47f2f63e733718212e7feff15fbc414fbdc6a8d",
+  "observed_search_executed": false,
+  "target": "J1801-1417"
+}

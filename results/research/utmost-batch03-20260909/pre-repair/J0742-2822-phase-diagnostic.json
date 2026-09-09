@@ -1,0 +1,12 @@
+{
+  "all_pulse_numbers_finite": true,
+  "explicit_phase_span_cycles": 0.501342569661459,
+  "f0_hz": 5.996127946016184,
+  "integer_offset_spread": 0.0,
+  "phase_arc_cycles": 0.501342569661459,
+  "phase_offset_unique": [
+    0.0
+  ],
+  "status": "DIAGNOSTIC_ONLY",
+  "target": "J0742-2822"
+}

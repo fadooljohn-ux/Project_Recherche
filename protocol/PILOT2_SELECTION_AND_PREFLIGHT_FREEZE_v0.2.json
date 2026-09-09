@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot2-selection-and-preflight-freeze-v0.2",
+  "target": "B1937+21",
+  "selection_status": "complete_metadata_only",
+  "preflight_status": "frozen_design_execution_not_authorized",
+  "authorization": {
+    "selected_product_extraction": false,
+    "observed_residual_reproduction": false,
+    "synthetic_benchmark": false,
+    "threshold_calibration": false,
+    "observed_periodic_search": false
+  },
+  "selection_summary": {
+    "archive_candidate_count": 68,
+    "hard_eligible_count": 6,
+    "selected_score": 0.9042924339781505,
+    "selected_member_count": 6,
+    "selected_payload_bytes": 427936,
+    "manual_override": false
+  },
+  "archive": {
+    "bytes": 638719668,
+    "sha256": "91476bf20d4c8baa9f5ad39c6e114b581478a5a7e269876489cafc8f62c5708f"
+  },
+  "frozen_sha256": {
+    "config/pilot2_target_selection_v0.2.yaml": "c4f92daccee49db0025fe049f18ebc5618cd98d883906583bb4aaf764a96e001",
+    "protocol/PILOT2_TARGET_SELECTION_PROTOCOL_v0.2.md": "b752ecc3d56d3f96dd2f0d92f6a6af7bd089828fec5946cf2e28bbfa16ce29cf",
+    "src/pulsar_pilot/pilot2_selection.py": "f6a6c8bc437ede775fdf288cfb764c879990c3a169a7dcd50ae861b04a944bf0",
+    "tests/test_pilot2_selection.py": "9e730b12233c9d5c895ff2f636d4e7ac9d73a644d03f5a2d637923609ec32242",
+    "results/pilot2/target_selection_v0.2.json": "48c49d4a6d2cf2830240f243bb2c2c9295a39ddbe0c0c064bb65ae6e9a57c24b",
+    "config/pilot2_preflight_v0.2.yaml": "44bdddd80912d284a94e7d8d60819bc37aa3699f50289386709e04ecf05bb9aa",
+    "protocol/PILOT2_PREFLIGHT_PROTOCOL_v0.2.md": "64901243f3fe110f9b47ae90e8bb2d8f6c3a948742b9d221a1ba795c99e6fe6d",
+    "docs/PILOT2_TARGET_SELECTION_AND_SCOPE_v0.2.md": "d3ddebbdd173102d22245fe74d2ab35330993371111c424284144853d61280d8",
+    "pixi.lock": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8"
+  },
+  "resource_caps": {
+    "preflight_wall_hours_maximum": 1.0,
+    "projected_full_calibration_wall_hours_maximum": 6.0,
+    "peak_memory_gib_maximum": 16.0,
+    "complete_data_root_gib_maximum": 1.5,
+    "additional_download_bytes_maximum": 0
+  },
+  "next_gate": "explicit_user_instruction_to_execute_exact_frozen_preflight",
+  "external_adviser": "passive_audit_and_recommendations_only_not_scheduled"
+}

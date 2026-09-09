@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot2-b1937-injection-runner-freeze-v0.2.2",
+  "status": "implementation_frozen_execution_not_authorized",
+  "scope": "versioned_runner_ledger_resume_heartbeat_grading_and_zero_case_controls",
+  "science_cases_executed_during_validation": 0,
+  "random_draws_generated_during_validation": 0,
+  "model_fits_executed_during_validation": 0,
+  "periodic_scans_executed_during_validation": 0,
+  "execution_authorized": false,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "promotion_grade_authorized": false,
+  "discovery_claim_authorized": false,
+  "inventory_sha256": "e8c2a38a22bd690e611cb99e0e2fab947335c0363a7198c54a47d119032ce613",
+  "implementation_sha256": "348c0d1bd925daa2dfb67f57dc0ea35874c2f2b8393be631aca70e381e498756",
+  "frozen_sha256": {
+    "config/pilot2_injection_runner_v0.2.2.yaml": "6a119c853908ea59441580a6f3cb9a51838d93db0e7946b6d23aa079999d15d2",
+    "protocol/PILOT2_INJECTION_REMEDIATION_FREEZE_v0.2.2.json": "8653290ae1aac2f1bcbcd97320bb36b471a5851d30e81681fc4d4572fd0cadb8",
+    "protocol/PILOT2_INJECTION_RUNNER_PROTOCOL_v0.2.2.md": "717230dacc940d5ad21e2687476e80c0ef6ffc0edf4cdc533e6d49467ce63ab2",
+    "src/pulsar_pilot/pilot2_injection_runner_v022.py": "57f93c591bb5158e475a4a380d8ae7c0dab2a6d9758b32ff150e650f2d2da927",
+    "tests/test_pilot2_injection_runner_v022.py": "b7151dd7c70949c18efcd9a02905a989ab8475cbf24ac8fb9b24a0fcc4000658"
+  },
+  "execution_gate": {
+    "required_file": "protocol/PILOT2_INJECTION_EXECUTION_FREEZE_v0.2.2.json",
+    "required_status": "frozen_before_first_v0.2.2_injection_case",
+    "present": false
+  },
+  "next_gate": "zero_case_execution_readiness_validation_then_separate_user_authorization"
+}

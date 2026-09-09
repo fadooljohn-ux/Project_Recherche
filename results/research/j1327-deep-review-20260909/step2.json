@@ -1,0 +1,81 @@
+{
+  "clock_window_removed_toas": 1,
+  "code_sha256": "37ac175db6e8a2e2c20f01476d46a086c65cee6eec00db955c39991f30432c30",
+  "completed_utc": "2026-09-09T05:00:02.790907+00:00",
+  "early_late_fits": [
+    {
+      "amplitude_us": 64.91708836664957,
+      "coefficient_covariance_us2": [
+        [
+          1289.1851727941144,
+          -53.974030102538684
+        ],
+        [
+          -53.974030102538585,
+          1117.3357141791284
+        ]
+      ],
+      "delta_chi2": 3.767789699692833,
+      "dof_null": 130,
+      "null_chi2": 111.09363735748819,
+      "period_days": 63.51198491255098,
+      "rank": 5,
+      "sin_cos_us": [
+        36.40946128213107,
+        53.745506706592586
+      ]
+    },
+    {
+      "amplitude_us": 176.47092262073113,
+      "coefficient_covariance_us2": [
+        [
+          637.8855801596621,
+          -38.424398855051585
+        ],
+        [
+          -38.42439885505166,
+          710.2429479338023
+        ]
+      ],
+      "delta_chi2": 44.253641928343946,
+      "dof_null": 168,
+      "null_chi2": 160.26765377383185,
+      "period_days": 63.51198491255098,
+      "rank": 5,
+      "sin_cos_us": [
+        8.401516975335715,
+        176.2708173326635
+      ]
+    }
+  ],
+  "extra_dof": 2,
+  "fixed_period_consistency_p": 0.03042528386971976,
+  "independent_radio_split": "Unavailable: effectively one observing band",
+  "joint_split_extra_chi2": 6.984962620010322,
+  "radio_range_mhz": [
+    833.640015,
+    840.234009
+  ],
+  "without_clock_window": {
+    "amplitude_us": 153.1108948455845,
+    "coefficient_covariance_us2": [
+      [
+        378.89247841476083,
+        -9.565019707946895
+      ],
+      [
+        -9.565019707946895,
+        402.92407208153776
+      ]
+    ],
+    "delta_chi2": 58.91167642729701,
+    "dof_null": 302,
+    "null_chi2": 293.3770366411618,
+    "period_days": 63.51198491255098,
+    "rank": 5,
+    "sin_cos_us": [
+      29.571461001753757,
+      150.22807598660577
+    ]
+  }
+}

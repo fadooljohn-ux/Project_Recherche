@@ -1,0 +1,22 @@
+{
+  "status": "PREPARATION_COMPLETE",
+  "targets": 25,
+  "toas": 3570,
+  "observing_days": 3040,
+  "previous_preparation_centered_residual_difference_seconds": {
+    "J0630-2834": 0.0,
+    "J1034-3224": 0.0,
+    "J1359-6038": 0.0,
+    "J0908-4913": 0.0,
+    "J1600-5044": 0.0
+  },
+  "pulse_number_targets": [
+    "J1048-5832",
+    "J1829-1751"
+  ],
+  "noise_warnings": [],
+  "reduced_chi2_range": [
+    0.8898418862045571,
+    1.0499251589352154
+  ]
+}

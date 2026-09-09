@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot2-b1937-calibration-design-freeze-v0.2",
+  "status": "frozen_calibration_design_execution_locked",
+  "target": "B1937+21",
+  "inventory_sha256": "28bcd10edcf719c1d44cdef17dd8b200b332b127f13c8a1558b7b4b8acd69dc7",
+  "workload_counts": {
+    "gaussian_threshold_nulls": 1000,
+    "sealed_gaussian_evaluation_nulls": 500,
+    "structured_tail_evaluation_nulls": 3000,
+    "main_injections": 240,
+    "annual_map_injections": 28,
+    "boundary_map_injections": 16,
+    "solver_audits": 29,
+    "total_unique_science_cases": 4784
+  },
+  "execution_authorized": false,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "threshold_calibration_authorized": false,
+  "new_random_draws_authorized": false,
+  "full_calibration_implementation_authorized": true,
+  "full_calibration_implementation_may_execute_cases": false,
+  "frozen_sha256": {
+    "config/pilot2_calibration_v0.2.yaml": "4b58f09e68b14e5db568b951d94b95a6c48955caa3c11e0fe58b671d4217a2df",
+    "docs/PILOT2_CALIBRATION_DESIGN_v0.2.md": "c3ed19b701c22d32568314a3c6c800a5d34d6d0d82989035c2c730b2421e5527",
+    "protocol/PILOT2_CALIBRATION_PROTOCOL_v0.2.md": "b77c675b75d82e1766b0da5cb7099bf44f19aabe05c8b372d8bb7f7d7aa8be67",
+    "results/pilot2/calibration_design_plan_v0.2.json": "de0c0f973c361356b4833dfda8dca421ec5479350e90f0043a6d8fe8284db209",
+    "src/pulsar_pilot/pilot2_calibration_design.py": "e60b4840b4c118a7900bdf4c29237b475b56f054a43f1672f63285238ea4e686",
+    "tests/test_pilot2_calibration_design.py": "0e4041d31168afae7143c9209058d12c394218fcf59d6f53e5a241e96c440ec4",
+    "protocol/PILOT2_PREFLIGHT_COMPLETION_RECORD_v0.2.1.json": "a4a666f2435db39bb63267d27ceb7a94d6e254b4e36017619a1ee00878993485",
+    "results/pilot2/preflight_regrade_result_v0.2.1.json": "de00792cbfd598a7eae7f7d570b89a459789864750aeff9937fb782fcb504eff",
+    "pixi.lock": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8"
+  },
+  "resource_projection": {
+    "wall_hours_with_25_percent_contingency": 2.675358656943754,
+    "wall_hours_maximum": 6.0,
+    "peak_memory_gib_maximum": 16.0,
+    "complete_data_root_gib_maximum": 1.5,
+    "additional_download_bytes_maximum": 0
+  },
+  "next_gate": "implement_runner_dashboard_ledgers_and_stage_locks_without_case_execution",
+  "execution_gate_after_implementation": "separate_user_authorization_and_hash_bound_execution_freeze",
+  "fable_review_required": false
+}

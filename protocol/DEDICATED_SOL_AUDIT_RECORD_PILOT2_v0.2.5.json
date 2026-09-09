@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "record_id": "pilot2-b1937-dedicated-sol-audit-record-v0.2.5",
+  "recorded_utc": "2026-08-10T11:42:01Z",
+  "auditor": "dedicated_gpt-5.6-sol_subagent",
+  "target_commit": "96bfd5919cd538915e3f4177112452c34f5e8c65",
+  "status": "completed_hold",
+  "report": {
+    "logical_path": "docs/audits/DEDICATED_SOL_AUDIT_PILOT2_v0.2.5_2026-08-10.md",
+    "sha256": "6fc200b7bb0a17c3fa52a0f50aad2eb38b9382825fd1df4d63af511734da4ba7"
+  },
+  "primary_verification": {
+    "logical_path": "results/pilot2/dedicated_sol_audit_primary_verification_v0.2.5.json",
+    "sha256": "cbcfbfb96c8a29e33f0775856a45418dc1c35edd11612d4c1d5ec60b5802ceab"
+  },
+  "disposition": {
+    "logical_path": "results/pilot2/dedicated_sol_audit_disposition_v0.2.5.json",
+    "sha256": "0bd90a1cbac02662e7586d8c1dffcaae3e72e8f83025d3c2a376274940a0388d"
+  },
+  "target_hashes": {
+    "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+    "implementation_sha256": "7f8760106c4c850e6d2eec6ef8dbc307784d6a01b7a21ba8d1254aab2ef5cc4d",
+    "implementation_freeze_sha256": "dcb3a961f2a1e8ef07811f5f50aeeb9dfdbec6a83a61fec95d445986de05ef2d",
+    "readiness_freeze_sha256": "15f894c927eefbc02598fb8b53d79cf65e1bf1c7c13c09bd52edf253f4238825"
+  },
+  "finding_ids": [
+    "SOL-V025-001",
+    "SOL-V025-002"
+  ],
+  "audit_test_result": {
+    "targeted_tests_passed": 24,
+    "targeted_tests_failed": 0,
+    "full_repository_suite_rerun": false
+  },
+  "boundaries": {
+    "repository_writes_by_auditor": 0,
+    "science_cases_executed": 0,
+    "random_draws_generated": 0,
+    "timing_model_fits_executed": 0,
+    "periodic_scans_executed": 0,
+    "external_data_roots_accessed": 0,
+    "scientific_outcomes_inspected": 0,
+    "execution_freeze_created": false
+  },
+  "next_gate": "preserve_hold_and_seek_explicit_direction_before_new_remediation_version"
+}

@@ -1,0 +1,38 @@
+{
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/ipta/tempo2/master/initialise.C",
+      "local_path": "../Project Recherche Data/utmost-preparation01-20260909/conventions/initialise.C",
+      "sha256": "5da876556455e5fda635b30917ae9e745ef880b93ef513b47b6e4823458868c1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ipta/tempo2/master/preProcess.C",
+      "local_path": "../Project Recherche Data/utmost-preparation01-20260909/conventions/preProcess.C",
+      "sha256": "51195accf0ae4415cc0e4927f62d6109c3f0567693b59485130ec3cade7b52f3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ipta/tempo2/master/preProcessSimple.C",
+      "local_path": "../Project Recherche Data/utmost-preparation01-20260909/conventions/preProcessSimple.C",
+      "sha256": "662366f42a3033daa68daa47b28b0ac67a565af2c1985ff3c1d90b3c8a100344"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ipta/tempo2/master/readParfile.C",
+      "local_path": "../Project Recherche Data/utmost-preparation01-20260909/conventions/readParfile.C",
+      "sha256": "ecdbec472eff256ab1c7d875a4ea56536c146012599684408b03fe738ac7550e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ipta/tempo2/master/readTimfile.C",
+      "local_path": "../Project Recherche Data/utmost-preparation01-20260909/conventions/readTimfile.C",
+      "sha256": "01463be0d78e75078cdbba7ae7fcd578e5d7db08fbec476d4f289488803a1ea2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ipta/tempo2/master/tabulatedfunction.C",
+      "local_path": "../Project Recherche Data/utmost-preparation01-20260909/conventions/tabulatedfunction.C",
+      "sha256": "0c3e90a2594e442c5135ca224f603a6f69e6278fa9f68382bc9e451bfe7b54c4"
+    }
+  ],
+  "ephemeris": {
+    "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de430.bsp",
+    "sha256": "6e1b277c5f07135a84950604b83e56b736be696a7f3560bcddb1d4aeb944fca1"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "target": "J1453+1902",
+  "created_utc": "2026-09-08T15:08:10.225596+00:00",
+  "result_path": "../Project Recherche Data/ng15-batch01-20260908/J1453+1902/run01/result.json",
+  "result_sha256": "975c9baf7109cf683b00d2f882bbf531bc52a37aac47d1d1228152d4f8fc8436",
+  "next_step": "Review complete: INCONCLUSIVE / NOISE-SENSITIVE. Original trigger retained, no confirmed planet. Park pending additional calibrated timing data. See Work log J1453-HR01-20260908.",
+  "entries": [
+    {
+      "id": "J1453-HR01-20260908-STEP1",
+      "kind": "Signal and aliases",
+      "status": "NOISE-SENSITIVE LEAD",
+      "summary": "Refined period 118.8668 days, amplitude 1.5200 us. Removing MJD 57389 (3 TOAs) lowers fixed-period statistic from 35.3191 to 19.2720.",
+      "scope": "Local fixed-noise 95% profile envelope 117.60-120.95 days. Annual third harmonic 121.75 days gives 29.0515. Subset results have no reused detection threshold.",
+      "source": "../Project Recherche Data/j1453-human-review-20260908/step1.json",
+      "source_sha256": "f3069df1452400ab03a8254131441bda101a74847be266fb5801693189fbc9c1"
+    },
+    {
+      "id": "J1453-HR01-20260908-STEP2",
+      "kind": "Time and radio-band consistency",
+      "status": "INCONCLUSIVE",
+      "summary": "Early/late amplitudes 1.950/0.527 us; statistics 25.424/1.656. Joint common-versus-split tests: time p=0.198, band p=0.103.",
+      "scope": "No strong inconsistency established. Band-only fits are poorly constrained after nuisance refitting. All subsets already entered discovery; no independent holdout.",
+      "source": "../Project Recherche Data/j1453-human-review-20260908/step2.json",
+      "source_sha256": "8aced7cc72f57f49de55fb1259844e1bfbff1d0b6b5e4d52150bc7e1330b78bc"
+    },
+    {
+      "id": "J1453-HR01-20260908-STEP3",
+      "kind": "Noise robustness and simulations",
+      "status": "INCONCLUSIVE",
+      "summary": "Correlated-noise family statistic 16.500. Noise-only searches exceed observed in 46/512 simulations (diagnostic p=0.0916).",
+      "scope": "Fixed 8-model covariance family; 512 null and 256 injected realizations. 197/256 injections recover period within 2 days. Refit timing and reselect covariance and period each time. Not campaign-calibrated significance.",
+      "source": "../Project Recherche Data/j1453-human-review-20260908/step3.json",
+      "source_sha256": "cb1f4c81ef8d6b7bec3c7088f3fa3ba5543fcd0a44400f0f988c9db98cae6273"
+    },
+    {
+      "id": "J1453-HR01-20260908-STEP4",
+      "kind": "Alternate reduction and data access",
+      "status": "NO STRONG REPRODUCTION",
+      "summary": "Official narrowband: 2,551 TOAs, same 2013-2020 span. At 118.8668 days statistic 5.220; local maximum 8.331 at 129.35 days.",
+      "scope": "Shared observations; no independent confirmation. FAST/CPTA public catalog verified as polarimetry; no additional calibrated J1453 timing series acquired in bounded search. See data inventory.",
+      "source": "../Project Recherche Data/j1453-human-review-20260908/step4-narrowband.json",
+      "source_sha256": "599526ef2b2b50c8e09db5fb1d3aab23fad68ff99bbcd56e19959ea5e2e5000f"
+    },
+    {
+      "id": "J1453-HR01-20260908-CLOSEOUT",
+      "kind": "Candidate review disposition",
+      "status": "INCONCLUSIVE / NOISE-SENSITIVE",
+      "summary": "Four-step agent-assisted review complete. Original statistical trigger retained. No confirmed planet and no publication-ready planet claim.",
+      "scope": "231 original search/refinement results preserved. Park pending new calibrated timing data; no threshold retuning. Original candidate count is historical and does not represent robust planet candidates.",
+      "source": "../Project Recherche Data/j1453-human-review-20260908/closeout.json",
+      "source_sha256": "5ad71b9042ddde053e794deb2efa512188636a7e052ee2d5172310e1ada8b7aa"
+    }
+  ]
+}

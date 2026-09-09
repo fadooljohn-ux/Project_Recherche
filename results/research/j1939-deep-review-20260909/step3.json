@@ -1,0 +1,33 @@
+{
+  "code_sha256": "85131c0aa3a39b1b096118e13835f9747f0430a5b62f4ec4a3e1abd710949e08",
+  "completed_utc": "2026-09-08T17:23:38.865261+00:00",
+  "diagnostic_p_plus_one": 0.001949317738791423,
+  "injected_amplitude_us": 1.7974493861776404,
+  "injected_period_days": 577.5,
+  "injection_count": 256,
+  "injection_exceeds_observed": 10,
+  "injection_recovers_period_within_30_days": 228,
+  "limitations": "Plug-in finite noise family and selected injection phase/amplitude; model and frequency selection repeated in every realization. Not a campaign p-value, posterior planet probability, or exhaustive noise model.",
+  "null_count": 512,
+  "null_exceedances": 0,
+  "null_generator": {
+    "components": [
+      [
+        "red4",
+        2
+      ],
+      [
+        "dm2",
+        1
+      ],
+      [
+        "chrom4",
+        1
+      ]
+    ],
+    "name": "white0.5_red_dm_chrom",
+    "white_scale": 0.5
+  },
+  "observed_statistic": 112.29346169877863,
+  "seed": 2026092401
+}

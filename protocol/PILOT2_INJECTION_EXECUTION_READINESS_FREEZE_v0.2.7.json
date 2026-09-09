@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot2-b1937-injection-execution-readiness-freeze-v0.2.7",
+  "recorded_utc": "2026-08-11T01:59:36Z",
+  "status": "execution_readiness_frozen_execution_not_authorized",
+  "execution_readiness": "pass",
+  "independent_sol_audit_status": "pending",
+  "execution_authorized": false,
+  "science_cases_executed_during_validation": 0,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "promotion_grade_authorized": false,
+  "discovery_claim_authorized": false,
+  "inventory_policy": "reuse_exact_never_executed_v0.2.3_inventory_without_seed_churn",
+  "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+  "implementation_sha256": "ff2241b6f354db7bd35c81ee715a61f2e41069d10ca5551dcc4bbe57dfb09374",
+  "implementation_freeze_sha256": "b8bf2f33ffc3334e9b03cced8cdd389f04c536cec2f6249d33ea726e801cb533",
+  "frozen_sha256": {
+    "docs/PILOT2_INJECTION_EXECUTION_READINESS_v0.2.7.md": "b0c46a63e6e4b34c50f65847408d8ada0eeaba76992ffdedce472ba9b35ab3ca",
+    "docs/PILOT2_SCIENCE_STAGE_NORTH_STAR.md": "85d464ab70dd4e1fdbd4ad090fb97e9c2f1f9f836fb277ab950b5e6335880b59",
+    "protocol/PILOT2_INJECTION_RUNNER_FREEZE_v0.2.7.json": "b8bf2f33ffc3334e9b03cced8cdd389f04c536cec2f6249d33ea726e801cb533",
+    "results/pilot2/injection_execution_readiness_v0.2.7.json": "48ce65d8b5581756c72106478cb447f2dcc2aeb6edb20ae7a649b73c1b298fcd",
+    "results/pilot2/injection_runner_zero_science_validation_v0.2.7.json": "18de57134bb8dd417be1a7acb10f89c8b45586358ead8b903097db407bdd9c09",
+    "results/pilot2/injection_v027_audit_finding_closure.json": "b5ee78bb25130ae081e90e5e7542bf99b205e8fa63c18d6059ad8cf1ebec6cb1",
+    "results/pilot2/injection_validation_manifest_v0.2.7.json": "711a0c3a73942d547e87f68d3af052983ad822ae9ceaf3ecda97dba8efffd713",
+    "src/pulsar_pilot/pilot2_injection_executor_v027.py": "6db8b0391cc0b363bd19a718410ebf677cc676543985cf55ce2b1147aeeb951e",
+    "src/pulsar_pilot/pilot2_injection_runner_v027.py": "b9fbd1ed53ffa39baee1a1141d302a615fafd008e02de13575e2915869e33c3d",
+    "tests/test_pilot2_injection_runner_v027.py": "1938ca7618e86ca8377970dcacde63d21dd2bb14228d45c5ad0fb93ff224bc46"
+  },
+  "required_execution_authorization": {
+    "file": "protocol/PILOT2_INJECTION_EXECUTION_FREEZE_v0.2.7.json",
+    "present": false,
+    "must_bind_this_readiness_freeze": true,
+    "must_match_exact_compiled_hash_path_set": true,
+    "must_reject_duplicate_json_members": true,
+    "must_verify_repository_path_confinement": true,
+    "must_be_verified_before_predecessor_loading": true,
+    "must_be_verified_before_timing_model_setup": true
+  },
+  "next_gate": "one_fresh_read_only_sol_milestone_audit"
+}

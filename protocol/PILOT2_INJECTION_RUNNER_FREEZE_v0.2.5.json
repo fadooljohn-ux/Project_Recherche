@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot2-b1937-injection-runner-freeze-v0.2.5",
+  "recorded_utc": "2026-08-10T11:31:30Z",
+  "status": "implementation_frozen_execution_not_authorized",
+  "scope": "v0.2.5_zero_science_durability_artifact_schema_and_hash_path_remediation",
+  "execution_authorized": false,
+  "science_cases_executed_during_validation": 0,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "promotion_grade_authorized": false,
+  "discovery_claim_authorized": false,
+  "inventory_policy": "reuse_exact_never_executed_v0.2.3_inventory_without_seed_churn",
+  "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+  "implementation_sha256": "7f8760106c4c850e6d2eec6ef8dbc307784d6a01b7a21ba8d1254aab2ef5cc4d",
+  "source_audit_disposition": "v0.2.4_hold_remediated_pending_fresh_sol_audit",
+  "frozen_sha256": {
+    "config/pilot2_injection_runner_v0.2.5.yaml": "48185dd44fd9357b306506278df2d4e6cadaf397ec6c74d3a6e6f483d0d460fa",
+    "protocol/PILOT2_INJECTION_RUNNER_PROTOCOL_v0.2.5.md": "7052f3277da8761d8d56d17aa4249f169ca66133d02abae594513413f66fe7bb",
+    "results/pilot2/injection_v025_audit_finding_closure.json": "7f175ff48645313e8e669fc3c5850790f211a547e1f98a09830b8d613f3003c5",
+    "results/pilot2/injection_validation_manifest_v0.2.5.json": "29eeca4ab788044726c529c6b480c2af53de45aaa88193c508e45bf4917694dc",
+    "src/pulsar_pilot/pilot2_injection_executor_v025.py": "a69f9941951f33b183151a35a91d58ecba060634cb7e652baa7570bd6784a96b",
+    "src/pulsar_pilot/pilot2_injection_runner_v025.py": "47e9ae30decf165c13da49dd21e579eac8cffaa44a206ed264ad370a7bfc2e49",
+    "tests/test_pilot2_injection_runner_v025.py": "ae69b71a32802170dcdf2dc7a57527efb1563640c0e9efa921f290bea877177f"
+  },
+  "audit_findings_addressed": [
+    "SOL-V024-001",
+    "SOL-V024-002",
+    "SOL-V024-003"
+  ],
+  "validation": {
+    "repository_tests_passed": 236,
+    "repository_tests_failed": 0,
+    "historical_tests_deselected": 3,
+    "v0.2.5_boundary_tests_passed": 24
+  },
+  "next_gate": "zero_case_integrity_dry_run_and_execution_readiness_freeze"
+}

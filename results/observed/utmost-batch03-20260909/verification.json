@@ -1,0 +1,21 @@
+{
+  "status": "VERIFIED",
+  "checks": [
+    "All 25 terminal result/periodogram bindings verified",
+    "25 run workbook receipts plus two context receipts form continuous hash chain",
+    "655 prior result files and 281 historical search records preserved",
+    "Original candidate grades and operator notes retained",
+    "Repaired preparation leaves 21 previous residual arrays identical",
+    "Shared solver and calibration source unchanged",
+    "Exported workbook counts, warning text and overview visually inspected",
+    "Heartbeat paused after closeout"
+  ],
+  "sha256": {
+    "docs/UTMOST_BATCH03_2026-09-09.md": "9e715af896a18fa26bf25e3f437f4305ce9e51c797d651cace52f841a9d6b743",
+    "docs/HYPOTHETICAL_COMPANIONS_2026-09-09.md": "9e23df22444a26155a69400f70573c6960315562c37f8c405abd54517821ac78",
+    "docs/FUTURE_DATA_SOURCES.md": "93d519cae3299159bf4ed118d802e87b32de0526cdead40a7c384c7d0578335b",
+    "tools/utmost_prepare.py": "60da0e5a4365a1b3078dd4715afcb248d83db90878f09f0aa829f29d6257fdb0",
+    "outputs/recherche-master-20260908/Project-Recherche-Master.xlsx": "d0a4dcd84704b9bd6489cfa0e4856c39811e0140e0eb5e8f16a76593c4789ed6",
+    "results/observed/utmost-batch03-20260909/closeout.json": "5df851a00f1ebada181a2f7bc1d5818747f70b673731258da1adcae00182d968"
+  }
+}

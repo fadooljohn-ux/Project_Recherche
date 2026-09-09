@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "evaluation_id": "pilot1-sealed-null-evaluation-v0.1",
+  "status": "pass",
+  "scorecard_passed": 13,
+  "scorecard_total": 13,
+  "external_record": {
+    "logical_path": "run_records/pilot1/sealed-evaluation-v0.1-summary.json",
+    "bytes": 31718,
+    "sha256": "a3fc929fa11039adedaaa24b8abf4d8ffc66c49c35db40896a2d0a4c053ed60d"
+  },
+  "locked_threshold_delta_chi2": 23.33426855482562,
+  "threshold_retuned": false,
+  "case_count": 500,
+  "false_positives": 2,
+  "false_positive_rate": 0.004,
+  "false_positive_wilson_95": {
+    "lower": 0.0010976305226827934,
+    "upper": 0.014465715215177033
+  },
+  "null_diagnostics": {
+    "whitened_variance": 0.99963309393246,
+    "maximum_absolute_pooled_lag_correlation": 0.002829904525049085
+  },
+  "unexpected_warning_count": 0,
+  "observed_residual_global_search_executed": false,
+  "disposition": "authorize_exact_284_injections_and_29_full_covariance_audits"
+}

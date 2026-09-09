@@ -1,0 +1,74 @@
+{
+  "evidence": "./results/observed/ipta-batch02-20260909/closeout.json",
+  "entries": [
+    [
+      "IPTA-BATCH02-20260909-COMPLETE",
+      "Observed campaign closeout",
+      "13 IPTA DR2 datasets",
+      "COMPLETE WITH MODEL REPLAY GAPS",
+      "Six NO_TRIGGER observed searches; seven held preparation cases; zero candidates or observed execution failures",
+      "Preserve all six consumed grids and the prior J1721 search"
+    ],
+    [
+      "IPTA-BATCH02-20260909-CALIBRATION",
+      "Calibration closeout",
+      "Six compatible datasets",
+      "CALIBRATED AND SEARCHED",
+      "24,576 nulls; six target-specific thresholds, masks and sensitivity curves",
+      "Shared 1% conditional allowance; search_count=13 retained despite seven gaps"
+    ],
+    [
+      "IPTA-BATCH02-20260909-REPLAY-GAPS",
+      "Model replay diagnosis",
+      "Seven held IPTA datasets",
+      "UNRESOLVED PUBLICATION SUMMARY REPLAY",
+      "Direct timing/noise exports agree; historical fit summaries differ. TCB replay and direct-fit diagnoses retained",
+      "No observed search of these seven datasets; preserve their earlier other-source records"
+    ],
+    [
+      "IPTA-BATCH02-20260909-REGISTER",
+      "Register closeout",
+      "Recherche master",
+      "UPDATED",
+      "344 search/refinement records; 277 observed identities; seven existing candidate targets",
+      "No new planets or candidate grades; keep private; monitoring paused"
+    ]
+  ],
+  "target_updates": [
+    {
+      "target": "J1911+1347",
+      "next_step": "Resolve IPTA historical fit-summary replay using saved preparation; prior dataset searches remain valid",
+      "dataset_status": "IPTA BATCH02 MODEL REPLAY GAP; NOT SEARCHED"
+    },
+    {
+      "target": "J1843-1113",
+      "next_step": "Resolve IPTA historical fit-summary replay using saved preparation; prior dataset searches remain valid",
+      "dataset_status": "IPTA BATCH02 MODEL REPLAY GAP; NOT SEARCHED"
+    },
+    {
+      "target": "J0711-6830",
+      "next_step": "Resolve IPTA historical fit-summary replay using saved preparation; prior dataset searches remain valid",
+      "dataset_status": "IPTA BATCH02 MODEL REPLAY GAP; NOT SEARCHED"
+    },
+    {
+      "target": "J1730-2304",
+      "next_step": "Resolve IPTA historical fit-summary replay using saved preparation; prior dataset searches remain valid",
+      "dataset_status": "IPTA BATCH02 MODEL REPLAY GAP; NOT SEARCHED"
+    },
+    {
+      "target": "J2124-3358",
+      "next_step": "Resolve IPTA historical fit-summary replay using saved preparation; prior dataset searches remain valid",
+      "dataset_status": "IPTA BATCH02 MODEL REPLAY GAP; NOT SEARCHED"
+    },
+    {
+      "target": "J1744-1134",
+      "next_step": "Resolve IPTA historical fit-summary replay using saved preparation; prior dataset searches remain valid",
+      "dataset_status": "IPTA BATCH02 MODEL REPLAY GAP; NOT SEARCHED"
+    },
+    {
+      "target": "J1939+2134",
+      "next_step": "Resolve IPTA historical fit-summary replay using saved preparation; prior dataset searches remain valid",
+      "dataset_status": "IPTA BATCH02 MODEL REPLAY GAP; NOT SEARCHED"
+    }
+  ]
+}

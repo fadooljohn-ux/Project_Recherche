@@ -1,0 +1,39 @@
+{
+  "status": "VERIFIED",
+  "archive_sha256": "91476bf20d4c8baa9f5ad39c6e114b581478a5a7e269876489cafc8f62c5708f",
+  "publisher_md5": "557d42dd8486a5f8272d90dec9b228a8",
+  "primary_pulsars": 68,
+  "telescope_specific_variants_excluded": 8,
+  "single_pulsars": 17,
+  "known_binary_exclusions": 51,
+  "already_searched_B1937_inputs_identical": true,
+  "selected": [
+    "J1911+1347",
+    "J0645+5158",
+    "J1923+2515",
+    "J1944+0907",
+    "J0340+4130",
+    "J1453+1902",
+    "J0030+0451",
+    "J0931-1902",
+    "J1730-2304",
+    "J1744-1134",
+    "J1747-4036",
+    "J1832-0836",
+    "J1843-1113",
+    "J2010-1323",
+    "J2124-3358",
+    "J2322+2057"
+  ],
+  "input_toas": 3671,
+  "published_clock_hashes_equal_bound_resources": {
+    "time_ao.dat": "7e1755bb794d84bb7e585d556dcf46fffde159ea5d7f9543cd54e7fcb55bf86d",
+    "time_gbt.dat": "060493be69cd421ce383a91631f089c22e8ed58fb322fdd9f1c4ed3ff2d2797b",
+    "tai2tt_bipm2019.clk": "3d1e27041f0c7a6c7aa79d2d6d5b90235ac2e73d436defcfc6e8d6fcdd78f512"
+  },
+  "observatories": [
+    "arecibo",
+    "gbt"
+  ],
+  "inventory_adjustment": "76 primary-directory models include 8 telescope-only variants; use 68 complete pulsar models"
+}

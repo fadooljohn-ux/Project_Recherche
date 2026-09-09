@@ -1,0 +1,26 @@
+{
+  "bat_bbat_max_difference_days": 0.0,
+  "bat_max_difference_days": 0.0,
+  "derivative_relative_errors": {
+    "DM2": 4.0630088328629645e-06,
+    "F0": 4.742639584610014e-08,
+    "JUMP2": 1.3960298502477574e-10,
+    "RAJ": 1.3064433414277768e-05
+  },
+  "design_columns": 12,
+  "design_rank": 12,
+  "dm_covariance_relative_error": 5.837388823622357e-16,
+  "ecorr_covariance_relative_error": 0.0,
+  "normalized_design_condition": 780.2199285188343,
+  "phase_arc_cycles": 0.009552020865157827,
+  "published_reduced_chi_square": 0.9017,
+  "published_rms_us": 4.277,
+  "published_summary_relative_tolerance": 0.001,
+  "red_covariance_relative_error": 6.14816232845179e-16,
+  "reduced_chi_square": 0.9016123717536899,
+  "reduced_chi_square_published_difference": 8.762824631003419e-05,
+  "residual_max_difference_seconds": 0.0,
+  "weighted_rms_us": 4.276214250929926,
+  "weighted_rms_us_published_difference": 0.0007857490700740044,
+  "white_relative_error": 2.71133607061725e-16
+}

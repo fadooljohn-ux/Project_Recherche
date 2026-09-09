@@ -1,0 +1,7 @@
+{
+  "adapter_sha256": "298980804e63d137556a0bfeec3907b1bef337f68504ffb2f33ee135972de1ef",
+  "observed_search_executed": false,
+  "status": "PREPARATION_FAILED",
+  "target": "J1807-0847",
+  "traceback": "Traceback (most recent call last):\n  File \"./tools/utmost_prepare.py\", line 104, in prepare\n    Observatory.get('mo')._clock = [ClockFile.read(UPSTREAM/'clock_file/mo2gps.clk', format='tempo2')]\n                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"./.pixi/envs/default/lib/python3.11/site-packages/pint/observatory/clock_file.py\", line 129, in read\n    return cls._formats[format](filename, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"./.pixi/envs/default/lib/python3.11/site-packages/pint/observatory/clock_file.py\", line 537, in read_tempo2_clock_file\n    return ClockFile(\n           ^^^^^^^^^^\n  File \"./.pixi/envs/default/lib/python3.11/site-packages/pint/observatory/clock_file.py\", line 109, in __init__\n    raise ValueError(\nValueError: Clock file ../Project Recherche Data/utmost-inventory-20260909/TimingDataRelease1-e6c36c26b54749d89d29c148da98f0919b3ce5a8/clock_file/mo2gps.clk appears to be out of order: 58107.0 > 58105.999999\n"
+}

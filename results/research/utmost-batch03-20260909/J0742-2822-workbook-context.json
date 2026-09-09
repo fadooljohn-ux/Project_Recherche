@@ -1,0 +1,18 @@
+{
+  "target": "J0742-2822",
+  "created_utc": "2026-09-09T05:53:06.692312+00:00",
+  "result_path": "../Project Recherche Data/utmost-batch03-20260909/J0742-2822/run01/result.json",
+  "result_sha256": "36752aed8b368f26047ef610ddbc0bc9fd25225817708cca507f0d7fa36fbfb5",
+  "next_step": "Retain consumed result and the released-pulse-number preparation repair. Consider only independent data or a separately defined scope.",
+  "entries": [
+    {
+      "id": "utmost-batch03-20260909-J0742-2822-PREPARATION-CONTEXT",
+      "kind": "Preparation repair",
+      "status": "REPAIRED",
+      "summary": "Initial half-cycle ambiguity repaired using all 180 released pulse counts. Integer offsets agree exactly; final null reduced chi-square 1.034835.",
+      "scope": "Failed attempt and earlier preparations preserved. Rebuilt 21 prior residual arrays are exactly unchanged. No new solver or scientific scope.",
+      "source": "./results/research/utmost-batch03-20260909/preparation-summary.json",
+      "source_sha256": "bb706bb86a7b0c4992dc9d22bf8f4f6c169bb9cbd683c8a0c21b244ad53dcc9d"
+    }
+  ]
+}

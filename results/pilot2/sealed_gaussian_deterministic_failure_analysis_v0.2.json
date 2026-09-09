@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "analysis_id": "pilot2-b1937-sealed-gaussian-deterministic-failure-analysis-v0.2",
+  "status": "pass",
+  "mode": "read_only_no_new_random_draws_fits_or_scans",
+  "integrity": {
+    "case_count": 1500,
+    "calibration_case_count": 1000,
+    "sealed_case_count": 500,
+    "case_ids_disjoint": true,
+    "seeds_disjoint": true,
+    "all_case_hashes_sizes_and_mtimes_unchanged_during_analysis": true,
+    "ledger_sha256": "6f53ab6e38499f0a1253ba7992dfea71fc7945fec0209e52bf7b02f6f0f46b83",
+    "threshold_lock_sha256": "533926bb286375de43f8feb9568649685aca2ec0079d9641984e70411cd7937e",
+    "sealed_result_sha256": "c315ed9211503d2c136e75cfed1e75718c50f9779069d0d45281e80f3d933362"
+  },
+  "observed_failure": {
+    "sealed_strict_exceedances": 7,
+    "sealed_case_count": 500,
+    "sealed_false_positive_rate": 0.014,
+    "clopper_pearson_95": {
+      "lower": 0.0056467610703244304,
+      "upper": 0.028631616183336053
+    }
+  },
+  "distribution_comparison": {
+    "exact_two_sample_ks_statistic": 0.04,
+    "exact_two_sample_ks_p_value": 0.6556417682888162,
+    "global_distribution_shift_evidence": "not_detected_by_this_test",
+    "calibration_quantiles_50_90_95_99": [
+      12.448201167589968,
+      16.467327600029737,
+      18.45643395168456,
+      21.90719159299448
+    ],
+    "sealed_quantiles_50_90_95_99": [
+      12.450764404843587,
+      17.34552109225268,
+      18.85835937370363,
+      21.972961080063644
+    ],
+    "sealed_exceedance_peak_periods_days": [
+      33.22679434100002,
+      35.4622495399612,
+      42.106639803786535,
+      52.47144291777198,
+      63.92619239584622,
+      105.99902772269824,
+      637.2161082760491
+    ]
+  },
+  "finite_sample_diagnostics": {
+    "probability_of_7_or_more_in_500_if_true_false_positive_rate_is_0p01": 0.237078663950756,
+    "original_gate_pass_probability_if_true_false_positive_rate_is_0p01": 0.6159621318214527,
+    "original_gate_false_rejection_probability_if_true_false_positive_rate_is_0p01": 0.38403786817854735,
+    "nearest_rank_tail_probability_model": {
+      "family": "beta",
+      "alpha": 11,
+      "beta": 990,
+      "mean": 0.01098901098901099,
+      "central_95": [0.005503594192313587, 0.01831324305511245]
+    },
+    "order_statistic_predictive_probability_of_7_or_more_in_500": 0.3253408880567846,
+    "order_statistic_predictive_probability_of_passing_original_gate": 0.5469367947896356
+  },
+  "diagnosis": {
+    "primary": "acceptance_design_fragility_consistent_with_finite_sample_variability",
+    "detector_distribution_drift_demonstrated": false,
+    "current_hard_stop_remains_binding": true,
+    "current_threshold_may_be_retuned": false,
+    "existing_sealed_cases_may_be_reused_for_calibration_or_validation": false
+  },
+  "recommended_clean_revision": {
+    "version": "v0.2.1_new_protocol_required",
+    "threshold_calibration_cases": 5000,
+    "threshold_order_statistic_rank": 4962,
+    "target_population_quantile": 0.99,
+    "one_sided_distribution_free_confidence": 0.9534342612233192,
+    "expected_tail_probability_from_order_statistic": 0.007798440311937612,
+    "sealed_validation_cases": 2000,
+    "sealed_primary_gate": "wilson_upper_95_at_most_0.025",
+    "maximum_sealed_false_positives_for_that_gate": 36,
+    "pass_probability_at_true_false_positive_rate_0p01": 0.9996068482064723,
+    "raw_sample_false_positive_rate": "report_as_estimate_not_second_redundant_hard_gate",
+    "all_random_seeds": "new_preregistered_and_disjoint_from_v0.2",
+    "existing_1500_cases": "historical_diagnostic_only",
+    "sensitivity_effect": "must_be_remeasured_with_new_injections_after_null_gates_pass"
+  },
+  "interpretation_constraints": {
+    "threshold_retuned": false,
+    "sealed_cases_reused_for_calibration": false,
+    "new_random_draws_generated": 0,
+    "new_model_fits_executed": 0,
+    "new_periodic_scans_executed": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "analytical_bound": 27.95610897429911,
+  "empirical_quantile": 20.9651332498382,
+  "false_alarm_probability": 0.01,
+  "grid": {
+    "algorithm": "linear_frequency_independent_bin_oversampling",
+    "frequency_count": 905,
+    "frequency_step_per_day": 3.63381618630908e-05,
+    "maximum_frequency_per_day": 0.03333333333333333,
+    "maximum_period_days": 2000.0,
+    "minimum_frequency_per_day": 0.0005,
+    "minimum_period_days": 30.0,
+    "oversampling": 5,
+    "span_days": 5503.85571932693
+  },
+  "noise_assumption": "Gaussian with fixed supplied covariance and timing design",
+  "null_count": 4096,
+  "scope": "fixed linear searches; does not establish FAP after adaptive orbit fitting",
+  "seed": 202609092009,
+  "sensitivity": {
+    "definition": "on-grid circular signal, best/worst phase at each eligible period",
+    "detection_probability": 0.95,
+    "excluded_cell_amplitudes": "NaN; not a finite sensitivity estimate",
+    "limitations": "fixed linear timing/noise model; excludes off-grid loss and nonlinear multi-planet confusion"
+  },
+  "summary": {
+    "cache_key": "e998b413c855363ddec1a05e2d06ed9a58bd63b8fcdb5fd1c8f45c5d50674b1f",
+    "eligible_cells": 888,
+    "excluded_cells": 17,
+    "frequency_count": 905,
+    "median_worst_phase_amplitude_us": 0.404035284229217,
+    "observed_search_executed": false,
+    "status": "CALIBRATED_CONDITIONAL",
+    "target": "J0030+0451",
+    "threshold": 27.95610897429911,
+    "timing_rank": 19
+  },
+  "threshold": 27.95610897429911
+}

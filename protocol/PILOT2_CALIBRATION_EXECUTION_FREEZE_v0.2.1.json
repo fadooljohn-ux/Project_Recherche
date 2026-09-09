@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot2-b1937-calibration-v0.2.1-sealed-continuation-freeze-r2",
+  "recorded_utc": "2026-08-10T01:16:11Z",
+  "status": "frozen_before_first_v0.2.1_calibration_case",
+  "scope": "exactly_2000_disjoint_sealed_gaussian_cases_against_bound_threshold_lock",
+  "execution_authorized": true,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "discovery_claim_authorized": false,
+  "inventory_sha256": "5dc1601881e58b64d5afd8f4a4236e441447155bfb9e6b9d03d58958b3331106",
+  "implementation_sha256": "0dd97eb7319b722a04f581d7afc2ef73ac2bb7d6fec00e3c62a5e46d5baaf42a",
+  "authorization_sha256": "bebb939ca7756ae423285e91231ae107d9c95276a6d8e650e0841f2d320c9d59",
+  "controlled_manifest_sha256": "8d114059ce42cfe575a0794b83ae9bd972fa647d3345c4ceedabb7fbac1d9543",
+  "cache_manifest_sha256": "24d89116e4318c28406695cacad35e1e69cc78312097e1bf5b77d7bd0cdfc134",
+  "calibration_result_sha256": "764335495e9d3398ebe7d039073e109d371273bfd7ab25d89b94c34e19b151e4",
+  "threshold_lock_sha256": "6e624af784aabd92ce8b28babdaed4c863ca12c94caad756da005f14bf9b5117",
+  "sealed_authorization_sha256": "e6747505ecf832bca0b4ff42c7aabc1504d9066ce2787875f97d5d2d44f64cab",
+  "sealed_evaluation_authorized": true,
+  "frozen_sha256": {
+    "config/pilot2_calibration_v0.2.1.yaml": "eecb8935f96afd3a9d450013eec81572c973840194c95ba8881100da67e5da19",
+    "pixi.lock": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8",
+    "protocol/PILOT2_CALIBRATION_DESIGN_FREEZE_v0.2.1.json": "239688f6f6c70d35c1a82567bd5f15c3bc38f31848acae64a22e64d5fd45bf19",
+    "protocol/PILOT2_CALIBRATION_EXECUTION_AUTHORIZATION_v0.2.1.json": "bebb939ca7756ae423285e91231ae107d9c95276a6d8e650e0841f2d320c9d59",
+    "protocol/PILOT2_CALIBRATION_IMPLEMENTATION_FREEZE_v0.2.1.json": "1ddea2a6c6512ea79cba87ed3f48dcd2fff37026dda89cf1e24d065314b5463f",
+    "protocol/PILOT2_SEALED_GAUSSIAN_AUTHORIZATION_v0.2.1.json": "e6747505ecf832bca0b4ff42c7aabc1504d9066ce2787875f97d5d2d44f64cab",
+    "src/pulsar_pilot/pilot2_calibration_revision_executor.py": "9cd9f1b15e7466f374b8ed6a2d135868d7e3ce475a2333c72017d2b186fcd9b8",
+    "src/pulsar_pilot/pilot2_calibration_revision_grading.py": "f7069bda649531127ee48aa75a2b1010abb4715a2c270c362b5d25f47b733ac4",
+    "src/pulsar_pilot/pilot2_calibration_revision_runtime.py": "d403e6d3368d6e5bcc083b34510ebab43f9c0ee283d8decc950782c72cf9ba1f"
+  }
+}

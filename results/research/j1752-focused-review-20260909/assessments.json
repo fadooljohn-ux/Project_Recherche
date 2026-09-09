@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "assessment_id": "j1752-focused-review-20260909",
+  "assessed_utc": "2026-09-09T06:57:18.813565+00:00",
+  "method": "docs/CANDIDATE_GRADING.md",
+  "records": [
+    {
+      "record_id": "utmost-batch04-20260909-J1752-2806-run01",
+      "target": "J1752-2806",
+      "result_sha256": "95eeadd38dcb16ded708638fa9493b512365a4d82d13ff852081da5af89bb84a",
+      "statistical_grade": "NOT_ESTABLISHED",
+      "global_fap": null,
+      "global_sigma": null,
+      "global_scope": "No noise-robust survey-wide false-alarm calibration. Original 1% allowance is conditional and per batch.",
+      "diagnostic_source": "results/research/j1752-focused-review-20260909/null-generators.json",
+      "exceedance_field": "null_exceedances",
+      "null_count": 512,
+      "null_exceedances": 0,
+      "diagnostic_p_plus_one": 0.001949317738791423,
+      "diagnostic_scope": "Largest per-generator plus-one tail across four declared generators: each 0/512; one old ensemble reused and three new. Counts not pooled. FIRST review finite-family statistic only; does not calibrate the new continuous fit or survey-wide FAP.",
+      "robustness_grade": "NOISE_SENSITIVE",
+      "robustness_evidence": "Local period stays near 81.7 days after continuous noise fitting, but joint improvement falls from 58.42 (12 modes) to 9.89/12.56 (32/64). Released shortest red Fourier period is 121.65 days. Original day/time consistency survives as historical evidence; noise robustness remains unestablished.",
+      "confirmation_grade": "UNDERPOWERED",
+      "confirmation_evidence": "TPA remains underpowered after approximate period/coefficient uncertainty propagation: median conditional fixed-period power 22.2-31.4% across three noise bases. Non-overlapping spans accumulate phase uncertainty; no independent corroboration established.",
+      "disposition": "INCONCLUSIVE_NOISE_SENSITIVE",
+      "sources": [
+        {
+          "path": "results/research/j1752-focused-review-20260909/scope.json",
+          "sha256": "b148eaa3b38a2d2a1fbe13ac508b6560f326dd11a14fbf866b2247acb1d6a54b"
+        },
+        {
+          "path": "results/research/j1752-focused-review-20260909/joint.json",
+          "sha256": "574831c78b0d64318943ead95645ac2ed15184c679f15a557cc517578cfd7c7a"
+        },
+        {
+          "path": "results/research/j1752-focused-review-20260909/null-generators.json",
+          "sha256": "0db2a76f5286043abbc2ff9312ffa333ace1087a368291dcd1806f6ba5a0438f"
+        },
+        {
+          "path": "results/research/j1752-focused-review-20260909/propagation.json",
+          "sha256": "5f70f170f3db64e0d493c880787d344c280632e7be871d784f5e42ee17f82d33"
+        },
+        {
+          "path": "results/research/j1752-focused-review-20260909/verification.json",
+          "sha256": "95e79075a48fbf1d93f0e85c3f2ef6471dfdd0870ed1a1d522973a1f2203b146"
+        },
+        {
+          "path": "results/research/j1752-focused-review-20260909/report-receipt.json",
+          "sha256": "4ca3e6874e17222e4f1e62b429514da99b810fab87f9033c897cb106a44634f2"
+        },
+        {
+          "path": "output/pdf/J1752-2806_Candidate_Report.pdf",
+          "sha256": "c52cd9891db6610f309d8734d1dcd0f73ea96d4ee72745932e286450f47035f1"
+        },
+        {
+          "path": "output/pdf/J1752-2806_Candidate_Report.md",
+          "sha256": "32950068fa7686f48983fd2270038dfc4ea065727c3db2e50921866685732ef8"
+        }
+      ]
+    }
+  ]
+}

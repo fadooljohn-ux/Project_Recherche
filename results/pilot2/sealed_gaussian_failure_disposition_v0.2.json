@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "disposition_id": "pilot2-b1937-sealed-gaussian-failure-v0.2",
+  "recorded_utc": "2026-08-09T23:52:53.579089Z",
+  "status": "hard_stop",
+  "stage": "sealed_gaussian_evaluation",
+  "scorecard": {
+    "overall": "FAIL",
+    "passed": 2,
+    "total": 4,
+    "criteria": {
+      "exactly_500_disjoint_cases": "PASS",
+      "false_positive_rate_at_most_0.01": "FAIL",
+      "wilson_upper_95_at_most_0.025": "FAIL",
+      "threshold_not_retuned": "PASS"
+    }
+  },
+  "outcomes": {
+    "false_positives": 7,
+    "case_count": 500,
+    "false_positive_rate": 0.014,
+    "wilson_95_lower": 0.00679778979084349,
+    "wilson_95_upper": 0.02861306913778529
+  },
+  "integrity": {
+    "completed_total_cases": 1500,
+    "checkpoint_count": 60,
+    "artifact_ledger_status": "pass",
+    "artifact_ledger_sha256": "6f53ab6e38499f0a1253ba7992dfea71fc7945fec0209e52bf7b02f6f0f46b83",
+    "sealed_result_sha256": "c315ed9211503d2c136e75cfed1e75718c50f9779069d0d45281e80f3d933362",
+    "threshold_lock_sha256": "533926bb286375de43f8feb9568649685aca2ec0079d9641984e70411cd7937e",
+    "threshold_lock_unchanged": true,
+    "observed_residual_vector_used": false,
+    "observed_periodic_search_executed": false
+  },
+  "authority": {
+    "reroll_authorized": false,
+    "threshold_retuning_authorized": false,
+    "structured_tail_evaluation_authorized": false,
+    "injection_evaluation_authorized": false,
+    "promotion_authorized": false,
+    "observed_periodic_search_authorized": false
+  },
+  "next_permitted_activity": "deterministic_failure_analysis_without_new_random_draws_or_model_fits"
+}

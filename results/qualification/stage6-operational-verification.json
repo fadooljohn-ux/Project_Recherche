@@ -1,0 +1,160 @@
+{
+  "status": "PASS",
+  "stage": 6,
+  "qualified_science_commit": "f3c93efdfbc802ce8bf86a3b957ce493d8b7ef27",
+  "qualified_source": {
+    "status": "PASS",
+    "qualification_commit": "f3c93efdfbc802ce8bf86a3b957ce493d8b7ef27",
+    "source_files_verified": 71,
+    "source_changes": 0
+  },
+  "formal_evidence": {
+    "status": "PASS",
+    "runs": [
+      {
+        "run_id": "pilot2-ioc-qualification-20260908-01",
+        "bound_artifacts_unchanged": 4
+      },
+      {
+        "run_id": "pilot2-ioc-qualification-20260908-02",
+        "bound_artifacts_unchanged": 4
+      }
+    ]
+  },
+  "runtime_restore": {
+    "status": "PASS",
+    "archive": "../Recherche Releases/operational-20260908/runtime.tar.gz",
+    "sha256": "619592aa2e7c27921b00933f5d4ad5a0f396a1a1e9b36c588d947389b2c2ab3f",
+    "bytes": 188221690,
+    "files_and_links": 16815,
+    "actual_restore_verified": true,
+    "exact_inventory_and_content_verified": true,
+    "excluded": [
+      "__pycache__",
+      "*.pyc"
+    ],
+    "required_installation": "."
+  },
+  "restored_runtime_check": {
+    "status": "PASS",
+    "project_root": ".",
+    "python": "./.pixi/envs/default/bin/python",
+    "packages_verified": 134,
+    "precision": {
+      "extended_precision": true,
+      "float64_mantissa_bits": 52,
+      "gate_g1_precision": "pass",
+      "longdouble_mantissa_bits": 63
+    },
+    "qualified_source_verified": true,
+    "scientific_fits_executed": 0,
+    "data_root": "../Project Recherche Data/operational-20260908",
+    "inputs_verified": 21,
+    "resources_verified": 10
+  },
+  "operator_checks": {
+    "status": "PASS",
+    "corrupt_input_rejected": true,
+    "active_run_backup_rejected": true,
+    "restored_inputs": {
+      "status": "PASS",
+      "project_root": ".",
+      "python": "./.pixi/envs/default/bin/python",
+      "packages_verified": 134,
+      "precision": {
+        "extended_precision": true,
+        "float64_mantissa_bits": 52,
+        "gate_g1_precision": "pass",
+        "longdouble_mantissa_bits": 63
+      },
+      "qualified_source_verified": true,
+      "scientific_fits_executed": 0,
+      "data_root": "/private/tmp/recherche-stage6-26rwc9do/data",
+      "inputs_verified": 21,
+      "resources_verified": 10
+    }
+  },
+  "fresh_input_setup": {
+    "status": "PASS",
+    "project_root": ".",
+    "python": "./.pixi/envs/default/bin/python",
+    "packages_verified": 134,
+    "precision": {
+      "extended_precision": true,
+      "float64_mantissa_bits": 52,
+      "gate_g1_precision": "pass",
+      "longdouble_mantissa_bits": 63
+    },
+    "qualified_source_verified": true,
+    "scientific_fits_executed": 0,
+    "data_root": "/private/tmp/recherche-stage6-26rwc9do/receipt-check",
+    "inputs_verified": 21,
+    "resources_verified": 10
+  },
+  "input_archive": {
+    "archive": "../Recherche Releases/operational-20260908/inputs.tar",
+    "content_verified": true,
+    "file_count": 25,
+    "sha256": "afce31945b082dfb0c24bc327c1059aa3cf2ac65db63c3dfe0171c21303d5564",
+    "source_after_verified": true,
+    "status": "PASS"
+  },
+  "development_installation_check": {
+    "status": "PASS",
+    "run_id": "pilot2-ioc-dev-stage6-install-fixed-20260908",
+    "run_root": "/private/tmp/recherche-stage6-26rwc9do/data/development-runs/pilot2-ioc-dev-stage6-install-fixed-20260908",
+    "elapsed_seconds": 188.521,
+    "terminal_artifacts_verified": 11,
+    "accounting": {
+      "cases": 1,
+      "primary_fits": 2,
+      "random_draws": 1,
+      "scans": 1,
+      "solver_audits": 1
+    },
+    "result": {
+      "accounting": {
+        "cases": 1,
+        "primary_fits": 2,
+        "random_draws": 1,
+        "scans": 1,
+        "solver_audits": 1
+      },
+      "case_artifacts": [
+        "cases/recherche-dev-20260907-main.json"
+      ],
+      "checks": {
+        "all_fits_converged": true,
+        "case_records_valid": true,
+        "offline_resources_verified": true,
+        "solver_audits_passed": true
+      },
+      "formal_qualification": false,
+      "scope": "selected development fixtures; no population recovery or discovery claim",
+      "status": "PASS"
+    },
+    "terminal_inventory_sha256": "72928cf1bcacc1dc95a1517576e5106364066f7b19fd5ab207847b059a68bc41"
+  },
+  "relocation_limitation": {
+    "status": "DIAGNOSED",
+    "cause": "Python embeds the installation prefix; the only changed byte region is the prefix and NUL padding.",
+    "qualified_prefix": "./.pixi/envs/default",
+    "relocated_prefix": "/private/tmp/recherche-stage6-26rwc9do/checkout/.pixi/envs/default",
+    "same_conda_package": true,
+    "only_prefix_region_differs": true,
+    "qualified_python_sha256": "93a407ec7f645575c3e7c0da3165c5e2aca5f07c5509c730313f1e6d38c9f4e9",
+    "relocated_python_sha256": "201d8f395f67f8d38b217855252bdc8cd68ae3148478a3cadb90aa03be3f73fe",
+    "resolution": "Restore the pinned environment at the qualified canonical path; do not weaken scientific identity checks."
+  },
+  "package_directory": "../Recherche Releases/operational-20260908",
+  "observed_search_executed": false,
+  "formal_qualification_repeated": false,
+  "installation_smoke_backup": {
+    "status": "PASS",
+    "archive": "../Recherche Releases/operational-20260908/installation-smoke.tar",
+    "sha256": "cfbe172395478747f10e76c7c38d0caa6a23253d4786ca382e1588d3e80d42ec",
+    "file_count": 38,
+    "content_verified": true,
+    "source_after_verified": true
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot1-one-shot-observed-residual-search-freeze-v0.1",
+  "status": "frozen_for_final_fable_review",
+  "authorization": "preparation_only_execution_locked",
+  "target": "J1744-1134",
+  "dataset": "nanograv_15yr_timing_v2.1.0_wideband",
+  "package_manifest_sha256": "1efe2878789299dfa017146740f6c0f8d2cba8fd6ebca4e86f0d65c4792f4235",
+  "plan_sha256": "4f4f0d05340aac9d956fe991e94df12c802fc0e8e287d84911b9822a4464bfcf",
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "threshold_retuning_authorized": false,
+  "rerun_authorized": false,
+  "deletion_checks_as_hard_vetoes": false,
+  "robust_refit_included": false,
+  "locked_detector": {
+    "statistic": "covariance_whitened_gls_circular_scan",
+    "candidate_statistic": "strongest_unmasked_grid_cell_delta_chi2",
+    "threshold_delta_chi2": 23.33426855482562,
+    "threshold_comparison": "strictly_greater_than",
+    "period_minimum_days": 30.0,
+    "period_maximum_days": 2000.0,
+    "frequency_oversampling": 5,
+    "frequency_count": 941,
+    "scan_count": 1,
+    "reference_epoch_mjd_tdb": 56078.0
+  },
+  "locked_annual_mask": {
+    "target_periods_days": [350.0, 365.25, 380.0],
+    "masked_grid_indices": [67, 64, 61],
+    "masked_grid_periods_days": [
+      352.00169343000294,
+      365.4864947220044,
+      380.0456286107417
+    ],
+    "mapping": "nearest_period_cell_ties_to_lowest_index",
+    "strongest_unmasked_cell_selects_candidate": true,
+    "masked_cells_role": "sensitivity_gap_only"
+  },
+  "locked_deletion_diagnostics": {
+    "classification": "advisory_only",
+    "deletion_units": 749,
+    "paired_row_units": 433,
+    "utc_day_units": 316,
+    "inventory_sha256": "617809921a1598b120514273bbab9ce0374b322601fcdb96c346d75933164eb4",
+    "mechanical_labels": ["DELETION_FRAGILE", "DELETION_STABLE"],
+    "candidate_authority": "none_advisory_only"
+  },
+  "frozen_sha256": {
+    "config/pilot1_one_shot_search_v0.1.yaml": "31ff939583b942f54494ebaad8df1a2cc8f25a9989be9e396135485aa09c9f70",
+    "src/pulsar_pilot/one_shot_search.py": "61c7998f725a601f897b0eed466e5eeca3b6542394e71f9c46538751f8c474cd",
+    "protocol/PILOT1_ONE_SHOT_SEARCH_PROTOCOL_v0.1.md": "a6e99efe0167b47498a5f24aeebe5db811878bb64e7516ed0b459665e9dd6cd3",
+    "protocol/PILOT1_ONE_SHOT_CANDIDATE_DISPOSITION_CONTRACT_v0.1.md": "4e4e48b97d64fa59ec6b8b34e0f1dbf1b19119a541dc6a190f239431a4b5c135",
+    "protocol/PILOT1_ONE_SHOT_CANDIDATE_REPORT_SCHEMA_v0.1.json": "f827593bcdd562e7fb8edbfa217cd3755967af90c39b721f3c6da9b2b0df9db3",
+    "protocol/FABLE_FINAL_PREEXECUTION_SIGNOFF_SCHEMA_v0.1.json": "caee3335979b352c072f754c6454a248c7937d420ca1065f255a374de390af57",
+    "protocol/USER_ONE_SHOT_EXECUTION_AUTHORIZATION_SCHEMA_v0.1.json": "c6a3c33c637d63d275c83538f0bb8e71f527adf62a090d817453c5d6399943bc",
+    "results/pilot1/one_shot_plan_v0.1.json": "df0d770c2e9ac3df1e0dccdc680230c2b25808d6caf6bf712d969de94a817b53",
+    "tests/test_one_shot_search.py": "1c8e6f4b1cc2711e5b52dfb28b61acbc6c6a121cfe865b4c85729158b7ace2d6",
+    "protocol/INITIAL_V0.1_RELEASE_FREEZE.json": "95486696ad1a689e49490afbe7d1891fdfe09e093e9aaec7448cc6214d127eb8",
+    "protocol/PILOT1_PREUNBLINDING_EXECUTION_FREEZE_v0.1.json": "ed4a7fbc91d289105ecf1d2153d5dbb5c2c328ea2db67a7458216d6d52fcb866",
+    "pixi.lock": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8"
+  },
+  "external_prerequisites": {
+    "run_records/pilot1/calibration-null-v0.1-summary.json": {
+      "bytes": 53026,
+      "sha256": "c954083c8ad5c26db684f80a8ef02867eb4669d1351b31eed9e1aa18be91073a"
+    },
+    "run_records/pilot1/sealed-evaluation-v0.1-summary.json": {
+      "bytes": 31718,
+      "sha256": "a3fc929fa11039adedaaa24b8abf4d8ffc66c49c35db40896a2d0a4c053ed60d"
+    },
+    "run_records/pilot1/injection-calibration-v0.1-summary.json": {
+      "bytes": 390638,
+      "sha256": "8bf50152cf3cd31109f363ef0bb01bf5f21f9c1d423b6a9ed53cabecafc692b8"
+    },
+    "run_records/pilot1/reference-discrepancy-v0.1.json": {
+      "bytes": 3027,
+      "sha256": "66cbd929274be624eaf671453ed84771a8e4d1e4aebb4cd5145f44ea12872e44"
+    },
+    "run_records/pilot1/sensitivity-extension-v0.1-summary.json": {
+      "bytes": 331606,
+      "sha256": "fcc905f2648684418a4cbde150928d0e61a59ba2456134130ed6cccd65ca88b4"
+    },
+    "run_records/pilot1/tail-robustness-v0.1-summary.json": {
+      "bytes": 46398,
+      "sha256": "2871026b1aa71135f7d24ff9d53cccdbb9a95373aa49798f3699e9bf9eaedee5"
+    },
+    "run_records/pilot1/tail-robustness-r1-v0.1-summary.json": {
+      "bytes": 12001,
+      "sha256": "78482d0cc8697b03884efc4d7c9714376e713d3f2067d2f3df09a07e10a87c80"
+    },
+    "run_records/pilot1/preunblinding-validation-v0.1-summary.json": {
+      "bytes": 24419,
+      "sha256": "50ee11b6532470f2a72c195ba5fa5389a49015a992c5046c0569b38fea4da469"
+    }
+  },
+  "authority_boundary": {
+    "final_fable_signoff_required": true,
+    "explicit_user_authorization_required": true,
+    "final_fable_signoff_path": "protocol/FABLE_FINAL_PREEXECUTION_SIGNOFF_v0.1.json",
+    "user_authorization_path": "protocol/USER_ONE_SHOT_EXECUTION_AUTHORIZATION_v0.1.json",
+    "current_execution_state": "locked",
+    "automatic_retry_authorized": false
+  },
+  "result_publication_required": true,
+  "discovery_claim_authorized": false,
+  "next_gate": "independent_hash_bound_fable_final_preexecution_review"
+}

@@ -1,0 +1,49 @@
+{
+  "completed_utc": "2026-09-08T16:42:35.602872+00:00",
+  "created_utc": "2026-09-08T16:39:27.054406+00:00",
+  "data_root": "../Project Recherche Data/pta-campaign01-repair01-20260909",
+  "datasets": [
+    {
+      "corrected_toas": 1315,
+      "replacement_result_sha256": "db4491a6caf63c87d753451476057cc90408d4d568cc997040f15670985bef94",
+      "source": "epta",
+      "superseded_result_path": "../Project Recherche Data/pta-campaign01-20260908/epta/J1730-2304/run01/result.json",
+      "superseded_result_sha256": "152858356c774f00380e16fa48bd6065b2dcb0d7d5851dd6fecbed03c133e27b",
+      "target": "J1730-2304"
+    },
+    {
+      "corrected_toas": 1946,
+      "replacement_result_sha256": "3656624e9210cf9c5b837d26e5e329c991eb65d7dd3ff2e032e72b364634d68c",
+      "source": "epta",
+      "superseded_result_path": "../Project Recherche Data/pta-campaign01-20260908/epta/J1744-1134/run01/result.json",
+      "superseded_result_sha256": "3af31634a916a5e9be32a12617d125c7e2ee7e330d016877012c0432030272b5",
+      "target": "J1744-1134"
+    },
+    {
+      "corrected_toas": 882,
+      "replacement_result_sha256": "d0a76523233967cfbee371b98b3340ae0e8346113038343419e014245fbfdbfe",
+      "source": "epta",
+      "superseded_result_path": "../Project Recherche Data/pta-campaign01-20260908/epta/J1911+1347/run01/result.json",
+      "superseded_result_sha256": "f237a1c1a4f8119ef67bda7b25a254a0a0ef14ff32e1187224620ba20be84580",
+      "target": "J1911+1347"
+    }
+  ],
+  "parent_campaign": "../Project Recherche Data/pta-campaign01-20260908",
+  "policy": {
+    "detection_probability": 0.95,
+    "false_alarm_probability": 0.01,
+    "maximum_condition_number": 10000000000.0,
+    "maximum_period_days": 2000.0,
+    "minimum_period_days": 30.0,
+    "minimum_retained_power": 0.2,
+    "null_count": 4096,
+    "oversampling": 5,
+    "search_count": 18,
+    "seed": 2026092300
+  },
+  "reason": "Tempo2 uppercase C comments were read as active TOAs; addsat seconds were not applied before barycentering. Correct all affected datasets, including original NO_TRIGGER J1911+1347. No peak-dependent cuts or policy tuning.",
+  "replacement_freeze_sha256": "72f8441f374295a692816372bfc7e7d1f2fa32112ddae75d5a471608f67672c7",
+  "semantics_source": "https://github.com/ipta/tempo2/blob/master/readTimfile.C",
+  "source_reader_sha256": "01463be0d78e75078cdbba7ae7fcd578e5d7db08fbec476d4f289488803a1ea2",
+  "status": "COMPLETE"
+}

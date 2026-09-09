@@ -1,0 +1,206 @@
+#!/bin/sh
+# Supported local entry point: pinned Intel/Pixi precision and offline execution.
+set -eu
+recherche_repo=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+cd "$recherche_repo"
+export PYTHONPATH="$recherche_repo/src"
+export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1
+update_master_workbook() {
+  recherche_artifact_node="$HOME/.cache/codex-runtimes/codex-primary-runtime/dependencies/node"
+  recherche_master_dir="$recherche_repo/outputs/recherche-master-20260908"
+  if [ "${RECHERCHE_WORKBOOK_BACKEND:-}" = portable ] || [ "${1:-}" = --review ] || [ ! -x "$recherche_artifact_node/bin/node" ]; then
+    if [ ! -x "$recherche_repo/.agent-venv/bin/python" ]; then
+      echo 'Workbook runtime missing. Run python3 tools/agent_setup.py --install, then retry master-workbook only.' >&2
+      return 1
+    fi
+    "$recherche_repo/.agent-venv/bin/python" "$recherche_repo/tools/agent_workbook.py" "$@"
+    return $?
+  fi
+  if [ ! -e "$recherche_master_dir/node_modules" ]; then
+    ln -s "$recherche_artifact_node/node_modules" "$recherche_master_dir/node_modules"
+  fi
+  "$recherche_artifact_node/bin/node" "$recherche_master_dir/update.mjs" "$@"
+}
+if [ "${1:-}" = master-workbook ]; then
+  shift
+  update_master_workbook "$@"
+  exit $?
+fi
+if [ ! -x "$recherche_repo/.pixi/envs/default/bin/python" ]; then
+  echo 'Pinned environment missing. Run tools/install, then retry.' >&2
+  exit 2
+fi
+case "${1:-}" in
+  ipta-campaign)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/ipta_campaign.py" "$@"
+    ;;
+  ipta-search)
+    shift
+    recherche_ipta_action=${1:-}
+    recherche_ipta_data=''
+    recherche_previous_arg=''
+    for recherche_arg in "$@"; do
+      if [ "$recherche_previous_arg" = --data ]; then recherche_ipta_data="$recherche_arg"; fi
+      case "$recherche_arg" in --data=*) recherche_ipta_data=${recherche_arg#--data=} ;; esac
+      recherche_previous_arg="$recherche_arg"
+    done
+    recherche_ipta_exit=0
+    /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/ipta_search.py" "$@" || recherche_ipta_exit=$?
+    if [ "$recherche_ipta_action" = run ]; then
+      update_master_workbook "$recherche_ipta_data" --ipta-observed
+    fi
+    exit "$recherche_ipta_exit"
+    ;;
+  ipta-prepare)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/ipta_prepare.py" "$@"
+    ;;
+  utmost-search)
+    shift
+    recherche_utmost_action=${1:-}
+    recherche_utmost_data="$recherche_repo/../Project Recherche Data/utmost-preparation01-20260909"
+    recherche_previous_arg=''
+    for recherche_arg in "$@"; do
+      if [ "$recherche_previous_arg" = --data ]; then recherche_utmost_data="$recherche_arg"; fi
+      recherche_previous_arg="$recherche_arg"
+    done
+    recherche_utmost_exit=0
+    /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/utmost_search.py" "$@" || recherche_utmost_exit=$?
+    if [ "$recherche_utmost_action" = run ]; then
+      update_master_workbook "$recherche_utmost_data" --utmost-observed
+    fi
+    exit "$recherche_utmost_exit"
+    ;;
+  utmost-prepare)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/utmost_prepare.py" "$@"
+    ;;
+  utmost-inventory)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/utmost_inventory.py" "$@"
+    ;;
+  j1939-review)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/j1939_deep_review.py" "$@"
+    ;;
+  pta-campaign)
+    shift
+    recherche_campaign_action=${1:-}
+    recherche_campaign_source=''
+    recherche_campaign_data="$recherche_repo/../Project Recherche Data/pta-campaign01-20260908"
+    recherche_previous_arg=''
+    for recherche_arg in "$@"; do
+      if [ "$recherche_previous_arg" = --source ]; then recherche_campaign_source="$recherche_arg"; fi
+      if [ "$recherche_previous_arg" = --data ]; then recherche_campaign_data="$recherche_arg"; fi
+      recherche_previous_arg="$recherche_arg"
+    done
+    /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/pta_campaign.py" "$@"
+    if [ "$recherche_campaign_action" = run ]; then
+      update_master_workbook "$recherche_campaign_data/$recherche_campaign_source" --pta-observed
+    fi
+    exit 0
+    ;;
+  j1453-review)
+    shift
+    case "${1:-}" in
+      wideband) recherche_review_script=j1453_review.py ;;
+      narrowband) recherche_review_script=j1453_narrowband_review.py ;;
+      *) echo 'Usage: tools/recherche j1453-review wideband|narrowband' >&2; exit 2 ;;
+    esac
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/$recherche_review_script"
+    ;;
+  tpa-batch|ng15-batch)
+    recherche_batch_kind=${1%-batch}
+    shift
+    if [ "${1:-}" = run ]; then
+      recherche_batch_data="$recherche_repo/../Project Recherche Data/${recherche_batch_kind}-batch01-20260908"
+      recherche_previous_arg=''
+      for recherche_arg in "$@"; do
+        if [ "$recherche_previous_arg" = --data ]; then recherche_batch_data="$recherche_arg"; fi
+        case "$recherche_arg" in --data=*) recherche_batch_data=${recherche_arg#--data=} ;; esac
+        recherche_previous_arg="$recherche_arg"
+      done
+      if /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+        "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/${recherche_batch_kind}_batch.py" "$@"; then
+        recherche_science_exit=0
+      else
+        recherche_science_exit=$?
+      fi
+      if ! update_master_workbook "$recherche_batch_data" "--${recherche_batch_kind}-observed"; then
+        echo 'Workbook update failed. Repair with master-workbook; do not rerun science.' >&2
+        exit 1
+      fi
+      exit "$recherche_science_exit"
+    fi
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/${recherche_batch_kind}_batch.py" "$@"
+    ;;
+  chromatic-support)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/chromatic_support.py" "$@"
+    ;;
+  mpta-batch)
+    shift
+    if [ "${1:-}" = run ]; then
+      recherche_batch_data="$recherche_repo/../Project Recherche Data/mpta-batch01-20260908"
+      recherche_previous_arg=''
+      for recherche_arg in "$@"; do
+        if [ "$recherche_previous_arg" = --data ]; then
+          recherche_batch_data="$recherche_arg"
+        fi
+        case "$recherche_arg" in --data=*) recherche_batch_data=${recherche_arg#--data=} ;; esac
+        recherche_previous_arg="$recherche_arg"
+      done
+      if /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+        "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/mpta_batch.py" "$@"; then
+        recherche_science_exit=0
+      else
+        recherche_science_exit=$?
+      fi
+      if ! update_master_workbook "$recherche_batch_data"; then
+        echo 'Workbook update failed. Saved science is retained; repair with master-workbook, not another run.' >&2
+        exit 1
+      fi
+      exit "$recherche_science_exit"
+    fi
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/mpta_batch.py" "$@"
+    ;;
+  companion-benchmark)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/companion_benchmark.py" "$@"
+    ;;
+  calibration)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/target_calibration.py" "$@"
+    ;;
+  benchmark-b1257)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/b1257_benchmark.py" "$@"
+    ;;
+  observed)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/b1937_search.py" "$@"
+    ;;
+  doctor|init-data|backup)
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/recherche_operator.py" "$@"
+    ;;
+esac
+exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+  "$recherche_repo/.pixi/envs/default/bin/python" -m pulsar_pilot.pilot2_ioc_harness "$@"

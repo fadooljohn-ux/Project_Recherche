@@ -1,0 +1,84 @@
+{
+  "libstempo": "2.5.1",
+  "ephemeris": "DE436",
+  "clock": "TT(BIPM2015)",
+  "noise": {
+    "efac_JBO.DFB.1520": {
+      "value": 0.808421,
+      "flag": "group",
+      "flag_value": "JBO.DFB.1520"
+    },
+    "efac_NRT.BON.1400": {
+      "value": 0.935339,
+      "flag": "group",
+      "flag_value": "NRT.BON.1400"
+    },
+    "efac_NRT.BON.1600": {
+      "value": 0.803238,
+      "flag": "group",
+      "flag_value": "NRT.BON.1600"
+    },
+    "efac_WSRT.P1.1380": {
+      "value": 0.988722,
+      "flag": "group",
+      "flag_value": "WSRT.P1.1380"
+    },
+    "efac_WSRT.P1.1380.C": {
+      "value": 1.32072,
+      "flag": "group",
+      "flag_value": "WSRT.P1.1380.C"
+    },
+    "equad_JBO.DFB.1520": {
+      "value": 6.152902029153782,
+      "flag": "group",
+      "flag_value": "JBO.DFB.1520"
+    },
+    "equad_NRT.BON.1400": {
+      "value": 0.0006038234844639005,
+      "flag": "group",
+      "flag_value": "NRT.BON.1400"
+    },
+    "equad_NRT.BON.1600": {
+      "value": 0.04598540333432304,
+      "flag": "group",
+      "flag_value": "NRT.BON.1600"
+    },
+    "equad_WSRT.P1.1380": {
+      "value": 0.03626519357793372,
+      "flag": "group",
+      "flag_value": "WSRT.P1.1380"
+    },
+    "equad_WSRT.P1.1380.C": {
+      "value": 0.0014726176452832366,
+      "flag": "group",
+      "flag_value": "WSRT.P1.1380.C"
+    }
+  },
+  "longdouble_mantissa": 63,
+  "f0": "541.8097534370605845",
+  "pepoch": "54999.999816170382115",
+  "timing_names": [
+    "Offset",
+    "RAJ",
+    "DECJ",
+    "F0",
+    "F1",
+    "DM",
+    "DM1",
+    "DM2",
+    "PMRA",
+    "PMDEC",
+    "PX",
+    "JUMP2",
+    "JUMP3",
+    "JUMP4",
+    "JUMP5"
+  ],
+  "derivative_relative_errors": {
+    "F0": 3.678402386869674e-08,
+    "RAJ": 1.4295095264633245e-05,
+    "DM2": 3.904878637522504e-06,
+    "JUMP2": 3.11026389767288e-12
+  },
+  "fit_performed": false
+}

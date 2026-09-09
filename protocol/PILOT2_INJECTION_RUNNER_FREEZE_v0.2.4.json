@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot2-b1937-injection-runner-freeze-v0.2.4",
+  "recorded_utc": "2026-08-10T10:08:11Z",
+  "status": "implementation_frozen_execution_not_authorized",
+  "scope": "v0.2.4_zero_science_attempt_recovery_and_authorization_boundary_remediation",
+  "execution_authorized": false,
+  "science_cases_executed_during_validation": 0,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "promotion_grade_authorized": false,
+  "discovery_claim_authorized": false,
+  "inventory_policy": "reuse_exact_never_executed_v0.2.3_inventory_without_seed_churn",
+  "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+  "implementation_sha256": "e36f958626b46f57db23aae537dd320473f642333fae3b3e1fdf8e2edc5a11e0",
+  "source_audit_disposition": "hold_remediated_pending_fresh_sol_audit",
+  "frozen_sha256": {
+    "config/pilot2_injection_runner_v0.2.4.yaml": "1d5ff3b8c77990930bb03563e827f919fd36bf8c0514ad43f3f91d4ff3c280a0",
+    "protocol/PILOT2_INJECTION_RUNNER_PROTOCOL_v0.2.4.md": "57a54c9d381efb5d8a4c732c7ed25bb3ff47f6ef13bcc9e9d73e4508a9fbd6e8",
+    "results/pilot2/injection_v024_audit_finding_closure.json": "ac1592724e03519e4e41cfca1eb208a9e7d459766a502e37dc082e31f3b4e1e6",
+    "results/pilot2/injection_validation_manifest_v0.2.4.json": "f583a74a353e773179d0f9f8a166f49b4bfd803c32f8d26b91a862956b158408",
+    "src/pulsar_pilot/pilot2_injection_runner_v024.py": "825195d9aa8769fde920996db64186e477bc61fc06c83986f7588e3560ab8960",
+    "tests/test_pilot2_injection_runner_v024.py": "dde290f1c70592d743a3ff820695f49e6a331245fe02f7d4996391fe4674935b"
+  },
+  "audit_findings_addressed": [
+    "SOL-V023-001",
+    "SOL-V023-002",
+    "SOL-V023-003",
+    "SOL-V023-004",
+    "SOL-V023-005"
+  ],
+  "validation": {
+    "repository_tests_passed": 212,
+    "repository_tests_failed": 0,
+    "historical_tests_deselected": 3,
+    "v0.2.4_boundary_tests_passed": 13
+  },
+  "next_gate": "zero_case_integrity_dry_run_and_execution_readiness_freeze"
+}

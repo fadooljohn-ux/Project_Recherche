@@ -1,0 +1,29 @@
+{
+  "status": "AUTHORIZED_BOUNDED_REVIEW",
+  "primary_targets": [
+    "J1843-1113",
+    "J0711-6830"
+  ],
+  "held_targets": [
+    "J1911+1347",
+    "J1843-1113",
+    "J0711-6830",
+    "J1730-2304",
+    "J2124-3358",
+    "J1744-1134",
+    "J1939+2134"
+  ],
+  "scope": [
+    "Identify RMS and chi-square definitions from timing/fit source and saved outputs",
+    "Compare dense marginal GLS against an independently solved augmented white-noise plus noise-coefficient-prior least-squares problem, using direct TEMPO2 noise-factor exports",
+    "Retain or replace the historical-summary hold only if the comparison is justified",
+    "Calibrate and search cleared cases once under original 13-case policy; preserve six existing searches"
+  ],
+  "equivalence_tolerance": {
+    "relative": 1e-07,
+    "absolute_chi2": 1e-05
+  },
+  "period_searches_during_diagnosis": false,
+  "noise_amplitude_tuning": false,
+  "historical_summary_discrepancies_remain_recorded": true
+}

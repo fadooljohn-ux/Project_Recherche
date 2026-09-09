@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "authorization_id": "stage-c-c3-v0.5",
+  "recorded_utc": "2026-08-09T02:55:12Z",
+  "basis": {
+    "c2_case_result": "pass",
+    "c2_recovery_classification": "robust",
+    "c2_review_pr": 6,
+    "c2_merge_commit": "62813b70c3bf0b606ae7a303f91602e21d427f52",
+    "annual_null_preflight": "strong_astrometric_coupling",
+    "validated_joint_component": "ProjectCircularSignal",
+    "validated_covariance_crosscheck": "WidebandTOAFitter_explicit_full_covariance"
+  },
+  "authorized_cases": [
+    "C3"
+  ],
+  "blocked_cases": [],
+  "authorization_conditions": [
+    "Use the frozen 365.25-day, 20-microsecond C3 waveform without changing its phase.",
+    "Preserve the release PLRedNoise component and exclude WaveX from all C0/C3 joint fits.",
+    "Compare same-run C3-minus-C0 circular coefficients separately for low-rank and explicit full-covariance solvers.",
+    "Report ordinary timing-model absorption, annual-signal recovery, astrometric covariance, astrometric displacement, and solver stability as separate diagnostics.",
+    "Do not interpret robust matched-null transfer as independent identification of an annual real signal when astrometric coupling is strong.",
+    "Require valid execution, warning hygiene, provenance, and resource hard gates; treat periodogram outcomes as uncalibrated diagnostics only.",
+    "Stop after publishing the C3 and Pilot 0 review records; no real-data search or later injection case is authorized."
+  ],
+  "config_sha256": {
+    "config/target.yaml": "c6f051fdf883c6629883510b83c103ff9e46039e5a083994fc65b78cb6710937",
+    "config/injections.yaml": "e3c5b5f04cedd675a0c748fa9a8b584abddb6e23c49f9f811bde315a368b4d2a"
+  },
+  "implementation_sha256": {
+    "src/pulsar_pilot/circular_signal.py": "5da1874ecf03b63017dc21823475c033656f461e6a07e3ee11a2274c2a8dec54",
+    "src/pulsar_pilot/c1r1.py": "38850dbc99028b4ec5edad2910144b0c256836c2b9c787e48f5ec1c01d034176",
+    "src/pulsar_pilot/c2.py": "47abc741e56a5c9104c4f19f31110373e9b6d2e2ba21ddc1d299844e802049a1",
+    "src/pulsar_pilot/c3.py": "0ffb31f8a1beeaba55fa8d577ae0c7830829003eb5f23a327fc655f83a1d9053"
+  },
+  "scorecard_sha256": {
+    "docs/RESULT_SCORECARD.md": "9fa2a7ca2e21b887da6003f3b098ea8bde9a090bbb5a35ac3737fcd9ef39ebcf"
+  },
+  "pixi_lock_sha256": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8"
+}

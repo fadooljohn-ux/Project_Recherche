@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "audit_id": "project-recherche-top-down-assembly-2026-08-11",
+  "program": "Project Recherche / Neutron Star Program / Pilot 2 B1937+21",
+  "audit_target_commit": "a1eeb553b69e9c8ee5a3bf1e4fd9b62da231d730",
+  "audit_target_tree": "7db4e8639ad057c2e93d7c863efa2c97b2ff7e69",
+  "assembly": {
+    "sol_critical_auditors": 1,
+    "terra_repository_auditors": 1,
+    "terra_roadmap_auditors": 1,
+    "access": "read_only",
+    "external_data_roots_accessed": false,
+    "science_executed": false,
+    "observed_data_accessed": false
+  },
+  "disposition": "hold",
+  "finding_counts": {
+    "p0": 0,
+    "p1": 6,
+    "p2": 4,
+    "p3": 1
+  },
+  "blocking_finding_ids": [
+    "ASM-001",
+    "ASM-002",
+    "ASM-003",
+    "ASM-004",
+    "ASM-005",
+    "ASM-006"
+  ],
+  "v0_2_7_terminal_status": {
+    "preserved": true,
+    "restart_authorized": false,
+    "completed_cases": 0,
+    "random_draws": 0,
+    "timing_model_fits": 0,
+    "periodic_scans": 0,
+    "observed_residual_access": false
+  },
+  "science_execution_authorized": false,
+  "next_stage": "successor_remediation_and_zero_science_validation",
+  "documents": {
+    "assembly_audit": {
+      "path": "docs/audits/TOP_DOWN_ASSEMBLY_AUDIT_2026-08-11.md",
+      "sha256": "a90b7d57d7ad804507293156e3ff87f3588e4e791564f9628d1148398b27d9b3"
+    },
+    "redundancy_register": {
+      "path": "docs/REPOSITORY_REDUNDANCY_REGISTER_2026-08-11.md",
+      "sha256": "34839f43976c82dbaf33adaeb720c762ae2f974d9f30a370524ab59fdc33865d"
+    },
+    "two_stage_roadmap": {
+      "path": "docs/PROJECT_RECHERCHE_TWO_STAGE_ROADMAP.md",
+      "sha256": "47d6d7fdc2983ddf66b230522753faa189e00e92d86c68bdc5db8e2515bb9dc7"
+    }
+  }
+}

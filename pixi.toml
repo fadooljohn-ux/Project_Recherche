@@ -1,0 +1,23 @@
+[workspace]
+name = "project-recherche-pulsar-pilot"
+version = "0.1.0"
+description = "Reproducible PSR J1744-1134 timing-model pilot"
+authors = ["John Fadool"]
+channels = ["conda-forge"]
+platforms = ["osx-64"]
+
+[dependencies]
+python = "3.11.*"
+astropy-base = ">=8,<9"
+pint-pulsar = "==1.1.5"
+numpy = ">=2.2,<2.5"
+pyyaml = ">=6.0,<7"
+psutil = ">=7,<8"
+scipy = ">=1.15,<2"
+pytest = ">=8.4,<9"
+ruff = ">=0.12,<1"
+
+[tasks]
+test = "PYTHONPATH=src pytest -q"
+lint = "ruff check src tests"
+pilot = "PYTHONPATH=src python -m pulsar_pilot.cli"

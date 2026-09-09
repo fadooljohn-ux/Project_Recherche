@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-08-09T01:43:52.790999+00:00",
+  "authoritative_run_id": "20260809T014352Z",
+  "gate": "G2_published_solution_reproduction",
+  "gate_result": "pass",
+  "review_status": "pending",
+  "dataset": "nanograv15yr-v2.1.0",
+  "target": "J1744-1134",
+  "mode": "wideband",
+  "method": {
+    "fitter": "WidebandDownhillFitter",
+    "max_iterations": 20,
+    "free_parameters": 179,
+    "comparison_sigma_multiplier": 3.0,
+    "numerical_tolerance_ulps": 64,
+    "limitation": "The public archive supplies the final post-fit wideband model but no earlier wideband parameter model; G2 therefore tests idempotent reproduction rather than convergence from an independent starting model."
+  },
+  "criteria": {
+    "configuration": true,
+    "fit_converged": true,
+    "parameters_within_tolerance": true,
+    "weighted_rms_within_5_percent": true,
+    "material_warnings_dispositioned": true,
+    "runtime_under_60_minutes": true,
+    "peak_memory_under_16_gib": true
+  },
+  "fit": {
+    "parameters_checked": 179,
+    "parameter_failures": 0,
+    "worst_absolute_delta_sigma": 0.0,
+    "maximum_absolute_uncertainty_relative_change": 0.0005047423750026425,
+    "maximum_uncertainty_change_parameter": "F1",
+    "reference_weighted_rms_us": 0.9406894922243831,
+    "postfit_weighted_rms_us": 0.9406894922243831,
+    "weighted_rms_relative_difference": 0.0,
+    "chi2_recorded_in_release_model": 734.6212338610317,
+    "reference_wideband_chi2_recomputed": 734.6080630585474,
+    "postfit_wideband_chi2": 734.6080630585474,
+    "postfit_reduced_chi2": 1.0708572347792236
+  },
+  "whitened_residual_diagnostics": {
+    "gate_use": "descriptive_not_acceptance_criterion",
+    "toa": {
+      "mean": 0.9713011980273913,
+      "standard_deviation": 1.0457065468889994,
+      "ks_pvalue": 3.272056097532722e-64,
+      "anderson_darling_pvalue": 0.0,
+      "disposition": "material review flag; not consistent with unit-normal whitening"
+    },
+    "dm": {
+      "mean": -0.007968441646205823,
+      "standard_deviation": 1.013613910891097,
+      "ks_pvalue": 0.9601694600246374,
+      "anderson_darling_pvalue": 0.9945866354152739,
+      "disposition": "consistent with unit-normal whitening under these diagnostics"
+    }
+  },
+  "warnings": {
+    "expected_clock_override_warnings": 2,
+    "pint_covariance_axis_bookkeeping_warnings": 2,
+    "unexpected_warnings": 0
+  },
+  "resources": {
+    "fit_wall_seconds": 2.9218806250000853,
+    "total_wall_seconds": 5.668607958000393,
+    "cpu_seconds": 14.491014,
+    "peak_rss_mib": 245.453125
+  },
+  "external_outputs": {
+    "full_record": {
+      "logical_path": "run_records/g2_refit_20260809T014352Z.json",
+      "sha256": "a3e722a85355f7d9e0f5a95a85a5e5b50fb4eab3dbde9064a91a1bc637046d28"
+    },
+    "log": {
+      "logical_path": "run_records/g2_refit_20260809T014352Z.log",
+      "sha256": "533e28b210641c3ab3689b37f66897798c0457fa04384de3c2cbf78f283092ef"
+    },
+    "postfit_model": {
+      "logical_path": "derived/g2/J1744-1134_20260809T014352Z.postfit.par",
+      "sha256": "2fdf304ad187c1991d5bb71b3c1ed9c156a2c8ebf8426cec3813740b4eabf0d5"
+    }
+  },
+  "execution_history": [
+    {
+      "run_id": "20260809T013900Z",
+      "status": "recorder_error_no_gate_record",
+      "reason": "PINT Anderson-Darling p-value shape differed from its annotation"
+    },
+    {
+      "run_id": "20260809T014021Z",
+      "status": "superseded_pass",
+      "reason": "Development pass before component-level whitening diagnostics were added"
+    },
+    {
+      "run_id": "20260809T014352Z",
+      "status": "authoritative_pass"
+    }
+  ],
+  "injection_authorized": false,
+  "injection_block_reason": "Gate G2 report requires review and merge before Stage C authorization."
+}

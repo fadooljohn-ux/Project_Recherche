@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot1-tail-robustness-freeze-v0.1",
+  "status": "frozen_before_tail_robustness_execution",
+  "authorization": "nonperiodic_localization_and_exact_frozen_synthetic_stress_only",
+  "observed_residual_periodic_search_authorized": false,
+  "observed_periodogram_authorized": false,
+  "observed_candidate_statistic_authorized": false,
+  "initial_v0p1_threshold_delta_chi2": 23.33426855482562,
+  "inventory_sha256": {
+    "calibration": "2f7bd3ab4066c2100462c9ce16af18dad7ea57ee227a1e928f2168d0305e021f",
+    "evaluation": "f18a64acfb5a5df41dcac314995621f5616826a500cb678966f5a6bc53579eed",
+    "recovery": "fb912da7b69e70d89ccc08c59b6bd0f637caa4712637ea07a877be77cecf62da"
+  },
+  "authorized_case_counts": {
+    "contamination_calibration_nulls": 1000,
+    "contamination_evaluation_nulls": 500,
+    "contaminated_recovery_cases": 160,
+    "complete_refit_audits": 16,
+    "full_covariance_audits": 4
+  },
+  "external_prerequisites": {
+    "run_records/pilot1/reference-discrepancy-v0.1.json": {
+      "bytes": 3027,
+      "sha256": "66cbd929274be624eaf671453ed84771a8e4d1e4aebb4cd5145f44ea12872e44"
+    },
+    "run_records/pilot1/sensitivity-extension-v0.1-summary.json": {
+      "bytes": 331606,
+      "sha256": "fcc905f2648684418a4cbde150928d0e61a59ba2456134130ed6cccd65ca88b4"
+    }
+  },
+  "frozen_sha256": {
+    "src/pulsar_pilot/tail_robustness.py": "1a45576519c06f73e0d0951e1705f838366bede13ff7bada4ee5405d18bdf090",
+    "config/pilot1_tail_robustness_v0.1.yaml": "376f9c513ead9798a326e661bf612eb4c3fbac51238e246c372e9015dd7ac1d1",
+    "protocol/PILOT1_TAIL_ROBUSTNESS_PROTOCOL_v0.1.md": "fd3d7016932c99c82d9e9c2fbe16712aaec4e752b427bd1851bf174c6c5964ae",
+    "config/pilot1.yaml": "c86ef883d806d629f993544d0689efc3acc39c16469e91432bdaf5b401966e94",
+    "config/target.yaml": "c6f051fdf883c6629883510b83c103ff9e46039e5a083994fc65b78cb6710937",
+    "protocol/PILOT1_THRESHOLD_LOCK_v0.1.json": "5bbe1049543e7e639af1de436a27e7445966215958d7510bbfc7dbe9df54957d",
+    "results/pilot1/reference_discrepancy_result_v0.1.json": "e0bc7aff48462a1b3c09f1309e37eb8aa2fec8251e0eb772279d991d7161c1db",
+    "protocol/INITIAL_V0.1_RELEASE_FREEZE.json": "95486696ad1a689e49490afbe7d1891fdfe09e093e9aaec7448cc6214d127eb8",
+    "pixi.lock": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8"
+  },
+  "next_gate_if_pass": "separately_reviewed_one_shot_observed_residual_search_freeze",
+  "next_gate_if_fail": "detector_or_threshold_rebaseline"
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot0-v0.1",
+  "status": "frozen_before_timing_results",
+  "target": "J1744-1134",
+  "dataset": "nanograv_15yr_timing_v2.1.0",
+  "config_files": [
+    "config/target.yaml",
+    "config/injections.yaml"
+  ],
+  "gate_g2": "not_run",
+  "injection_authorized": false
+}

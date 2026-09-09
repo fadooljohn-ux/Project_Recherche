@@ -1,0 +1,168 @@
+schema_version: 1
+status: frozen_before_results
+signal_model: circular_roemer_delay
+insertion_domain: toa
+phase_radians: 1.0471975511965976
+random_seed: 17441134
+stage_c:
+  authorization: c3_only
+  source_model: released_wideband_postfit_model
+  refit_fitter: WidebandDownhillFitter
+  max_fit_iterations: 20
+  noise_model: fixed_release_values
+  c0_zero_delay_applied_through_toa_adjustment: true
+  c1:
+    reference_epoch_mjd_tdb: 56078.0
+    phase_time_coordinate: pre_injection_barycentric_tdbld
+    waveform_formula: amplitude_sin_2pi_t_minus_epoch_over_period_plus_phase
+    toa_shift_sign: positive_delay_added_to_arrival_time
+    maximum_application_error_microseconds: 0.001
+    joint_component: PINT_WaveX
+    joint_frequency: fixed_to_injected_frequency
+    joint_epoch: same_as_injection_reference_epoch
+    joint_free_parameters:
+      - WXSIN_0001
+      - WXCOS_0001
+    blind_peak_maximum_fourier_bin_offset: 1.0
+    matched_null_source: results/pilot0/c0_summary.json
+    material_improvement_comparator: same_run_c0_joint_wavex_fit
+    recovered_amplitude_estimator: phase_aware_c1_minus_c0_complex_coefficients
+  c1_r1:
+    supersedes_recovery_method_only: c1
+    injection_waveform_unchanged: true
+    reference_epoch_mjd_tdb: 56078.0
+    phase_time_coordinate: pre_injection_barycentric_tdbld
+    waveform_formula: amplitude_sin_2pi_t_minus_epoch_over_period_plus_phase
+    toa_shift_sign: positive_delay_added_to_arrival_time
+    maximum_application_error_microseconds: 0.001
+    joint_component: ProjectCircularSignal
+    joint_component_role: deterministic_physical_signal
+    joint_frequency: fixed_to_injected_frequency
+    joint_epoch: same_as_injection_reference_epoch
+    joint_free_parameters:
+      - CSSIN
+      - CSCOS
+    matched_null_source: results/pilot0/c0_summary.json
+    recovered_amplitude_estimator: phase_aware_c1_minus_c0_complex_coefficients
+    minimum_joint_recovery_fraction: 0.95
+    maximum_joint_recovery_fraction: 1.05
+    maximum_joint_phase_error_radians: 0.01
+    independent_crosscheck: WidebandTOAFitter_explicit_full_covariance
+    independent_crosscheck_max_iterations: 8
+    maximum_solver_amplitude_difference_microseconds: 0.01
+    maximum_solver_phase_difference_radians: 0.001
+    maximum_solver_chi2_difference: 0.1
+    blind_global_peak_role: diagnostic_not_acceptance_gate
+    exact_frequency_requires_c0_exceedance: true
+  c2:
+    purpose: lower_amplitude_boundary_diagnostic
+    reference_epoch_mjd_tdb: 56078.0
+    phase_time_coordinate: pre_injection_barycentric_tdbld
+    waveform_formula: amplitude_sin_2pi_t_minus_epoch_over_period_plus_phase
+    toa_shift_sign: positive_delay_added_to_arrival_time
+    maximum_application_error_microseconds: 0.001
+    joint_component: ProjectCircularSignal
+    joint_component_role: deterministic_physical_signal
+    joint_frequency: fixed_to_injected_frequency
+    joint_epoch: same_as_injection_reference_epoch
+    joint_free_parameters:
+      - CSSIN
+      - CSCOS
+    matched_null_source: results/pilot0/c0_summary.json
+    recovered_amplitude_estimator: phase_aware_c2_minus_c0_complex_coefficients
+    independent_crosscheck: WidebandTOAFitter_explicit_full_covariance
+    independent_crosscheck_max_iterations: 8
+    maximum_solver_amplitude_difference_microseconds: 0.01
+    maximum_solver_phase_difference_radians: 0.001
+    maximum_solver_chi2_difference: 0.1
+    robust_recovery_fraction_minimum: 0.8
+    robust_recovery_fraction_maximum: 1.2
+    robust_phase_error_maximum_radians: 0.1
+    partial_recovery_fraction_minimum: 0.25
+    partial_recovery_fraction_maximum: 1.5
+    partial_phase_error_maximum_radians: 0.5
+    recovery_classification_role: diagnostic_not_hard_gate
+    exact_frequency_c0_comparison_role: diagnostic_not_hard_gate
+    blind_global_peak_role: diagnostic_not_acceptance_gate
+  c3:
+    purpose: annual_absorption_and_identifiability_stress_test
+    reference_epoch_mjd_tdb: 56078.0
+    phase_time_coordinate: pre_injection_barycentric_tdbld
+    waveform_formula: amplitude_sin_2pi_t_minus_epoch_over_period_plus_phase
+    toa_shift_sign: positive_delay_added_to_arrival_time
+    maximum_application_error_microseconds: 0.001
+    joint_component: ProjectCircularSignal
+    joint_component_role: deterministic_physical_signal
+    joint_frequency: fixed_to_injected_frequency
+    joint_epoch: same_as_injection_reference_epoch
+    joint_free_parameters:
+      - CSSIN
+      - CSCOS
+    matched_null_source: results/pilot0/c0_summary.json
+    same_run_c0_ordinary_comparator: true
+    recovered_amplitude_estimator: phase_aware_c3_minus_c0_complex_coefficients
+    independent_crosscheck: WidebandTOAFitter_explicit_full_covariance
+    independent_crosscheck_max_iterations: 8
+    solver_stability_amplitude_difference_microseconds: 0.01
+    solver_stability_phase_difference_radians: 0.001
+    solver_stability_chi2_improvement_difference: 0.1
+    robust_recovery_fraction_minimum: 0.8
+    robust_recovery_fraction_maximum: 1.2
+    robust_phase_error_maximum_radians: 0.1
+    partial_recovery_fraction_minimum: 0.25
+    partial_recovery_fraction_maximum: 1.5
+    partial_phase_error_maximum_radians: 0.5
+    astrometric_parameters:
+      - PX
+      - ELONG
+      - ELAT
+      - PMELONG
+      - PMELAT
+    moderate_correlation_minimum: 0.5
+    strong_correlation_minimum: 0.8
+    material_astrometric_shift_sigma: 3.0
+    severe_astrometric_shift_sigma: 10.0
+    material_absorption_fraction: 0.5
+    strong_absorption_fraction: 0.8
+    recovery_classification_role: diagnostic_not_hard_gate
+    annual_identifiability_role: diagnostic_not_hard_gate
+    solver_agreement_role: diagnostic_not_hard_gate
+    exact_frequency_c0_comparison_role: diagnostic_not_hard_gate
+    blind_global_peak_role: diagnostic_not_acceptance_gate
+    final_pilot0_injection_case: true
+trigger:
+  method: weighted_generalized_lomb_scargle
+  implementation: astropy.timeseries.LombScargle
+  residual_component: toa
+  minimum_period_days: 30.0
+  maximum_period_span_fraction: 0.5
+  minimum_cycles: 2.0
+  frequency_oversampling: 5
+  normalization: standard
+  fit_mean: true
+  center_data: true
+  weights: scaled_toa_uncertainty_diagonal
+  peak_grader: weighted_linear_sinusoid_at_peak_frequency
+  independent_fourier_bin: inverse_observation_span
+  false_alarm_probability: prohibited
+cases:
+  - id: C0
+    period_days: null
+    amplitude_microseconds: 0.0
+    purpose: matched_null
+    hard_recovery_gate: false
+  - id: C1
+    period_days: 100.0
+    amplitude_microseconds: 20.0
+    purpose: strong_positive_control
+    hard_recovery_gate: true
+  - id: C2
+    period_days: 100.0
+    amplitude_microseconds: 5.0
+    purpose: boundary_diagnostic
+    hard_recovery_gate: false
+  - id: C3
+    period_days: 365.25
+    amplitude_microseconds: 20.0
+    purpose: annual_absorption_stress_test
+    hard_recovery_gate: false

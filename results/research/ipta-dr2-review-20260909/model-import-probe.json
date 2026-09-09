@@ -1,0 +1,55 @@
+{
+  "scope": "MODEL_IMPORT_ONLY_NO_TOAS_NO_FITS",
+  "rows": [
+    {
+      "target": "J1721-2457",
+      "status": "IMPORTED_WITH_CONVENTION_CHANGE",
+      "T2CMETHOD_after": "IAU2000B",
+      "noise_components": [
+        "PLRedNoise",
+        "ScaleToaError",
+        "PLDMNoise"
+      ],
+      "warnings": [
+        "PINT only supports 'T2CMETHOD IAU2000B'",
+        "Unrecognized parfile line 'EPHVER 2'",
+        "Unrecognized parfile line 'TNSUBTRACTDM 1'"
+      ]
+    },
+    {
+      "target": "J0711-6830",
+      "status": "IMPORTED_WITH_CONVENTION_CHANGE",
+      "T2CMETHOD_after": "IAU2000B",
+      "noise_components": [
+        "PLRedNoise",
+        "ScaleToaError",
+        "PLDMNoise"
+      ],
+      "warnings": [
+        "PINT only supports 'T2CMETHOD IAU2000B'",
+        "START cannot be unfrozen... Setting START.frozen to True",
+        "FINISH cannot be unfrozen... Setting FINISH.frozen to True",
+        "Unrecognized parfile line 'EPHVER 2'",
+        "Unrecognized parfile line 'TNSUBTRACTDM 1'"
+      ]
+    },
+    {
+      "target": "J1939+2134",
+      "status": "IMPORTED_WITH_CONVENTION_CHANGE",
+      "T2CMETHOD_after": "IAU2000B",
+      "noise_components": [
+        "PLRedNoise",
+        "ScaleToaError",
+        "EcorrNoise",
+        "PLDMNoise"
+      ],
+      "warnings": [
+        "PINT only supports 'T2CMETHOD IAU2000B'",
+        "START cannot be unfrozen... Setting START.frozen to True",
+        "FINISH cannot be unfrozen... Setting FINISH.frozen to True",
+        "Unrecognized parfile line 'EPHVER 2'",
+        "Unrecognized parfile line 'TNSUBTRACTDM 1'"
+      ]
+    }
+  ]
+}

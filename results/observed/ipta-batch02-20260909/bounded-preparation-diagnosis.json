@@ -1,0 +1,30 @@
+{
+  "scope": "Bounded preparation diagnosis only; no held-target period search",
+  "targets": {
+    "J1801-1417": {
+      "artifacts": [
+        "../Project Recherche Data/ipta-batch02-20260909/J1801-1417/attempt01/published-tcb-check.npz",
+        "../Project Recherche Data/ipta-batch02-20260909/J1801-1417/attempt01/published-tcb-check.json",
+        "../Project Recherche Data/ipta-batch02-20260909/J1801-1417/attempt01/published-tcb-check.par",
+        "../Project Recherche Data/ipta-batch02-20260909/J1801-1417/attempt01/published-tcb-check.log"
+      ],
+      "finding": "Two TDB exports agree exactly; TDB RMS 4.27621425 us versus printed 4.277. Alternate released TCB model gives 4.25650099 us and does not remove the summary difference. Attempt02 passed the declared summary tolerance."
+    },
+    "J0711-6830": {
+      "artifacts": [
+        "../Project Recherche Data/ipta-batch02-20260909/J0711-6830/attempt01/published-tcb-check.npz",
+        "../Project Recherche Data/ipta-batch02-20260909/J0711-6830/attempt01/published-tcb-check.json",
+        "../Project Recherche Data/ipta-batch02-20260909/J0711-6830/attempt01/published-tcb-check.par",
+        "../Project Recherche Data/ipta-batch02-20260909/J0711-6830/attempt01/published-tcb-check.log"
+      ],
+      "finding": "Released TDB replay gives RMS 1.56560170 us versus printed 1.436; alternate released TCB model gives 1.56566000 us. The discrepancy is not resolved by switching to the alternate time convention."
+    },
+    "J1843-1113": {
+      "artifacts": [
+        "../Project Recherche Data/ipta-batch02-20260909/J1843-1113/attempt01/direct-fit.log"
+      ],
+      "finding": "Released TDB RMS agrees at printed precision, but marginal timing-fit reduced chi-square is 0.94781902 versus printed 0.9599. Direct current TEMPO2 refitting yields its own reported 0.77647 after stochastic fitting/subtraction; this does not reproduce the historical summary or justify adjusting the search covariance."
+    }
+  },
+  "disposition": "Retain unresolved model-replay discrepancies. No noise amplitude, target threshold, or annual mask is tuned to force a publication match."
+}

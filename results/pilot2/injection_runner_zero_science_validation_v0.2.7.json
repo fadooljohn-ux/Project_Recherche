@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "validation_id": "pilot2-b1937-injection-runner-zero-science-validation-v0.2.7",
+  "recorded_utc": "2026-08-11T01:58:30Z",
+  "status": "pass",
+  "operation": "v0.2.7_duplicate_json_rejection_zero_science_validation",
+  "implementation_freeze_sha256": "b8bf2f33ffc3334e9b03cced8cdd389f04c536cec2f6249d33ea726e801cb533",
+  "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+  "implementation_sha256": "ff2241b6f354db7bd35c81ee715a61f2e41069d10ca5551dcc4bbe57dfb09374",
+  "validation_manifest": "results/pilot2/injection_validation_manifest_v0.2.7.json",
+  "repository_tests": {
+    "passed": 309,
+    "failed": 0,
+    "deselected": 3
+  },
+  "v0.2.7_boundary_tests": {
+    "passed": 40,
+    "failed": 0
+  },
+  "strict_json_controls": {
+    "duplicates_rejected_before_dictionary_construction": true,
+    "nested_duplicates_rejected": true,
+    "implementation_and_readiness_freezes_strict": true,
+    "future_execution_authorization_strict": true,
+    "predecessor_controls_strict": true,
+    "data_root_marker_strict": true,
+    "version_ledger_strict": true,
+    "interrupted_and_resumed_artifacts_strict": true,
+    "ordinary_json_loads_outside_strict_entrypoint": 0
+  },
+  "exploit_regressions": {
+    "last_duplicate_authorization_value_would_pass_ordinary_parser": true,
+    "authorization_rejected_before_predecessor_loading": true,
+    "last_duplicate_nested_binding_value_would_pass_ordinary_parser": true,
+    "artifact_rejected_before_adoption": true,
+    "duplicate_ledger_rejected_before_state_use": true,
+    "duplicate_marker_rejected_before_data_root_use": true
+  },
+  "retained_controls": {
+    "exact_typed_context_binding": true,
+    "context_hash_in_attempt_and_execution_binding": true,
+    "nested_directory_parent_sync": true,
+    "durable_atomic_file_commit": true,
+    "complete_artifact_recovery_without_recomputation": true,
+    "repository_confined_exact_freeze_hashes": true
+  },
+  "dry_run": {
+    "status": "pass",
+    "temporary_initialized_data_root": true,
+    "external_project_data_root_used": false,
+    "predecessors_loaded": false,
+    "zero_cases_recorded": true,
+    "stage_pending": true,
+    "hard_stop_absent": true
+  },
+  "science_cases_executed": 0,
+  "random_draws_generated": 0,
+  "timing_model_fits_executed": 0,
+  "periodic_scans_executed": 0,
+  "predecessor_artifacts_loaded": 0,
+  "external_data_roots_accessed": 0,
+  "observed_residual_vectors_loaded": 0,
+  "execution_authorized": false,
+  "next_gate": "v0.2.7_execution_readiness_freeze_then_one_fresh_read_only_sol_audit"
+}

@@ -1,0 +1,84 @@
+{
+  "case_counts": {
+    "gaussian_threshold_calibration": 1000,
+    "injections": {
+      "annual": 28,
+      "boundary": 16,
+      "main": 240
+    },
+    "sealed_gaussian_evaluation": 500,
+    "solver_audits": 29,
+    "structured_tail_variants": {
+      "clustered_utc_day_scale_mixture": 1000,
+      "dm_native_innovation_scale_mixture": 1000,
+      "timing_native_innovation_scale_mixture": 1000
+    },
+    "total_unique_science_cases": 4784
+  },
+  "execution_authorized": false,
+  "inventory_sha256": "28bcd10edcf719c1d44cdef17dd8b200b332b127f13c8a1558b7b4b8acd69dc7",
+  "next_gate": "implementation_and_separate_execution_freeze",
+  "observed_periodic_search_authorized": false,
+  "plan_id": "pilot2-b1937-full-calibration-v0.2",
+  "resource_projection": {
+    "contingency_multiplier": 1.25,
+    "explicit_full_covariance_audits": 29,
+    "gaussian_null_scans": 1500,
+    "injection_scans": 284,
+    "measured_audit_seconds_each": 67.50023775829978,
+    "measured_primary_fit_seconds_each": 10.101615196251826,
+    "measured_scan_seconds_each": 0.0019905758593813517,
+    "measured_setup_seconds": 0.2856906250017346,
+    "primary_injection_fits": 568,
+    "projected_wall_hours_with_contingency": 2.675358656943754,
+    "structured_tail_scans": 3000
+  },
+  "schema_version": 1,
+  "solver_audit_case_ids": [
+    "p2-inj-main-p02-a03-h03-n00",
+    "p2-inj-main-p01-a00-h00-n00",
+    "p2-inj-main-p02-a00-h02-n02",
+    "p2-inj-main-p00-a03-h00-n01",
+    "p2-inj-main-p04-a01-h02-n01",
+    "p2-inj-main-p02-a03-h01-n00",
+    "p2-inj-main-p04-a00-h02-n02",
+    "p2-inj-main-p03-a00-h03-n00",
+    "p2-inj-annual-p02-h03-n00",
+    "p2-inj-main-p00-a01-h02-n02",
+    "p2-inj-annual-p00-h01-n00",
+    "p2-inj-main-p01-a00-h01-n02",
+    "p2-inj-main-p04-a03-h02-n02",
+    "p2-inj-main-p03-a02-h01-n02",
+    "p2-inj-main-p03-a01-h00-n02",
+    "p2-inj-main-p02-a01-h01-n02",
+    "p2-inj-main-p01-a01-h01-n01",
+    "p2-inj-main-p00-a03-h02-n01",
+    "p2-inj-main-p03-a01-h02-n02",
+    "p2-inj-main-p04-a01-h01-n00",
+    "p2-inj-main-p00-a02-h01-n02",
+    "p2-inj-main-p00-a03-h00-n00",
+    "p2-inj-main-p04-a00-h03-n01",
+    "p2-inj-main-p02-a03-h01-n01",
+    "p2-inj-main-p00-a03-h01-n01",
+    "p2-inj-main-p00-a00-h03-n00",
+    "p2-inj-boundary-p01-a00-h01-n00",
+    "p2-inj-main-p03-a01-h03-n01",
+    "p2-inj-main-p00-a01-h03-n00"
+  ],
+  "status": "pass",
+  "target": "B1937+21",
+  "validation": {
+    "counts": {
+      "audits": 29,
+      "gaussian": 1500,
+      "injections": 284,
+      "structured": 3000
+    },
+    "failures": [],
+    "inventory_sha256": "28bcd10edcf719c1d44cdef17dd8b200b332b127f13c8a1558b7b4b8acd69dc7",
+    "projected_wall_hours_with_contingency": 2.675358656943754,
+    "status": "pass",
+    "unique_case_ids": 4784,
+    "unique_seeds": 4784
+  }
+}

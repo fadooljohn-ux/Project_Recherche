@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "record_id": "pilot2-b1937-v0.2.6-audit-finding-closure",
+  "status": "implemented_pending_final_freeze_and_sol_audit",
+  "source_audit": {
+    "record": "protocol/DEDICATED_SOL_AUDIT_RECORD_PILOT2_v0.2.5.json",
+    "record_sha256": "523a859af77f14ae6a6c2e5d2681fef2e5641ab7b8b2afce0408bffcabe34fdc",
+    "disposition": "results/pilot2/dedicated_sol_audit_disposition_v0.2.5.json",
+    "disposition_sha256": "0bd90a1cbac02662e7586d8c1dffcaae3e72e8f83025d3c2a376274940a0388d"
+  },
+  "closures": [
+    {
+      "finding_id": "SOL-V025-001",
+      "severity": "P1",
+      "remediation": "every record is exact-value and exact-type equal to the trusted invocation context; its canonical SHA-256 is stored in the attempt journal and incorporated in the execution binding"
+    },
+    {
+      "finding_id": "SOL-V025-002",
+      "severity": "P2",
+      "remediation": "every newly created directory entry is fsynced through its immediate parent and all case-family directories are durably precreated before the executor"
+    }
+  ],
+  "inventory_policy": "reuse_exact_never_executed_v0.2.3_inventory_without_seed_churn",
+  "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+  "science_cases_executed": 0,
+  "execution_authorized": false,
+  "next_gate": "single_local_validation_cycle_and_v0.2.6_readiness_freeze"
+}

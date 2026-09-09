@@ -1,0 +1,16 @@
+{
+  "all_case_order_sha256": "952d4f1b7b315de90e85f1a65f2e66ef2653930cf1b5223a2c2d7ea674790b1c",
+  "calibration_case_count": 1000,
+  "calibration_id": "pilot1-calibration-null-v0.1",
+  "execution_authorized": false,
+  "new_scan_case_count": 990,
+  "remaining_case_order_sha256": "c356c19ea0376f661c11aee4ae7eaff225165e7be442ebe90874f490a0a769e0",
+  "reused_benchmark_case_count": 10,
+  "reused_case_order_sha256": "a1aef8903dbf038dd640f2f84a11f5baeb54e2776afd1f83f2a3bbfe9939bac2",
+  "schema_version": 1,
+  "sealed_evaluation_case_count": 0,
+  "threshold_disposition": "proposed_not_locked",
+  "threshold_estimator": "conservative_nearest_rank",
+  "threshold_quantile": 0.99,
+  "trigger_comparison": "strictly_greater_than_threshold"
+}

@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-08-09T02:42:48.941214+00:00",
+  "authoritative_run_id": "20260809T024248Z",
+  "case": "C2",
+  "case_purpose": "lower_amplitude_boundary_diagnostic",
+  "hard_gate_result": "pass",
+  "recovery_classification": "robust",
+  "review_status": "pending",
+  "scorecard": {
+    "overall": "PASS",
+    "protocol_control": "PASS",
+    "injection_integrity": "PASS",
+    "ordinary_refit": "PASS",
+    "joint_execution": "PASS",
+    "independent_crosscheck": "PASS",
+    "warning_hygiene": "PASS",
+    "reproducibility": "PASS",
+    "resource_envelope": "PASS",
+    "scientific_authorization": "PASS",
+    "boundary_recovery": "DIAGNOSTIC_ROBUST",
+    "exact_frequency_comparison": "DIAGNOSTIC_EXCEEDS_C0",
+    "global_strongest_peak": "DIAGNOSTIC"
+  },
+  "injection": {
+    "period_days": 100.0,
+    "requested_amplitude_us": 5.0,
+    "phase_radians": 1.0471975511965976,
+    "reference_epoch_mjd_tdb": 56078.0,
+    "maximum_application_error_us": 0.000008329886179936352,
+    "application_tolerance_us": 0.001
+  },
+  "frequency_diagnostic": {
+    "exact_100_day_power": 0.12406765450481556,
+    "c0_exact_100_day_power": 0.014570173611738488,
+    "exact_100_day_amplitude_us": 1.4330092898564453,
+    "c0_exact_100_day_amplitude_us": 0.1650916177916846,
+    "global_peak_period_days": 30.44843195562148,
+    "global_peak_power": 0.24635082163431668,
+    "global_peak_role": "diagnostic_not_acceptance_gate",
+    "standard_timing_model_absorption_fraction": 0.710701179020838
+  },
+  "compatible_joint_recovery": {
+    "component": "ProjectCircularSignal",
+    "release_red_noise_preserved": true,
+    "wavex_absent": true,
+    "matched_null_subtracted_amplitude_us": 5.000043779789516,
+    "matched_null_recovery_fraction": 1.0000087559579038,
+    "matched_null_phase_error_radians": -0.000021468776306043935,
+    "c2_chi2_improvement": 13960.97426301676,
+    "c0_chi2_improvement": 6.922365152233965,
+    "recovery_classification": "robust"
+  },
+  "independent_full_covariance_crosscheck": {
+    "amplitude_difference_us": 0.0000010569804471671773,
+    "phase_difference_radians": 0.000000027693765503045142,
+    "chi2_difference": 0.00028552612252497056
+  },
+  "warnings": {
+    "status": "pass",
+    "unexpected_warning_count": 0
+  },
+  "resources": {
+    "total_wall_seconds": 32.71291583400125,
+    "cpu_seconds": 78.32897899999999,
+    "peak_rss_mib": 310.390625
+  },
+  "freeze": {
+    "freeze_id": "pilot0-v0.6-stage-c-c2",
+    "freeze_sha256": "7c186f7cf3466661c5ea926dcbbc9bd60d8782e601e378dfcacf03b9e128ccf4",
+    "authorization_sha256": "c8880a7f227ddd532203254fefe1f4b691e10c26d6a34e77fbc0db06521ab58a"
+  },
+  "external_outputs": {
+    "full_record": {
+      "logical_path": "run_records/c2_boundary_control_20260809T024248Z.json",
+      "sha256": "2984669210dfe947a690594d47be82be0538554b38ececead0aa2579c71489c1"
+    },
+    "log": {
+      "logical_path": "run_records/c2_boundary_control_20260809T024248Z.log",
+      "sha256": "5fc48819c0c36d2eb1929534aeb0f6ca026599ae5d36692870e3c46574a4ccf9"
+    },
+    "periodogram": {
+      "logical_path": "derived/g3/c2/J1744-1134_C2_20260809T024248Z.periodogram.npz",
+      "sha256": "ce27de5574c2765565f1a21135314121cc7a09c42305368ba303dc72ab00e960"
+    },
+    "unmodeled_model": {
+      "logical_path": "derived/g3/c2/J1744-1134_C2_20260809T024248Z.unmodeled.postfit.par",
+      "sha256": "95906f4eeb54b531ba692b3daa8097bee0c9962a57d60d544e9de9a0c1f8deef"
+    },
+    "joint_model": {
+      "logical_path": "derived/g3/c2/J1744-1134_C2_20260809T024248Z.joint-circular.postfit.par",
+      "sha256": "de47f53c169b57ac7983108948a88355f29d1c4620c4a9b9340137bd57cdb685"
+    },
+    "c0_joint_model": {
+      "logical_path": "derived/g3/c2/J1744-1134_C0_20260809T024248Z.joint-circular.postfit.par",
+      "sha256": "a11fc364749243493f3dde1454ec5ff13a8ebc4b41a19c6e2b21e4cccf441445"
+    },
+    "full_covariance_model": {
+      "logical_path": "derived/g3/c2/J1744-1134_C2_20260809T024248Z.full-cov.postfit.par",
+      "sha256": "658718a25c8a6f7d46210f60ebef48799207180a0183c3b7785b048ff323c56f"
+    }
+  },
+  "authorized_next_cases": [],
+  "blocked_cases": [
+    "C3"
+  ],
+  "block_reason": "C2 completed with robust recovery, but its review record must be merged before C3-only criteria can be frozen."
+}

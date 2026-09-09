@@ -1,0 +1,52 @@
+schema_version: 1
+gate_id: pilot1-tail-robustness-r1-v0.1
+status: design_for_freeze
+parent_failure: pilot1-tail-robustness-v0.1
+
+boundary:
+  observed_residual_periodic_search_authorized: false
+  observed_residual_access_authorized: false
+  failed_evaluation_set_reuse_authorized: false
+
+contamination_model:
+  family: unit_variance_two_component_zero_mean_gaussian_scale_mixture
+  contaminated_coordinate_probability: 0.01
+  contaminated_standard_deviation_multiplier: 2.8237419549367053
+  expected_excess_kurtosis: 1.262140834554768
+
+nulls:
+  calibration_count: 2000
+  evaluation_count: 1000
+  calibration_base_seed: 17441143
+  evaluation_base_seed: 17441144
+  sets_disjoint_from_each_other_and_v0p1: true
+  threshold_quantile: 0.995
+  threshold_estimator: conservative_nearest_rank
+  threshold_rule: maximum_of_initial_v0p1_and_r1_contamination_calibration_threshold
+  trigger_comparison: strictly_greater_than_threshold
+  evaluation_interval: wilson_95_percent
+
+recovery_regrade:
+  source: immutable_tail_robustness_v0p1_recovery_artifacts
+  case_count: 160
+  new_synthetic_cases_authorized: false
+  refits_repeated: false
+
+hard_benchmarks:
+  evaluation_false_positive_rate_maximum: 0.01
+  evaluation_false_positive_rate_upper_95_maximum: 0.025
+  injected_frequency_recovery_rate_minimum: 0.95
+  minimum_periods_with_monotonic_detection_fraction: 3
+  minimum_periods_with_bracketed_50_and_90_percent_sensitivity: 3
+  complete_refit_failures_maximum: 0
+  full_covariance_audit_failures_maximum: 0
+  artifact_integrity_failures_maximum: 0
+  incremental_wall_hours_maximum: 1.0
+  peak_memory_gib: 16.0
+  complete_data_root_gib: 5.0
+  observed_residual_periodic_search_executed: false
+
+decision:
+  pass_authorizes: preparation_of_separate_one_shot_observed_search_freeze
+  pass_does_not_authorize: execution_of_observed_residual_periodic_search
+  fail_requires: detector_rebaseline_or_robust_statistic_replacement

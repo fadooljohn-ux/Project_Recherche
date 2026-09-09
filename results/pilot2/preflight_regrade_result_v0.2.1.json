@@ -1,0 +1,301 @@
+{
+  "evaluation": {
+    "application_error_limit_microseconds": 0.001,
+    "audit_results": [
+      {
+        "application_error_microseconds": 8.882096790951977e-06,
+        "case_id": "p2-inj-p00-a00-h02",
+        "comparison": {
+          "amplitude_difference_microseconds": 1.430192376083994e-06,
+          "chi2_difference": 0.003291445596687481,
+          "phase_difference_radians": 3.6827160361241344e-06
+        },
+        "status": "PASS",
+        "tests": {
+          "amplitude_difference_within_limit": true,
+          "chi2_difference_within_limit": true,
+          "full_covariance_completed": true,
+          "phase_difference_within_limit": true,
+          "primary_fitter_converged": true,
+          "primary_returned_converged": true,
+          "red_noise_preserved": true,
+          "toa_application_error_within_limit": true,
+          "wavex_absent": true
+        }
+      },
+      {
+        "application_error_microseconds": 8.903766072876351e-06,
+        "case_id": "p2-inj-p01-a00-h02",
+        "comparison": {
+          "amplitude_difference_microseconds": 4.1796286076589695e-07,
+          "chi2_difference": 0.006742419162264923,
+          "phase_difference_radians": 2.5098988412075585e-06
+        },
+        "status": "PASS",
+        "tests": {
+          "amplitude_difference_within_limit": true,
+          "chi2_difference_within_limit": true,
+          "full_covariance_completed": true,
+          "phase_difference_within_limit": true,
+          "primary_fitter_converged": true,
+          "primary_returned_converged": true,
+          "red_noise_preserved": true,
+          "toa_application_error_within_limit": true,
+          "wavex_absent": true
+        }
+      },
+      {
+        "application_error_microseconds": 8.827381641651755e-06,
+        "case_id": "p2-inj-p01-a01-h02",
+        "comparison": {
+          "amplitude_difference_microseconds": 5.498015003269074e-07,
+          "chi2_difference": 0.0009187468107256791,
+          "phase_difference_radians": 5.470641672999932e-08
+        },
+        "status": "PASS",
+        "tests": {
+          "amplitude_difference_within_limit": true,
+          "chi2_difference_within_limit": true,
+          "full_covariance_completed": true,
+          "phase_difference_within_limit": true,
+          "primary_fitter_converged": true,
+          "primary_returned_converged": true,
+          "red_noise_preserved": true,
+          "toa_application_error_within_limit": true,
+          "wavex_absent": true
+        }
+      },
+      {
+        "application_error_microseconds": 8.835456190681157e-06,
+        "case_id": "p2-inj-p02-a01-h02",
+        "comparison": {
+          "amplitude_difference_microseconds": 0.0009721241870082054,
+          "chi2_difference": 0.0029848960796243773,
+          "phase_difference_radians": 1.4818007084915761e-05
+        },
+        "status": "PASS",
+        "tests": {
+          "amplitude_difference_within_limit": true,
+          "chi2_difference_within_limit": true,
+          "full_covariance_completed": true,
+          "phase_difference_within_limit": true,
+          "primary_fitter_converged": true,
+          "primary_returned_converged": true,
+          "red_noise_preserved": true,
+          "toa_application_error_within_limit": true,
+          "wavex_absent": true
+        }
+      },
+      {
+        "application_error_microseconds": 8.91972761252191e-06,
+        "case_id": "p2-inj-p03-a00-h02",
+        "comparison": {
+          "amplitude_difference_microseconds": 5.760849739466778e-07,
+          "chi2_difference": 0.0035612530657544994,
+          "phase_difference_radians": 3.7970899313677364e-07
+        },
+        "status": "PASS",
+        "tests": {
+          "amplitude_difference_within_limit": true,
+          "chi2_difference_within_limit": true,
+          "full_covariance_completed": true,
+          "phase_difference_within_limit": true,
+          "primary_fitter_converged": true,
+          "primary_returned_converged": true,
+          "red_noise_preserved": true,
+          "toa_application_error_within_limit": true,
+          "wavex_absent": true
+        }
+      },
+      {
+        "application_error_microseconds": 8.836260396716256e-06,
+        "case_id": "p2-inj-p03-a01-h00",
+        "comparison": {
+          "amplitude_difference_microseconds": 1.9777610846816174e-06,
+          "chi2_difference": 0.0012728914637136768,
+          "phase_difference_radians": 6.764863150253778e-07
+        },
+        "status": "PASS",
+        "tests": {
+          "amplitude_difference_within_limit": true,
+          "chi2_difference_within_limit": true,
+          "full_covariance_completed": true,
+          "phase_difference_within_limit": true,
+          "primary_fitter_converged": true,
+          "primary_returned_converged": true,
+          "red_noise_preserved": true,
+          "toa_application_error_within_limit": true,
+          "wavex_absent": true
+        }
+      },
+      {
+        "application_error_microseconds": 8.923490384837862e-06,
+        "case_id": "p2-inj-p04-a00-h01",
+        "comparison": {
+          "amplitude_difference_microseconds": 5.836369512512984e-06,
+          "chi2_difference": 0.004642151777943582,
+          "phase_difference_radians": 6.86407091277097e-07
+        },
+        "status": "PASS",
+        "tests": {
+          "amplitude_difference_within_limit": true,
+          "chi2_difference_within_limit": true,
+          "full_covariance_completed": true,
+          "phase_difference_within_limit": true,
+          "primary_fitter_converged": true,
+          "primary_returned_converged": true,
+          "red_noise_preserved": true,
+          "toa_application_error_within_limit": true,
+          "wavex_absent": true
+        }
+      },
+      {
+        "application_error_microseconds": 8.941779302773512e-06,
+        "case_id": "p2-inj-p04-a00-h02",
+        "comparison": {
+          "amplitude_difference_microseconds": 1.2770821276930633e-05,
+          "chi2_difference": 0.0015556232658582303,
+          "phase_difference_radians": 1.1184392307850288e-06
+        },
+        "status": "PASS",
+        "tests": {
+          "amplitude_difference_within_limit": true,
+          "chi2_difference_within_limit": true,
+          "full_covariance_completed": true,
+          "phase_difference_within_limit": true,
+          "primary_fitter_converged": true,
+          "primary_returned_converged": true,
+          "red_noise_preserved": true,
+          "toa_application_error_within_limit": true,
+          "wavex_absent": true
+        }
+      },
+      {
+        "application_error_microseconds": 8.855347445546613e-06,
+        "case_id": "p2-inj-p04-a01-h00",
+        "comparison": {
+          "amplitude_difference_microseconds": 4.11270544553588e-06,
+          "chi2_difference": 0.004222755287742075,
+          "phase_difference_radians": 6.327782166519469e-06
+        },
+        "status": "PASS",
+        "tests": {
+          "amplitude_difference_within_limit": true,
+          "chi2_difference_within_limit": true,
+          "full_covariance_completed": true,
+          "phase_difference_within_limit": true,
+          "primary_fitter_converged": true,
+          "primary_returned_converged": true,
+          "red_noise_preserved": true,
+          "toa_application_error_within_limit": true,
+          "wavex_absent": true
+        }
+      },
+      {
+        "application_error_microseconds": 8.476087971942547e-06,
+        "case_id": "p2-inj-p04-a01-h01",
+        "comparison": {
+          "amplitude_difference_microseconds": 7.726863011647822e-06,
+          "chi2_difference": 0.003237129302192443,
+          "phase_difference_radians": 1.919011720419306e-06
+        },
+        "status": "PASS",
+        "tests": {
+          "amplitude_difference_within_limit": true,
+          "chi2_difference_within_limit": true,
+          "full_covariance_completed": true,
+          "phase_difference_within_limit": true,
+          "primary_fitter_converged": true,
+          "primary_returned_converged": true,
+          "red_noise_preserved": true,
+          "toa_application_error_within_limit": true,
+          "wavex_absent": true
+        }
+      }
+    ],
+    "criteria": {
+      "additional_download_bytes_zero": true,
+      "all_50_case_artifact_hashes_verified": true,
+      "all_solver_audits_pass": true,
+      "data_root_under_1_5_gib": true,
+      "exactly_10_solver_audits": true,
+      "exactly_20_null_cases": true,
+      "exactly_30_injection_cases": true,
+      "expected_warning_hygiene": true,
+      "observed_periodic_search_not_executed": true,
+      "peak_memory_under_16_gib": true,
+      "projected_reference_calibration_under_six_hours": true,
+      "reproduction_passed": true,
+      "source_summary_hash_verified": true,
+      "synthetic_scanner_used_no_observed_residual_vector": true,
+      "threshold_calibration_not_executed": true,
+      "wall_time_under_one_hour": true
+    },
+    "maximum_toa_application_error_microseconds": 8.941779302773512e-06,
+    "maximum_uncentered_residual_target_diagnostic_microseconds": 0.00159751302417336,
+    "source_resources": {
+      "additional_download_bytes": 0,
+      "complete_data_root_gib": 0.11526034586131573,
+      "peak_memory_gib": 0.5507850646972656,
+      "wall_hours": 0.22284344503472311,
+      "wall_seconds": 802.2364021250032
+    },
+    "source_runtime_projection_hours": 2.1385170012277412,
+    "status": "pass",
+    "warning_regrade": {
+      "arecibo_controlled_override_reclassified": 1,
+      "remaining_unexpected_warning_count": 0,
+      "remaining_unexpected_warnings": [],
+      "source_expected_warning_count": 35,
+      "status": "PASS"
+    }
+  },
+  "freeze": {
+    "failures": [],
+    "freeze_id": "pilot2-preflight-r1-json-regrade-freeze-v0.2.1",
+    "freeze_sha256": "b2eada04b60b36df2a9c5ef8f3bf08ea001e6e294bc4e64e53d680735079343e",
+    "status": "pass"
+  },
+  "full_calibration_authorized": false,
+  "model_fits_executed": 0,
+  "network_download_bytes": 0,
+  "new_random_draws_generated": 0,
+  "new_science_cases_executed": 0,
+  "observed_periodic_search_authorized": false,
+  "operation": "json_only_regrade_no_science_execution",
+  "periodic_scans_executed": 0,
+  "recorded_utc": "2026-08-09T13:03:44.808066Z",
+  "result_id": "pilot2-preflight-r1-deterministic-regrade-v0.2.1",
+  "schema_version": 1,
+  "scorecard": {
+    "criteria": {
+      "additional_download_bytes_zero": "PASS",
+      "all_50_case_artifact_hashes_verified": "PASS",
+      "all_solver_audits_pass": "PASS",
+      "data_root_under_1_5_gib": "PASS",
+      "exactly_10_solver_audits": "PASS",
+      "exactly_20_null_cases": "PASS",
+      "exactly_30_injection_cases": "PASS",
+      "expected_warning_hygiene": "PASS",
+      "observed_periodic_search_not_executed": "PASS",
+      "peak_memory_under_16_gib": "PASS",
+      "projected_reference_calibration_under_six_hours": "PASS",
+      "reproduction_passed": "PASS",
+      "source_summary_hash_verified": "PASS",
+      "synthetic_scanner_used_no_observed_residual_vector": "PASS",
+      "threshold_calibration_not_executed": "PASS",
+      "wall_time_under_one_hour": "PASS"
+    },
+    "overall": "PASS",
+    "passed": 16,
+    "total": 16
+  },
+  "source_summary": {
+    "bytes": 59471,
+    "logical_path": "run_records/pilot2/pilot2-preflight-20260809T124548Z-summary.json",
+    "preserved_source_status": "fail",
+    "sha256": "b007205c4751e9171c5ab04c54ce02ed7b5e48bc4ed2d219e1477db7542d8d6a"
+  },
+  "status": "pass",
+  "target": "B1937+21"
+}

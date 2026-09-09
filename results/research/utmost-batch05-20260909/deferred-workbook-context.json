@@ -1,0 +1,18 @@
+{
+  "target": "J1825-0935",
+  "created_utc": "2026-09-09T07:07:58.343754+00:00",
+  "result_path": "../Project Recherche Data/utmost-batch05-20260909/J1825-0935/attempt01/failure.json",
+  "result_sha256": "e12e7746cc63ad60a436c45b155161364ef45af1508aae47f26f1584affdece5",
+  "next_step": "UTMOST DR1 deferred: DE405 and legacy T2CMETHOD TEMPO are not faithfully supported. Prior dataset results remain valid. Revisit only with a compatible timing runtime.",
+  "entries": [
+    {
+      "id": "utmost-batch05-20260909-J1825-0935-preparation-gap",
+      "kind": "PREPARATION_FAILURE_AND_MODEL_GAP",
+      "status": "DEFERRED_UNSUPPORTED_TIMING_CONVENTIONS",
+      "summary": "Failed UTMOST preparation preserved. DE405 plus T2CMETHOD TEMPO; pinned PINT coerces frame convention to IAU2000B. No observed UTMOST search executed.",
+      "scope": "Original seven-target selection retained; revised six-target policy calibrated before launch. One explicit compatibility gap, not NO_TRIGGER.",
+      "source": "./results/research/utmost-batch05-20260909/preparation-deferrals/J1825-0935-diagnosis.json",
+      "source_sha256": "dfe4636bc1b5b5a2ba726dcfcfd5ee8a13a37fc651b3ca79542b795bd1e3554a"
+    }
+  ]
+}

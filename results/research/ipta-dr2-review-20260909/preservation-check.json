@@ -1,0 +1,12 @@
+{
+  "status": "PRESERVED",
+  "historical_result_files": 1219,
+  "changed_historical_results": [],
+  "historical_workbook_values_preserved": true,
+  "historical_workbook_formulas_preserved_by_builder": true,
+  "workbook_sha256": "2aa9838ff6c72281747a83fc8843e7ed2cca1a84cf5aff0d1337100277570346",
+  "search_records": 337,
+  "work_log_records": 142,
+  "new_searches": 0,
+  "formula_errors": 0
+}

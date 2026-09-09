@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "authorization_id": "pilot2-preflight-corrective-r1-v0.2.1",
+  "authority": "John Fadool",
+  "authority_source": "original current-task Proceed instruction",
+  "authorization": "exact_frozen_b1937_preflight_extraction_reproduction_and_50_synthetic_cases",
+  "correction_role": "implementation_only_retry_after_pre_case_abort",
+  "preserved_failed_attempt": "results/pilot2/preflight_failed_attempt_v0.2.json",
+  "scientific_design_changed": false,
+  "random_seeds_changed": false,
+  "case_order_changed": false,
+  "authorized_corrections": {
+    "preseed_arecibo_astropy_clock_cache_from_byte_identical_controlled_clock": true,
+    "enforce_process_level_network_socket_block": true,
+    "replace_incompatible_residual_accessor_with_pinned_wideband_accessor": true,
+    "use_clean_corrective_data_root": true
+  },
+  "authorized_counts": {
+    "synthetic_null_cases": 20,
+    "synthetic_injection_cases": 30,
+    "full_covariance_solver_audits": 10
+  },
+  "additional_download_bytes_maximum": 0,
+  "observed_periodic_search_authorized": false,
+  "threshold_calibration_authorized": false,
+  "next_phase_authorized": false
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "injection_id": "pilot1-injection-calibration-v0.1",
+  "status": "fail",
+  "scorecard_passed": 18,
+  "scorecard_total": 20,
+  "external_record": {
+    "logical_path": "run_records/pilot1/injection-calibration-v0.1-summary.json",
+    "bytes": 390638,
+    "sha256": "8bf50152cf3cd31109f363ef0bb01bf5f21f9c1d423b6a9ed53cabecafc692b8"
+  },
+  "execution": {
+    "injections": 284,
+    "full_covariance_audits": 29,
+    "total_calibration_wall_hours": 1.3699882693983325,
+    "peak_memory_gib": 0.6098213195800781,
+    "complete_data_root_gib": 0.7258782368153334,
+    "observed_residual_global_search_executed": false
+  },
+  "recovery": {
+    "strong_control_rate": 1.0,
+    "frequency_recovery_rate": 1.0,
+    "median_amplitude_bias_fraction": 0.015558206885670112,
+    "phase_error_p90_radians": 0.09712570853386743,
+    "periods_with_monotonic_detection_fraction": 5,
+    "periods_with_bracketed_50_and_90_percent_sensitivity": 0
+  },
+  "annual_mask": {
+    "eligible_periods_days": [300.0, 330.0, 400.0, 450.0],
+    "ineligible_periods_days": [350.0, 365.25, 380.0],
+    "eligibility_violations": 0
+  },
+  "audits": {
+    "failures": 0,
+    "maximum_amplitude_difference_microseconds": 0.00013856042109239297,
+    "maximum_phase_difference_radians": 0.00006819645568215128,
+    "maximum_chi2_difference": 0.0016696406324854252
+  },
+  "published_reference_bound": {
+    "basis": "all_12_100_day_cases_at_0.5_microseconds_detected",
+    "recovery_90_amplitude_upper_bound_microseconds": 0.5,
+    "projected_mass_upper_bound_moon_masses": 0.08054709633545554,
+    "reference_moon_masses": 0.56,
+    "ratio_upper_bound": 0.14383410059902774,
+    "allowed_ratio_minimum": 0.3333333333333333,
+    "outcome": "fail"
+  },
+  "failed_rows": [
+    "sensitivity_bracketing",
+    "published_reference_reconciliation"
+  ],
+  "disposition": "stop_initial_v0.1_promotion_and_open_discrepancy_dossier"
+}

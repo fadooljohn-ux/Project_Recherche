@@ -1,0 +1,69 @@
+{
+  "code_sha256": "b617b4911e660f88c02f24788a42a759978b29da879dec645c71e1c0a58c1de5",
+  "completed_utc": "2026-09-09T06:50:52.078229+00:00",
+  "diagnostic_p_plus_one": 0.001949317738791423,
+  "generators": [
+    {
+      "diagnostic_p_plus_one": 0.001949317738791423,
+      "name": "previous_steeper64",
+      "null_count": 512,
+      "null_exceedances": 0,
+      "reused": true,
+      "source_sha256": "1476ff599dc885539cf178cd493fc4df2191ff5a31f9d96b917e1568fa4f763d"
+    },
+    {
+      "code_sha256": "b617b4911e660f88c02f24788a42a759978b29da879dec645c71e1c0a58c1de5",
+      "completed_utc": "2026-09-09T06:50:51.881639+00:00",
+      "diagnostic_p_plus_one": 0.001949317738791423,
+      "name": "released",
+      "null_count": 512,
+      "null_exceedances": 0,
+      "observed_candidate_statistic": 25.90793227961649,
+      "q50_q90_q99": [
+        9.0461298966095,
+        12.912239658041427,
+        17.812431850225938
+      ],
+      "reused": false,
+      "seed": 2026091752
+    },
+    {
+      "code_sha256": "b617b4911e660f88c02f24788a42a759978b29da879dec645c71e1c0a58c1de5",
+      "completed_utc": "2026-09-09T06:50:51.979060+00:00",
+      "diagnostic_p_plus_one": 0.001949317738791423,
+      "name": "published_red64",
+      "null_count": 512,
+      "null_exceedances": 0,
+      "observed_candidate_statistic": 25.90793227961649,
+      "q50_q90_q99": [
+        9.451949390802383,
+        13.655301763400894,
+        20.128911129935037
+      ],
+      "reused": false,
+      "seed": 2026091753
+    },
+    {
+      "code_sha256": "b617b4911e660f88c02f24788a42a759978b29da879dec645c71e1c0a58c1de5",
+      "completed_utc": "2026-09-09T06:50:52.077257+00:00",
+      "diagnostic_p_plus_one": 0.001949317738791423,
+      "name": "continuous_best_null",
+      "null_count": 512,
+      "null_exceedances": 0,
+      "observed_candidate_statistic": 25.90793227961649,
+      "q50_q90_q99": [
+        8.430143506141121,
+        12.958396753996842,
+        18.65011666071897
+      ],
+      "reused": false,
+      "seed": 2026091754
+    }
+  ],
+  "limitations": "Sensitivity analysis of the FIRST review statistic. No continuous refitting in these simulations; no global FAP calibration.",
+  "null_count": 512,
+  "null_exceedances": 0,
+  "observed_candidate_statistic": 25.90793227961649,
+  "selected_generator_for_summary": "previous_steeper64",
+  "summary_rule": "Largest conditional plus-one tail among four declared generators; counts not pooled"
+}

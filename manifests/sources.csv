@@ -1,0 +1,2 @@
+source_id,title,provider,record_doi,concept_doi,version,url,accessed_utc,bytes,md5,sha256,status
+nanograv15yr-v2.1.0,NANOGrav 15-Year Data Set,NANOGrav and Zenodo,10.5281/zenodo.16051178,10.5281/zenodo.7967584,2.1.0,https://zenodo.org/records/16051178,2026-08-09T01:18:33Z,638719668,557d42dd8486a5f8272d90dec9b228a8,91476bf20d4c8baa9f5ad39c6e114b581478a5a7e269876489cafc8f62c5708f,verified

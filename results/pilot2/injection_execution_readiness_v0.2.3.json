@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-08-10T09:35:29Z",
+  "status": "pass",
+  "execution_readiness": "pass",
+  "execution_authorized": false,
+  "science_cases_executed_during_readiness": 0,
+  "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+  "implementation_sha256": "23d093c816c1fd6e029ffa7ac83ef4175b8c60028013ac6bf51f004bcfa58a34",
+  "implementation_freeze_sha256": "fcb8ad7714b13283ce251d74ac28e07643ae98d1e4e027c42e0c7ec8e7acf46e",
+  "remediation_freeze_sha256": "bf243b80307c0ddc773c85f244ef59854ce06de800bd0a74ffe2d2c1f1a8cd23",
+  "gates": [
+    {"gate": "v0.2.2_crash_evidence_hash_bound", "status": "pass"},
+    {"gate": "attempted_v0.2.2_case_and_seed_consumed", "status": "pass"},
+    {"gate": "344_v0.2.3_cases_and_35_audits", "status": "pass"},
+    {"gate": "case_ids_disjoint_from_v0.2.1_and_v0.2.2", "status": "pass"},
+    {"gate": "seeds_disjoint_from_v0.2.1_and_v0.2.2", "status": "pass"},
+    {"gate": "real_PINT_CorrelationMatrix_property_compatibility", "status": "pass"},
+    {"gate": "legacy_text_getter_not_used", "status": "pass"},
+    {"gate": "unexpected_exception_terminal_result", "status": "pass"},
+    {"gate": "unexpected_exception_hard_stop", "status": "pass"},
+    {"gate": "partial_scientific_metrics_excluded_from_failure_record", "status": "pass"},
+    {"gate": "zero_science_integrity_dry_run", "status": "pass"},
+    {"gate": "predecessor_bindings_read_only_verification", "status": "pass"},
+    {"gate": "applicable_repository_tests_199_passed", "status": "pass"},
+    {"gate": "v0.2.2_preauthorization_tests_3_deselected_after_authorization", "status": "pass"},
+    {"gate": "ruff_and_diff_checks", "status": "pass"},
+    {"gate": "execution_freeze_absent", "status": "pass"}
+  ],
+  "external_predecessor_verification": {
+    "status": "pass",
+    "threshold_lock_sha256": "6e624af784aabd92ce8b28babdaed4c863ca12c94caad756da005f14bf9b5117",
+    "v0.2.2_crash_preserved": true,
+    "failures": []
+  },
+  "resource_projection": {
+    "projected_wall_hours": 3.2338159810008253,
+    "wall_hours_cap": 6.0,
+    "status": "pass"
+  },
+  "execution_boundaries": {
+    "observed_residual_access_authorized": false,
+    "observed_periodic_search_authorized": false,
+    "promotion_grade_authorized": false,
+    "discovery_claim_authorized": false
+  },
+  "next_gate": "separate_explicit_v0.2.3_execution_authorization"
+}

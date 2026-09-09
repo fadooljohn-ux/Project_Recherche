@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "readiness_id": "pilot2-b1937-injection-execution-readiness-v0.2.6",
+  "recorded_utc": "2026-08-11T01:00:30Z",
+  "status": "pass",
+  "execution_readiness": "pass",
+  "independent_sol_audit_status": "pending",
+  "gates": [
+    {
+      "name": "SOL-V025-001 exact typed trusted input binding",
+      "status": "pass",
+      "evidence": "new, resumed, and interrupted records require recursive value-and-type identity to the invocation context; canonical context SHA-256 binds attempts and execution"
+    },
+    {
+      "name": "SOL-V025-002 durable first-use nested directories",
+      "status": "pass",
+      "evidence": "each new directory entry is fsynced in its immediate parent and all family directories are durably created before executor access"
+    },
+    {
+      "name": "power-loss durable file boundary",
+      "status": "pass",
+      "evidence": "file fsync and macOS F_FULLFSYNC precede replace; final parent-directory fsync follows"
+    },
+    {
+      "name": "interrupted attempt recovery",
+      "status": "pass",
+      "evidence": "attempt context hash and complete typed artifact must verify before adoption without recomputation"
+    },
+    {
+      "name": "repository validation",
+      "status": "pass",
+      "evidence": "269 passed, 0 failed, 3 documented historical deselections"
+    },
+    {
+      "name": "v0.2.6 zero-science boundary tests",
+      "status": "pass",
+      "evidence": "33 passed, 0 failed"
+    },
+    {
+      "name": "temporary-root dry run",
+      "status": "pass",
+      "evidence": "zero cases, draws, fits, scans, predecessor loads, external-root access, or observed residuals"
+    },
+    {
+      "name": "execution lock",
+      "status": "pass",
+      "evidence": "v0.2.6 execution freeze absent and predecessors not loaded"
+    }
+  ],
+  "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+  "implementation_sha256": "3d56ab925e87f3938f4b85ded3c8c3683e5b2d80dc14b468a9bfa6fb6ba8183e",
+  "implementation_freeze_sha256": "37e5b462289a2f30b16f1984269c30c53f98e948665d2f13e6068bcf1578b7f5",
+  "zero_science_validation_sha256": "dedab6483ff849c669d24ad0899837df1d1991f2f6ab0e158be68c69c31c97d3",
+  "validation_manifest_sha256": "567456d9fd486317cc369ed981f68aa8e2b4506dfc589539cef97c2da1b97937",
+  "audit_finding_closure_sha256": "9594c7e93ea72cb239b37dbc69d7cdaf57f40c7dde3abdd0f329971c11c66a80",
+  "science_cases_executed": 0,
+  "execution_authorized": false,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "promotion_grade_authorized": false,
+  "discovery_claim_authorized": false,
+  "next_gate": "freeze_this_readiness_package_then_one_fresh_read_only_sol_audit"
+}

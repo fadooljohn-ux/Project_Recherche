@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "authorization_id": "stage-c-c0-v0.1",
+  "recorded_utc": "2026-08-09T01:55:22Z",
+  "basis": {
+    "g2_gate_result": "pass",
+    "g2_review_pr": 2,
+    "g2_merge_commit": "7dae76e8662d0987604477aaf35029207354204a"
+  },
+  "authorized_cases": [
+    "C0"
+  ],
+  "blocked_cases": [
+    "C1",
+    "C2",
+    "C3"
+  ],
+  "authorization_conditions": [
+    "Use the frozen released wideband model, TOAs, clocks, ephemeris, fitter, and noise values.",
+    "Apply the C0 zero delay through the same TOA-adjustment path intended for nonzero cases.",
+    "Record the strongest periodogram peak as an artifact diagnostic without false-alarm or discovery language.",
+    "Stop after publishing the C0 review record."
+  ],
+  "config_sha256": {
+    "config/target.yaml": "c6f051fdf883c6629883510b83c103ff9e46039e5a083994fc65b78cb6710937",
+    "config/injections.yaml": "00e6dada9709ee7d84c6e92cb1b6f3df30c2e8f78136ccda38880a6ca4dc0785"
+  }
+}

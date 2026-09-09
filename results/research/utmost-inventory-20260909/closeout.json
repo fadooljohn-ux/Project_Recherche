@@ -1,0 +1,58 @@
+{
+  "status": "ASSESSMENT_COMPLETE",
+  "created_utc": "2026-09-09T04:19:21.328519+00:00",
+  "upstream_commit": "e6c36c26b54749d89d29c148da98f0919b3ce5a8",
+  "summary": {
+    "unique_pulsars": 300,
+    "dataset_variants": 304,
+    "main_datasets": 300,
+    "extended_alternatives": 4,
+    "target_coverage_candidates": 86,
+    "candidate_previously_searched_targets": 30,
+    "candidate_not_previously_searched_targets": 56,
+    "candidate_new_to_master": 6,
+    "candidate_absent_from_three_named_prior_inventories": 56,
+    "candidate_with_at_least_40_well_separated_band_days": 0,
+    "ready_to_launch": 0,
+    "calibrations_executed": 0,
+    "observed_searches_executed": 0,
+    "main_exclusions_nonexclusive": {
+      "span_below_1200_days": 195,
+      "known_binary_or_wide_companion": 17,
+      "published_glitch_model": 7,
+      "fewer_than_40_observing_days": 55
+    }
+  },
+  "source_files_verified": 1167,
+  "historical_json_records_unchanged": 335,
+  "scientific_source_changed": false,
+  "new_calibrations": 0,
+  "new_observed_searches": 0,
+  "binary_support": "DEFERRED",
+  "workbook": {
+    "targets": 743,
+    "observed_targets": 221,
+    "search_records": 252,
+    "work_log_records": 94,
+    "original_rows_and_notes_preserved": true,
+    "overview_date_updated": true,
+    "changed_views_visually_checked": true
+  },
+  "file_sha256": {
+    "results/research/utmost-inventory-20260909/inventory.json": "be35df020956807029290b9267e5779e1fce23757b6f4ea4c506b3b59f6a9fb6",
+    "results/research/utmost-inventory-20260909/inventory.csv": "3beea0b01ca3f45651fdeab0f7d9e6e64f16a81ba97ba1eded62509077e0249b",
+    "results/research/utmost-inventory-20260909/file-manifest.json": "09104c98c28a84a7b0d1f5a0f780d39659b48e2dca2a14b79827d46b43f1b4fc",
+    "results/research/utmost-inventory-20260909/model-parser-check.json": "b8639922811d0b3605f8a6f54de61e00f200b83bdaf051a216874cf5522d242d",
+    "results/research/utmost-inventory-20260909/master-workbook-update.json": "78119afeec74070eee4680e4ddc32774ba03a84befca96422d17f6574e8240fd",
+    "docs/UTMOST_INVENTORY_2026-09-09.md": "bdcb659158d7a6527b8bf8e550417a7910a72a0962f9fb9016b57e10cfcf2406",
+    "docs/FUTURE_DATA_SOURCES.md": "2b730cac6fcdd585cd2c6262c78e8c597be536b0e191cb615311efae57b6e5ae",
+    "tools/utmost_inventory.py": "0f4beed3a5e837e5f5977c45322fd5c908deb5af0dce84d3a52810b94f8b80e4",
+    "tools/recherche": "28ad6a4dd1db7b8b67bbdea87bb2a9666cdd23d9e0b55040813558832c2c074b",
+    "outputs/recherche-master-20260908/Project-Recherche-Master.xlsx": "31bc76831d5a08dfe4b4c0c90ae5dabfd833e790a89365ed6e2d9146ab0ecf7d"
+  },
+  "limits": [
+    "Inventory screen only; all 86 candidates need a UTMOST adapter and single-band noise policy",
+    "Prior-search inventories incomplete; no novelty claim",
+    "UTMOST-NS release not verified or included"
+  ]
+}

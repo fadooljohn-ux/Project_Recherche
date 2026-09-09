@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-08-09T01:23:39.055114+00:00",
+  "status": "pass",
+  "gate": "load_and_residual_smoke",
+  "dataset": "nanograv15yr-v2.1.0",
+  "target": "J1744-1134",
+  "mode": "wideband",
+  "environment": {
+    "process_machine": "x86_64",
+    "python": "3.11.15",
+    "pint_pulsar": "1.1.5",
+    "numpy": "2.4.6",
+    "longdouble_mantissa_bits": 63
+  },
+  "observations": {
+    "ntoas_loaded": 433,
+    "ntoas_declared_in_model": 433,
+    "mjd_min": 53216.12669272529,
+    "mjd_max": 58940.43190038216
+  },
+  "residuals": {
+    "toa_weighted_rms_us": 0.9406894922243831,
+    "wideband_chi2_computed": 734.6080630585474,
+    "chi2_recorded_in_release_model": 734.6212338610317,
+    "chi2_relative_difference": 0.000017930189508515
+  },
+  "resources": {
+    "total_wall_seconds": 31.618091833000108,
+    "cpu_seconds": 3.7353850000000004,
+    "peak_rss_mib": 244.38671875
+  },
+  "boundary": {
+    "fit_performed": false,
+    "gate_g2_status": "not_run",
+    "injection_authorized": false,
+    "full_record_location": "RECHERCHE_DATA_ROOT/run_records/pilot0_smoke.json"
+  }
+}

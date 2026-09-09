@@ -1,0 +1,13 @@
+{
+  "binomial_interval": "wilson_95_percent",
+  "calibration_cases_executed": 0,
+  "case_count": 500,
+  "case_order_sha256": "1143265c6a66a73498618ec5ad4a7be2bc83865a160d93719c8c3edc6d8e2ae8",
+  "evaluation_id": "pilot1-sealed-null-evaluation-v0.1",
+  "execution_authorized": false,
+  "locked_threshold_delta_chi2": 23.33426855482562,
+  "observed_residual_search_authorized": false,
+  "schema_version": 1,
+  "threshold_retuning_authorized": false,
+  "trigger_comparison": "strictly_greater_than_threshold"
+}

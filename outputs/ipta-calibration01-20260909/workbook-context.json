@@ -1,0 +1,37 @@
+{
+  "evidence": "results/research/ipta-calibration01-20260909/closeout.json",
+  "entries": [
+    [
+      "IPTA-CAL-20260909-THRESHOLD",
+      "Target calibration",
+      "J1721-2457; IPTA DR2 Version B",
+      "CALIBRATED_CONDITIONAL",
+      "Threshold delta chi-square 22.495314; 4,096 fixed-noise nulls; single-target 1% allowance.",
+      "30-2,000 days, 767 frequency cells. Conservative analytical bound exceeds empirical 99th percentile."
+    ],
+    [
+      "IPTA-CAL-20260909-MASK",
+      "Timing identifiability",
+      "J1721-2457 annual mask",
+      "760 ELIGIBLE; 7 MASKED",
+      "Seven excluded grid periods span 349.659-384.249 days; annual timing fit absorbs the signal.",
+      "Exclude at least 80% additional power loss or ill-conditioned templates. No finite sensitivity assigned to masked cells."
+    ],
+    [
+      "IPTA-CAL-20260909-SENSITIVITY",
+      "Circular-signal sensitivity",
+      "J1721-2457; 95% detection probability",
+      "SENSITIVITY SAVED",
+      "Median worst-phase amplitude 14.9265 us over eligible grid; about 28.70 us near 985 days and 46.69 us at 2,000 days.",
+      "Analytical on-grid sensitivity conditional on fixed noise. One noiseless integration check recovered 100 us."
+    ],
+    [
+      "IPTA-CAL-20260909-CLOSEOUT",
+      "Calibration closeout",
+      "J1721-2457; no observed search",
+      "READY TO FREEZE SEARCH PACKAGE",
+      "Profile, threshold, annual mask and full sensitivity table saved with input/code hashes.",
+      "No observed residual scan, execution freeze or launch. Preserve earlier preparation and MPTA results."
+    ]
+  ]
+}

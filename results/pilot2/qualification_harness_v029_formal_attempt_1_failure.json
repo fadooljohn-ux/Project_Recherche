@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "record_id": "pilot2-v0.2.9-qualification-harness-formal-attempt-1-failure",
+  "recorded_utc": "2026-08-15T15:42:00Z",
+  "status": "fail",
+  "disposition": "terminal_preserved_no_repair_no_rerun",
+  "gate": "Gate 1B",
+  "candidate": {
+    "branch": "agent/pilot2-v028-design",
+    "commit": "8055f3c11be41cf539a46c1838323c9ca893ef3d",
+    "tree": "f2b703648b335c51c8b6ae11721d09ed41dbb9c9",
+    "tracked_manifest_sha256": "6b44530b26a5a9ed541039b4521193d330eef2059b258490cd07f2367dbefba1",
+    "clean_at_start": true,
+    "clean_at_end": true,
+    "unchanged_during_attempt": true
+  },
+  "preformal_acceptance": {
+    "scope": "tests/test_pilot2_qualification_harness_v029.py",
+    "status": "pass",
+    "passed": 86,
+    "failed": 0,
+    "formal_attempt": false
+  },
+  "formal_attempt": {
+    "attempt_number": 1,
+    "command": "PYTHONPATH=src pixi run --as-is python -B -m pulsar_pilot.pilot2_qualification_harness_v029 qualify",
+    "started_utc": "2026-08-15T15:39:45.913077Z",
+    "ended_utc": "2026-08-15T15:40:26.114962Z",
+    "elapsed_seconds": 40.20192329201382,
+    "process_exit_code": 2,
+    "aggregate_status": "FAIL",
+    "failure_statuses": [
+      "FAIL_ZERO_SCIENCE_BOUNDARY"
+    ],
+    "failure": {
+      "message": "operational or science boundary activity was observed",
+      "details": {
+        "network_requests": 1
+      }
+    },
+    "invocation_proof": {
+      "verified": true,
+      "dont_write_bytecode": true,
+      "parent_command": [
+        "pixi",
+        "run",
+        "--as-is",
+        "python",
+        "-B",
+        "-m",
+        "pulsar_pilot.pilot2_qualification_harness_v029",
+        "qualify"
+      ]
+    }
+  },
+  "collection": {
+    "status": "complete",
+    "count": 432,
+    "sorted_lf_utf8_sha256": "10b1b360bc8bb4f2b1cfea97e534978b72ac86ce6bdcf2ad1d38c6f89379b8c3"
+  },
+  "current_lane": {
+    "pytest_exit_code": 1,
+    "passed": 417,
+    "failed": 15,
+    "warning_count": 1,
+    "classification_completed": false,
+    "failure_nodeids": [
+      "tests/test_pilot2_controls_v028.py::test_zero_case_dry_run_uses_only_temporary_root",
+      "tests/test_pilot2_injection_runner_v022.py::test_execution_lock_precedes_predecessor_and_context_loading",
+      "tests/test_pilot2_injection_runner_v022.py::test_zero_case_dry_run_executes_no_science",
+      "tests/test_pilot2_injection_runner_v022.py::test_implementation_freeze_is_hash_bound_and_execution_locked",
+      "tests/test_pilot2_injection_runner_v027.py::test_absent_execution_freeze_never_loads_predecessors_or_context",
+      "tests/test_pilot2_qualification_harness_v029.py::test_snapshot_provenance_and_two_materializations_are_tree_exact",
+      "tests/test_pilot2_qualification_harness_v029.py::test_snapshot_identity_rejects_wrong_tree_delta_and_post_materialization_tamper",
+      "tests/test_pilot2_qualification_harness_v029.py::test_materialized_snapshot_rejects_path_set_mutation[delete]",
+      "tests/test_pilot2_qualification_harness_v029.py::test_materialized_snapshot_rejects_path_set_mutation[extra]",
+      "tests/test_pilot2_qualification_harness_v029.py::test_materialized_snapshot_rejects_path_set_mutation[rename]",
+      "tests/test_pilot2_qualification_harness_v029.py::test_qualify_end_to_end_uses_only_a_tiny_disposable_repository",
+      "tests/test_pilot2_qualification_harness_v029.py::test_qualify_rejects_historical_current_package_origin_injected_by_process_seam",
+      "tests/test_pilot2_qualification_harness_v029.py::test_qualify_rejects_and_retains_injected_nonzero_boundary_counters",
+      "tests/test_pilot2_qualification_harness_v029.py::test_qualify_rejects_repository_identity_drift_observed_at_closeout",
+      "tests/test_release.py::test_initial_v01_release_freeze_is_self_consistent"
+    ]
+  },
+  "boundary_counters": {
+    "network_requests": 1,
+    "resource_acquisitions": 0,
+    "operational_context_loads": 0,
+    "operational_qualification_cases": 0,
+    "operational_science_entry_calls": 0,
+    "controlled_artifact_loads": 0,
+    "observed_artifact_loads": 0,
+    "observed_residual_reads": 0,
+    "external_data_root_accesses": 0
+  },
+  "environment": {
+    "interpreter_sha256": "93a407ec7f645575c3e7c0da3165c5e2aca5f07c5509c730313f1e6d38c9f4e9",
+    "pytest_version": "8.4.2",
+    "pixi_toml_sha256": "b4d190ee09a878c93ae5e3e74bd3ca630754b9343ba7f62d5b52f4d32f5c1613",
+    "pixi_lock_sha256": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8",
+    "conda_metadata_sha256": "cf8bbac3a483ffef6400ec1939df0af6e3c8417356d5e8f12302f178196b7795",
+    "conda_declared_file_manifest_sha256": "8cb3cd9ac439fb5d866fab4db6d61fa9347fb10cf1ba59ac2575a9cf95f82501",
+    "conda_softlink_manifest_sha256": "0584ac4c9203ed92603e92f14df9d786d04a2826158b14ed2344a9ed4f7f22ab"
+  },
+  "evidence": {
+    "temporary_directory": "/private/var/folders/kz/pc_8c86j76zgt8fntx54hf9w0000gn/T/pilot2-v029-qualification-evidence-r_v2s8yz",
+    "aggregate_sha256": "54cc8a908dea73e0981e801fffb32d0d33f62c6c074504a8a7195bf39e89fa74",
+    "canonical_semantic_sha256": "ae907598666f7eb089e70381b5170d371bc053717eb76d01de12b161ac5ae25d",
+    "inventory_sha256": "483fd8eaa61fb5322c7cf356c83015b492e918a412ea568a8272587c791627ab",
+    "files": [
+      {
+        "name": "01-current-collection.observer.jsonl",
+        "bytes": 282656,
+        "sha256": "018aaf37914ca08e7bb8710567a9c17c897a836d90af0412721da1d95faac1ec"
+      },
+      {
+        "name": "01-current-collection.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "01-current-collection.stdout.txt",
+        "bytes": 44096,
+        "sha256": "d8f923da42ee615166eaaf8a832055ed9d3cfee57c821bb54f3438f960352e44"
+      },
+      {
+        "name": "02-current-complete.observer.jsonl",
+        "bytes": 2515519,
+        "sha256": "8cb7fc4ca57f7e3daf2be7ce6d715f0f4c0e5a0bf7ecddbcd4cd0a33ce972a37"
+      },
+      {
+        "name": "02-current-complete.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "02-current-complete.stdout.txt",
+        "bytes": 28106,
+        "sha256": "609871a66048d65a787bf1e79fa88acd3b449cbac204b8946212e1e9011a702b"
+      },
+      {
+        "name": "aggregate.json",
+        "bytes": 219370,
+        "sha256": "54cc8a908dea73e0981e801fffb32d0d33f62c6c074504a8a7195bf39e89fa74"
+      },
+      {
+        "name": "canonical_semantics.json",
+        "bytes": 56143,
+        "sha256": "ae907598666f7eb089e70381b5170d371bc053717eb76d01de12b161ac5ae25d"
+      }
+    ]
+  },
+  "stop_boundary": {
+    "historical_lanes_run": false,
+    "accounting_completed": false,
+    "gate_1b_pass": false,
+    "gate_2_authorized": false,
+    "real_root_accessed": false,
+    "manifest_created": false,
+    "freeze_created": false,
+    "audit_run": false,
+    "science_run": false,
+    "rerun_forbidden_for_this_attempt": true,
+    "next_step_requires_new_prospective_authority": true
+  }
+}

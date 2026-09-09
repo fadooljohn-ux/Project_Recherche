@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "baseline_files_preserved": 157,
+  "historical_search_rows_preserved": 337,
+  "historical_search_evidence_files_verified": 337,
+  "work_log_records": 152,
+  "search_records": 338,
+  "master_sha256": "5b7531d556c34a3a1224fc5fd47f2f63e733718212e7feff15fbc414fbdc6a8d",
+  "original_master_sha256": "460a10e0644349af17b722f5c0fbe99332cfd6daaf129f169114f1c447dcf241",
+  "qualified_source_unchanged": true,
+  "periodogram_sha256": "00c3ac190fbf428753cf9d80420f3cb0b5191e52457323a3f2c4316825d50a18"
+}

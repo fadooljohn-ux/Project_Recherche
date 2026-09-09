@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot2-b1937-injection-execution-readiness-freeze-v0.2.3",
+  "recorded_utc": "2026-08-10T09:35:29Z",
+  "status": "execution_readiness_frozen_execution_not_authorized",
+  "execution_readiness": "pass",
+  "execution_authorized": false,
+  "science_cases_executed_during_validation": 0,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "promotion_grade_authorized": false,
+  "discovery_claim_authorized": false,
+  "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+  "implementation_sha256": "23d093c816c1fd6e029ffa7ac83ef4175b8c60028013ac6bf51f004bcfa58a34",
+  "implementation_freeze_sha256": "fcb8ad7714b13283ce251d74ac28e07643ae98d1e4e027c42e0c7ec8e7acf46e",
+  "remediation_freeze_sha256": "bf243b80307c0ddc773c85f244ef59854ce06de800bd0a74ffe2d2c1f1a8cd23",
+  "frozen_sha256": {
+    "protocol/PILOT2_INJECTION_RUNNER_FREEZE_v0.2.3.json": "fcb8ad7714b13283ce251d74ac28e07643ae98d1e4e027c42e0c7ec8e7acf46e",
+    "results/pilot2/injection_runner_zero_science_validation_v0.2.3.json": "b76bcc55eb2be5e681d64ffb8f952979f48b4a736c459bc317008d790ea0470b",
+    "results/pilot2/injection_execution_readiness_v0.2.3.json": "a4d76ac57e7b29c0acc5c21f21787404b5c3b357bd423fbf6035ee9780bc6255",
+    "docs/PILOT2_INJECTION_EXECUTION_READINESS_v0.2.3.md": "46ac30dcc33cff59caa932b1a37432e0221a5c58a830a879513659c3ede0ee5b",
+    "results/pilot2/injection_v022_crash_audit.json": "6d58ef1be4a03969be41ee3e0d916adaa252ee5bfa42d7c23244f203f878b473",
+    "src/pulsar_pilot/pilot2_injection_executor_v023.py": "8f8f0499071b0e9f2ffc040e9b4adbcf9ede6b90e9168d8757560b30faceed50",
+    "src/pulsar_pilot/pilot2_injection_runner_v023.py": "deaeff1ca5277300832865106549dc6f0c00de2f0d86672cf42abd76a2f7f07c",
+    "tests/test_pilot2_injection_runner_v023.py": "1b9e5c48a9d2e16321c57e13976278f06f575a9fecb1c11f48577e4b6effc98f"
+  },
+  "required_execution_authorization": {
+    "file": "protocol/PILOT2_INJECTION_EXECUTION_FREEZE_v0.2.3.json",
+    "present": false,
+    "must_bind_this_readiness_freeze": true,
+    "must_be_verified_before_predecessor_loading": true,
+    "must_be_verified_before_timing_model_setup": true
+  },
+  "next_gate": "separate_explicit_v0.2.3_execution_authorization"
+}

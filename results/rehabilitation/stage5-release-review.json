@@ -1,0 +1,24 @@
+{
+  "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+  "family_counts": {
+    "main": 240,
+    "phase_reference": 60,
+    "annual": 28,
+    "boundary": 16
+  },
+  "solver_audits": 35,
+  "threshold_delta_chi2": 22.485020743823544,
+  "predecessors_verified": 9,
+  "inputs_and_live_environment_verified": true,
+  "formal_state_fresh": true,
+  "freeze_sha256": "656bb025388cdea9ffbaf1138081a5ff2b3095d9bd5e0118bcfcc44e50029888",
+  "scientific_thresholds_changed": false,
+  "formal_cases_executed": 0,
+  "current_release_checks": {
+    "passed": 411,
+    "historical_deselected": 6,
+    "seconds": 48.58,
+    "source_commit": "6608085c683166399417e91f4064c819de8d93d3",
+    "source_changes_since_checks": false
+  }
+}

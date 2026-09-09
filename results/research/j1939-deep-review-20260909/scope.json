@@ -1,0 +1,517 @@
+{
+  "code_sha256": "85131c0aa3a39b1b096118e13835f9747f0430a5b62f4ec4a3e1abd710949e08",
+  "completed_utc": "2026-09-08T17:23:15.421855+00:00",
+  "data_sha256": "f89d1c9180e3d7d250d9d2074fc5070e05b6fbb2750e0771aee71edb49a3b5c4",
+  "family": [
+    {
+      "components": [],
+      "name": "white1_white",
+      "white_scale": 1.0
+    },
+    {
+      "components": [
+        [
+          "red2",
+          1
+        ]
+      ],
+      "name": "white1_red2_1",
+      "white_scale": 1.0
+    },
+    {
+      "components": [
+        [
+          "red4",
+          1
+        ]
+      ],
+      "name": "white1_red4_1",
+      "white_scale": 1.0
+    },
+    {
+      "components": [
+        [
+          "red4",
+          2
+        ]
+      ],
+      "name": "white1_red4_2",
+      "white_scale": 1.0
+    },
+    {
+      "components": [
+        [
+          "red4",
+          4
+        ]
+      ],
+      "name": "white1_red4_4",
+      "white_scale": 1.0
+    },
+    {
+      "components": [
+        [
+          "dm2",
+          1
+        ]
+      ],
+      "name": "white1_dm2_1",
+      "white_scale": 1.0
+    },
+    {
+      "components": [
+        [
+          "chrom4",
+          1
+        ]
+      ],
+      "name": "white1_chrom4_1",
+      "white_scale": 1.0
+    },
+    {
+      "components": [
+        [
+          "red4",
+          2
+        ],
+        [
+          "dm2",
+          1
+        ],
+        [
+          "chrom4",
+          1
+        ]
+      ],
+      "name": "white1_red_dm_chrom",
+      "white_scale": 1.0
+    },
+    {
+      "components": [],
+      "name": "white0.5_white",
+      "white_scale": 0.5
+    },
+    {
+      "components": [
+        [
+          "red2",
+          1
+        ]
+      ],
+      "name": "white0.5_red2_1",
+      "white_scale": 0.5
+    },
+    {
+      "components": [
+        [
+          "red4",
+          1
+        ]
+      ],
+      "name": "white0.5_red4_1",
+      "white_scale": 0.5
+    },
+    {
+      "components": [
+        [
+          "red4",
+          2
+        ]
+      ],
+      "name": "white0.5_red4_2",
+      "white_scale": 0.5
+    },
+    {
+      "components": [
+        [
+          "red4",
+          4
+        ]
+      ],
+      "name": "white0.5_red4_4",
+      "white_scale": 0.5
+    },
+    {
+      "components": [
+        [
+          "dm2",
+          1
+        ]
+      ],
+      "name": "white0.5_dm2_1",
+      "white_scale": 0.5
+    },
+    {
+      "components": [
+        [
+          "chrom4",
+          1
+        ]
+      ],
+      "name": "white0.5_chrom4_1",
+      "white_scale": 0.5
+    },
+    {
+      "components": [
+        [
+          "red4",
+          2
+        ],
+        [
+          "dm2",
+          1
+        ],
+        [
+          "chrom4",
+          1
+        ]
+      ],
+      "name": "white0.5_red_dm_chrom",
+      "white_scale": 0.5
+    }
+  ],
+  "fourier_modes": 30,
+  "historical_hashes": {
+    "./results/calibration/automatic-calibration-20260908-backup.json": "7ea962b872331ab9469cb1401105bffbb111567eb64bd5313e3f986c15ccd572",
+    "./results/calibration/automatic-calibration-20260908.json": "801eaa4f18d5d94866f88d3abc2ed8b0af91eee09925830b3610f9cc80454f08",
+    "./results/calibration/chromatic-support-20260908-backup.json": "c09961403e4b22a1aaa91d5d5782a2d96f29b63026c1ee8eb53d9af9ac4f40f5",
+    "./results/calibration/chromatic-support-20260908-master-workbook-update.json": "81c6178e6eb3db88b427add43ca2f32e74ce870b3ffd24631100f5ea9af21887",
+    "./results/calibration/chromatic-support-20260908-verification.json": "c12e1821eb86829730aa103d2d2d08f49c6ea36acd98e4f8c1b91221cea04d75",
+    "./results/calibration/chromatic-support-20260908.json": "ff36221689942e2a584956af961aaa981ab24e44598d0a0c889bdb4f8b6a3697",
+    "./results/calibration/ng15-batch01-20260908-backup.json": "35eab744d419a8ad5b085ab5dc80f08008284cb0ddbb42d462de0a22c5a52863",
+    "./results/calibration/ng15-batch01-20260908-intake-verification.json": "860a00f51e2615c4c01125f521c2ff038a4e5501477d4341aadfead515f9f95b",
+    "./results/calibration/ng15-batch01-20260908-preparation.json": "0d4d89f0be2c56aef3f4119df60ff09144ce6282f590cba2caa9a744eadca1f7",
+    "./results/calibration/ng15-batch01-20260908-selection.json": "2d3003c851ffec9c4ede2ca61d339b1ce5bc3eee41a1dc7b460e10677b60f5bd",
+    "./results/calibration/ng15-batch01-20260908-verification.json": "fc9f8277d10e003797b067f16cad570a5e911fb0342805cf47915ef896b19e4b",
+    "./results/calibration/tpa-batch01-20260908-backup.json": "ffbb72fecbca5af76aeb24158777393d30758deda3be6653c4f384ca1ac70dda",
+    "./results/calibration/tpa-batch01-20260908-master-workbook-update.json": "56f886aa684c54fb654494fb12a53faa79db49fa95c0bd882fc55e7c17d9d180",
+    "./results/calibration/tpa-batch01-20260908-preparation.json": "d4461a0f3ec5d4b9d8dc794202115f491abd6bb7c1e2420385f16a9632d74e2b",
+    "./results/calibration/tpa-batch01-20260908-selection.json": "047722e4dca24e16c44c810f43990492b2f988012ca2b4bab47826ff4c95f1db",
+    "./results/calibration/tpa-batch01-20260908-verification.json": "0c04663dab71578e6fa957a0d7f70f20a8e19308ad7a2e97f83c3053c83aa520",
+    "./results/calibration/tpa-batch02-20260908-backup.json": "ffc4bc45a057678b19b4b32f55e0def05e6119eb9a0608235d3d3afbf2c6773c",
+    "./results/calibration/tpa-batch02-20260908-master-workbook-update.json": "2038de92197f3b756efcd80d4da228549bc1a2cc1aa2a8f760f3e9b5a42cfcb3",
+    "./results/calibration/tpa-batch02-20260908-preparation.json": "c10f5698cfb9abfc30c0386fd48b08daa03aac5be34254d5c13b87848cded341",
+    "./results/calibration/tpa-batch02-20260908-selection.json": "eafdf9d3c8016443c502ba19ffd89257148144d3a88befddff9c95b47674d326",
+    "./results/calibration/tpa-batch02-20260908-verification.json": "e58d72886e46b35098b1620108f3395ba8ebb62a5d27e7fe39712ef21f4cdfe6",
+    "./results/calibration/tpa-batch03-20260908-backup.json": "a0ee4300d400ef79850227bfa5d349e0897763e338b796f4f55a68fbb69fa893",
+    "./results/calibration/tpa-batch03-20260908-master-workbook-update.json": "6ee99878fa8bb3b53562ff6afdcfe1bd3c7f47dcea49ada11a69ad8464788447",
+    "./results/calibration/tpa-batch03-20260908-preparation.json": "268cf3b802951b0be60fb14b1d244bde4f4861b45a36db076a95f0662d86a4e4",
+    "./results/calibration/tpa-batch03-20260908-selection.json": "1cf7dc46e02f8f80971416baec3f4bb7357340d0174269b7b50fc11887c0df28",
+    "./results/calibration/tpa-batch03-20260908-verification.json": "001e27bbd08495b2eb57d75cc82f8c295be912611fcef8e171d3c3f8d3b472fb",
+    "./results/calibration/tpa-batch04-20260908-backup.json": "8522ac1efdcb784e99f05dffc5de5f2d6d9232782e4608847772589cbc3b53e2",
+    "./results/calibration/tpa-batch04-20260908-master-workbook-update.json": "374c40c4a1a32b26235cbe8875a7c153e492790e9b07ba9d9631f3b2dfea948d",
+    "./results/calibration/tpa-batch04-20260908-preparation.json": "363b353f07a5ebb36d580c8a63564f529ca17252ee0830348634da342db5f222",
+    "./results/calibration/tpa-batch04-20260908-selection.json": "88cb06482cd14a2f65e966c23ca1cdea20fdeb356fd59137885e0ec5f3b47d1a",
+    "./results/calibration/tpa-batch04-20260908-verification.json": "8df1f483e8c5de2e5ade57b8d7b671c2f4e439ffa82fccd166c7bea4962211e5",
+    "./results/calibration/tpa-batch05-20260908-backup.json": "d2d1c6462718281d54090c501af21f1d34c6dd40b1c0d615c7ef941a2c75f9b2",
+    "./results/calibration/tpa-batch05-20260908-master-workbook-update.json": "e57209f48f6e823e0a100b3d628eaf6791a79269077e43e36996429f9181b6e8",
+    "./results/calibration/tpa-batch05-20260908-preparation.json": "e1b24b4c3b15f73c88b6b2ef8c9e010550d532396b563bfc10daa1ca951e70e8",
+    "./results/calibration/tpa-batch05-20260908-selection.json": "1212bfb743fa2d3f16f95056ab4d3c2b52ec5dd997358fe385b8fd00313b3907",
+    "./results/calibration/tpa-batch05-20260908-verification.json": "e9ae75b3dc2a1b940a46386f4676900d8a81e5dec8fe52b9f72739215e9188fa",
+    "./results/calibration/tpa-batch06-20260908-backup.json": "a7044e085dd8eb3379ba8754ed49a61d6cbd75551306f59b454056a524c959e1",
+    "./results/calibration/tpa-batch06-20260908-master-workbook-update.json": "5e0d8bb6eb2de64df29fd97d458f45502f5d460f3d1ce2b74e8cd275326c63ab",
+    "./results/calibration/tpa-batch06-20260908-preparation.json": "fb0f014c5cdce41ad26c01a158aab7d12473b731f987932815ecd0b3d9902989",
+    "./results/calibration/tpa-batch06-20260908-selection.json": "aa7dc82ae2f0aa7f4ad390810d65a59ea2811f4802deb69c9130205b6466f356",
+    "./results/calibration/tpa-batch06-20260908-verification.json": "7c141c010617c31041858fa5639c5b9f5af6accf4d4a329d48f01fdab4555a27",
+    "./results/calibration/tpa-batch07-20260908-backup.json": "587bb0d2e05dbe6c73f64b6497cfdc91ac383282718948dd8b6cc23b1633cd42",
+    "./results/calibration/tpa-batch07-20260908-master-workbook-update.json": "26a926ac7b83303aa5b4c08685d8d5de0c6b27203504e990c831a8c248461d70",
+    "./results/calibration/tpa-batch07-20260908-preparation.json": "cff980ac51d01e447044bfc2eda802103214e4c838abafdb49eaf1b01f592d07",
+    "./results/calibration/tpa-batch07-20260908-selection.json": "a0944d5da0924367a8ed78a56de7826f64b6d517eb7c66fa044c452abc4894a7",
+    "./results/calibration/tpa-batch07-20260908-verification.json": "ca7b998e1957f949f379235665bd6e638cf3352e96f8b1bcd1a470be9b8b1769",
+    "./results/calibration/tpa-batch08-20260908-backup.json": "e180952db956607b3bbec18557bb77f847238eee9d7b76ac938a1275a76fa6fd",
+    "./results/calibration/tpa-batch08-20260908-master-workbook-update.json": "df509448074973a27c7c82abc9243310c136592b09ac8d8ef4a269f0308445e1",
+    "./results/calibration/tpa-batch08-20260908-preparation.json": "798d29c62dc58cca99d75e27426804f7eced7309c1b2969cb1591756fcbfe321",
+    "./results/calibration/tpa-batch08-20260908-selection.json": "6fe595c0d188861ebc661368dcb361d40c70c01fd3243f0147e51a513ec4e764",
+    "./results/calibration/tpa-batch08-20260908-verification.json": "295bda4b40361da07613cb1a3cef86a9d54504b2635c7dc3297df44f2b72a6bf",
+    "./results/calibration/tpa-batch09-20260908-backup.json": "db0fe41f87be2ad0ff32da6f9244d573eb760093f9f166ca31e80782b8651579",
+    "./results/calibration/tpa-batch09-20260908-master-workbook-update.json": "69aa01f4021fee25a27b42b57aa3fff260801a21aef23338bbb1dc7c9f4cc05f",
+    "./results/calibration/tpa-batch09-20260908-preparation.json": "c455275a0c4f020ab032bca2f91f7000b567239bfb649bca40bdb10a24bda032",
+    "./results/calibration/tpa-batch09-20260908-selection.json": "395304d24c4ccc368723e19c91081b318fa94afe187f103f7b2ae19ebdbfa4d6",
+    "./results/calibration/tpa-batch09-20260908-verification.json": "c8f45b01cdbf0535475819acba3426e9bc4f3ddf88b2e8711762d99f5b513c75",
+    "./results/calibration/tpa-batch10-20260908-backup.json": "32895654d73e0461061c572e751f8dbc38e6cac36624b0107944dd20a9beee95",
+    "./results/calibration/tpa-batch10-20260908-master-workbook-update.json": "f5e31c0cf2d4ffc8a64263f51b936ca414a47f1e0eaaf10ad81c2460d6d38ad0",
+    "./results/calibration/tpa-batch10-20260908-preparation.json": "cc844e71a1cb8f185750749a2eb781032c024004cac3fec30ad50e06e85c6be8",
+    "./results/calibration/tpa-batch10-20260908-selection.json": "f291b1f7787d65b8a00b6e0862fccba716fb6a5f33f3265ceaca9fa5b1fd2c2a",
+    "./results/calibration/tpa-batch10-20260908-verification.json": "efa92afe627f5ef41dee701fa2576ddc52c2a2bc7fa10feb0b6e52c58b2913a6",
+    "./results/observed/b1257-20260908-backup.json": "cba0d18eb07e199fa4500f62f882d47c6973151474f73130bf3acf34384df671",
+    "./results/observed/b1257-20260908-closeout.json": "947f3b92aec4134c9af5e40c22dd79d32e275b85e10e43a4557516a71f9e8c17",
+    "./results/observed/b1937-20260908-backup.json": "d9fe02a96f008bef552069e2600c758d7e70fef9c8e01b2274d6574a554d33ad",
+    "./results/observed/b1937-20260908-terminal-verification.json": "e7f5b3610e51c26431f773caae83fb806c373d088883e4e513bc7569615e7be8",
+    "./results/observed/five-companion-20260908-backup.json": "257c442aa83232ae53e235159cfc32172eed5111ffa0b92fb228ce4210ab0945",
+    "./results/observed/five-companion-20260908-closeout.json": "e99ebf0b12300b62e3e1152906bd182bbcce82ac9de01c2efb4fc9af4d2fcb05",
+    "./results/observed/mpta-batch01-20260908-backup.json": "fbdf09ccb36afd87227376e2b15a60537ea4a0e0ceb22a15c256cd303c0a9a63",
+    "./results/observed/mpta-batch01-20260908-closeout.json": "649746bc8ff24b5a7f7b0d381af7776ecda738806d84b51c5052e37a87b7b94f",
+    "./results/observed/mpta-batch01-20260908-execution-freeze.json": "464bd88090e9f0c33fb0f5b01287ccb3cb57af9d871210b888d6934202c6baac",
+    "./results/observed/mpta-batch01-20260908-selection.json": "c7019cba9baaf2fa7bc792a2c66ba62417be412436fa4e73f9c6af6e3e866ed6",
+    "./results/observed/mpta-batch01-20260908-verification.json": "92a9bcbed6ed400e9e2a0240c6ab16b6c194acf1e65a9b364f28b118a8cbe263",
+    "./results/observed/mpta-batch02-20260908-backup.json": "01f6493251b065792d8c7744a5545f2fc188792a526d372116230a571ffa63d5",
+    "./results/observed/mpta-batch02-20260908-closeout.json": "eec04dc96e870d28d009ec118690d4fc1e223e85ce2259beb544218599fd5c32",
+    "./results/observed/mpta-batch02-20260908-execution-freeze.json": "053c52d73da09bf55b22e1c51b258063cff11d6bbd05e5f13827db1625bbd740",
+    "./results/observed/mpta-batch02-20260908-master-workbook-update.json": "f05578be9d0925c46e091a2f7f3818e39d450a262eeb84fe51266bc331437484",
+    "./results/observed/mpta-batch02-20260908-preparation-verification.json": "cb3f7ca951f577eebc34c9bed1de9a4aa3b7ed5b079bd1845ce90b97dfcabf24",
+    "./results/observed/mpta-batch02-20260908-selection.json": "527c974834c7300624851cd17d199b06624ebbcf9b566a557859a7459370c425",
+    "./results/observed/mpta-batch02-20260908-terminal-backup.json": "93e3c1efee9b42109a7f4341b4f75cc3dc51cfad851eb59b10985ff9efe6ddd4",
+    "./results/observed/mpta-chromatic-20260908-backup.json": "5435af58639b2561cd86f84797a5703e581daddd3b485f15f7b71b31d1d41fb8",
+    "./results/observed/mpta-chromatic-20260908-closeout.json": "2574f358263ca1edcf0923fe263610ec5a41a15c7e296d477304941610c54194",
+    "./results/observed/mpta-chromatic-20260908-execution-freeze.json": "590ae1615ec52411f2388ae9322d162362effcf0771a6e0a5ffe7f1632e3b251",
+    "./results/observed/mpta-chromatic-20260908-master-workbook-update.json": "ab7fae4b0aa91161f7ef38f74d9ba00734819cb58e31f48e4cbd5d4cc4f5a081",
+    "./results/observed/mpta-chromatic-20260908-selection.json": "6e94ca0bf0c7e05847ca61fca042cbff8dddf7b7c3341459e764260d3845df2d",
+    "./results/observed/ng15-batch01-20260908-backup.json": "4f887b108d5d579426571022e43c992d798772668c335e8be92df9a90b7df860",
+    "./results/observed/ng15-batch01-20260908-execution-freeze.json": "d26357be7f077b5083d433777260d8fa011db0ef75f22e579a4211ca590aee25",
+    "./results/observed/ng15-batch01-20260908-master-workbook-update.json": "53bb095d68a5863fedeeb117211bd4cb9b584044f8783a71ad84e7173fe6a28f",
+    "./results/observed/ng15-batch01-20260908-observed-closeout.json": "98f6224197cd5ad8d1eebf569a420576aaaced4e74c776e2bde659519b012ded",
+    "./results/observed/ng15-batch01-20260908-source-closeout-master-update.json": "53bb095d68a5863fedeeb117211bd4cb9b584044f8783a71ad84e7173fe6a28f",
+    "./results/observed/ng15-batch01-20260908-source-closeout.json": "184d1306f9e61aeb360dc0805231a25a643b630b1f46f4164c3a8b1bbd140962",
+    "./results/observed/tpa-batch01-20260908-backup.json": "5bf62389912653448030a3f554d2a7791e5a4011a1a842410c5f85dcc62c0ea1",
+    "./results/observed/tpa-batch01-20260908-execution-freeze.json": "6630f6eda97bda4baf2395b16651e66dabf523c40e4b544f4c50c41396c7eda7",
+    "./results/observed/tpa-batch01-20260908-master-workbook-update.json": "860b332b82de26ec42e87252234510578966c635ce74d7cf5ce91347d30d96fa",
+    "./results/observed/tpa-batch01-20260908-observed-closeout.json": "0253d5be3cdb4613e26616dee4c33602ab3a5cc2c8139815d23ba1a6f5ca680d",
+    "./results/observed/tpa-batch02-20260908-backup.json": "db34972166f72ad4f7289ff525c7b0b22143e59f9d2b8d7f9661d00b72d8d29f",
+    "./results/observed/tpa-batch02-20260908-execution-freeze.json": "cdbe429c2ef1d5917226c82bfe4460f212debf11c61ac2025db432e50ed91aae",
+    "./results/observed/tpa-batch02-20260908-master-workbook-update.json": "77330bace48ad1844698e64ac851cfd032d655de227998a84273b02ce1b6709b",
+    "./results/observed/tpa-batch02-20260908-observed-closeout.json": "59ad57d3e9f575a4cb3496a4c3baba563ddeae1c994e456b9976d18bcab5b436",
+    "./results/observed/tpa-batch03-20260908-backup.json": "fcb8832ef48845af65ab0e619592e2dbd81ed59d0e5141d7ebecf107695f9f43",
+    "./results/observed/tpa-batch03-20260908-execution-freeze.json": "8aadc6ef7e0a600a6b431922389b46ffd19a0775ba66d36e3e6d9046a020e578",
+    "./results/observed/tpa-batch03-20260908-master-workbook-update.json": "81252ae60781cc83c79e1f0bf6bf247eaa80af0d7fc1eaf66291644ef68e1f0e",
+    "./results/observed/tpa-batch03-20260908-observed-closeout.json": "1d0963b3d5b34514525c3647f1043397bfbda2f1dd886f8562b0a4f9743fcbbd",
+    "./results/observed/tpa-batch04-20260908-backup.json": "93fa5f0e288a646e4b3504b34cd15e9cb264d100d3a5a5b4d7e2494a6b70aab8",
+    "./results/observed/tpa-batch04-20260908-execution-freeze.json": "3b99e28b8bdd9e8f07d4ac97df10850b0781a0a6f32b0dc5fbbf798cb06f3133",
+    "./results/observed/tpa-batch04-20260908-master-workbook-update.json": "6e1b5bee0e4166e2ed2bd2dba222abf72ad6cfc0949e26a51d204149cb3fead2",
+    "./results/observed/tpa-batch04-20260908-observed-closeout.json": "f0aa3d660af04a9ec473fc945ba5a74ce033b209c2663606717e3d11be9fdc67",
+    "./results/observed/tpa-batch05-20260908-backup.json": "26496323a555877a5c4a0ce207e1506717f6bd000352dabea0855448df5616a9",
+    "./results/observed/tpa-batch05-20260908-execution-freeze.json": "052f2bc0e8eb653c3f27b429f51e21550e947c88b8b58f4359d6f419e8b49e04",
+    "./results/observed/tpa-batch05-20260908-master-workbook-update.json": "55987e4af6af0a628d706621f82ed6a1abdf98e65cad92f2288f0d5f7ab32918",
+    "./results/observed/tpa-batch05-20260908-observed-closeout.json": "22b6026fad11f80ab06dcea784da9895a1cece5a6e1de5b014ae4b7b10cf8205",
+    "./results/observed/tpa-batch06-20260908-backup.json": "af5a0e16043bf1f1092072773d2ae892b9e3f6a01aeaecd3b93b276d18fe65a1",
+    "./results/observed/tpa-batch06-20260908-execution-freeze.json": "d9295792b210df248cce4b41f2363f7033a5a1c6254dea66da14ccad56bfa1f7",
+    "./results/observed/tpa-batch06-20260908-master-workbook-update.json": "c96b5b87f98c7c4855d2753aa122276534994ee3fb760ae818ed0393d4edf0be",
+    "./results/observed/tpa-batch06-20260908-observed-closeout.json": "03ca9082f136f1cd8419fed4ad84b26714484551e40b586b6fb181b32385a8b2",
+    "./results/observed/tpa-batch07-20260908-backup.json": "837eaabc58135827087c79a5545d8242d110312d703029c87af02744a0d4795f",
+    "./results/observed/tpa-batch07-20260908-execution-freeze.json": "d8a94e60ec339cdd8b87ffc723a4bed6c86a7dc0df3c970c184ea9da5a01bc6f",
+    "./results/observed/tpa-batch07-20260908-master-workbook-update.json": "69189032a8a6dcdb706b8b46033c59fd37d368f81e89c5f8853b3e61ecf9f284",
+    "./results/observed/tpa-batch07-20260908-observed-closeout.json": "19618e3dde34920503ae32ab47e1d25816822609f79eebbc523fbab3e8729d64",
+    "./results/observed/tpa-batch08-20260908-backup.json": "eea32802a30d717b02007543ef12118b2548abd757f6009db7b54cdf88643559",
+    "./results/observed/tpa-batch08-20260908-execution-freeze.json": "e1dbee7a7634e25871b71f86344ec294056950765431609bfb2bc5b03719e619",
+    "./results/observed/tpa-batch08-20260908-master-workbook-update.json": "86acea68e5adddc8c5fd9c478048cb9455d3312c3581a101c712efc192e9f7e8",
+    "./results/observed/tpa-batch08-20260908-observed-closeout.json": "6e89b463d83acf2a834ded48f1dde94f10ea4d9cb8c7504a227d93b0324d155d",
+    "./results/observed/tpa-batch09-20260908-backup.json": "adea2eecafa53a34319da9436cf1703c58a934818f39b9e6042c44cf027978c9",
+    "./results/observed/tpa-batch09-20260908-execution-freeze.json": "8b02ea0fbe577570b7fd3ec799203571783a2c83d655a2487112c32bb85202c4",
+    "./results/observed/tpa-batch09-20260908-master-workbook-update.json": "c1a2d70eed5c77e66258c72d717da0f99378bb5f55b323a196659b2f3c09d4cd",
+    "./results/observed/tpa-batch09-20260908-observed-closeout.json": "ab57986f679b856bbeb1e1423d6096725c08d0b3f2b3a3e87bcd0ec4d01beb18",
+    "./results/observed/tpa-batch10-20260908-backup.json": "e9391c51634b6f0a157b85f5ad5d6a0410c5011509db4f95cac55874bd40685b",
+    "./results/observed/tpa-batch10-20260908-execution-freeze.json": "0900d7dd4cf0efe90b586719e4b5bdd5c99f5232e9b8b97419ded2342c459e69",
+    "./results/observed/tpa-batch10-20260908-master-workbook-update.json": "7a545e6fc82bb336df924a7e620d714775452c4bb9cd73b771825b8ee08cbd7b",
+    "./results/observed/tpa-batch10-20260908-observed-closeout.json": "2ca5d3325c36242a22c8ea16866e56763fc70e797139e0b3019dc606c7aa82f5",
+    "./results/observed/tpa-batch10-20260908-source-closeout-master-update.json": "7a545e6fc82bb336df924a7e620d714775452c4bb9cd73b771825b8ee08cbd7b",
+    "./results/observed/tpa-batch10-20260908-source-closeout.json": "a5f1ded278be72bc7311fb300e720c603e79ee26f9810a2b17028864b804d3c7",
+    "./results/pilot0/c0_summary.json": "b5b98858a18f68a0494b707f183f2f391f5337b93983a3ef6e4bfbe3a62467c3",
+    "./results/pilot0/c1_r1_summary.json": "27d416b5d960e18543669ff91be8e4b5188e9373ac7df8f7b98bae480c8cebb2",
+    "./results/pilot0/c1_summary.json": "b4451ffa802264a6e66d745dd3e50fb848479b04b903b6d0372c5177b8d287a1",
+    "./results/pilot0/c2_summary.json": "c548aaf7f5ab4b2aea94a89c8eb309606f509bfe404c87cff3ffab0a4b673de6",
+    "./results/pilot0/c3_summary.json": "b2fe0d0344d5727ff5e24cfc048fbad4d2c7d935f513b1838844ac7beca50fd8",
+    "./results/pilot0/g2_summary.json": "5c02f325a60106256e202f1434b4f647bcc07cb89ed79838b6efb85770309386",
+    "./results/pilot0/machine_manifest.json": "0519535b4976609fbfe116c3e8ba9154aba1979c811fbc03f6b5065499d35cd9",
+    "./results/pilot0/pilot0_summary.json": "acdb13b9cd84460abaae30833f68faedd30e4750b783cefaee367f69bfef026b",
+    "./results/pilot0/smoke_summary.json": "9b6c03dde5f609a45772bc3f62f91c99079b5fb9de0bf1d6d0062bd29ed4064c",
+    "./results/pilot1/benchmark50_plan.json": "91eb0d0dceab28a660cd0f658418c6eadf9f1f07997e448319e8d6ef355bf383",
+    "./results/pilot1/benchmark50_r1_plan.json": "534cc130051a7c6b1bed18e7dd02241743c095161a8cd802b22b23511f3df666",
+    "./results/pilot1/benchmark50_r1_result_v0.2.json": "0e0537ce54d246287caad28397f02f569e7727f01fb54efd72d38c5a56d80ccd",
+    "./results/pilot1/benchmark50_result_v0.1.json": "46397df4329b6278d7f8007f3e91153e5a418e5be6a800f19315422abc4e110f",
+    "./results/pilot1/calibration_null_plan_v0.1.json": "cc869515fa66cfb42be648dfbfc5bc5814dab9ff27adee8453042c5a72403734",
+    "./results/pilot1/calibration_null_result_v0.1.json": "89ea661125016a3e0444c270b99e46874daa217886faf61c8ac0625831d1613d",
+    "./results/pilot1/fable_final_preexecution_signoff_acceptance_v0.1.json": "ae053cb8567d5a4a70f5e5bfb710b99be77a095e3e3bd323103d36a6e622a346",
+    "./results/pilot1/fable_preexecution_disposition_v0.1.json": "591ae0f08b418ba6056ef4ec652ea99ee301e0f102e6eccb46ed67eecebf38ad",
+    "./results/pilot1/implementation_preflight_summary.json": "17884464f7131eb3de4d253d288190335a9107aaf259e094c1f146ecf5d9f024",
+    "./results/pilot1/initial_v0.1_closeout_v0.1.json": "6b50c433aa32c75c3b34956e083f9ac251645c0035eb17eeae3c897a535162f0",
+    "./results/pilot1/injection_calibration_result_v0.1.json": "380b0177bcdd81d15c588942ae654c1043377006f1c16c7ba510d602218fb130",
+    "./results/pilot1/injection_plan_v0.1.json": "4fef8e92c6961a3f24aecd8998ad453a84e8bd5d90bd4d84d8bca2b17e284a02",
+    "./results/pilot1/null_sensitivity_interpretation_v0.1.json": "01a26799b4c398a0f78ce1dc49abc740f611dc1e54a560b57c725dbbdf324e6d",
+    "./results/pilot1/one_shot_observed_search_result_v0.1.json": "25815630685319d2f73e166a18d9d6345fc5e1102e99c6075a647b34628a61e6",
+    "./results/pilot1/one_shot_plan_v0.1.json": "df0d770c2e9ac3df1e0dccdc680230c2b25808d6caf6bf712d969de94a817b53",
+    "./results/pilot1/one_shot_preparation_scorecard_v0.1.json": "18386d61987170b9ed80ba97b6897dc21b3ff5d7f0f94a826261eeb0dbdc2c7a",
+    "./results/pilot1/plan_summary.json": "785b365b63b8c9763f83969d31d0de3e8a279cd935a01b569a57198356d85dbb",
+    "./results/pilot1/preunblinding_freeze_result_v0.1.json": "802d0b8a4d4763150775cab666f565c3408164c809d8e6ea1448b734789877e7",
+    "./results/pilot1/preunblinding_validation_external_summary_v0.1.json": "50ee11b6532470f2a72c195ba5fa5389a49015a992c5046c0569b38fea4da469",
+    "./results/pilot1/preunblinding_validation_result_v0.1.json": "20f8b0878c95cbd3e23b80ca75bce31242c56eba91d2f4316143241c45f60065",
+    "./results/pilot1/promotion_scorecard_amended_v0.1.json": "83d83a563b4e9b191ef7272e620c95f5481e364dea26eec48d31bbf7f088f29d",
+    "./results/pilot1/promotion_scorecard_v0.1.json": "d5551c7bece779342eecea56f35e384a1084db2b8ae255052eefc9e8eec0be44",
+    "./results/pilot1/reference_discrepancy_result_v0.1.json": "e0bc7aff48462a1b3c09f1309e37eb8aa2fec8251e0eb772279d991d7161c1db",
+    "./results/pilot1/sealed_evaluation_plan_v0.1.json": "88d87f7628b90b27a74a6432ef6abf0e9b7ba7195d8067fa731b129ff4375c9b",
+    "./results/pilot1/sealed_evaluation_result_v0.1.json": "b9a8f5c80c3390332cd5b0b81749b1b00f9043bb4c38353a6c637975f0987439",
+    "./results/pilot1/tail_robustness_r1_result_v0.1.json": "d28f3733b090ee20b2b981248df3588404a99e0f5326710066993c45cb1514fd",
+    "./results/pilot1/tail_robustness_result_v0.1.json": "2fb72d5fb302185f2d61508f5f706288c060d38fcaf45689a2e8a2be8b48100e",
+    "./results/pilot2/calibration_design_plan_v0.2.json": "de0c0f973c361356b4833dfda8dca421ec5479350e90f0043a6d8fe8284db209",
+    "./results/pilot2/calibration_implementation_readiness_v0.2.json": "f469ad8f93253688f6e16797c7c5b2ae0be8c32bd25b0619eb5e4bbd975ba37c",
+    "./results/pilot2/calibration_revision_design_plan_v0.2.1.json": "5db02827769c29362a611a7b2edda1c14083a5a38d3db3d7fc9ea81846d9a746",
+    "./results/pilot2/calibration_revision_gaussian_closeout_v0.2.1.json": "3c7a7913f3f0aeef18c1c9cfcf8ba9c986aa7471e4f07ed64c8cf99303e54cb2",
+    "./results/pilot2/calibration_revision_implementation_readiness_v0.2.1.json": "b7e32c400a130744235079a3c2c152d2e6416e88c784460e4ad244a40cebbd0c",
+    "./results/pilot2/dedicated_sol_audit_disposition_v0.2.3.json": "c8ba79827e80b5588c4a90afc3f952715c36aff6f2560a6bea4578f1796bafb0",
+    "./results/pilot2/dedicated_sol_audit_disposition_v0.2.4.json": "b6c13b3bed5aac604a5d4f4f94defec920128d73d370cf3917d99d5564b2f47d",
+    "./results/pilot2/dedicated_sol_audit_disposition_v0.2.5.json": "0bd90a1cbac02662e7586d8c1dffcaae3e72e8f83025d3c2a376274940a0388d",
+    "./results/pilot2/dedicated_sol_audit_disposition_v0.2.6.json": "6558f33dd238e88dbde13974e302ef1230e0be20b3789557016bd8083944e6a2",
+    "./results/pilot2/dedicated_sol_audit_disposition_v0.2.7.json": "64e3a159cbc3a7cb018798f993f0f5a64e471f2e8050652e232056be72f898c4",
+    "./results/pilot2/dedicated_sol_audit_primary_verification_v0.2.3.json": "c46a7670a887822cb87bf0610ec44ea5270aebd51608f71489183739ed0a2d09",
+    "./results/pilot2/dedicated_sol_audit_primary_verification_v0.2.4.json": "527e4256b1c8a630b29a087f01b2494e70ab6d022f6d3ddf4f4a1dd6fed43b4d",
+    "./results/pilot2/dedicated_sol_audit_primary_verification_v0.2.5.json": "cbcfbfb96c8a29e33f0775856a45418dc1c35edd11612d4c1d5ec60b5802ceab",
+    "./results/pilot2/dedicated_sol_audit_primary_verification_v0.2.6.json": "294d1c755a5af5e394c05857b04a42735ddb14ee0e58ee8836f33373ded68071",
+    "./results/pilot2/dedicated_sol_audit_primary_verification_v0.2.7.json": "cfe4975a301759147b9d648bb221835d8a654570d9f671711288128b520b47e6",
+    "./results/pilot2/injection_execution_readiness_v0.2.1.json": "cd7b4e62cf88931c4efa7416a5419b50cc05531b4660bb08e74bb040725e8880",
+    "./results/pilot2/injection_execution_readiness_v0.2.2.json": "849132dc5d6bcff38640b151fe760c3283e6040e5c7128646208c830b6c62eed",
+    "./results/pilot2/injection_execution_readiness_v0.2.3.json": "a4d76ac57e7b29c0acc5c21f21787404b5c3b357bd423fbf6035ee9780bc6255",
+    "./results/pilot2/injection_execution_readiness_v0.2.4.json": "efe480af331d62ce57c749cd2f5a6af3124fb7077f63c9d4f9f99e64e5490255",
+    "./results/pilot2/injection_execution_readiness_v0.2.5.json": "d922376119d51f7156f629a18ae96e5d5d28a578e2b03769fcd397cfc7c16d4e",
+    "./results/pilot2/injection_execution_readiness_v0.2.6.json": "62eccd0a4946947757cda03a96c266d7c02b5ef54ac515ea44c84a3b0fb00874",
+    "./results/pilot2/injection_execution_readiness_v0.2.7.json": "48ce65d8b5581756c72106478cb447f2dcc2aeb6edb20ae7a649b73c1b298fcd",
+    "./results/pilot2/injection_failure_audit_v0.2.1.json": "cd068e6777b304f7c59ffc45499269d8cd622fc9c15faf85d950604f2ecc3de8",
+    "./results/pilot2/injection_rebaseline_design_validation_v0.2.8.json": "0ed87cc63ad02caf5d59eaf95e81db7593362c750317f96e2452a2c86f287c5d",
+    "./results/pilot2/injection_remediation_readiness_v0.2.2.json": "3402b850e460606bd29e5862995cf8488bfcd09122dc711c6f7f524fdf0eda6e",
+    "./results/pilot2/injection_runner_zero_case_validation_v0.2.2.json": "fb1d905bd76d95c93ba295eb2d8b0a1a1a4e6148e5dbf27fb25e44cd192ae034",
+    "./results/pilot2/injection_runner_zero_science_validation_v0.2.3.json": "b76bcc55eb2be5e681d64ffb8f952979f48b4a736c459bc317008d790ea0470b",
+    "./results/pilot2/injection_runner_zero_science_validation_v0.2.4.json": "7b2ec6502c949f5d6df05b0f385ee655c9600e8fee3992be90f261d93f691963",
+    "./results/pilot2/injection_runner_zero_science_validation_v0.2.5.json": "933b38f85ba19e04cfa9744f94c143fb1e23808610aa308fd36e6023431881c7",
+    "./results/pilot2/injection_runner_zero_science_validation_v0.2.6.json": "dedab6483ff849c669d24ad0899837df1d1991f2f6ab0e158be68c69c31c97d3",
+    "./results/pilot2/injection_runner_zero_science_validation_v0.2.7.json": "18de57134bb8dd417be1a7acb10f89c8b45586358ead8b903097db407bdd9c09",
+    "./results/pilot2/injection_v022_crash_audit.json": "6d58ef1be4a03969be41ee3e0d916adaa252ee5bfa42d7c23244f203f878b473",
+    "./results/pilot2/injection_v024_audit_finding_closure.json": "ac1592724e03519e4e41cfca1eb208a9e7d459766a502e37dc082e31f3b4e1e6",
+    "./results/pilot2/injection_v025_audit_finding_closure.json": "7f175ff48645313e8e669fc3c5850790f211a547e1f98a09830b8d613f3003c5",
+    "./results/pilot2/injection_v026_audit_finding_closure.json": "9594c7e93ea72cb239b37dbc69d7cdaf57f40c7dde3abdd0f329971c11c66a80",
+    "./results/pilot2/injection_v027_audit_finding_closure.json": "b5ee78bb25130ae081e90e5e7542bf99b205e8fa63c18d6059ad8cf1ebec6cb1",
+    "./results/pilot2/injection_v027_startup_failure_audit.json": "c9d00f3c021091c18722d1a288c91e218f447ce1f9ac3f507dda0b9fdc70ab9d",
+    "./results/pilot2/injection_v028_repository_temporary_validation.json": "d31627defb9c9cf88cb7dbe854883c86168fe0e6af46d16333fe6a9d15a7a487",
+    "./results/pilot2/injection_validation_manifest_v0.2.4.json": "f583a74a353e773179d0f9f8a166f49b4bfd803c32f8d26b91a862956b158408",
+    "./results/pilot2/injection_validation_manifest_v0.2.5.json": "29eeca4ab788044726c529c6b480c2af53de45aaa88193c508e45bf4917694dc",
+    "./results/pilot2/injection_validation_manifest_v0.2.6.json": "567456d9fd486317cc369ed981f68aa8e2b4506dfc589539cef97c2da1b97937",
+    "./results/pilot2/injection_validation_manifest_v0.2.7.json": "711a0c3a73942d547e87f68d3af052983ad822ae9ceaf3ecda97dba8efffd713",
+    "./results/pilot2/phase_failure_analysis_v0.2.1.json": "31e3fa0a7140d1692a2b9ec6970ee97725d6579ae8a0e0d0f0b911de3a10255f",
+    "./results/pilot2/preflight_failed_attempt_v0.2.json": "6211e85a36c8cfe3d5a5c83a1d2f7a99d8fcce0c2d0149f2e45f327528003f57",
+    "./results/pilot2/preflight_r1_failure_result_v0.2.1.json": "9ba7ed16ff1c3d55e5843fa44c7f6962a4a9e376efbcc002dd10d387f09eb115",
+    "./results/pilot2/preflight_regrade_result_v0.2.1.json": "de00792cbfd598a7eae7f7d570b89a459789864750aeff9937fb782fcb504eff",
+    "./results/pilot2/qualification_harness_v029_formal_attempt_1_failure.json": "ce236f7aebf07e2d8a3d1047f4c3f15345f70e0ae01758cb87e902ce8e5aca4a",
+    "./results/pilot2/sealed_gaussian_deterministic_failure_analysis_v0.2.json": "89bb4d2a65ca57d2a78de93903d3b3a0fb63015b5b11eb224ef5d8ca62ab0954",
+    "./results/pilot2/sealed_gaussian_failure_disposition_v0.2.json": "74535e7c62e25def30b9f9e1456146f0f13556cb48b7a0eb98a7f9be0250e495",
+    "./results/pilot2/structured_tail_closeout_v0.2.1.json": "46efd1db1f2330ea64fe5fe37b63c8d1fdacb08eff0a2bba07b43fa4f99028ca",
+    "./results/pilot2/structured_tail_execution_readiness_v0.2.1.json": "cc9e39fc557e836dfdced5747ab08f7283f779fc0f334089e04445c049677a5e",
+    "./results/pilot2/target_selection_v0.2.json": "48c49d4a6d2cf2830240f243bb2c2c9295a39ddbe0c0c064bb65ae6e9a57c24b",
+    "./results/pilot2/top_down_assembly_audit_2026-08-11.json": "0838898236f7a7927604b3efdaacdae2b467516441808e7b8e1c74b503f15614",
+    "./results/qualification/annual-solver-backup.json": "fa596434525700a525711fcce41b2ee5703d8ca185b8c4c62b90e4334f11b16e",
+    "./results/qualification/annual-solver-diagnosis.json": "5674796bf54642ce9d7d702337a7e455ddbf8254fd793f18bf56adfb63926935",
+    "./results/qualification/b1937-observed-preparation-backup.json": "53abaa0277955e9252bb82f5d467d8fb49b570ddf1c09eae3186205f46d30ad7",
+    "./results/qualification/b1937-observed-preparation.json": "e352921ab55fe1dde3f7a7d6b6c763b00d838c3452a3362d72f45e21e06948f6",
+    "./results/qualification/qualification02-backup-receipt.json": "a299b180d9eee07bcffffc442f60beeb780f033457cdb4868578464ac90c930b",
+    "./results/qualification/qualification02-development-backup.json": "7ef0fe6f59b16f05c988512a7693d55061c56e19958cb180ea7d5c40694a038d",
+    "./results/qualification/qualification02-readiness.json": "94e22f80f13437fdcb998bbd487add0f2755a97e38c6d7e125a346ff510f7ac3",
+    "./results/qualification/qualification02-terminal-verification.json": "396566833fb68ba1474aef75963ee984ed4f7b6e7a803ef0cc8e6640755f8b09",
+    "./results/qualification/stage5-backup-receipt.json": "5d760ddb66ae73a7c9e20199758818d2221225e8c3e9c6dca482dabbe64b6645",
+    "./results/qualification/stage5-terminal-verification.json": "e30394ceedfefe3a5b70b46974976cbd0147f2f00131b45d68485ea30aa0636a",
+    "./results/qualification/stage6-operational-verification.json": "ce750eeafbd9216d0fcc39c6ac3562efe5df254468ee9652152e4b1e01c6c527",
+    "./results/rehabilitation/baseline-receipt.json": "845eeea7e951a2fb2cfa8ec9cd2153cfb71831e1ba90fee42c9b22d3037772ca",
+    "./results/rehabilitation/controlled-stop-receipt.json": "dba168bd2c6d1385845e6b69e5ab4c34ccf4b8b91f17caf1e6614c5429bbacce",
+    "./results/rehabilitation/development-terminal-verification.json": "041fc835381b81f997701eb963319ed2ebe8ab8f87930c0eb9a3c8d9babf6bba",
+    "./results/rehabilitation/environment-reproduction-receipt.json": "ec8dc59b70113b679b667447ae39ebc538d273f4ceb8c9e523494a8791cf4cd7",
+    "./results/rehabilitation/numerical-review.json": "cc50c497fbb363ff8f426272fbbce6692fcdda8a177a0cede74e33d5bd135c90",
+    "./results/rehabilitation/stage5-release-review.json": "78bfddb782cd11486057b35bbc0fd269bd739a34ba9ce4a19fc9464cbbe66b24",
+    "./results/rehabilitation/validation-receipt.json": "b5a300f92faeba0e33b7333d99bf12179b803e31415fc44ad13ff7346363690c",
+    "./results/research/j1453-context-20260908.json": "8cc6599b58487acf8801f5f8ff0bcecd31316f8aca10cc1ff16124d91e503da0",
+    "./results/research/j1453-context-workbook-update-20260908.json": "a9358eb8002a8dc43a457bfe70ed6b7e333003ce46fc6b4cb0c7767ecfbdcefe",
+    "./results/research/j1453-context-workbook-update-initial-20260908.json": "15492cb3605e560f97a96deabc97650afcb49a0c06ed4a1177ddb17aad81744c",
+    "./results/research/j1453-human-review-20260908-closeout.json": "5ad71b9042ddde053e794deb2efa512188636a7e052ee2d5172310e1ada8b7aa",
+    "./results/research/j1453-human-review-20260908-scope.json": "54a49353a21f09e691f4257f8efa9a41d48aa90f2d17e4225724d303a79a8847",
+    "./results/research/j1453-human-review-20260908-step1.json": "f3069df1452400ab03a8254131441bda101a74847be266fb5801693189fbc9c1",
+    "./results/research/j1453-human-review-20260908-step2.json": "8aced7cc72f57f49de55fb1259844e1bfbff1d0b6b5e4d52150bc7e1330b78bc",
+    "./results/research/j1453-human-review-20260908-step3.json": "cb1f4c81ef8d6b7bec3c7088f3fa3ba5543fcd0a44400f0f988c9db98cae6273",
+    "./results/research/j1453-human-review-20260908-step4-data-inventory.json": "f5d42f0af48e6b6e52f4a29618c7d416093ced7d2cc20d82153b79655effa3d0",
+    "./results/research/j1453-human-review-20260908-step4-narrowband.json": "599526ef2b2b50c8e09db5fb1d3aab23fad68ff99bbcd56e19959ea5e2e5000f",
+    "./results/research/j1453-human-review-20260908-workbook-context.json": "327035cbb7556f67855dce0caed215c095a93085b10187f40e3086a6683647e4",
+    "./results/research/j1453-human-review-20260908-workbook-update.json": "c8f3ea80eb23837384d589bc42cb47e50a7e63c106127a6ec8689f19a49407d3",
+    "./results/research/j1453-report-20260908-manifest.json": "53522b7c182cbaa806c9088ec4776fdaa92cba9c741a325f2e6eff3fdbbe60bb",
+    "./results/research/pta-campaign01-20260908/campaign-freeze.json": "839927e242cfe968ec6ccfe4c17d91b6e76d94fd1afb463746588eca169d1d92",
+    "./results/research/pta-campaign01-20260908/closeout.json": "2b3fb60e150406fa195780e9a2b5c2138ca99c9898141ed08fe2af0ef8773caf",
+    "./results/research/pta-campaign01-20260908/epta-J0030+0451-preparation.json": "1892b072e7a20ff1eeb7a578f5d488daaf147534570823a72f09a503394d4428",
+    "./results/research/pta-campaign01-20260908/epta-J0030+0451-result.json": "93be6f13bcaac8eeef45bf8c4fe0d5f059c47a698e3165f6418f09e17e2f842f",
+    "./results/research/pta-campaign01-20260908/epta-J1730-2304-preparation.json": "f6fdf6ab25193ab793f417a2e1c52cc3d3fc234e7dd5e000f91317e90c75c95c",
+    "./results/research/pta-campaign01-20260908/epta-J1730-2304-result.json": "152858356c774f00380e16fa48bd6065b2dcb0d7d5851dd6fecbed03c133e27b",
+    "./results/research/pta-campaign01-20260908/epta-J1730-2304-review.json": "8479560fad24cc55bb0c552673c7c994f4dae585da3383e34e813a9bb44add4a",
+    "./results/research/pta-campaign01-20260908/epta-J1744-1134-preparation.json": "f6d84804428606d74d66bec256941aba8829b130d74b5ca64ee9df21a11ebc66",
+    "./results/research/pta-campaign01-20260908/epta-J1744-1134-result.json": "3af31634a916a5e9be32a12617d125c7e2ee7e330d016877012c0432030272b5",
+    "./results/research/pta-campaign01-20260908/epta-J1744-1134-review.json": "e5596409866e14c7ae642ae665c670e3a675ce0d9a01bb2ad8374dd6400ccf84",
+    "./results/research/pta-campaign01-20260908/epta-J1801-1417-preparation.json": "9cd602741c028c80095c81821c01b514775f1ba5396a952737cb0263b5e4fbae",
+    "./results/research/pta-campaign01-20260908/epta-J1801-1417-result.json": "9cb99e36a5eccf20fa0cd565d08e4cf4359040e1fc8126e62e523a4ac2eb36a6",
+    "./results/research/pta-campaign01-20260908/epta-J1843-1113-preparation.json": "8e4eca36f338ea545e43ed334d8918d8756f24fcd7c7ca78ee943b99a9a4a1c7",
+    "./results/research/pta-campaign01-20260908/epta-J1843-1113-result.json": "7a46cc91233569ab0a78be8edf01c79e224f8cbb0195453d304ba05f1ee7def3",
+    "./results/research/pta-campaign01-20260908/epta-J1911+1347-preparation.json": "531e632b11d7ac2fef9ca47969c7862cf10a9f19604c177ce6f6355e37ff15e3",
+    "./results/research/pta-campaign01-20260908/epta-J1911+1347-result.json": "f237a1c1a4f8119ef67bda7b25a254a0a0ef14ff32e1187224620ba20be84580",
+    "./results/research/pta-campaign01-20260908/epta-J2124-3358-preparation.json": "aae10ba7d54b0d2ffaafd27186a1a6d616f72f05f7c2cc65eef7cb1dacd89a16",
+    "./results/research/pta-campaign01-20260908/epta-J2124-3358-result.json": "7c1014b7252a6acba22d75877b80766c03d10281933ae1528cf58f5e275d31c8",
+    "./results/research/pta-campaign01-20260908/epta-J2322+2057-preparation.json": "8dee7a7beb24daea323567fa2d3fa37d01bcf36a879cb2f3eebbcf6201d9db6f",
+    "./results/research/pta-campaign01-20260908/epta-J2322+2057-result.json": "7563a1d999ec8c056c9819199586ab473704ca3f1c70990755fc016c9670e755",
+    "./results/research/pta-campaign01-20260908/epta-execution-freeze.json": "6ab8b3c8bb91e1714d6a31e56e72109f4c29bab9d1bb54410f52437b0be9e970",
+    "./results/research/pta-campaign01-20260908/epta-preparation.json": "c17b55907e9081a6d9a309087e15483612b19fda6b6bcc590422fc57f1afdb66",
+    "./results/research/pta-campaign01-20260908/epta-selection.json": "e98b491e2df714c34d8453c722c33a640e14b9934eab974095c9f3b5c3b6389f",
+    "./results/research/pta-campaign01-20260908/final-verification.json": "b77690c5feec511e982014c0869e786e79c66990169d88f4af9f14933679f133",
+    "./results/research/pta-campaign01-20260908/inpta-J1730-2304-preparation.json": "fd014f48c9c9eb9fe9561cfd148a4769d8ab915ea6619b33ed97a9e0e5ac3799",
+    "./results/research/pta-campaign01-20260908/inpta-J1730-2304-result.json": "49e39191b3b6911dc63bbdfb3843b216fbdc4ea02a3a5df7db85f47b07a02985",
+    "./results/research/pta-campaign01-20260908/inpta-J1939+2134-preparation.json": "d00613e7e5ac37d986c7c89de3c12420073d2370b5c98454deda123c29f05f08",
+    "./results/research/pta-campaign01-20260908/inpta-J1939+2134-result.json": "f027268999ab65e90ef34988839c628f7eb823b0253365c6f4dd8d774a5bf1d7",
+    "./results/research/pta-campaign01-20260908/inpta-J1939+2134-review.json": "1c53b24ff87dbfac53fd37fab77968e92c41afb9d0be469477a9e02f349f1c52",
+    "./results/research/pta-campaign01-20260908/inpta-J2124-3358-preparation.json": "dc76b9bcf8ed19cfccf01da1644fe43d79fbaa8791fc13e603bec4ae64d2664a",
+    "./results/research/pta-campaign01-20260908/inpta-J2124-3358-result.json": "b6117b2e1f22a2c1406800aa57b674608f2f2d20497e0b0b36ab169e464870a8",
+    "./results/research/pta-campaign01-20260908/inpta-execution-freeze.json": "ea0a55835cb7d767c00ab2570bb6e0fa8532ae25b5089408997cec9aee7223f3",
+    "./results/research/pta-campaign01-20260908/inpta-preparation.json": "5bc90b1bf5bf39cd2b8a5e4296c708948dc86624d28a5bf1f4bd6adcb2c64e0f",
+    "./results/research/pta-campaign01-20260908/inpta-selection.json": "f36f2908f9946659ef5ba7d1fac8d29ecdfdd1cc9d15347dca70ce6d01b69af6",
+    "./results/research/pta-campaign01-20260908/intake.json": "28b48ab387be77a10b90f2a8200681673f9f8ef48e12caec72cf201d9acbcdd2",
+    "./results/research/pta-campaign01-20260908/ppta-J0711-6830-preparation.json": "95c3f83f4018f2310d17d25d130a9c22be28ba0b0467a02784a1f84c913e62f9",
+    "./results/research/pta-campaign01-20260908/ppta-J0711-6830-result.json": "3b188cf861a8655f179574318b383aa10216d74ecfd42438d441190996294eea",
+    "./results/research/pta-campaign01-20260908/ppta-J1730-2304-preparation.json": "66d8652dcf4332ac45f78b33e741d17cf20cb8f0c114b2d9ecccc1ecdcd97c1e",
+    "./results/research/pta-campaign01-20260908/ppta-J1730-2304-result.json": "0430e53c326d41cf6c8c519e8c22fa3a45c44c2eb0ec36005f13f751441de996",
+    "./results/research/pta-campaign01-20260908/ppta-J1744-1134-preparation.json": "8451a4a45efd9b32e203e001de1b6721a573d0d37eb5178630ad1265eeb158c7",
+    "./results/research/pta-campaign01-20260908/ppta-J1744-1134-result.json": "899df2f89f63753176f37e47289e8cacac0c2f4924c1150fa5da5c39ae3201b5",
+    "./results/research/pta-campaign01-20260908/ppta-J1824-2452A-preparation.json": "60b66aeae40cf6b2903eb4c6a7089fda0908992b1295c899d54e35865e34293a",
+    "./results/research/pta-campaign01-20260908/ppta-J1824-2452A-result.json": "3755fe4909ba6e6de2a19522871e1dd71bf9fc3992c233eeb4c604d6d9c7e6af",
+    "./results/research/pta-campaign01-20260908/ppta-J1832-0836-preparation.json": "8271b31ef74d1e87be38301cff7ea8160a10a4a5418ef2f8440cedea17c0d780",
+    "./results/research/pta-campaign01-20260908/ppta-J1832-0836-result.json": "474a7286e5041455a6aff8e19c8f7aaceedbaefe31dea3d91c4470089130bd8e",
+    "./results/research/pta-campaign01-20260908/ppta-J1939+2134-preparation.json": "b63b39c7e3f041847c3a953a05caa9fd00e55ebf631ccf595aab359a1890a03a",
+    "./results/research/pta-campaign01-20260908/ppta-J1939+2134-result.json": "a485512a2b6b9f5754e563d93be92b486bda0581184ccb950697949a4245a844",
+    "./results/research/pta-campaign01-20260908/ppta-J2124-3358-preparation.json": "ceda72a006c49b07f465d83bec434c87c77cdf16fba2530558b9e792633841fb",
+    "./results/research/pta-campaign01-20260908/ppta-J2124-3358-result.json": "c6f3e7595e89a085cfbbda8aed8774f893699c5aa34cd910de6989a482df2cef",
+    "./results/research/pta-campaign01-20260908/ppta-execution-freeze.json": "0bbb0f62ddcda7fe90117472c607b3629fd236d27885baf1fe2b6a7317cf8186",
+    "./results/research/pta-campaign01-20260908/ppta-preparation.json": "e4efe4ae0319bcab58b7b59087575294507e9821ba135d96ec3110d61c407fb7",
+    "./results/research/pta-campaign01-20260908/ppta-selection.json": "c512b93316e25fa1a7560552780d8fb8326394ef1311c0156c41e21e142c13d2",
+    "./results/research/pta-campaign01-20260908/replacement-closeout.json": "72916c3d02bb381248cf867ff2fe23aa7f65e5bafe4bbb1578ed6ce0a0630764",
+    "./results/research/pta-campaign01-20260908/runner-progress-initial-failure.json": "270a8e1ba8818fff793b37934456692a299791eac37859d93aee8b1d22890186",
+    "./results/research/pta-campaign01-repair01-20260909/campaign-freeze.json": "72f8441f374295a692816372bfc7e7d1f2fa32112ddae75d5a471608f67672c7",
+    "./results/research/pta-campaign01-repair01-20260909/epta-J1730-2304-preparation.json": "3440d76a9b0cd118a3284c1f65e3f31029d202771ba68faa80b5a7a4f93cb7b9",
+    "./results/research/pta-campaign01-repair01-20260909/epta-J1730-2304-result.json": "db4491a6caf63c87d753451476057cc90408d4d568cc997040f15670985bef94",
+    "./results/research/pta-campaign01-repair01-20260909/epta-J1744-1134-preparation.json": "20507566ac0175026ff4e12a8428a262563f171f57f93061a8fccc3a75f5e094",
+    "./results/research/pta-campaign01-repair01-20260909/epta-J1744-1134-result.json": "3656624e9210cf9c5b837d26e5e329c991eb65d7dd3ff2e032e72b364634d68c",
+    "./results/research/pta-campaign01-repair01-20260909/epta-J1911+1347-preparation.json": "33fe4f547a12b6108a04466f702bf42585ce9df35f03756c14ac2128de472911",
+    "./results/research/pta-campaign01-repair01-20260909/epta-J1911+1347-result.json": "d0a76523233967cfbee371b98b3340ae0e8346113038343419e014245fbfdbfe",
+    "./results/research/pta-campaign01-repair01-20260909/epta-execution-freeze.json": "7ea331a51cc6e1814f6a9e15059784861cc197c31379d12b731d43bd7e2a22c1",
+    "./results/research/pta-campaign01-repair01-20260909/epta-preparation.json": "72cc9704432d8fba5a16d71d1b025ac30d59970081c25d9a15f86f479dca0270",
+    "./results/research/pta-campaign01-repair01-20260909/epta-selection.json": "08377cf49372b93e20c2e351abcdbdb0044908f2cb4ba7c2f16373e491e77998",
+    "./results/research/pta-campaign01-repair01-20260909/inpta-execution-freeze.json": "977221f037cd442b6a4819dad92a1b28e0d3b55354a22d86fa219e038a70aa63",
+    "./results/research/pta-campaign01-repair01-20260909/inpta-preparation.json": "d7ad2c2d00f744b48cbfbf9e8382dd1286b337bf1ab17df44152f5994c75cc7e",
+    "./results/research/pta-campaign01-repair01-20260909/inpta-selection.json": "3567604005b27ce138a7975915ec5cf1a637b6419ff882f1ea72d3b706a1b1a9",
+    "./results/research/pta-campaign01-repair01-20260909/intake.json": "874a3c198eca490c1ced96cde4638ee5495bf5b562a14069ca3ac8d67ef10bb9",
+    "./results/research/pta-campaign01-repair01-20260909/ppta-execution-freeze.json": "873a378b8effb7561d0883696634053c460f5884aaf7390f75ce01312062a855",
+    "./results/research/pta-campaign01-repair01-20260909/ppta-preparation.json": "a71a233125247ae6f0c554e987cc2cb874a537f88e0899fdef4097a004bdf55d",
+    "./results/research/pta-campaign01-repair01-20260909/ppta-selection.json": "9081b3ba3dc8ee5192043e745606163676915261335b2b584d8b17b9463aeb26",
+    "./results/research/pta-campaign01-repair01-20260909/replacement-closeout.json": "72916c3d02bb381248cf867ff2fe23aa7f65e5bafe4bbb1578ed6ce0a0630764"
+  },
+  "injection_count": 256,
+  "injection_period_tolerance_days": 30.0,
+  "local_period_days": [
+    400.0,
+    800.0,
+    0.5
+  ],
+  "method": "Fixed 16-member family, 30 Fourier frequencies k/T. Spectral weights normalized to total RMS; gamma 2/4 achromatic, gamma 2 nu^-2 dispersion and nu^-4 chromatic at 400 MHz. White standard deviations scaled by 1 or 0.5. All alternatives selected separately under null and sinusoid in every simulation.",
+  "null_count": 512,
+  "original_period_days": 567.405409397045,
+  "original_result_sha256": "f027268999ab65e90ef34988839c628f7eb823b0253365c6f4dd8d774a5bf1d7",
+  "ppta_result_sha256": "a485512a2b6b9f5754e563d93be92b486bda0581184ccb950697949a4245a844",
+  "receiver_boundary_mhz": 1000.0,
+  "scope": "Diagnostic search over original eligible grid union 400-800 d refinement. Preserve original threshold; no discovery p-value or planet posterior. All 157 observing days tested; actual receiver bands and overlapping PPTA data compared.",
+  "seed": 2026092401,
+  "source_arrays_sha256": "60b1cdf54c52c1ab49aa6798574537e1725983140b55a8607c0ff9da438867d8",
+  "target": "J1939+2134"
+}

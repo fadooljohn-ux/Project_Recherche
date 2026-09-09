@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "result_id": "pilot2-preflight-r1-result-v0.2.1",
+  "status": "failed_pending_deterministic_regrade",
+  "target": "B1937+21",
+  "source_summary": {
+    "logical_path": "run_records/pilot2/pilot2-preflight-20260809T124548Z-summary.json",
+    "bytes": 59471,
+    "sha256": "b007205c4751e9171c5ab04c54ce02ed7b5e48bc4ed2d219e1477db7542d8d6a"
+  },
+  "execution": {
+    "synthetic_cases_completed": 50,
+    "null_cases_completed": 20,
+    "injection_cases_completed": 30,
+    "full_covariance_audits_completed": 10,
+    "additional_download_bytes": 0,
+    "wall_seconds": 802.2364021250032,
+    "peak_memory_gib": 0.5507850646972656,
+    "complete_data_root_gib": 0.11526034586131573
+  },
+  "passing_subsystems": {
+    "archive_and_six_product_integrity": true,
+    "released_fit_reproduction": true,
+    "all_primary_and_full_covariance_solvers_completed": true,
+    "all_solver_numeric_comparisons_within_frozen_tolerances": true,
+    "projected_reference_calibration_under_six_hours": true,
+    "observed_residual_vector_unused_by_synthetic_scanner": true,
+    "observed_periodic_search_not_executed": true,
+    "threshold_calibration_not_executed": true
+  },
+  "grading_defects": [
+    {
+      "id": "wrong_application_error_field",
+      "detail": "The implementation gated on the uncentered residual-target diagnostic instead of the frozen TOA-adjustment application error used by v0.1.",
+      "maximum_frozen_toa_adjustment_error_microseconds": 0.000008941779302773512,
+      "frozen_limit_microseconds": 0.001,
+      "maximum_descriptive_residual_target_error_microseconds": 0.00159751302417336
+    },
+    {
+      "id": "missing_arecibo_clock_warning_disposition",
+      "detail": "The controlled time_ao.dat override warning is the Arecibo counterpart of the already-dispositioned time_gbt.dat override warning."
+    }
+  ],
+  "disposition": "deterministic_artifact_regrade_only_no_case_rerun"
+}

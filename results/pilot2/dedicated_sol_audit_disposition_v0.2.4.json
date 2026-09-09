@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "disposition_id": "pilot2-b1937-dedicated-sol-audit-disposition-v0.2.4",
+  "recorded_utc": "2026-08-10T10:19:08Z",
+  "target_commit": "96cc62470002b1328407f24c98c3e4d2a7e34eca",
+  "status": "hold",
+  "execution_readiness": "hold",
+  "science_execution_authorized": false,
+  "audit_report": {
+    "logical_path": "docs/audits/DEDICATED_SOL_AUDIT_PILOT2_v0.2.4_2026-08-10.md",
+    "sha256": "0ebaccb8d864531c5c3a4a6aa6b511c753aa3fb6432b8b6726b6dd7c898084de"
+  },
+  "primary_verification": {
+    "logical_path": "results/pilot2/dedicated_sol_audit_primary_verification_v0.2.4.json",
+    "sha256": "527e4256b1c8a630b29a087f01b2494e70ab6d022f6d3ddf4f4a1dd6fed43b4d"
+  },
+  "finding_counts": {
+    "P0": 0,
+    "P1": 3,
+    "P2": 0,
+    "P3": 0
+  },
+  "open_findings": [
+    "SOL-V024-001",
+    "SOL-V024-002",
+    "SOL-V024-003"
+  ],
+  "passing_controls": [
+    "explicit_readiness_semantic",
+    "ordinary_exception_terminalization",
+    "keyboard_interrupt_attempt_preservation",
+    "current_execution_lock",
+    "never_executed_inventory_reuse",
+    "outcome_free_health_record",
+    "observed_data_and_promotion_boundaries"
+  ],
+  "failed_controls": [
+    "power_loss_durable_attempt_journal",
+    "complete_recovered_artifact_validation",
+    "repository_confined_exact_frozen_hash_contract"
+  ],
+  "science_cases_executed_during_audit": 0,
+  "external_data_roots_accessed_during_audit": 0,
+  "execution_freeze_present": false,
+  "next_gate": "new_zero_science_remediation_version_then_freeze_and_later_independent_audit"
+}

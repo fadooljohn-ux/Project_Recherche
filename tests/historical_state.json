@@ -1,0 +1,10 @@
+{
+  "tests/test_pilot2_injection_runner_v022.py::test_execution_lock_precedes_predecessor_and_context_loading": "cc7ae9dde3a556e2481e227239b7c1fd5055df66",
+  "tests/test_pilot2_injection_runner_v022.py::test_zero_case_dry_run_executes_no_science": "cc7ae9dde3a556e2481e227239b7c1fd5055df66",
+  "tests/test_pilot2_injection_runner_v022.py::test_implementation_freeze_is_hash_bound_and_execution_locked": "cc7ae9dde3a556e2481e227239b7c1fd5055df66",
+  "tests/test_pilot2_injection_runner_v023.py::test_freezes_are_hash_bound_and_execution_remains_locked": "a3db08b3776e4a6a4d144b0a5b0cd9f62b44baea",
+  "tests/test_pilot2_injection_runner_v027.py::test_absent_execution_freeze_never_loads_predecessors_or_context": "5e993e138c409b92dcc326da988c8610e957c58f",
+  "tests/test_release.py::test_initial_v01_release_freeze_is_self_consistent": "9a045bd7217637aa9e3785636cffdc067cb1b74c",
+  "tests/test_freeze.py::test_freeze_record_hashes_and_config_snapshot": "6608085c683166399417e91f4064c819de8d93d3",
+  "tests/test_one_shot_search.py::test_one_shot_freeze_and_manifest_are_hash_bound": "6608085c683166399417e91f4064c819de8d93d3"
+}

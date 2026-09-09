@@ -1,0 +1,9 @@
+{
+  "recorded_utc": "2026-09-07T19:12:48.571653+00:00",
+  "archive": "../Recherche Recovery/20260907T223404/stage5-terminal-evidence.tar",
+  "archive_sha256": "2d4a1bfeeaff3a8e8547726df656e8ea3441ac7b8f2bbfdee4176f0cb630d068",
+  "file_count": 436,
+  "archive_bytes": 137021440,
+  "archived_file_set_and_contents_verified": true,
+  "source_after_hashes_verified": true
+}

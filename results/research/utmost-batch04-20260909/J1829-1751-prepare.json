@@ -1,0 +1,53 @@
+{
+  "adapter_sha256": "34a9d7d0ce05c3bf05b19e10c98cb5c5af3d2d30b8b904ca14afe3c304adf7aa",
+  "clock_policy": "Original Tempo2 binary-search interpolation replayed at bound TOAs and TZRMJD; unsorted source preserved",
+  "clock_replay_sha256": "ee2476f25d76dd03ca87fb2b47ad6f2a57cf5773b8de8393728472c92ac5d330",
+  "network_attempts": 0,
+  "noise_adequacy_flag": false,
+  "noise_limit": "Single band cannot separate dispersion/scattering from achromatic signals; fixed hyperparameters; no DM time-series inference",
+  "noise_model": "Released fixed total timing noise; EFAC outside EQUAD, optional Fourier red process",
+  "noise_parameters": {
+    "TNGLOBALEF": "1.08492",
+    "TNGLOBALEQ": "-6.68067",
+    "TNREDAMP": "-9.68135",
+    "TNREDC": "10",
+    "TNREDGAM": "5.78601"
+  },
+  "normalized_tim_sha256": "62600e4a440a0f1eebeb04057d5859082808c1a7b45b09b499bb681b54d15293",
+  "null_reduced_chi2": 0.8898418862045571,
+  "observed_search_executed": false,
+  "observed_sha256": "aae836a9ef2a41dfaffd6058b3b6bbd597c4e26b49f5802c45616c1357125aed",
+  "observing_days": 75,
+  "phase_arc_cycles": 0.06593064548880545,
+  "phase_connection": "RELEASED_PULSE_NUMBERS",
+  "policy": {
+    "detection_probability": 0.95,
+    "false_alarm_probability": 0.01,
+    "maximum_condition_number": 10000000000.0,
+    "maximum_period_days": 400.0,
+    "minimum_period_days": 30.0,
+    "minimum_retained_power": 0.2,
+    "null_count": 4096,
+    "oversampling": 5,
+    "search_count": 25,
+    "seed": 3333721772
+  },
+  "pulse_number_integer_spread": 0.0,
+  "runtime_units": "TDB",
+  "selection_sha256": "741c16fe45cdf388dba533caef7b3dc6ad51cb6f0053383fde05f321f559e5e4",
+  "shared_adapter_sha256": "fb54f8f9f06eaf5937009ca24860e5af5a4bd9d4e10ebfbf3c7b86eb44111b7a",
+  "source_units": "TCB",
+  "span_days": 1214.6343040298962,
+  "status": "PREPARED_CONDITIONAL",
+  "target": "J1829-1751",
+  "timing_names": [
+    "Offset",
+    "RAJ",
+    "DECJ",
+    "F0",
+    "F1",
+    "F2"
+  ],
+  "timing_rank": 6,
+  "toas": 79
+}

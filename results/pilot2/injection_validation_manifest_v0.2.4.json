@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "manifest_id": "pilot2-b1937-injection-validation-v0.2.4",
+  "recorded_utc": "2026-08-10T10:07:40Z",
+  "status": "pass",
+  "scope": "zero_science_implementation_and_recovery_validation",
+  "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+  "implementation_sha256": "e36f958626b46f57db23aae537dd320473f642333fae3b3e1fdf8e2edc5a11e0",
+  "format_and_lint": {
+    "command": "pixi run ruff format src/pulsar_pilot/pilot2_injection_runner_v024.py tests/test_pilot2_injection_runner_v024.py && pixi run ruff check src/pulsar_pilot/pilot2_injection_runner_v024.py tests/test_pilot2_injection_runner_v024.py",
+    "status": "pass"
+  },
+  "repository_test_run": {
+    "command": "PYTHONPATH=src pixi run python -m pytest -q --deselect tests/test_pilot2_injection_runner_v022.py::test_execution_lock_precedes_predecessor_and_context_loading --deselect tests/test_pilot2_injection_runner_v022.py::test_zero_case_dry_run_executes_no_science --deselect tests/test_pilot2_injection_runner_v022.py::test_implementation_freeze_is_hash_bound_and_execution_locked",
+    "passed": 212,
+    "failed": 0,
+    "deselected": 3,
+    "elapsed_seconds": 5.02,
+    "status": "pass"
+  },
+  "intentional_deselections": [
+    {
+      "test_id": "tests/test_pilot2_injection_runner_v022.py::test_execution_lock_precedes_predecessor_and_context_loading",
+      "reason": "historical v0.2.2 preauthorization-only assertion is invalid after the preserved v0.2.2 execution freeze was created"
+    },
+    {
+      "test_id": "tests/test_pilot2_injection_runner_v022.py::test_zero_case_dry_run_executes_no_science",
+      "reason": "historical v0.2.2 zero-case gate assumes execution remains locked after authorization"
+    },
+    {
+      "test_id": "tests/test_pilot2_injection_runner_v022.py::test_implementation_freeze_is_hash_bound_and_execution_locked",
+      "reason": "historical v0.2.2 assertion requires a locked gate although v0.2.2 was later explicitly authorized and terminally preserved"
+    }
+  ],
+  "v0.2.4_boundary_test_ids": [
+    "tests/test_pilot2_injection_runner_v024.py::test_v024_reuses_never_executed_v023_inventory_without_seed_churn",
+    "tests/test_pilot2_injection_runner_v024.py::test_readiness_semantic_must_explicitly_pass[None]",
+    "tests/test_pilot2_injection_runner_v024.py::test_readiness_semantic_must_explicitly_pass[fail]",
+    "tests/test_pilot2_injection_runner_v024.py::test_readiness_semantic_pass_is_accepted",
+    "tests/test_pilot2_injection_runner_v024.py::test_malformed_present_execution_freeze_stops_before_predecessor_loading",
+    "tests/test_pilot2_injection_runner_v024.py::test_execution_freeze_full_contract_is_required_and_hash_verified",
+    "tests/test_pilot2_injection_runner_v024.py::test_attempt_journal_precedes_execution_and_health_remains_outcome_free",
+    "tests/test_pilot2_injection_runner_v024.py::test_consumed_attempt_without_artifact_terminally_stops",
+    "tests/test_pilot2_injection_runner_v024.py::test_verified_attempt_artifact_is_adopted_without_recomputation",
+    "tests/test_pilot2_injection_runner_v024.py::test_recorded_attempt_is_reconciled_without_recomputation",
+    "tests/test_pilot2_injection_runner_v024.py::test_keyboard_interrupt_leaves_durable_consumed_attempt_for_recovery",
+    "tests/test_pilot2_injection_runner_v024.py::test_post_begin_failure_is_terminalized_by_execute",
+    "tests/test_pilot2_injection_runner_v024.py::test_absent_execution_freeze_never_loads_predecessors_or_context"
+  ],
+  "science_cases_executed": 0,
+  "random_draws_generated": 0,
+  "timing_model_fits_executed": 0,
+  "periodic_scans_executed": 0,
+  "external_predecessor_records_loaded": 0,
+  "observed_residual_vectors_loaded": 0,
+  "execution_authorized": false
+}

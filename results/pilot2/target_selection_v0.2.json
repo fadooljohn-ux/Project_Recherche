@@ -1,0 +1,2987 @@
+{
+  "all_candidates": [
+    {
+      "active_toa_count": 364,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/B1855+09.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/B1855+09_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/B1855+09_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/B1855+09.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/B1855+09_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/B1855+09_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 32.32148297236495,
+      "eligible": false,
+      "finish_mjd": 59051.164949352635,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": true,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.388,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.84,
+      "par_finish_mjd": 59051.164949352955,
+      "par_ntoa": 364,
+      "par_start_mjd": 53358.72747173431,
+      "psr": "B1855+09",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 5692.4374776186305,
+      "start_mjd": 53358.727471734004,
+      "unique_floor_mjd_days": 149
+    },
+    {
+      "active_toa_count": 660,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/B1937+21.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/B1937+21_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/B1937+21_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/B1937+21.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/B1937+21_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/B1937+21_PINT_20230131.wb.tim"
+      },
+      "binary_model": false,
+      "ecliptic_latitude_degrees": 42.29675207385422,
+      "eligible": true,
+      "finish_mjd": 59065.12904886163,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": true,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.008,
+      "observatories": [
+        "arecibo",
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.024,
+      "par_finish_mjd": 59065.12904886195,
+      "par_ntoa": 660,
+      "par_start_mjd": 53267.086004964054,
+      "psr": "B1937+21",
+      "released_red_noise": true,
+      "score": {
+        "active_toas": 0.09000000000000001,
+        "annual_geometry": 0.06459350414770845,
+        "isolated_timing_model": 0.05,
+        "no_released_red_noise": 0.0,
+        "precision": 0.35,
+        "span": 0.199698929830442,
+        "total": 0.9042924339781505,
+        "unique_days": 0.15
+      },
+      "span_days": 5798.043043897873,
+      "start_mjd": 53267.086004963756,
+      "unique_floor_mjd_days": 457
+    },
+    {
+      "active_toa_count": 173,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/B1953+29.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/B1953+29_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/B1953+29_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/B1953+29.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/B1953+29_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/B1953+29_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 48.684543381688975,
+      "eligible": false,
+      "finish_mjd": 59065.19785780301,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.699,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.733,
+      "par_finish_mjd": 59065.19785780333,
+      "par_ntoa": 173,
+      "par_start_mjd": 55760.22373796054,
+      "psr": "B1953+29",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 3304.974119842773,
+      "start_mjd": 55760.22373796024,
+      "unique_floor_mjd_days": 96
+    },
+    {
+      "active_toa_count": 822,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J0023+0923.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J0023+0923_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J0023+0923_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J0023+0923.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0023+0923_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J0023+0923_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 6.309108153915615,
+      "eligible": false,
+      "finish_mjd": 59051.41196360216,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": false,
+        "active_toa_maximum": false,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.4045,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.636,
+      "par_finish_mjd": 59051.41196360248,
+      "par_ntoa": 822,
+      "par_start_mjd": 55789.31526019382,
+      "psr": "J0023+0923",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 3262.09670340865,
+      "start_mjd": 55789.31526019351,
+      "unique_floor_mjd_days": 89
+    },
+    {
+      "active_toa_count": 724,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J0030+0451.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J0030+0451_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J0030+0451_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J0030+0451.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0030+0451_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J0030+0451_PINT_20230131.wb.tim"
+      },
+      "binary_model": false,
+      "ecliptic_latitude_degrees": 1.445698693931713,
+      "eligible": false,
+      "finish_mjd": 59067.371160787254,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": false,
+        "active_toa_maximum": false,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": true,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.39,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.647,
+      "par_finish_mjd": 59067.371160787574,
+      "par_ntoa": 724,
+      "par_start_mjd": 53394.85541091755,
+      "psr": "J0030+0451",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 5672.515749870006,
+      "start_mjd": 53394.85541091725,
+      "unique_floor_mjd_days": 299
+    },
+    {
+      "active_toa_count": 228,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J0340+4130.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J0340+4130_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J0340+4130_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J0340+4130.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0340+4130_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J0340+4130_PINT_20230131.wb.tim"
+      },
+      "binary_model": false,
+      "ecliptic_latitude_degrees": 21.334471605241173,
+      "eligible": false,
+      "finish_mjd": 58942.9304922058,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.8140000000000001,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.177,
+      "par_finish_mjd": 58942.93049220612,
+      "par_ntoa": 228,
+      "par_start_mjd": 55972.21903345733,
+      "psr": "J0340+4130",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 2970.7114587487886,
+      "start_mjd": 55972.21903345701,
+      "unique_floor_mjd_days": 198
+    },
+    {
+      "active_toa_count": 71,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J0406+3039.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J0406+3039_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J0406+3039_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J0406+3039.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0406+3039_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J0406+3039_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 9.601933312244203,
+      "eligible": false,
+      "finish_mjd": 59056.514722414926,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": false,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.27,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.212,
+      "par_finish_mjd": 59056.514722415246,
+      "par_ntoa": 71,
+      "par_start_mjd": 57755.05345376719,
+      "psr": "J0406+3039",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 1301.461268648054,
+      "start_mjd": 57755.05345376687,
+      "unique_floor_mjd_days": 39
+    },
+    {
+      "active_toa_count": 117,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J0437-4715.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J0437-4715_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J0437-4715_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J0437-4715.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0437-4715_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J0437-4715_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": -67.87322625283869,
+      "eligible": false,
+      "finish_mjd": 58957.926626541215,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.023,
+      "observatories": [
+        "vla"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.103,
+      "par_finish_mjd": 58957.92662654148,
+      "par_ntoa": 117,
+      "par_start_mjd": 57221.64792349632,
+      "psr": "J0437-4715",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 1736.2787030452018,
+      "start_mjd": 57221.64792349601,
+      "unique_floor_mjd_days": 35
+    },
+    {
+      "active_toa_count": 66,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J0509+0856.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J0509+0856_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J0509+0856_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J0509+0856.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0509+0856_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J0509+0856_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": -13.934572246295806,
+      "eligible": false,
+      "finish_mjd": 59056.55325932915,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.887,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 4.033,
+      "par_finish_mjd": 59056.55325932947,
+      "par_ntoa": 66,
+      "par_start_mjd": 57755.091865750364,
+      "psr": "J0509+0856",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 1301.4613935791058,
+      "start_mjd": 57755.091865750044,
+      "unique_floor_mjd_days": 38
+    },
+    {
+      "active_toa_count": 47,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J0557+1551.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J0557+1551_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J0557+1551_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J0557+1551.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0557+1551_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J0557+1551_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": -7.6029698033731,
+      "eligible": false,
+      "finish_mjd": 59056.57216366165,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": false,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 1.266,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.742,
+      "par_finish_mjd": 59056.57216366197,
+      "par_ntoa": 47,
+      "par_start_mjd": 57389.19349548052,
+      "psr": "J0557+1551",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 1667.3786681814527,
+      "start_mjd": 57389.1934954802,
+      "unique_floor_mjd_days": 43
+    },
+    {
+      "active_toa_count": 47,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J0605+3757.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J0605+3757_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J0605+3757_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J0605+3757.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0605+3757_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J0605+3757_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 14.525283620945096,
+      "eligible": false,
+      "finish_mjd": 58943.01611082237,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": false,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 2.052,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 3.526,
+      "par_finish_mjd": 58943.01611082269,
+      "par_ntoa": 47,
+      "par_start_mjd": 57713.28868715811,
+      "psr": "J0605+3757",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 1229.7274236645826,
+      "start_mjd": 57713.28868715779,
+      "unique_floor_mjd_days": 46
+    },
+    {
+      "active_toa_count": 214,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J0610-2100.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J0610-2100_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J0610-2100_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J0610-2100.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0610-2100_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J0610-2100_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": -44.41733797942173,
+      "eligible": false,
+      "finish_mjd": 58942.915528819045,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 1.406,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 2.775,
+      "par_finish_mjd": 58942.91552881937,
+      "par_ntoa": 214,
+      "par_start_mjd": 57713.31360037086,
+      "psr": "J0610-2100",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 1229.6019284485155,
+      "start_mjd": 57713.31360037053,
+      "unique_floor_mjd_days": 73
+    },
+    {
+      "active_toa_count": 423,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J0613-0200.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J0613-0200_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J0613-0200_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J0613-0200.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0613-0200_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J0613-0200_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": -25.407142918335666,
+      "eligible": true,
+      "finish_mjd": 58942.95095327497,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": true,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.188,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.671,
+      "par_finish_mjd": 58942.9509532753,
+      "par_ntoa": 423,
+      "par_start_mjd": 53448.79368108762,
+      "psr": "J0613-0200",
+      "released_red_noise": true,
+      "score": {
+        "active_toas": 0.03075,
+        "annual_geometry": 0.03081428583667133,
+        "isolated_timing_model": 0.0,
+        "no_released_red_noise": 0.0,
+        "precision": 0.3166896551724138,
+        "span": 0.15294727264425512,
+        "total": 0.6374012136533402,
+        "unique_days": 0.10619999999999999
+      },
+      "span_days": 5494.157272187658,
+      "start_mjd": 53448.793681087314,
+      "unique_floor_mjd_days": 327
+    },
+    {
+      "active_toa_count": 56,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J0614-3329.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J0614-3329_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J0614-3329_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J0614-3329.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0614-3329_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J0614-3329_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": -56.871119524642495,
+      "eligible": false,
+      "finish_mjd": 58942.88926516083,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.539,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.447,
+      "par_finish_mjd": 58942.88926516116,
+      "par_ntoa": 56,
+      "par_start_mjd": 58061.40976410813,
+      "psr": "J0614-3329",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 881.4795010530215,
+      "start_mjd": 58061.40976410781,
+      "unique_floor_mjd_days": 56
+    },
+    {
+      "active_toa_count": 1221,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J0636+5128.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J0636+5128_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J0636+5128_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J0636+5128.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0636+5128_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J0636+5128_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 28.24309835441109,
+      "eligible": false,
+      "finish_mjd": 58939.949155403236,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": false,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.798,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.955,
+      "par_finish_mjd": 58939.949155403556,
+      "par_ntoa": 1221,
+      "par_start_mjd": 56640.37308476006,
+      "psr": "J0636+5128",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 2299.5760706434885,
+      "start_mjd": 56640.37308475975,
+      "unique_floor_mjd_days": 141
+    },
+    {
+      "active_toa_count": 289,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J0645+5158.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J0645+5158_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J0645+5158_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J0645+5158.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0645+5158_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J0645+5158_PINT_20230131.wb.tim"
+      },
+      "binary_model": false,
+      "ecliptic_latitude_degrees": 28.852637726421282,
+      "eligible": false,
+      "finish_mjd": 58939.958252252734,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.448,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.298,
+      "par_finish_mjd": 58939.958252253055,
+      "par_ntoa": 289,
+      "par_start_mjd": 55704.04338958518,
+      "psr": "J0645+5158",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 3235.9148626678725,
+      "start_mjd": 55704.04338958486,
+      "unique_floor_mjd_days": 193
+    },
+    {
+      "active_toa_count": 91,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J0709+0458.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J0709+0458_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J0709+0458_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J0709+0458.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0709+0458_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J0709+0458_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": -17.380650005768988,
+      "eligible": false,
+      "finish_mjd": 59056.62788202837,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": false,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 2.17,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 7.631,
+      "par_finish_mjd": 59056.62788202869,
+      "par_ntoa": 91,
+      "par_start_mjd": 57389.21168539459,
+      "psr": "J0709+0458",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 1667.416196634098,
+      "start_mjd": 57389.21168539427,
+      "unique_floor_mjd_days": 52
+    },
+    {
+      "active_toa_count": 360,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J0740+6620.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J0740+6620_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J0740+6620_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J0740+6620.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0740+6620_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J0740+6620_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 44.10247869587473,
+      "eligible": false,
+      "finish_mjd": 58945.45763811548,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.454,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.366,
+      "par_finish_mjd": 58945.457638115804,
+      "par_ntoa": 360,
+      "par_start_mjd": 56640.38645297851,
+      "psr": "J0740+6620",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 2305.071185137276,
+      "start_mjd": 56640.3864529782,
+      "unique_floor_mjd_days": 226
+    },
+    {
+      "active_toa_count": 190,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J0931-1902.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J0931-1902_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J0931-1902_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J0931-1902.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0931-1902_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J0931-1902_PINT_20230131.wb.tim"
+      },
+      "binary_model": false,
+      "ecliptic_latitude_degrees": -31.776726093682825,
+      "eligible": false,
+      "finish_mjd": 58942.97108024228,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.9564999999999999,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 2.009,
+      "par_finish_mjd": 58942.9710802426,
+      "par_ntoa": 190,
+      "par_start_mjd": 56351.056300330325,
+      "psr": "J0931-1902",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 2591.9147799122657,
+      "start_mjd": 56351.05630033001,
+      "unique_floor_mjd_days": 165
+    },
+    {
+      "active_toa_count": 624,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1012+5307.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1012+5307_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1012+5307_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1012+5307.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1012+5307_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1012+5307_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 38.75530139144536,
+      "eligible": true,
+      "finish_mjd": 58939.97323078508,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": true,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.4435,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.391,
+      "par_finish_mjd": 58939.97323078541,
+      "par_ntoa": 624,
+      "par_start_mjd": 53267.35935335092,
+      "psr": "J1012+5307",
+      "released_red_noise": true,
+      "score": {
+        "active_toas": 0.08100000000000002,
+        "annual_geometry": 0.05751060278289072,
+        "isolated_timing_model": 0.0,
+        "no_released_red_noise": 0.0,
+        "precision": 0.25501724137931037,
+        "span": 0.18040213498991664,
+        "total": 0.6747299791521177,
+        "unique_days": 0.1008
+      },
+      "span_days": 5672.613877434458,
+      "start_mjd": 53267.35935335062,
+      "unique_floor_mjd_days": 318
+    },
+    {
+      "active_toa_count": 65,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1012-4235.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1012-4235_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1012-4235_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1012-4235.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1012-4235_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1012-4235_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": -48.910855786716596,
+      "eligible": false,
+      "finish_mjd": 58943.055915907324,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": false,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 1.63,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 2.483,
+      "par_finish_mjd": 58943.055915907644,
+      "par_ntoa": 65,
+      "par_start_mjd": 57714.506727624095,
+      "psr": "J1012-4235",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 1228.5491882835558,
+      "start_mjd": 57714.50672762377,
+      "unique_floor_mjd_days": 61
+    },
+    {
+      "active_toa_count": 116,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1022+1001.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1022+1001_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1022+1001_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1022+1001.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1022+1001_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1022+1001_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": -0.063912120230051,
+      "eligible": false,
+      "finish_mjd": 59055.74299115077,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": false,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.1965,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.797,
+      "par_finish_mjd": 59055.7429911511,
+      "par_ntoa": 116,
+      "par_start_mjd": 57028.29772367757,
+      "psr": "J1022+1001",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 2027.445267473522,
+      "start_mjd": 57028.29772367725,
+      "unique_floor_mjd_days": 59
+    },
+    {
+      "active_toa_count": 288,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1024-0719.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1024-0719_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1024-0719_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1024-0719.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1024-0719_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1024-0719_PINT_20230131.wb.tim"
+      },
+      "binary_model": false,
+      "ecliptic_latitude_degrees": -16.044762402780563,
+      "eligible": false,
+      "finish_mjd": 58942.02382812228,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.5325,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.833,
+      "par_finish_mjd": 58942.023828122605,
+      "par_ntoa": 288,
+      "par_start_mjd": 55118.587652836024,
+      "psr": "J1024-0719",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 3823.436175286559,
+      "start_mjd": 55118.58765283572,
+      "unique_floor_mjd_days": 238
+    },
+    {
+      "active_toa_count": 206,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1125+7819.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1125+7819_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1125+7819_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1125+7819.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1125+7819_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1125+7819_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 62.45204372598642,
+      "eligible": false,
+      "finish_mjd": 58939.928648876645,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.8065,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 2.188,
+      "par_finish_mjd": 58939.928648876965,
+      "par_ntoa": 206,
+      "par_start_mjd": 56640.398877379186,
+      "psr": "J1125+7819",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 2299.5297714977714,
+      "start_mjd": 56640.39887737887,
+      "unique_floor_mjd_days": 141
+    },
+    {
+      "active_toa_count": 76,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1312+0051.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1312+0051_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1312+0051_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1312+0051.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1312+0051_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1312+0051_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 7.920514051345309,
+      "eligible": false,
+      "finish_mjd": 59055.89121871695,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": false,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 1.012,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 2.104,
+      "par_finish_mjd": 59055.89121871727,
+      "par_ntoa": 76,
+      "par_start_mjd": 57389.43825242764,
+      "psr": "J1312+0051",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 1666.4529662896311,
+      "start_mjd": 57389.43825242732,
+      "unique_floor_mjd_days": 49
+    },
+    {
+      "active_toa_count": 122,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1453+1902.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1453+1902_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1453+1902_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1453+1902.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1453+1902_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1453+1902_PINT_20230131.wb.tim"
+      },
+      "binary_model": false,
+      "ecliptic_latitude_degrees": 33.90461026366275,
+      "eligible": false,
+      "finish_mjd": 59056.0003580219,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": false,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 2.5620000000000003,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 5.817,
+      "par_finish_mjd": 59056.00035802222,
+      "par_ntoa": 122,
+      "par_start_mjd": 56497.971633082954,
+      "psr": "J1453+1902",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 2558.028724939264,
+      "start_mjd": 56497.971633082634,
+      "unique_floor_mjd_days": 73
+    },
+    {
+      "active_toa_count": 357,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1455-3330.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1455-3330_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1455-3330_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1455-3330.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1455-3330_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1455-3330_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": -16.04479833061474,
+      "eligible": true,
+      "finish_mjd": 58940.275747593805,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": true,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 1.226,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 3.8,
+      "par_finish_mjd": 58940.27574759413,
+      "par_ntoa": 357,
+      "par_start_mjd": 53217.00894637788,
+      "psr": "J1455-3330",
+      "released_red_noise": true,
+      "score": {
+        "active_toas": 0.014249999999999999,
+        "annual_geometry": 0.01208959666122948,
+        "isolated_timing_model": 0.0,
+        "no_released_red_noise": 0.0,
+        "precision": 0.06613793103448276,
+        "span": 0.1881948924948027,
+        "total": 0.3664724201905149,
+        "unique_days": 0.08579999999999999
+      },
+      "span_days": 5723.266801216218,
+      "start_mjd": 53217.00894637759,
+      "unique_floor_mjd_days": 293
+    },
+    {
+      "active_toa_count": 481,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1600-3053.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1600-3053_PINT_20230202.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1600-3053_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1600-3053.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1600-3053_PINT_20230202.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1600-3053_PINT_20230224.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": -10.071843255740744,
+      "eligible": false,
+      "finish_mjd": 58956.46180150109,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": false,
+        "span_minimum": true,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.227,
+      "observatories": [
+        "gbt",
+        "vla"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.427,
+      "par_finish_mjd": 58956.461801501355,
+      "par_ntoa": 481,
+      "par_start_mjd": 54400.66020153591,
+      "psr": "J1600-3053",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 4555.801599965489,
+      "start_mjd": 54400.660201535604,
+      "unique_floor_mjd_days": 316
+    },
+    {
+      "active_toa_count": 367,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1614-2230.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1614-2230_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1614-2230_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1614-2230.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1614-2230_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1614-2230_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": -1.256822820747993,
+      "eligible": false,
+      "finish_mjd": 58940.29447551845,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": false,
+        "active_toa_maximum": true,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.271,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.438,
+      "par_finish_mjd": 58940.29447551877,
+      "par_ntoa": 367,
+      "par_start_mjd": 54724.87388939017,
+      "psr": "J1614-2230",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 4215.420586128588,
+      "start_mjd": 54724.87388938986,
+      "unique_floor_mjd_days": 267
+    },
+    {
+      "active_toa_count": 71,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1630+3734.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1630+3734_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1630+3734_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1630+3734.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1630+3734_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1630+3734_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 58.33052268001814,
+      "eligible": false,
+      "finish_mjd": 58945.47580745814,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.799,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.497,
+      "par_finish_mjd": 58945.47580745846,
+      "par_ntoa": 71,
+      "par_start_mjd": 57681.827532103234,
+      "psr": "J1630+3734",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 1263.6482753552336,
+      "start_mjd": 57681.82753210291,
+      "unique_floor_mjd_days": 67
+    },
+    {
+      "active_toa_count": 609,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1640+2224.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1640+2224_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1640+2224_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1640+2224.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1640+2224_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1640+2224_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 44.05850969731294,
+      "eligible": true,
+      "finish_mjd": 59070.96776202837,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": true,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.138,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.513,
+      "par_finish_mjd": 59070.9677620287,
+      "par_ntoa": 609,
+      "par_start_mjd": 53420.41786105508,
+      "psr": "J1640+2224",
+      "released_red_noise": true,
+      "score": {
+        "active_toas": 0.07725,
+        "annual_geometry": 0.06811701939462589,
+        "isolated_timing_model": 0.0,
+        "no_released_red_noise": 0.0,
+        "precision": 0.3287586206896552,
+        "span": 0.17700767707286175,
+        "total": 0.7351333171571429,
+        "unique_days": 0.084
+      },
+      "span_days": 5650.549900973601,
+      "start_mjd": 53420.41786105477,
+      "unique_floor_mjd_days": 290
+    },
+    {
+      "active_toa_count": 478,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1643-1224.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1643-1224_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1643-1224_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1643-1224.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1643-1224_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1643-1224_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 9.778333911846632,
+      "eligible": false,
+      "finish_mjd": 58956.49899058999,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": false,
+        "active_toa_maximum": true,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": true,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.313,
+      "observatories": [
+        "gbt",
+        "vla"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.829,
+      "par_finish_mjd": 58956.49899059026,
+      "par_ntoa": 478,
+      "par_start_mjd": 53217.09911765756,
+      "psr": "J1643-1224",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 5739.399872932721,
+      "start_mjd": 53217.09911765727,
+      "unique_floor_mjd_days": 326
+    },
+    {
+      "active_toa_count": 253,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1705-1903.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1705-1903_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1705-1903_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1705-1903.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1705-1903_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1705-1903_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 3.775144927236122,
+      "eligible": false,
+      "finish_mjd": 58939.38157662394,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": false,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.476,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.195,
+      "par_finish_mjd": 58939.38157662426,
+      "par_ntoa": 253,
+      "par_start_mjd": 57579.178496630135,
+      "psr": "J1705-1903",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 1360.203079994135,
+      "start_mjd": 57579.17849662981,
+      "unique_floor_mjd_days": 65
+    },
+    {
+      "active_toa_count": 1493,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1713+0747.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1713+0747_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1713+0747_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1713+0747.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1713+0747_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1713+0747_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 30.70035828649821,
+      "eligible": false,
+      "finish_mjd": 59071.004688884794,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": false,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": false,
+        "span_minimum": true,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.041,
+      "observatories": [
+        "arecibo",
+        "gbt",
+        "vla"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.217,
+      "par_finish_mjd": 59071.00468888512,
+      "par_ntoa": 1493,
+      "par_start_mjd": 53393.56138389738,
+      "psr": "J1713+0747",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 5677.443304987719,
+      "start_mjd": 53393.561383897075,
+      "unique_floor_mjd_days": 844
+    },
+    {
+      "active_toa_count": 463,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1719-1438.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1719-1438_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1719-1438_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1719-1438.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1719-1438_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1719-1438_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 8.452613115631724,
+      "eligible": false,
+      "finish_mjd": 58940.40089520925,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": false,
+        "active_toa_maximum": true,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": false,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 3.187,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 5.454,
+      "par_finish_mjd": 58940.400895209576,
+      "par_ntoa": 463,
+      "par_start_mjd": 57682.852762043556,
+      "psr": "J1719-1438",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 1257.5481331660194,
+      "start_mjd": 57682.85276204323,
+      "unique_floor_mjd_days": 71
+    },
+    {
+      "active_toa_count": 93,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1730-2304.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1730-2304_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1730-2304_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1730-2304.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1730-2304_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1730-2304_PINT_20230131.wb.tim"
+      },
+      "binary_model": false,
+      "ecliptic_latitude_degrees": 0.188855713965353,
+      "eligible": false,
+      "finish_mjd": 58940.413446054976,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": false,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.344,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.63,
+      "par_finish_mjd": 58940.413446055296,
+      "par_ntoa": 93,
+      "par_start_mjd": 57682.879924586676,
+      "psr": "J1730-2304",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 1257.5335214686274,
+      "start_mjd": 57682.87992458635,
+      "unique_floor_mjd_days": 72
+    },
+    {
+      "active_toa_count": 336,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1738+0333.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1738+0333_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1738+0333_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1738+0333.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1738+0333_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1738+0333_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 26.884240804507197,
+      "eligible": false,
+      "finish_mjd": 59056.057164122816,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.4765,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.672,
+      "par_finish_mjd": 59056.057164123136,
+      "par_ntoa": 336,
+      "par_start_mjd": 55135.803962921906,
+      "psr": "J1738+0333",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 3920.253201201216,
+      "start_mjd": 55135.8039629216,
+      "unique_floor_mjd_days": 104
+    },
+    {
+      "active_toa_count": 208,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1741+1351.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1741+1351_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1741+1351_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1741+1351.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1741+1351_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1741+1351_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 37.21119159678574,
+      "eligible": false,
+      "finish_mjd": 59065.029949277,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.206,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.554,
+      "par_finish_mjd": 59065.02994927732,
+      "par_ntoa": 208,
+      "par_start_mjd": 55759.101785492916,
+      "psr": "J1741+1351",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 3305.928163784396,
+      "start_mjd": 55759.1017854926,
+      "unique_floor_mjd_days": 106
+    },
+    {
+      "active_toa_count": 433,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1744-1134.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1744-1134_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1744-1134_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1744-1134.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1744-1134_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1744-1134_PINT_20230131.wb.tim"
+      },
+      "binary_model": false,
+      "ecliptic_latitude_degrees": 11.80519591543349,
+      "eligible": false,
+      "finish_mjd": 58940.43190038184,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": false,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": true,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.113,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.495,
+      "par_finish_mjd": 58940.43190038216,
+      "par_ntoa": 433,
+      "par_start_mjd": 53216.126692725295,
+      "psr": "J1744-1134",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 5724.305207656842,
+      "start_mjd": 53216.126692724996,
+      "unique_floor_mjd_days": 316
+    },
+    {
+      "active_toa_count": 91,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1745+1017.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1745+1017_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1745+1017_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1745+1017.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1745+1017_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1745+1017_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 33.683724801733,
+      "eligible": false,
+      "finish_mjd": 59051.09926589099,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.378,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.188,
+      "par_finish_mjd": 59051.09926589132,
+      "par_ntoa": 91,
+      "par_start_mjd": 57390.60229951304,
+      "psr": "J1745+1017",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 1660.4969663782613,
+      "start_mjd": 57390.60229951273,
+      "unique_floor_mjd_days": 50
+    },
+    {
+      "active_toa_count": 222,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1747-4036.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1747-4036_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1747-4036_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1747-4036.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1747-4036_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1747-4036_PINT_20230131.wb.tim"
+      },
+      "binary_model": false,
+      "ecliptic_latitude_degrees": -17.20154145207781,
+      "eligible": false,
+      "finish_mjd": 58942.494817997336,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.7335,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.135,
+      "par_finish_mjd": 58942.49481799766,
+      "par_ntoa": 222,
+      "par_start_mjd": 55976.55069052004,
+      "psr": "J1747-4036",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 2965.944127477618,
+      "start_mjd": 55976.55069051972,
+      "unique_floor_mjd_days": 183
+    },
+    {
+      "active_toa_count": 89,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1751-2857.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1751-2857_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1751-2857_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1751-2857.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1751-2857_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1751-2857_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": -5.537285002884206,
+      "eligible": false,
+      "finish_mjd": 58945.51647789116,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": false,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 1.373,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 3.738,
+      "par_finish_mjd": 58945.51647789148,
+      "par_ntoa": 89,
+      "par_start_mjd": 57682.89998290999,
+      "psr": "J1751-2857",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 1262.6164949814847,
+      "start_mjd": 57682.89998290967,
+      "unique_floor_mjd_days": 76
+    },
+    {
+      "active_toa_count": 126,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1802-2124.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1802-2124_PINT_20230209.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1802-2124_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1802-2124.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1802-2124_PINT_20230209.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1802-2124_PINT_20230224.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 2.037375574314533,
+      "eligible": false,
+      "finish_mjd": 58945.54036185149,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": false,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": false,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.8634999999999999,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.233,
+      "par_finish_mjd": 58945.54036185181,
+      "par_ntoa": 126,
+      "par_start_mjd": 57682.916425498894,
+      "psr": "J1802-2124",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 1262.6239363529166,
+      "start_mjd": 57682.91642549857,
+      "unique_floor_mjd_days": 70
+    },
+    {
+      "active_toa_count": 103,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1811-2405.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1811-2405_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1811-2405_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1811-2405.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1811-2405_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1811-2405_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": -0.674597364425741,
+      "eligible": false,
+      "finish_mjd": 58945.55608810912,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": false,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.314,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.566,
+      "par_finish_mjd": 58945.55608810944,
+      "par_ntoa": 103,
+      "par_start_mjd": 57682.940728025336,
+      "psr": "J1811-2405",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 1262.6153600841135,
+      "start_mjd": 57682.94072802501,
+      "unique_floor_mjd_days": 76
+    },
+    {
+      "active_toa_count": 207,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1832-0836.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1832-0836_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1832-0836_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1832-0836.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1832-0836_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1832-0836_PINT_20230131.wb.tim"
+      },
+      "binary_model": false,
+      "ecliptic_latitude_degrees": 14.590707381655752,
+      "eligible": false,
+      "finish_mjd": 58945.596901835466,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.408,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.729,
+      "par_finish_mjd": 58945.596901835794,
+      "par_ntoa": 207,
+      "par_start_mjd": 56354.49590544824,
+      "psr": "J1832-0836",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 2591.1009963875476,
+      "start_mjd": 56354.49590544792,
+      "unique_floor_mjd_days": 172
+    },
+    {
+      "active_toa_count": 103,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1843-1113.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1843-1113_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1843-1113_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1843-1113.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1843-1113_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1843-1113_PINT_20230131.wb.tim"
+      },
+      "binary_model": false,
+      "ecliptic_latitude_degrees": 11.799986167970637,
+      "eligible": false,
+      "finish_mjd": 58945.576347990354,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.399,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.768,
+      "par_finish_mjd": 58945.576347990675,
+      "par_ntoa": 103,
+      "par_start_mjd": 57682.96079450376,
+      "psr": "J1843-1113",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 1262.615553486925,
+      "start_mjd": 57682.96079450343,
+      "unique_floor_mjd_days": 79
+    },
+    {
+      "active_toa_count": 184,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1853+1303.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1853+1303_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1853+1303_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1853+1303.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1853+1303_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1853+1303_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 35.74334920487296,
+      "eligible": false,
+      "finish_mjd": 59051.133407355715,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.5674999999999999,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.22,
+      "par_finish_mjd": 59051.133407356036,
+      "par_ntoa": 184,
+      "par_start_mjd": 55758.11075359536,
+      "psr": "J1853+1303",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 3293.0226537606577,
+      "start_mjd": 55758.11075359506,
+      "unique_floor_mjd_days": 98
+    },
+    {
+      "active_toa_count": 226,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1903+0327.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1903+0327_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1903+0327_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1903+0327.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1903+0327_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1903+0327_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 25.93798156004758,
+      "eligible": false,
+      "finish_mjd": 59056.142789216945,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.3755,
+      "observatories": [
+        "arecibo",
+        "vla"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.06,
+      "par_finish_mjd": 59056.14278921727,
+      "par_ntoa": 226,
+      "par_start_mjd": 55135.87782745724,
+      "psr": "J1903+0327",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 3920.264961760011,
+      "start_mjd": 55135.877827456934,
+      "unique_floor_mjd_days": 120
+    },
+    {
+      "active_toa_count": 833,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1909-3744.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1909-3744_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1909-3744_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1909-3744.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1909-3744_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1909-3744_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": -15.155533967862029,
+      "eligible": false,
+      "finish_mjd": 59007.355984823196,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": false,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": true,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.051,
+      "observatories": [
+        "gbt",
+        "vla"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.206,
+      "par_finish_mjd": 59007.355984823465,
+      "par_ntoa": 833,
+      "par_start_mjd": 53292.01653200509,
+      "psr": "J1909-3744",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 5715.3394528184,
+      "start_mjd": 53292.016532004796,
+      "unique_floor_mjd_days": 569
+    },
+    {
+      "active_toa_count": 216,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1910+1256.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1910+1256_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1910+1256_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1910+1256.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1910+1256_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1910+1256_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 35.107217301075664,
+      "eligible": false,
+      "finish_mjd": 59056.1093331336,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.304,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.887,
+      "par_finish_mjd": 59056.10933313392,
+      "par_ntoa": 216,
+      "par_start_mjd": 54882.60231874144,
+      "psr": "J1910+1256",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 4173.507014392468,
+      "start_mjd": 54882.602318741134,
+      "unique_floor_mjd_days": 115
+    },
+    {
+      "active_toa_count": 126,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1911+1347.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1911+1347_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1911+1347_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1911+1347.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1911+1347_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1911+1347_PINT_20230131.wb.tim"
+      },
+      "binary_model": false,
+      "ecliptic_latitude_degrees": 35.886429517975934,
+      "eligible": false,
+      "finish_mjd": 59051.19743728168,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.1775,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 2.289,
+      "par_finish_mjd": 59051.197437282,
+      "par_ntoa": 126,
+      "par_start_mjd": 56498.160053075975,
+      "psr": "J1911+1347",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 2553.0373842060217,
+      "start_mjd": 56498.160053075655,
+      "unique_floor_mjd_days": 70
+    },
+    {
+      "active_toa_count": 487,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1918-0642.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1918-0642_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1918-0642_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1918-0642.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1918-0642_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1918-0642_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 15.351058838897025,
+      "eligible": true,
+      "finish_mjd": 58945.617010870206,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": true,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.383,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.08,
+      "par_finish_mjd": 58945.617010870534,
+      "par_ntoa": 487,
+      "par_start_mjd": 53292.06202165267,
+      "psr": "J1918-0642",
+      "released_red_noise": true,
+      "score": {
+        "active_toas": 0.04675000000000001,
+        "annual_geometry": 0.01070211767779405,
+        "isolated_timing_model": 0.0,
+        "no_released_red_noise": 0.0,
+        "precision": 0.2696206896551724,
+        "span": 0.17746999834120486,
+        "total": 0.6083428056741712,
+        "unique_days": 0.10379999999999999
+      },
+      "span_days": 5653.5549892178315,
+      "start_mjd": 53292.062021652375,
+      "unique_floor_mjd_days": 323
+    },
+    {
+      "active_toa_count": 170,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1923+2515.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1923+2515_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1923+2515_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1923+2515.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1923+2515_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1923+2515_PINT_20230131.wb.tim"
+      },
+      "binary_model": false,
+      "ecliptic_latitude_degrees": 46.69619337462994,
+      "eligible": false,
+      "finish_mjd": 59065.10677531325,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.5055000000000001,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.04,
+      "par_finish_mjd": 59065.10677531357,
+      "par_ntoa": 170,
+      "par_start_mjd": 55791.09518197762,
+      "psr": "J1923+2515",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 3274.0115933359484,
+      "start_mjd": 55791.0951819773,
+      "unique_floor_mjd_days": 92
+    },
+    {
+      "active_toa_count": 180,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1944+0907.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1944+0907_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1944+0907_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1944+0907.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1944+0907_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1944+0907_PINT_20230131.wb.tim"
+      },
+      "binary_model": false,
+      "ecliptic_latitude_degrees": 29.89100338571765,
+      "eligible": false,
+      "finish_mjd": 59056.1759321808,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.569,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.11,
+      "par_finish_mjd": 59056.17593218112,
+      "par_ntoa": 180,
+      "par_start_mjd": 55760.17924070445,
+      "psr": "J1944+0907",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 3295.996691476663,
+      "start_mjd": 55760.179240704136,
+      "unique_floor_mjd_days": 98
+    },
+    {
+      "active_toa_count": 129,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1946+3417.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J1946+3417_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J1946+3417_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J1946+3417.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1946+3417_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1946+3417_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 54.16557450553026,
+      "eligible": false,
+      "finish_mjd": 59065.16256393832,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.295,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.132,
+      "par_finish_mjd": 59065.16256393864,
+      "par_ntoa": 129,
+      "par_start_mjd": 56970.8724887587,
+      "psr": "J1946+3417",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 2094.290075179939,
+      "start_mjd": 56970.87248875838,
+      "unique_floor_mjd_days": 71
+    },
+    {
+      "active_toa_count": 350,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J2010-1323.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J2010-1323_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J2010-1323_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J2010-1323.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2010-1323_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J2010-1323_PINT_20230131.wb.tim"
+      },
+      "binary_model": false,
+      "ecliptic_latitude_degrees": 6.490943255476702,
+      "eligible": false,
+      "finish_mjd": 58942.534785244156,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": false,
+        "active_toa_maximum": true,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.339,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.645,
+      "par_finish_mjd": 58942.534785244476,
+      "par_ntoa": 350,
+      "par_start_mjd": 55094.89072875849,
+      "psr": "J2010-1323",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 3847.644056485973,
+      "start_mjd": 55094.89072875818,
+      "unique_floor_mjd_days": 241
+    },
+    {
+      "active_toa_count": 154,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J2017+0603.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J2017+0603_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J2017+0603_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J2017+0603.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2017+0603_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J2017+0603_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 25.04449416082981,
+      "eligible": false,
+      "finish_mjd": 59030.30186136304,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.3155,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.84,
+      "par_finish_mjd": 59030.30186136337,
+      "par_ntoa": 154,
+      "par_start_mjd": 55989.62046301618,
+      "psr": "J2017+0603",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 3040.681398347173,
+      "start_mjd": 55989.62046301587,
+      "unique_floor_mjd_days": 95
+    },
+    {
+      "active_toa_count": 133,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J2033+1734.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J2033+1734_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J2033+1734_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J2033+1734.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2033+1734_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J2033+1734_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 35.06284371749118,
+      "eligible": false,
+      "finish_mjd": 59056.21055279557,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.557,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.904,
+      "par_finish_mjd": 59056.21055279589,
+      "par_ntoa": 133,
+      "par_start_mjd": 56510.19856927831,
+      "psr": "J2033+1734",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 2546.011983517579,
+      "start_mjd": 56510.19856927799,
+      "unique_floor_mjd_days": 70
+    },
+    {
+      "active_toa_count": 459,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J2043+1711.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J2043+1711_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J2043+1711_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J2043+1711.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2043+1711_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J2043+1711_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 33.96431759860107,
+      "eligible": false,
+      "finish_mjd": 59066.200470327545,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.21,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.467,
+      "par_finish_mjd": 59066.200470327865,
+      "par_ntoa": 459,
+      "par_start_mjd": 55760.26158688519,
+      "psr": "J2043+1711",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 3305.9388834426645,
+      "start_mjd": 55760.26158688488,
+      "unique_floor_mjd_days": 225
+    },
+    {
+      "active_toa_count": 104,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J2124-3358.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J2124-3358_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J2124-3358_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J2124-3358.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2124-3358_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J2124-3358_PINT_20230131.wb.tim"
+      },
+      "binary_model": false,
+      "ecliptic_latitude_degrees": -17.81891685972221,
+      "eligible": false,
+      "finish_mjd": 58945.657540866596,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.757,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.572,
+      "par_finish_mjd": 58945.657540866916,
+      "par_ntoa": 104,
+      "par_start_mjd": 57681.060877755095,
+      "psr": "J2124-3358",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 1264.596663111828,
+      "start_mjd": 57681.06087775477,
+      "unique_floor_mjd_days": 75
+    },
+    {
+      "active_toa_count": 400,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J2145-0750.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J2145-0750_PINT_20230222.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J2145-0750_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J2145-0750.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2145-0750_PINT_20230222.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J2145-0750_PINT_20230224.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 5.313051694206043,
+      "eligible": false,
+      "finish_mjd": 58942.554852580324,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": false,
+        "active_toa_maximum": true,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": false,
+        "span_minimum": true,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.245,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.923,
+      "par_finish_mjd": 58942.55485258065,
+      "par_ntoa": 400,
+      "par_start_mjd": 53267.183254179865,
+      "psr": "J2145-0750",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 5675.37159840075,
+      "start_mjd": 53267.183254179574,
+      "unique_floor_mjd_days": 285
+    },
+    {
+      "active_toa_count": 293,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J2214+3000.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J2214+3000_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J2214+3000_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J2214+3000.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2214+3000_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J2214+3000_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 37.71314255863423,
+      "eligible": false,
+      "finish_mjd": 59065.27343022741,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.752,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 3.088,
+      "par_finish_mjd": 59065.27343022773,
+      "par_ntoa": 293,
+      "par_start_mjd": 55912.848111673564,
+      "psr": "J2214+3000",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 3152.425318554153,
+      "start_mjd": 55912.84811167326,
+      "unique_floor_mjd_days": 103
+    },
+    {
+      "active_toa_count": 151,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J2229+2643.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J2229+2643_PINT_20230223.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J2229+2643_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J2229+2643.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2229+2643_PINT_20230223.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J2229+2643_PINT_20230224.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 33.29017174734533,
+      "eligible": false,
+      "finish_mjd": 59065.30524610086,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": false,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.51,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.605,
+      "par_finish_mjd": 59065.30524610118,
+      "par_ntoa": 151,
+      "par_start_mjd": 56498.241925429684,
+      "psr": "J2229+2643",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 2567.0633206714992,
+      "start_mjd": 56498.24192542936,
+      "unique_floor_mjd_days": 77
+    },
+    {
+      "active_toa_count": 133,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J2234+0611.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J2234+0611_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J2234+0611_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J2234+0611.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2234+0611_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J2234+0611_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 14.079433061208105,
+      "eligible": false,
+      "finish_mjd": 59056.27849042653,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.429,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.712,
+      "par_finish_mjd": 59056.278490426856,
+      "par_ntoa": 133,
+      "par_start_mjd": 56668.80531900519,
+      "psr": "J2234+0611",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 2387.4731714216614,
+      "start_mjd": 56668.80531900487,
+      "unique_floor_mjd_days": 66
+    },
+    {
+      "active_toa_count": 245,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J2234+0944.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J2234+0944_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J2234+0944_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J2234+0944.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2234+0944_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J2234+0944_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 17.318568135690004,
+      "eligible": false,
+      "finish_mjd": 59051.32770826882,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.335,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.403,
+      "par_finish_mjd": 59051.32770826914,
+      "par_ntoa": 245,
+      "par_start_mjd": 56458.3834631867,
+      "psr": "J2234+0944",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 2592.9442450824426,
+      "start_mjd": 56458.38346318638,
+      "unique_floor_mjd_days": 76
+    },
+    {
+      "active_toa_count": 236,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J2302+4442.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J2302+4442_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J2302+4442_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J2302+4442.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2302+4442_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J2302+4442_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 45.665432034507006,
+      "eligible": false,
+      "finish_mjd": 58942.868268960294,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.899,
+      "observatories": [
+        "gbt"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.571,
+      "par_finish_mjd": 58942.86826896062,
+      "par_ntoa": 236,
+      "par_start_mjd": 55972.0618071211,
+      "psr": "J2302+4442",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 2970.8064618395147,
+      "start_mjd": 55972.06180712078,
+      "unique_floor_mjd_days": 193
+    },
+    {
+      "active_toa_count": 708,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J2317+1439.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J2317+1439_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J2317+1439_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J2317+1439.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2317+1439_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J2317+1439_PINT_20230131.wb.tim"
+      },
+      "binary_model": true,
+      "ecliptic_latitude_degrees": 17.680234085277593,
+      "eligible": false,
+      "finish_mjd": 59070.32654212183,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": false,
+        "active_toa_minimum": true,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": true,
+        "unique_days_minimum": true
+      },
+      "median_toa_uncertainty_microseconds": 0.206,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 0.583,
+      "par_finish_mjd": 59070.32654212215,
+      "par_ntoa": 708,
+      "par_start_mjd": 53355.88800512891,
+      "psr": "J2317+1439",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 5714.438536993228,
+      "start_mjd": 53355.8880051286,
+      "unique_floor_mjd_days": 313
+    },
+    {
+      "active_toa_count": 130,
+      "archive_members": {
+        "config": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J2322+2057.wb.yaml",
+        "correlation": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/J2322+2057_PINT_20230131.wb.correlation.txt",
+        "dmx": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/J2322+2057_dmxparse.wb.out",
+        "noise": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/J2322+2057.wb.pars.txt",
+        "par": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2322+2057_PINT_20230131.wb.par",
+        "tim": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J2322+2057_PINT_20230131.wb.tim"
+      },
+      "binary_model": false,
+      "ecliptic_latitude_degrees": 22.87836366712445,
+      "eligible": false,
+      "finish_mjd": 59065.34478473428,
+      "hard_gates": {
+        "absolute_ecliptic_latitude_minimum": true,
+        "active_toa_maximum": true,
+        "active_toa_minimum": false,
+        "median_uncertainty_maximum": true,
+        "not_prior_target": true,
+        "par_ntoa_matches": true,
+        "required_companion_products": true,
+        "span_minimum": false,
+        "unique_days_minimum": false
+      },
+      "median_toa_uncertainty_microseconds": 0.6655,
+      "observatories": [
+        "arecibo"
+      ],
+      "p90_toa_uncertainty_microseconds": 1.591,
+      "par_finish_mjd": 59065.3447847346,
+      "par_ntoa": 130,
+      "par_start_mjd": 57095.6830342163,
+      "psr": "J2322+2057",
+      "released_red_noise": true,
+      "score": null,
+      "span_days": 1969.6617505183021,
+      "start_mjd": 57095.68303421598,
+      "unique_floor_mjd_days": 60
+    }
+  ],
+  "archive": {
+    "bytes": 638719668,
+    "logical_path": "raw/zenodo-16051178/NANOGrav15yr_PulsarTiming_v2.1.0.tar.gz",
+    "member_root": "NANOGrav15yr_PulsarTiming_v2.1.0",
+    "sha256": "91476bf20d4c8baa9f5ad39c6e114b581478a5a7e269876489cafc8f62c5708f"
+  },
+  "authority_boundary": {
+    "manual_override_authorized": false,
+    "observed_periodic_search_authorized": false,
+    "observed_residual_access_authorized": false,
+    "selection_authorizes_extraction_or_calibration": false
+  },
+  "candidate_count": 68,
+  "eligible_count": 6,
+  "eligible_ranking": [
+    {
+      "absolute_ecliptic_latitude_degrees": 42.29675207385422,
+      "active_toa_count": 660,
+      "binary_model": false,
+      "median_toa_uncertainty_microseconds": 0.008,
+      "psr": "B1937+21",
+      "rank": 1,
+      "released_red_noise": true,
+      "score": {
+        "active_toas": 0.09000000000000001,
+        "annual_geometry": 0.06459350414770845,
+        "isolated_timing_model": 0.05,
+        "no_released_red_noise": 0.0,
+        "precision": 0.35,
+        "span": 0.199698929830442,
+        "total": 0.9042924339781505,
+        "unique_days": 0.15
+      },
+      "span_days": 5798.043043897873,
+      "unique_floor_mjd_days": 457
+    },
+    {
+      "absolute_ecliptic_latitude_degrees": 44.05850969731294,
+      "active_toa_count": 609,
+      "binary_model": true,
+      "median_toa_uncertainty_microseconds": 0.138,
+      "psr": "J1640+2224",
+      "rank": 2,
+      "released_red_noise": true,
+      "score": {
+        "active_toas": 0.07725,
+        "annual_geometry": 0.06811701939462589,
+        "isolated_timing_model": 0.0,
+        "no_released_red_noise": 0.0,
+        "precision": 0.3287586206896552,
+        "span": 0.17700767707286175,
+        "total": 0.7351333171571429,
+        "unique_days": 0.084
+      },
+      "span_days": 5650.549900973601,
+      "unique_floor_mjd_days": 290
+    },
+    {
+      "absolute_ecliptic_latitude_degrees": 38.75530139144536,
+      "active_toa_count": 624,
+      "binary_model": true,
+      "median_toa_uncertainty_microseconds": 0.4435,
+      "psr": "J1012+5307",
+      "rank": 3,
+      "released_red_noise": true,
+      "score": {
+        "active_toas": 0.08100000000000002,
+        "annual_geometry": 0.05751060278289072,
+        "isolated_timing_model": 0.0,
+        "no_released_red_noise": 0.0,
+        "precision": 0.25501724137931037,
+        "span": 0.18040213498991664,
+        "total": 0.6747299791521177,
+        "unique_days": 0.1008
+      },
+      "span_days": 5672.613877434458,
+      "unique_floor_mjd_days": 318
+    },
+    {
+      "absolute_ecliptic_latitude_degrees": 25.407142918335666,
+      "active_toa_count": 423,
+      "binary_model": true,
+      "median_toa_uncertainty_microseconds": 0.188,
+      "psr": "J0613-0200",
+      "rank": 4,
+      "released_red_noise": true,
+      "score": {
+        "active_toas": 0.03075,
+        "annual_geometry": 0.03081428583667133,
+        "isolated_timing_model": 0.0,
+        "no_released_red_noise": 0.0,
+        "precision": 0.3166896551724138,
+        "span": 0.15294727264425512,
+        "total": 0.6374012136533402,
+        "unique_days": 0.10619999999999999
+      },
+      "span_days": 5494.157272187658,
+      "unique_floor_mjd_days": 327
+    },
+    {
+      "absolute_ecliptic_latitude_degrees": 15.351058838897025,
+      "active_toa_count": 487,
+      "binary_model": true,
+      "median_toa_uncertainty_microseconds": 0.383,
+      "psr": "J1918-0642",
+      "rank": 5,
+      "released_red_noise": true,
+      "score": {
+        "active_toas": 0.04675000000000001,
+        "annual_geometry": 0.01070211767779405,
+        "isolated_timing_model": 0.0,
+        "no_released_red_noise": 0.0,
+        "precision": 0.2696206896551724,
+        "span": 0.17746999834120486,
+        "total": 0.6083428056741712,
+        "unique_days": 0.10379999999999999
+      },
+      "span_days": 5653.5549892178315,
+      "unique_floor_mjd_days": 323
+    },
+    {
+      "absolute_ecliptic_latitude_degrees": 16.04479833061474,
+      "active_toa_count": 357,
+      "binary_model": true,
+      "median_toa_uncertainty_microseconds": 1.226,
+      "psr": "J1455-3330",
+      "rank": 6,
+      "released_red_noise": true,
+      "score": {
+        "active_toas": 0.014249999999999999,
+        "annual_geometry": 0.01208959666122948,
+        "isolated_timing_model": 0.0,
+        "no_released_red_noise": 0.0,
+        "precision": 0.06613793103448276,
+        "span": 0.1881948924948027,
+        "total": 0.3664724201905149,
+        "unique_days": 0.08579999999999999
+      },
+      "span_days": 5723.266801216218,
+      "unique_floor_mjd_days": 293
+    }
+  ],
+  "schema_version": 1,
+  "selected_archive_members": {
+    "config": {
+      "archive_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/B1937+21.wb.yaml",
+      "bytes": 2615,
+      "sha256": "663c2505e6c2564e06197a4c9025f3602edaf3d301851affdbe86223943be8b3"
+    },
+    "correlation": {
+      "archive_member": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/B1937+21_PINT_20230131.wb.correlation.txt",
+      "bytes": 758,
+      "sha256": "b7603ebc34c616c2ce790c352308bfb47b8ea9ae7e7a82d6ded3a9614efc02c9"
+    },
+    "dmx": {
+      "archive_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/dmx/B1937+21_dmxparse.wb.out",
+      "bytes": 18293,
+      "sha256": "47aa9d72034e8865d5e2c3e2b587a5fda93ff7f851f53ea959894de6935a5993"
+    },
+    "noise": {
+      "archive_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/noise/B1937+21.wb.pars.txt",
+      "bytes": 1076,
+      "sha256": "955c4f0e4122ee35e0faba982f17e69d4e78d88cac8d0d530647baafc2cb1c67"
+    },
+    "par": {
+      "archive_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/B1937+21_PINT_20230131.wb.par",
+      "bytes": 44433,
+      "sha256": "1791d09c03bce63381018035ffcd0052406e1f3394aa119b5f469eff99b5a083"
+    },
+    "tim": {
+      "archive_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/B1937+21_PINT_20230131.wb.tim",
+      "bytes": 360761,
+      "sha256": "4dde72540e60e1950b284360cf6517e75ddad5a79564b2cab683f9c974d7901d"
+    }
+  },
+  "selected_metrics": {
+    "active_toa_count": 660,
+    "binary_model": false,
+    "ecliptic_latitude_degrees": 42.29675207385422,
+    "median_toa_uncertainty_microseconds": 0.008,
+    "observatories": [
+      "arecibo",
+      "gbt"
+    ],
+    "p90_toa_uncertainty_microseconds": 0.024,
+    "released_red_noise": true,
+    "span_days": 5798.043043897873,
+    "unique_floor_mjd_days": 457
+  },
+  "selected_score": {
+    "active_toas": 0.09000000000000001,
+    "annual_geometry": 0.06459350414770845,
+    "isolated_timing_model": 0.05,
+    "no_released_red_noise": 0.0,
+    "precision": 0.35,
+    "span": 0.199698929830442,
+    "total": 0.9042924339781505,
+    "unique_days": 0.15
+  },
+  "selected_target": "B1937+21",
+  "selection_id": "pilot2-metadata-target-selection-v0.2",
+  "status": "selected_metadata_only_no_observed_access"
+}

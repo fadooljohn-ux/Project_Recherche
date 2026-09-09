@@ -1,0 +1,548 @@
+{
+  "annual_identifiability": {
+    "eligible_strong_control_checks_days": [
+      300.0,
+      330.0,
+      400.0,
+      450.0
+    ],
+    "lower_amplitude_crossings_available_at_annual_checks": false,
+    "masked_sensitivity_gaps_days": [
+      350.0,
+      365.25,
+      380.0
+    ]
+  },
+  "claim_boundary": {
+    "additional_randomness_authorized": false,
+    "annual_masked_periods_are_sensitivity_gaps": true,
+    "empirical_crossings_are_formal_upper_limits": false,
+    "fixed_phase_noise_design_disclosed": true,
+    "interpolate_sensitivity_across_period": false,
+    "new_observed_periodic_search_authorized": false,
+    "new_observed_residual_access_authorized": false,
+    "observed_null_excludes_all_signal_families": false,
+    "threshold_retuning_authorized": false,
+    "wilson_intervals_are_population_guarantees": false
+  },
+  "finite_sample_disposition": {
+    "cases_per_cell": 12,
+    "empirical_90_crossings_are_formal_95_percent_limits": false,
+    "fixed_phases": 4,
+    "interval": "two_sided_wilson_95_percent_diagnostic",
+    "noise_realizations_per_phase": 3,
+    "sampled_periods_supporting_90_percent_wilson_lower_bound": 0
+  },
+  "interpretation_id": "pilot1-null-sensitivity-interpretation-v0.1",
+  "observed_null": {
+    "candidate_present": false,
+    "locked_threshold_delta_chi2": 23.33426855482562,
+    "strongest_unmasked_period_days": 59.964133509276856,
+    "strongest_unmasked_statistic": 16.499061440870975
+  },
+  "periods": {
+    "100.0": {
+      "cells": [
+        {
+          "amplitude_microseconds": 0.1,
+          "cases": 12,
+          "empirical_fraction": 0.08333333333333333,
+          "recovered": 1,
+          "wilson_95": [
+            0.014865094404917095,
+            0.35387991114111694
+          ]
+        },
+        {
+          "amplitude_microseconds": 0.2,
+          "cases": 12,
+          "empirical_fraction": 0.75,
+          "recovered": 9,
+          "wilson_95": [
+            0.46769466506643426,
+            0.9110583316059453
+          ]
+        },
+        {
+          "amplitude_microseconds": 0.3,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        {
+          "amplitude_microseconds": 0.4,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        {
+          "amplitude_microseconds": 0.5,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        {
+          "amplitude_microseconds": 1.0,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        {
+          "amplitude_microseconds": 2.0,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        {
+          "amplitude_microseconds": 5.0,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        }
+      ],
+      "conservative_sampled_50_microseconds": 0.3,
+      "conservative_sampled_50_projected_lunar_masses": 0.04832825780127331,
+      "conservative_sampled_90_microseconds": null,
+      "empirical_crossing_50_microseconds": 0.16250000000000003,
+      "empirical_crossing_50_projected_lunar_masses": 0.026177806309023055,
+      "empirical_crossing_90_microseconds": 0.26,
+      "empirical_crossing_90_projected_lunar_masses": 0.04188449009443688,
+      "supports_90_percent_recovery_at_95_percent_confidence": false
+    },
+    "1000.0": {
+      "cells": [
+        {
+          "amplitude_microseconds": 0.1,
+          "cases": 12,
+          "empirical_fraction": 0.0,
+          "recovered": 0,
+          "wilson_95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        {
+          "amplitude_microseconds": 0.2,
+          "cases": 12,
+          "empirical_fraction": 0.0,
+          "recovered": 0,
+          "wilson_95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        {
+          "amplitude_microseconds": 0.3,
+          "cases": 12,
+          "empirical_fraction": 0.25,
+          "recovered": 3,
+          "wilson_95": [
+            0.08894166839405471,
+            0.5323053349335657
+          ]
+        },
+        {
+          "amplitude_microseconds": 0.4,
+          "cases": 12,
+          "empirical_fraction": 0.5833333333333334,
+          "recovered": 7,
+          "wilson_95": [
+            0.31951131254954973,
+            0.8067396863412435
+          ]
+        },
+        {
+          "amplitude_microseconds": 0.5,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        {
+          "amplitude_microseconds": 1.0,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        {
+          "amplitude_microseconds": 2.0,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        {
+          "amplitude_microseconds": 5.0,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        }
+      ],
+      "conservative_sampled_50_microseconds": 0.5,
+      "conservative_sampled_50_projected_lunar_masses": 0.01735334585264454,
+      "conservative_sampled_90_microseconds": null,
+      "empirical_crossing_50_microseconds": 0.375,
+      "empirical_crossing_50_projected_lunar_masses": 0.013015009389483407,
+      "empirical_crossing_90_microseconds": 0.476,
+      "empirical_crossing_90_projected_lunar_masses": 0.016520385251717604,
+      "supports_90_percent_recovery_at_95_percent_confidence": false
+    },
+    "200.0": {
+      "cells": [
+        {
+          "amplitude_microseconds": 0.1,
+          "cases": 12,
+          "empirical_fraction": 0.0,
+          "recovered": 0,
+          "wilson_95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        {
+          "amplitude_microseconds": 0.2,
+          "cases": 12,
+          "empirical_fraction": 0.5,
+          "recovered": 6,
+          "wilson_95": [
+            0.2537815976337061,
+            0.7462184023662939
+          ]
+        },
+        {
+          "amplitude_microseconds": 0.3,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        {
+          "amplitude_microseconds": 0.4,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        {
+          "amplitude_microseconds": 0.5,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        {
+          "amplitude_microseconds": 1.0,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        {
+          "amplitude_microseconds": 2.0,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        {
+          "amplitude_microseconds": 5.0,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        }
+      ],
+      "conservative_sampled_50_microseconds": 0.3,
+      "conservative_sampled_50_projected_lunar_masses": 0.030444894654285185,
+      "conservative_sampled_90_microseconds": null,
+      "empirical_crossing_50_microseconds": 0.2,
+      "empirical_crossing_50_projected_lunar_masses": 0.020296596436190122,
+      "empirical_crossing_90_microseconds": 0.28,
+      "empirical_crossing_90_projected_lunar_masses": 0.02841523501066618,
+      "supports_90_percent_recovery_at_95_percent_confidence": false
+    },
+    "50.0": {
+      "cells": [
+        {
+          "amplitude_microseconds": 0.1,
+          "cases": 12,
+          "empirical_fraction": 0.0,
+          "recovered": 0,
+          "wilson_95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        {
+          "amplitude_microseconds": 0.2,
+          "cases": 12,
+          "empirical_fraction": 0.25,
+          "recovered": 3,
+          "wilson_95": [
+            0.08894166839405471,
+            0.5323053349335657
+          ]
+        },
+        {
+          "amplitude_microseconds": 0.3,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        {
+          "amplitude_microseconds": 0.4,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        {
+          "amplitude_microseconds": 0.5,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        {
+          "amplitude_microseconds": 1.0,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        {
+          "amplitude_microseconds": 2.0,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        {
+          "amplitude_microseconds": 5.0,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        }
+      ],
+      "conservative_sampled_50_microseconds": 0.3,
+      "conservative_sampled_50_projected_lunar_masses": 0.0767163272735316,
+      "conservative_sampled_90_microseconds": null,
+      "empirical_crossing_50_microseconds": 0.23333333333333334,
+      "empirical_crossing_50_projected_lunar_masses": 0.059668254546080136,
+      "empirical_crossing_90_microseconds": 0.2866666666666667,
+      "empirical_crossing_90_projected_lunar_masses": 0.07330671272804132,
+      "supports_90_percent_recovery_at_95_percent_confidence": false
+    },
+    "500.0": {
+      "cells": [
+        {
+          "amplitude_microseconds": 0.1,
+          "cases": 12,
+          "empirical_fraction": 0.0,
+          "recovered": 0,
+          "wilson_95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        {
+          "amplitude_microseconds": 0.2,
+          "cases": 12,
+          "empirical_fraction": 0.0,
+          "recovered": 0,
+          "wilson_95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ]
+        },
+        {
+          "amplitude_microseconds": 0.3,
+          "cases": 12,
+          "empirical_fraction": 0.8333333333333334,
+          "recovered": 10,
+          "wilson_95": [
+            0.5519691377470266,
+            0.9530348578161463
+          ]
+        },
+        {
+          "amplitude_microseconds": 0.4,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        {
+          "amplitude_microseconds": 0.5,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        {
+          "amplitude_microseconds": 1.0,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        {
+          "amplitude_microseconds": 2.0,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        },
+        {
+          "amplitude_microseconds": 5.0,
+          "cases": 12,
+          "empirical_fraction": 1.0,
+          "recovered": 12,
+          "wilson_95": [
+            0.7575059933447592,
+            1.0
+          ]
+        }
+      ],
+      "conservative_sampled_50_microseconds": 0.3,
+      "conservative_sampled_50_projected_lunar_masses": 0.01652803167699356,
+      "conservative_sampled_90_microseconds": null,
+      "empirical_crossing_50_microseconds": 0.26,
+      "empirical_crossing_50_projected_lunar_masses": 0.014324294120061089,
+      "empirical_crossing_90_microseconds": 0.34,
+      "empirical_crossing_90_projected_lunar_masses": 0.01873176923392604,
+      "supports_90_percent_recovery_at_95_percent_confidence": false
+    }
+  },
+  "recovery_definition": "triggered_and_frequency_recovered",
+  "schema_version": 1,
+  "scorecard": {
+    "criteria": {
+      "all_cells_have_frozen_case_count": true,
+      "all_empirical_crossings_bracketed": true,
+      "all_recovery_surfaces_monotonic": true,
+      "annual_mask_gaps_preserved": true,
+      "conservative_50_supported_at_all_periods": true,
+      "conservative_90_not_supported": true,
+      "exactly_one_observed_scan_preserved": true,
+      "five_calibrated_periods_present": true,
+      "no_formal_exclusion_claim": true,
+      "no_new_observed_analysis": true,
+      "no_period_interpolation": true,
+      "observed_result_complete": true,
+      "observed_result_is_null": true,
+      "sensitivity_extension_passed": true,
+      "source_hashes_verified": true
+    },
+    "overall": "PASS",
+    "passed": 15,
+    "total": 15
+  },
+  "source_records": {
+    "observed_search_result": {
+      "bytes": 3999,
+      "logical_path": "run_records/pilot1/one-shot-observed-search-v0.1-result.json",
+      "sha256": "720f3604058121ddc4aa7ff5a0be159089b28ca279328b18addd4d1904ce06bc"
+    },
+    "parent_injection_summary": {
+      "bytes": 390638,
+      "logical_path": "run_records/pilot1/injection-calibration-v0.1-summary.json",
+      "sha256": "8bf50152cf3cd31109f363ef0bb01bf5f21f9c1d423b6a9ed53cabecafc692b8"
+    },
+    "sensitivity_extension_summary": {
+      "bytes": 331606,
+      "logical_path": "run_records/pilot1/sensitivity-extension-v0.1-summary.json",
+      "sha256": "fcc905f2648684418a4cbde150928d0e61a59ba2456134130ed6cccd65ca88b4"
+    }
+  },
+  "status": "pass_bounded_sensitivity_interpretation",
+  "target": "J1744-1134"
+}

@@ -1,0 +1,62 @@
+{
+  "status": "TIMING_NOISE_COMPATIBLE",
+  "target": "J1721-2457",
+  "master_before_sha256": "2aa9838ff6c72281747a83fc8843e7ed2cca1a84cf5aff0d1337100277570346",
+  "final_attempt": "../Project Recherche Data/ipta-adapter01-20260909/J1721-2457/attempt03",
+  "toas": 150,
+  "checks": {
+    "bat_bbat_max_difference_days": 0.0,
+    "bat_max_difference_days": 0.0,
+    "derivative_relative_errors": {
+      "DM2": 3.899789744667564e-06,
+      "F0": 4.991890909050675e-08,
+      "JUMP2": 1.206739407571824e-10,
+      "RAJ": 1.0480265086895636e-05
+    },
+    "design_columns": 13,
+    "design_rank": 13,
+    "dm_covariance_relative_error": 1.0015800120196133e-15,
+    "normalized_design_condition": 423.2213395872633,
+    "phase_arc_cycles": 0.06544126456174126,
+    "red_covariance_relative_error": 6.943769200416925e-16,
+    "reduced_chi_square": 0.982057924882989,
+    "residual_max_difference_seconds": 0.0,
+    "weighted_rms_us": 17.743335649768362,
+    "white_relative_error": 2.258087329559926e-16
+  },
+  "observed_searches_launched": 0,
+  "calibrations_launched": 0,
+  "linear_gls_projection_performed": true,
+  "nonlinear_refit_performed": false,
+  "failed_attempts": [
+    {
+      "attempt": "attempt02",
+      "cause": "Overly narrow clock package omitted UT1 and alternate date-dependent GPS routes.",
+      "repair": "Preserve the complete pinned TEMPO2 clock directory with the IPTA release overrides.",
+      "status": "REPAIRED_IN_ATTEMPT03"
+    }
+  ],
+  "next": "Target-specific calibration and sensitivity measurement for J1721-2457; no execution freeze or launch yet.",
+  "runtime_files_sha256": {
+    "../Project Recherche Data/ipta-adapter01-20260909/runtime/.pixi/envs/default/bin/tempo2": "0856ae33ceaf24f0bd085cbddea7cd391810e9765566e7caa3ffe28355cacf2f",
+    "../Project Recherche Data/ipta-adapter01-20260909/runtime/.pixi/envs/default/lib/libtempo2.2.dylib": "446dc4f0342d1e9f36b071ef76249ab93779515d5fd776d2dc1aaf48de2fea25",
+    "../Project Recherche Data/ipta-adapter01-20260909/runtime/.pixi/envs/default/lib/python3.11/site-packages/libstempo/libstempo.cpython-311-darwin.so": "e638977e61e2d835ecabf6ff4d0636c68f7adac863ff56ef93c1c8eebd7b70bb"
+  },
+  "reference_sources": {
+    "libstempo.pyx": "fbdc2df55d5e8f4e6c92d404c97bf49371ab9316dc7dd8fbbceef76924705376",
+    "TKfit.C": "18c4124563edceeea3f19694aec1256288fa1e744f69bea97c2070c2c59f4abc",
+    "t2fit_nestlike.C": "759b9065eaa051cca358b500fab69e4c06aced3ff688e524e6f36ffacc890637",
+    "formResiduals.C": "bc4702cd619520f1929d810ccd3214520b11e776279ca5be3c477e6e8c89ef5e",
+    "readParfile.C": "cfc402db87689f93287d493258d37bc6e5b1c77c88202d9d029e3fe0796ef8fc",
+    "constraints_nestlike.h": "01e3aff1d1c8d85024ed6d210ba8c056a0c94ecb8fbc4f4b16628b8f3082beea",
+    "recipe.yaml": "fcda8e85568409a7526d1c101a982a83f9722617aff151762dc6e425924762f5",
+    "preProcess.C": "33fa2abda43ad591e167cfcb87ebe585f435a81e3632bbf002505b48390d014e",
+    "plugin_general2_plug.C": "60a31783f7405e08a7b1cd0c64a7bdd1ebc5b6786a0686eeedc6dc60c8290d31",
+    "t2fit_nestlike.h": "290d0f8c5d35db040e59fe1785cdd356152d71b90c71fd48fdc8310f516b561b",
+    "par-history.json": "143cd01f543b40796296cc08896b91c792e1575dd6e8aa514a3667abcc6bb9a7",
+    "t2fit.C": "ba50b03667354bedb25d21c32543cfda185779033006e0d331b1d93049026fe2",
+    "constraints_nestlike.C": "6fd4ec5e8ac34af04136bb6525148aabd1b603a7b287b84ee91322749596ac61",
+    "t2fit_stdFitFuncs.C": "b2b4abb17f56fb058d376ff3987160d096908773be4e4384f2863ebf565fc923"
+  },
+  "preparation_receipt_sha256": "e1a390c5160217e3c3b2cc790c5c95a565fbe523df60df6f92100965786d97f5"
+}

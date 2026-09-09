@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot1-tail-robustness-r1-freeze-v0.1",
+  "status": "frozen_before_tail_robustness_r1_execution",
+  "authorization": "exact_disjoint_r1_nulls_and_threshold_only_regrade",
+  "observed_residual_access_authorized": false,
+  "observed_residual_periodic_search_authorized": false,
+  "failed_evaluation_reuse_authorized": false,
+  "inventory_sha256": {
+    "calibration": "aee0622ca4225c228fbc38c5830840cba66e6c09d3f66b28089074114f8f444c",
+    "evaluation": "55581de5bdcede0ee7ffbcbfdfaf89240dbc7c2206b642679d3c1fd2d30deffb"
+  },
+  "authorized_case_counts": {
+    "new_contamination_calibration_nulls": 2000,
+    "new_contamination_evaluation_nulls": 1000,
+    "threshold_only_recovery_regrades": 160,
+    "new_recovery_realizations": 0,
+    "new_complete_refits": 0,
+    "new_full_covariance_audits": 0
+  },
+  "external_prerequisites": {
+    "run_records/pilot1/tail-robustness-v0.1-summary.json": {
+      "bytes": 46398,
+      "sha256": "2871026b1aa71135f7d24ff9d53cccdbb9a95373aa49798f3699e9bf9eaedee5"
+    },
+    "run_records/pilot1/tail-robustness-recovery-v0.1-ledger.json": {
+      "bytes": 40219,
+      "sha256": "dc89431c012a175b978c9926e6f99c0abf5af75c75e5c3d2ef6b438eaed8567a"
+    }
+  },
+  "frozen_sha256": {
+    "src/pulsar_pilot/tail_robustness_r1.py": "5f9b4475aabfa8cdff8a00906941ea5c67a4ae7be3283b2c3ad085bc1ca43d03",
+    "config/pilot1_tail_robustness_r1_v0.1.yaml": "cb9c0826fb481109de20ceba954c56bf9d9d1eb245a273bc4963b0d980b3bd9a",
+    "protocol/PILOT1_TAIL_ROBUSTNESS_R1_PROTOCOL_v0.1.md": "438587c53d163e849c5fd12d7292c4cb134b302284acb283bcd119d73c597c9c",
+    "src/pulsar_pilot/tail_robustness.py": "1a45576519c06f73e0d0951e1705f838366bede13ff7bada4ee5405d18bdf090",
+    "config/pilot1_tail_robustness_v0.1.yaml": "376f9c513ead9798a326e661bf612eb4c3fbac51238e246c372e9015dd7ac1d1",
+    "results/pilot1/tail_robustness_result_v0.1.json": "2fb72d5fb302185f2d61508f5f706288c060d38fcaf45689a2e8a2be8b48100e",
+    "docs/PILOT1_TAIL_ROBUSTNESS_RESULT_v0.1.md": "6e0ba3c351b588c524dc0f2e1c7f3cd6cda2d59bee692da9c4088db53f8362ea",
+    "protocol/PILOT1_THRESHOLD_LOCK_v0.1.json": "5bbe1049543e7e639af1de436a27e7445966215958d7510bbfc7dbe9df54957d",
+    "pixi.lock": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8"
+  },
+  "next_gate_if_pass": "separately_reviewed_one_shot_observed_residual_search_freeze",
+  "next_gate_if_fail": "detector_rebaseline_or_robust_statistic_replacement"
+}

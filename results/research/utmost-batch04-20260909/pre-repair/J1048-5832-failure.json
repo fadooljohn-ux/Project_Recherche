@@ -1,0 +1,7 @@
+{
+  "adapter_sha256": "60da0e5a4365a1b3078dd4715afcb248d83db90878f09f0aa829f29d6257fdb0",
+  "observed_search_executed": false,
+  "status": "PREPARATION_FAILED",
+  "target": "J1048-5832",
+  "traceback": "Traceback (most recent call last):\n  File \"./tools/utmost_prepare.py\", line 210, in prepare\n    if pn_spread > 1: raise ValueError(f'Released pulse count disagrees: {pn_spread}')\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Released pulse count disagrees: 3.0\n"
+}

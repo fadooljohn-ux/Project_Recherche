@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Existing target/search/work-log cells preserved",
+    "281 consumed search records retained",
+    "Three assessed candidates; two invalid import crossings excluded",
+    "Plus-one formulas exported with correct numeric cached results",
+    "Global FAP and sigma remain blank",
+    "Three current candidates and zero discoveries retained",
+    "Existing table identities and frozen panes retained",
+    "In-memory checks: repeated sync preserves grades; new candidate pending once; invalid imports excluded; inconsistent counts and unsupported global FAP rejected",
+    "Artifact Tool inspection and rendered summary/evidence columns verified; no spreadsheet formula errors"
+  ],
+  "workbook_sha256": "95ebb72c2018a1d31d87878c1f279adcd733df716a40d07703e6cbcd8b7d45f4",
+  "historical_search_records": 281,
+  "historical_work_log_records": 111,
+  "candidate_records": 3,
+  "code_sha256": {
+    "update.mjs": "277d8a0ca3b723eb2e7e2ae0d999cf569b5f83badcf1367fac0a2ef2b0d6f427",
+    "candidate-grades.mjs": "cac743d9cbceeffd363ac6115a15607b9d394debe6830d16b9e180e6746377df"
+  }
+}

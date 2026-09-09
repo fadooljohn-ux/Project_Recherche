@@ -1,0 +1,127 @@
+{
+  "cache_hit": false,
+  "cache_key": "ea90776235fca7ce4ed6894a928e89d72c5651a3ae34d72cec8fbb3018bb1b32",
+  "cache_receipt_sha256": "d20b7b094c2f084e1d5e66679c218feadd2044b38098f3c6348b0c60c8fca679",
+  "eligible_cells": 760,
+  "empirical_99th_percentile": 20.683498831757767,
+  "excluded_cells": 7,
+  "execution_freeze_created": false,
+  "frequency_count": 767,
+  "integration_check": {
+    "input_amplitude_us": 100.0,
+    "maximum_coefficient_error_seconds": 3.3881317890172014e-20,
+    "observed_residuals_used": false,
+    "period_days": 100.17409573408968,
+    "recovered_amplitude_us": 100.00000000000003,
+    "type": "One noiseless synthetic circular signal plus baseline nuisance"
+  },
+  "mask_rule": "Exclude cells retaining at most 20% power after full timing projection relative to baseline, or ill-conditioned templates",
+  "masked_grid_periods_days": [
+    349.6591248307469,
+    354.9849998795946,
+    360.4756277953461,
+    366.13877348149737,
+    371.9826975826127,
+    378.01619668852373,
+    384.24864751567134
+  ],
+  "master_before_sha256": "ad74276f4b01da66ce1617bb0e219de1939c0a0132e1e1ee791114de9a01adf7",
+  "median_worst_phase_amplitude_us": 14.926487963794223,
+  "noise_only_nulls_above_adopted_threshold": 19,
+  "noiseless_synthetic_checks": 1,
+  "observed_search_executed": false,
+  "observed_search_launched": false,
+  "path": "../Project Recherche Data/ipta-calibration01-20260909/cache/ea90776235fca7ce4ed6894a928e89d72c5651a3ae34d72cec8fbb3018bb1b32",
+  "policy": {
+    "detection_probability": 0.95,
+    "false_alarm_probability": 0.01,
+    "maximum_condition_number": 10000000000.0,
+    "maximum_period_days": 2000.0,
+    "minimum_period_days": 30.0,
+    "minimum_retained_power": 0.2,
+    "null_count": 4096,
+    "oversampling": 5,
+    "search_count": 1,
+    "seed": 202609091721
+  },
+  "preparation_receipt_sha256": "e1a390c5160217e3c3b2cc790c5c95a565fbe523df60df6f92100965786d97f5",
+  "profile_sha256": "c9f51f6ea365020c53864ecf37aec7a2f436e211ee9cad1abd40cdeef63c82e6",
+  "sampled_sensitivity": [
+    {
+      "best_phase_95_amplitude_us": 13.937020908463746,
+      "eligible": true,
+      "grid_period_days": 30.0,
+      "requested_period_days": 30,
+      "retained_power": 0.8971551775408825,
+      "worst_phase_95_amplitude_us": 14.25631241958351
+    },
+    {
+      "best_phase_95_amplitude_us": 12.073858515075209,
+      "eligible": true,
+      "grid_period_days": 59.96557274584395,
+      "requested_period_days": 60,
+      "retained_power": 0.9516794626807439,
+      "worst_phase_95_amplitude_us": 14.336910972338597
+    },
+    {
+      "best_phase_95_amplitude_us": 14.128377599125656,
+      "eligible": true,
+      "grid_period_days": 100.17409573408968,
+      "requested_period_days": 100,
+      "retained_power": 0.9842981294222534,
+      "worst_phase_95_amplitude_us": 15.17504492841164
+    },
+    {
+      "best_phase_95_amplitude_us": 16.294780428329002,
+      "eligible": true,
+      "grid_period_days": 179.75528610529057,
+      "requested_period_days": 180,
+      "retained_power": 0.9413040534552888,
+      "worst_phase_95_amplitude_us": 16.741262723709223
+    },
+    {
+      "best_phase_95_amplitude_us": null,
+      "eligible": false,
+      "grid_period_days": 366.13877348149737,
+      "requested_period_days": 365.25,
+      "retained_power": 8.541173167224388e-05,
+      "worst_phase_95_amplitude_us": null
+    },
+    {
+      "best_phase_95_amplitude_us": 24.242808069731026,
+      "eligible": true,
+      "grid_period_days": 736.2925964900066,
+      "requested_period_days": 730,
+      "retained_power": 0.8901608620806167,
+      "worst_phase_95_amplitude_us": 26.438677691195654
+    },
+    {
+      "best_phase_95_amplitude_us": 27.453496699801104,
+      "eligible": true,
+      "grid_period_days": 985.3251284196847,
+      "requested_period_days": 1000,
+      "retained_power": 0.873852773810642,
+      "worst_phase_95_amplitude_us": 28.699931728665952
+    },
+    {
+      "best_phase_95_amplitude_us": 43.214062906727,
+      "eligible": true,
+      "grid_period_days": 2000.0,
+      "requested_period_days": 2000,
+      "retained_power": 0.7014728151300187,
+      "worst_phase_95_amplitude_us": 46.68978208516466
+    }
+  ],
+  "sensitivity_definition": {
+    "definition": "on-grid circular signal, best/worst phase at each eligible period",
+    "detection_probability": 0.95,
+    "excluded_cell_amplitudes": "NaN; not a finite sensitivity estimate",
+    "limitations": "fixed linear timing/noise model; excludes off-grid loss and nonlinear multi-planet confusion"
+  },
+  "sensitivity_monte_carlo_injections": 0,
+  "span_days": 4661.158710916323,
+  "status": "CALIBRATED_CONDITIONAL",
+  "target": "J1721-2457",
+  "threshold": 22.495313974710694,
+  "timing_rank": 13
+}

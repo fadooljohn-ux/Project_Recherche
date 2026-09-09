@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot1-sensitivity-extension-freeze-v0.1",
+  "status": "frozen_before_sensitivity_extension",
+  "authorization": "exact_240_extension_cases_and_24_audits_only",
+  "observed_residual_periodic_search_authorized": false,
+  "case_order_sha256": "1fb3012e726de01e658bebe24c560ca1559aed781a17bdac3929ed6830b86dfd",
+  "locked_threshold_delta_chi2": 23.33426855482562,
+  "parent_summary_sha256": "8bf50152cf3cd31109f363ef0bb01bf5f21f9c1d423b6a9ed53cabecafc692b8",
+  "parent_summary_bytes": 390638,
+  "frozen_sha256": {
+    "src/pulsar_pilot/sensitivity_extension.py": "ea28a1f7ed5ed4ef38fa24000664f5039e5e1fa9c5b3e7d6c22c636395321c8d",
+    "config/pilot1_sensitivity_extension_v0.1.yaml": "a5695b46bdf04b44cc0e3fc39ffaa30b76c0420fb14a948e8618704692492f6b",
+    "docs/PILOT1_REFERENCE_DISCREPANCY_DOSSIER_v0.1.md": "d3f85f7e08265a8049a4b7d555fe7d6ac4f959de70f1b26fe1b7e4282db3e82b",
+    "results/pilot1/reference_discrepancy_result_v0.1.json": "e0bc7aff48462a1b3c09f1309e37eb8aa2fec8251e0eb772279d991d7161c1db",
+    "protocol/PILOT1_THRESHOLD_LOCK_v0.1.json": "5bbe1049543e7e639af1de436a27e7445966215958d7510bbfc7dbe9df54957d",
+    "pixi.lock": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8"
+  }
+}

@@ -1,0 +1,9 @@
+[workspace]
+name="recherche-tempo2-adapter"
+channels=["conda-forge"]
+platforms=["osx-64"]
+[dependencies]
+python="3.11.*"
+libstempo="==2.5.1"
+tempo2="==2025.02.1"
+numpy=">=2.2,<2.5"

@@ -1,0 +1,18 @@
+{
+  "steps": [
+    "local refinement and aliases plus leave-one-day-out",
+    "joint early/late and band consistency",
+    "fixed covariance family robustness and 512 null plus 256 signal simulations",
+    "narrowband reduction and public independent-data inventory"
+  ],
+  "period_bounds_days": [
+    100,
+    140
+  ],
+  "local_grid_points": 801,
+  "noise_family": "released; achromatic exponential GP tau=365 days amplitudes 0.5,1,2,4 us; doubled auxiliary DM standard errors; chromatic nu^-4 exponential delay tau=90 days amplitudes 1,2 us at 1400 MHz",
+  "seed": 2026092201,
+  "simulation_search": "union of original eligible grid and local refinement; select nuisance covariance separately under null and signal on every realization",
+  "simulation_scope": "single target diagnostic; insufficient Monte Carlo resolution for original 16-target campaign tail",
+  "original_result_sha256": "975c9baf7109cf683b00d2f882bbf531bc52a37aac47d1d1228152d4f8fc8436"
+}

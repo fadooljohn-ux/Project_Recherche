@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "authorization_id": "pilot2-preflight-user-authorization-v0.2",
+  "recorded_utc": "2026-08-09T12:38:22Z",
+  "authority": "John Fadool",
+  "source": "current Codex project task",
+  "user_instruction": "Proceed",
+  "authorization": "exact_frozen_b1937_preflight_extraction_reproduction_and_50_synthetic_cases",
+  "authorized_actions": {
+    "extract_exactly_six_hash_bound_b1937_products": true,
+    "copy_existing_audited_shared_clock_and_ephemeris_cache": true,
+    "released_observed_fit_reproduction_without_periodic_scan": true,
+    "exactly_20_synthetic_covariance_null_cases": true,
+    "exactly_30_synthetic_injection_cases": true,
+    "exactly_10_full_covariance_solver_audits_within_the_30_injections": true
+  },
+  "additional_download_bytes_maximum": 0,
+  "threshold_calibration_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "candidate_generation_authorized": false,
+  "external_adviser_authorization_role": false,
+  "next_phase_authorized": false
+}

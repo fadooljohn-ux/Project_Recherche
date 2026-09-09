@@ -1,0 +1,13 @@
+{
+  "entries": [
+    [
+      "attempt-J1801-1417-attempt01",
+      "IPTA preparation attempt",
+      "J1801-1417",
+      "PREPARATION_FAILED",
+      "Compatibility mismatch: published RMS rounding, published chi-square rounding",
+      "Attempt retained; diagnose adapter or input mismatch. Not an observed nondetection."
+    ]
+  ],
+  "evidence": "./results/observed/ipta-batch02-20260909/attempt-J1801-1417-attempt01/failure.json"
+}

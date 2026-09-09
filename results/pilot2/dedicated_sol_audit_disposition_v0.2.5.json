@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "disposition_id": "pilot2-b1937-dedicated-sol-audit-disposition-v0.2.5",
+  "recorded_utc": "2026-08-10T11:42:01Z",
+  "target_commit": "96bfd5919cd538915e3f4177112452c34f5e8c65",
+  "status": "hold",
+  "execution_readiness": "hold",
+  "science_execution_authorized": false,
+  "audit_report": {
+    "logical_path": "docs/audits/DEDICATED_SOL_AUDIT_PILOT2_v0.2.5_2026-08-10.md",
+    "sha256": "6fc200b7bb0a17c3fa52a0f50aad2eb38b9382825fd1df4d63af511734da4ba7"
+  },
+  "primary_verification": {
+    "logical_path": "results/pilot2/dedicated_sol_audit_primary_verification_v0.2.5.json",
+    "sha256": "cbcfbfb96c8a29e33f0775856a45418dc1c35edd11612d4c1d5ec60b5802ceab"
+  },
+  "finding_counts": {
+    "P0": 0,
+    "P1": 1,
+    "P2": 1,
+    "P3": 0
+  },
+  "open_findings": [
+    "SOL-V025-001",
+    "SOL-V025-002"
+  ],
+  "closed_findings": [
+    "SOL-V024-003"
+  ],
+  "passing_controls": [
+    "active_attempt_file_and_final_directory_sync_order",
+    "sync_failure_stops_before_executor",
+    "top_level_and_solver_artifact_schema",
+    "repository_confined_exact_hash_path_sets",
+    "current_execution_lock",
+    "never_executed_inventory_reuse",
+    "outcome_free_health_and_science_boundaries"
+  ],
+  "failed_controls": [
+    "exact_typed_trusted_input_binding",
+    "durable_first_use_nested_case_directories"
+  ],
+  "science_cases_executed_during_audit": 0,
+  "external_data_roots_accessed_during_audit": 0,
+  "execution_freeze_present": false,
+  "next_gate": "new_zero_science_remediation_version_only_after_explicit_direction"
+}

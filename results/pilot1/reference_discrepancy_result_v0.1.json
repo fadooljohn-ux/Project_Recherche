@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "result_id": "pilot1-reference-discrepancy-result-v0.1",
+  "overall": "PASS_WITH_ADVISORY",
+  "decision": "published_numeric_factor_gate_not_applicable_amended_extension_authorized",
+  "published_reference": {
+    "target": "J1744-1134",
+    "period_days": 100.0,
+    "projected_mass_moon": 0.56,
+    "orbit": "circular",
+    "recovery_fraction": 0.9,
+    "data_release": "NANOGrav_11yr",
+    "noise_construction": "Gaussian_white_noise_at_reported_TOA_errors",
+    "injection_domain": "postfit_residuals",
+    "timing_fit_adjustment": "generic_factor_2.5_from_one_synthetic_pulsar"
+  },
+  "mass_conversion": {
+    "status": "PASS",
+    "projected_mass_at_0p5_microseconds_moon": 0.08054709633545554,
+    "exact_two_body_projected_mass_moon": 0.08054709644952637,
+    "low_mass_approximation_relative_error": 1.4162004732441105e-9,
+    "published_mass_implied_amplitude_microseconds_1p4_solar": 3.476227076851717,
+    "published_mass_implied_amplitude_microseconds_1p5_solar": 3.319958508217062,
+    "central_mass_assumption_relative_effect": 0.04495349848554242
+  },
+  "residual_covariance_diagnostic": {
+    "status": "PASS_WITH_ADVISORY",
+    "hard_failures": 0,
+    "advisory_failures": ["absolute_excess_kurtosis"],
+    "observed_residual_global_search_executed": false,
+    "external_record": {
+      "logical_path": "run_records/pilot1/reference-discrepancy-v0.1.json",
+      "bytes": 3027,
+      "sha256": "66cbd929274be624eaf671453ed84771a8e4d1e4aebb4cd5145f44ea12872e44"
+    }
+  },
+  "comparability": {
+    "status": "NOT_DIRECTLY_COMPARABLE",
+    "load_bearing_differences": [
+      "NANOGrav_11yr_vs_15yr_wideband_release",
+      "white_noise_residual_injections_vs_released_full_covariance_TOA_injections",
+      "generic_2p5_timing_penalty_vs_casewise_timing_projection_and_joint_refit",
+      "different_global_threshold_statistics_and_frequency_grids"
+    ],
+    "reference_ratio_role": "context_only_not_promotion_gate"
+  },
+  "authorization": {
+    "lower_amplitude_extension": true,
+    "observed_residual_periodic_search": false,
+    "initial_v0p1": false
+  }
+}

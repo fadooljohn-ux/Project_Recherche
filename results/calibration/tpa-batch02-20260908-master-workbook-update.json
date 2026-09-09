@@ -1,0 +1,29 @@
+{
+  "batch": "../Project Recherche Data/tpa-batch02-20260908",
+  "completed": 0,
+  "incomplete": 0,
+  "selected": [
+    "J1645-0317",
+    "J1013-5934",
+    "J1609-4616",
+    "J1600-5044",
+    "J1126-6054"
+  ],
+  "previous_sha256": "e3100548784a0133b374c29325302cbb67f25fa5d05b8165e113c16b02a42633",
+  "sha256": "4cd84f39b14dc3cc69915a45cdc45514fbf85a83df533b52fe25c24bdf063149",
+  "backup": "../Recherche Recovery/20260907T223404/master-workbook-history/e3100548784a0133b374c29325302cbb67f25fa5d05b8165e113c16b02a42633.xlsx",
+  "changes": 29,
+  "sheets": "{\"kind\":\"sheet\",\"id\":\"ws/648eqi\",\"name\":\"Overview\",\"index\":0,\"range\":\"A1:E28\",\"address\":\"A1:E28\"}\n{\"kind\":\"sheet\",\"id\":\"ws/3tutqm\",\"name\":\"Targets\",\"index\":1,\"range\":\"A1:T686\",\"address\":\"A1:T686\"}\n{\"kind\":\"sheet\",\"id\":\"ws/xh3ii5\",\"name\":\"Searches\",\"index\":2,\"range\":\"A1:V30\",\"address\":\"A1:V30\"}\n{\"kind\":\"sheet\",\"id\":\"ws/bdcrso\",\"name\":\"Work log\",\"index\":3,\"range\":\"A1:I25\",\"address\":\"A1:I25\"}",
+  "counts": [
+    685,
+    28,
+    24,
+    4,
+    2,
+    655,
+    29,
+    0,
+    0
+  ],
+  "updated_utc": "2026-09-08T12:24:22.950Z"
+}

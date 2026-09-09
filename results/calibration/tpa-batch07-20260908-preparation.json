@@ -1,0 +1,508 @@
+{
+  "created_utc": "2026-09-08T13:28:02.137748+00:00",
+  "observed_search_executed": false,
+  "results": [
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "672a5800af8616d37524e6cda94bf4c185dfbd3eb7dd0ba234e12b1a29f7453d",
+        "eligible_cells": 196,
+        "excluded_cells": 4,
+        "frequency_count": 200,
+        "median_worst_phase_amplitude_us": 2759.5502720975715,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/672a5800af8616d37524e6cda94bf4c185dfbd3eb7dd0ba234e12b1a29f7453d",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J0952-3839",
+        "threshold": 26.244726754808656,
+        "timing_rank": 65
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "5543a9d8939685af56779da57eac21cd19c8dcb65692524d5cac374623023aa5",
+      "recovered_amplitude_us": 999.9999999999998,
+      "target": "J0952-3839"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "80fa4ebe07fa5ecc6d1728fddbc6421dea5c88880d5c32f366da4dedb5819a0d",
+        "eligible_cells": 194,
+        "excluded_cells": 4,
+        "frequency_count": 198,
+        "median_worst_phase_amplitude_us": 5863.729098321124,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/80fa4ebe07fa5ecc6d1728fddbc6421dea5c88880d5c32f366da4dedb5819a0d",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1842+1332",
+        "threshold": 26.224626083101654,
+        "timing_rank": 66
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "ca3766830ee894c1bee7fa23a5dfe16528eed9a0b06d753b6c658a8030228cb1",
+      "recovered_amplitude_us": 1000.0000000000002,
+      "target": "J1842+1332"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "1ce770cdb0ad5e979b82754d7de9a34563e24e3df7eb63e757ef0ba1a4e72f45",
+        "eligible_cells": 173,
+        "excluded_cells": 19,
+        "frequency_count": 192,
+        "median_worst_phase_amplitude_us": 7242.371393555576,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/1ce770cdb0ad5e979b82754d7de9a34563e24e3df7eb63e757ef0ba1a4e72f45",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1119-6127",
+        "threshold": 26.16308276576815,
+        "timing_rank": 63
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "92b186c741613cb3ebafad664802c420ffe0ba3eba9e6199c195db0164d28462",
+      "recovered_amplitude_us": 1000.0000000000009,
+      "target": "J1119-6127"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "dcd489b894d7f31824c14d90c0ecc64bdbec6a063fb0e6848597338ecd17826a",
+        "eligible_cells": 194,
+        "excluded_cells": 4,
+        "frequency_count": 198,
+        "median_worst_phase_amplitude_us": 44.390256854318146,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/dcd489b894d7f31824c14d90c0ecc64bdbec6a063fb0e6848597338ecd17826a",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1932+1059",
+        "threshold": 26.224626083101654,
+        "timing_rank": 65
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "023c4bd17eddbfd274d233f7e45a6509d9c90dea7e873b057c5195e265843c2d",
+      "recovered_amplitude_us": 1000.0,
+      "target": "J1932+1059"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "7ed5b70e1a5d9972f19016ce0c4309dbd4b0429949e1092b5793d196f7aab66c",
+        "eligible_cells": 193,
+        "excluded_cells": 8,
+        "frequency_count": 201,
+        "median_worst_phase_amplitude_us": 51.688416401113756,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/7ed5b70e1a5d9972f19016ce0c4309dbd4b0429949e1092b5793d196f7aab66c",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1759-2205",
+        "threshold": 26.254701837830737,
+        "timing_rank": 66
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "9d238e53cd930b50163ec6efe96f15dcb1c29ae6f2e0a41c0b63a278aaadce26",
+      "recovered_amplitude_us": 999.9999999999998,
+      "target": "J1759-2205"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "d1c9f9cffd2d0eeeef7c4ed783ac0132894a0de85768930f3ad2c5695f798187",
+        "eligible_cells": 196,
+        "excluded_cells": 4,
+        "frequency_count": 200,
+        "median_worst_phase_amplitude_us": 78.64505236999065,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/d1c9f9cffd2d0eeeef7c4ed783ac0132894a0de85768930f3ad2c5695f798187",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1543-0620",
+        "threshold": 26.244726754808656,
+        "timing_rank": 62
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "5618855cded40445bff9f32ad91bb52fe1be062482bed50bebfa6718a3f32a33",
+      "recovered_amplitude_us": 999.9999999999998,
+      "target": "J1543-0620"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "0af15922e6275f60692d03e9df64a380c4f5be33c520b3457f347b5a580aa211",
+        "eligible_cells": 223,
+        "excluded_cells": 8,
+        "frequency_count": 231,
+        "median_worst_phase_amplitude_us": 76.70744599649503,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/0af15922e6275f60692d03e9df64a380c4f5be33c520b3457f347b5a580aa211",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1705-1906",
+        "threshold": 26.532927442756172,
+        "timing_rank": 65
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "ffe1e94570448649448417c1fd795b0fb93f824199f43735ab8e0e77de3367e3",
+      "recovered_amplitude_us": 1000.0000000000007,
+      "target": "J1705-1906"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "496332ed1fa8e661110afcede71a1ac4467fbc32c13f4ccec4336f0081805f92",
+        "eligible_cells": 196,
+        "excluded_cells": 4,
+        "frequency_count": 200,
+        "median_worst_phase_amplitude_us": 91.9464836994124,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/496332ed1fa8e661110afcede71a1ac4467fbc32c13f4ccec4336f0081805f92",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1807-2715",
+        "threshold": 26.244726754808656,
+        "timing_rank": 64
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "61fc15a14e35ba545eab9e1243c078ebe730dda147d431cf8361dd68f3da5f82",
+      "recovered_amplitude_us": 999.9999999999995,
+      "target": "J1807-2715"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "23841ec96fef1956d7973af95046419df1eb37bf3d372f9e8b5aa16af8bf8a97",
+        "eligible_cells": 176,
+        "excluded_cells": 22,
+        "frequency_count": 198,
+        "median_worst_phase_amplitude_us": 55.9648544635578,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/23841ec96fef1956d7973af95046419df1eb37bf3d372f9e8b5aa16af8bf8a97",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1917+1353",
+        "threshold": 26.224626083101654,
+        "timing_rank": 64
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "7c2848a3a45234ac2544b9f81352c473e23a3abecd2c26a939f47229041306a9",
+      "recovered_amplitude_us": 1000.0000000000005,
+      "target": "J1917+1353"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "4cd521d9287bdaa2f920245dcfe57d4a3fd4fb075b8fc7e580cdd483517ef223",
+        "eligible_cells": 185,
+        "excluded_cells": 4,
+        "frequency_count": 189,
+        "median_worst_phase_amplitude_us": 113.3199985311865,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/4cd521d9287bdaa2f920245dcfe57d4a3fd4fb075b8fc7e580cdd483517ef223",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1808-3249",
+        "threshold": 26.131586051831867,
+        "timing_rank": 64
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "ca1f1ee66598267f969f607d784d2d36c5ee85142e070078903aa5c7ac82e728",
+      "recovered_amplitude_us": 999.9999999999995,
+      "target": "J1808-3249"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "faa4e00286bcfeaf2e213bf844e85b35898430a9bf2779622c2df107d4a0d7ec",
+        "eligible_cells": 194,
+        "excluded_cells": 4,
+        "frequency_count": 198,
+        "median_worst_phase_amplitude_us": 122.78822250589309,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/faa4e00286bcfeaf2e213bf844e85b35898430a9bf2779622c2df107d4a0d7ec",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1909+1102",
+        "threshold": 26.224626083101654,
+        "timing_rank": 65
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "700354d2b9067a6598a5f9c9cecdbad71f470bb69d058cc14621cab1bd4910ab",
+      "recovered_amplitude_us": 1000.0000000000007,
+      "target": "J1909+1102"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "7b1710083fc79b16158784ca5e377f88e13c97e84f374e70b8792cf81a2f2119",
+        "eligible_cells": 196,
+        "excluded_cells": 4,
+        "frequency_count": 200,
+        "median_worst_phase_amplitude_us": 121.49073889970401,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/7b1710083fc79b16158784ca5e377f88e13c97e84f374e70b8792cf81a2f2119",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1141-3322",
+        "threshold": 26.244726754808656,
+        "timing_rank": 65
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "252dae9da2111cae3c598f93cd0f1e62f77689df277fcd7d2b8d39837d20ee1d",
+      "recovered_amplitude_us": 1000.0000000000007,
+      "target": "J1141-3322"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "ecaee15248196caaa44c13473bf7cb52fdf324ea523fe48ccc11a8252976cb1b",
+        "eligible_cells": 194,
+        "excluded_cells": 4,
+        "frequency_count": 198,
+        "median_worst_phase_amplitude_us": 125.39930759038589,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/ecaee15248196caaa44c13473bf7cb52fdf324ea523fe48ccc11a8252976cb1b",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1916+0951",
+        "threshold": 26.224626083101654,
+        "timing_rank": 66
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "c74fed35789d03b2c92e10054324cb9f896c2c3172d46de9c6e2d048a1023580",
+      "recovered_amplitude_us": 1000.0000000000002,
+      "target": "J1916+0951"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "46625809df81958f0710a23ffe15441f4a5d33758cdc3276d10ca9109b65a796",
+        "eligible_cells": 194,
+        "excluded_cells": 4,
+        "frequency_count": 198,
+        "median_worst_phase_amplitude_us": 131.38869004051932,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/46625809df81958f0710a23ffe15441f4a5d33758cdc3276d10ca9109b65a796",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1905-0056",
+        "threshold": 26.224626083101654,
+        "timing_rank": 69
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "3c176257516d960bfd44abb5cabd61c3e1637d86f23f334140cd7a63bdce3316",
+      "recovered_amplitude_us": 1000.0000000000009,
+      "target": "J1905-0056"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "886628c3267e6466b6e1e76ae2bb548efe91d9526da7a250290376a69965e31e",
+        "eligible_cells": 217,
+        "excluded_cells": 4,
+        "frequency_count": 221,
+        "median_worst_phase_amplitude_us": 131.84905797440828,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/886628c3267e6466b6e1e76ae2bb548efe91d9526da7a250290376a69965e31e",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1754-3510",
+        "threshold": 26.44441742474809,
+        "timing_rank": 66
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "fe4b76e5b2d022cb771c397a32f657e6bf2f03877f4eb89cc1ceac487aa280bc",
+      "recovered_amplitude_us": 1000.0000000000007,
+      "target": "J1754-3510"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "23316c57f98e7f2c6f8dc2b850cff7e5a4e08887dc2319a531f8061932503676",
+        "eligible_cells": 191,
+        "excluded_cells": 4,
+        "frequency_count": 195,
+        "median_worst_phase_amplitude_us": 143.02712568681636,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/23316c57f98e7f2c6f8dc2b850cff7e5a4e08887dc2319a531f8061932503676",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1913-0440",
+        "threshold": 26.19409113884008,
+        "timing_rank": 65
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "74881f2053625f48a62a6352cf1e9bad8e12fccb99369bb0754f5214484ee754",
+      "recovered_amplitude_us": 1000.0,
+      "target": "J1913-0440"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "c6d7956be4a977c65bae4e566dbc20677eaa47f34d8e59518871febf703bec7c",
+        "eligible_cells": 194,
+        "excluded_cells": 4,
+        "frequency_count": 198,
+        "median_worst_phase_amplitude_us": 145.52059651452356,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/c6d7956be4a977c65bae4e566dbc20677eaa47f34d8e59518871febf703bec7c",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1909+0007",
+        "threshold": 26.224626083101654,
+        "timing_rank": 66
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "a1c759fc3761aecd2c4d7282ab480bb27d5fab3f46d89162dce611e93ba25deb",
+      "recovered_amplitude_us": 999.9999999999992,
+      "target": "J1909+0007"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "5d39857e2eb4a46f838000b46657e6b6e5593cd3e02f4a462b66648c5c6295c3",
+        "eligible_cells": 194,
+        "excluded_cells": 4,
+        "frequency_count": 198,
+        "median_worst_phase_amplitude_us": 152.91595302948804,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/5d39857e2eb4a46f838000b46657e6b6e5593cd3e02f4a462b66648c5c6295c3",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1915+1009",
+        "threshold": 26.224626083101654,
+        "timing_rank": 66
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "16260ede9283a369bb7d8ead8d879f25f70bbf8d96ad3a2451cbf0647983a319",
+      "recovered_amplitude_us": 1000.0000000000002,
+      "target": "J1915+1009"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "fb87f5a8369a078382bb5b1b4210d9b424157a288a5d6a50996c6c38c8404da8",
+        "eligible_cells": 209,
+        "excluded_cells": 3,
+        "frequency_count": 212,
+        "median_worst_phase_amplitude_us": 151.95581543102207,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/fb87f5a8369a078382bb5b1b4210d9b424157a288a5d6a50996c6c38c8404da8",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J0855-3331",
+        "threshold": 26.36126457105661,
+        "timing_rank": 68
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "b33faaf4b64dd500dfd2637e8b74048f97061f0783ecac682e311dea1ac2ba13",
+      "recovered_amplitude_us": 1000.0,
+      "target": "J0855-3331"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "e5dcc0bfab767bbdfa3eca155d80bda8a28aa120f3741689395cac4daa2d39e4",
+        "eligible_cells": 195,
+        "excluded_cells": 3,
+        "frequency_count": 198,
+        "median_worst_phase_amplitude_us": 155.97439392727034,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/e5dcc0bfab767bbdfa3eca155d80bda8a28aa120f3741689395cac4daa2d39e4",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1850+1335",
+        "threshold": 26.224626083101654,
+        "timing_rank": 64
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "6da06f0f9e515458d15b1ab00913958d5f6c972cbe522f74dafac9cf282cce31",
+      "recovered_amplitude_us": 999.9999999999993,
+      "target": "J1850+1335"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "43e5dfdad1316d306d261b96b82b23d3e81343720fe590575bdeae997c4194e3",
+        "eligible_cells": 189,
+        "excluded_cells": 4,
+        "frequency_count": 193,
+        "median_worst_phase_amplitude_us": 155.17576794970347,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/43e5dfdad1316d306d261b96b82b23d3e81343720fe590575bdeae997c4194e3",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1909+0254",
+        "threshold": 26.173472399522357,
+        "timing_rank": 65
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "cc89afbce1652bcdd08ca12b6aaea937d6732175f462bffc70a12f8a579b1477",
+      "recovered_amplitude_us": 1000.0000000000002,
+      "target": "J1909+0254"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "8849a53062ca1a94c78386d93992309d79e13f094393677aa466a502f08a5466",
+        "eligible_cells": 191,
+        "excluded_cells": 4,
+        "frequency_count": 195,
+        "median_worst_phase_amplitude_us": 169.7440295177624,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/8849a53062ca1a94c78386d93992309d79e13f094393677aa466a502f08a5466",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1834-0426",
+        "threshold": 26.19409113884008,
+        "timing_rank": 66
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "5156c94a73e4c79d440bd04c136a9b2645d2a4431260a7ee3fdcfb7bffe14710",
+      "recovered_amplitude_us": 999.9999999999998,
+      "target": "J1834-0426"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "fecdf2125e80cdd00ffce9c3265a3be4819cbe56b0c2750c88886dade3abac61",
+        "eligible_cells": 189,
+        "excluded_cells": 4,
+        "frequency_count": 193,
+        "median_worst_phase_amplitude_us": 175.26935163888604,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/fecdf2125e80cdd00ffce9c3265a3be4819cbe56b0c2750c88886dade3abac61",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1853-0004",
+        "threshold": 26.173472399522357,
+        "timing_rank": 66
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "15794b482cb1668b059c432ed73d7f14d35b822ea1d2b5313f13552535a402f6",
+      "recovered_amplitude_us": 999.9999999999992,
+      "target": "J1853-0004"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "d296e9d5e86fb427976c8d2a3aa8d4211c8035f70b5cf4592dcbb315a504cb18",
+        "eligible_cells": 191,
+        "excluded_cells": 4,
+        "frequency_count": 195,
+        "median_worst_phase_amplitude_us": 186.53197263054017,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/d296e9d5e86fb427976c8d2a3aa8d4211c8035f70b5cf4592dcbb315a504cb18",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1820-0427",
+        "threshold": 26.19409113884008,
+        "timing_rank": 64
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "3895a7ad755d82ba59bef024b496856111d737c8fe5549fa88190ee99c991d07",
+      "recovered_amplitude_us": 1000.0000000000005,
+      "target": "J1820-0427"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "70a9b34aa290c6b282afe688e77684ce79760cfc6758a2f45512bf70f144b0fb",
+        "eligible_cells": 186,
+        "excluded_cells": 12,
+        "frequency_count": 198,
+        "median_worst_phase_amplitude_us": 123.51447896502638,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch07-20260908/calibration-cache/70a9b34aa290c6b282afe688e77684ce79760cfc6758a2f45512bf70f144b0fb",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1844+1454",
+        "threshold": 26.224626083101654,
+        "timing_rank": 65
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "71428333231ad6b5e876fb296fecd6c32b1e918b54d6ae846714bf467a683f45",
+      "recovered_amplitude_us": 999.9999999999998,
+      "target": "J1844+1454"
+    }
+  ],
+  "selection_sha256": "a0944d5da0924367a8ed78a56de7826f64b6d517eb7c66fa044c452abc4894a7",
+  "status": "PREPARED"
+}

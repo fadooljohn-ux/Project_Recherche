@@ -1,0 +1,27 @@
+{
+  "target": "J1048-5832",
+  "created_utc": "2026-09-09T06:21:53.886205+00:00",
+  "result_path": "../Project Recherche Data/utmost-batch04-20260909/J1048-5832/run01/result.json",
+  "result_sha256": "2c04882bac3140cbe9877014b9d55d8af67c55e8ce6899a4151ed9c36054fa29",
+  "next_step": "Bounded review complete; preserve noise-sensitive candidate. Await informative independent data and owner-directed follow-up.",
+  "entries": [
+    {
+      "id": "utmost-batch04-20260909-J1048-5832-review",
+      "kind": "CANDIDATE_DEEP_REVIEW",
+      "status": "INCONCLUSIVE_NOISE_SENSITIVE",
+      "summary": "The approximately 105-day signal collapses from \u0394\u03c7\u00b2 36.74 to about 1.52 with broader red-noise coverage. No simulated global maximum falls below its candidate comparison statistic. TPA has only 2.8% conditional detection power. Its weak fixed-period response cannot confirm or meaningfully rule out this waveform.",
+      "scope": "Four bounded steps; 512 nulls and 256 injections; existing TPA fixed-period comparison. Original search preserved.",
+      "source": "./docs/UTMOST_BATCH04_CANDIDATE_REVIEWS_2026-09-09.md",
+      "source_sha256": "0b461b3100c76127d2951a06261cd425bd322f4952c97c50331bdb726ce469c6"
+    },
+    {
+      "id": "utmost-batch04-20260909-J1048-5832-pulse-repair",
+      "kind": "PREPARATION_REPAIR",
+      "status": "REPAIRED_BEFORE_CALIBRATION",
+      "summary": "Preserved failed supplied pulse-count spread check; repaired full integer pulse tracking. Independent PINT agreement 1.71e-11 cycles.",
+      "scope": "Adapter-only development repair; shared solver unchanged; observed run executed once after calibration.",
+      "source": "./results/research/utmost-batch04-20260909/independent-pulse-check.json",
+      "source_sha256": "6da7d5f9695e63068403218ad0849578fe9c3752d4e135cc7228b5606522e3a5"
+    }
+  ]
+}

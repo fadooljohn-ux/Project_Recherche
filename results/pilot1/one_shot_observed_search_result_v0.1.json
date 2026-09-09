@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "result_id": "pilot1-one-shot-observed-residual-search-result-v0.1",
+  "status": "complete_no_candidate_under_frozen_detector",
+  "target": "J1744-1134",
+  "dataset": "nanograv_15yr_timing_v2.1.0_wideband",
+  "execution_identity": {
+    "package_manifest_sha256": "1efe2878789299dfa017146740f6c0f8d2cba8fd6ebca4e86f0d65c4792f4235",
+    "one_shot_freeze_sha256": "49baf0314e1daf0d1d0ca0b54a2d600246978aed023abc85a4d8e81a78bf017b",
+    "implementation_sha256": "61c7998f725a601f897b0eed466e5eeca3b6542394e71f9c46538751f8c474cd",
+    "fable_signoff_sha256": "e3aa4ba1430ec31064707c7bebecf93e595aa0e2a11ac0ecd67ebecdb516ac5b",
+    "user_authorization_sha256": "05d794356bfbe8e6b9f6a764b65f424a9564fcd405f5156780f426ffc5399d82"
+  },
+  "external_records": {
+    "intent": {
+      "logical_path": "run_records/pilot1/one-shot-observed-search-v0.1-intent.json",
+      "bytes": 659,
+      "sha256": "cd76bab246979e4aaa1e5513c10ba8c2951242054ce27271c6c1be429821c8ee"
+    },
+    "result": {
+      "logical_path": "run_records/pilot1/one-shot-observed-search-v0.1-result.json",
+      "bytes": 3999,
+      "sha256": "720f3604058121ddc4aa7ff5a0be159089b28ca279328b18addd4d1904ce06bc"
+    },
+    "log": {
+      "logical_path": "run_records/pilot1/one-shot-observed-search-v0.1.log",
+      "bytes": 706,
+      "sha256": "efafe93f6dab0c2ba1894da87a3628e5fcee8e93696094d6056686e3d4dd5079"
+    }
+  },
+  "detector": {
+    "locked_threshold_delta_chi2": 23.33426855482562,
+    "threshold_comparison": "strictly_greater_than",
+    "period_minimum_days": 30.0,
+    "period_maximum_days": 2000.0,
+    "frequency_count": 941,
+    "observed_scan_count": 1
+  },
+  "outcome": {
+    "candidate_present": false,
+    "strongest_unmasked_statistic": 16.499061440870975,
+    "strongest_unmasked_frequency_per_day": 0.016676635539898083,
+    "strongest_unmasked_period_days": 59.964133509276856,
+    "full_grid_maximum_statistic": 16.499061440870975,
+    "full_grid_maximum_masked": false,
+    "candidate_refits_executed": false,
+    "advisory_deletion_diagnostics_executed": false
+  },
+  "integrity_score": {
+    "overall": "PASS",
+    "passed": 12,
+    "total": 12,
+    "checks": [
+      "intent_consumed",
+      "required_report_fields",
+      "run_complete",
+      "one_observed_scan",
+      "candidate_rule_applied_exactly",
+      "candidate_absent",
+      "candidate_only_branches_skipped",
+      "hashes_verified",
+      "warning_hygiene_passed",
+      "resource_envelope_passed",
+      "one_shot_authorization_consumed",
+      "no_discovery_claim"
+    ]
+  },
+  "resources": {
+    "wall_hours": 0.000645483437498721,
+    "peak_memory_gib": 0.2742576599121094,
+    "complete_data_root_gib": 0.8205522354692221,
+    "all_frozen_limits_passed": true
+  },
+  "claim_boundary": {
+    "supported": "No candidate exceeded the frozen threshold in the single authorized 30-to-2000-day strongest-unmasked circular-signal search.",
+    "not_supported": [
+      "absence of every possible companion or timing signal",
+      "sensitivity inside the three annual masked grid cells",
+      "sensitivity outside the frozen period range",
+      "sensitivity to signal families not represented by the frozen circular model",
+      "a discovery or mass measurement"
+    ],
+    "additional_observed_search_authorized": false,
+    "threshold_retuning_authorized": false,
+    "automatic_retry_authorized": false
+  },
+  "next_gate": "independent_postexecution_result_and_claim_audit"
+}

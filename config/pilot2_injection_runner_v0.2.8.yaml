@@ -1,0 +1,121 @@
+schema_version: 1
+runner_id: pilot2-b1937-injection-runner-v0.2.8
+status: implementation_candidate_execution_not_authorized
+target: B1937+21
+inventory_policy: reuse_exact_unexecuted_v0.2.3_inventory_without_seed_churn
+
+authority:
+  implementation_freeze_created: false
+  readiness_freeze_created: false
+  real_root_context_preflight_authorized: false
+  execution_authorized: false
+  observed_residual_access_authorized: false
+  observed_periodic_search_authorized: false
+  promotion_grade_authorized: false
+  discovery_claim_authorized: false
+  v0.2.7_resume_authorized: false
+
+inventory:
+  inventory_sha256: 811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b
+  main_cases: 240
+  phase_reference_cases: 60
+  annual_cases: 28
+  boundary_cases: 16
+  total_cases: 344
+  solver_audit_cases: 35
+  execution_order: [main, phase_reference, annual, boundary]
+
+manifests:
+  resource: protocol/PILOT2_RUNTIME_RESOURCE_MANIFEST_v0.2.8.json
+  environment: protocol/PILOT2_RUNTIME_ENVIRONMENT_MANIFEST_v0.2.8.json
+
+implementation_paths:
+  - src/pulsar_pilot/pilot2_trusted_data.py
+  - src/pulsar_pilot/pilot2_offline_resources.py
+  - src/pulsar_pilot/pilot2_release_contract.py
+  - src/pulsar_pilot/pilot2_durable_ledger.py
+  - src/pulsar_pilot/pilot2_runtime_core.py
+  - src/pulsar_pilot/pilot2_injection_runner_v028.py
+  - src/pulsar_pilot/pilot2_injection_executor_v028.py
+  - src/pulsar_pilot/pilot2_injection_executor_v023.py
+  - src/pulsar_pilot/pilot2_injection_remediation_v023.py
+  - src/pulsar_pilot/pilot2_injection_runner_v022.py
+  - src/pulsar_pilot/pilot2_injection_remediation.py
+  - src/pulsar_pilot/injection_integrity.py
+  - src/pulsar_pilot/c1.py
+  - src/pulsar_pilot/c1r1.py
+  - src/pulsar_pilot/c3.py
+  - src/pulsar_pilot/pilot1_benchmark.py
+  - src/pulsar_pilot/pilot1_runtime.py
+  - src/pulsar_pilot/pilot2_preflight.py
+  - tests/test_pilot2_controls_v028.py
+
+predecessor_bindings:
+  threshold_lock:
+    logical_path: run_records/pilot2/calibration-threshold-lock-v0.2.1.json
+    sha256: 6e624af784aabd92ce8b28babdaed4c863ca12c94caad756da005f14bf9b5117
+  sealed_gaussian_result:
+    logical_path: run_records/pilot2/sealed-gaussian-evaluation-v0.2.1.json
+    sha256: f3a8677ea28255c7c06afd815fad1d911fcadde9a1fb0a4b2bf464f78aa59034
+  structured_tail_result:
+    logical_path: run_records/pilot2/structured-tail-evaluation-v0.2.1.json
+    sha256: 540f5d12496a02687253b3d0a64e63208c8df53d8cdae3f3935cc8da4fc0f252
+  v0.2.1_terminal_result:
+    logical_path: run_records/pilot2/injection-evaluation-v0.2.1.json
+    sha256: 06cf10aa00231ecac05abccbe491b21c074371d749f8cc88dccff8cf034fba8c
+  v0.2.1_final_ledger:
+    logical_path: run_records/pilot2/calibration-v0.2.1-ledger.json
+    sha256: cb13ffc749cd4bec1ab41dfcfe056850507d52546c9425e2b4fbfff49c1bc621
+  v0.2.2_execution_freeze:
+    logical_path: protocol/PILOT2_INJECTION_EXECUTION_FREEZE_v0.2.2.json
+    sha256: 9e247d3d3c2eba0edc936b2db778683257ae5888c1bd581f682dc074ba768d03
+  v0.2.2_crash_audit:
+    logical_path: results/pilot2/injection_v022_crash_audit.json
+    sha256: 6d58ef1be4a03969be41ee3e0d916adaa252ee5bfa42d7c23244f203f878b473
+  v0.2.7_execution_freeze:
+    logical_path: protocol/PILOT2_INJECTION_EXECUTION_FREEZE_v0.2.7.json
+    sha256: 8c45fe999b0c871d0cc383d47829aa175863a08d25bf00afef29f043f5dba5f8
+  v0.2.7_startup_failure_audit:
+    logical_path: results/pilot2/injection_v027_startup_failure_audit.json
+    sha256: c9d00f3c021091c18722d1a288c91e218f447ce1f9ac3f507dda0b9fdc70ab9d
+
+paths:
+  ledger: run_records/pilot2/calibration-v0.2.8-ledger.json
+  health: run_records/pilot2/calibration-v0.2.8-health.json
+  dashboard: derived/pilot2/calibration-v0.2.8-dashboard/index.html
+  setup_log: run_records/pilot2/injection-v0.2.8-setup.log
+  case_root: derived/pilot2/calibration-v0.2.8/injections
+  annual_mask: run_records/pilot2/annual-identifiability-mask-v0.2.8.json
+  result: run_records/pilot2/injection-evaluation-v0.2.8.json
+  lock: run_records/pilot2/locks/pilot2-v0.2.8.lock
+
+execution_controls:
+  single_writer_lock: fcntl_flock_nonblocking_exclusive
+  lock_acquired_before_first_runtime_mutation: true
+  checkpoint_every_cases: 25
+  heartbeat_interval_seconds: 30
+  heartbeat_stale_after_seconds: 90
+  passive_review_interval_seconds: 1800
+  attempt_journal_before_random_draw_or_fit: true
+  interrupted_attempt_without_verified_artifact: consumed_terminal_hard_stop
+  interrupted_attempt_with_verified_artifact: adopt_without_recomputation
+  unique_same_directory_temporary_files: true
+  exact_ledger_schema_and_state_machine: true
+  verify_completed_and_stage_result_artifacts: true
+  already_complete_requires_full_terminal_verification: true
+  strict_duplicate_free_json_and_yaml: true
+  exact_execution_freeze_schema: true
+  repository_authorization_before_external_root_access: true
+  same_context_function_for_preflight_and_execution: true
+  local_only_pint_resource_repository: true
+  network_attempts_denied_and_counted: true
+  annual_mask_separate_durable_artifact: true
+  scientific_outcomes_in_health_record: false
+
+resource_caps:
+  wall_hours_maximum: 6.0
+  peak_memory_gib_maximum: 16.0
+  complete_data_root_gib_maximum: 1.5
+  additional_download_bytes_maximum: 0
+
+next_gate: repository_and_temporary_root_zero_science_validation

@@ -1,0 +1,116 @@
+schema_version: 1
+plan_id: pilot1-preunblinding-validation-v0.1
+status: frozen_for_synthetic_validation_only
+target: J1744-1134
+observed_residual_access_authorized: false
+observed_periodic_search_authorized: false
+
+locked_detector:
+  threshold_delta_chi2: 23.33426855482562
+  threshold_comparison: strictly_greater_than
+  search_period_minimum_days: 30.0
+  search_period_maximum_days: 2000.0
+  frequency_spacing: one_fifth_independent_fourier_bin
+  threshold_calibration_domain: full_frozen_grid_global_maximum
+  threshold_retuning_authorized: false
+
+sequential_decision_control:
+  original_tail_evaluation:
+    false_positives: 7
+    cases: 500
+    status: preserved_failure
+  r1_tail_evaluation:
+    false_positives: 7
+    cases: 1000
+    status: passing_disjoint_correction
+  pooled_14_of_1500_role: contextual_only_not_a_gate
+  further_tail_reroll_authorized: false
+  failure_disposition: detector_rebaseline_or_robust_statistic_replacement
+
+structured_tail_variants:
+  evaluation_cases_per_variant: 1000
+  calibration_cases_per_variant: 0
+  common:
+    contaminated_probability: 0.01
+    covariance_source: released_white_and_PLRedNoise_model
+    threshold_delta_chi2: 23.33426855482562
+    threshold_retuning_authorized: false
+    false_positive_interval: wilson_95_percent
+    rebaseline_tripwire: false_positive_wilson_lower_95_strictly_greater_than_0.01
+    no_reroll: true
+  variants:
+    - id: timing_block_scale_mixture
+      base_seed: 17441150
+      selected_native_innovation_block: timing
+      contaminated_standard_deviation_multiplier: 3.1718582673952787
+      target_innovation_excess_kurtosis: 2.0499442954895493
+      analytic_unit_variance_normalization: true
+    - id: dm_block_scale_mixture
+      base_seed: 17441151
+      selected_native_innovation_block: dm
+      contaminated_standard_deviation_multiplier: 2.460350417206727
+      target_innovation_excess_kurtosis: 0.6872126890177328
+      analytic_unit_variance_normalization: true
+    - id: clustered_utc_day_scale_mixture
+      base_seed: 17441152
+      selection_unit: floor_mjd_utc_day
+      selected_day_probability: 0.01
+      apply_to_paired_timing_and_dm_coordinates: true
+      contaminated_standard_deviation_multiplier: 2.8237419549367053
+      target_marginal_excess_kurtosis: 1.262140834554768
+      analytic_unit_variance_normalization: true
+
+deletion_stability_cost:
+  source: exact_160_tail_robustness_v0p1_recovery_cases
+  regeneration: exact_original_case_ids_seeds_noise_and_injections
+  new_random_draws_authorized: false
+  source_artifact_mutation_authorized: false
+  denominator: originally_triggered_and_frequency_recovered_cases
+  deletion_units:
+    - paired_wideband_toa_row
+    - all_rows_on_one_floor_mjd_utc_day
+  removal_semantics: rebuild_reduced_covariance_design_projection_and_full_frozen_grid_scan
+  stability_definition:
+    remains_strictly_above_locked_threshold: true
+    recovered_peak_within_one_independent_fourier_bin: true
+  hard_veto_adoption_gate:
+    observed_false_veto_rate_maximum: 0.01
+    wilson_upper_95_maximum: 0.05
+    integrity_failures_maximum: 0
+  failure_disposition: remain_advisory_and_block_search_pending_independent_review
+
+annual_mask_semantics:
+  scan_full_frozen_grid_once: true
+  candidate_statistic: strongest_unmasked_grid_cell_delta_chi2
+  candidate_threshold: 23.33426855482562
+  masked_cells_can_suppress_unmasked_candidate: false
+  masked_cells_role: sensitivity_gap_only
+
+candidate_disposition:
+  hard_abort:
+    - frozen_input_or_hash_failure
+    - code_config_environment_or_run_record_integrity_failure
+    - ordinary_or_joint_refit_nonconvergence
+    - solver_disagreement_beyond_frozen_tolerances
+    - unexpected_material_warning
+  hard_veto_if_cost_gate_passes:
+    - single_paired_row_dependence
+    - single_utc_day_dependence
+  advisory_only:
+    - backend_frontend_or_observing_system_concentration
+    - post_candidate_residual_kurtosis
+    - amplitude_phase_stability_between_data_halves
+    - pooled_tail_context_14_of_1500
+    - behrens_contextual_ratio
+
+resources:
+  macbook_wall_hours_maximum: 4.0
+  peak_memory_gib_maximum: 16.0
+  complete_data_root_gib_maximum: 5.0
+
+final_review:
+  planned_independent_reviewer: Claude Fable 5
+  pipeline_operator_may_sign_as_independent_reviewer: false
+  reviewer_must_not_inspect_observed_periodic_content: true
+  hash_bound_signoff_required: true
+  passing_signoff_required_before_observed_execution: true

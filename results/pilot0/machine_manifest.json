@@ -1,0 +1,12 @@
+{
+  "logical_cpus": 10,
+  "memory_bytes": 34359738368,
+  "peak_rss_bytes_at_recording": 39419904,
+  "platform": "macOS-26.5.2-x86_64-i386-64bit",
+  "process_machine": "x86_64",
+  "processor": "i386",
+  "python_version": "3.11.15",
+  "recorded_utc": "2026-08-09T01:13:50.081528+00:00",
+  "schema_version": 1,
+  "workspace_free_bytes": 422683119616
+}

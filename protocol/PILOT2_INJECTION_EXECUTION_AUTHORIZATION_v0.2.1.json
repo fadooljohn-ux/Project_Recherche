@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "authorization_id": "user-authorization-pilot2-injection-v0.2.1-2026-08-10",
+  "recorded_utc": "2026-08-10T05:03:06Z",
+  "authorization_source": "user_proceeded_after_explicit_request_for_exact_284_case_scope",
+  "authorization": "execute_exactly_284_frozen_injection_cases_and_29_embedded_solver_audits",
+  "authorized_case_counts": {
+    "main": 240,
+    "annual": 28,
+    "boundary": 16,
+    "solver_audits": 29
+  },
+  "authorized_primary_fits": 568,
+  "no_reroll": true,
+  "threshold_retuning_authorized": false,
+  "promotion_grade_authorized": false,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "discovery_claim_authorized": false,
+  "inventory_sha256": "5dc1601881e58b64d5afd8f4a4236e441447155bfb9e6b9d03d58958b3331106",
+  "implementation_sha256": "ca11f0177271940d35eb563dad70adb0cf436bc95d533bd6311607338ff97212",
+  "implementation_freeze_sha256": "649f378aa7109eb1780149038271d37c09e3d3ece70d62a3aa3c0ccdd58d66d3",
+  "readiness_sha256": "cd7b4e62cf88931c4efa7416a5419b50cc05531b4660bb08e74bb040725e8880",
+  "structured_closeout_sha256": "46efd1db1f2330ea64fe5fe37b63c8d1fdacb08eff0a2bba07b43fa4f99028ca",
+  "threshold_lock_sha256": "6e624af784aabd92ce8b28babdaed4c863ca12c94caad756da005f14bf9b5117"
+}

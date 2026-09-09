@@ -1,0 +1,21 @@
+{
+  "status": "DIAGNOSED",
+  "events": [
+    {
+      "issue": "Legacy Fortran ephemeris reader split a path at its first space and segfaulted.",
+      "repair": "Use a dedicated space-free TEMPO2 runtime alias.",
+      "observed_scans": 0
+    },
+    {
+      "issue": "Model-only import defaulted the May 2019 DM2 coefficient to the post-June-2020 Taylor convention.",
+      "repair": "Explicit DM_SERIES POLY in a derived model; preserve original coefficients and file.",
+      "source_commit": "bbb60029ba86d5880d2e7aec14d6b893991a7655"
+    },
+    {
+      "issue": "Numerical derivatives have the opposite sign to the TEMPO2 correction design.",
+      "repair": "Verify the documented correction convention against -dr/dp; no projection subspace change."
+    }
+  ],
+  "preliminary_attempt": "J1721-2457/attempt01",
+  "search_launched": false
+}

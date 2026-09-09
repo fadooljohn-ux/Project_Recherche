@@ -1,0 +1,225 @@
+{
+  "created_utc": "2026-09-08T11:29:24.220493+00:00",
+  "limitations": "Fixed MAP shape/index/noise; 96 injections per target are engineering checks, not new qualification or a measured 95% completeness guarantee",
+  "observed_search_executed": false,
+  "results": [
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "1143f3165e16e321f99f74ff9528073d4b336df3e01dea3ed78628619a98c88b",
+        "eligible_cells": 181,
+        "excluded_cells": 7,
+        "frequency_count": 188,
+        "median_worst_phase_amplitude_us": 3.1549219268248274,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/chromatic-support-20260908/calibration-cache/1143f3165e16e321f99f74ff9528073d4b336df3e01dea3ed78628619a98c88b",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1721-2457",
+        "threshold": 22.455813019875862,
+        "timing_rank": 75
+      },
+      "comparison": "Same cells/threshold; denominator omits published chromatic effects",
+      "conditional_sensitivity_cost_ratio_median": 1.000055907504385,
+      "conditional_sensitivity_cost_ratio_range": [
+        1.000000000123304,
+        1.0012823850792534
+      ],
+      "diagnostic_code_sha256": "8ee0ef958c5571b76d0f56729fa375921af9c047a197fa4a48e3952dc2b244a6",
+      "injections": [
+        {
+          "amplitude_us": 3.154161223409887,
+          "detections_at_injected_cell": 31,
+          "grid_period_days": 60.28484767677311,
+          "noiseless_relative_coefficient_error": 1.2113610666999566e-15,
+          "requested_period_days": 60.0,
+          "trials": 32
+        },
+        {
+          "amplitude_us": 3.180069948647627,
+          "detections_at_injected_cell": 32,
+          "grid_period_days": 150.5229598592111,
+          "noiseless_relative_coefficient_error": 1.3384258686695353e-15,
+          "requested_period_days": 150.0,
+          "trials": 32
+        },
+        {
+          "amplitude_us": 5.372479490009566,
+          "detections_at_injected_cell": 30,
+          "grid_period_days": 273.21050768666987,
+          "noiseless_relative_coefficient_error": 6.309536877425257e-16,
+          "requested_period_days": 300.0,
+          "trials": 32
+        }
+      ],
+      "observed_search_executed": false,
+      "profile_sha256": "9919d6fb547dd05c979d273bbb7b4675db34d808e0d4b4709f29e3fd3bb76acf",
+      "status": "DEVELOPMENT_COMPLETE",
+      "support_sha256": "24b690a4a73c4cbcf082c8e520fffa5395dde114c00202aa963d1cd5d89a21a9",
+      "target": "J1721-2457"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "b8898e7567f16374127bcf42fe4a17d32eb04d009d14c5c100316530b2e27925",
+        "eligible_cells": 232,
+        "excluded_cells": 11,
+        "frequency_count": 243,
+        "median_worst_phase_amplitude_us": 0.9183331225305384,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/chromatic-support-20260908/calibration-cache/b8898e7567f16374127bcf42fe4a17d32eb04d009d14c5c100316530b2e27925",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1832-0836",
+        "threshold": 22.96905198089706,
+        "timing_rank": 86
+      },
+      "comparison": "Same cells/threshold; denominator omits published chromatic effects",
+      "conditional_sensitivity_cost_ratio_median": 1.0006033291684915,
+      "conditional_sensitivity_cost_ratio_range": [
+        1.0000000403253129,
+        1.0085419251887524
+      ],
+      "diagnostic_code_sha256": "8ee0ef958c5571b76d0f56729fa375921af9c047a197fa4a48e3952dc2b244a6",
+      "injections": [
+        {
+          "amplitude_us": 0.8595310352506603,
+          "detections_at_injected_cell": 32,
+          "grid_period_days": 59.93096861582264,
+          "noiseless_relative_coefficient_error": 8.888481142993239e-16,
+          "requested_period_days": 60.0,
+          "trials": 32
+        },
+        {
+          "amplitude_us": 0.9053304380180639,
+          "detections_at_injected_cell": 31,
+          "grid_period_days": 148.86669863171997,
+          "noiseless_relative_coefficient_error": 2.129540467409742e-15,
+          "requested_period_days": 150.0,
+          "trials": 32
+        },
+        {
+          "amplitude_us": 1.3986894593426722,
+          "detections_at_injected_cell": 32,
+          "grid_period_days": 294.58516716976783,
+          "noiseless_relative_coefficient_error": 1.3654994594928608e-15,
+          "requested_period_days": 300.0,
+          "trials": 32
+        }
+      ],
+      "observed_search_executed": false,
+      "profile_sha256": "ee62ff823bbfae93de2112e230e4585fe5c58cb2b1b5a10bf601cbaaf7a97579",
+      "status": "DEVELOPMENT_COMPLETE",
+      "support_sha256": "24b690a4a73c4cbcf082c8e520fffa5395dde114c00202aa963d1cd5d89a21a9",
+      "target": "J1832-0836"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "4bb96ffc47cada4a1e92d11735cfc604e107337d34b1d7c76084619d3009a8e3",
+        "eligible_cells": 225,
+        "excluded_cells": 6,
+        "frequency_count": 231,
+        "median_worst_phase_amplitude_us": 1.5688837153355084,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/chromatic-support-20260908/calibration-cache/4bb96ffc47cada4a1e92d11735cfc604e107337d34b1d7c76084619d3009a8e3",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1747-4036",
+        "threshold": 22.86776451525955,
+        "timing_rank": 105
+      },
+      "comparison": "Same cells/threshold; denominator omits published chromatic effects",
+      "conditional_sensitivity_cost_ratio_median": 1.0117542439283107,
+      "conditional_sensitivity_cost_ratio_range": [
+        1.00607079688074,
+        1.1427274571355361
+      ],
+      "diagnostic_code_sha256": "8ee0ef958c5571b76d0f56729fa375921af9c047a197fa4a48e3952dc2b244a6",
+      "injections": [
+        {
+          "amplitude_us": 1.5652553961659281,
+          "detections_at_injected_cell": 30,
+          "grid_period_days": 60.23547866367999,
+          "noiseless_relative_coefficient_error": 5.818212891375466e-15,
+          "requested_period_days": 60.0,
+          "trials": 32
+        },
+        {
+          "amplitude_us": 1.8050694566305325,
+          "detections_at_injected_cell": 30,
+          "grid_period_days": 150.0757108915406,
+          "noiseless_relative_coefficient_error": 2.213210348536e-15,
+          "requested_period_days": 150.0,
+          "trials": 32
+        },
+        {
+          "amplitude_us": 4.720828967278087,
+          "detections_at_injected_cell": 32,
+          "grid_period_days": 302.4985779072399,
+          "noiseless_relative_coefficient_error": 3.3461130268122408e-15,
+          "requested_period_days": 300.0,
+          "trials": 32
+        }
+      ],
+      "observed_search_executed": false,
+      "profile_sha256": "b6342da5fddfbffa0434e3571e82403d2fa5c4df81b53d520e030819474fa55d",
+      "status": "DEVELOPMENT_COMPLETE",
+      "support_sha256": "24b690a4a73c4cbcf082c8e520fffa5395dde114c00202aa963d1cd5d89a21a9",
+      "target": "J1747-4036"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "24895705923b02829c81e6767c7401e51ffb6cec4c18e3f6e470bb97a7411392",
+        "eligible_cells": 218,
+        "excluded_cells": 7,
+        "frequency_count": 225,
+        "median_worst_phase_amplitude_us": 4.878278251033581,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/chromatic-support-20260908/calibration-cache/24895705923b02829c81e6767c7401e51ffb6cec4c18e3f6e470bb97a7411392",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1804-2858",
+        "threshold": 22.815129898624804,
+        "timing_rank": 78
+      },
+      "comparison": "Same cells/threshold; denominator omits published chromatic effects",
+      "conditional_sensitivity_cost_ratio_median": 1.1909462011499587,
+      "conditional_sensitivity_cost_ratio_range": [
+        1.1465295981884356,
+        1.2634926887477627
+      ],
+      "diagnostic_code_sha256": "8ee0ef958c5571b76d0f56729fa375921af9c047a197fa4a48e3952dc2b244a6",
+      "injections": [
+        {
+          "amplitude_us": 4.992027318777174,
+          "detections_at_injected_cell": 30,
+          "grid_period_days": 59.753009707024745,
+          "noiseless_relative_coefficient_error": 1.1907661147971854e-15,
+          "requested_period_days": 60.0,
+          "trials": 32
+        },
+        {
+          "amplitude_us": 7.91730982430821,
+          "detections_at_injected_cell": 31,
+          "grid_period_days": 150.46012453094417,
+          "noiseless_relative_coefficient_error": 1.0745406403512865e-15,
+          "requested_period_days": 150.0,
+          "trials": 32
+        },
+        {
+          "amplitude_us": 22.252055706019483,
+          "detections_at_injected_cell": 32,
+          "grid_period_days": 288.3951116903981,
+          "noiseless_relative_coefficient_error": 3.252307458402761e-16,
+          "requested_period_days": 300.0,
+          "trials": 32
+        }
+      ],
+      "observed_search_executed": false,
+      "profile_sha256": "19b57c025290d66a6bda250ec0e89d32e606b8f66a98bb2dcfb70b97ce709907",
+      "status": "DEVELOPMENT_COMPLETE",
+      "support_sha256": "24b690a4a73c4cbcf082c8e520fffa5395dde114c00202aa963d1cd5d89a21a9",
+      "target": "J1804-2858"
+    }
+  ],
+  "selection_sha256": "6e94ca0bf0c7e05847ca61fca042cbff8dddf7b7c3341459e764260d3845df2d",
+  "status": "DEVELOPMENT_COMPLETE"
+}

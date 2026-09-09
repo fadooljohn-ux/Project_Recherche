@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "verification_id": "pilot2-b1937-v0.2.4-sol-audit-primary-verification",
+  "recorded_utc": "2026-08-10T10:19:08Z",
+  "target_commit": "96cc62470002b1328407f24c98c3e4d2a7e34eca",
+  "status": "hold_confirmed",
+  "audit_report": "docs/audits/DEDICATED_SOL_AUDIT_PILOT2_v0.2.4_2026-08-10.md",
+  "audit_report_sha256": "0ebaccb8d864531c5c3a4a6aa6b511c753aa3fb6432b8b6726b6dd7c898084de",
+  "findings": [
+    {
+      "finding_id": "SOL-V024-001",
+      "severity": "P1",
+      "primary_disposition": "confirmed",
+      "evidence": "shared atomic JSON helper writes and replaces without fsync of the temporary file or parent directory; attempt execution proceeds after this helper returns"
+    },
+    {
+      "finding_id": "SOL-V024-002",
+      "severity": "P1",
+      "primary_disposition": "confirmed",
+      "evidence": "recovery verifies only case and execution binding; targeted test adopts a two-field JSON object although executor output has schema version, run ID, family, measurement, convergence, solver, input-binding, and boundary fields"
+    },
+    {
+      "finding_id": "SOL-V024-003",
+      "severity": "P1",
+      "primary_disposition": "confirmed",
+      "evidence": "hash entries accept absolute and parent-traversal paths through Path joining and require only a nonempty map; the contract test supplies only one frozen file"
+    }
+  ],
+  "prior_findings_closed": [
+    "SOL-V023-003",
+    "SOL-V023-004"
+  ],
+  "prior_findings_remaining_open": [
+    "SOL-V023-001",
+    "SOL-V023-002",
+    "SOL-V023-005"
+  ],
+  "science_cases_executed": 0,
+  "random_draws_generated": 0,
+  "timing_model_fits_executed": 0,
+  "periodic_scans_executed": 0,
+  "external_data_roots_accessed": 0,
+  "scientific_outcomes_inspected": 0,
+  "execution_authorized": false,
+  "next_gate": "preserve_v0.2.4_hold_then_authorize_a_new_zero_science_remediation_version"
+}

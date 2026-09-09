@@ -1,0 +1,106 @@
+schema_version: 1
+search_id: pilot1-one-shot-observed-residual-search-v0.1
+status: prepared_for_final_independent_review
+target: J1744-1134
+dataset: nanograv_15yr_timing_v2.1.0
+observed_residual_access_authorized: false
+observed_periodic_search_authorized: false
+
+detector:
+  statistic: covariance_whitened_gls_circular_scan
+  candidate_statistic: strongest_unmasked_grid_cell_delta_chi2
+  locked_threshold_delta_chi2: 23.33426855482562
+  threshold_comparison: strictly_greater_than
+  threshold_retuning_authorized: false
+  period_minimum_days: 30.0
+  period_maximum_days: 2000.0
+  frequency_oversampling: 5
+  reference_epoch_mjd_tdb: 56078.0
+  scan_count: 1
+  rerun_authorized: false
+
+annual_mask:
+  source: empirical_periodwise_identifiability_mask
+  ineligible_period_targets_days: [350.0, 365.25, 380.0]
+  grid_mapping: nearest_period_cell_ties_to_lowest_index
+  expected_masked_grid_cells: 3
+  scan_full_grid_once: true
+  strongest_unmasked_cell_selects_candidate: true
+  masked_cells_can_suppress_unmasked_candidate: false
+  masked_cells_role: sensitivity_gap_only
+
+hard_abort_conditions:
+  - frozen_input_or_hash_failure
+  - final_fable_signoff_failure
+  - user_authorization_failure
+  - prior_one_shot_intent_or_result_exists
+  - ordinary_candidate_refit_nonconvergence
+  - joint_candidate_refit_nonconvergence
+  - full_covariance_audit_failure
+  - solver_disagreement_beyond_frozen_tolerances
+  - unexpected_material_warning
+  - resource_envelope_exceeded
+
+solver_tolerances:
+  amplitude_difference_maximum_microseconds: 0.01
+  phase_difference_maximum_radians: 0.001
+  chi2_difference_maximum: 0.1
+
+deletion_diagnostics:
+  classification: advisory_only
+  deletion_checks_as_hard_vetoes: false
+  inventory_sha256: 617809921a1598b120514273bbab9ce0374b322601fcdb96c346d75933164eb4
+  paired_row_units: 433
+  utc_day_units: 316
+  removal_semantics: rebuild_reduced_covariance_design_projection_and_full_frozen_grid_scan
+  stable_definition:
+    statistic_strictly_above_locked_threshold: true
+    peak_within_one_independent_fourier_bin_of_undeleted_candidate: true
+  mechanical_labels:
+    any_failed_unit: DELETION_FRAGILE
+    no_failed_units: DELETION_STABLE
+  label_candidate_authority: none
+  may_trigger_additional_analysis: false
+  required_fields:
+    - minimum_trigger_statistic
+    - minimum_trigger_unit_id
+    - failed_stability_unit_count
+    - maximum_frequency_error_independent_bin_units
+    - mechanical_label
+
+robust_refit:
+  included: false
+  robust_frequency_scan_authorized: false
+
+frozen_context:
+  original_tail_evaluation: 7_of_500
+  r1_tail_evaluation: 7_of_1000
+  pooled_tail_role: contextual_only_not_a_gate
+  clustered_day_false_positives: 16
+  clustered_day_cases: 1000
+  clustered_day_wilson_lower_95: 0.009872242002277388
+  clustered_day_wilson_upper_95: 0.02583206021173997
+  paired_row_false_vetoes: 5
+  deletion_cost_cases: 125
+  paired_row_false_veto_wilson_upper_95: 0.09022555313974442
+  utc_day_false_vetoes: 6
+  utc_day_false_veto_wilson_upper_95: 0.10077111031703824
+  deletion_failures_amplitude_microseconds: 0.2
+  further_tail_reroll_authorized: false
+  new_recovery_randomness_authorized: false
+
+candidate_report:
+  schema: protocol/PILOT1_ONE_SHOT_CANDIDATE_REPORT_SCHEMA_v0.1.json
+  publish_regardless_of_trigger_outcome: true
+  advisory_results_may_create_rescue_demote_or_veto: false
+
+resources:
+  wall_hours_maximum: 4.0
+  peak_memory_gib_maximum: 16.0
+  complete_data_root_gib_maximum: 5.0
+
+authority:
+  final_fable_signoff_path: protocol/FABLE_FINAL_PREEXECUTION_SIGNOFF_v0.1.json
+  user_authorization_path: protocol/USER_ONE_SHOT_EXECUTION_AUTHORIZATION_v0.1.json
+  both_records_required: true
+  current_execution_state: locked

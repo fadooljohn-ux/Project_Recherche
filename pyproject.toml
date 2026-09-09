@@ -1,0 +1,32 @@
+[project]
+name = "project-recherche-pulsar-pilot"
+version = "0.1.0"
+description = "Portable, provenance-controlled pulsar-timing pilot"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "astropy>=8,<9",
+  "numpy>=2.2,<2.5",
+  "pint-pulsar==1.1.5",
+  "psutil>=7,<8",
+  "pyyaml>=6.0,<7",
+  "scipy>=1.15,<2",
+]
+
+[project.scripts]
+pulsar-pilot = "pulsar_pilot.cli:main"
+
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pulsar_pilot"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

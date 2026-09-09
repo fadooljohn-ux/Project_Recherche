@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "authorization_id": "conditional-user-authorization-pilot2-sealed-v0.2.1-2026-08-10",
+  "recorded_utc": "2026-08-10T01:16:11Z",
+  "authorization": "execute_exactly_2000_frozen_sealed_cases_after_v0.2.1_calibration_pass",
+  "condition_status": "satisfied",
+  "calibration_result_sha256": "764335495e9d3398ebe7d039073e109d371273bfd7ab25d89b94c34e19b151e4",
+  "threshold_lock_sha256": "6e624af784aabd92ce8b28babdaed4c863ca12c94caad756da005f14bf9b5117",
+  "threshold_retuning_authorized": false,
+  "structured_tail_evaluation_authorized": false,
+  "injection_evaluation_authorized": false,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "discovery_claim_authorized": false
+}

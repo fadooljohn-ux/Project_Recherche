@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "audit_record_id": "dedicated-sol-audit-pilot2-v0.2.3-2026-08-10",
+  "recorded_utc": "2026-08-10T09:52:39Z",
+  "target_commit": "a3db08b3776e4a6a4d144b0a5b0cd9f62b44baea",
+  "auditor_model": "gpt-5.6-sol",
+  "auditor_authority": "read_only_advisory",
+  "auditor_disposition": "hold",
+  "primary_disposition": "hold",
+  "finding_counts": {"P0": 0, "P1": 4, "P2": 1, "P3": 0},
+  "all_material_findings_independently_reproduced": true,
+  "science_cases_executed_during_audit": 0,
+  "execution_authorized": false,
+  "execution_freeze_creation_allowed": false,
+  "frozen_sha256": {
+    "config/dedicated_sol_audit_framework_v1.yaml": "ec347273808cf86cd3e77d547c880f2395e3a57c8e83670153ef6c78b4ec690b",
+    "protocol/DEDICATED_SOL_AUDIT_FRAMEWORK_v1.md": "7d2e3f6231f40b3a870617a3c32aa91ca810cf2aec58bd6c1ae23d8448fa19fa",
+    "docs/audits/DEDICATED_SOL_AUDIT_PILOT2_v0.2.3_2026-08-10.md": "a90772ae17ccdd7f25b6f8fbb5b1422e96cad5e75bb9cfe55e0c9560ad1f0193",
+    "results/pilot2/dedicated_sol_audit_disposition_v0.2.3.json": "c8ba79827e80b5588c4a90afc3f952715c36aff6f2560a6bea4578f1796bafb0",
+    "results/pilot2/dedicated_sol_audit_primary_verification_v0.2.3.json": "c46a7670a887822cb87bf0610ec44ea5270aebd51608f71489183739ed0a2d09",
+    "docs/PILOT2_V023_SOL_AUDIT_DISPOSITION.md": "6e095139ef8a9cf088a357243baea3b2bb7e042dac7b225d075b79c5f4d717d5"
+  },
+  "next_gate": "separate_user_authorization_for_zero_science_v0.2.4_remediation"
+}

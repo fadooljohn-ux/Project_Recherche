@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "authorization_id": "stage-c-c1-v0.2",
+  "recorded_utc": "2026-08-09T02:10:22Z",
+  "basis": {
+    "g2_gate_result": "pass",
+    "g2_review_pr": 2,
+    "c0_case_result": "pass",
+    "c0_review_pr": 3,
+    "c0_merge_commit": "f99cfb0ac8e45363d833c35e3569c93b60657b0b"
+  },
+  "authorized_cases": [
+    "C1"
+  ],
+  "blocked_cases": [
+    "C2",
+    "C3"
+  ],
+  "authorization_conditions": [
+    "Use the frozen 100-day, 20-microsecond, 1.0471975511965976-radian waveform.",
+    "Evaluate phase from pre-injection barycentric TDB values at epoch MJD 56078.0.",
+    "Fit the blind trigger and the fixed-frequency PINT WaveX joint grader.",
+    "Compare C1 against the authoritative C0 exact-frequency record and a same-run C0 joint WaveX fit.",
+    "Stop after publishing the C1 review record."
+  ],
+  "config_sha256": {
+    "config/target.yaml": "c6f051fdf883c6629883510b83c103ff9e46039e5a083994fc65b78cb6710937",
+    "config/injections.yaml": "c867dfb69b6abde92aef79bd585682306530d763a08f37149c10aead005e1027"
+  }
+}

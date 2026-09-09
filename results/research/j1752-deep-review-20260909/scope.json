@@ -1,0 +1,80 @@
+{
+  "annual_harmonic_days": 91.3125,
+  "binary_support": false,
+  "checks": "Local refinement; all observing-day deletions; early/late joint contrast; clock anomaly deletion; original eligible grid union local grid; noise family reselected under null and signal in each simulation; fixed-period independent TPA check only",
+  "code_sha256": "d4ecde5a1a65c789ee6114806168e577eed7b24cd42942ab8fcb728a846fc89b",
+  "completed_utc": "2026-09-09T06:19:18.766256+00:00",
+  "gls_code_sha256": "b69eb86b1fc28da36dff4b6cece1d07c73324cabdb3b08419d1871f6177b844b",
+  "injections": 256,
+  "limits": "Single-band chromatic covariance is a degeneracy diagnostic, not separation of propagation from orbital delay. No updated batch discovery p-value.",
+  "local_grid_points": 301,
+  "local_period_days": [
+    73.60646831882212,
+    89.96346127856039
+  ],
+  "noise_family": [
+    [
+      "released",
+      12,
+      1.0,
+      0.0,
+      0
+    ],
+    [
+      "red32",
+      32,
+      1.0,
+      0.0,
+      0
+    ],
+    [
+      "red64",
+      64,
+      1.0,
+      0.0,
+      0
+    ],
+    [
+      "red64_half_amp",
+      64,
+      0.5,
+      0.0,
+      0
+    ],
+    [
+      "red64_double_amp",
+      64,
+      2.0,
+      0.0,
+      0
+    ],
+    [
+      "red64_flatter",
+      64,
+      1.0,
+      -1.0,
+      0
+    ],
+    [
+      "red64_steeper",
+      64,
+      1.0,
+      1.0,
+      0
+    ],
+    [
+      "chromatic64_nu4",
+      64,
+      1.0,
+      0.0,
+      4
+    ]
+  ],
+  "nulls": 512,
+  "original_result_sha256": "95eeadd38dcb16ded708638fa9493b512365a4d82d13ff852081da5af89bb84a",
+  "profile_sha256": "0282f3b85a65935e8ca20445e111d65520609380102b088944074550d0bd8050",
+  "seed": 2026099003,
+  "target": "J1752-2806",
+  "tpa_observed_sha256": "1f1e41920dbf3c8c107b6ae64478f05cd1b76300778f96cb545509c0af777110",
+  "tpa_profile_sha256": "4cd4cdbaac50c71db325c46a1aa5f607a452c2a4f365ec7def9f24a9ff034f8e"
+}

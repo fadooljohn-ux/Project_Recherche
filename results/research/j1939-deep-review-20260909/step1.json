@@ -1,0 +1,171 @@
+{
+  "code_sha256": "85131c0aa3a39b1b096118e13835f9747f0430a5b62f4ec4a3e1abd710949e08",
+  "completed_utc": "2026-09-08T17:23:31.633662+00:00",
+  "family_statistic": 112.29346169877863,
+  "method": "Fixed 16-member family, 30 Fourier frequencies k/T. Spectral weights normalized to total RMS; gamma 2/4 achromatic, gamma 2 nu^-2 dispersion and nu^-4 chromatic at 400 MHz. White standard deviations scaled by 1 or 0.5. All alternatives selected separately under null and sinusoid in every simulation.",
+  "models": [
+    {
+      "candidate_amplitude_us": 1.786059890686271,
+      "candidate_statistic": 149.35339283739904,
+      "model": "white1_white",
+      "null_objective": 3880.087902865268,
+      "peak_period_days": 577.5,
+      "peak_statistic": 149.6674641195782,
+      "signal_objective": 3730.42043874569
+    },
+    {
+      "candidate_amplitude_us": 2.058866201702114,
+      "candidate_statistic": 49.93089637687481,
+      "model": "white1_red2_1",
+      "null_objective": 3604.248182390354,
+      "peak_period_days": 543.0,
+      "peak_statistic": 51.07916784825777,
+      "signal_objective": 3553.169014542096
+    },
+    {
+      "candidate_amplitude_us": 2.165798575303574,
+      "candidate_statistic": 156.981466993148,
+      "model": "white1_red4_1",
+      "null_objective": 3733.4009206796736,
+      "peak_period_days": 568.5,
+      "peak_statistic": 156.9850640793945,
+      "signal_objective": 3576.4158566002793
+    },
+    {
+      "candidate_amplitude_us": 2.194632331098349,
+      "candidate_statistic": 95.34060645162941,
+      "model": "white1_red4_2",
+      "null_objective": 3658.874617345959,
+      "peak_period_days": 566.0,
+      "peak_statistic": 95.34608593460605,
+      "signal_objective": 3563.528531411353
+    },
+    {
+      "candidate_amplitude_us": 2.2138890271091682,
+      "candidate_statistic": 38.34785586089036,
+      "model": "white1_red4_4",
+      "null_objective": 3597.541304853567,
+      "peak_period_days": 189.13513646568168,
+      "peak_statistic": 39.69029774704633,
+      "signal_objective": 3557.8510071065207
+    },
+    {
+      "candidate_amplitude_us": 1.7860598906864302,
+      "candidate_statistic": 149.35339283735743,
+      "model": "white1_dm2_1",
+      "null_objective": 3880.0879028652967,
+      "peak_period_days": 577.5,
+      "peak_statistic": 149.667464119538,
+      "signal_objective": 3730.4204387457585
+    },
+    {
+      "candidate_amplitude_us": 1.0717788881485077,
+      "candidate_statistic": 35.144583257755556,
+      "model": "white1_chrom4_1",
+      "null_objective": 3402.1886583100872,
+      "peak_period_days": 600.5,
+      "peak_statistic": 35.86202527873725,
+      "signal_objective": 3366.32663303135
+    },
+    {
+      "candidate_amplitude_us": 1.3107483077383746,
+      "candidate_statistic": 27.261156316898752,
+      "model": "white1_red_dm_chrom",
+      "null_objective": 3348.846559684576,
+      "peak_period_days": 66.96088682325374,
+      "peak_statistic": 32.115371383138566,
+      "signal_objective": 3316.731188301437
+    },
+    {
+      "candidate_amplitude_us": 1.786059890686271,
+      "candidate_statistic": 597.4135713495962,
+      "model": "white0.5_white",
+      "null_objective": -9468.990542086074,
+      "peak_period_days": 577.5,
+      "peak_statistic": 598.6698564783128,
+      "signal_objective": -10067.660398564387
+    },
+    {
+      "candidate_amplitude_us": 2.107373302344482,
+      "candidate_statistic": 67.93699739753389,
+      "model": "white0.5_red2_1",
+      "null_objective": -10950.819772849476,
+      "peak_period_days": 66.96088682325374,
+      "peak_statistic": 141.6457815361357,
+      "signal_objective": -11092.465554385612
+    },
+    {
+      "candidate_amplitude_us": 2.194632331098349,
+      "candidate_statistic": 381.36242580651765,
+      "model": "white0.5_red4_1",
+      "null_objective": -10385.931729908254,
+      "peak_period_days": 566.0,
+      "peak_statistic": 381.3843437384242,
+      "signal_objective": -10767.316073646678
+    },
+    {
+      "candidate_amplitude_us": 2.2138890271091682,
+      "candidate_statistic": 153.39142344356145,
+      "model": "white0.5_red4_2",
+      "null_objective": -10654.103878669974,
+      "peak_period_days": 189.13513646568168,
+      "peak_statistic": 158.76119098818532,
+      "signal_objective": -10812.865069658159
+    },
+    {
+      "candidate_amplitude_us": 2.293501058607344,
+      "candidate_statistic": 50.41219549713858,
+      "model": "white0.5_red4_4",
+      "null_objective": -10821.822452636681,
+      "peak_period_days": 66.96088682325374,
+      "peak_statistic": 149.49604781010385,
+      "signal_objective": -10971.318500446785
+    },
+    {
+      "candidate_amplitude_us": 1.786059890686913,
+      "candidate_statistic": 597.4135713489318,
+      "model": "white0.5_dm2_1",
+      "null_objective": -9468.99054208659,
+      "peak_period_days": 577.5,
+      "peak_statistic": 598.6698564776702,
+      "signal_objective": -10067.660398564261
+    },
+    {
+      "candidate_amplitude_us": 0.45202790778189184,
+      "candidate_statistic": 20.117609976077183,
+      "model": "white0.5_chrom4_1",
+      "null_objective": -12174.74080556235,
+      "peak_period_days": 67.3793923658991,
+      "peak_statistic": 109.82114466956266,
+      "signal_objective": -12284.561950231911
+    },
+    {
+      "candidate_amplitude_us": 0.768361791345452,
+      "candidate_statistic": 15.22294047590294,
+      "model": "white0.5_red_dm_chrom",
+      "null_objective": -12382.518050814939,
+      "peak_period_days": 66.96088682325374,
+      "peak_statistic": 112.29346169877803,
+      "signal_objective": -12494.811512513717
+    }
+  ],
+  "original_statistic_reproduced": 149.35339283739904,
+  "refined": {
+    "amplitude_us": 1.7974493861776404,
+    "coefficients_us": [
+      -1.2933081053985194,
+      -1.2482701792404032
+    ],
+    "period_days": 577.5,
+    "statistic": 149.6674641195782
+  },
+  "relative_objective_scope": "Timing-marginalized Gaussian likelihood; shared white-covariance/timing determinant constant omitted; no signal-prior evidence claim",
+  "selected_null": "white0.5_red_dm_chrom",
+  "selected_null_index": 15,
+  "selected_signal": "white0.5_red_dm_chrom",
+  "selected_signal_index": 15,
+  "verification": {
+    "scope": "90-row dense versus Woodbury nuisance-projected likelihood, template Gram and relative determinant; development verification only",
+    "status": "PASS"
+  }
+}

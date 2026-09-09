@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot2-b1937-calibration-revision-implementation-freeze-v0.2.1",
+  "recorded_utc": "2026-08-10T01:11:12Z",
+  "status": "implementation_frozen_execution_not_authorized",
+  "inventory_sha256": "5dc1601881e58b64d5afd8f4a4236e441447155bfb9e6b9d03d58958b3331106",
+  "implementation_sha256": "0dd97eb7319b722a04f581d7afc2ef73ac2bb7d6fec00e3c62a5e46d5baaf42a",
+  "execution_authorized": false,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "science_cases_executed_during_validation": 0,
+  "fresh_data_root_generation": "Pulsar-Timing-Pilot-v0.2.1",
+  "controlled_manifest_sha256": "8d114059ce42cfe575a0794b83ae9bd972fa647d3345c4ceedabb7fbac1d9543",
+  "cache_manifest_sha256": "24d89116e4318c28406695cacad35e1e69cc78312097e1bf5b77d7bd0cdfc134",
+  "validation": {
+    "repository_tests": "151 passed",
+    "lint": "pass",
+    "offline_setup": "pass",
+    "zero_case_dry_run": "pass"
+  },
+  "frozen_sha256": {
+    "config/pilot2_calibration_v0.2.1.yaml": "eecb8935f96afd3a9d450013eec81572c973840194c95ba8881100da67e5da19",
+    "docs/PILOT2_CALIBRATION_REVISION_IMPLEMENTATION_v0.2.1.md": "1ded9a237b410dba7ad296747c7be247e41a0a1b0312972c903c6113ba1ad8cc",
+    "pixi.lock": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8",
+    "protocol/PILOT2_CALIBRATION_DESIGN_FREEZE_v0.2.1.json": "239688f6f6c70d35c1a82567bd5f15c3bc38f31848acae64a22e64d5fd45bf19",
+    "results/pilot2/calibration_revision_implementation_readiness_v0.2.1.json": "b7e32c400a130744235079a3c2c152d2e6416e88c784460e4ad244a40cebbd0c",
+    "src/pulsar_pilot/pilot2_calibration_revision_executor.py": "9cd9f1b15e7466f374b8ed6a2d135868d7e3ce475a2333c72017d2b186fcd9b8",
+    "src/pulsar_pilot/pilot2_calibration_revision_grading.py": "f7069bda649531127ee48aa75a2b1010abb4715a2c270c362b5d25f47b733ac4",
+    "src/pulsar_pilot/pilot2_calibration_revision_runtime.py": "d403e6d3368d6e5bcc083b34510ebab43f9c0ee283d8decc950782c72cf9ba1f",
+    "src/pulsar_pilot/pilot2_calibration_runtime.py": "1c1bcd834c341c92c1a4b924e506f169d87ec981d23a6a9bad4df5579e5d7cf7",
+    "tests/test_pilot2_calibration_revision_runtime.py": "b3761e9efc16b48225d0ece2be2e79905a18ed222d6282d5aed8103ec49de8e4"
+  },
+  "next_gate": "conditional_execution_freeze"
+}

@@ -1,0 +1,16 @@
+{
+  "code_sha256": "b617b4911e660f88c02f24788a42a759978b29da879dec645c71e1c0a58c1de5",
+  "completed_utc": "2026-09-09T06:50:52.077257+00:00",
+  "diagnostic_p_plus_one": 0.001949317738791423,
+  "name": "continuous_best_null",
+  "null_count": 512,
+  "null_exceedances": 0,
+  "observed_candidate_statistic": 25.90793227961649,
+  "q50_q90_q99": [
+    8.430143506141121,
+    12.958396753996842,
+    18.65011666071897
+  ],
+  "reused": false,
+  "seed": 2026091754
+}

@@ -1,0 +1,76 @@
+{
+  "status": "PREPARED_NOT_EXECUTED",
+  "recorded_at": "2026-09-08T08:17:43.974584+00:00",
+  "package": {
+    "status": "PREPARED",
+    "package": "../Project Recherche Data/observed-preparation-20260908/first-search.json",
+    "sha256": "9d739084cee43fd98a45fda67e254c647361b994c2d306f37378312d6388edb3",
+    "execution_started": false,
+    "threshold": 22.485020743823544,
+    "annual_grid_mapping": {
+      "target_periods_days": [
+        365.25
+      ],
+      "masked_grid_indices": [
+        65
+      ],
+      "masked_grid_frequencies_per_day": [
+        0.0027421357985447695
+      ],
+      "masked_grid_periods_days": [
+        364.6792403682897
+      ],
+      "selection_semantics": "nearest_period_cell_ties_to_lowest_index"
+    }
+  },
+  "check": {
+    "status": "PASS",
+    "package_sha256": "9d739084cee43fd98a45fda67e254c647361b994c2d306f37378312d6388edb3",
+    "run_id": "pilot2-ioc-observed-b1937-20260908-01",
+    "observed_scans_this_command": 0,
+    "execution_state": "ready"
+  },
+  "qualified_science_files_unchanged": 71,
+  "formal_evidence_preserved": [
+    {
+      "run_id": "pilot2-ioc-qualification-20260908-01",
+      "artifacts_unchanged": 4
+    },
+    {
+      "run_id": "pilot2-ioc-qualification-20260908-02",
+      "artifacts_unchanged": 4
+    }
+  ],
+  "current_suite": {
+    "passed": 424,
+    "historical_deselected": 8,
+    "seconds": 50.86
+  },
+  "final_focused_checks": {
+    "passed": 6,
+    "seconds": 1.79,
+    "adjustment": "intent file and parent directory synchronization; numerical analysis unchanged"
+  },
+  "synthetic_integration": {
+    "status": "PASS",
+    "scope": "synthetic integration of observed entry point; no observed search",
+    "period_days": 982.8821698242081,
+    "seed": 5737055075725726849,
+    "accounting": {
+      "primary_fits": 2,
+      "scans": 1,
+      "solver_audits": 1
+    },
+    "elapsed_seconds": 150.0260951250093,
+    "observed_residual_vector_read": false,
+    "formal_qualification": false
+  },
+  "synthetic_solver_comparison": {
+    "amplitude_difference_microseconds": 4.792637287032164e-08,
+    "chi2_difference": 9.554315170134942e-06,
+    "phase_difference_radians": 1.334448268899835e-08
+  },
+  "observed_execution_started": false,
+  "run_command_after_owner_authorization": "tools/recherche observed run --package '../Project Recherche Data/observed-preparation-20260908/first-search.json' --authorize-package 9d739084cee43fd98a45fda67e254c647361b994c2d306f37378312d6388edb3",
+  "deferred": "Automated calibration for future pulsar ingestion, after this observed run completes."
+}

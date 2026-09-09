@@ -1,0 +1,238 @@
+{
+  "schema": 1,
+  "source_documents": [
+    "PILOT2_GATE4A_R5_RESOURCE_INTAKE_AMENDMENT_2026-08-23.md",
+    "PILOT2_GATE4A_R6_APFS_OPERATIONAL_ROOT_AMENDMENT_2026-08-23.md"
+  ],
+  "inputs": [
+    {
+      "source_class": "HIST",
+      "source_path": "derived/cache/astropy/download/url/d3c81b5766f4bfb84e65504c8a453085/contents",
+      "path": "controlled/clock-overrides/gps2utc.clk",
+      "bytes": 339264,
+      "sha256": "f4409a787ef168bbb4d2eceb4cd14c958d549c099607b3fdd301797546d28638"
+    },
+    {
+      "source_class": "HIST",
+      "source_path": "controlled/nanograv15yr-v2.1.0/clock/tai2tt_bipm2019.clk",
+      "path": "controlled/clock-overrides/tai2tt_bipm2019.clk",
+      "bytes": 36459,
+      "sha256": "3d1e27041f0c7a6c7aa79d2d6d5b90235ac2e73d436defcfc6e8d6fcdd78f512"
+    },
+    {
+      "source_class": "HIST",
+      "source_path": "controlled/nanograv15yr-v2.1.0/clock/time_ao.dat",
+      "path": "controlled/clock-overrides/time_ao.dat",
+      "bytes": 492183,
+      "sha256": "7e1755bb794d84bb7e585d556dcf46fffde159ea5d7f9543cd54e7fcb55bf86d"
+    },
+    {
+      "source_class": "HIST",
+      "source_path": "controlled/nanograv15yr-v2.1.0/clock/time_gbt.dat",
+      "path": "controlled/clock-overrides/time_gbt.dat",
+      "bytes": 400170,
+      "sha256": "060493be69cd421ce383a91631f089c22e8ed58fb322fdd9f1c4ed3ff2d2797b"
+    },
+    {
+      "source_class": "HIST",
+      "source_path": "derived/cache/astropy/download/url/dabea460521989808aedfb52df4e07e4/contents",
+      "path": "derived/cache-v0.2.8/ephemerides/de440.bsp",
+      "bytes": 119799808,
+      "sha256": "a4ce9bf9b3282becc9f4b2ac3cebe03a2ae7599981aabd7265fd8482fff7c4b5"
+    },
+    {
+      "source_class": "ENV",
+      "source_path": "Leap_Second.dat",
+      "path": "derived/cache-v0.2.8/iers/Leap_Second.dat",
+      "bytes": 1352,
+      "sha256": "6cb6f5d4b819f2e568e25db4b0b26d89dedf031fdffb18bc94d40f4e94e268d7"
+    },
+    {
+      "source_class": "ENV",
+      "source_path": "ReadMe.eopc04",
+      "path": "derived/cache-v0.2.8/iers/ReadMe.eopc04",
+      "bytes": 3275,
+      "sha256": "42d7890543fae69df024219d1d36f242b4fcd847f6f8a756c7d37c5dfd100243"
+    },
+    {
+      "source_class": "ENV",
+      "source_path": "ReadMe.finals2000A",
+      "path": "derived/cache-v0.2.8/iers/ReadMe.finals2000A",
+      "bytes": 3429,
+      "sha256": "7c6182cc0fd0cbece39711f648d15e48b49168925602e360a5709c5ccc8d5a12"
+    },
+    {
+      "source_class": "ENV",
+      "source_path": "eopc04.1962-now",
+      "path": "derived/cache-v0.2.8/iers/eopc04.1962-now",
+      "bytes": 5158836,
+      "sha256": "f04b166d36f9dde242d3aaae8349a53b8b0b69d287941dcbbfd05cadcb00c673"
+    },
+    {
+      "source_class": "ENV",
+      "source_path": "finals2000A.all",
+      "path": "derived/cache-v0.2.8/iers/finals2000A.all",
+      "bytes": 3756992,
+      "sha256": "f707ea5031a467f1a3b2f0645fac2f627095ed0cb41d34c515b495cb81a5a25d"
+    },
+    {
+      "source_class": "HIST",
+      "source_path": "controlled/nanograv15yr-v2.1.0/wideband/par/B1937+21_PINT_20230131.wb.par",
+      "path": "controlled/nanograv15yr-v2.1.0/wideband/par/B1937+21_PINT_20230131.wb.par",
+      "bytes": 44433,
+      "sha256": "1791d09c03bce63381018035ffcd0052406e1f3394aa119b5f469eff99b5a083"
+    },
+    {
+      "source_class": "HIST",
+      "source_path": "controlled/nanograv15yr-v2.1.0/wideband/tim/B1937+21_PINT_20230131.wb.tim",
+      "path": "controlled/nanograv15yr-v2.1.0/wideband/tim/B1937+21_PINT_20230131.wb.tim",
+      "bytes": 360761,
+      "sha256": "4dde72540e60e1950b284360cf6517e75ddad5a79564b2cab683f9c974d7901d"
+    },
+    {
+      "source_class": "HIST",
+      "source_path": "run_records/pilot2/calibration-threshold-lock-v0.2.1.json",
+      "path": "run_records/pilot2/calibration-threshold-lock-v0.2.1.json",
+      "bytes": 652,
+      "sha256": "6e624af784aabd92ce8b28babdaed4c863ca12c94caad756da005f14bf9b5117"
+    },
+    {
+      "source_class": "HIST",
+      "source_path": "run_records/pilot2/sealed-gaussian-evaluation-v0.2.1.json",
+      "path": "run_records/pilot2/sealed-gaussian-evaluation-v0.2.1.json",
+      "bytes": 1253,
+      "sha256": "f3a8677ea28255c7c06afd815fad1d911fcadde9a1fb0a4b2bf464f78aa59034"
+    },
+    {
+      "source_class": "HIST",
+      "source_path": "run_records/pilot2/structured-tail-evaluation-v0.2.1.json",
+      "path": "run_records/pilot2/structured-tail-evaluation-v0.2.1.json",
+      "bytes": 2439,
+      "sha256": "540f5d12496a02687253b3d0a64e63208c8df53d8cdae3f3935cc8da4fc0f252"
+    },
+    {
+      "source_class": "HIST",
+      "source_path": "run_records/pilot2/injection-evaluation-v0.2.1.json",
+      "path": "run_records/pilot2/injection-evaluation-v0.2.1.json",
+      "bytes": 389085,
+      "sha256": "06cf10aa00231ecac05abccbe491b21c074371d749f8cc88dccff8cf034fba8c"
+    },
+    {
+      "source_class": "HIST",
+      "source_path": "run_records/pilot2/calibration-v0.2.1-ledger.json",
+      "path": "run_records/pilot2/calibration-v0.2.1-ledger.json",
+      "bytes": 3470620,
+      "sha256": "cb13ffc749cd4bec1ab41dfcfe056850507d52546c9425e2b4fbfff49c1bc621"
+    },
+    {
+      "source_class": "REPO",
+      "source_path": "protocol/PILOT2_INJECTION_EXECUTION_FREEZE_v0.2.2.json",
+      "path": "protocol/PILOT2_INJECTION_EXECUTION_FREEZE_v0.2.2.json",
+      "bytes": 3214,
+      "sha256": "9e247d3d3c2eba0edc936b2db778683257ae5888c1bd581f682dc074ba768d03"
+    },
+    {
+      "source_class": "REPO",
+      "source_path": "results/pilot2/injection_v022_crash_audit.json",
+      "path": "results/pilot2/injection_v022_crash_audit.json",
+      "bytes": 2702,
+      "sha256": "6d58ef1be4a03969be41ee3e0d916adaa252ee5bfa42d7c23244f203f878b473"
+    },
+    {
+      "source_class": "REPO",
+      "source_path": "protocol/PILOT2_INJECTION_EXECUTION_FREEZE_v0.2.7.json",
+      "path": "protocol/PILOT2_INJECTION_EXECUTION_FREEZE_v0.2.7.json",
+      "bytes": 6080,
+      "sha256": "8c45fe999b0c871d0cc383d47829aa175863a08d25bf00afef29f043f5dba5f8"
+    },
+    {
+      "source_class": "REPO",
+      "source_path": "results/pilot2/injection_v027_startup_failure_audit.json",
+      "path": "results/pilot2/injection_v027_startup_failure_audit.json",
+      "bytes": 2407,
+      "sha256": "c9d00f3c021091c18722d1a288c91e218f447ce1f9ac3f507dda0b9fdc70ab9d"
+    }
+  ],
+  "resources": [
+    {
+      "logical_name": "gps-to-utc-clock",
+      "controlled_relative_path": "controlled/clock-overrides/gps2utc.clk",
+      "source_url_or_publication": "IPTA pulsar-clock-corrections T2runtime/clock/gps2utc.clk",
+      "license_or_redistribution_status": "BSD-3-Clause IPTA byte; local project use",
+      "consumer": "PINT 1.1.5",
+      "resolution_role": "gps_clock"
+    },
+    {
+      "logical_name": "tai-to-tt-bipm2019-clock",
+      "controlled_relative_path": "controlled/clock-overrides/tai2tt_bipm2019.clk",
+      "source_url_or_publication": "NANOGrav 15-year v2.1.0 controlled clock; byte-identical to IPTA pulsar-clock-corrections T2runtime/clock/tai2tt_bipm2019.clk",
+      "license_or_redistribution_status": "BSD-3-Clause IPTA byte; local project use",
+      "consumer": "PINT 1.1.5",
+      "resolution_role": "bipm_clock"
+    },
+    {
+      "logical_name": "arecibo-observatory-clock",
+      "controlled_relative_path": "controlled/clock-overrides/time_ao.dat",
+      "source_url_or_publication": "NANOGrav 15-year v2.1.0 controlled clock; byte-identical to IPTA pulsar-clock-corrections tempo/clock/time_ao.dat",
+      "license_or_redistribution_status": "BSD-3-Clause IPTA byte; local project use",
+      "consumer": "PINT 1.1.5",
+      "resolution_role": "observatory_clock"
+    },
+    {
+      "logical_name": "green-bank-observatory-clock",
+      "controlled_relative_path": "controlled/clock-overrides/time_gbt.dat",
+      "source_url_or_publication": "NANOGrav 15-year v2.1.0 controlled clock",
+      "license_or_redistribution_status": "Historical controlled input; local scientific use only; redistribution not asserted",
+      "consumer": "PINT 1.1.5",
+      "resolution_role": "observatory_clock"
+    },
+    {
+      "logical_name": "de440-kernel",
+      "controlled_relative_path": "derived/cache-v0.2.8/ephemerides/de440.bsp",
+      "source_url_or_publication": "NAIF/JPL DE440 planetary ephemeris kernel",
+      "license_or_redistribution_status": "Local scientific use only; external redistribution not asserted",
+      "consumer": "PINT 1.1.5 / Astropy 8.0.1",
+      "resolution_role": "solar_system_ephemeris"
+    },
+    {
+      "logical_name": "iers-leap-seconds",
+      "controlled_relative_path": "derived/cache-v0.2.8/iers/Leap_Second.dat",
+      "source_url_or_publication": "astropy-iers-data==0.2026.8.3.0.53.6 package data",
+      "license_or_redistribution_status": "BSD-3-Clause astropy-iers-data package content",
+      "consumer": "Astropy 8.0.1 / ERFA",
+      "resolution_role": "leap_seconds"
+    },
+    {
+      "logical_name": "iers-b-parser-readme",
+      "controlled_relative_path": "derived/cache-v0.2.8/iers/ReadMe.eopc04",
+      "source_url_or_publication": "astropy-iers-data==0.2026.8.3.0.53.6 package data",
+      "license_or_redistribution_status": "BSD-3-Clause astropy-iers-data package content",
+      "consumer": "Astropy 8.0.1 / PINT 1.1.5",
+      "resolution_role": "iers_b"
+    },
+    {
+      "logical_name": "iers-a-parser-readme",
+      "controlled_relative_path": "derived/cache-v0.2.8/iers/ReadMe.finals2000A",
+      "source_url_or_publication": "astropy-iers-data==0.2026.8.3.0.53.6 package data",
+      "license_or_redistribution_status": "BSD-3-Clause astropy-iers-data package content",
+      "consumer": "Astropy 8.0.1 / PINT 1.1.5",
+      "resolution_role": "iers_a"
+    },
+    {
+      "logical_name": "iers-b-eopc04",
+      "controlled_relative_path": "derived/cache-v0.2.8/iers/eopc04.1962-now",
+      "source_url_or_publication": "astropy-iers-data==0.2026.8.3.0.53.6 package data",
+      "license_or_redistribution_status": "BSD-3-Clause astropy-iers-data package content",
+      "consumer": "Astropy 8.0.1 / PINT 1.1.5",
+      "resolution_role": "iers_b"
+    },
+    {
+      "logical_name": "iers-a-finals2000a",
+      "controlled_relative_path": "derived/cache-v0.2.8/iers/finals2000A.all",
+      "source_url_or_publication": "astropy-iers-data==0.2026.8.3.0.53.6 package data",
+      "license_or_redistribution_status": "BSD-3-Clause astropy-iers-data package content",
+      "consumer": "Astropy 8.0.1 / PINT 1.1.5",
+      "resolution_role": "iers_a"
+    }
+  ]
+}

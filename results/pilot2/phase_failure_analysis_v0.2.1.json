@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "analysis_id": "pilot2-b1937-v0.2.1-record-only-phase-failure-analysis",
+  "operation": "verified_json_artifact_analysis_only",
+  "source_bindings": {
+    "terminal_result_sha256": "06cf10aa00231ecac05abccbe491b21c074371d749f8cc88dccff8cf034fba8c",
+    "final_ledger_sha256": "cb13ffc749cd4bec1ab41dfcfe056850507d52546c9425e2b4fbfff49c1bc621",
+    "failure_audit_sha256": "cd068e6777b304f7c59ffc45499269d8cd622fc9c15faf85d950604f2ecc3de8"
+  },
+  "scope": {
+    "verified_injection_artifacts_loaded": 284,
+    "science_cases_executed": 0,
+    "science_cases_rerun": 0,
+    "observed_residual_data_loaded": false,
+    "threshold_retuned": false,
+    "retroactive_regrade_authorized": false
+  },
+  "phase_error": {
+    "triggered_main_cases": 111,
+    "median_radians": 0.07037384628068243,
+    "p90_radians": 0.2136721217729798,
+    "maximum_radians": 0.397091274168363,
+    "cases_over_0p1_radians": 38
+  },
+  "spearman_correlations_with_absolute_phase_error": {
+    "amplitude_microseconds": -0.13055236502498843,
+    "trigger_statistic": -0.4195945945945946,
+    "amplitude_bias_fraction": 0.11382941382941383,
+    "ordinary_absorption_fraction": 0.03435423745051716,
+    "period_days": 0.044331730197514546
+  },
+  "trigger_strength_quartiles": [
+    {
+      "quartile": 1,
+      "count": 27,
+      "trigger_statistic_minimum": 22.720658838089225,
+      "trigger_statistic_maximum": 39.66687189212453,
+      "median_phase_error_radians": 0.16096460483419175,
+      "p90_phase_error_radians": 0.3313395137646793,
+      "fraction_over_0p1_radians": 0.6296296296296297
+    },
+    {
+      "quartile": 2,
+      "count": 28,
+      "trigger_statistic_minimum": 41.82140368808542,
+      "trigger_statistic_maximum": 85.23711408168984,
+      "median_phase_error_radians": 0.0560030229340904,
+      "p90_phase_error_radians": 0.19807087614179464,
+      "fraction_over_0p1_radians": 0.32142857142857145
+    },
+    {
+      "quartile": 3,
+      "count": 28,
+      "trigger_statistic_minimum": 87.86862094683508,
+      "trigger_statistic_maximum": 132.53177449848747,
+      "median_phase_error_radians": 0.06773099329632273,
+      "p90_phase_error_radians": 0.14020748317337414,
+      "fraction_over_0p1_radians": 0.2857142857142857
+    },
+    {
+      "quartile": 4,
+      "count": 28,
+      "trigger_statistic_minimum": 133.9201377505563,
+      "trigger_statistic_maximum": 355.3728707295843,
+      "median_phase_error_radians": 0.03231476802812229,
+      "p90_phase_error_radians": 0.13569662806430866,
+      "fraction_over_0p1_radians": 0.14285714285714285
+    }
+  ],
+  "strongest_controls": {
+    "count": 60,
+    "triggered": 60,
+    "p90_phase_error_radians": 0.13569662806430866,
+    "cases_over_0p1_radians": 11,
+    "by_period": [
+      {
+        "period_days": 50.0,
+        "amplitude_microseconds": 0.2,
+        "p90_phase_error_radians": 0.08694137031484825,
+        "cases_over_0p1_radians": 0
+      },
+      {
+        "period_days": 100.0,
+        "amplitude_microseconds": 0.2,
+        "p90_phase_error_radians": 0.14088556263905758,
+        "cases_over_0p1_radians": 4
+      },
+      {
+        "period_days": 200.0,
+        "amplitude_microseconds": 0.2,
+        "p90_phase_error_radians": 0.1284492258254305,
+        "cases_over_0p1_radians": 2
+      },
+      {
+        "period_days": 500.0,
+        "amplitude_microseconds": 1.0,
+        "p90_phase_error_radians": 0.09242615222165673,
+        "cases_over_0p1_radians": 1
+      },
+      {
+        "period_days": 1000.0,
+        "amplitude_microseconds": 2.0,
+        "p90_phase_error_radians": 0.14020748317337414,
+        "cases_over_0p1_radians": 4
+      }
+    ]
+  },
+  "injected_phase_orientation_assessment": {
+    "phase_group_failure_fraction_minimum": 0.2962962962962963,
+    "phase_group_failure_fraction_maximum": 0.3793103448275862,
+    "single_orientation_driver_supported": false
+  },
+  "causal_assessment": {
+    "primary": "phase_precision_degrades_as_detection_strength_decreases",
+    "secondary": "target_specific_covariance_and_cadence_limit_some_strong_controls",
+    "not_supported": [
+      "fit_nonconvergence",
+      "solver_disagreement",
+      "frequency_recovery_failure",
+      "ordinary_model_absorption_as_dominant_driver",
+      "single_injected_phase_orientation",
+      "period_alone_as_dominant_driver"
+    ],
+    "unresolved": "signed_phase_bias_not_recoverable_from_retained_case_schema"
+  },
+  "design_disposition": {
+    "v0.2.1_failure_preserved": true,
+    "prospective_phase_accuracy_limit_radians": 0.1,
+    "numerical_limit_relaxed": false,
+    "prospective_phase_accuracy_stratum": "dedicated_high_information_controls",
+    "all_triggered_main_phase_role": "diagnostic_not_hard_gate",
+    "new_disjoint_execution_required_for_any_future_acceptance": true
+  }
+}

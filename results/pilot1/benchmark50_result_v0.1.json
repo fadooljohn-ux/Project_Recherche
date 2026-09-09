@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "benchmark_id": "pilot1-first-50-v0.1",
+  "status": "fail",
+  "scorecard_passed": 16,
+  "scorecard_total": 17,
+  "external_record": {
+    "logical_path": "run_records/pilot1/benchmark50-summary.json",
+    "bytes": 58875,
+    "sha256": "5a763340e9191cd446970c1c268a9e94814b2c20fe000746ba0ef847a0c0eb55"
+  },
+  "execution": {
+    "case_count": 50,
+    "benchmark_wall_seconds": 676.6546894999992,
+    "projected_complete_wall_hours": 1.3041594524776707,
+    "peak_memory_gib": 0.44477081298828125,
+    "complete_data_root_gib": 0.716123903170228,
+    "sealed_evaluation_cases_executed": 0,
+    "observed_residual_global_search_executed": false
+  },
+  "null_diagnostics": {
+    "whitened_variance": 1.0106087045935368,
+    "maximum_absolute_pooled_lag_correlation": 0.011626219543872137
+  },
+  "full_covariance_audits": {
+    "count": 4,
+    "maximum_amplitude_difference_microseconds": 1.682768465016693e-06,
+    "maximum_phase_difference_radians": 1.0450358782776448e-06,
+    "maximum_chi2_difference": 0.0011398690572832493
+  },
+  "warnings": {
+    "expected_count": 246,
+    "unexpected_count": 0,
+    "status": "pass"
+  },
+  "scorecard": {
+    "artifact_ledger_verified": "PASS",
+    "audit_amplitude_equivalence": "PASS",
+    "audit_chi2_equivalence": "PASS",
+    "audit_phase_equivalence": "PASS",
+    "exactly_50_cases_completed": "PASS",
+    "four_full_covariance_audits": "PASS",
+    "joint_fits_converged": "PASS",
+    "null_pooled_lag_correlation": "PASS",
+    "null_whitened_variance": "PASS",
+    "observed_residual_search_not_executed": "PASS",
+    "ordinary_fits_converged": "PASS",
+    "peak_memory_under_cap": "PASS",
+    "projected_runtime_under_cap": "PASS",
+    "sealed_evaluation_untouched": "PASS",
+    "storage_under_cap": "PASS",
+    "toa_application_accuracy": "FAIL",
+    "warning_hygiene": "PASS"
+  },
+  "failed_metric": {
+    "name": "toa_application_accuracy",
+    "observed_maximum_microseconds": 1.4622913237393653,
+    "threshold_microseconds": 0.001,
+    "root_cause": "The metric compared PINT mean-subtracted TOA residuals with an uncentered requested residual vector, so a removable fitted offset was counted as waveform error.",
+    "scientific_effect": "The trigger projected the offset and all ordinary and joint fits fitted it; covariance, convergence, and audit results remain valid, but the benchmark correctly blocks progression until the application metric is repaired and replayed."
+  },
+  "disposition": "stop_and_prepare_exact_50_case_corrective_replay_freeze"
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot2-b1937-injection-remediation-execution-freeze-v0.2.2",
+  "recorded_utc": "2026-08-10T09:15:41Z",
+  "status": "frozen_before_first_v0.2.2_injection_case",
+  "scope": "exactly_344_frozen_v0.2.2_injection_cases_688_primary_fits_and_35_solver_audits",
+  "user_authorization": "proceed_if_all_gates_pass_for_the_initial_science_execution_run",
+  "execution_authorized": true,
+  "authorized_case_counts": {
+    "main": 240,
+    "phase_reference": 60,
+    "annual": 28,
+    "boundary": 16,
+    "solver_audits": 35
+  },
+  "authorized_primary_fits": 688,
+  "no_reroll": true,
+  "threshold_retuning_authorized": false,
+  "v0.2.1_injection_acceptance_reuse_authorized": false,
+  "promotion_grade_authorized": false,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "discovery_claim_authorized": false,
+  "inventory_sha256": "e8c2a38a22bd690e611cb99e0e2fab947335c0363a7198c54a47d119032ce613",
+  "implementation_sha256": "348c0d1bd925daa2dfb67f57dc0ea35874c2f2b8393be631aca70e381e498756",
+  "implementation_freeze_sha256": "bfda1b758b880276ca4ae174083f97a09866727e52fed43b5e0c06da8e53c94d",
+  "readiness_freeze_sha256": "97a6087a8f52b9965de06f25897732508661592624ba50152eeccc8fa364d4b0",
+  "threshold_lock_sha256": "6e624af784aabd92ce8b28babdaed4c863ca12c94caad756da005f14bf9b5117",
+  "structured_tail_result_sha256": "540f5d12496a02687253b3d0a64e63208c8df53d8cdae3f3935cc8da4fc0f252",
+  "v0.2.1_terminal_result_sha256": "06cf10aa00231ecac05abccbe491b21c074371d749f8cc88dccff8cf034fba8c",
+  "v0.2.1_final_ledger_sha256": "cb13ffc749cd4bec1ab41dfcfe056850507d52546c9425e2b4fbfff49c1bc621",
+  "supervision_policy": {
+    "heartbeat_interval_seconds": 30,
+    "stale_after_seconds": 90,
+    "checkpoint_case_interval": 25,
+    "passive_review_interval_seconds": 1800,
+    "scientific_outcomes_in_health_record": false
+  },
+  "frozen_sha256": {
+    "config/pilot2_injection_runner_v0.2.2.yaml": "6a119c853908ea59441580a6f3cb9a51838d93db0e7946b6d23aa079999d15d2",
+    "protocol/PILOT2_INJECTION_REMEDIATION_FREEZE_v0.2.2.json": "8653290ae1aac2f1bcbcd97320bb36b471a5851d30e81681fc4d4572fd0cadb8",
+    "protocol/PILOT2_INJECTION_RUNNER_FREEZE_v0.2.2.json": "bfda1b758b880276ca4ae174083f97a09866727e52fed43b5e0c06da8e53c94d",
+    "protocol/PILOT2_INJECTION_RUNNER_PROTOCOL_v0.2.2.md": "717230dacc940d5ad21e2687476e80c0ef6ffc0edf4cdc533e6d49467ce63ab2",
+    "protocol/PILOT2_INJECTION_EXECUTION_READINESS_FREEZE_v0.2.2.json": "97a6087a8f52b9965de06f25897732508661592624ba50152eeccc8fa364d4b0",
+    "results/pilot2/injection_execution_readiness_v0.2.2.json": "849132dc5d6bcff38640b151fe760c3283e6040e5c7128646208c830b6c62eed",
+    "src/pulsar_pilot/pilot2_injection_runner_v022.py": "57f93c591bb5158e475a4a380d8ae7c0dab2a6d9758b32ff150e650f2d2da927",
+    "tests/test_pilot2_injection_runner_v022.py": "b7151dd7c70949c18efcd9a02905a989ab8475cbf24ac8fb9b24a0fcc4000658"
+  },
+  "stop_rule": "any_gate_failure_stops_before_or_during_execution_without_reroll_retune_or_promotion",
+  "next_gate_if_pass": "terminal_injection_result_audit_before_any_promotion_decision",
+  "next_gate_if_fail": "preserve_terminal_failure_and_audit_without_rerun"
+}

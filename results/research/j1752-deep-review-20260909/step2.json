@@ -1,0 +1,82 @@
+{
+  "clock_window_removed_toas": 1,
+  "code_sha256": "d4ecde5a1a65c789ee6114806168e577eed7b24cd42942ab8fcb728a846fc89b",
+  "completed_utc": "2026-09-09T06:19:18.823112+00:00",
+  "early_late_fits": [
+    {
+      "amplitude_us": 95.61659281444192,
+      "coefficient_covariance_us2": [
+        [
+          1185.8604898705419,
+          -25.891798401515814
+        ],
+        [
+          -25.891798401515814,
+          1136.4386841213163
+        ]
+      ],
+      "delta_chi2": 7.646865269164029,
+      "dof_null": 63,
+      "null_chi2": 47.035380274216585,
+      "period_days": 81.75186530200611,
+      "rank": 6,
+      "sin_cos_us": [
+        -92.13197664248413,
+        25.57795342461049
+      ]
+    },
+    {
+      "amplitude_us": 144.13092620568008,
+      "coefficient_covariance_us2": [
+        [
+          543.9837208822283,
+          -43.86021727460939
+        ],
+        [
+          -43.86021727460944,
+          557.5599280697045
+        ]
+      ],
+      "delta_chi2": 36.54291255942034,
+      "dof_null": 70,
+      "null_chi2": 77.52071401094987,
+      "period_days": 81.75186530200611,
+      "rank": 6,
+      "sin_cos_us": [
+        -136.89001595320565,
+        45.109283093818995
+      ]
+    }
+  ],
+  "extra_dof": 2,
+  "fixed_period_consistency_p": 0.7519758047069214,
+  "gls_code_sha256": "b69eb86b1fc28da36dff4b6cece1d07c73324cabdb3b08419d1871f6177b844b",
+  "independent_radio_split": "Unavailable: effectively one observing band",
+  "joint_split_extra_chi2": 0.5701022602835408,
+  "radio_range_mhz": [
+    834.10199,
+    840.234009
+  ],
+  "without_clock_window": {
+    "amplitude_us": 137.46141020506985,
+    "coefficient_covariance_us2": [
+      [
+        326.48597782248197,
+        -13.789780151012923
+      ],
+      [
+        -13.789780151012923,
+        337.6847358341766
+      ]
+    ],
+    "delta_chi2": 56.472230807351536,
+    "dof_null": 138,
+    "null_chi2": 143.9190968541492,
+    "period_days": 81.75186530200611,
+    "rank": 6,
+    "sin_cos_us": [
+      -131.33115563930875,
+      40.5926945891763
+    ]
+  }
+}

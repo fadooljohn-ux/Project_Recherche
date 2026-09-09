@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "disposition_id": "pilot2-b1937-dedicated-sol-audit-disposition-v0.2.6",
+  "recorded_utc": "2026-08-11T01:09:50Z",
+  "target_commit": "8c1dd7062246c111a49e8fcbd6f9181a04dd844c",
+  "status": "hold",
+  "execution_readiness": "hold",
+  "science_execution_authorized": false,
+  "audit_report": {
+    "logical_path": "docs/audits/DEDICATED_SOL_AUDIT_PILOT2_v0.2.6_2026-08-11.md",
+    "sha256": "1326f283e92f54aa3884baa35e2a1fb331749c116ffc0de21731877f0cd1ef44"
+  },
+  "primary_verification": {
+    "logical_path": "results/pilot2/dedicated_sol_audit_primary_verification_v0.2.6.json",
+    "sha256": "294d1c755a5af5e394c05857b04a42735ddb14ee0e58ee8836f33373ded68071"
+  },
+  "finding_counts": {
+    "P0": 0,
+    "P1": 1,
+    "P2": 0,
+    "P3": 0
+  },
+  "open_findings": [
+    "SOL-V026-001"
+  ],
+  "prior_findings": {
+    "SOL-V025-001": "partial_at_unique_key_parsed_object_layer",
+    "SOL-V025-002": "closed"
+  },
+  "passing_controls": [
+    "recursive_exact_value_and_type_binding_after_unique_key_parse",
+    "trusted_binding_hash_in_attempt_and_execution_binding",
+    "live_context_recomputed_before_recovery",
+    "every_new_case_directory_entry_parent_fsynced",
+    "all_case_family_directories_durably_precreated",
+    "durable_file_replace_sequence",
+    "repository_confined_exact_hash_path_sets",
+    "current_execution_lock",
+    "never_executed_inventory_reuse",
+    "outcome_free_health_and_science_boundaries"
+  ],
+  "failed_controls": [
+    "reject_duplicate_json_member_names_before_trust_decisions"
+  ],
+  "audit_test_result": {
+    "targeted_tests_passed": 33,
+    "targeted_tests_failed": 0,
+    "full_repository_suite_rerun": false
+  },
+  "science_cases_executed_during_audit": 0,
+  "external_data_roots_accessed_during_audit": 0,
+  "execution_freeze_present": false,
+  "next_gate": "new_zero_science_duplicate_json_rejection_remediation_version_only_after_explicit_direction"
+}

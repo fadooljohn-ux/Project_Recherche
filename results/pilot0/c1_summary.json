@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-08-09T02:15:23.259560+00:00",
+  "authoritative_run_id": "20260809T021523Z",
+  "case": "C1",
+  "case_purpose": "strong_positive_control",
+  "case_result": "fail",
+  "review_status": "pending",
+  "criteria": {
+    "configuration_frozen_and_c1_only": true,
+    "injection_application_within_tolerance": true,
+    "toa_count_unchanged": true,
+    "unmodeled_refit_converged": true,
+    "blind_peak_within_one_fourier_bin": false,
+    "exact_frequency_power_exceeds_c0": true,
+    "exact_frequency_amplitude_exceeds_c0": true,
+    "c0_joint_fit_converged": true,
+    "c1_joint_fit_converged": true,
+    "joint_amplitude_exceeds_c0": true,
+    "joint_chi2_improvement_exceeds_c0": true,
+    "periodogram_finite": true,
+    "material_warnings_dispositioned": false,
+    "runtime_under_60_minutes": true,
+    "peak_memory_under_16_gib": true
+  },
+  "injection": {
+    "period_days": 100.0,
+    "requested_amplitude_us": 20.0,
+    "phase_radians": 1.0471975511965976,
+    "reference_epoch_mjd_tdb": 56078.0,
+    "maximum_application_error_us": 0.000008394586024085271,
+    "application_tolerance_us": 0.001
+  },
+  "ordinary_refit": {
+    "ntoas": 433,
+    "weighted_rms_us": 10.80578829965236,
+    "wideband_chi2": 220059.05025223223,
+    "reduced_chi2": 320.78578753969714
+  },
+  "blind_recovery": {
+    "strongest_peak_period_days": 30.09624189093966,
+    "strongest_peak_power": 0.24413345569884806,
+    "peak_fourier_bin_offset_from_injection": 132.95694792343264,
+    "exact_100_day_power": 0.14936859787062265,
+    "exact_100_day_amplitude_us": 5.765457912928608,
+    "exact_100_day_diagonal_weighted_delta_chi2": 66673.42540505121,
+    "matched_null_subtracted_amplitude_us": 5.785981389696104,
+    "recovery_fraction": 0.2892990694848054,
+    "standard_timing_model_absorption_fraction": 0.7107009305151946,
+    "disposition": "The exact injection line exceeded its C0 comparator but was not the strongest frozen-search peak. The diagonal periodogram is uncalibrated and is not a detection statistic."
+  },
+  "joint_wavex_diagnostic": {
+    "matched_null_subtracted_amplitude_us": 20.000164373856208,
+    "matched_null_recovery_fraction": 1.000008218692811,
+    "matched_null_phase_error_radians": -0.00001900945253741071,
+    "unexpected_warning_count": 15,
+    "disposition": "Invalidated for scientific use because PINT warns that WaveX and the release model PLRedNoise component cannot be used together. Retained only as a numerical diagnostic."
+  },
+  "resources": {
+    "total_wall_seconds": 21.016899000000194,
+    "cpu_seconds": 63.052416,
+    "peak_rss_mib": 250.83203125
+  },
+  "external_outputs": {
+    "full_record": {
+      "logical_path": "run_records/c1_positive_control_20260809T021523Z.json",
+      "sha256": "6e228f1d074d19324f2e605a79be8fdce1b26e0af5aeb3ea4ba99e3e3271a9fe"
+    },
+    "log": {
+      "logical_path": "run_records/c1_positive_control_20260809T021523Z.log",
+      "sha256": "675b054e4e8d06dc1b82bae90eac33adf8e38da29e1e8fb193c10ab7687953c3"
+    },
+    "periodogram": {
+      "logical_path": "derived/g3/c1/J1744-1134_C1_20260809T021523Z.periodogram.npz",
+      "sha256": "9038dd14488c94577ed97a2a556348a5b5944fcbffbdbf2d81896b1eddb07f02"
+    },
+    "c1_unmodeled_model": {
+      "logical_path": "derived/g3/c1/J1744-1134_C1_20260809T021523Z.unmodeled.postfit.par",
+      "sha256": "1708efc0da2e8a6c7173e17ebdbd62a5ba507991142473b3c19e126b952bed81"
+    },
+    "c1_joint_model": {
+      "logical_path": "derived/g3/c1/J1744-1134_C1_20260809T021523Z.joint-wavex.postfit.par",
+      "sha256": "d52a99b115f0da644b68952f483c9c357036a71fb62d24b0fec1905ad5329306"
+    },
+    "c0_joint_model": {
+      "logical_path": "derived/g3/c1/J1744-1134_C0_20260809T021523Z.joint-wavex.postfit.par",
+      "sha256": "08265ecbc2d79e248d7f809ac7d30b8c393a1270a345829a6a6bf2034e2e222f"
+    }
+  },
+  "execution_history": [
+    {
+      "run_id": "20260809T021523Z",
+      "status": "authoritative_fail",
+      "pixi_lock_sha256": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8"
+    }
+  ],
+  "authorized_next_cases": [],
+  "blocked_cases": [
+    "C2",
+    "C3"
+  ],
+  "block_reason": "C1 failed its frozen blind-peak criterion and its joint WaveX grader conflicts with the release PLRedNoise component. A new reviewed and frozen C1-R1 method is required."
+}

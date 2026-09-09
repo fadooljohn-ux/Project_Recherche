@@ -1,0 +1,82 @@
+schema_version: 1
+runner_id: pilot2-b1937-injection-runner-v0.2.2
+status: implementation_design_execution_not_authorized
+target: B1937+21
+data_root_generation: Pulsar-Timing-Pilot-v0.2.1
+
+authority:
+  execution_authorized: false
+  observed_residual_access_authorized: false
+  observed_periodic_search_authorized: false
+  promotion_grade_authorized: false
+  discovery_claim_authorized: false
+
+remediation_bindings:
+  remediation_config:
+    logical_path: config/pilot2_injection_remediation_v0.2.2.yaml
+    sha256: f864e18474c11006b0702b7fe7940fd30ff1ce532166f2b5ce59c2677dcdcfe3
+  remediation_freeze:
+    logical_path: protocol/PILOT2_INJECTION_REMEDIATION_FREEZE_v0.2.2.json
+    sha256: 8653290ae1aac2f1bcbcd97320bb36b471a5851d30e81681fc4d4572fd0cadb8
+  prospective_inventory_sha256: e8c2a38a22bd690e611cb99e0e2fab947335c0363a7198c54a47d119032ce613
+
+predecessor_bindings:
+  policy: reuse_passed_v0.2.1_predecessors_without_rerun
+  threshold_lock:
+    logical_path: run_records/pilot2/calibration-threshold-lock-v0.2.1.json
+    sha256: 6e624af784aabd92ce8b28babdaed4c863ca12c94caad756da005f14bf9b5117
+  sealed_gaussian_result:
+    logical_path: run_records/pilot2/sealed-gaussian-evaluation-v0.2.1.json
+    sha256: f3a8677ea28255c7c06afd815fad1d911fcadde9a1fb0a4b2bf464f78aa59034
+  structured_tail_result:
+    logical_path: run_records/pilot2/structured-tail-evaluation-v0.2.1.json
+    sha256: 540f5d12496a02687253b3d0a64e63208c8df53d8cdae3f3935cc8da4fc0f252
+  v0.2.1_terminal_result:
+    logical_path: run_records/pilot2/injection-evaluation-v0.2.1.json
+    sha256: 06cf10aa00231ecac05abccbe491b21c074371d749f8cc88dccff8cf034fba8c
+  v0.2.1_final_ledger:
+    logical_path: run_records/pilot2/calibration-v0.2.1-ledger.json
+    sha256: cb13ffc749cd4bec1ab41dfcfe056850507d52546c9425e2b4fbfff49c1bc621
+  v0.2.1_injection_acceptance_reuse_authorized: false
+  threshold_retuning_authorized: false
+
+paths:
+  ledger: run_records/pilot2/calibration-v0.2.2-ledger.json
+  health: run_records/pilot2/calibration-v0.2.2-health.json
+  dashboard: derived/pilot2/calibration-v0.2.2-dashboard/index.html
+  setup_log: run_records/pilot2/injection-v0.2.2-setup.log
+  case_root: derived/pilot2/calibration-v0.2.2/injections
+  result: run_records/pilot2/injection-evaluation-v0.2.2.json
+
+inventory:
+  total_cases: 344
+  main_cases: 240
+  phase_reference_cases: 60
+  annual_cases: 28
+  boundary_cases: 16
+  solver_audit_cases: 35
+  execution_order: [main, phase_reference, annual, boundary]
+
+execution_controls:
+  checkpoint_every_cases: 25
+  heartbeat_interval_seconds: 30
+  heartbeat_stale_after_seconds: 90
+  passive_review_interval_seconds: 1800
+  resume_requires_inventory_and_implementation_hash_match: true
+  resume_requires_existing_artifact_hash_match: true
+  stage_outcomes_sealed_until_terminal: true
+  manual_refresh_required: true
+  fail_on_missing_canonical_toa_metric: true
+  fail_on_unexpected_material_warning: true
+  fail_on_nonconverged_fit: true
+  fail_on_solver_audit_failure: true
+  failed_stage_reroll_authorized: false
+  promotion_after_runner_authorized: false
+
+resource_caps:
+  wall_hours_maximum: 6.0
+  peak_memory_gib_maximum: 16.0
+  complete_data_root_gib_maximum: 1.5
+  additional_download_bytes_maximum: 0
+
+next_gate: implementation_freeze_then_separate_execution_authorization

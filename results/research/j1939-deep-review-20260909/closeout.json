@@ -1,0 +1,22 @@
+{
+  "candidate_diagnostic_p": 0.07992202729044834,
+  "candidate_null_exceedances": 40,
+  "code_sha256": "252af33c337a68cdc44b44c77a5d49e1a75f8c2fcb1d1b5bdabc5b18610114ea",
+  "completed_utc": "2026-09-08T17:28:00.613172+00:00",
+  "confirmed_planets": 0,
+  "disposition": "INCONCLUSIVE_NOISE_SENSITIVE",
+  "historical_json_records_preserved": 324,
+  "original_result_sha256": "f027268999ab65e90ef34988839c628f7eb823b0253365c6f4dd8d774a5bf1d7",
+  "report_path": "./docs/J1939_DEEP_REVIEW_REPORT_2026-09-09.md",
+  "report_sha256": "943b92bc32f50ddb6591731c4f647737d97ea21f00f77ffb89e380e26019acd3",
+  "simulation_arrays_sha256": "db780ecffa970cb77883cc8b91f027291c437ffa675fad8e2ec117672d78ae1e",
+  "source_result_unchanged": true,
+  "status": "COMPLETE",
+  "step_hashes": {
+    "step1.json": "7a43e8eaf3d15fc1ae242d070f512d03cb9e825770ef3a4b1d853370636c5739",
+    "step2.json": "39542f744305e16eff5cf2f1663cf66160593e08ff3f3ef48275d9d3df8a47b8",
+    "step3.json": "8677e650e5e06fc7bb9b6a921a3033e7e801e4086e4a932790fc00399911319e",
+    "step4.json": "04e5d8efddb72de230a52bbe0747c65bb194af0b10eb4ceba5fcfc36886da3f3"
+  },
+  "target": "J1939+2134"
+}

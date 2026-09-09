@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "plan_id": "pilot2-b1937-full-calibration-v0.2.1",
+  "status": "pass",
+  "execution_authorized": false,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "inventory_sha256": "5dc1601881e58b64d5afd8f4a4236e441447155bfb9e6b9d03d58958b3331106",
+  "case_counts": {
+    "gaussian_threshold_calibration": 5000,
+    "sealed_gaussian_evaluation": 2000,
+    "structured_tail_evaluation": 3000,
+    "injections": 284,
+    "solver_audits": 29,
+    "total_unique_science_cases": 10284
+  },
+  "disjointness": {
+    "case_ids_unique": true,
+    "seeds_unique": true,
+    "case_ids_disjoint_from_v0.2": true,
+    "seeds_disjoint_from_v0.2": true,
+    "v0.2_cases_reused": 0
+  },
+  "threshold_design": {
+    "target_population_quantile": 0.99,
+    "calibration_cases": 5000,
+    "order_statistic_rank": 4962,
+    "one_sided_distribution_free_confidence": 0.9534342612233192,
+    "expected_tail_probability": 0.007798440311937612
+  },
+  "sealed_design": {
+    "cases": 2000,
+    "primary_gate": "wilson_upper_95_at_most_0.025",
+    "maximum_false_positives": 36,
+    "raw_false_positive_rate_role": "reported_estimate_not_hard_gate",
+    "pass_probability_at_true_false_positive_rate_0p01": 0.9996068482064723,
+    "threshold_retuning_authorized": false
+  },
+  "resource_projection": {
+    "projected_wall_hours_with_25_percent_contingency": 2.679160103897434,
+    "macbook_wall_hours_maximum": 6.0,
+    "additional_download_bytes": 0
+  },
+  "validation": {
+    "status": "pass",
+    "failures": []
+  },
+  "next_gate": "implementation_revision_and_separate_execution_authorization"
+}

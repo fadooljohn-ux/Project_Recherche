@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot2-b1937-injection-runner-freeze-v0.2.6",
+  "recorded_utc": "2026-08-11T00:59:21Z",
+  "status": "implementation_frozen_execution_not_authorized",
+  "scope": "v0.2.6_zero_science_exact_typed_context_binding_and_nested_directory_durability_remediation",
+  "execution_authorized": false,
+  "science_cases_executed_during_validation": 0,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "promotion_grade_authorized": false,
+  "discovery_claim_authorized": false,
+  "inventory_policy": "reuse_exact_never_executed_v0.2.3_inventory_without_seed_churn",
+  "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+  "implementation_sha256": "3d56ab925e87f3938f4b85ded3c8c3683e5b2d80dc14b468a9bfa6fb6ba8183e",
+  "source_audit_disposition": "v0.2.5_hold_remediated_pending_fresh_sol_audit",
+  "frozen_sha256": {
+    "config/pilot2_injection_runner_v0.2.6.yaml": "653732119e1db1004ff832d80904043040a3e19666c0ff589f82cd7055e9543d",
+    "protocol/PILOT2_INJECTION_RUNNER_PROTOCOL_v0.2.6.md": "6bbdcee7f2b15cc2fcf4a82d12c1eb61560feb59cd6ad2ce7e703dd20b2327a1",
+    "results/pilot2/injection_v026_audit_finding_closure.json": "9594c7e93ea72cb239b37dbc69d7cdaf57f40c7dde3abdd0f329971c11c66a80",
+    "results/pilot2/injection_validation_manifest_v0.2.6.json": "567456d9fd486317cc369ed981f68aa8e2b4506dfc589539cef97c2da1b97937",
+    "src/pulsar_pilot/pilot2_injection_executor_v026.py": "052f4e2984db3ab386f926a55be96c15b487ef9775b4ed3500e2f64befd4738c",
+    "src/pulsar_pilot/pilot2_injection_runner_v026.py": "cd3fed966511a9bc3c25c43ef9a1cccccff276f4d6bfc08178f7bdee79b41cb0",
+    "tests/test_pilot2_injection_runner_v026.py": "1e721c41ff40f548cc8b95ac606ca69d6270d6e7ad1a08dd201a415948c4ec27"
+  },
+  "audit_findings_addressed": [
+    "SOL-V025-001",
+    "SOL-V025-002"
+  ],
+  "validation": {
+    "repository_tests_passed": 269,
+    "repository_tests_failed": 0,
+    "historical_tests_deselected": 3,
+    "v0.2.6_boundary_tests_passed": 33
+  },
+  "next_gate": "zero_case_integrity_dry_run_and_execution_readiness_freeze"
+}

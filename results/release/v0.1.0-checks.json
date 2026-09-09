@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "workbook": {
+    "numeric": 6091,
+    "formula": 16,
+    "text_edits": 1295
+  },
+  "scientific_source_files": 71,
+  "unchanged_source_files": 65,
+  "display_only_source_changes": [
+    "src/pulsar_pilot/pilot2_injection_runner_v022.py",
+    "src/pulsar_pilot/pilot2_injection_runner_v023.py",
+    "src/pulsar_pilot/pilot2_injection_runner_v024.py",
+    "src/pulsar_pilot/pilot2_injection_runner_v025.py",
+    "src/pulsar_pilot/pilot2_injection_runner_v026.py",
+    "src/pulsar_pilot/pilot2_injection_runner_v027.py"
+  ],
+  "binary_files_checked": {
+    "pdf": 4,
+    "png": 8,
+    "npz": 85,
+    "npy": 98
+  },
+  "citation_schema": "CFF 1.2.0",
+  "scientific_runs_executed": 0,
+  "preserved_json_documents": 1310,
+  "operator_closeout_fixtures": "PASS: two temporary closeouts, duplicate idempotency, conflict rejection and review registration",
+  "runtime_check": "PASS using existing locked runtime via temporary symlinks; not an independent fresh-install qualification",
+  "canonical_original_master_sha256": "d3774beb5ec634f2fcba1859450c5e9bc755b0fa8954fcbe0b03fc0a334e61e2"
+}

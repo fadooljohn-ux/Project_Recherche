@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "assessment_id": "candidate-grading-utmost-batch04-20260909",
+  "assessed_utc": "2026-09-09T06:21:53.886205+00:00",
+  "method": "docs/CANDIDATE_GRADING.md",
+  "records": [
+    {
+      "record_id": "utmost-batch04-20260909-J1359-6038-run01",
+      "target": "J1359-6038",
+      "result_sha256": "e8293d14b3c50c7e6e8523fbfa3cdf7c17c91c5c7dc10b12197f9ae7fcbfe328",
+      "statistical_grade": "NOT_ESTABLISHED",
+      "global_fap": null,
+      "global_sigma": null,
+      "global_scope": "No noise-robust survey-wide false-alarm calibration. Original 1% allowance is conditional and per batch.",
+      "diagnostic_source": "results/research/j1359-deep-review-20260909/step3.json",
+      "exceedance_field": "null_exceedances",
+      "null_count": 512,
+      "null_exceedances": 480,
+      "diagnostic_p_plus_one": 0.9376218323586745,
+      "diagnostic_scope": "Refined original candidate profiled across noise models versus each noise-only global maximum across the declared period union; conditional candidate-specific diagnostic. Plug-in finite noise family, not survey-wide FAP.",
+      "robustness_grade": "NOISE_SENSITIVE",
+      "robustness_evidence": "The approximately 96-day signal survives individual-day and time checks but falls from \u0394\u03c7\u00b2 41.76 to about 7.21 with broader red-noise coverage.",
+      "confirmation_grade": "NOT_CORROBORATED",
+      "confirmation_evidence": "TPA has 91.2% conditional detection power but does not corroborate the waveform (fixed-period \u0394\u03c7\u00b2 1.903; coefficient-contrast p 0.00568). This is informative non-corroboration, not a conclusive exclusion.",
+      "disposition": "INCONCLUSIVE_NOISE_SENSITIVE",
+      "sources": [
+        {
+          "path": "results/research/j1359-deep-review-20260909/step1.json",
+          "sha256": "88f267e4c39a0a40c0b6362665ef9a4b1943febf5aaf01d8f07ba448f14e9fc6"
+        },
+        {
+          "path": "results/research/j1359-deep-review-20260909/step2.json",
+          "sha256": "e3b2bdb8e8944a087f8b72fa0b8ca36a537a4306139f489e36ef95942998425b"
+        },
+        {
+          "path": "results/research/j1359-deep-review-20260909/step3.json",
+          "sha256": "84da6a54f220fdf6a84c5c3492ca097f16380290072821979fcb24f9f8b40d35"
+        },
+        {
+          "path": "results/research/j1359-deep-review-20260909/step4.json",
+          "sha256": "b8ca2817bf40234369b14084966b3296ffef5c3ede1aa0e9d483ca0938be5734"
+        },
+        {
+          "path": "docs/UTMOST_BATCH04_CANDIDATE_REVIEWS_2026-09-09.md",
+          "sha256": "0b461b3100c76127d2951a06261cd425bd322f4952c97c50331bdb726ce469c6"
+        }
+      ]
+    },
+    {
+      "record_id": "utmost-batch04-20260909-J0908-4913-run01",
+      "target": "J0908-4913",
+      "result_sha256": "df607afc0d33df12b58794e4c530165a6378954fdabe1a79f26058130c54bd39",
+      "statistical_grade": "NOT_ESTABLISHED",
+      "global_fap": null,
+      "global_sigma": null,
+      "global_scope": "No noise-robust survey-wide false-alarm calibration. Original 1% allowance is conditional and per batch.",
+      "diagnostic_source": "results/research/j0908-deep-review-20260909/step3.json",
+      "exceedance_field": "null_exceedances",
+      "null_count": 512,
+      "null_exceedances": 495,
+      "diagnostic_p_plus_one": 0.9668615984405458,
+      "diagnostic_scope": "Refined original candidate profiled across noise models versus each noise-only global maximum across the declared period union; conditional candidate-specific diagnostic. Plug-in finite noise family, not survey-wide FAP.",
+      "robustness_grade": "NOISE_SENSITIVE",
+      "robustness_evidence": "The approximately 93-day signal weakens from \u0394\u03c7\u00b2 28.29 to about 6.43 with broader red-noise coverage. Early and late coefficients also differ (conditional p 0.000885); one observing-day deletion lowers \u0394\u03c7\u00b2 to 20.92.",
+      "confirmation_grade": "NOT_CORROBORATED",
+      "confirmation_evidence": "TPA has 79.4% conditional detection power but does not corroborate the waveform (fixed-period \u0394\u03c7\u00b2 2.318; coefficient-contrast p 0.000526). Extrapolation and noise uncertainty limit exclusion.",
+      "disposition": "INCONCLUSIVE_NOISE_SENSITIVE",
+      "sources": [
+        {
+          "path": "results/research/j0908-deep-review-20260909/step1.json",
+          "sha256": "0ab22c704b39d782d6e6d815cbcdd8583cfc2d99269e0bf678b63c98785e9243"
+        },
+        {
+          "path": "results/research/j0908-deep-review-20260909/step2.json",
+          "sha256": "ddef2b11787cbb6cf468887f06d84b50a191616b5c93b9aba495c3df6187e62d"
+        },
+        {
+          "path": "results/research/j0908-deep-review-20260909/step3.json",
+          "sha256": "78fa1592d09ea3bdb2a2b78054d32004da58ab87082100f9e620932f78c5536c"
+        },
+        {
+          "path": "results/research/j0908-deep-review-20260909/step4.json",
+          "sha256": "22c62f23e9a4788e6e2484920b4a1d0beee4dec662277cfa6155b7719d76f225"
+        },
+        {
+          "path": "docs/UTMOST_BATCH04_CANDIDATE_REVIEWS_2026-09-09.md",
+          "sha256": "0b461b3100c76127d2951a06261cd425bd322f4952c97c50331bdb726ce469c6"
+        }
+      ]
+    },
+    {
+      "record_id": "utmost-batch04-20260909-J1048-5832-run01",
+      "target": "J1048-5832",
+      "result_sha256": "2c04882bac3140cbe9877014b9d55d8af67c55e8ce6899a4151ed9c36054fa29",
+      "statistical_grade": "NOT_ESTABLISHED",
+      "global_fap": null,
+      "global_sigma": null,
+      "global_scope": "No noise-robust survey-wide false-alarm calibration. Original 1% allowance is conditional and per batch.",
+      "diagnostic_source": "results/research/j1048-deep-review-20260909/step3.json",
+      "exceedance_field": "null_exceedances",
+      "null_count": 512,
+      "null_exceedances": 512,
+      "diagnostic_p_plus_one": 1.0,
+      "diagnostic_scope": "Refined original candidate profiled across noise models versus each noise-only global maximum across the declared period union; conditional candidate-specific diagnostic. Plug-in finite noise family, not survey-wide FAP.",
+      "robustness_grade": "NOISE_SENSITIVE",
+      "robustness_evidence": "The approximately 105-day signal collapses from \u0394\u03c7\u00b2 36.74 to about 1.52 with broader red-noise coverage. No simulated global maximum falls below its candidate comparison statistic.",
+      "confirmation_grade": "UNDERPOWERED",
+      "confirmation_evidence": "TPA has only 2.8% conditional detection power. Its weak fixed-period response cannot confirm or meaningfully rule out this waveform.",
+      "disposition": "INCONCLUSIVE_NOISE_SENSITIVE",
+      "sources": [
+        {
+          "path": "results/research/j1048-deep-review-20260909/step1.json",
+          "sha256": "a85fff3d19e1cc18650dfe7f018b2ab1ac5a98e051d6fbb063278ee6d1679fd1"
+        },
+        {
+          "path": "results/research/j1048-deep-review-20260909/step2.json",
+          "sha256": "b1760c4477689828029e9ac14db66fa4b19a50b4f2243285d756afb7f5517a8b"
+        },
+        {
+          "path": "results/research/j1048-deep-review-20260909/step3.json",
+          "sha256": "ca6a4439f5800f4c5c6230e365553a1d63874f630818b6d0c7b03785a1a51722"
+        },
+        {
+          "path": "results/research/j1048-deep-review-20260909/step4.json",
+          "sha256": "63ab572c42690ca6d9eb7a0341e17be5ba947d8710c01e4f309a85bdb56e2435"
+        },
+        {
+          "path": "docs/UTMOST_BATCH04_CANDIDATE_REVIEWS_2026-09-09.md",
+          "sha256": "0b461b3100c76127d2951a06261cd425bd322f4952c97c50331bdb726ce469c6"
+        }
+      ]
+    },
+    {
+      "record_id": "utmost-batch04-20260909-J1752-2806-run01",
+      "target": "J1752-2806",
+      "result_sha256": "95eeadd38dcb16ded708638fa9493b512365a4d82d13ff852081da5af89bb84a",
+      "statistical_grade": "NOT_ESTABLISHED",
+      "global_fap": null,
+      "global_sigma": null,
+      "global_scope": "No noise-robust survey-wide false-alarm calibration. Original 1% allowance is conditional and per batch.",
+      "diagnostic_source": "results/research/j1752-deep-review-20260909/step3.json",
+      "exceedance_field": "null_exceedances",
+      "null_count": 512,
+      "null_exceedances": 0,
+      "diagnostic_p_plus_one": 0.001949317738791423,
+      "diagnostic_scope": "Refined original candidate profiled across noise models versus each noise-only global maximum across the declared period union; conditional candidate-specific diagnostic. Plug-in finite noise family, not survey-wide FAP.",
+      "robustness_grade": "NOISE_SENSITIVE",
+      "robustness_evidence": "The approximately 81.75-day signal survives every day deletion and has compatible early/late coefficients. However, its \u0394\u03c7\u00b2 falls from 57.67 to 1.81\u20132.28 under 32/64-mode red noise. The model-selected comparison retains statistic 25.91, with 0/512 null exceedances, because the preferred signal model returns to the released covariance while the preferred null uses steeper 64-mode noise. This model dependence warrants NOISE_SENSITIVE despite the interesting conditional tail.",
+      "confirmation_grade": "UNDERPOWERED",
+      "confirmation_evidence": "TPA has only 29.0% conditional detection power and no fixed-period support. That non-detection is underpowered and does not settle the candidate.",
+      "disposition": "INCONCLUSIVE_NOISE_SENSITIVE",
+      "sources": [
+        {
+          "path": "results/research/j1752-deep-review-20260909/step1.json",
+          "sha256": "f0be5674a3d827d29e4d2cbcbebbd24a277798a1e74f3fe0bf2c731271662569"
+        },
+        {
+          "path": "results/research/j1752-deep-review-20260909/step2.json",
+          "sha256": "b2a81ec36bcbfd66074b7833716e0f68f6f7aaca5a1593a06f0e88bc4f0e4f8a"
+        },
+        {
+          "path": "results/research/j1752-deep-review-20260909/step3.json",
+          "sha256": "1476ff599dc885539cf178cd493fc4df2191ff5a31f9d96b917e1568fa4f763d"
+        },
+        {
+          "path": "results/research/j1752-deep-review-20260909/step4.json",
+          "sha256": "4a65d1436426ccd17c0b99a2103e2736c34ca06ecec09de2543b62ddd9c83215"
+        },
+        {
+          "path": "docs/UTMOST_BATCH04_CANDIDATE_REVIEWS_2026-09-09.md",
+          "sha256": "0b461b3100c76127d2951a06261cd425bd322f4952c97c50331bdb726ce469c6"
+        }
+      ]
+    }
+  ]
+}

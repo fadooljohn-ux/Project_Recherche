@@ -1,0 +1,108 @@
+{
+  "code_sha256": "b617b4911e660f88c02f24788a42a759978b29da879dec645c71e1c0a58c1de5",
+  "completed_utc": "2026-09-09T06:50:21.549075+00:00",
+  "first_review_seed": 2026099003,
+  "frozen_family": [
+    [
+      "released",
+      12,
+      1.0,
+      0.0,
+      0
+    ],
+    [
+      "red32",
+      32,
+      1.0,
+      0.0,
+      0
+    ],
+    [
+      "red64",
+      64,
+      1.0,
+      0.0,
+      0
+    ],
+    [
+      "red64_half_amp",
+      64,
+      0.5,
+      0.0,
+      0
+    ],
+    [
+      "red64_double_amp",
+      64,
+      2.0,
+      0.0,
+      0
+    ],
+    [
+      "red64_flatter",
+      64,
+      1.0,
+      -1.0,
+      0
+    ],
+    [
+      "red64_steeper",
+      64,
+      1.0,
+      1.0,
+      0
+    ],
+    [
+      "chromatic64_nu4",
+      64,
+      1.0,
+      0.0,
+      4
+    ]
+  ],
+  "gamma_bounds": [
+    0.0,
+    7.0
+  ],
+  "inputs": {
+    "../Project Recherche Data/j1752-deep-review-20260909/review-arrays.npz": "769ca717e6f8ce0e63555c217d8382ddc5983c9b49f0c1a5059384b462ce2fba",
+    "../Project Recherche Data/j1752-deep-review-20260909/step3.json": "1476ff599dc885539cf178cd493fc4df2191ff5a31f9d96b917e1568fa4f763d",
+    "../Project Recherche Data/tpa-batch09-20260908/J1752-2806/prepared/observed.npz": "1f1e41920dbf3c8c107b6ae64478f05cd1b76300778f96cb545509c0af777110",
+    "../Project Recherche Data/tpa-batch09-20260908/J1752-2806/profile/arrays.npz": "20a575ae72a4f2e97cbc18d97e5141d4b18d2f04dac3462d7c3a863e45ab1aca",
+    "../Project Recherche Data/tpa-batch09-20260908/J1752-2806/profile/profile.json": "4cd4cdbaac50c71db325c46a1aa5f607a452c2a4f365ec7def9f24a9ff034f8e",
+    "../Project Recherche Data/utmost-batch04-20260909/J1752-2806/prepared/metadata.npz": "18e5a0e207e46df8722dd7981bde2c1376bd4602e3a36f8a381cf66924a95ed4",
+    "../Project Recherche Data/utmost-batch04-20260909/J1752-2806/prepared/observed.npz": "9c965355d1fabcd99439e709e6badfe9f1e71d25bc32420f754bdd89dbf1c797",
+    "../Project Recherche Data/utmost-batch04-20260909/J1752-2806/profile/arrays.npz": "75cdfb8a72dabf68ade141b2b672cddf89defc7ff977c46a3de23d3aea77632a",
+    "../Project Recherche Data/utmost-batch04-20260909/J1752-2806/profile/profile.json": "0282f3b85a65935e8ca20445e111d65520609380102b088944074550d0bd8050",
+    "../Project Recherche Data/utmost-batch04-20260909/J1752-2806/run01/result.json": "95eeadd38dcb16ded708638fa9493b512365a4d82d13ff852081da5af89bb84a"
+  },
+  "limitations": "White noise fixed. Local candidate period only. No global significance, new blind search, binary model or full noise posterior.",
+  "log10_amplitude_bounds": [
+    -10.72688,
+    -8.72688
+  ],
+  "modes": [
+    12,
+    32,
+    64
+  ],
+  "null_count_each": 512,
+  "null_generators": [
+    "released",
+    "published_red64",
+    "continuous_best_null"
+  ],
+  "null_seed": 2026091752,
+  "objective": "Timing-marginalized Gaussian objective; same timing prior measure; sinusoid coefficients profiled",
+  "period_bounds": [
+    73.60646831882212,
+    89.96346127856039
+  ],
+  "profile_points": 161,
+  "propagation": "Uniform local-period grid weighted by exp(-profile delta objective/2); conditional Gaussian coefficients at each period; plug-in noise fit; not posterior draws",
+  "propagation_draws_per_basis": 2048,
+  "propagation_seed": 2026091753,
+  "reuse": "First review steeper-red64 null realizations reused without rerun",
+  "starts": "Published amplitude/slope; slope+1; amplitude-0.5 dex",
+  "target": "J1752-2806"
+}

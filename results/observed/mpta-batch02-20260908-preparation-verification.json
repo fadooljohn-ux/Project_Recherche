@@ -1,0 +1,112 @@
+{
+  "checks": "5 focused adapter tests; static checks; four calibration cache bindings; workbook preservation and formulas",
+  "epochs": 367,
+  "execution_freeze_sha256": "053c52d73da09bf55b22e1c51b258063cff11d6bbd05e5f13827db1625bbd740",
+  "historical_result_hashes_verified": {
+    "../Project Recherche Data/b1257-benchmark-20260908/refinement01/result.json": "f30a2938425df6edc9984920db38037c798821f31c7073e69ff3da55a66f3854",
+    "../Project Recherche Data/b1257-benchmark-20260908/run01/result.json": "757070982c6d815fb8d0cc6b235073edb7f90b18d221859bd6a63d8bc8b0b39b",
+    "../Project Recherche Data/five-companion-benchmark-20260908/J1544+4937/run01/result.json": "c7850158c54d2942a1dfdd734256e859511daeb3a8f7bd595290646fcbbe2b12",
+    "../Project Recherche Data/five-companion-benchmark-20260908/J1719-1438/run01/result.json": "5755d312887ed25508631a2c9bf42ef5650ef23837e25620a05fbc89827856ff",
+    "../Project Recherche Data/five-companion-benchmark-20260908/J2322-2650/run01/result.json": "2cf4126aa6b97bf0d52e8da9e2e18bde0de2ae71a6394b7a6b342e10ed36561c",
+    "../Project Recherche Data/mpta-batch01-20260908/J0636-3044/run01/result.json": "aedc4263af752648ba35575d3f2c083deceeba10a4527db23311b3f1fcccfa2d",
+    "../Project Recherche Data/mpta-batch01-20260908/J0711-6830/run01/result.json": "9bc628876a25c0c41cb732650e6b0abf3452d291c4de08cf24a4d391f5732c2c",
+    "../Project Recherche Data/mpta-batch01-20260908/J0931-1902/run01/result.json": "1306dfdd0249a8398a99b68bc67e2b01b4e5d7ceaac8b5d5eb5086c9627c9ead",
+    "../Project Recherche Data/mpta-batch01-20260908/J1629-6902/run01/result.json": "8c93b5c7666df9bf87c4229eb2c32533d7c3ac0301f3d647b91af8ee2a6ff0bc",
+    "../Project Recherche Data/mpta-batch01-20260908/J1658-5324/run01/result.json": "095ed096acba4dc0eaf1940f092841061bc754461ccdec3ea241507920c7821d",
+    "../Project Recherche Data/mpta-batch01-20260908/J1730-2304/run01/result.json": "84292ecf2773afd514c321d943e50b21081cf727fae1e28b1c557640d9fa8ebc",
+    "../Project Recherche Data/mpta-batch01-20260908/J1843-1113/run01/result.json": "b6f3e52b5c172697df0a4a0212e0f34105a5d4d8b02a9b1d3da6a4088257cc6b",
+    "../Project Recherche Data/mpta-batch01-20260908/J1843-1448/run01/result.json": "2a0a602476dc0153b87bb797cf41071bd63b75f83f5bd837835f19c2d8556a46",
+    "../Project Recherche Data/mpta-batch01-20260908/J2010-1323/run01/result.json": "a00a412b41110ae4f346ef9bd0077d0af7a6dc331a4b4d86bf20ab8983b41d93",
+    "../Project Recherche Data/mpta-batch01-20260908/J2124-3358/run01/result.json": "51ba9096f12910d6a8743d7d4ca897c4ca562f61eaebc85acbf7e298292e0518",
+    "../Project Recherche Data/operational-20260908/observed-runs/pilot2-ioc-observed-b1937-20260908-01/result.json": "bca91e1a88ed79625b34a34e19f4063516ac1e49d46d17cad4e5e232c449978d"
+  },
+  "null_draws": 16384,
+  "observed_scans": 0,
+  "qualified_source_unchanged": true,
+  "selection_sha256": "527c974834c7300624851cd17d199b06624ebbcf9b566a557859a7459370c425",
+  "source_commit": "7a90de58d2ac4d4cf40f41add66799868a472840",
+  "status": "PREPARED_VERIFIED_NOT_LAUNCHED",
+  "targets": [
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "0d7858789753d0aa9bde011f25fcba5ba854e2bbc98828258c85a5b5f9cb9d7f",
+        "eligible_cells": 202,
+        "excluded_cells": 10,
+        "frequency_count": 212,
+        "median_worst_phase_amplitude_us": 2.39626040721767,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/mpta-batch02-20260908/calibration-cache/0d7858789753d0aa9bde011f25fcba5ba854e2bbc98828258c85a5b5f9cb9d7f",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J2322+2057",
+        "threshold": 22.696101643559988,
+        "timing_rank": 88
+      },
+      "epochs": 79,
+      "phase_arc_cycles": 0.02161868147983259,
+      "target": "J2322+2057",
+      "toas": 1756
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "ceb81b33511dcec9e8ff64375c4ccbf97e5685643da0360aee47de63bcd33cf7",
+        "eligible_cells": 233,
+        "excluded_cells": 9,
+        "frequency_count": 242,
+        "median_worst_phase_amplitude_us": 1.7550180505875863,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/mpta-batch02-20260908/calibration-cache/ceb81b33511dcec9e8ff64375c4ccbf97e5685643da0360aee47de63bcd33cf7",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1801-1417",
+        "threshold": 22.960804546529335,
+        "timing_rank": 105
+      },
+      "epochs": 96,
+      "phase_arc_cycles": 0.018665567004460093,
+      "target": "J1801-1417",
+      "toas": 3069
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "e89a183a31f674f828fbe098397d2facc6acd2b3fdc12d5ccc14e46f924834a8",
+        "eligible_cells": 233,
+        "excluded_cells": 9,
+        "frequency_count": 242,
+        "median_worst_phase_amplitude_us": 0.40128376007208494,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/mpta-batch02-20260908/calibration-cache/e89a183a31f674f828fbe098397d2facc6acd2b3fdc12d5ccc14e46f924834a8",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1744-1134",
+        "threshold": 22.960804546529335,
+        "timing_rank": 107
+      },
+      "epochs": 99,
+      "phase_arc_cycles": 0.01302219585940012,
+      "target": "J1744-1134",
+      "toas": 2957
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "2f507511988b7ada9022ea99dfb07c2f21efa09763e0f1d71ebf29a6207e2c4b",
+        "eligible_cells": 204,
+        "excluded_cells": 8,
+        "frequency_count": 212,
+        "median_worst_phase_amplitude_us": 1.9686696022948922,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/mpta-batch02-20260908/calibration-cache/2f507511988b7ada9022ea99dfb07c2f21efa09763e0f1d71ebf29a6207e2c4b",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J0030+0451",
+        "threshold": 22.696101643559988,
+        "timing_rank": 101
+      },
+      "epochs": 93,
+      "phase_arc_cycles": 0.020652043109470886,
+      "target": "J0030+0451",
+      "toas": 2880
+    }
+  ],
+  "toas": 10662
+}

@@ -1,0 +1,111 @@
+{
+  "code_sha256": "85131c0aa3a39b1b096118e13835f9747f0430a5b62f4ec4a3e1abd710949e08",
+  "coefficient_contrast": {
+    "conditional_consistency_p": 1.0862332756217405e-09,
+    "dof": 2,
+    "limitation": "Conditional fixed-noise coefficient contrast assuming independent source errors; shared propagation noise can violate that assumption.",
+    "statistic": 41.28109967180631
+  },
+  "completed_utc": "2026-09-08T17:23:58.071512+00:00",
+  "fits": {
+    "inpta_after_overlap": {
+      "amplitude_us": 2.7575810230301503,
+      "coefficient_covariance_us2": [
+        [
+          3.9982773818024895,
+          1.1443456482367436
+        ],
+        [
+          1.1443456482367433,
+          0.6027300945737336
+        ]
+      ],
+      "coefficients_us": [
+        2.7460778640590884,
+        -0.25161371802961296
+      ],
+      "dof": 9043,
+      "null_chi2": 2315.496404470436,
+      "statistic": 5.7978151281945856,
+      "status": "FIT",
+      "toas": 9124
+    },
+    "inpta_overlap": {
+      "amplitude_us": 4.169742851803374,
+      "coefficient_covariance_us2": [
+        [
+          0.400344168231241,
+          0.13878394448889303
+        ],
+        [
+          0.13878394448889306,
+          0.28975243123919936
+        ]
+      ],
+      "coefficients_us": [
+        -2.2674177043990764,
+        -3.4993674291138612
+      ],
+      "dof": 8975,
+      "null_chi2": 1212.110620980994,
+      "statistic": 43.309449342656784,
+      "status": "FIT",
+      "toas": 9067
+    },
+    "ppta_full": {
+      "amplitude_us": 0.039595413687476745,
+      "coefficient_covariance_us2": [
+        [
+          0.0009378628942230014,
+          -4.6697818530373334e-05
+        ],
+        [
+          -4.669781853037328e-05,
+          0.0009555196096514949
+        ]
+      ],
+      "delta_chi2": 1.705026976919576,
+      "dof_null": 2425,
+      "null_chi2": 2009.9938165878589,
+      "period_days": 577.5,
+      "rank": 31,
+      "sin_cos_us": [
+        0.014572618809424162,
+        0.03681624052123788
+      ]
+    },
+    "ppta_overlap": {
+      "amplitude_us": 0.3380048637558444,
+      "coefficient_covariance_us2": [
+        [
+          0.02253983530832001,
+          0.01651130400379092
+        ],
+        [
+          0.016511304003790927,
+          0.0711080717298353
+        ]
+      ],
+      "delta_chi2": 2.2288785440921948,
+      "dof_null": 408,
+      "null_chi2": 413.55722348171383,
+      "period_days": 577.5,
+      "rank": 18,
+      "sin_cos_us": [
+        0.21479350835034364,
+        0.2609809125073284
+      ]
+    }
+  },
+  "limitations": "Descriptive fixed-period fits after candidate selection, not new calibrated searches. Overlap and post-overlap alone do not establish orbital coherence.",
+  "overlap_mjd_tdb": [
+    58241.99467777394,
+    59567.14503362377
+  ],
+  "overlap_toas": {
+    "inpta": 9067,
+    "ppta": 426
+  },
+  "period_days": 577.5,
+  "ppta_result_unchanged": true
+}

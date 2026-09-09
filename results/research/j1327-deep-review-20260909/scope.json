@@ -1,0 +1,77 @@
+{
+  "binary_support": false,
+  "checks": "Local refinement; all observing-day deletions; early/late joint contrast; clock anomaly deletion; original eligible grid union local grid; noise family reselected under null and signal in each simulation; fixed-period independent TPA check only",
+  "code_sha256": "37ac175db6e8a2e2c20f01476d46a086c65cee6eec00db955c39991f30432c30",
+  "completed_utc": "2026-09-09T05:00:02.461336+00:00",
+  "injections": 256,
+  "limits": "Single-band chromatic covariance is a degeneracy diagnostic, not separation of propagation from orbital delay. No updated batch discovery p-value.",
+  "local_period_days": [
+    55.0,
+    70.0,
+    0.05
+  ],
+  "noise_family": [
+    [
+      "released10",
+      10,
+      1.0,
+      0.0,
+      0
+    ],
+    [
+      "red32",
+      32,
+      1.0,
+      0.0,
+      0
+    ],
+    [
+      "red64",
+      64,
+      1.0,
+      0.0,
+      0
+    ],
+    [
+      "red64_half_amp",
+      64,
+      0.5,
+      0.0,
+      0
+    ],
+    [
+      "red64_double_amp",
+      64,
+      2.0,
+      0.0,
+      0
+    ],
+    [
+      "red64_flatter",
+      64,
+      1.0,
+      -1.0,
+      0
+    ],
+    [
+      "red64_steeper",
+      64,
+      1.0,
+      1.0,
+      0
+    ],
+    [
+      "chromatic64_nu4",
+      64,
+      1.0,
+      0.0,
+      4
+    ]
+  ],
+  "nulls": 512,
+  "original_result_sha256": "2f7fe68720647f30e26cde5f2fd504316e658c87ffa7b221bfc0c273a8220609",
+  "profile_sha256": "5579501a5cbfa79e81e466077fbe378f6a2df606fd30c49a06ed0908963a53e3",
+  "published_context": "https://academic.oup.com/mnras/article/538/4/3104/8082131",
+  "seed": 2026091327,
+  "target": "J1327-6222"
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot2-b1937-structured-tail-execution-freeze-v0.2.1",
+  "recorded_utc": "2026-08-10T04:13:37Z",
+  "status": "frozen_before_first_structured_tail_case",
+  "scope": "exactly_3000_frozen_structured_tail_cases_in_three_1000_case_variants",
+  "execution_authorized": true,
+  "authorized_case_count": 3000,
+  "no_reroll": true,
+  "threshold_retuning_authorized": false,
+  "injection_evaluation_authorized": false,
+  "promotion_grade_authorized": false,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "discovery_claim_authorized": false,
+  "inventory_sha256": "5dc1601881e58b64d5afd8f4a4236e441447155bfb9e6b9d03d58958b3331106",
+  "implementation_sha256": "27373b3642ac16817c1cc69bf66c4f5cc16aebb96d4bab469e48279f06763ceb",
+  "structured_implementation_freeze_sha256": "6e2d5ae4e443ca99182cbb24afa9f50d9b97a5bf642e714f92322b3d1212aee1",
+  "authorization_sha256": "55677f859ced294ed4371f46a0db09b440517b8dfb8af13aa048ca41fafd8b9d",
+  "gaussian_closeout_sha256": "3c7a7913f3f0aeef18c1c9cfcf8ba9c986aa7471e4f07ed64c8cf99303e54cb2",
+  "threshold_lock_sha256": "6e624af784aabd92ce8b28babdaed4c863ca12c94caad756da005f14bf9b5117",
+  "sealed_evaluation_result_sha256": "f3a8677ea28255c7c06afd815fad1d911fcadde9a1fb0a4b2bf464f78aa59034",
+  "supervision_policy": {
+    "heartbeat_interval_seconds": 30,
+    "stale_after_seconds": 90,
+    "checkpoint_case_interval": 25,
+    "passive_review_interval_seconds": 900,
+    "codex_poll_while_heartbeat_fresh": false,
+    "scientific_outcomes_in_health_record": false
+  },
+  "frozen_sha256": {
+    "config/pilot2_calibration_v0.2.1.yaml": "eecb8935f96afd3a9d450013eec81572c973840194c95ba8881100da67e5da19",
+    "protocol/PILOT2_CALIBRATION_DESIGN_FREEZE_v0.2.1.json": "239688f6f6c70d35c1a82567bd5f15c3bc38f31848acae64a22e64d5fd45bf19",
+    "protocol/PILOT2_STRUCTURED_TAIL_EXECUTION_AUTHORIZATION_v0.2.1.json": "55677f859ced294ed4371f46a0db09b440517b8dfb8af13aa048ca41fafd8b9d",
+    "protocol/PILOT2_STRUCTURED_TAIL_IMPLEMENTATION_FREEZE_v0.2.1.json": "6e2d5ae4e443ca99182cbb24afa9f50d9b97a5bf642e714f92322b3d1212aee1",
+    "results/pilot2/calibration_revision_gaussian_closeout_v0.2.1.json": "3c7a7913f3f0aeef18c1c9cfcf8ba9c986aa7471e4f07ed64c8cf99303e54cb2",
+    "results/pilot2/structured_tail_execution_readiness_v0.2.1.json": "cc9e39fc557e836dfdced5747ab08f7283f779fc0f334089e04445c049677a5e",
+    "src/pulsar_pilot/pilot2_structured_tail_executor.py": "175f1f7b9c6f270e1189c7593ceb8c95868252d92b7d53f84b05ea93df713f12"
+  }
+}

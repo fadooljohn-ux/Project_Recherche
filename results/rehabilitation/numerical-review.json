@@ -1,0 +1,82 @@
+{
+  "development_only": true,
+  "runs": [
+    {
+      "run_id": "pilot2-ioc-dev-integration-01",
+      "warning_status": "pass",
+      "unexpected_warnings": [],
+      "cases": [
+        {
+          "family": "annual",
+          "period_days": 300.0,
+          "amplitude_bias_fraction": 0.004226438870510485,
+          "phase_error_radians": 0.013822606845052004,
+          "frequency_recovered": true,
+          "ordinary_fit_converged": true,
+          "joint_fit_converged": true,
+          "solver_audit_pass": true,
+          "signal_astrometry_correlation": 0.10576467290417477,
+          "ordinary_absorption_fraction": 0.004228380359813988,
+          "eligible_under_existing_limits": true
+        },
+        {
+          "family": "boundary",
+          "period_days": 2000.0,
+          "amplitude_bias_fraction": 0.06500359778242704,
+          "phase_error_radians": 0.05219487553206537,
+          "frequency_recovered": true,
+          "ordinary_fit_converged": true,
+          "joint_fit_converged": true,
+          "solver_audit_pass": true,
+          "signal_astrometry_correlation": 0.0,
+          "ordinary_absorption_fraction": 0.06500258593227204
+        },
+        {
+          "family": "main",
+          "period_days": 1000.0,
+          "amplitude_bias_fraction": 0.12356947484421399,
+          "phase_error_radians": 0.060903589898932346,
+          "frequency_recovered": true,
+          "ordinary_fit_converged": true,
+          "joint_fit_converged": true,
+          "solver_audit_pass": true,
+          "signal_astrometry_correlation": 0.0,
+          "ordinary_absorption_fraction": 0.0
+        },
+        {
+          "family": "phase_reference",
+          "period_days": 1000.0,
+          "amplitude_bias_fraction": 0.06990984211736795,
+          "phase_error_radians": 0.020159476853239894,
+          "frequency_recovered": true,
+          "ordinary_fit_converged": true,
+          "joint_fit_converged": true,
+          "solver_audit_pass": true,
+          "signal_astrometry_correlation": 0.0,
+          "ordinary_absorption_fraction": 0.06991000503628053
+        }
+      ]
+    },
+    {
+      "run_id": "pilot2-ioc-dev-annual-02",
+      "warning_status": "pass",
+      "unexpected_warnings": [],
+      "cases": [
+        {
+          "family": "annual",
+          "period_days": 365.25,
+          "amplitude_bias_fraction": 2.3591022008203284,
+          "phase_error_radians": 0.9925071799669866,
+          "frequency_recovered": false,
+          "ordinary_fit_converged": true,
+          "joint_fit_converged": true,
+          "solver_audit_pass": true,
+          "signal_astrometry_correlation": 0.999970216806613,
+          "ordinary_absorption_fraction": 0.0,
+          "eligible_under_existing_limits": false
+        }
+      ]
+    }
+  ],
+  "interpretation": "Converged numerical execution and solver agreement. The 365.25-day fixture is strongly astrometrically degenerate and ineligible under existing correlation limits. This is not population qualification."
+}

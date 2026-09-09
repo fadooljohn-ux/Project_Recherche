@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "manifest_id": "pilot2-b1937-injection-validation-v0.2.7",
+  "recorded_utc": "2026-08-11T01:57:12Z",
+  "status": "pass",
+  "scope": "zero_science_duplicate_json_member_rejection_validation",
+  "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+  "implementation_sha256": "ff2241b6f354db7bd35c81ee715a61f2e41069d10ca5551dcc4bbe57dfb09374",
+  "format_and_lint": {
+    "command": "pixi run ruff format --check src/pulsar_pilot/pilot2_injection_executor_v027.py src/pulsar_pilot/pilot2_injection_runner_v027.py tests/test_pilot2_injection_runner_v027.py && pixi run ruff check src/pulsar_pilot/pilot2_injection_executor_v027.py src/pulsar_pilot/pilot2_injection_runner_v027.py tests/test_pilot2_injection_runner_v027.py",
+    "status": "pass"
+  },
+  "repository_test_run": {
+    "command": "PYTHONPATH=src pixi run pytest -q --deselect tests/test_pilot2_injection_runner_v022.py::test_execution_lock_precedes_predecessor_and_context_loading --deselect tests/test_pilot2_injection_runner_v022.py::test_zero_case_dry_run_executes_no_science --deselect tests/test_pilot2_injection_runner_v022.py::test_implementation_freeze_is_hash_bound_and_execution_locked",
+    "passed": 309,
+    "failed": 0,
+    "deselected": 3,
+    "elapsed_seconds": 9.38,
+    "status": "pass"
+  },
+  "intentional_deselections": [
+    "tests/test_pilot2_injection_runner_v022.py::test_execution_lock_precedes_predecessor_and_context_loading",
+    "tests/test_pilot2_injection_runner_v022.py::test_zero_case_dry_run_executes_no_science",
+    "tests/test_pilot2_injection_runner_v022.py::test_implementation_freeze_is_hash_bound_and_execution_locked"
+  ],
+  "v0.2.7_boundary_test_count": 40,
+  "v0.2.7_boundary_test_file": "tests/test_pilot2_injection_runner_v027.py",
+  "finding_closure_tests": {
+    "top_level_duplicate_member_rejected": "pass",
+    "nested_duplicate_member_rejected": "pass",
+    "readiness_duplicate_rejected_before_semantic_check": "pass",
+    "execution_authorization_duplicate_rejected_before_predecessors": "pass",
+    "interrupted_artifact_nested_duplicate_rejected": "pass",
+    "version_ledger_duplicate_rejected": "pass",
+    "data_root_marker_duplicate_rejected": "pass",
+    "single_object_pairs_aware_json_entrypoint": "pass"
+  },
+  "retained_control_tests": {
+    "exact_typed_input_binding": "pass",
+    "input_binding_attempt_and_execution_hash": "pass",
+    "nested_directory_parent_sync": "pass",
+    "durable_file_commit": "pass",
+    "complete_artifact_adoption_without_recomputation": "pass",
+    "repository_confined_exact_hashes": "pass"
+  },
+  "science_cases_executed": 0,
+  "random_draws_generated": 0,
+  "timing_model_fits_executed": 0,
+  "periodic_scans_executed": 0,
+  "external_predecessor_records_loaded": 0,
+  "external_data_roots_accessed": 0,
+  "observed_residual_vectors_loaded": 0,
+  "execution_authorized": false
+}

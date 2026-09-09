@@ -1,0 +1,54 @@
+{
+  "target": "J1327-6222",
+  "created_utc": "2026-09-09T05:00:52.202794+00:00",
+  "result_path": "./results/observed/utmost-batch02-20260909/J1327-6222/result.json",
+  "result_sha256": "2f7fe68720647f30e26cde5f2fd504316e658c87ffa7b221bfc0c273a8220609",
+  "entries": [
+    {
+      "id": "J1327-20260909-DEEP-STEP1",
+      "kind": "Candidate deep review",
+      "status": "REVIEW COMPLETE",
+      "summary": "Refined 63.512-day peak survives every observing-day deletion.",
+      "scope": "Bounded follow-up; original threshold and result preserved",
+      "source": "./results/research/j1327-deep-review-20260909/step1.json",
+      "source_sha256": "a523a2bbe0cac3187db401a6c220ee01b04a5b22b48f96097b6c922e2e2ff184"
+    },
+    {
+      "id": "J1327-20260909-DEEP-STEP2",
+      "kind": "Candidate deep review",
+      "status": "REVIEW COMPLETE",
+      "summary": "Signal is much stronger in later observations; effectively one radio band.",
+      "scope": "Bounded follow-up; original threshold and result preserved",
+      "source": "./results/research/j1327-deep-review-20260909/step2.json",
+      "source_sha256": "c81ea504e2b0c4252efd079291641009d6837e630393ec652170a3293b3f2402"
+    },
+    {
+      "id": "J1327-20260909-DEEP-STEP3",
+      "kind": "Candidate deep review",
+      "status": "REVIEW COMPLETE",
+      "summary": "Extended red-noise spectra remove the peak; 511/512 noise nulls exceed the selected-family statistic.",
+      "scope": "Bounded follow-up; original threshold and result preserved",
+      "source": "./results/research/j1327-deep-review-20260909/step3.json",
+      "source_sha256": "08018aa51ef662fbfd0afb4fabf82af0dfbcfef030a8201c60280cbaed1e135f"
+    },
+    {
+      "id": "J1327-20260909-DEEP-STEP4",
+      "kind": "Candidate deep review",
+      "status": "REVIEW COMPLETE",
+      "summary": "Independent TPA fixed-period comparison does not corroborate; only 11.7% conditional power.",
+      "scope": "Bounded follow-up; original threshold and result preserved",
+      "source": "./results/research/j1327-deep-review-20260909/step4.json",
+      "source_sha256": "44417340b80b0bda6ef83441284e03d8ca393584a07d59feec7825a338a1969c"
+    },
+    {
+      "id": "J1327-20260909-DEEP-CLOSEOUT",
+      "kind": "Scientific interpretation",
+      "status": "INCONCLUSIVE_NOISE_SENSITIVE",
+      "summary": "Original trigger retained; no confirmed planet. New red-noise modes explain the periodic feature.",
+      "scope": "Private; later independent data required before revisiting. Batch 02 finished 24 NO_TRIGGER and one reviewed candidate.",
+      "source": "./docs/J1327_DEEP_REVIEW_2026-09-09.md",
+      "source_sha256": "a547b40d062d1d7aa0962ee88e9a192eb52315b4e2b2bf24fc4895e8de1981a7"
+    }
+  ],
+  "next_step": "INCONCLUSIVE_NOISE_SENSITIVE: preserve original trigger; no planet claim. Revisit only with better independent data or new directed scope."
+}

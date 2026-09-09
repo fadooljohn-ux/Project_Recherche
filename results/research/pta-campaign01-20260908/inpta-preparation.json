@@ -1,0 +1,71 @@
+{
+  "created_utc": "2026-09-08T16:31:37.922861+00:00",
+  "observed_search_executed": false,
+  "results": [
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "eb04b97da4b30c3c4b2dcab677bab4520469273c52256a8cb71620433a692437",
+        "eligible_cells": 410,
+        "excluded_cells": 20,
+        "frequency_count": 430,
+        "median_worst_phase_amplitude_us": 4.461299174035373,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/pta-campaign01-20260908/inpta/calibration-cache/eb04b97da4b30c3c4b2dcab677bab4520469273c52256a8cb71620433a692437",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1730-2304",
+        "threshold": 27.11865430514373,
+        "timing_rank": 112
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "preparation_sha256": "fd014f48c9c9eb9fe9561cfd148a4769d8ab915ea6619b33ed97a9e0e5ac3799",
+      "profile_sha256": "2b48142fb124f2519137e3f321c85138e439f5877f0b400b87b994b78eaf937c",
+      "recovered_amplitude_us": 999.9999999999976,
+      "target": "J1730-2304"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "150a920b1c759cd22c96ef66b6c044f71d5e5e27c3122de16f29ef3c2a6e2441",
+        "eligible_cells": 339,
+        "excluded_cells": 12,
+        "frequency_count": 351,
+        "median_worst_phase_amplitude_us": 0.9483266883863343,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/pta-campaign01-20260908/inpta/calibration-cache/150a920b1c759cd22c96ef66b6c044f71d5e5e27c3122de16f29ef3c2a6e2441",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1939+2134",
+        "threshold": 26.712656334700245,
+        "timing_rank": 165
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "preparation_sha256": "d00613e7e5ac37d986c7c89de3c12420073d2370b5c98454deda123c29f05f08",
+      "profile_sha256": "082407789f6301c6a5798bd9400aad41237cc8a2b9cece0da2e8faeec128cb80",
+      "recovered_amplitude_us": 1000.0000000000065,
+      "target": "J1939+2134"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "3086ef0da607b79cd1fb59303d52d7cc2b31338988d7e3ea93da53276103ba64",
+        "eligible_cells": 339,
+        "excluded_cells": 12,
+        "frequency_count": 351,
+        "median_worst_phase_amplitude_us": 6.6495278320420255,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/pta-campaign01-20260908/inpta/calibration-cache/3086ef0da607b79cd1fb59303d52d7cc2b31338988d7e3ea93da53276103ba64",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J2124-3358",
+        "threshold": 26.712656334700245,
+        "timing_rank": 137
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "preparation_sha256": "dc76b9bcf8ed19cfccf01da1644fe43d79fbaa8791fc13e603bec4ae64d2664a",
+      "profile_sha256": "691ef67c55abfff23ac8e54ebeecaa2f3da8e79971ecdac4c432d4746c8e3881",
+      "recovered_amplitude_us": 1000.0000000000007,
+      "target": "J2124-3358"
+    }
+  ],
+  "selection_sha256": "f36f2908f9946659ef5ba7d1fac8d29ecdfdd1cc9d15347dca70ce6d01b69af6",
+  "status": "PREPARED"
+}

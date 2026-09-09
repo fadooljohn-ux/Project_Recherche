@@ -1,0 +1,18 @@
+{
+  "target": "J0908-4913",
+  "created_utc": "2026-09-09T06:21:53.886205+00:00",
+  "result_path": "../Project Recherche Data/utmost-batch04-20260909/J0908-4913/run01/result.json",
+  "result_sha256": "df607afc0d33df12b58794e4c530165a6378954fdabe1a79f26058130c54bd39",
+  "next_step": "Bounded review complete; preserve noise-sensitive candidate. Await informative independent data and owner-directed follow-up.",
+  "entries": [
+    {
+      "id": "utmost-batch04-20260909-J0908-4913-review",
+      "kind": "CANDIDATE_DEEP_REVIEW",
+      "status": "INCONCLUSIVE_NOISE_SENSITIVE",
+      "summary": "The approximately 93-day signal weakens from \u0394\u03c7\u00b2 28.29 to about 6.43 with broader red-noise coverage. Early and late coefficients also differ (conditional p 0.000885); one observing-day deletion lowers \u0394\u03c7\u00b2 to 20.92. TPA has 79.4% conditional detection power but does not corroborate the waveform (fixed-period \u0394\u03c7\u00b2 2.318; coefficient-contrast p 0.000526). Extrapolation and noise uncertainty limit exclusion.",
+      "scope": "Four bounded steps; 512 nulls and 256 injections; existing TPA fixed-period comparison. Original search preserved.",
+      "source": "./docs/UTMOST_BATCH04_CANDIDATE_REVIEWS_2026-09-09.md",
+      "source_sha256": "0b461b3100c76127d2951a06261cd425bd322f4952c97c50331bdb726ce469c6"
+    }
+  ]
+}

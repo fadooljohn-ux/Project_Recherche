@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot2-preflight-r1-json-regrade-freeze-v0.2.1",
+  "status": "frozen_before_json_only_preflight_regrade",
+  "authorized_operation": "existing_json_artifact_regrade_only",
+  "source_summary": {
+    "logical_path": "run_records/pilot2/pilot2-preflight-20260809T124548Z-summary.json",
+    "bytes": 59471,
+    "sha256": "b007205c4751e9171c5ab04c54ce02ed7b5e48bc4ed2d219e1477db7542d8d6a"
+  },
+  "corrections": {
+    "application_gate_field": "toa_adjustment_maximum_absolute_error_microseconds",
+    "application_limit_microseconds": 0.001,
+    "descriptive_residual_target_error_is_gate": false,
+    "expected_warning_exact_substring": "Clock file from RECHERCHE_DATA_ROOT/controlled/nanograv15yr-v2.1.0/clock/time_ao.dat overrides global clock file time_ao.dat because of PINT_CLOCK_OVERRIDE",
+    "all_other_unexpected_warnings_remain_failures": true
+  },
+  "new_science_cases_authorized": false,
+  "new_random_draws_authorized": false,
+  "model_fits_authorized": false,
+  "periodic_scans_authorized": false,
+  "network_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "threshold_or_tolerance_changes_authorized": false,
+  "frozen_sha256": {
+    "results/pilot2/preflight_r1_failure_result_v0.2.1.json": "9ba7ed16ff1c3d55e5843fa44c7f6962a4a9e376efbcc002dd10d387f09eb115",
+    "protocol/PILOT2_PREFLIGHT_R1_REGRADE_PROTOCOL_v0.2.1.md": "f7851d03b70863fcd7bbb0a9edde9c5c6fb96e4cf952da337767591681ad26a3",
+    "src/pulsar_pilot/pilot2_preflight_regrade.py": "c82660d4e374a8db82b87e876280c7a868bc0701b584c3b43f4d8cb603de93b2",
+    "tests/test_pilot2_preflight_regrade.py": "619e86029c6defcf4697da3651195c661078cb76e2024e7f4c94328ba4d20157",
+    "pixi.lock": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8"
+  },
+  "next_gate_if_pass": "publish_preflight_pass_and_prepare_separate_full_calibration_design",
+  "next_gate_if_fail": "preflight_rebaseline_without_new_science_execution"
+}

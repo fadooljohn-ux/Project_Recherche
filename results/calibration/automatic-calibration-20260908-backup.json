@@ -1,0 +1,22 @@
+{
+  "archive": "../Recherche Recovery/20260907T223404/automatic-calibration-20260908.tar",
+  "bytes": 3584000,
+  "files_verified": 13,
+  "inventory": {
+    "automatic-calibration-20260908/b1257/arrays.npz": "b4495943eeeba3746ed3908e14e0a8d2c6f9072dc5b34c83b3dd53f1c2914c66",
+    "automatic-calibration-20260908/b1257/profile.json": "6142152e99eacc96d7163ab77c128f312f9cc6f3490f3799f12526fe7493b728",
+    "automatic-calibration-20260908/b1937/arrays.npz": "1458706927aae6b0eb8c13ef24ae71988c3665219e4e2a8cedd7009264a284ae",
+    "automatic-calibration-20260908/b1937/preparation.log": "0d6297db906fbbf6456d5ad5ebdbc4c70569062015df7678d11e2c3d158c28a0",
+    "automatic-calibration-20260908/b1937/profile.json": "a53f87ee39054e83375e5e90ceb3f419d85dfb4c10dc4169775eaef8455c13a1",
+    "calibration-cache/260ceb83e28732bc5e970a0246379dbda9bfcc9688df982632c0551d7e582039/calibration.json": "cdad5e26d2a230f90b647682cf21b655ec2ff1cf3aa355e9315c36b220f2c2bf",
+    "calibration-cache/260ceb83e28732bc5e970a0246379dbda9bfcc9688df982632c0551d7e582039/null-maxima.npy": "9f13866982d82e203f374227c927e45a310520dccfee406e069295d7cad761e7",
+    "calibration-cache/260ceb83e28732bc5e970a0246379dbda9bfcc9688df982632c0551d7e582039/projection-and-sensitivity.npz": "673273d3476be0b26014d287971281eef06e65a66c49f68446b9070ca0969da6",
+    "calibration-cache/260ceb83e28732bc5e970a0246379dbda9bfcc9688df982632c0551d7e582039/receipt.json": "c64df8141d5ad1a05810f469b0b88c7c704410e16938efdcf54ac0ef6d560104",
+    "calibration-cache/54ed08db57c427a44683e525f5ea2627397fbfbba878a87881c5fa1f7db89cf3/calibration.json": "fd0de5c9b22910045ce1262ae3696a64db998dee93d757ecd4861c3a63bf76d5",
+    "calibration-cache/54ed08db57c427a44683e525f5ea2627397fbfbba878a87881c5fa1f7db89cf3/null-maxima.npy": "d0868e1d54b6ab0a2a40c55336f7218d7788b70f1785920c9248ce73afb07acc",
+    "calibration-cache/54ed08db57c427a44683e525f5ea2627397fbfbba878a87881c5fa1f7db89cf3/projection-and-sensitivity.npz": "ad041d252ee1653a69bac06c5cec9580f2fe7261f3647ae6c2e0322f8b285c30",
+    "calibration-cache/54ed08db57c427a44683e525f5ea2627397fbfbba878a87881c5fa1f7db89cf3/receipt.json": "ea970639c7560c4154f3aae9bc4ec3fdb9561b7ca34680598397c442a17b003b"
+  },
+  "sha256": "bd21f71aaf68994804719b35c83aa57f7356e7b3eeb15665428e0aea83f87c3a",
+  "status": "PASS"
+}

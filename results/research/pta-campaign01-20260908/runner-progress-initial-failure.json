@@ -1,0 +1,6 @@
+{
+  "error": "Command '['./.pixi/envs/default/bin/python', './tools/pta_campaign_review.py']' returned non-zero exit status 1.",
+  "pid": 96796,
+  "stage": "NEEDS_DIAGNOSIS",
+  "updated_utc": "2026-09-08T16:41:36.604103+00:00"
+}

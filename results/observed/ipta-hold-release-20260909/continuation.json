@@ -1,0 +1,22 @@
+{
+  "parent_campaign": "../Project Recherche Data/ipta-batch02-20260909",
+  "original_manifest_sha256": "bab31040e3d716499d588c46d0e6133ac1959cea4dad2d1f231310aba2e57156",
+  "targets_to_run": [
+    "J1911+1347",
+    "J1843-1113",
+    "J0711-6830",
+    "J1730-2304",
+    "J2124-3358",
+    "J1744-1134",
+    "J1939+2134"
+  ],
+  "prior_completed_targets": [
+    "J0030+0451",
+    "J1801-1417",
+    "J1824-2452A",
+    "J1944+0907",
+    "J2010-1323",
+    "J2322+2057"
+  ],
+  "scope": "Resume seven unsearched cases under original 13-search allowance; preserve original campaign files"
+}

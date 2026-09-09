@@ -1,0 +1,12 @@
+{
+  "failure_path": "../Project Recherche Data/utmost-batch05-20260909/J1825-0935/attempt01/failure.json",
+  "failure_sha256": "e12e7746cc63ad60a436c45b155161364ef45af1508aae47f26f1584affdece5",
+  "observed_search_executed": false,
+  "reason": "Pinned PINT supports IAU2000B and coerces TEMPO to it; no local Tempo2 executable or DE405 kernel. Faithful replay is not a localized adapter adjustment. Preserve supplied model and defer this dataset.",
+  "runtime_source": "./.pixi/envs/default/lib/python3.11/site-packages/pint/models/timing_model.py",
+  "runtime_support": "        if self.T2CMETHOD.value not in [None, \"IAU2000B\"]:  # FIXME: really?\n            warn(\"PINT only supports 'T2CMETHOD IAU2000B'\")\n            self.T2CMETHOD.value = \"IAU2000B\"",
+  "source_T2CMETHOD": "TEMPO",
+  "source_ephemeris": "DE405",
+  "status": "DEFERRED_UNSUPPORTED_TIMING_CONVENTIONS",
+  "target": "J1825-0935"
+}

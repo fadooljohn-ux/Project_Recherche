@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "baseline_files_preserved": 1572,
+  "historical_search_records_preserved": 344,
+  "all_search_evidence_hashes_verified": 351,
+  "search_records": 351,
+  "work_log_records": 194,
+  "target_records": 754,
+  "candidate_grades_unchanged": true,
+  "historical_work_log_preserved_except_current_queue": true,
+  "all_operator_notes_preserved": true,
+  "master_sha256": "d3774beb5ec634f2fcba1859450c5e9bc755b0fa8954fcbe0b03fc0a334e61e2",
+  "qualified_source_unchanged": true,
+  "source_queue_hash_verified": true,
+  "formula_errors": []
+}

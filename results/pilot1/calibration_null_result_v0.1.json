@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "calibration_id": "pilot1-calibration-null-v0.1",
+  "status": "pass",
+  "scorecard_passed": 13,
+  "scorecard_total": 13,
+  "external_record": {
+    "logical_path": "run_records/pilot1/calibration-null-v0.1-summary.json",
+    "bytes": 53026,
+    "sha256": "c954083c8ad5c26db684f80a8ef02867eb4669d1351b31eed9e1aa18be91073a"
+  },
+  "population": {
+    "calibration_nulls": 1000,
+    "verified_benchmark_reuses": 10,
+    "new_scans": 990,
+    "sealed_evaluation_cases_executed": 0
+  },
+  "threshold": {
+    "value_delta_chi2": 23.33426855482562,
+    "quantile": 0.99,
+    "estimator": "conservative_nearest_rank",
+    "rank": 990,
+    "sample_count": 1000,
+    "strict_exceedance_count": 10,
+    "trigger_comparison": "strictly_greater_than_threshold"
+  },
+  "null_diagnostics": {
+    "whitened_variance": 1.001324115677611,
+    "maximum_absolute_pooled_lag_correlation": 0.0026760354409011643
+  },
+  "resources": {
+    "calibration_wall_seconds": 6.230679917000089,
+    "peak_memory_gib": 0.3851165771484375,
+    "complete_data_root_gib": 0.7213038625195622
+  },
+  "unexpected_warning_count": 0,
+  "observed_residual_global_search_executed": false,
+  "disposition": "lock_threshold_and_authorize_exact_500_sealed_evaluation_nulls"
+}

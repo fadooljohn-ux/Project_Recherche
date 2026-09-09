@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "record_id": "pilot2-b1937-dedicated-sol-audit-record-v0.2.7",
+  "recorded_utc": "2026-08-11T02:33:30Z",
+  "auditor": "dedicated_gpt-5.6-sol_subagent",
+  "target_commit": "63aaa9ede52caff09a6680fb32e11dfa51ba24c2",
+  "status": "completed_pass",
+  "report": {
+    "logical_path": "docs/audits/DEDICATED_SOL_AUDIT_PILOT2_v0.2.7_2026-08-11.md",
+    "sha256": "324a60c093151c1bf7a43b5301c6c528270cec7241f78455f391b2d6703b1afb"
+  },
+  "primary_verification": {
+    "logical_path": "results/pilot2/dedicated_sol_audit_primary_verification_v0.2.7.json",
+    "sha256": "cfe4975a301759147b9d648bb221835d8a654570d9f671711288128b520b47e6"
+  },
+  "disposition": {
+    "logical_path": "results/pilot2/dedicated_sol_audit_disposition_v0.2.7.json",
+    "sha256": "64e3a159cbc3a7cb018798f993f0f5a64e471f2e8050652e232056be72f898c4"
+  },
+  "target_hashes": {
+    "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+    "implementation_sha256": "ff2241b6f354db7bd35c81ee715a61f2e41069d10ca5551dcc4bbe57dfb09374",
+    "implementation_freeze_sha256": "b8bf2f33ffc3334e9b03cced8cdd389f04c536cec2f6249d33ea726e801cb533",
+    "readiness_freeze_sha256": "dbf770f28f9e7105880c0a7822925613295db7197731afba7bb0d23c75d11694"
+  },
+  "new_finding_ids": [],
+  "closed_finding_ids": [
+    "SOL-V026-001",
+    "SOL-V025-001",
+    "SOL-V025-002"
+  ],
+  "audit_test_result": {
+    "targeted_tests_passed": 40,
+    "targeted_tests_failed": 0,
+    "full_repository_suite_rerun": false
+  },
+  "boundaries": {
+    "repository_writes_by_auditor": 0,
+    "science_cases_executed": 0,
+    "random_draws_generated": 0,
+    "timing_model_fits_executed": 0,
+    "periodic_scans_executed": 0,
+    "external_data_roots_accessed": 0,
+    "scientific_outcomes_inspected": 0,
+    "execution_freeze_created_by_auditor": false
+  },
+  "next_gate": "construct_and_verify_v0.2.7_execution_freeze_under_conditional_user_authorization"
+}

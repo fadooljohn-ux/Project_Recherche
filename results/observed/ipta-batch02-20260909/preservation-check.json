@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "baseline_files_preserved": 1323,
+  "historical_search_records_preserved": 338,
+  "all_search_evidence_hashes_verified": 344,
+  "search_records": 344,
+  "work_log_records": 176,
+  "failed_preparation_attempts_registered": 8,
+  "candidate_grades_unchanged": true,
+  "held_target_science_and_all_operator_notes_preserved": true,
+  "master_sha256": "537ffbb7d8d8feb65b4b099c9a0687acc9614f1a0708465d14c986b05e0214da",
+  "qualified_source_unchanged": true,
+  "source_queue_hash_verified": true
+}

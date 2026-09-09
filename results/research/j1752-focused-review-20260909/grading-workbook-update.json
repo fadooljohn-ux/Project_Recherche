@@ -1,0 +1,28 @@
+{
+  "batch": "./results/research/j1752-focused-review-20260909",
+  "completed": 0,
+  "incomplete": 0,
+  "selected": [],
+  "previous_sha256": "4a653ce7991b6a9576edad66cb87963459d4c5ac09b9f525f8eb6046cd69c0b7",
+  "sha256": "2fab33c05ed78b3c7c9c4af43aaa639a120d58041d340436dcb8ddb63bcc8bfb",
+  "backup": "../Recherche Recovery/20260907T223404/master-workbook-history/4a653ce7991b6a9576edad66cb87963459d4c5ac09b9f525f8eb6046cd69c0b7.xlsx",
+  "changes": 2,
+  "sheets": "{\"kind\":\"sheet\",\"id\":\"ws/vh0b38\",\"name\":\"Overview\",\"index\":0,\"range\":\"A1:E28\",\"address\":\"A1:E28\"}\n{\"kind\":\"sheet\",\"id\":\"ws/ijp5fe\",\"name\":\"Targets\",\"index\":1,\"range\":\"A1:T744\",\"address\":\"A1:T744\"}\n{\"kind\":\"sheet\",\"id\":\"ws/fu52u5\",\"name\":\"Searches\",\"index\":2,\"range\":\"A1:V332\",\"address\":\"A1:V332\"}\n{\"kind\":\"sheet\",\"id\":\"ws/ou4eep\",\"name\":\"Work log\",\"index\":3,\"range\":\"A1:I127\",\"address\":\"A1:I127\"}\n{\"kind\":\"sheet\",\"id\":\"ws/9asmwv\",\"name\":\"Candidate grades\",\"index\":4,\"range\":\"A1:P8\",\"address\":\"A1:P8\"}",
+  "counts": [
+    743,
+    277,
+    266,
+    4,
+    2,
+    464,
+    331,
+    7,
+    0
+  ],
+  "updated_utc": "2026-09-09T06:57:46.256Z",
+  "operation": "candidate_grading",
+  "candidate_grades": {
+    "records": 7,
+    "excluded_invalid_imports": 2
+  }
+}

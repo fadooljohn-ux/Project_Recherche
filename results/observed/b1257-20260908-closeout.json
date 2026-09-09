@@ -1,0 +1,142 @@
+{
+  "calibration_sha256": "8e86c6b55a2461332b72754b7f44392e9e4d0e1f1baf1073199e7dbd061772be",
+  "completed_utc": "2026-09-08T09:05:51.533481+00:00",
+  "data_doi": "10.5281/zenodo.14865192",
+  "data_root": "../Project Recherche Data/b1257-benchmark-20260908",
+  "disposition": "TWO_KNOWN_PLANETS_RECOVERED_INNER_BELOW_DEMONSTRATED_SENSITIVITY",
+  "final_result": {
+    "elapsed_seconds": 0.3171030420344323,
+    "inner_planet": {
+      "amplitude_us": 2.2549822436640015,
+      "coefficient_covariance_us2": [
+        [
+          222.897949835954,
+          83.07096599811469
+        ],
+        [
+          83.07096599811469,
+          181.5903690331041
+        ]
+      ],
+      "interpretation": "Fixed-published-period diagnostic; not an independent discovery",
+      "period_days": 25.262,
+      "sine_cosine_coefficients_us": [
+        -1.0941743665437194,
+        1.9717320748110236
+      ],
+      "statistic": 0.04296032555696764,
+      "threshold": 23.179773012212713,
+      "trigger": false
+    },
+    "inner_sensitivity": {
+      "conditional_on": "fitted large-orbit nuisance design and supplied scaled Gaussian errors",
+      "fixed_period_recoveries": 0,
+      "global_grid_recoveries": 0,
+      "injected_amplitude_us": 3.0,
+      "injected_period_days": 25.262,
+      "seed": 1257122027,
+      "trials": 256
+    },
+    "joint_orbit_fit": {
+      "active_parameter_bounds": [],
+      "amplitudes_us": [
+        1389.1342674149791,
+        1311.1961083958217
+      ],
+      "chi2": 131.1192452821266,
+      "conditional_period_errors_days": [
+        0.16023776379891988,
+        0.10020859848481131
+      ],
+      "dof": 255,
+      "eccentricities": [
+        0.05128244692786066,
+        0.039555323388753956
+      ],
+      "optimizer_evaluations": 16,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "parameters": [
+        0.010198274718464611,
+        0.05128244692786066,
+        9.907616804432037,
+        0.01501009591781092,
+        0.039555323388753956,
+        -9.985717751043758
+      ],
+      "periods_days": [
+        98.0558013591689,
+        66.62182610128454
+      ],
+      "reduced_chi2": 0.5141931187534377
+    },
+    "reference": [
+      {
+        "amplitude_us": 3.0,
+        "period_days": 25.262,
+        "planet": "b"
+      },
+      {
+        "amplitude_us": 1310.6,
+        "period_days": 66.5419,
+        "planet": "c"
+      },
+      {
+        "amplitude_us": 1413.4,
+        "period_days": 98.2114,
+        "planet": "d"
+      }
+    ],
+    "scans": [
+      {
+        "period_days": 101.55762614240427,
+        "stage": 1,
+        "statistic": 4872.066037822063,
+        "threshold": 23.179773012212713,
+        "trigger": true
+      },
+      {
+        "period_days": 66.59352672015248,
+        "stage": 2,
+        "statistic": 5488.44676922138,
+        "threshold": 23.179773012212713,
+        "trigger": true
+      },
+      {
+        "period_days": 15.365143537474003,
+        "stage": 3,
+        "statistic": 2.9797462381508106,
+        "threshold": 23.179773012212713,
+        "trigger": false
+      }
+    ],
+    "scope": "known-system benchmark",
+    "status": "complete"
+  },
+  "final_result_sha256": "f30a2938425df6edc9984920db38037c798821f31c7073e69ff3da55a66f3854",
+  "large_planet_sensitivity": {
+    "one_miss": "sampling/interference aliases selected; bounded joint fit rejected",
+    "recovered_both": 31,
+    "trials": 32
+  },
+  "limitations": [
+    "GPS-referenced IE613 timestamp assumption",
+    "Approximate TCB-to-TDB conversion and timing-model linearization",
+    "Independent Keplerian orbits, not interacting dynamics",
+    "Fixed scaled Gaussian noise; no unconditional adaptive-search FAP claim",
+    "37 epochs; inner planet not recoverable in 256 injections; one large-system alias miss in 32 injections"
+  ],
+  "original_result_sha256": "757070982c6d815fb8d0cc6b235073edb7f90b18d221859bd6a63d8bc8b0b39b",
+  "verification": {
+    "executed_source_snapshots_match": true,
+    "focused_tests": "3 passed; independent Roemer recovery, phase arc, annual/DM mask",
+    "independent_amplitudes_us": [
+      1389.1342674149796,
+      1311.1961083958254
+    ],
+    "independent_full_linear_fit_chi2": 131.11924528212927,
+    "qualified_source_unchanged": true,
+    "saved_peaks_and_decisions_reproduced": true,
+    "static_checks": "pass",
+    "threshold_unchanged": true
+  }
+}

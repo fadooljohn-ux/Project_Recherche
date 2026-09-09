@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot2-b1937-calibration-implementation-freeze-v0.2",
+  "recorded_utc": "2026-08-09T14:17:36Z",
+  "status": "implementation_frozen_execution_not_authorized",
+  "scope": "resumable_runner_health_controls_graders_and_zero_case_validation",
+  "inventory_sha256": "28bcd10edcf719c1d44cdef17dd8b200b332b127f13c8a1558b7b4b8acd69dc7",
+  "implementation_sha256": "2df7a506e9c927f07807d1fc67c6d3a9d2425f6422263e32aced6ab095bb6a37",
+  "calibration_execution_authorized": false,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "science_cases_executed_during_validation": 0,
+  "fable_review_required": false,
+  "separate_execution_freeze_required": true,
+  "separate_user_instruction_required": true,
+  "validation": {
+    "test_suite": "138 passed",
+    "zero_case_dry_run": "pass",
+    "lint": "pass",
+    "changed_files_format": "pass"
+  },
+  "frozen_sha256": {
+    "config/pilot2_calibration_v0.2.yaml": "4b58f09e68b14e5db568b951d94b95a6c48955caa3c11e0fe58b671d4217a2df",
+    "docs/PILOT2_CALIBRATION_IMPLEMENTATION_v0.2.md": "78f6df26522508b80ac0c81ca9b0c94c859825045de2079405f44008b0437484",
+    "pixi.lock": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8",
+    "protocol/PILOT2_CALIBRATION_DESIGN_FREEZE_v0.2.json": "de31012356d7f7bae847cae4feadd94716b60c9111c3ce874d9ca15faa0b57a0",
+    "results/pilot2/calibration_implementation_readiness_v0.2.json": "f469ad8f93253688f6e16797c7c5b2ae0be8c32bd25b0619eb5e4bbd975ba37c",
+    "src/pulsar_pilot/pilot2_calibration_grading.py": "b589f079fa6340996136c54f34a8dbd03790e030c753af3b88206db551a38ae5",
+    "src/pulsar_pilot/pilot2_calibration_runtime.py": "1c1bcd834c341c92c1a4b924e506f169d87ec981d23a6a9bad4df5579e5d7cf7",
+    "tests/test_pilot2_calibration_grading.py": "7985365fff011c479e147d062421f54e81f465d52258d3ee3623e985d4377d8f",
+    "tests/test_pilot2_calibration_runtime.py": "a9aa7189e30e0756c35a47e5a3a2b693f4c0629f76fe75882f06b5b5d74239c3"
+  }
+}

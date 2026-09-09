@@ -1,0 +1,8 @@
+{
+  "input_amplitude_us": 100.0,
+  "maximum_coefficient_error_seconds": 3.3881317890172014e-20,
+  "observed_residuals_used": false,
+  "period_days": 100.17409573408968,
+  "recovered_amplitude_us": 100.00000000000003,
+  "type": "One noiseless synthetic circular signal plus baseline nuisance"
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "closeout_id": "pilot2-b1937-calibration-revision-gaussian-closeout-v0.2.1",
+  "recorded_utc": "2026-08-10T01:20:21Z",
+  "status": "pass",
+  "scope": "frozen_gaussian_threshold_calibration_and_sealed_gaussian_evaluation_only",
+  "inventory_sha256": "5dc1601881e58b64d5afd8f4a4236e441447155bfb9e6b9d03d58958b3331106",
+  "implementation_sha256": "0dd97eb7319b722a04f581d7afc2ef73ac2bb7d6fec00e3c62a5e46d5baaf42a",
+  "execution": {
+    "gaussian_threshold_calibration_cases": 5000,
+    "sealed_gaussian_evaluation_cases": 2000,
+    "completed_total_cases": 7000,
+    "checkpoint_count": 280,
+    "ledger_verification": "pass",
+    "hard_stop": null,
+    "threshold_retuned": false
+  },
+  "calibration": {
+    "status": "pass",
+    "threshold_order_statistic_rank": 4962,
+    "threshold_delta_chi2": 22.485020743823544,
+    "whitened_variance": 1.0001386304378275,
+    "whitened_variance_limits": [
+      0.9,
+      1.1
+    ],
+    "maximum_lag_correlation": 0.0007072321293317981,
+    "maximum_lag_correlation_limit": 0.1
+  },
+  "sealed_gaussian_evaluation": {
+    "status": "pass",
+    "false_positives": 20,
+    "case_count": 2000,
+    "raw_false_positive_rate": 0.01,
+    "raw_false_positive_rate_role": "reported_estimate_not_hard_gate",
+    "wilson_upper_95": 0.015395938459075187,
+    "wilson_upper_95_limit": 0.025
+  },
+  "artifact_bindings": {
+    "calibration_result_sha256": "764335495e9d3398ebe7d039073e109d371273bfd7ab25d89b94c34e19b151e4",
+    "threshold_lock_sha256": "6e624af784aabd92ce8b28babdaed4c863ca12c94caad756da005f14bf9b5117",
+    "sealed_evaluation_result_sha256": "f3a8677ea28255c7c06afd815fad1d911fcadde9a1fb0a4b2bf464f78aa59034",
+    "final_ledger_sha256": "c8938261632d4e07d8a7f723812efc333f6c53c42c43d07e5d158cf83e07cdad"
+  },
+  "scorecard": {
+    "overall": "PASS",
+    "passed": 10,
+    "total": 10,
+    "criteria": {
+      "exact_calibration_case_count": "PASS",
+      "calibration_whitened_variance": "PASS",
+      "calibration_lag_correlation": "PASS",
+      "threshold_locked_before_sealed_evaluation": "PASS",
+      "threshold_lock_unchanged": "PASS",
+      "exact_sealed_case_count": "PASS",
+      "sealed_wilson_upper_95": "PASS",
+      "ledger_and_checkpoint_integrity": "PASS",
+      "no_hard_stop": "PASS",
+      "observed_data_boundary": "PASS"
+    }
+  },
+  "authority": {
+    "structured_tail_evaluation_authorized": false,
+    "injection_evaluation_authorized": false,
+    "promotion_grade_authorized": false,
+    "observed_residual_access_authorized": false,
+    "observed_periodic_search_authorized": false,
+    "discovery_claim_authorized": false
+  },
+  "boundary_attestations": {
+    "observed_residual_vector_used": false,
+    "observed_periodic_scan_executed": false,
+    "prior_v0.2_case_ids_reused": 0,
+    "prior_v0.2_seeds_reused": 0
+  },
+  "disposition": "gaussian_stage_complete_structured_tail_pending_separate_freeze"
+}

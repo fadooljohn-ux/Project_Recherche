@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "record_type": "user-one-shot-execution-authorization-v0.1",
+  "required_fields": [
+    "approved_by_user",
+    "authorization",
+    "package_manifest_sha256",
+    "one_shot_freeze_sha256",
+    "implementation_sha256",
+    "fable_signoff_sha256"
+  ],
+  "passing_values": {
+    "approved_by_user": true,
+    "authorization": "execute_exactly_one_observed_residual_search_v0.1"
+  },
+  "note": "The actual authorization file is absent during preparation. It may be created only after final Fable PASS and an explicit user instruction."
+}

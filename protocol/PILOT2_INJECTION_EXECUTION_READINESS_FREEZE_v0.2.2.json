@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot2-b1937-injection-execution-readiness-freeze-v0.2.2",
+  "recorded_utc": "2026-08-10T09:03:58Z",
+  "status": "execution_readiness_frozen_execution_not_authorized",
+  "execution_readiness": "pass",
+  "science_cases_executed_during_readiness": 0,
+  "execution_authorized": false,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "promotion_grade_authorized": false,
+  "discovery_claim_authorized": false,
+  "inventory_sha256": "e8c2a38a22bd690e611cb99e0e2fab947335c0363a7198c54a47d119032ce613",
+  "implementation_sha256": "348c0d1bd925daa2dfb67f57dc0ea35874c2f2b8393be631aca70e381e498756",
+  "frozen_sha256": {
+    "config/pilot2_injection_runner_v0.2.2.yaml": "6a119c853908ea59441580a6f3cb9a51838d93db0e7946b6d23aa079999d15d2",
+    "docs/PILOT2_INJECTION_EXECUTION_READINESS_v0.2.2.md": "2deb142389123c9ef2c12470e69c1c427a758ebebc580e6578e796ec5619b182",
+    "protocol/PILOT2_INJECTION_REMEDIATION_FREEZE_v0.2.2.json": "8653290ae1aac2f1bcbcd97320bb36b471a5851d30e81681fc4d4572fd0cadb8",
+    "protocol/PILOT2_INJECTION_RUNNER_FREEZE_v0.2.2.json": "bfda1b758b880276ca4ae174083f97a09866727e52fed43b5e0c06da8e53c94d",
+    "protocol/PILOT2_INJECTION_RUNNER_PROTOCOL_v0.2.2.md": "717230dacc940d5ad21e2687476e80c0ef6ffc0edf4cdc533e6d49467ce63ab2",
+    "results/pilot2/injection_execution_readiness_v0.2.2.json": "849132dc5d6bcff38640b151fe760c3283e6040e5c7128646208c830b6c62eed",
+    "results/pilot2/injection_runner_zero_case_validation_v0.2.2.json": "fb1d905bd76d95c93ba295eb2d8b0a1a1a4e6148e5dbf27fb25e44cd192ae034",
+    "src/pulsar_pilot/pilot2_injection_runner_v022.py": "57f93c591bb5158e475a4a380d8ae7c0dab2a6d9758b32ff150e650f2d2da927",
+    "tests/test_pilot2_injection_runner_v022.py": "b7151dd7c70949c18efcd9a02905a989ab8475cbf24ac8fb9b24a0fcc4000658"
+  },
+  "required_execution_authorization": {
+    "file": "protocol/PILOT2_INJECTION_EXECUTION_FREEZE_v0.2.2.json",
+    "present": false,
+    "must_bind_this_readiness_freeze": true,
+    "must_be_verified_before_predecessor_loading": true,
+    "must_be_verified_before_timing_model_setup": true
+  },
+  "next_gate": "explicit_user_authorization_then_frozen_pre_first_case_verification"
+}

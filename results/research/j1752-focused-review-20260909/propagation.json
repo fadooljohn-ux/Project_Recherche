@@ -1,0 +1,148 @@
+{
+  "code_sha256": "b617b4911e660f88c02f24788a42a759978b29da879dec645c71e1c0a58c1de5",
+  "completed_utc": "2026-09-09T06:50:52.254394+00:00",
+  "interpretation": "Quantiles summarize a profile-weighted local uncertainty approximation. Ellipse overlap is not a calibrated p-value or planet probability. TPA covariance fixed; non-overlapping observing spans.",
+  "method": "Uniform local-period grid weighted by exp(-profile delta objective/2); conditional Gaussian coefficients at each period; plug-in noise fit; not posterior draws",
+  "models": [
+    {
+      "amplitude_q05_q50_q95_us": [
+        108.42455976331162,
+        138.70141562726178,
+        166.8085071936249
+      ],
+      "conditional_power_q05_q50_q95": [
+        0.1708815051932132,
+        0.31406314024363935,
+        0.5022678956947767
+      ],
+      "draws": 2048,
+      "fraction_drawn_waveforms_inside_TPA_95pct_coefficient_ellipse": 0.6689453125,
+      "local_profile_edge_weight": 5.543030279932892e-12,
+      "modes": 12,
+      "period_q05_q50_q95_days": [
+        80.76265273870762,
+        81.6827335926929,
+        82.70504565267653
+      ],
+      "phase_resultant_length_at_tpa_dates": [
+        0.8762578143368179,
+        0.601073443604662,
+        0.4675562330495905
+      ],
+      "seed": 2026091753,
+      "waveform_us_q05_q50_q95_at_tpa_dates": [
+        [
+          -110.27377297315458,
+          -149.82325313571377,
+          -119.62264066905915
+        ],
+        [
+          -13.756754124677702,
+          -77.41200379933827,
+          63.56968683507614
+        ],
+        [
+          89.97284009354597,
+          107.02678718980046,
+          146.59155578718025
+        ]
+      ]
+    },
+    {
+      "amplitude_q05_q50_q95_us": [
+        58.50650928984919,
+        119.59536244742966,
+        176.24139712888518
+      ],
+      "conditional_power_q05_q50_q95": [
+        0.04132641739416793,
+        0.22221016683026165,
+        0.5665034218443106
+      ],
+      "draws": 2048,
+      "fraction_drawn_waveforms_inside_TPA_95pct_coefficient_ellipse": 0.74755859375,
+      "local_profile_edge_weight": 0.0007637274785978799,
+      "modes": 32,
+      "period_q05_q50_q95_days": [
+        78.8202598247387,
+        81.58050238669453,
+        84.44297615464872
+      ],
+      "phase_resultant_length_at_tpa_dates": [
+        0.4496750584398473,
+        0.0979346318861275,
+        0.02937299409330238
+      ],
+      "seed": 2026091754,
+      "waveform_us_q05_q50_q95_at_tpa_dates": [
+        [
+          -128.31809632729724,
+          -140.2965496732916,
+          -127.30421946650236
+        ],
+        [
+          8.147484216056277,
+          -16.17227759216204,
+          -2.6141281309488305
+        ],
+        [
+          126.12218686846914,
+          129.2698718019032,
+          139.3877205225747
+        ]
+      ]
+    },
+    {
+      "amplitude_q05_q50_q95_us": [
+        69.29271143272518,
+        125.94014434176245,
+        179.14637395457615
+      ],
+      "conditional_power_q05_q50_q95": [
+        0.05696777104222765,
+        0.25002763924296834,
+        0.5739239604081864
+      ],
+      "draws": 2048,
+      "fraction_drawn_waveforms_inside_TPA_95pct_coefficient_ellipse": 0.74267578125,
+      "local_profile_edge_weight": 0.00026083839200116726,
+      "modes": 64,
+      "period_q05_q50_q95_days": [
+        79.53587826672724,
+        81.78496479869125,
+        83.82958891865854
+      ],
+      "phase_resultant_length_at_tpa_dates": [
+        0.5614698883416794,
+        0.17394595315590494,
+        0.09309992254541939
+      ],
+      "seed": 2026091755,
+      "waveform_us_q05_q50_q95_at_tpa_dates": [
+        [
+          -132.97151047710534,
+          -145.21554708692418,
+          -135.95844708599995
+        ],
+        [
+          1.2570754500559609,
+          -25.29679252717358,
+          9.173131395588278
+        ],
+        [
+          123.88115421784629,
+          130.6244604638581,
+          144.11711552659165
+        ]
+      ]
+    }
+  ],
+  "original_refined_period_days": 81.75186530200611,
+  "tpa_dates_mjd": [
+    58787.783746763635,
+    59656.16443869089,
+    60047.1624508646
+  ],
+  "tpa_toas": 400,
+  "utmost_toas": 145
+}

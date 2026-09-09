@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "authorization_id": "user-authorization-pilot2-sealed-gaussian-2026-08-10",
+  "recorded_utc": "2026-08-09T23:50:53Z",
+  "authorization": "execute_frozen_500_case_sealed_gaussian_evaluation",
+  "scope": "500_disjoint_sealed_gaussian_cases_against_existing_immutable_threshold",
+  "basis": "user_instruction_proceed_after_gaussian_calibration_pass_and_threshold_lock",
+  "threshold_retuning_authorized": false,
+  "structured_tail_evaluation_authorized": false,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "discovery_claim_authorized": false,
+  "external_adviser_signoff_required": false
+}

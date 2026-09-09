@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "implementation_id": "pilot1-trigger-implementation-v0.1",
+  "status": "implementation_preflight_complete_execution_not_authorized",
+  "recorded_utc": "2026-08-09T04:08:36Z",
+  "target": "J1744-1134",
+  "dataset": "nanograv_15yr_timing_v2.1.0",
+  "design_id": "pilot1-calibration-design-v0.1",
+  "execution_authorized": false,
+  "pilot1_synthetic_realizations_generated": 0,
+  "observed_residual_global_search_executed": false,
+  "case_inventory_sha256": "642f3d33ca9fc44e35a3d1dfaf973660ea6c569a33364016b42f58d7e0d95cb9",
+  "authoritative_external_preflight": {
+    "logical_path": "run_records/pilot1/pilot1-preflight-20260809T040732Z.json",
+    "sha256": "ff18de0385395ce0df1117b14a7b3852daf6b0777055b4c8e7f203e000db9a54"
+  },
+  "implementation_sha256": {
+    "src/pulsar_pilot/pilot1_runtime.py": "bf4472794c2fa778ba5ff55147577b756637744cbb393a1c94509f06612f41de",
+    "src/pulsar_pilot/cli.py": "9f96f563f1170dfe2c239d5293b81649df99e6ffaa4987fab225d341ece6af74",
+    "tests/test_pilot1_runtime.py": "829da443e04c9a0a69f824280a5032e33c59c141d74e6e103c642d7b45548eb3",
+    "docs/PILOT1_IMPLEMENTATION_STATUS.md": "5ab371d186fcd6e3e1a8e64d6911ae353880fa591c61168672f3c63df1f29e9c",
+    "results/pilot1/implementation_preflight_summary.json": "17884464f7131eb3de4d253d288190335a9107aaf259e094c1f146ecf5d9f024"
+  },
+  "pixi_lock_sha256": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8",
+  "validation": {
+    "ruff": "pass",
+    "pytest": "49_passed",
+    "controlled_data_files": 20,
+    "controlled_data_bytes": 640625770,
+    "controlled_data_status": "pass",
+    "preflight_status": "pass"
+  },
+  "authorized_next_work": [
+    "review_and_merge_implementation",
+    "prepare_separate_execution_freeze",
+    "define_first_50_case_benchmark_order_without_generating_cases"
+  ],
+  "blocked_work": [
+    "generate_pilot1_synthetic_realizations_before_execution_freeze",
+    "inspect_sealed_evaluation_nulls",
+    "search_observed_residuals",
+    "make_candidate_or_discovery_claim"
+  ]
+}

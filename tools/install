@@ -1,0 +1,9 @@
+#!/bin/sh
+# Portable convenience entry point; installation never starts a scientific run.
+set -eu
+recherche_repo=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+if [ "$#" -ne 0 ]; then
+  echo 'Usage: tools/install (see AGENT_README.md for data preparation)' >&2
+  exit 2
+fi
+exec python3 "$recherche_repo/tools/agent_setup.py" --install

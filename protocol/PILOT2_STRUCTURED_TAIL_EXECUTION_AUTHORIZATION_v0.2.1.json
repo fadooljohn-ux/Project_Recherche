@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "authorization_id": "user-authorization-pilot2-structured-tail-v0.2.1-2026-08-10",
+  "recorded_utc": "2026-08-10T04:13:37Z",
+  "authorization_source": "user_explicit_instruction_in_active_codex_task",
+  "authorization": "execute_exactly_3000_frozen_structured_tail_cases",
+  "authorized_case_count": 3000,
+  "authorized_variants": {
+    "timing_native_innovation_scale_mixture": 1000,
+    "dm_native_innovation_scale_mixture": 1000,
+    "clustered_utc_day_scale_mixture": 1000
+  },
+  "no_reroll": true,
+  "threshold_retuning_authorized": false,
+  "injection_evaluation_authorized": false,
+  "promotion_grade_authorized": false,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "discovery_claim_authorized": false,
+  "inventory_sha256": "5dc1601881e58b64d5afd8f4a4236e441447155bfb9e6b9d03d58958b3331106",
+  "structured_implementation_sha256": "27373b3642ac16817c1cc69bf66c4f5cc16aebb96d4bab469e48279f06763ceb",
+  "structured_implementation_freeze_sha256": "6e2d5ae4e443ca99182cbb24afa9f50d9b97a5bf642e714f92322b3d1212aee1",
+  "threshold_lock_sha256": "6e624af784aabd92ce8b28babdaed4c863ca12c94caad756da005f14bf9b5117"
+}

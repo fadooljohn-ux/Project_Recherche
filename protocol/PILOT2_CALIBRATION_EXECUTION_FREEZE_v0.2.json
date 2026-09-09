@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot2-b1937-sealed-gaussian-evaluation-freeze-v0.2.2",
+  "recorded_utc": "2026-08-09T23:50:53Z",
+  "status": "frozen_before_first_pilot2_calibration_case",
+  "authorization": "frozen_pilot2_calibration_after_successful_package_verification",
+  "initial_execution_scope": "500_disjoint_sealed_gaussian_cases_against_locked_threshold",
+  "calibration_execution_authorized": true,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "discovery_claim_authorized": false,
+  "inventory_sha256": "28bcd10edcf719c1d44cdef17dd8b200b332b127f13c8a1558b7b4b8acd69dc7",
+  "implementation_sha256": "2df7a506e9c927f07807d1fc67c6d3a9d2425f6422263e32aced6ab095bb6a37",
+  "executor_sha256": "1ab1ed792e05dc4f3d49208a97fe6a8c961d54a1dc20b100b704284700491669",
+  "authorization_sha256": "73c565753af8cd06b482f131b4f6b5c4f4c8eb33f626eb3f76ade6818c73e797",
+  "sealed_gaussian_authorization_sha256": "77429c57bb548e152675b97be37ea0e698e165d02b39531bb509884e337010cd",
+  "threshold_lock_sha256": "533926bb286375de43f8feb9568649685aca2ec0079d9641984e70411cd7937e",
+  "frozen_sha256": {
+    "config/pilot2_calibration_v0.2.yaml": "4b58f09e68b14e5db568b951d94b95a6c48955caa3c11e0fe58b671d4217a2df",
+    "pixi.lock": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8",
+    "protocol/PILOT2_CALIBRATION_DESIGN_FREEZE_v0.2.json": "de31012356d7f7bae847cae4feadd94716b60c9111c3ce874d9ca15faa0b57a0",
+    "protocol/PILOT2_CALIBRATION_EXECUTION_AUTHORIZATION_v0.2.json": "73c565753af8cd06b482f131b4f6b5c4f4c8eb33f626eb3f76ade6818c73e797",
+    "protocol/PILOT2_CALIBRATION_CONTINUATION_AUTHORIZATION_v0.2.json": "627ba4e6b643bd07cbfd32af0b75ab8a6d3ace1b798414d9743e9461eda228ec",
+    "protocol/PILOT2_CALIBRATION_IMPLEMENTATION_FREEZE_v0.2.json": "1b18a799aac31077533f980e759dcb22f71b1152f8623e344ba12ac782959937",
+    "protocol/PILOT2_SEALED_GAUSSIAN_AUTHORIZATION_v0.2.json": "77429c57bb548e152675b97be37ea0e698e165d02b39531bb509884e337010cd",
+    "protocol/PILOT2_PREFLIGHT_COMPLETION_RECORD_v0.2.1.json": "a4a666f2435db39bb63267d27ceb7a94d6e254b4e36017619a1ee00878993485",
+    "src/pulsar_pilot/pilot2_calibration_executor.py": "1ab1ed792e05dc4f3d49208a97fe6a8c961d54a1dc20b100b704284700491669",
+    "src/pulsar_pilot/pilot2_calibration_grading.py": "b589f079fa6340996136c54f34a8dbd03790e030c753af3b88206db551a38ae5",
+    "src/pulsar_pilot/pilot2_calibration_runtime.py": "1c1bcd834c341c92c1a4b924e506f169d87ec981d23a6a9bad4df5579e5d7cf7"
+  }
+}

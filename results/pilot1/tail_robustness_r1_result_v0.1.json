@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "gate_id": "pilot1-tail-robustness-r1-v0.1",
+  "status": "pass",
+  "score": "22_of_22",
+  "parent_failure_preserved": true,
+  "thresholds": {
+    "initial_v0p1_delta_chi2": 23.33426855482562,
+    "r1_contamination_calibration_delta_chi2": 23.267383404806516,
+    "r1_robust_locked_delta_chi2": 23.33426855482562,
+    "threshold_changed": false
+  },
+  "r1_evaluation": {
+    "false_positives": 7,
+    "trials": 1000,
+    "false_positive_rate": 0.007,
+    "wilson_95_upper": 0.014378315465766588,
+    "maximum_rate": 0.01,
+    "maximum_wilson_95_upper": 0.025
+  },
+  "combined_disjoint_evaluations_context_only": {
+    "false_positives": 14,
+    "trials": 1500,
+    "false_positive_rate": 0.009333333333333334,
+    "wilson_95_upper": 0.015605649508535607,
+    "used_for_r1_grading": false
+  },
+  "recovery_regrade": {
+    "immutable_cases": 160,
+    "detected": 125,
+    "frequency_recovery_rate_among_triggers": 1.0,
+    "periods_monotonic": 5,
+    "periods_bracketing_50_and_90_percent": 5,
+    "complete_refit_failures": 0,
+    "full_covariance_audit_failures": 0,
+    "crossing_90_microseconds": {
+      "50_days": 0.32,
+      "100_days": 0.32999999999999996,
+      "200_days": 0.32,
+      "500_days": 0.32599999999999996,
+      "1000_days": 0.485
+    }
+  },
+  "integrity": {
+    "new_calibration_nulls": 2000,
+    "new_evaluation_nulls": 1000,
+    "failed_evaluation_reused_for_grading": false,
+    "observed_residual_accessed": false,
+    "observed_residual_periodic_search_executed": false
+  },
+  "resources": {
+    "incremental_wall_hours": 0.009688582430555672,
+    "peak_memory_gib": 0.5734519958496094,
+    "complete_data_root_gib": 0.781866398639977
+  },
+  "external_record": {
+    "logical_path": "run_records/pilot1/tail-robustness-r1-v0.1-summary.json",
+    "bytes": 12001,
+    "sha256": "78482d0cc8697b03884efc4d7c9714376e713d3f2067d2f3df09a07e10a87c80"
+  },
+  "next_gate": "separately_reviewed_one_shot_observed_residual_search_freeze"
+}

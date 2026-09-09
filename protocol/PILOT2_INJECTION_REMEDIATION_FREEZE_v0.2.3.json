@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot2-b1937-injection-remediation-design-freeze-v0.2.3",
+  "recorded_utc": "2026-08-10T09:32:25Z",
+  "status": "remediation_design_frozen_execution_not_authorized",
+  "execution_authorized": false,
+  "science_cases_executed_during_validation": 0,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "promotion_grade_authorized": false,
+  "discovery_claim_authorized": false,
+  "v0.2.2_resume_authorized": false,
+  "v0.2.2_case_rerun_authorized": false,
+  "consumed_case_id": "p2r2-inj-main-p00-a00-h00-n00",
+  "consumed_seed": 2691995251659989168,
+  "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+  "v0.2.2_inventory_sha256": "e8c2a38a22bd690e611cb99e0e2fab947335c0363a7198c54a47d119032ce613",
+  "authorized_case_counts": {
+    "main": 240,
+    "phase_reference": 60,
+    "annual": 28,
+    "boundary": 16,
+    "solver_audits": 35
+  },
+  "frozen_sha256": {
+    "config/pilot2_injection_remediation_v0.2.3.yaml": "69d0be844a83da37bab4e9f0f9124e95024088f7d60d878e33dd3af30cec0a9a",
+    "results/pilot2/injection_v022_crash_audit.json": "6d58ef1be4a03969be41ee3e0d916adaa252ee5bfa42d7c23244f203f878b473",
+    "docs/PILOT2_INJECTION_V022_CRASH_AUDIT.md": "c5cdb4927a99e8b97cc34d4587eac4762e0e97310a20ca9792f35e63cbc694cb",
+    "src/pulsar_pilot/pilot2_injection_remediation_v023.py": "f5755c7af0545eb06d339384d579d7f78202aa84e2f3e2d313f01ad7b9d2ab40"
+  },
+  "next_gate": "zero_science_runner_implementation_and_readiness_freeze"
+}

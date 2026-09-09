@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "plan_id": "pilot1-calibration-v0.1",
+  "status": "design_for_review",
+  "execution_authorized": false,
+  "target": "J1744-1134",
+  "case_counts": {
+    "calibration_nulls": 1000,
+    "sealed_evaluation_nulls": 500,
+    "main_injections": 240,
+    "annual_identifiability_injections": 28,
+    "search_boundary_injections": 16,
+    "total_injections": 284,
+    "total_trigger_scans": 1784,
+    "primary_timing_fits": 568,
+    "explicit_full_covariance_audits": 29
+  },
+  "planning_estimate": {
+    "wall_seconds": 5679.860000000001,
+    "wall_hours": 1.577738888888889,
+    "macbook_cap_hours": 4.0,
+    "within_macbook_cap": true,
+    "basis": "Pilot 0 measured per-fit costs plus a conservative trigger allowance"
+  },
+  "promotion_milestone": "initial-v0.1",
+  "promotion_ready": false,
+  "block_reason": "Pilot 1 design is review-only; no calibration metrics exist yet."
+}

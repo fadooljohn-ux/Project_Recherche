@@ -1,0 +1,30 @@
+{
+  "batch": "../Project Recherche Data/ipta-batch02-20260909/executions/ipta-batch02-20260909-J0030+0451",
+  "completed": 1,
+  "incomplete": 0,
+  "selected": [
+    "J0030+0451"
+  ],
+  "previous_sha256": "e48bbf5825fba060539e55f49878f61e5c792d18e8b1d23e8439316fb8730d08",
+  "sha256": "a37bff47fb99075a06b09f2d3cb1639109fedb92f477d840e73e93073e325602",
+  "backup": "../Recherche Recovery/20260907T223404/master-workbook-history/e48bbf5825fba060539e55f49878f61e5c792d18e8b1d23e8439316fb8730d08.xlsx",
+  "changes": 5,
+  "sheets": "{\"kind\":\"sheet\",\"id\":\"ws/tzda3j\",\"name\":\"Overview\",\"index\":0,\"range\":\"A1:E28\",\"address\":\"A1:E28\"}\n{\"kind\":\"sheet\",\"id\":\"ws/tcarmf\",\"name\":\"Targets\",\"index\":1,\"range\":\"A1:T755\",\"address\":\"A1:T755\"}\n{\"kind\":\"sheet\",\"id\":\"ws/8opxql\",\"name\":\"Searches\",\"index\":2,\"range\":\"A1:V343\",\"address\":\"A1:V343\"}\n{\"kind\":\"sheet\",\"id\":\"ws/814ik1\",\"name\":\"Work log\",\"index\":3,\"range\":\"A1:I167\",\"address\":\"A1:I167\"}\n{\"kind\":\"sheet\",\"id\":\"ws/ght9gf\",\"name\":\"Candidate grades\",\"index\":4,\"range\":\"A1:P8\",\"address\":\"A1:P8\"}",
+  "counts": [
+    754,
+    277,
+    266,
+    4,
+    2,
+    475,
+    343,
+    7,
+    0
+  ],
+  "updated_utc": "2026-09-09T09:51:37.970Z",
+  "operation": "run_bookkeeping",
+  "candidate_grades": {
+    "records": 7,
+    "excluded_invalid_imports": 2
+  }
+}

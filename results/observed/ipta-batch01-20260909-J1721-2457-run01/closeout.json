@@ -1,0 +1,28 @@
+{
+  "status": "COMPLETE",
+  "target": "J1721-2457",
+  "observed_runs": 1,
+  "disposition": "NO_TRIGGER",
+  "science_and_initial_workbook_exit_code": 0,
+  "bookkeeping_closeout_exit_code": 0,
+  "background_run_active": false,
+  "other_targets_launched": false,
+  "master_sha256": "5b7531d556c34a3a1224fc5fd47f2f63e733718212e7feff15fbc414fbdc6a8d",
+  "report": "docs/IPTA_J1721_OBSERVED_2026-09-09.md",
+  "report_sha256": "b15e79eac1300df22f62b6090afea60ced2fff4541aa80bcef4e03fc5ee4ca6e",
+  "external_archive": "../Recherche Recovery/20260907T223404/ipta-batch01-20260909-complete.tar.gz",
+  "external_archive_sha256": "08341061b2316ed86c3ee72a66c119c5d1697535a4216471977c582f9df2a4f7",
+  "archive_contents_verified": true,
+  "artifacts": {
+    "execution-freeze.json": "8d133064687e033ca35b1b7979c53637470299def8b898588d31d27c0b27ae7e",
+    "result.json": "f37d3c23e0f1f4a5406781aedf3be7605af9c0f7fc092d968c96209025a14742",
+    "launch.log": "9d21cddf7966f220e6d7a12b414cacb7cc84fff8f7545f1f5b50be032fdc8e02",
+    "periodogram.npz": "00c3ac190fbf428753cf9d80420f3cb0b5191e52457323a3f2c4316825d50a18",
+    "master-workbook-update.json": "8299974aaf707becf078a4b4294a17433b2cc17e6f89fa0c96f525051545db31",
+    "initial-master-workbook-update.json": "6dd0f74f86def7b7c741c07f541871198b37726729487d3bbcf3ae2686a40b26",
+    "bookkeeping-closeout.log": "614ecd937d4281f7c26836b7d2059687459e0d40bdfde829ed04536655e17582",
+    "baseline.json": "b3417f8fe84f732365255481fe72e39460e18706864229683b47e17f3404dc2d",
+    "preservation-check.json": "e49ad8481af4464b951c8b7e282df7abf777995a9de9bee5d2c3272de6c1f3f3",
+    "selection.json": "16ef6f521e8a16390cb04a55cb7a6038886cb80c235fb282a41d6d7f48f02e6b"
+  }
+}

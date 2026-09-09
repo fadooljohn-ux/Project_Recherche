@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-08-09T02:31:08.847100+00:00",
+  "authoritative_run_id": "20260809T023108Z",
+  "case": "C1-R1",
+  "case_purpose": "corrective_strong_positive_control",
+  "case_result": "pass",
+  "review_status": "pending",
+  "scorecard": {
+    "overall": "PASS",
+    "protocol_control": "PASS",
+    "injection_integrity": "PASS",
+    "ordinary_refit": "PASS",
+    "frequency_recovery": "PASS",
+    "joint_recovery": "PASS",
+    "independent_crosscheck": "PASS",
+    "warning_hygiene": "PASS",
+    "reproducibility": "PASS",
+    "resource_envelope": "PASS",
+    "scientific_authorization": "PASS",
+    "global_strongest_peak": "DIAGNOSTIC"
+  },
+  "injection": {
+    "period_days": 100.0,
+    "requested_amplitude_us": 20.0,
+    "phase_radians": 1.0471975511965976,
+    "reference_epoch_mjd_tdb": 56078.0,
+    "maximum_application_error_us": 0.000008394586024085271,
+    "application_tolerance_us": 0.001
+  },
+  "frequency_recovery": {
+    "exact_100_day_power": 0.14936859787062265,
+    "c0_exact_100_day_power": 0.014570173611738488,
+    "exact_100_day_amplitude_us": 5.765457912928608,
+    "c0_exact_100_day_amplitude_us": 0.1650916177916846,
+    "global_peak_period_days": 30.09624189093966,
+    "global_peak_role": "diagnostic_not_acceptance_gate",
+    "standard_timing_model_absorption_fraction": 0.7107009305151946
+  },
+  "compatible_joint_recovery": {
+    "component": "ProjectCircularSignal",
+    "release_red_noise_preserved": true,
+    "wavex_absent": true,
+    "matched_null_subtracted_amplitude_us": 20.000164373856208,
+    "matched_null_recovery_fraction": 1.000008218692811,
+    "matched_null_phase_error_radians": -0.00001900945253741071,
+    "c1_r1_chi2_improvement": 219331.1908879911,
+    "c0_chi2_improvement": 6.922365152233965
+  },
+  "independent_full_covariance_crosscheck": {
+    "amplitude_difference_us": 0.0000002604531630368001,
+    "phase_difference_radians": 0.000000041382152371483016,
+    "chi2_difference": 0.00022369851421899511
+  },
+  "warnings": {
+    "status": "pass",
+    "unexpected_warning_count": 0
+  },
+  "resources": {
+    "total_wall_seconds": 35.242313583000396,
+    "cpu_seconds": 90.01963400000001,
+    "peak_rss_mib": 308.8828125
+  },
+  "freeze": {
+    "freeze_id": "pilot0-v0.5-stage-c-c1-r1",
+    "freeze_sha256": "186af9694fbb310ca6f7761c8742681c0da53d320fe12d7816f3d7115f737c1a",
+    "authorization_sha256": "5dbe5cc1a091a2ff4d507a17930dc5c5125c4ff3583adcf4e60a398c19f7e0a0"
+  },
+  "external_outputs": {
+    "full_record": {
+      "logical_path": "run_records/c1_r1_corrective_control_20260809T023108Z.json",
+      "sha256": "3807008e56439befb913bd46da741ebb49fedf2695100683758011f542fd6bab"
+    },
+    "log": {
+      "logical_path": "run_records/c1_r1_corrective_control_20260809T023108Z.log",
+      "sha256": "b3560c6d637721d2ee17bd9aa91f08319f497fe508089f74fbf9012ed838a115"
+    },
+    "periodogram": {
+      "logical_path": "derived/g3/c1_r1/J1744-1134_C1-R1_20260809T023108Z.periodogram.npz",
+      "sha256": "9038dd14488c94577ed97a2a556348a5b5944fcbffbdbf2d81896b1eddb07f02"
+    },
+    "unmodeled_model": {
+      "logical_path": "derived/g3/c1_r1/J1744-1134_C1-R1_20260809T023108Z.unmodeled.postfit.par",
+      "sha256": "6f93a2d02a50007d33bfc1ce3b85d93a9daa6f99bc4df757197dfedad17a5b44"
+    },
+    "joint_model": {
+      "logical_path": "derived/g3/c1_r1/J1744-1134_C1-R1_20260809T023108Z.joint-circular.postfit.par",
+      "sha256": "157570d516a17d2352387683f0c799ca567c525c91ad97c69a2127d178d512e3"
+    },
+    "c0_joint_model": {
+      "logical_path": "derived/g3/c1_r1/J1744-1134_C0_20260809T023108Z.joint-circular.postfit.par",
+      "sha256": "2837bcc1a4ec9e5803fd824a7759f124eb2a4fb7571fd3bf1d93bbc462307081"
+    },
+    "full_covariance_model": {
+      "logical_path": "derived/g3/c1_r1/J1744-1134_C1-R1_20260809T023108Z.full-cov.postfit.par",
+      "sha256": "594edb525a8305ee4ba5daf5061919e7cc3ebd5b9671dc86228838abb5c23361"
+    }
+  },
+  "authorized_next_cases": [],
+  "blocked_cases": [
+    "C2",
+    "C3"
+  ],
+  "block_reason": "C1-R1 passed, but its review record must be merged before C2-only criteria can be frozen."
+}

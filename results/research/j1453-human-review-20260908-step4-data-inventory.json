@@ -1,0 +1,29 @@
+{
+  "checked_utc": "2026-09-08T15:08:10.225596+00:00",
+  "status": "NO_INDEPENDENT_TIMING_SERIES_ACQUIRED",
+  "search_is_exhaustive": false,
+  "sources": [
+    {
+      "url": "https://nanograv.org/science/data",
+      "finding": "Official catalog lists 15-year as latest primary timing release. The downloaded alternate narrowband reduction shares the 2013-2020 Arecibo span; older NG releases are not independent new epochs."
+    },
+    {
+      "url": "https://nadc.china-vo.org/res/r103117/?lang=en",
+      "finding": "CPTA catalog describes June 2019-September 2022 FAST observations, but its public access link and data type identify polarization profiles (112 files, 11.37 MB). No usable J1453 time-of-arrival series acquired here."
+    },
+    {
+      "url": "https://zenodo.org/records/13828113",
+      "finding": "Official single-pulsar noise supplement metadata lists one plots_spna.zip archive (90,387,588 bytes). Metadata saved locally; archive contents not inspected. No directly exposed PAR/TIM files verified.",
+      "metadata_sha256": "d9907de75cbf56d2a6a191a82858e21d49057dc4a98ddd690cacd63984250ef2"
+    },
+    {
+      "url": "https://www.aanda.org/articles/aa/pdf/forth/aa52550-24.pdf",
+      "finding": "CPTA noise paper points to the Zenodo supplementary material. Further access to calibrated J1453 timing epochs remains an acquisition task."
+    },
+    {
+      "url": "https://academic.oup.com/mnras/article/379/1/282/1137831",
+      "finding": "Older three-year timing study remains a possible archival lead; no machine-readable TOA series acquired during this bounded review."
+    }
+  ],
+  "next_data_requirement": "Calibrated FAST or other-observatory J1453 TOAs, uncertainties, timing model and noise information. Inspect epoch overlap; freeze prediction before testing newly acquired data."
+}

@@ -1,0 +1,12 @@
+{
+  "target": "J1453-6413",
+  "prior_TPA_par_sha256": "83d0d4ca9550226921954b3444ceee829420791c63c47e5f971b81478df5464f",
+  "prior_TPA_glitch_epoch_mjd": 59015,
+  "UTMOST_finish_mjd": 58404.13953750912,
+  "interpretation": "TPA released glitch occurs after this UTMOST dataset; retain TPA exclusion without excluding earlier UTMOST preparation. No glitch model added.",
+  "source_lines": [
+    "GLEP_1         59015                       ",
+    "START          58787.213686964386643       ",
+    "FINISH         59264.928969954740115       "
+  ]
+}

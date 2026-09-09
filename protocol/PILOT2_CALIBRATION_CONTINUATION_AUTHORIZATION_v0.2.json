@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "authorization_id": "user-authorization-pilot2-gaussian-continuation-2026-08-10",
+  "recorded_date": "2026-08-10",
+  "authorization": "resume_remaining_gaussian_threshold_calibration_sequence",
+  "scope": "cases_0001_through_0999_and_threshold_lock_if_all_hard_gates_pass",
+  "basis": "user_instruction_proceed_after_verified_first_case",
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "sealed_gaussian_evaluation_authorized": false,
+  "discovery_claim_authorized": false,
+  "external_adviser_signoff_required": false
+}

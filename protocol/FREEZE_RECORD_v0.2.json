@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot0-v0.2-g2",
+  "previous_freeze_id": "pilot0-v0.1",
+  "status": "frozen_before_first_g2_refit",
+  "recorded_utc": "2026-08-09T01:35:00Z",
+  "target": "J1744-1134",
+  "dataset": "nanograv_15yr_timing_v2.1.0",
+  "amendment": "A001",
+  "config_sha256": {
+    "config/target.yaml": "c6f051fdf883c6629883510b83c103ff9e46039e5a083994fc65b78cb6710937",
+    "config/injections.yaml": "47e462a3e6ab2f1c1f800edbb5617f3e9362e2f8af853d2ccf64d513349c8575"
+  },
+  "gate_g2": "not_run",
+  "injection_authorized": false
+}

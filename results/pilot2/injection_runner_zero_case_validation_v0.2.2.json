@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "validation_id": "pilot2-b1937-injection-runner-zero-case-validation-v0.2.2",
+  "status": "pass",
+  "operation": "v0.2.2_runner_zero_case_integrity_and_recovery_validation",
+  "criteria": {
+    "remediation_freeze_passes": true,
+    "runner_implementation_freeze_passes": true,
+    "execution_gate_locked": true,
+    "predecessors_not_loaded_before_authorization": true,
+    "timing_model_context_unreachable_before_authorization": true,
+    "zero_cases_recorded": true,
+    "stage_pending": true,
+    "promotion_pending": true,
+    "artifact_verification_passes": true,
+    "inventory_and_implementation_bound_resume": true,
+    "altered_artifact_detection_passes": true,
+    "terminal_hard_stop_persistence_passes": true,
+    "checkpoint_every_25_cases_passes": true,
+    "health_record_written": true,
+    "dashboard_written": true,
+    "heartbeat_interval_30_seconds": true,
+    "stale_heartbeat_tripwire_90_seconds": true,
+    "manual_refresh_recorded": true,
+    "health_record_contains_no_scientific_outcomes": true,
+    "all_344_case_ids_and_seeds_disjoint_from_v0.2.1": true
+  },
+  "counts": {
+    "repository_tests_passed": 193,
+    "repository_tests_failed": 0,
+    "focused_runner_tests_passed": 13,
+    "focused_runner_tests_failed": 0,
+    "lint_errors": 0,
+    "science_cases_executed": 0,
+    "random_draws_generated": 0,
+    "model_fits_executed": 0,
+    "periodic_scans_executed": 0,
+    "predecessor_artifacts_loaded_by_dry_run": 0
+  },
+  "predecessor_integrity_check": {
+    "status": "pass",
+    "threshold_lock_sha256": "6e624af784aabd92ce8b28babdaed4c863ca12c94caad756da005f14bf9b5117",
+    "v0.2.1_final_ledger_sha256": "cb13ffc749cd4bec1ab41dfcfe056850507d52546c9425e2b4fbfff49c1bc621",
+    "v0.2.1_terminal_result_sha256": "06cf10aa00231ecac05abccbe491b21c074371d749f8cc88dccff8cf034fba8c",
+    "v0.2.1_hard_stop_preserved": true,
+    "predecessor_science_outcomes_regraded": false
+  },
+  "prospective_inventory": {
+    "total_cases": 344,
+    "main_cases": 240,
+    "phase_reference_cases": 60,
+    "annual_cases": 28,
+    "boundary_cases": 16,
+    "solver_audit_cases": 35,
+    "inventory_sha256": "e8c2a38a22bd690e611cb99e0e2fab947335c0363a7198c54a47d119032ce613"
+  },
+  "implementation": {
+    "implementation_sha256": "348c0d1bd925daa2dfb67f57dc0ea35874c2f2b8393be631aca70e381e498756",
+    "implementation_freeze_sha256": "bfda1b758b880276ca4ae174083f97a09866727e52fed43b5e0c06da8e53c94d"
+  },
+  "authority": {
+    "execution_authorized": false,
+    "observed_residual_access_authorized": false,
+    "observed_periodic_search_authorized": false,
+    "promotion_grade_authorized": false,
+    "discovery_claim_authorized": false
+  }
+}

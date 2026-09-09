@@ -1,0 +1,108 @@
+{
+  "created_utc": "2026-09-08T12:23:51.886039+00:00",
+  "observed_search_executed": false,
+  "results": [
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "bbb0303f0c9b5d3d1b0c153f21a30ce602c55249ad5a4a8f5f291ed129c5343d",
+        "eligible_cells": 189,
+        "excluded_cells": 6,
+        "frequency_count": 195,
+        "median_worst_phase_amplitude_us": 70.3331172500256,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch02-20260908/calibration-cache/bbb0303f0c9b5d3d1b0c153f21a30ce602c55249ad5a4a8f5f291ed129c5343d",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1645-0317",
+        "threshold": 22.975215313971876,
+        "timing_rank": 63
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "6eeb41e4a26269d57edf6f7928dbbc9b1d6dbfe89b188df8061975f1db1297b8",
+      "recovered_amplitude_us": 1000.0,
+      "target": "J1645-0317"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "4267d84ef592680be2072b722ce14f7aca937d94c3439c85d8898920553fbda9",
+        "eligible_cells": 196,
+        "excluded_cells": 4,
+        "frequency_count": 200,
+        "median_worst_phase_amplitude_us": 67.49119163189494,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch02-20260908/calibration-cache/4267d84ef592680be2072b722ce14f7aca937d94c3439c85d8898920553fbda9",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1013-5934",
+        "threshold": 23.025850929940457,
+        "timing_rank": 65
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "be086cc2b07ad01c5540a235a0bc84ded6d6533a91ec1450b533b7b4703eb70d",
+      "recovered_amplitude_us": 999.9999999999998,
+      "target": "J1013-5934"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "e30ff753e14c5e055cc5877ab4de0e8c85b932ad03e944a1e68e8a3e4850a16b",
+        "eligible_cells": 213,
+        "excluded_cells": 3,
+        "frequency_count": 216,
+        "median_worst_phase_amplitude_us": 63.75517138687827,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch02-20260908/calibration-cache/e30ff753e14c5e055cc5877ab4de0e8c85b932ad03e944a1e68e8a3e4850a16b",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1609-4616",
+        "threshold": 23.179773012212713,
+        "timing_rank": 67
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "bbe3ea2e2bbd1c6c69dc7610a36915fe75d7fe7ea74dafbfd32b37c5400928db",
+      "recovered_amplitude_us": 1000.0000000000007,
+      "target": "J1609-4616"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "ac32252548883138e445a631df6a2dd021402411ed78956bec88db01106ea80e",
+        "eligible_cells": 192,
+        "excluded_cells": 4,
+        "frequency_count": 196,
+        "median_worst_phase_amplitude_us": 74.46795680667894,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch02-20260908/calibration-cache/ac32252548883138e445a631df6a2dd021402411ed78956bec88db01106ea80e",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1600-5044",
+        "threshold": 22.98544551530542,
+        "timing_rank": 63
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "c00d59cadb92d5aec03e1b8b69de8f79ba0e04f3d2526c485fc972990fdd8bdc",
+      "recovered_amplitude_us": 999.9999999999998,
+      "target": "J1600-5044"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "81bdd1fa7f32f436404823abe2da1ede5b6fa307680626db73d4d50905ecaa4d",
+        "eligible_cells": 196,
+        "excluded_cells": 4,
+        "frequency_count": 200,
+        "median_worst_phase_amplitude_us": 72.85627623577189,
+        "observed_search_executed": false,
+        "path": "../Project Recherche Data/tpa-batch02-20260908/calibration-cache/81bdd1fa7f32f436404823abe2da1ede5b6fa307680626db73d4d50905ecaa4d",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1126-6054",
+        "threshold": 23.025850929940457,
+        "timing_rank": 63
+      },
+      "noiseless_injected_amplitude_us": 1000,
+      "profile_sha256": "11e6b02f9256b9b472d2012d17f137c34588da526c9ca483b8b34ed7f4eeb2bc",
+      "recovered_amplitude_us": 1000.0,
+      "target": "J1126-6054"
+    }
+  ],
+  "selection_sha256": "eafdf9d3c8016443c502ba19ffd89257148144d3a88befddff9c95b47674d326",
+  "status": "PREPARED"
+}

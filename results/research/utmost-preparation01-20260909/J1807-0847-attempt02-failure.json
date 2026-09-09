@@ -1,0 +1,7 @@
+{
+  "adapter_sha256": "211678be089d99545d4e01207681fc6ca037fd306b34d0421ac876d8abbca934",
+  "observed_search_executed": false,
+  "status": "PREPARATION_FAILED",
+  "target": "J1807-0847",
+  "traceback": "Traceback (most recent call last):\n  File \"./tools/utmost_prepare.py\", line 136, in prepare\n    toas = get_TOAs(out/'format1.tim', model=model, ephem='DE430', include_bipm=False,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"./.pixi/envs/default/lib/python3.11/site-packages/pint/toa.py\", line 290, in get_TOAs\n    t.apply_clock_corrections(\n  File \"./.pixi/envs/default/lib/python3.11/site-packages/pint/toa.py\", line 2238, in apply_clock_corrections\n    clock_corrections = site.clock_corrections(\n                        ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"./.pixi/envs/default/lib/python3.11/site-packages/pint/observatory/topo_obs.py\", line 344, in clock_corrections\n    corr += clock.evaluate(t, limits=limits)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"./.pixi/envs/default/lib/python3.11/site-packages/pint/observatory/clock_file.py\", line 185, in evaluate\n    raise ClockCorrectionOutOfRange(msg)\npint.exceptions.ClockCorrectionOutOfRange: Data points out of range in clock file '../Project Recherche Data/utmost-preparation01-20260909/J1807-0847/attempt02/mo2gps-sampled.clk'\n"
+}

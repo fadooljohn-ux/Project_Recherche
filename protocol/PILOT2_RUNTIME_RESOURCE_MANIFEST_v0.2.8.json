@@ -1,0 +1,118 @@
+{
+  "clock_override_relative_path": "controlled/clock-overrides",
+  "entries": [
+    {
+      "bytes": 339264,
+      "consumer": "PINT 1.1.5",
+      "controlled_relative_path": "controlled/clock-overrides/gps2utc.clk",
+      "license_or_redistribution_status": "BSD-3-Clause IPTA byte; local project use",
+      "logical_name": "gps-to-utc-clock",
+      "resolution_role": "gps_clock",
+      "sha256": "f4409a787ef168bbb4d2eceb4cd14c958d549c099607b3fdd301797546d28638",
+      "source_url_or_publication": "IPTA pulsar-clock-corrections T2runtime/clock/gps2utc.clk"
+    },
+    {
+      "bytes": 36459,
+      "consumer": "PINT 1.1.5",
+      "controlled_relative_path": "controlled/clock-overrides/tai2tt_bipm2019.clk",
+      "license_or_redistribution_status": "BSD-3-Clause IPTA byte; local project use",
+      "logical_name": "tai-to-tt-bipm2019-clock",
+      "resolution_role": "bipm_clock",
+      "sha256": "3d1e27041f0c7a6c7aa79d2d6d5b90235ac2e73d436defcfc6e8d6fcdd78f512",
+      "source_url_or_publication": "NANOGrav 15-year v2.1.0 controlled clock; byte-identical to IPTA pulsar-clock-corrections T2runtime/clock/tai2tt_bipm2019.clk"
+    },
+    {
+      "bytes": 492183,
+      "consumer": "PINT 1.1.5",
+      "controlled_relative_path": "controlled/clock-overrides/time_ao.dat",
+      "license_or_redistribution_status": "BSD-3-Clause IPTA byte; local project use",
+      "logical_name": "arecibo-observatory-clock",
+      "resolution_role": "observatory_clock",
+      "sha256": "7e1755bb794d84bb7e585d556dcf46fffde159ea5d7f9543cd54e7fcb55bf86d",
+      "source_url_or_publication": "NANOGrav 15-year v2.1.0 controlled clock; byte-identical to IPTA pulsar-clock-corrections tempo/clock/time_ao.dat"
+    },
+    {
+      "bytes": 400170,
+      "consumer": "PINT 1.1.5",
+      "controlled_relative_path": "controlled/clock-overrides/time_gbt.dat",
+      "license_or_redistribution_status": "Historical controlled input; local scientific use only; redistribution not asserted",
+      "logical_name": "green-bank-observatory-clock",
+      "resolution_role": "observatory_clock",
+      "sha256": "060493be69cd421ce383a91631f089c22e8ed58fb322fdd9f1c4ed3ff2d2797b",
+      "source_url_or_publication": "NANOGrav 15-year v2.1.0 controlled clock"
+    },
+    {
+      "bytes": 119799808,
+      "consumer": "PINT 1.1.5 / Astropy 8.0.1",
+      "controlled_relative_path": "derived/cache-v0.2.8/ephemerides/de440.bsp",
+      "license_or_redistribution_status": "Local scientific use only; external redistribution not asserted",
+      "logical_name": "de440-kernel",
+      "resolution_role": "solar_system_ephemeris",
+      "sha256": "a4ce9bf9b3282becc9f4b2ac3cebe03a2ae7599981aabd7265fd8482fff7c4b5",
+      "source_url_or_publication": "NAIF/JPL DE440 planetary ephemeris kernel"
+    },
+    {
+      "bytes": 1352,
+      "consumer": "Astropy 8.0.1 / ERFA",
+      "controlled_relative_path": "derived/cache-v0.2.8/iers/Leap_Second.dat",
+      "license_or_redistribution_status": "BSD-3-Clause astropy-iers-data package content",
+      "logical_name": "iers-leap-seconds",
+      "resolution_role": "leap_seconds",
+      "sha256": "6cb6f5d4b819f2e568e25db4b0b26d89dedf031fdffb18bc94d40f4e94e268d7",
+      "source_url_or_publication": "astropy-iers-data==0.2026.8.3.0.53.6 package data"
+    },
+    {
+      "bytes": 3275,
+      "consumer": "Astropy 8.0.1 / PINT 1.1.5",
+      "controlled_relative_path": "derived/cache-v0.2.8/iers/ReadMe.eopc04",
+      "license_or_redistribution_status": "BSD-3-Clause astropy-iers-data package content",
+      "logical_name": "iers-b-parser-readme",
+      "resolution_role": "iers_b",
+      "sha256": "42d7890543fae69df024219d1d36f242b4fcd847f6f8a756c7d37c5dfd100243",
+      "source_url_or_publication": "astropy-iers-data==0.2026.8.3.0.53.6 package data"
+    },
+    {
+      "bytes": 3429,
+      "consumer": "Astropy 8.0.1 / PINT 1.1.5",
+      "controlled_relative_path": "derived/cache-v0.2.8/iers/ReadMe.finals2000A",
+      "license_or_redistribution_status": "BSD-3-Clause astropy-iers-data package content",
+      "logical_name": "iers-a-parser-readme",
+      "resolution_role": "iers_a",
+      "sha256": "7c6182cc0fd0cbece39711f648d15e48b49168925602e360a5709c5ccc8d5a12",
+      "source_url_or_publication": "astropy-iers-data==0.2026.8.3.0.53.6 package data"
+    },
+    {
+      "bytes": 5158836,
+      "consumer": "Astropy 8.0.1 / PINT 1.1.5",
+      "controlled_relative_path": "derived/cache-v0.2.8/iers/eopc04.1962-now",
+      "license_or_redistribution_status": "BSD-3-Clause astropy-iers-data package content",
+      "logical_name": "iers-b-eopc04",
+      "resolution_role": "iers_b",
+      "sha256": "f04b166d36f9dde242d3aaae8349a53b8b0b69d287941dcbbfd05cadcb00c673",
+      "source_url_or_publication": "astropy-iers-data==0.2026.8.3.0.53.6 package data"
+    },
+    {
+      "bytes": 3756992,
+      "consumer": "Astropy 8.0.1 / PINT 1.1.5",
+      "controlled_relative_path": "derived/cache-v0.2.8/iers/finals2000A.all",
+      "license_or_redistribution_status": "BSD-3-Clause astropy-iers-data package content",
+      "logical_name": "iers-a-finals2000a",
+      "resolution_role": "iers_a",
+      "sha256": "f707ea5031a467f1a3b2f0645fac2f627095ed0cb41d34c515b495cb81a5a25d",
+      "source_url_or_publication": "astropy-iers-data==0.2026.8.3.0.53.6 package data"
+    }
+  ],
+  "local_repository_relative_path": "derived/cache-v0.2.8",
+  "manifest_id": "recherche-rehabilitation-resources-20260907",
+  "required_resource_classes": [
+    "bipm_clock",
+    "gps_clock",
+    "iers_a",
+    "iers_b",
+    "leap_seconds",
+    "observatory_clock",
+    "solar_system_ephemeris"
+  ],
+  "schema_version": 1,
+  "status": "frozen_local_only"
+}

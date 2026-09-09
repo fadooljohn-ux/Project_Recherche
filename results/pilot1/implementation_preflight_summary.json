@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "phase": "P1-A implementation and noninjected preflight",
+  "status": "pass",
+  "execution_authorized": false,
+  "pilot1_synthetic_realizations_generated": 0,
+  "observed_residual_global_search_executed": false,
+  "case_inventory": {
+    "inventory_sha256": "642f3d33ca9fc44e35a3d1dfaf973660ea6c569a33364016b42f58d7e0d95cb9",
+    "calibration_nulls": 1000,
+    "sealed_evaluation_nulls": 500,
+    "injections": 284,
+    "independent_audits": 29,
+    "unique_case_ids": 1784,
+    "unique_seeds": 1784
+  },
+  "authoritative_preflight": {
+    "preflight_id": "pilot1-preflight-20260809T040732Z",
+    "logical_path": "run_records/pilot1/pilot1-preflight-20260809T040732Z.json",
+    "sha256": "ff18de0385395ce0df1117b14a7b3852daf6b0777055b4c8e7f203e000db9a54",
+    "wall_seconds": 54.4476667910003,
+    "timing_design_shape": [866, 180],
+    "timing_design_rank": 180,
+    "covariance_shape": [866, 866],
+    "template_maximum_absolute_difference": 5.359009902505818e-10,
+    "comparisons": [
+      {
+        "period_days": 100.0,
+        "absolute_amplitude_difference_microseconds": 2.509897446614784e-06,
+        "absolute_phase_difference_radians": 7.230524663264654e-06,
+        "absolute_delta_chi2_difference": 0.00014675532545904701
+      },
+      {
+        "period_days": 365.25,
+        "absolute_amplitude_difference_microseconds": 0.0006698522661494621,
+        "absolute_phase_difference_radians": 0.0053474245059319525,
+        "absolute_delta_chi2_difference": 0.0015635735048689092,
+        "role": "near-singular annual stress point"
+      }
+    ]
+  },
+  "preflight_attempts": [
+    {
+      "preflight_id": "pilot1-preflight-20260809T040414Z",
+      "status": "fail",
+      "logical_path": "run_records/pilot1/pilot1-preflight-20260809T040414Z.json",
+      "sha256": "235354b1a916e652040114105750e59a98170d22361bbfcfb2fcf23549bf9614",
+      "disposition": "Caught unit-scale-dependent rank truncation; implementation corrected."
+    },
+    {
+      "preflight_id": "pilot1-preflight-20260809T040556Z",
+      "status": "fail",
+      "logical_path": "run_records/pilot1/pilot1-preflight-20260809T040556Z.json",
+      "sha256": "ee031a71ca569c6a9138dafa4ff5a8ccb013cf82db68d5653656ed2c62916d65",
+      "disposition": "All 180 timing directions restored; annual stress phase tolerance separated from the stable control."
+    },
+    {
+      "preflight_id": "pilot1-preflight-20260809T040732Z",
+      "status": "pass",
+      "logical_path": "run_records/pilot1/pilot1-preflight-20260809T040732Z.json",
+      "sha256": "ff18de0385395ce0df1117b14a7b3852daf6b0777055b4c8e7f203e000db9a54",
+      "disposition": "Authoritative noninjected preflight."
+    }
+  ],
+  "implemented_controls": {
+    "covariance_whitened_gls_trigger": true,
+    "complete_wideband_covariance": true,
+    "timing_design_projection": true,
+    "reusable_precomputed_signal_workspace": true,
+    "covariance_null_generator": true,
+    "pooled_whitened_lag_correlation_diagnostic": true,
+    "deterministic_case_inventory": true,
+    "disjoint_per_case_seeds": true,
+    "deterministic_audit_selection": true,
+    "resumable_hashed_artifact_ledger": true,
+    "conservative_nearest_rank_threshold": true
+  },
+  "next_gate": "freeze implementation before any Pilot 1 synthetic realization"
+}

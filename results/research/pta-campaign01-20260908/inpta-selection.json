@@ -1,0 +1,124 @@
+{
+  "created_utc": "2026-09-08T16:00:12.617304+00:00",
+  "dataset": "InPTA DR2",
+  "eligible_targets": 3,
+  "maximum_period_rule": "min(2000 days, prepared TDB span / 2)",
+  "observed_periodograms_inspected": false,
+  "policy": {
+    "detection_probability": 0.95,
+    "false_alarm_probability": 0.01,
+    "maximum_condition_number": 10000000000.0,
+    "maximum_period_days": 2000.0,
+    "minimum_period_days": 30.0,
+    "minimum_retained_power": 0.2,
+    "null_count": 4096,
+    "oversampling": 5,
+    "search_count": 18,
+    "seed": 2026092300
+  },
+  "remaining_after_selection": 0,
+  "rows": [
+    {
+      "aliases": [],
+      "batch_index": 15,
+      "eligible_screen": true,
+      "epochs": 104,
+      "exclusion_reasons": [],
+      "input_hashes": {
+        "J1730-2304.par": "50e535a4fde59e462200040c4bc0c7adfca8d8be833ec869205685ee93b8276e",
+        "J1730-2304.tim": "f1a9780ea49423b9639eaff91e711aea45934b83a1cd7092218fff472f8d9b13",
+        "tims/GM_GWB_1460_100.0_b1_pre36.tim": "737b157713feb8b3c0903d46ee35fee01e27d38f2edf0cc55d76c04e7e7bd6bd",
+        "tims/GM_GWB_1460_200.0_b0_post36.tim": "d0c97f034376d8c849351e5a70e614ec5bbe3ed28d914c366908bb444f8a2bd0",
+        "tims/GM_GWB_1460_200.0_b0_pre36.tim": "6887a5f1f2b95b78cc3b60dea3fcdbdd288dc44230f2831e6cfd11eb88a371b9",
+        "tims/GM_GWB_1460_200.0_b1_pre36.tim": "a2448aa6ee3c2c3a89ba7d20c1a5192a1b9f52e471fa7f6c31eb1d91d5694a37",
+        "tims/GM_GWB_500_100.0_b1_pre36.tim": "72a5ce99fff1cb602cc16ff343e773c845719e09990c20b43c88086e64976175",
+        "tims/GM_GWB_500_200.0_b0_pre36.tim": "b7e0067861170fa104fd65f26ed14ddd1a1f18e12c173ff831f10697c07e8b37",
+        "tims/GM_GWB_500_200.0_b1_post36.tim": "3ee727b72caf40acb3b14439967f2123ac9f42d58ae40e8e1c33555bf4b531d8"
+      },
+      "mjd_max": 60397.968576048435,
+      "mjd_min": 57768.29113027256,
+      "multi_frequency_days": 104,
+      "observing_days": 104,
+      "par_sha256": "50e535a4fde59e462200040c4bc0c7adfca8d8be833ec869205685ee93b8276e",
+      "prior_search_membership": {
+        "EPTA_DR2": null,
+        "JBO800": null,
+        "NANOGrav11": null
+      },
+      "reasons": [],
+      "selected": true,
+      "span_days": 2629.677445775873,
+      "target": "J1730-2304",
+      "tim_sha256": "f1a9780ea49423b9639eaff91e711aea45934b83a1cd7092218fff472f8d9b13",
+      "toas": 5585
+    },
+    {
+      "aliases": [],
+      "batch_index": 16,
+      "eligible_screen": true,
+      "epochs": 157,
+      "exclusion_reasons": [],
+      "input_hashes": {
+        "J1939+2134.par": "894eb85a82e2b708b841a41a98a18dbd6eb9021607d03fc7d3cc1b1fc10f75be",
+        "J1939+2134.tim": "c243ddfa50cdf848cd7a25c18cb6b3ece267f6be3d29ee3fa602206ddb45fcec",
+        "tims/GM_GWB_1460_100.0_b1_pre36.tim": "cc30fedb1d7658fcc64603d2d10e85487e786771b828accc280ffab614346e52",
+        "tims/GM_GWB_1460_200.0_b0_post36.tim": "e5b0da2ff5511dc6ee00ab37a1311c0ba6458bf4e70616a38111d0e471dd91b3",
+        "tims/GM_GWB_500_100.0_b1_pre36.tim": "0ef6a956b75c81542cb5a44ae9cd84093492f5f8e99a51cac142ea95f5c5a3bf",
+        "tims/GM_GWB_500_200.0_b1_post36.tim": "a88e82a399d0c0149f2a7cdc833e6d875069b6db9118f749e0bfd09c7901fa34"
+      },
+      "mjd_max": 60398.13443272275,
+      "mjd_min": 58241.99387701618,
+      "multi_frequency_days": 157,
+      "observing_days": 157,
+      "par_sha256": "894eb85a82e2b708b841a41a98a18dbd6eb9021607d03fc7d3cc1b1fc10f75be",
+      "prior_search_membership": {
+        "EPTA_DR2": null,
+        "JBO800": null,
+        "NANOGrav11": null
+      },
+      "reasons": [],
+      "selected": true,
+      "span_days": 2156.1405557065664,
+      "target": "J1939+2134",
+      "tim_sha256": "c243ddfa50cdf848cd7a25c18cb6b3ece267f6be3d29ee3fa602206ddb45fcec",
+      "toas": 18191
+    },
+    {
+      "aliases": [],
+      "batch_index": 17,
+      "eligible_screen": true,
+      "epochs": 129,
+      "exclusion_reasons": [],
+      "input_hashes": {
+        "J2124-3358.par": "42d717e647292f42513b2eddf14f1cf539214d6c8caa4eaecc5a53246785a587",
+        "J2124-3358.tim": "c243ddfa50cdf848cd7a25c18cb6b3ece267f6be3d29ee3fa602206ddb45fcec",
+        "tims/GM_GWB_1460_100.0_b1_pre36.tim": "116f7ad42952b5e9df3edb3b2f9659cc0d9cffc0b037be884fef331b1fbef3bb",
+        "tims/GM_GWB_1460_200.0_b0_post36.tim": "00b97615898926a5490acb154f41d866fbe601fd85969261771b543905762e37",
+        "tims/GM_GWB_500_100.0_b1_pre36.tim": "e59ddebc94b99424160c99005cfcd630bb33f9d67282f8e5936edda41e370a4b",
+        "tims/GM_GWB_500_200.0_b1_post36.tim": "ef8a4a17428d1cfeb2ef463979e7ad48c021b8888ebe93290418cd319cd19cdb"
+      },
+      "mjd_max": 60398.16082173533,
+      "mjd_min": 58242.01934019068,
+      "multi_frequency_days": 128,
+      "observing_days": 129,
+      "par_sha256": "42d717e647292f42513b2eddf14f1cf539214d6c8caa4eaecc5a53246785a587",
+      "prior_search_membership": {
+        "EPTA_DR2": null,
+        "JBO800": null,
+        "NANOGrav11": null
+      },
+      "reasons": [],
+      "selected": true,
+      "span_days": 2156.141481544648,
+      "target": "J2124-3358",
+      "tim_sha256": "c243ddfa50cdf848cd7a25c18cb6b3ece267f6be3d29ee3fa602206ddb45fcec",
+      "toas": 5153
+    }
+  ],
+  "selected": [
+    "J1730-2304",
+    "J1939+2134",
+    "J2124-3358"
+  ],
+  "source": "INPTA"
+}

@@ -1,0 +1,243 @@
+{
+  "libstempo": "2.5.1",
+  "ephemeris": "DE436",
+  "clock": "TT(BIPM2015)",
+  "noise": {
+    "efac_EFF.EBPP.1360": {
+      "value": 0.925224,
+      "flag": "group",
+      "flag_value": "EFF.EBPP.1360"
+    },
+    "efac_EFF.EBPP.1410": {
+      "value": 0.933971,
+      "flag": "group",
+      "flag_value": "EFF.EBPP.1410"
+    },
+    "efac_EFF.EBPP.2639": {
+      "value": 1.62059,
+      "flag": "group",
+      "flag_value": "EFF.EBPP.2639"
+    },
+    "efac_PDFB_10CM": {
+      "value": 1.38744,
+      "flag": "group",
+      "flag_value": "PDFB_10CM"
+    },
+    "efac_PDFB_20CM": {
+      "value": 1.09007,
+      "flag": "group",
+      "flag_value": "PDFB_20CM"
+    },
+    "efac_CPSR2_20CM": {
+      "value": 1.20149,
+      "flag": "group",
+      "flag_value": "CPSR2_20CM"
+    },
+    "efac_CPSR2_50CM": {
+      "value": 1.06358,
+      "flag": "group",
+      "flag_value": "CPSR2_50CM"
+    },
+    "efac_PDFB_40CM": {
+      "value": 1.27425,
+      "flag": "group",
+      "flag_value": "PDFB_40CM"
+    },
+    "efac_WBCORR_20CM": {
+      "value": 3.30004,
+      "flag": "group",
+      "flag_value": "WBCORR_20CM"
+    },
+    "efac_WBCORR_10CM": {
+      "value": 1.4286,
+      "flag": "group",
+      "flag_value": "WBCORR_10CM"
+    },
+    "efac_PKS.fptm.20cm-legacy": {
+      "value": 1.99219,
+      "flag": "group",
+      "flag_value": "PKS.fptm.20cm-legacy"
+    },
+    "efac_PKS.AFB.20cm_legacy": {
+      "value": 1.02966,
+      "flag": "group",
+      "flag_value": "PKS.AFB.20cm_legacy"
+    },
+    "efac_PKS.cpsr2.20cm_legacy": {
+      "value": 3.71403,
+      "flag": "group",
+      "flag_value": "PKS.cpsr2.20cm_legacy"
+    },
+    "efac_JBO.DFB.1400": {
+      "value": 1.53784,
+      "flag": "group",
+      "flag_value": "JBO.DFB.1400"
+    },
+    "efac_JBO.DFB.1520": {
+      "value": 1.19714,
+      "flag": "group",
+      "flag_value": "JBO.DFB.1520"
+    },
+    "efac_NRT.BON.1400": {
+      "value": 0.940771,
+      "flag": "group",
+      "flag_value": "NRT.BON.1400"
+    },
+    "efac_NRT.BON.1600": {
+      "value": 1.15762,
+      "flag": "group",
+      "flag_value": "NRT.BON.1600"
+    },
+    "efac_NRT.BON.2000": {
+      "value": 1.23792,
+      "flag": "group",
+      "flag_value": "NRT.BON.2000"
+    },
+    "equad_EFF.EBPP.1360": {
+      "value": 0.014301118326988277,
+      "flag": "group",
+      "flag_value": "EFF.EBPP.1360"
+    },
+    "equad_EFF.EBPP.1410": {
+      "value": 0.0017077724374801786,
+      "flag": "group",
+      "flag_value": "EFF.EBPP.1410"
+    },
+    "equad_EFF.EBPP.2639": {
+      "value": 0.10758457287605112,
+      "flag": "group",
+      "flag_value": "EFF.EBPP.2639"
+    },
+    "equad_PDFB_10CM": {
+      "value": 0.0049620370192513755,
+      "flag": "group",
+      "flag_value": "PDFB_10CM"
+    },
+    "equad_PDFB_20CM": {
+      "value": 0.024818755462826136,
+      "flag": "group",
+      "flag_value": "PDFB_20CM"
+    },
+    "equad_CPSR2_20CM": {
+      "value": 0.014800282327612319,
+      "flag": "group",
+      "flag_value": "CPSR2_20CM"
+    },
+    "equad_CPSR2_50CM": {
+      "value": 1.5279881986563526,
+      "flag": "group",
+      "flag_value": "CPSR2_50CM"
+    },
+    "equad_PDFB_40CM": {
+      "value": 0.0003217066216301421,
+      "flag": "group",
+      "flag_value": "PDFB_40CM"
+    },
+    "equad_WBCORR_20CM": {
+      "value": 0.11487089372423447,
+      "flag": "group",
+      "flag_value": "WBCORR_20CM"
+    },
+    "equad_WBCORR_10CM": {
+      "value": 0.0004254710352460721,
+      "flag": "group",
+      "flag_value": "WBCORR_10CM"
+    },
+    "equad_PKS.fptm.20cm-legacy": {
+      "value": 0.008948288960445585,
+      "flag": "group",
+      "flag_value": "PKS.fptm.20cm-legacy"
+    },
+    "equad_PKS.AFB.20cm_legacy": {
+      "value": 0.015649483192248688,
+      "flag": "group",
+      "flag_value": "PKS.AFB.20cm_legacy"
+    },
+    "equad_PKS.cpsr2.20cm_legacy": {
+      "value": 0.8083882641882112,
+      "flag": "group",
+      "flag_value": "PKS.cpsr2.20cm_legacy"
+    },
+    "equad_JBO.DFB.1400": {
+      "value": 2.1293644539604144,
+      "flag": "group",
+      "flag_value": "JBO.DFB.1400"
+    },
+    "equad_JBO.DFB.1520": {
+      "value": 0.026347535600618678,
+      "flag": "group",
+      "flag_value": "JBO.DFB.1520"
+    },
+    "equad_NRT.BON.1400": {
+      "value": 1.3895366305313452,
+      "flag": "group",
+      "flag_value": "NRT.BON.1400"
+    },
+    "equad_NRT.BON.1600": {
+      "value": 0.04834927876305947,
+      "flag": "group",
+      "flag_value": "NRT.BON.1600"
+    },
+    "equad_NRT.BON.2000": {
+      "value": 0.21000517651887962,
+      "flag": "group",
+      "flag_value": "NRT.BON.2000"
+    }
+  },
+  "longdouble_mantissa": 63,
+  "f0": "123.11028905622600209",
+  "pepoch": "54999.999816170382115",
+  "timing_names": [
+    "Offset",
+    "RAJ",
+    "DECJ",
+    "F0",
+    "F1",
+    "DM",
+    "DM1",
+    "DM2",
+    "PMRA",
+    "PMDEC",
+    "PX",
+    "JUMP2",
+    "JUMP3",
+    "JUMP4",
+    "JUMP5",
+    "JUMP6",
+    "JUMP7",
+    "JUMP8",
+    "JUMP9",
+    "JUMP10",
+    "JUMP11",
+    "JUMP12",
+    "JUMP13",
+    "JUMP14",
+    "JUMP15",
+    "JUMP16",
+    "JUMP17",
+    "JUMP18",
+    "JUMP19",
+    "JUMP20",
+    "JUMP21",
+    "JUMP22",
+    "JUMP23",
+    "JUMP24",
+    "JUMP25",
+    "JUMP26",
+    "JUMP27",
+    "JUMP28",
+    "JUMP29",
+    "JUMP30",
+    "JUMP31",
+    "JUMP32",
+    "JUMP33",
+    "JUMP34"
+  ],
+  "derivative_relative_errors": {
+    "F0": 9.221156662986752e-08,
+    "RAJ": 2.203705006152168e-05,
+    "DM2": 5.630675136096192e-06,
+    "JUMP2": 2.3071067031371896e-10
+  },
+  "fit_performed": false
+}

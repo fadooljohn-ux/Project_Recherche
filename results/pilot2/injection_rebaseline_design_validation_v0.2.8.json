@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "validation_id": "pilot2-b1937-v0.2.8-rebaseline-design-validation",
+  "recorded_utc": "2026-08-11T03:11:57Z",
+  "operation": "s1_m0_rebaseline_and_s1_m1_s1_m2_zero_science_design",
+  "status": "pass",
+  "branch": "agent/pilot2-v028-design",
+  "rebaseline_commit": "5e9e3ca517a78eab88c7f43abeb75ae00e971478",
+  "criteria": {
+    "v0.2.7_terminal_evidence_present": "pass",
+    "v0.2.7_execution_freeze_hash_verified": "pass",
+    "no_active_pilot2_runner_process_observed": "pass",
+    "v0.2.7_restart_or_repair_performed": "pass_false",
+    "v0.2.7_completed_cases": "pass_0",
+    "inventory_carry_forward_scientifically_dispositioned": "pass",
+    "inventory_sha256_unchanged": "pass",
+    "v0.2.2_namespace_remains_retired": "pass",
+    "all_six_p1_findings_mapped_to_design_controls": "pass",
+    "annual_mask_p2_mapped_to_durable_artifact": "pass",
+    "offline_resource_closure_design_complete": "pass",
+    "environment_closure_design_complete": "pass",
+    "science_control_binding_design_complete": "pass",
+    "execution_freeze_schema_design_complete": "pass",
+    "ledger_state_machine_design_complete": "pass",
+    "single_writer_design_complete": "pass",
+    "zero_science_validation_matrix_defined": "pass"
+  },
+  "inventory": {
+    "policy": "reuse_exact_unexecuted_v0.2.3_inventory_without_seed_churn",
+    "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+    "total_cases": 344,
+    "solver_audits": 35,
+    "case_ids_or_seeds_changed": false
+  },
+  "observed_environment_design_evidence": {
+    "pixi_lock_sha256": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8",
+    "pixi_toml_sha256": "b4d190ee09a878c93ae5e3e74bd3ca630754b9343ba7f62d5b52f4d32f5c1613",
+    "pyproject_toml_sha256": "96f5f6570820b203b7486c13f45a695f11f2cd014aad86ac20eefc655524d304",
+    "python_version": "3.11.15",
+    "pint_version": "1.1.5",
+    "astropy_version": "8.0.1",
+    "numpy_version": "2.4.6",
+    "scipy_version": "1.17.1",
+    "kernel_machine": "arm64",
+    "process_machine": "x86_64",
+    "extended_precision_gate": "pass",
+    "pint_global_clock_module_sha256": "8104a82858ebb19d140e47542fa6732a1357ca5bc48f3fa766f9f5d828bd4047",
+    "pint_observatory_module_sha256": "161218ee001d95694b258ad1421ef7608cbb1eaca12c6b40209a60a56c12c9a4",
+    "authority": "design_evidence_only_not_execution_environment_freeze"
+  },
+  "science_boundary": {
+    "external_data_root_accessed": false,
+    "science_cases_executed": 0,
+    "random_draws_generated": 0,
+    "timing_model_fits_executed": 0,
+    "periodic_scans_executed": 0,
+    "observed_residual_accessed": false,
+    "promotion_grade_executed": false,
+    "execution_freeze_created": false,
+    "science_execution_authorized": false
+  },
+  "next_gate": "separate_user_direction_for_zero_science_v0.2.8_implementation"
+}

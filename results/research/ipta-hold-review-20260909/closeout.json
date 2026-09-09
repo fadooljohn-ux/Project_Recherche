@@ -1,0 +1,15 @@
+{
+  "status": "HOLDS_RESOLVED_AND_SEARCHED",
+  "master_before_sha256": "29e29999aa630ad960d0a36f0671ed68e91c38c2ac8c0a6d5b5343fca216713e",
+  "search_closeout": "./results/observed/ipta-hold-release-20260909/closeout.json",
+  "search_closeout_sha256": "169df5905cab81ddfd251b4ae4a2623a95360a47d56ff18569d44ce4b7751af2",
+  "decision": "./results/research/ipta-hold-review-20260909/decision.json",
+  "decision_sha256": "c502aa1ccd544707c39e51d560d7b1c6fa26ace891724f6a08e73fa55becdc7b",
+  "report": "./docs/IPTA_HOLD_RESOLUTION_2026-09-09.md",
+  "report_sha256": "06d08399a2854eacf0cf4614bdc66401f5e64ce27752571344561bd0632c2303",
+  "seven_held_cases_cleared": true,
+  "prior_six_searches_not_repeated": true,
+  "historical_reproduction_claimed": false,
+  "qualified_scanner_and_calibration_source_unchanged": true,
+  "background_run_active": false
+}

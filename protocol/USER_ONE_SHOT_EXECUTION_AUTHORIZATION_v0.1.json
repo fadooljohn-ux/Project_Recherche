@@ -1,0 +1,8 @@
+{
+  "approved_by_user": true,
+  "authorization": "execute_exactly_one_observed_residual_search_v0.1",
+  "package_manifest_sha256": "1efe2878789299dfa017146740f6c0f8d2cba8fd6ebca4e86f0d65c4792f4235",
+  "one_shot_freeze_sha256": "49baf0314e1daf0d1d0ca0b54a2d600246978aed023abc85a4d8e81a78bf017b",
+  "implementation_sha256": "61c7998f725a601f897b0eed466e5eeca3b6542394e71f9c46538751f8c474cd",
+  "fable_signoff_sha256": "e3aa4ba1430ec31064707c7bebecf93e595aa0e2a11ac0ecd67ebecdb516ac5b"
+}

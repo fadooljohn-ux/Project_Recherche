@@ -1,0 +1,19 @@
+{
+  "status": "PREPARATION_COMPLETE_WITH_ONE_MODEL_GAP",
+  "initial_targets": 7,
+  "prepared_targets": 6,
+  "deferred_targets": [
+    "J1825-0935"
+  ],
+  "toas": 651,
+  "observing_days": 624,
+  "noise_warnings": [],
+  "reduced_chi2_range": [
+    0.9549101500618025,
+    1.0207002306386734
+  ],
+  "reprepared_residual_difference_seconds": {
+    "J1705-1906": 0.0,
+    "J1820-0427": 0.0
+  }
+}

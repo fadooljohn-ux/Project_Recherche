@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot2-b1937-injection-execution-readiness-freeze-v0.2.4",
+  "recorded_utc": "2026-08-10T10:10:07Z",
+  "status": "execution_readiness_frozen_execution_not_authorized",
+  "execution_readiness": "pass",
+  "independent_sol_audit_status": "pending",
+  "execution_authorized": false,
+  "science_cases_executed_during_validation": 0,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "promotion_grade_authorized": false,
+  "discovery_claim_authorized": false,
+  "inventory_policy": "reuse_exact_never_executed_v0.2.3_inventory_without_seed_churn",
+  "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+  "implementation_sha256": "e36f958626b46f57db23aae537dd320473f642333fae3b3e1fdf8e2edc5a11e0",
+  "implementation_freeze_sha256": "3c7ba5cc1f99cada848c158766a97d47fda19f6a2a75295429bf0e34433e2845",
+  "frozen_sha256": {
+    "protocol/PILOT2_INJECTION_RUNNER_FREEZE_v0.2.4.json": "3c7ba5cc1f99cada848c158766a97d47fda19f6a2a75295429bf0e34433e2845",
+    "results/pilot2/injection_runner_zero_science_validation_v0.2.4.json": "7b2ec6502c949f5d6df05b0f385ee655c9600e8fee3992be90f261d93f691963",
+    "results/pilot2/injection_validation_manifest_v0.2.4.json": "f583a74a353e773179d0f9f8a166f49b4bfd803c32f8d26b91a862956b158408",
+    "results/pilot2/injection_v024_audit_finding_closure.json": "ac1592724e03519e4e41cfca1eb208a9e7d459766a502e37dc082e31f3b4e1e6",
+    "results/pilot2/injection_execution_readiness_v0.2.4.json": "efe480af331d62ce57c749cd2f5a6af3124fb7077f63c9d4f9f99e64e5490255",
+    "docs/PILOT2_INJECTION_EXECUTION_READINESS_v0.2.4.md": "ea182f17a7c6cff1ee5e73a19567a28a8767ad43cd971b6bf8236a74c056c91e",
+    "src/pulsar_pilot/pilot2_injection_runner_v024.py": "825195d9aa8769fde920996db64186e477bc61fc06c83986f7588e3560ab8960",
+    "tests/test_pilot2_injection_runner_v024.py": "dde290f1c70592d743a3ff820695f49e6a331245fe02f7d4996391fe4674935b"
+  },
+  "required_execution_authorization": {
+    "file": "protocol/PILOT2_INJECTION_EXECUTION_FREEZE_v0.2.4.json",
+    "present": false,
+    "must_bind_this_readiness_freeze": true,
+    "must_verify_full_contract_and_hashes": true,
+    "must_be_verified_before_predecessor_loading": true,
+    "must_be_verified_before_timing_model_setup": true
+  },
+  "next_gate": "one_fresh_read_only_sol_milestone_audit"
+}

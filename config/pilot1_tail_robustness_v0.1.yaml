@@ -1,0 +1,75 @@
+schema_version: 1
+gate_id: pilot1-tail-robustness-v0.1
+status: design_for_freeze
+target: J1744-1134
+dataset: nanograv_15yr_timing_v2.1.0_wideband
+
+boundary:
+  observed_residual_periodic_search_authorized: false
+  observed_frequency_grid_construction_authorized: false
+  observed_periodogram_authorized: false
+  observed_candidate_statistic_authorized: false
+  authorized_observed_work: nonperiodic_time_domain_tail_localization_only
+
+localization:
+  residual_representation: covariance_whitened_timing_projected
+  raw_standardized_block_crosscheck: true
+  blocks: [toa, dm]
+  top_influence_coordinates: 12
+  groupings: [utc_day, backend, frontend, observing_system]
+  report_values: [absolute_excess_kurtosis, maximum_absolute, squared_energy_fraction]
+
+contamination_model:
+  family: unit_variance_two_component_zero_mean_gaussian_scale_mixture
+  contaminated_coordinate_probability: 0.01
+  contaminated_standard_deviation_multiplier: 2.8237419549367053
+  expected_excess_kurtosis: 1.262140834554768
+  application_domain: independent_whitened_innovations_before_release_covariance_factor
+  mask_draw: independent_bernoulli_per_coordinate
+
+nulls:
+  calibration_count: 1000
+  evaluation_count: 500
+  calibration_base_seed: 17441140
+  evaluation_base_seed: 17441141
+  sets_disjoint: true
+  threshold_quantile: 0.99
+  threshold_estimator: conservative_nearest_rank
+  robust_threshold_rule: maximum_of_initial_v0p1_and_contamination_calibration_threshold
+  trigger_comparison: strictly_greater_than_threshold
+  evaluation_interval: wilson_95_percent
+
+recovery:
+  periods_days: [50.0, 100.0, 200.0, 500.0, 1000.0]
+  amplitudes_microseconds: [0.2, 0.35, 0.5, 0.7]
+  phases_radians: [0.0, 1.5707963267948966, 3.141592653589793, 4.71238898038469]
+  contaminated_noise_realizations_per_phase: 2
+  base_seed: 17441142
+  case_count: 160
+  recovery_definition: triggered_and_frequency_recovered
+  frequency_tolerance: one_independent_fourier_bin
+  complete_refit_audit_count: 16
+  full_covariance_audit_count: 4
+  audit_selection: sha256_case_id_rank
+
+hard_benchmarks:
+  evaluation_false_positive_rate_maximum: 0.01
+  evaluation_false_positive_rate_upper_95_maximum: 0.025
+  injected_frequency_recovery_rate_minimum: 0.95
+  minimum_periods_with_monotonic_detection_fraction: 3
+  minimum_periods_with_bracketed_50_and_90_percent_sensitivity: 3
+  complete_refit_failures_maximum: 0
+  independent_full_covariance_audit_failures_maximum: 0
+  full_covariance_amplitude_difference_maximum_microseconds: 0.01
+  full_covariance_phase_difference_maximum_radians: 0.001
+  full_covariance_chi2_difference_maximum: 0.1
+  unexpected_material_warnings_maximum: 0
+  incremental_wall_hours_maximum: 2.0
+  peak_memory_gib: 16.0
+  complete_data_root_gib: 5.0
+  observed_residual_periodic_search_executed: false
+
+decision:
+  pass_authorizes: preparation_of_separate_one_shot_observed_search_freeze
+  pass_does_not_authorize: execution_of_observed_residual_periodic_search
+  fail_requires: detector_or_threshold_rebaseline_before_any_observed_search

@@ -1,0 +1,74 @@
+{
+  "evidence": "./results/research/ipta-hold-review-20260909/closeout.json",
+  "entries": [
+    [
+      "IPTA-HOLD-20260909-DIAGNOSIS",
+      "Likelihood diagnosis",
+      "Seven original IPTA preparation holds",
+      "COMPARISON CORRECTED",
+      "Historical PAR RMS/CHI2R was not an equivalent fixed-model acceptance test. Two independent likelihood formulations agree.",
+      "Retain historical discrepancies and failed attempts; do not claim exact historical reproduction."
+    ],
+    [
+      "IPTA-HOLD-20260909-PREPARATION",
+      "Timing/noise compatibility",
+      "Seven released IPTA datasets",
+      "7/7 COMPATIBLE",
+      "Exact fit-window inclusion, direct timing/noise checks and independent likelihood audits passed.",
+      "No source observations or noise amplitudes changed; qualified scientific runtime preserved."
+    ],
+    [
+      "IPTA-HOLD-20260909-SEARCH",
+      "Observed continuation",
+      "Seven previously unsearched campaign slots",
+      "7 NO_TRIGGER",
+      "Seven calibrations and one observed search each; zero candidates or execution failures. Original six preserved.",
+      "Original 13-case conditional 1% allowance; 4,096 nulls per new target; masks and sensitivities retained."
+    ],
+    [
+      "IPTA-HOLD-20260909-CLOSEOUT",
+      "Source coverage",
+      "IPTA DR2 Version B",
+      "COMPATIBLE POOL COMPLETE",
+      "14 IPTA datasets searched including J1721; six coverage and 45 companion exclusions retained.",
+      "UTMOST-NS still needs combined timing inputs. No further search queued; prior candidate reviews preserved."
+    ]
+  ],
+  "target_updates": [
+    {
+      "target": "J1911+1347",
+      "next_step": "Preserve completed IPTA NO_TRIGGER; new observations or scope required to search again",
+      "dataset_status": "IPTA SEARCH COMPLETE; historical summary difference retained"
+    },
+    {
+      "target": "J1843-1113",
+      "next_step": "Preserve completed IPTA NO_TRIGGER; new observations or scope required to search again",
+      "dataset_status": "IPTA SEARCH COMPLETE; historical summary difference retained"
+    },
+    {
+      "target": "J0711-6830",
+      "next_step": "Preserve completed IPTA NO_TRIGGER; new observations or scope required to search again",
+      "dataset_status": "IPTA SEARCH COMPLETE; historical summary difference retained"
+    },
+    {
+      "target": "J1730-2304",
+      "next_step": "Preserve completed IPTA NO_TRIGGER; new observations or scope required to search again",
+      "dataset_status": "IPTA SEARCH COMPLETE; historical summary difference retained"
+    },
+    {
+      "target": "J2124-3358",
+      "next_step": "Preserve completed IPTA NO_TRIGGER; new observations or scope required to search again",
+      "dataset_status": "IPTA SEARCH COMPLETE; historical summary difference retained"
+    },
+    {
+      "target": "J1744-1134",
+      "next_step": "Preserve completed IPTA NO_TRIGGER; new observations or scope required to search again",
+      "dataset_status": "IPTA SEARCH COMPLETE; historical summary difference retained"
+    },
+    {
+      "target": "J1939+2134",
+      "next_step": "Preserve IPTA NO_TRIGGER and prior candidate review; additional independent timing data required",
+      "dataset_status": "IPTA SEARCH COMPLETE; historical summary difference retained"
+    }
+  ]
+}

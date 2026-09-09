@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-08-09T02:58:53Z",
+  "pilot": "Pilot 0",
+  "target": "J1744-1134",
+  "dataset": "nanograv_15yr_timing_v2.1.0",
+  "status": "methods_pilot_complete_scientific_search_not_authorized",
+  "stage_results": {
+    "G2": "pass",
+    "C0": "pass",
+    "C1": "fail_superseded_by_c1_r1",
+    "C1_R1": "pass",
+    "C2": "pass_robust",
+    "C3": "pass_robust_transfer_strong_annual_degeneracy"
+  },
+  "validated_capabilities": [
+    "published_timing_solution_reproduction",
+    "high_precision_zero_and_nonzero_toa_adjustment",
+    "compatible_deterministic_circular_signal_fit",
+    "same_run_matched_null_recovery",
+    "low_rank_and_explicit_full_covariance_agreement",
+    "frozen_run_provenance_and_external_artifact_hashing",
+    "macbook_resource_feasibility_for_single_case_runs"
+  ],
+  "unvalidated_capabilities": [
+    "false_alarm_calibrated_candidate_significance",
+    "multi_period_multi_amplitude_multi_phase_completeness",
+    "independent_identification_of_annual_signals",
+    "blind_real_data_companion_search",
+    "multi_pulsar_population_inference"
+  ],
+  "maximum_observed_resources": {
+    "case": "C3",
+    "total_wall_seconds": 50.83788470900072,
+    "peak_rss_mib": 338.52734375
+  },
+  "annual_claim_boundary": {
+    "maximum_absolute_signal_astrometry_correlation": 0.9999705269918947,
+    "maximum_astrometric_shift_sigma": 333.52211124703797,
+    "ordinary_absorption_fraction": 0.999876290824454,
+    "conclusion": "annual_component_not_independently_identifiable_under_current_model"
+  },
+  "blind_real_data_search_authorized": false,
+  "additional_pulsars_authorized": false,
+  "next_phase": {
+    "name": "Pilot 1 calibration",
+    "first_action": "freeze_design_and_run_count_before_execution",
+    "required_elements": [
+      "period_amplitude_phase_injection_grid",
+      "correlated_noise_aware_statistic",
+      "empirical_false_alarm_and_recovery_calibration",
+      "annual_exclusion_or_external_astrometry_rule",
+      "candidate_veto_and_blind_analysis_gate",
+      "macbook_benchmark_and_mac_mini_nas_migration_plan"
+    ]
+  }
+}

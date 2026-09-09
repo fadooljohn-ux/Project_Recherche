@@ -1,0 +1,82 @@
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under conditions of GPL license.
+
+Looking for ../Project Recherche Data/ipta-batch02-20260909/plugins/recherche_ref_darwin24_plug.t2
+Current filename = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/J1744-1134.IPTADR2.tim
+Rel path = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/tims/J1744-1134_NANOGrav_9yv1.tim
+[tempo2Util.C:396] Warning: [TIM1] Please place MODE flags in the parameter file 
+Current filename = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/J1744-1134.IPTADR2.tim
+Rel path = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/tims/WSRT.P1.323.tim
+Current filename = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/J1744-1134.IPTADR2.tim
+Rel path = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/tims/EFF.EBPP.1410.tim
+Current filename = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/J1744-1134.IPTADR2.tim
+Rel path = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/tims/EFF.EBPP.1360.tim
+Current filename = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/J1744-1134.IPTADR2.tim
+Rel path = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/tims/WSRT.P1.367.tim
+Current filename = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/J1744-1134.IPTADR2.tim
+Rel path = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/tims/NRT.BON.2000.tim
+[tempo2Util.C:401] Warning: [DUP1] duplicated warnings have been suppressed.
+Current filename = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/J1744-1134.IPTADR2.tim
+Rel path = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/tims/NRT.BON.1400.tim
+Current filename = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/J1744-1134.IPTADR2.tim
+Rel path = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/tims/JBO.DFB.1520.tim
+Current filename = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/J1744-1134.IPTADR2.tim
+Rel path = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/tims/EFF.EBPP.2639.tim
+Current filename = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/J1744-1134.IPTADR2.tim
+Rel path = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/tims/NRT.BON.1600.tim
+Current filename = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/J1744-1134.IPTADR2.tim
+Rel path = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/tims/J1744-1134_dr1dr2.tim
+Current filename = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/J1744-1134.IPTADR2.tim
+Rel path = ../Project Recherche Data/ipta-batch02-20260909/J1744-1134/original/tims/J1744-1134_ppta_legacy.tim
+************************************************* 
+Warning: you are running in tempo1 emulation mode 
+************************************************* 
+Updating TOA errors using TN parameters.
+[tabulatedfunction.C:84] Warning: Error parsing file ${HOME}/.cache/recherche-tempo2/ipta-batch02-20260909-bound/clock/eff2gps.clk: Entry 4 out of order 49427.330000 < 60000.000000
+[tabulatedfunction.C:84] Warning: Error parsing file ${HOME}/.cache/recherche-tempo2/ipta-batch02-20260909-bound/clock/eff2gps.clk: Entry 1073 out of order 54164.000000 < 54164.430000
+[tabulatedfunction.C:84] Warning: Error parsing file ${HOME}/.cache/recherche-tempo2/ipta-batch02-20260909-bound/clock/eff2gps.clk: Entry 1228 out of order 54244.040000 < 54244.080000
+[tabulatedfunction.C:84] Warning: Error parsing file ${HOME}/.cache/recherche-tempo2/ipta-batch02-20260909-bound/clock/eff2gps.clk: Entry 1437 out of order 54334.290000 < 54334.320000
+[tabulatedfunction.C:84] Warning: Error parsing file ${HOME}/.cache/recherche-tempo2/ipta-batch02-20260909-bound/clock/eff2gps.clk: Entry 1471 out of order 54348.000000 < 54349.960000
+[tabulatedfunction.C:84] Warning: Error parsing file ${HOME}/.cache/recherche-tempo2/ipta-batch02-20260909-bound/clock/jb2gps.clk: Entry 73322 out of order 57072.505451 < 57082.833333
+[tabulatedfunction.C:84] Warning: Error parsing file ${HOME}/.cache/recherche-tempo2/ipta-batch02-20260909-bound/clock/jb2gps.clk: Entry 76559 out of order 57223.652465 < 57238.000000
+[tabulatedfunction.C:84] Warning: Error parsing file ${HOME}/.cache/recherche-tempo2/ipta-batch02-20260909-bound/clock/jb2gps.clk: Entry 77921 out of order 57275.630845 < 57296.291667
+[tabulatedfunction.C:84] Warning: Error parsing file ${HOME}/.cache/recherche-tempo2/ipta-batch02-20260909-bound/clock/jb2gps.clk: Entry 79368 out of order 57347.794815 < 57358.333333
+[tabulatedfunction.C:84] Warning: Error parsing file ${HOME}/.cache/recherche-tempo2/ipta-batch02-20260909-bound/clock/jb2gps.clk: Entry 82957 out of order 57491.750440 < 57509.875000
+[tabulatedfunction.C:84] Warning: Error parsing file ${HOME}/.cache/recherche-tempo2/ipta-batch02-20260909-bound/clock/jbdfb2gps.clk: Entry 73322 out of order 57072.505451 < 57082.833333
+[tabulatedfunction.C:84] Warning: Error parsing file ${HOME}/.cache/recherche-tempo2/ipta-batch02-20260909-bound/clock/jbdfb2gps.clk: Entry 76559 out of order 57223.652465 < 57238.000000
+[tabulatedfunction.C:84] Warning: Error parsing file ${HOME}/.cache/recherche-tempo2/ipta-batch02-20260909-bound/clock/jbdfb2gps.clk: Entry 77921 out of order 57275.630845 < 57296.291667
+[tabulatedfunction.C:84] Warning: Error parsing file ${HOME}/.cache/recherche-tempo2/ipta-batch02-20260909-bound/clock/jbdfb2gps.clk: Entry 79368 out of order 57347.794815 < 57358.333333
+[tabulatedfunction.C:84] Warning: Error parsing file ${HOME}/.cache/recherche-tempo2/ipta-batch02-20260909-bound/clock/jbdfb2gps.clk: Entry 82957 out of order 57491.750440 < 57509.875000
+[tabulatedfunction.C:84] Warning: Error parsing file ${HOME}/.cache/recherche-tempo2/ipta-batch02-20260909-bound/clock/ncyobs2obspm.clk: Entry 3815 out of order 50822.572920 < 50823.156253
+[tabulatedfunction.C:84] Warning: Error parsing file ${HOME}/.cache/recherche-tempo2/ipta-batch02-20260909-bound/clock/ncyobs2obspm.clk: Entry 4335 out of order 51112.572920 < 51113.156253
+[observatory.C:272] Warning: Assuming site 'g' means 'eff'
+CLOCK_CHAIN gbt UTC(GPS) UTC(GPST) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN gbt UTC(GPS) UTC(GPS_UNSO) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN gbt UTC(GPS) UTC(GPST) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN gbt UTC(GPS) UTC(GPS_UNSO) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN gbt UTC(GPS) UTC(GPST) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN gbt UTC(GPS) UTC(GPS_UNSO) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN wsrt UTC(GPS) UTC(GPST) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN g UTC(GPS) UTC(GPST) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN g UTC(GPS) UTC(GPS_UNSO) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN wsrt UTC(GPS) UTC(GPST) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN ncy UTC(GPS) UTC(GPST) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN ncy UTC(GPS) UTC(GPS_UNSO) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN ncy UTC(GPS) UTC(GPST) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN ncy UTC(GPS) UTC(GPS_UNSO) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN jbdfb UTC(GPS) UTC(GPST) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN jbdfb UTC(GPS) UTC(GPS_UNSO) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN g UTC(GPS) UTC(GPST) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN g UTC(GPS) UTC(GPS_UNSO) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN ncy UTC(GPS) UTC(GPST) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN ncy UTC(GPS) UTC(GPS_UNSO) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN pks UTC(GPS) UTC(GPST) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN pks UTC(GPS) UTC(GPS_UNSO) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN pks UTC(GPS) UTC(GPST) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN pks UTC(GPS) UTC(GPS_UNSO) UTC TAI TT(BIPM2015)
+CLOCK_CHAIN pks UTC(GPS) UTC(GPST) UTC TAI TT(BIPM2015)
+[t2fit.C:789] ss/fs 1 1
+[t2fit.C:818] START=49728.1156242267243 FINISH = 56992.1236053468747
+[t2fit.C:1305] Generated 278 TNepochs from 4 TNECORRs
+REFERENCE_COMPLETE 9834 NO_FIT_NO_SEARCH

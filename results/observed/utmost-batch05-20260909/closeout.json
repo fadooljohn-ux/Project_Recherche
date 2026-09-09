@@ -1,0 +1,39 @@
+{
+  "status": "COMPLETE_WITH_ONE_PREPARATION_MODEL_GAP",
+  "completed_utc": "2026-09-09T07:10:10.279422+00:00",
+  "batch": "utmost-batch05-20260909",
+  "initial_targets": 7,
+  "observed_runs": 6,
+  "no_trigger": 6,
+  "candidates": 0,
+  "observed_execution_failures": 0,
+  "observed_noise_flags": 0,
+  "deferred_targets": [
+    "J1825-0935"
+  ],
+  "deferral_reason": "DE405 plus unsupported T2CMETHOD TEMPO; pinned PINT would coerce the convention",
+  "utmost_completed": 85,
+  "utmost_no_trigger": 80,
+  "utmost_original_crossings": 5,
+  "remaining_unprepared_compatible": 0,
+  "legacy_model_gaps": 1,
+  "inventory_exclusions": 214,
+  "inventory_reconciles_to_300": true,
+  "historical_result_files_verified": 1150,
+  "historical_search_rows_preserved": 331,
+  "old_candidate_grade_rows_unchanged": true,
+  "operator_notes_preserved": true,
+  "workbook_updated_each_observed_run": true,
+  "workbook_hash_chain_verified": true,
+  "workbook_sha256": "23363f02b8d2659444b9ad355f77beeb4b0777d7c9456a701418a92155bf613d",
+  "master_counts": {
+    "targets": 743,
+    "observed_targets": 277,
+    "search_records": 337,
+    "candidate_records": 7,
+    "new_discoveries": 0
+  },
+  "execution_freeze_sha256": "8af21b72e19d3856446123d5e2cfa5e3e1f2860b9458cccb828e2bdc07d6e57b",
+  "qualified_scientific_code_unchanged": true,
+  "humor_reference": "docs/HYPOTHETICAL_COMPANIONS_2026-09-09.md"
+}

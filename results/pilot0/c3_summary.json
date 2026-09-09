@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-08-09T02:58:53Z",
+  "authoritative_run_id": "20260809T025735Z",
+  "case": "C3",
+  "case_purpose": "annual_absorption_and_identifiability_stress",
+  "hard_gate_result": "pass",
+  "review_status": "pending",
+  "scorecard": {
+    "overall": "PASS",
+    "protocol_control": "PASS",
+    "injection_integrity": "PASS",
+    "ordinary_execution": "PASS",
+    "joint_execution": "PASS",
+    "full_covariance_execution": "PASS",
+    "warning_hygiene": "PASS",
+    "reproducibility": "PASS",
+    "resource_envelope": "PASS",
+    "scientific_authorization": "PASS",
+    "ordinary_model_absorption": "DIAGNOSTIC_STRONG",
+    "annual_recovery": "DIAGNOSTIC_ROBUST",
+    "annual_identifiability": "DIAGNOSTIC_STRONG_COUPLING",
+    "astrometric_displacement": "DIAGNOSTIC_SEVERE",
+    "solver_stability": "DIAGNOSTIC_STABLE",
+    "exact_frequency_comparison": "DIAGNOSTIC_AT_OR_BELOW_C0",
+    "global_strongest_peak": "DIAGNOSTIC"
+  },
+  "injection": {
+    "period_days": 365.25,
+    "requested_amplitude_us": 20.0,
+    "phase_radians": 1.0471975511965976,
+    "reference_epoch_mjd_tdb": 56078.0,
+    "maximum_application_error_us": 0.000008611029585381402,
+    "application_tolerance_us": 0.001
+  },
+  "frequency_diagnostic": {
+    "ordinary_model_absorption_fraction": 0.999876290824454,
+    "blind_residual_recovery_fraction": 0.00012370917554610378,
+    "exact_365_25_day_power": 0.0000599245943130348,
+    "c0_exact_365_25_day_power": 0.00009703187019234044,
+    "exact_365_25_day_amplitude_us": 0.010979726075655201,
+    "c0_exact_365_25_day_amplitude_us": 0.013291735001341122,
+    "global_peak_period_days": 30.448431955620578,
+    "global_peak_power": 0.1895394128134687,
+    "global_peak_role": "diagnostic_not_acceptance_gate",
+    "false_alarm_probability": null
+  },
+  "compatible_joint_recovery": {
+    "component": "ProjectCircularSignal",
+    "release_red_noise_preserved": true,
+    "wavex_absent": true,
+    "matched_null_subtracted_amplitude_us": 19.991099186184464,
+    "matched_null_recovery_fraction": 0.9995549593092236,
+    "matched_null_phase_error_radians": -0.0002299826769689428,
+    "c3_chi2_improvement": 8.637161230564061,
+    "c0_chi2_improvement": 1.3381638587077305,
+    "recovery_classification": "robust"
+  },
+  "annual_identifiability": {
+    "classification": "strong",
+    "maximum_absolute_correlation": 0.9999705269918947,
+    "maximum_pair": {
+      "signal_parameter": "CSCOS",
+      "astrometric_parameter": "ELAT",
+      "correlation": -0.9999705269918947
+    },
+    "submatrix_condition_number": 203782901.84709007,
+    "claim_boundary": "matched_null_transfer_does_not_establish_independent_annual_signal_identifiability"
+  },
+  "astrometric_displacement": {
+    "classification": "severe",
+    "maximum_parameter": "ELAT",
+    "maximum_absolute_delta_sigma": 333.52211124703797,
+    "elong_absolute_delta_sigma": 83.20263482271703,
+    "px_absolute_delta_sigma": 3.2021802701924926
+  },
+  "independent_full_covariance_crosscheck": {
+    "classification": "stable",
+    "amplitude_difference_us": 0.0006531840197752103,
+    "phase_difference_radians": 0.00001451976746214001,
+    "differential_chi2_improvement_difference": 0.00007321165537632623
+  },
+  "warnings": {
+    "status": "pass",
+    "unexpected_warning_count": 0
+  },
+  "resources": {
+    "total_wall_seconds": 50.83788470900072,
+    "cpu_seconds": 115.195127,
+    "peak_rss_mib": 338.52734375
+  },
+  "freeze": {
+    "freeze_id": "pilot0-v0.7-stage-c-c3",
+    "freeze_sha256": "d10e95304636975fa395943b9dceb490cc9490a9169d3a584bd3b11b4cc125f4",
+    "authorization_sha256": "2d3c61bf3f4fee0d7e70305ede3bf9655babaa3ffe099f59cd5bee32d3050ee8"
+  },
+  "external_outputs": {
+    "full_record": {
+      "logical_path": "run_records/c3_annual_stress_20260809T025735Z.json",
+      "sha256": "90f9fd90115f8540b3ebd898e32d0972849f77f96c5f62bea42ebffc09a4d099"
+    },
+    "log": {
+      "logical_path": "run_records/c3_annual_stress_20260809T025735Z.log",
+      "sha256": "b3560c6d637721d2ee17bd9aa91f08319f497fe508089f74fbf9012ed838a115"
+    },
+    "periodogram": {
+      "logical_path": "derived/g3/c3/J1744-1134_C3_20260809T025735Z.periodogram.npz",
+      "sha256": "36849d0bff169535f36a7f3079b994684c0789910f4a4485418cc5a5627e9af5"
+    },
+    "c0_ordinary_model": {
+      "logical_path": "derived/g3/c3/J1744-1134_C0_20260809T025735Z.ordinary.postfit.par",
+      "sha256": "81c08b974480e815e9d7017687fd073d07c5a2646918c4ff49f2f42e0bbd2aa2"
+    },
+    "c3_ordinary_model": {
+      "logical_path": "derived/g3/c3/J1744-1134_C3_20260809T025735Z.ordinary.postfit.par",
+      "sha256": "5d0afe00e4987e2ac765f382e04702b7149ce9606fe57428ffb4dfce833190ad"
+    },
+    "c0_joint_model": {
+      "logical_path": "derived/g3/c3/J1744-1134_C0_20260809T025735Z.joint-circular.postfit.par",
+      "sha256": "b0cd80033a130b61ef20cd1a589a3eac0f788705134e0ae0380dd5f7b05efa6e"
+    },
+    "c3_joint_model": {
+      "logical_path": "derived/g3/c3/J1744-1134_C3_20260809T025735Z.joint-circular.postfit.par",
+      "sha256": "4d14888cd7f63008d845ec24c0ce4eb6db2360a554776df8025df2e98e9bcdb3"
+    },
+    "c0_full_covariance_model": {
+      "logical_path": "derived/g3/c3/J1744-1134_C0_20260809T025735Z.full-cov.postfit.par",
+      "sha256": "3e4f681e278b8e07a937f79ccd8b94e561cbc5eae67f55e7f8a68fa7f361b57a"
+    },
+    "c3_full_covariance_model": {
+      "logical_path": "derived/g3/c3/J1744-1134_C3_20260809T025735Z.full-cov.postfit.par",
+      "sha256": "8d016cbaa9fd57c0d53aeeaaa4113f6e8bb7fdb9c62243afa1ae3b634321622c"
+    }
+  },
+  "pilot0_injection_cases_complete": true,
+  "authorized_next_cases": [],
+  "blind_real_data_search_authorized": false,
+  "next_phase": "pilot1_calibration_design"
+}

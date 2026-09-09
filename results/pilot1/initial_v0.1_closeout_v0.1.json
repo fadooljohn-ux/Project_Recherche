@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "closeout_id": "pilot1-initial-v0.1-closeout-v0.1",
+  "status": "closed_complete_null_pilot",
+  "closed_date": "2026-08-09",
+  "project_authority": "John Fadool",
+  "target": "J1744-1134",
+  "dataset": "nanograv_15yr_timing_v2.1.0_wideband",
+  "scientific_disposition": {
+    "candidate_present": false,
+    "strongest_unmasked_period_days": 59.964133509276856,
+    "strongest_unmasked_statistic": 16.499061440870975,
+    "locked_threshold_delta_chi2": 23.33426855482562,
+    "supported_claim": "No candidate exceeded the frozen threshold in the single authorized 30-to-2000-day strongest-unmasked circular-signal search."
+  },
+  "execution_records": {
+    "intent_sha256": "cd76bab246979e4aaa1e5513c10ba8c2951242054ce27271c6c1be429821c8ee",
+    "result_sha256": "720f3604058121ddc4aa7ff5a0be159089b28ca279328b18addd4d1904ce06bc",
+    "log_sha256": "efafe93f6dab0c2ba1894da87a3628e5fcee8e93696094d6056686e3d4dd5079"
+  },
+  "independent_advisory_audit": {
+    "reviewer": "Claude Fable 5",
+    "role": "passive_independent_observer_non_authorizing",
+    "verdict": "PASS",
+    "claim_boundary_accepted": true,
+    "record_sha256": "6b07c8092cb5408e26fc63d2f67dac9b8b9c8bbdc27ec6cf3c8d54317da5de71",
+    "decision_effect": "advisory_evidence_only"
+  },
+  "closeout_score": {
+    "overall": "PASS",
+    "passed": 14,
+    "total": 14,
+    "criteria": [
+      "advisory_disposition_fields_exact",
+      "external_record_hashes_exact",
+      "result_review_manifest_exact",
+      "exactly_one_observed_scan",
+      "null_candidate_rule_correct",
+      "claim_boundary_correct",
+      "resource_envelope_passed",
+      "warning_hygiene_passed",
+      "execution_identities_exact",
+      "candidate_only_branches_correctly_skipped",
+      "no_retry_or_retuning",
+      "repository_tests_98_of_98",
+      "static_checks_passed",
+      "external_advisor_role_passive_and_non_authorizing"
+    ]
+  },
+  "authority_boundary": {
+    "additional_v0.1_observed_search_authorized": false,
+    "v0.1_threshold_retuning_authorized": false,
+    "v0.1_automatic_retry_authorized": false,
+    "fable_decision_authority": false,
+    "future_project_decisions_reserved_to_user": true
+  },
+  "recommended_next_phase": "v0.1_null_result_sensitivity_interpretation_without_new_observed_search"
+}

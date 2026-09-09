@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "audit_id": "pilot2-b1937-injection-failure-audit-v0.2.1",
+  "recorded_utc": "2026-08-10T08:14:26Z",
+  "operation": "read_only_postexecution_failure_audit",
+  "scope": {
+    "project": "Project Recherche",
+    "program": "Neutron Star Program",
+    "target": "B1937+21",
+    "stage": "injection_recovery_and_annual_map",
+    "new_science_cases_executed": 0,
+    "existing_science_cases_rerun": 0,
+    "threshold_retuned": false,
+    "observed_residual_data_inspected": false,
+    "observed_periodic_search_executed": false,
+    "promotion_grade_executed": false
+  },
+  "source_bindings": {
+    "terminal_result": {
+      "logical_path": "run_records/pilot2/injection-evaluation-v0.2.1.json",
+      "sha256": "06cf10aa00231ecac05abccbe491b21c074371d749f8cc88dccff8cf034fba8c"
+    },
+    "final_ledger": {
+      "logical_path": "run_records/pilot2/calibration-v0.2.1-ledger.json",
+      "sha256": "cb13ffc749cd4bec1ab41dfcfe056850507d52546c9425e2b4fbfff49c1bc621"
+    },
+    "threshold_lock": {
+      "logical_path": "run_records/pilot2/calibration-threshold-lock-v0.2.1.json",
+      "sha256": "6e624af784aabd92ce8b28babdaed4c863ca12c94caad756da005f14bf9b5117"
+    },
+    "sealed_gaussian_result": {
+      "logical_path": "run_records/pilot2/sealed-gaussian-evaluation-v0.2.1.json",
+      "sha256": "f3a8677ea28255c7c06afd815fad1d911fcadde9a1fb0a4b2bf464f78aa59034"
+    },
+    "structured_tail_result": {
+      "logical_path": "run_records/pilot2/structured-tail-evaluation-v0.2.1.json",
+      "sha256": "540f5d12496a02687253b3d0a64e63208c8df53d8cdae3f3935cc8da4fc0f252"
+    },
+    "configuration": {
+      "logical_path": "config/pilot2_calibration_v0.2.1.yaml",
+      "sha256": "eecb8935f96afd3a9d450013eec81572c973840194c95ba8881100da67e5da19"
+    },
+    "implementation_freeze": {
+      "logical_path": "protocol/PILOT2_INJECTION_IMPLEMENTATION_FREEZE_v0.2.1.json",
+      "sha256": "649f378aa7109eb1780149038271d37c09e3d3ece70d62a3aa3c0ccdd58d66d3"
+    },
+    "execution_freeze": {
+      "logical_path": "protocol/PILOT2_INJECTION_EXECUTION_FREEZE_v0.2.1.json",
+      "sha256": "afcc2eea4be4a6ff85db2d6b26ed3eafaa13e948d40167d70c84f7b776c9dabd"
+    },
+    "preflight_regrade_protocol": {
+      "logical_path": "protocol/PILOT2_PREFLIGHT_R1_REGRADE_PROTOCOL_v0.2.1.md",
+      "sha256": "f7851d03b70863fcd7bbb0a9edde9c5c6fb96e4cf952da337767591681ad26a3"
+    },
+    "preflight_regrade_result": {
+      "logical_path": "results/pilot2/preflight_regrade_result_v0.2.1.json",
+      "sha256": "de00792cbfd598a7eae7f7d570b89a459789864750aeff9937fb782fcb504eff"
+    }
+  },
+  "integrity_verification": {
+    "status": "pass",
+    "completed_case_artifacts_verified": 10284,
+    "completed_case_artifact_failures": 0,
+    "stage_result_artifacts_verified": 5,
+    "stage_result_artifact_failures": 0,
+    "checkpoint_count": 411,
+    "injection_case_count": 284,
+    "threshold_values_observed_in_injection_records": [
+      22.485020743823544
+    ],
+    "distinct_execution_bindings": 1,
+    "hard_stop": {
+      "reason": "stage_gate_failure",
+      "stage": "injection_recovery_and_annual_map",
+      "recorded_utc": "2026-08-10T06:54:38.011944Z"
+    }
+  },
+  "failed_gate_dispositions": [
+    {
+      "gate": "phase_error_p90",
+      "terminal_observed": 0.2136721217729798,
+      "limit": 0.1,
+      "audit_status": "valid_substantive_failure",
+      "classification": "scientific_recovery_performance",
+      "evidence": {
+        "triggered_main_cases": 111,
+        "cases_over_limit": 38,
+        "fraction_over_limit": 0.34234234234234234,
+        "median_phase_error_radians": 0.07037384628068243,
+        "p90_phase_error_radians": 0.2136721217729798,
+        "maximum_phase_error_radians": 0.397091274168363,
+        "strong_control_cases": 60,
+        "strong_control_cases_triggered": 60,
+        "strong_control_cases_over_limit": 11,
+        "strong_control_p90_phase_error_radians": 0.13569662806430866,
+        "all_ordinary_fits_converged": true,
+        "all_joint_fits_converged": true,
+        "all_29_solver_audits_passed": true,
+        "maximum_solver_phase_difference_radians": 0.00015061837136004508,
+        "frequency_recovery_rate": 1.0
+      },
+      "reason": "The frozen phase convention and wrapped-difference calculation are internally consistent, fit convergence and independent solver agreement passed, and the overage remains present in the strongest controls. The result therefore measures a real failure of the frozen phase-accuracy requirement rather than a solver disagreement or reporting-only defect."
+    },
+    {
+      "gate": "toa_application_error",
+      "terminal_observed": 0.0018314834949921745,
+      "limit": 0.001,
+      "audit_status": "invalid_grade_indeterminate_correct_value",
+      "classification": "grading_implementation_and_telemetry_defect",
+      "evidence": {
+        "records_over_conflated_limit": 230,
+        "record_count": 284,
+        "conflated_median_microseconds": 0.001200674447915887,
+        "conflated_p90_microseconds": 0.0014869364502530138,
+        "conflated_maximum_microseconds": 0.0018314834949921745,
+        "frozen_metric": "toa_adjustment_maximum_absolute_error_microseconds",
+        "incorrect_implementation": "maximum_of_toa_adjustment_and_uncentered_residual_target_diagnostic",
+        "retained_record_field": "toa_adjustment_error_microseconds",
+        "retained_record_stores_separate_components": false,
+        "preflight_frozen_toa_adjustment_maximum_microseconds": 0.000008941779302773512,
+        "preflight_uncentered_target_diagnostic_maximum_microseconds": 0.00159751302417336
+      },
+      "reason": "The injection executor repeated the exact metric-substitution defect corrected before calibration design: it took the maximum of the frozen TOA-adjustment metric and a descriptive uncentered residual-target diagnostic. The case schema retained only that maximum, so the correct 284-case TOA-adjustment maximum cannot be recovered from existing JSON. Fail-closed treatment remains required; a pass must not be inferred."
+    },
+    {
+      "gate": "unexpected_material_warnings",
+      "terminal_observed": "fail",
+      "limit": "pass",
+      "audit_status": "invalid_grade_corrected_pass",
+      "classification": "warning_classifier_implementation_defect",
+      "evidence": {
+        "terminal_unexpected_warning_count": 2,
+        "remaining_unexpected_warning_count_after_frozen_disposition": 0,
+        "repeated_warning": "Clock file from RECHERCHE_DATA_ROOT/controlled/nanograv15yr-v2.1.0/clock/time_ao.dat overrides global clock file time_ao.dat because of PINT_CLOCK_OVERRIDE",
+        "preflight_disposition": "expected controlled release-clock override"
+      },
+      "reason": "Both lines are duplicate occurrences of the exact controlled Arecibo clock override explicitly frozen as expected in the v0.2.1 preflight regrade. The injection classifier failed to carry that disposition forward. No new material warning was found."
+    }
+  ],
+  "passed_gate_summary": {
+    "case_counts": {
+      "main": 240,
+      "annual": 28,
+      "boundary": 16
+    },
+    "fit_convergence": "pass_284_of_284_ordinary_and_joint",
+    "solver_audits": "pass_29_of_29",
+    "strong_control_recovery": 1.0,
+    "frequency_recovery": 1.0,
+    "median_amplitude_bias_fraction": 0.0843328250030935,
+    "monotonic_periods": 5,
+    "bracketed_periods": 5,
+    "annual_eligibility_violations": 0,
+    "wall_hours": 1.8164410590624984,
+    "peak_memory_gib": 0.8273277282714844,
+    "complete_data_root_gib": 0.17082155495882034
+  },
+  "audit_disposition": {
+    "terminal_result_preserved": "fail",
+    "authoritative_stage_status": "fail",
+    "hard_stop_preserved": true,
+    "promotion_blocked": true,
+    "observed_search_design_blocked": true,
+    "rerun_authorized": false,
+    "retuning_authorized": false,
+    "overall": "fail_closed",
+    "basis": "One valid substantive phase-recovery hard-gate failure remains. A second gate is not auditable under the correct metric because the executor retained only a conflated diagnostic, and the warning failure is a confirmed classifier defect."
+  },
+  "next_permissible_work": {
+    "activity": "prepare_a_separately_versioned_v0.2.2_remediation_design_only",
+    "requirements": [
+      "Preserve all v0.2.1 records, hashes, and terminal failure without replacement.",
+      "Correct the warning classifier by carrying forward the already-frozen exact time_ao.dat disposition.",
+      "Store the TOA-adjustment metric and uncentered residual-target diagnostic as separate fields and grade only the former.",
+      "Investigate the phase-recovery failure without relaxing the 0.1-radian gate merely to obtain a pass.",
+      "Freeze any scientifically justified metric or design change prospectively under a new version before any new cases.",
+      "Require separate explicit authorization before any new synthetic execution."
+    ]
+  }
+}

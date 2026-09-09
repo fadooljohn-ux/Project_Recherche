@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use Project Recherche, cite this software release and the original data releases used in your analysis."
+type: software
+title: "Project Recherche"
+authors:
+  - family-names: Fadool
+    given-names: John
+version: 0.1.0
+date-released: "2026-09-09"
+repository-code: "https://github.com/fadooljohn-ux/Project_Recherche"
+url: "https://github.com/fadooljohn-ux/Project_Recherche/releases/tag/v0.1.0"
+license: MIT
+abstract: >-
+  Pulsar-timing companion searches with source-specific timing and noise
+  preparation, automatic conditional calibration, observed known-system
+  recovery, candidate review, and cumulative evidence tracking.
+keywords:
+  - astronomy
+  - astrophysics
+  - pulsars
+  - pulsar timing
+  - exoplanets
+  - radio astronomy

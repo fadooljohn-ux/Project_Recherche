@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "run_root": "../Project Recherche Data/rehabilitation-20260907/development-runs/pilot2-ioc-dev-stop-03",
+  "observed_before_stop": {
+    "cases": 0,
+    "primary_fits": 0,
+    "random_draws": 1,
+    "scans": 1,
+    "solver_audits": 0
+  },
+  "exit_code": 130,
+  "terminal_state": "controlled_stop",
+  "terminal_artifact_hashes_verified": true
+}

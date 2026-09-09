@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "report_id": "PR-J1939-2026-01",
+  "created_utc": "2026-09-09T02:15:55.273511+00:00",
+  "page_count": 7,
+  "scientific_disposition": "INCONCLUSIVE_NOISE_SENSITIVE",
+  "source_review_commit": "1b79433",
+  "new_scientific_runs": 0,
+  "verification": {
+    "all_pages_visually_inspected": true,
+    "corrected_mathematical_glyphs_reinspected": true,
+    "text_and_page_number_checks": "PASS",
+    "original_review_and_workbook_unchanged": true
+  },
+  "files": [
+    {
+      "path": "output/pdf/J1939+2134_Candidate_Report.pdf",
+      "sha256": "4c86d6c493e2eb9e10642af09ceb56f1b928f33914c3bad353565c39c54ec0da",
+      "bytes": 260459
+    },
+    {
+      "path": "output/pdf/J1939+2134_Candidate_Report.md",
+      "sha256": "f1fd84c4f21887c720ebd54c0c69fca0616b244d8c1036e600c447f316128647",
+      "bytes": 19263
+    },
+    {
+      "path": "output/pdf/j1939-assets/diagnostics.png",
+      "sha256": "d81e386976141a8bdc07d24cfd3aef78cdd8b8ae0218fe9482e1a94cc870d635",
+      "bytes": 139022
+    },
+    {
+      "path": "tools/build_j1939_report.py",
+      "sha256": "f82a63addca1cd9d214a3469cb947f7cf65cb7bee8869989a183becf161ca3d8",
+      "bytes": 5731
+    },
+    {
+      "path": "results/research/j1939-deep-review-20260909/closeout.json",
+      "sha256": "073cf686b85103ee77feddd72f307d388a805d7ffaab8655075cf4d6e259433b",
+      "bytes": 1199
+    },
+    {
+      "path": "docs/J1939_DEEP_REVIEW_REPORT_2026-09-09.md",
+      "sha256": "943b92bc32f50ddb6591731c4f647737d97ea21f00f77ffb89e380e26019acd3",
+      "bytes": 8274
+    },
+    {
+      "path": "outputs/recherche-master-20260908/Project-Recherche-Master.xlsx",
+      "sha256": "5f5049fca61abbd69c1694a4e0d82c7723c17a368453ec43d123a55cf883ec38",
+      "bytes": 230483
+    },
+    {
+      "path": "output/pdf/J1453+1902_Candidate_Report.pdf",
+      "sha256": "da574256177d30def9a71a119d7459fd24285e14c9a3f57a1b19d0ea31258772",
+      "bytes": 433827
+    }
+  ]
+}

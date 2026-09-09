@@ -1,0 +1,10 @@
+{
+  "code_sha256": "b617b4911e660f88c02f24788a42a759978b29da879dec645c71e1c0a58c1de5",
+  "completed_utc": "2026-09-09T06:52:57.968920+00:00",
+  "independent_template_power_agreement": true,
+  "joint_parameter_bounds_reached": false,
+  "local_profile_support_edges_reached": false,
+  "original_TPA_power_reproduced": 0.290458039215487,
+  "original_inputs_hashes_verified": true,
+  "released_covariance_reconstructed": true
+}

@@ -1,0 +1,7 @@
+{
+  "attempt": "attempt01",
+  "error": "Compatibility mismatch: weighted_rms_us published summary mismatch, reduced_chi_square published summary mismatch",
+  "master_before_sha256": "ba8cb82dc1aec433772b953fc2407fa769be38bfec13111d16785e5e8dc1c869",
+  "observed_search_executed": false,
+  "target": "J1744-1134"
+}

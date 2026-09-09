@@ -1,0 +1,49 @@
+{
+  "adapter_sha256": "60da0e5a4365a1b3078dd4715afcb248d83db90878f09f0aa829f29d6257fdb0",
+  "clock_policy": "Original Tempo2 binary-search interpolation replayed at bound TOAs and TZRMJD; unsorted source preserved",
+  "clock_replay_sha256": "280de8942212a491b5f080ae6d373a0455fb1dc92e3f76cd219bd892d40ef054",
+  "network_attempts": 0,
+  "noise_adequacy_flag": false,
+  "noise_limit": "Single band cannot separate dispersion/scattering from achromatic signals; fixed hyperparameters; no DM time-series inference",
+  "noise_model": "Released fixed total timing noise; EFAC outside EQUAD, optional Fourier red process",
+  "noise_parameters": {
+    "TNGLOBALEF": "1.09272",
+    "TNGLOBALEQ": "-5.07588"
+  },
+  "normalized_tim_sha256": "e6753d7c80e280a24368718f39b1d0b5afc8977beb1d2636c3fe6c7de249dcfd",
+  "null_reduced_chi2": 1.0130238718699487,
+  "observed_search_executed": false,
+  "observed_sha256": "269c191fe48aa3d7aec2fd492ab2641d3c4b5cad80bc289090fc4a7246dd12df",
+  "observing_days": 71,
+  "phase_arc_cycles": 0.0038573128085969133,
+  "phase_connection": "COMPACT_PHASE_CLUSTER",
+  "policy": {
+    "detection_probability": 0.95,
+    "false_alarm_probability": 0.01,
+    "maximum_condition_number": 10000000000.0,
+    "maximum_period_days": 400.0,
+    "minimum_period_days": 30.0,
+    "minimum_retained_power": 0.2,
+    "null_count": 4096,
+    "oversampling": 5,
+    "search_count": 25,
+    "seed": 1101995983
+  },
+  "pulse_number_integer_spread": null,
+  "runtime_units": "TDB",
+  "selection_sha256": "db26997e04ea8c87bdb8b5671e80130d77d8e20ea25ef3763846fb422042264b",
+  "shared_adapter_sha256": "fb54f8f9f06eaf5937009ca24860e5af5a4bd9d4e10ebfbf3c7b86eb44111b7a",
+  "source_units": "TDB",
+  "span_days": 1206.6252682034974,
+  "status": "PREPARED_CONDITIONAL",
+  "target": "J2046+1540",
+  "timing_names": [
+    "Offset",
+    "RAJ",
+    "DECJ",
+    "F0",
+    "F1"
+  ],
+  "timing_rank": 5,
+  "toas": 72
+}

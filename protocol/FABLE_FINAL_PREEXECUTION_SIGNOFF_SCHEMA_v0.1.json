@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "record_type": "fable-final-preexecution-signoff-v0.1",
+  "required_fields": [
+    "reviewer",
+    "review_date",
+    "verdict",
+    "no_conditions_remaining",
+    "observed_periodic_content_inspected",
+    "package_manifest_sha256",
+    "one_shot_freeze_sha256",
+    "implementation_sha256",
+    "candidate_schema_sha256"
+  ],
+  "passing_values": {
+    "reviewer": "Claude Fable 5",
+    "verdict": "PASS",
+    "no_conditions_remaining": true,
+    "observed_periodic_content_inspected": false
+  },
+  "note": "The actual signoff file is absent during preparation and must be created only by the independent reviewer after verifying the final packet."
+}

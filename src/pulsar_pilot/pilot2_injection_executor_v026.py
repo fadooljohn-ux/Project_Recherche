@@ -1,0 +1,31 @@
+from __future__ import annotations
+
+from typing import Any
+
+from .pilot2_injection_executor import InjectionContext
+from .pilot2_injection_executor_v023 import execute_injection_case as execute_v023_case
+
+RECORD_SCHEMA_VERSION = 3
+RECORD_RUN_ID = "pilot2-b1937-injection-remediation-v0.2.6"
+
+
+def execute_injection_case(
+    context: InjectionContext,
+    case: dict[str, Any],
+    threshold: float,
+    audit_required: bool,
+    config: dict[str, Any],
+    execution_binding: str,
+) -> dict[str, Any]:
+    """Run the unchanged v0.2.3 science executor with a v0.2.6 record identity."""
+    record = execute_v023_case(
+        context,
+        case,
+        threshold,
+        audit_required,
+        config,
+        execution_binding,
+    )
+    record["schema_version"] = RECORD_SCHEMA_VERSION
+    record["run_id"] = RECORD_RUN_ID
+    return record

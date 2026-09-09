@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot2-b1937-injection-runner-implementation-freeze-v0.2.3",
+  "recorded_utc": "2026-08-10T09:34:09Z",
+  "status": "implementation_frozen_execution_not_authorized",
+  "execution_authorized": false,
+  "science_cases_executed_during_validation": 0,
+  "random_draws_generated_during_validation": 0,
+  "model_fits_executed_during_validation": 0,
+  "periodic_scans_executed_during_validation": 0,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "promotion_grade_authorized": false,
+  "discovery_claim_authorized": false,
+  "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+  "implementation_sha256": "23d093c816c1fd6e029ffa7ac83ef4175b8c60028013ac6bf51f004bcfa58a34",
+  "corrective_controls": {
+    "pint_correlation_object_accessor": "fitter.parameter_correlation_matrix",
+    "legacy_text_getter_used": false,
+    "unexpected_exception_terminal_hard_stop": true,
+    "user_interrupt_resumable": true,
+    "v0.2.2_resume_authorized": false,
+    "v0.2.2_seed_reuse_authorized": false
+  },
+  "frozen_sha256": {
+    "config/pilot2_injection_remediation_v0.2.3.yaml": "69d0be844a83da37bab4e9f0f9124e95024088f7d60d878e33dd3af30cec0a9a",
+    "config/pilot2_injection_runner_v0.2.3.yaml": "c04e3abe530981e7db4c9ef68738fcee3259e0cf8e6dca6729b536bf2b1347ee",
+    "protocol/PILOT2_INJECTION_REMEDIATION_FREEZE_v0.2.3.json": "bf243b80307c0ddc773c85f244ef59854ce06de800bd0a74ffe2d2c1f1a8cd23",
+    "protocol/PILOT2_INJECTION_RUNNER_PROTOCOL_v0.2.3.md": "2ddac73d7ee9ff59d25c93646dd54b913893f8a99fd148aa563aed38d3e16f15",
+    "results/pilot2/injection_v022_crash_audit.json": "6d58ef1be4a03969be41ee3e0d916adaa252ee5bfa42d7c23244f203f878b473",
+    "docs/PILOT2_INJECTION_V022_CRASH_AUDIT.md": "c5cdb4927a99e8b97cc34d4587eac4762e0e97310a20ca9792f35e63cbc694cb",
+    "src/pulsar_pilot/pilot2_injection_remediation_v023.py": "f5755c7af0545eb06d339384d579d7f78202aa84e2f3e2d313f01ad7b9d2ab40",
+    "src/pulsar_pilot/pilot2_injection_executor_v023.py": "8f8f0499071b0e9f2ffc040e9b4adbcf9ede6b90e9168d8757560b30faceed50",
+    "src/pulsar_pilot/pilot2_injection_runner_v023.py": "deaeff1ca5277300832865106549dc6f0c00de2f0d86672cf42abd76a2f7f07c",
+    "tests/test_pilot2_injection_runner_v023.py": "1b9e5c48a9d2e16321c57e13976278f06f575a9fecb1c11f48577e4b6effc98f",
+    "pixi.lock": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8"
+  },
+  "next_gate": "zero_science_integrity_validation_and_execution_readiness_freeze"
+}

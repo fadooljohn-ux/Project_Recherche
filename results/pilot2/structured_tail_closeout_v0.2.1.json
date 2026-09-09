@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "closeout_id": "pilot2-b1937-structured-tail-closeout-v0.2.1",
+  "recorded_utc": "2026-08-10T04:18:43Z",
+  "status": "pass",
+  "scope": "exactly_3000_frozen_structured_tail_cases",
+  "inventory_sha256": "5dc1601881e58b64d5afd8f4a4236e441447155bfb9e6b9d03d58958b3331106",
+  "structured_implementation_sha256": "27373b3642ac16817c1cc69bf66c4f5cc16aebb96d4bab469e48279f06763ceb",
+  "execution_authorization_sha256": "55677f859ced294ed4371f46a0db09b440517b8dfb8af13aa048ca41fafd8b9d",
+  "execution": {
+    "structured_tail_cases": 3000,
+    "science_cases_executed_this_invocation": 3000,
+    "completed_total_cases_in_v0.2.1_ledger": 10000,
+    "cumulative_checkpoint_count": 400,
+    "structured_checkpoint_count": 120,
+    "measured_first_to_last_checkpoint_seconds": 191.798339,
+    "ledger_verification": "pass",
+    "hard_stop": null,
+    "threshold_retuned": false
+  },
+  "variants": {
+    "timing_native_innovation_scale_mixture": {
+      "cases": 1000,
+      "false_positives": 9,
+      "raw_false_positive_rate": 0.009,
+      "wilson_lower_95": 0.004742060667477063,
+      "rebaseline_tripwire": false,
+      "status": "pass"
+    },
+    "dm_native_innovation_scale_mixture": {
+      "cases": 1000,
+      "false_positives": 4,
+      "raw_false_positive_rate": 0.004,
+      "wilson_lower_95": 0.0015565881404084308,
+      "rebaseline_tripwire": false,
+      "status": "pass"
+    },
+    "clustered_utc_day_scale_mixture": {
+      "cases": 1000,
+      "false_positives": 7,
+      "raw_false_positive_rate": 0.007,
+      "wilson_lower_95": 0.0033948684009907646,
+      "rebaseline_tripwire": false,
+      "status": "pass"
+    }
+  },
+  "tripwire_definition": {
+    "metric": "wilson_lower_95_false_positive_rate",
+    "comparison": "strictly_greater_than",
+    "limit": 0.01,
+    "interpretation": "crossing_requires_rebaseline_and_hard_stop"
+  },
+  "artifact_bindings": {
+    "threshold_lock_sha256": "6e624af784aabd92ce8b28babdaed4c863ca12c94caad756da005f14bf9b5117",
+    "sealed_evaluation_result_sha256": "f3a8677ea28255c7c06afd815fad1d911fcadde9a1fb0a4b2bf464f78aa59034",
+    "structured_tail_result_sha256": "540f5d12496a02687253b3d0a64e63208c8df53d8cdae3f3935cc8da4fc0f252",
+    "final_ledger_sha256": "ce52dce794a0f0721e194851c1c381d5201099c91e7fa9d50184979d938f776a"
+  },
+  "scorecard": {
+    "overall": "PASS",
+    "passed": 13,
+    "total": 13,
+    "criteria": {
+      "execution_freeze_verified_before_first_case": "PASS",
+      "exact_total_case_count": "PASS",
+      "timing_variant_exact_case_count": "PASS",
+      "timing_variant_rebaseline_tripwire": "PASS",
+      "dm_variant_exact_case_count": "PASS",
+      "dm_variant_rebaseline_tripwire": "PASS",
+      "clustered_day_variant_exact_case_count": "PASS",
+      "clustered_day_variant_rebaseline_tripwire": "PASS",
+      "threshold_lock_unchanged": "PASS",
+      "artifact_ledger_and_checkpoints": "PASS",
+      "heartbeat_supervision": "PASS",
+      "no_hard_stop": "PASS",
+      "observed_search_boundary": "PASS"
+    }
+  },
+  "boundary_attestations": {
+    "observed_residual_vector_used": false,
+    "observed_periodic_scan_executed": false,
+    "prior_gaussian_case_artifacts_modified": false,
+    "threshold_retuned": false,
+    "reroll_performed": false
+  },
+  "authority": {
+    "injection_evaluation_authorized": false,
+    "promotion_grade_authorized": false,
+    "observed_residual_access_authorized": false,
+    "observed_periodic_search_authorized": false,
+    "discovery_claim_authorized": false
+  },
+  "disposition": "structured_tail_complete_injection_implementation_and_authorization_pending"
+}

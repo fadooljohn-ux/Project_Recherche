@@ -1,0 +1,13 @@
+{
+  "entries": [
+    [
+      "attempt-J2124-3358-attempt01",
+      "IPTA preparation attempt",
+      "J2124-3358",
+      "PREPARATION_FAILED",
+      "Compatibility mismatch: weighted_rms_us published summary mismatch, reduced_chi_square published summary mismatch",
+      "Attempt retained; diagnose adapter or input mismatch. Not an observed nondetection."
+    ]
+  ],
+  "evidence": "./results/observed/ipta-batch02-20260909/attempt-J2124-3358-attempt01/failure.json"
+}

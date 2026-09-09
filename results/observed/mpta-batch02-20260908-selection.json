@@ -1,0 +1,3404 @@
+{
+  "created_utc": "2026-09-08T10:56:46.714695+00:00",
+  "eligible_targets": 4,
+  "observed_periodograms_inspected": false,
+  "original_hashes": {
+    "mk2utc_observatory.clk": "932e6711c105f8502b5eeb740c9b1b8b8129ad766527c0b957de04cbe0c1766e",
+    "mpta-partim.tar.gz": "172eb9472f4788f22bfe3b24faad2dc0169fca680b80340e4c829201fdafc393",
+    "tai2tt_bipm2020.clk": "5b77068b5fd5407c7349227e27a73400357ba60902659045866ea6cd5023be49"
+  },
+  "policy": {
+    "detection_probability": 0.95,
+    "false_alarm_probability": 0.01,
+    "maximum_condition_number": 10000000000.0,
+    "maximum_period_days": 400.0,
+    "minimum_period_days": 30.0,
+    "minimum_retained_power": 0.2,
+    "null_count": 4096,
+    "oversampling": 5,
+    "search_count": 4,
+    "seed": 2026090900
+  },
+  "previous_selection": "../Project Recherche Data/mpta-batch01-20260908/selection.json",
+  "previous_selection_sha256": "c7019cba9baaf2fa7bc792a2c66ba62417be412436fa4e73f9c6af6e3e866ed6",
+  "previously_selected": [
+    "J0636-3044",
+    "J0711-6830",
+    "J0931-1902",
+    "J1629-6902",
+    "J1658-5324",
+    "J1730-2304",
+    "J1843-1113",
+    "J1843-1448",
+    "J2010-1323",
+    "J2124-3358"
+  ],
+  "prior_membership_scope": "Named samples only; aliases explicit; absence is not exhaustive novelty",
+  "rows": [
+    {
+      "batch_index": 3,
+      "epochs": 93,
+      "exclusion_reasons": [],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -16.49,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.03,
+        "log10_ecorr": -6.59,
+        "log10_equad": -6.45,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.64,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "ae2eea10af3d796375a33e9351a3573a4324d3df4aba27d5201bdb868cf13fe5",
+      "precision_proxy_us": 0.2370396846832724,
+      "prior_search_membership": {
+        "EPTA_DR2": true,
+        "JBO800": true,
+        "NANOGrav11": true
+      },
+      "rank_key": [
+        3,
+        0,
+        0.2370396846832724,
+        "J0030+0451"
+      ],
+      "selected": true,
+      "span_days": 1362.228324443051,
+      "target": "J0030+0451",
+      "tim_sha256": "3b6321c26e526dee38d29f7058e57e74de09120eedd869af9a94100402f2089b",
+      "toas": 2880
+    },
+    {
+      "epochs": 55,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -16.68,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 0.99,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "cea1dc021af72f77e682d469de48b499c475007a5438b16f6cd8a91689bded58",
+      "precision_proxy_us": 0.2564307259984252,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.2564307259984252,
+        "J0101-6422"
+      ],
+      "selected": false,
+      "span_days": 1394.1472691040326,
+      "target": "J0101-6422",
+      "tim_sha256": "4cee36d60077dd53a505a96eb65cdc0fe374d887ea38c87abd1099c2462df266",
+      "toas": 1430
+    },
+    {
+      "epochs": 101,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.96,
+        "dm_amplitude": -13.42,
+        "dm_gamma": 2.72,
+        "efac": 1.04,
+        "log10_ecorr": -6.77,
+        "log10_equad": -6.99,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "ba9ad0329e1539b851f4ea704764c77006f357feaede33d492256276ef027602",
+      "precision_proxy_us": 0.04956114408610345,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.04956114408610345,
+        "J0125-2327"
+      ],
+      "selected": false,
+      "span_days": 1552.9527974894227,
+      "target": "J0125-2327",
+      "tim_sha256": "d8e1658c90e5da975abe756c9f20010903b9ed05bc416d3dcf7baa5ce669391f",
+      "toas": 3170
+    },
+    {
+      "epochs": 110,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_scattering_process"
+      ],
+      "noise": {
+        "chrom_amplitude": -15.55,
+        "chrom_gamma": 0.41,
+        "chrom_index": 7.95,
+        "common_amplitude": -15.86,
+        "dm_amplitude": -13.51,
+        "dm_gamma": 1.11,
+        "efac": 1.2,
+        "log10_ecorr": -6.68,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "a6bef588b42a79b7e870180cdd81e94c8ce39a897545dab0f08365cf351d51ca",
+      "precision_proxy_us": 0.020075932516275027,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.020075932516275027,
+        "J0437-4715"
+      ],
+      "selected": false,
+      "span_days": 1490.982884572164,
+      "target": "J0437-4715",
+      "tim_sha256": "998f5a1e8c59246dba540d734ffd1d3608f74e5f6b52cb721aaaee8e56cb2b2d",
+      "toas": 3517
+    },
+    {
+      "epochs": 96,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_deterministic_chromatic_structure"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -16.81,
+        "dm_amplitude": -13.01,
+        "dm_gamma": 1.91,
+        "efac": 1.05,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "bea8a395632a595e52d61b39d139ae877f43ea0e90d420bba8beb2f40a559350",
+      "precision_proxy_us": 0.21642004291133873,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.21642004291133873,
+        "J0610-2100"
+      ],
+      "selected": false,
+      "span_days": 1403.298260483447,
+      "target": "J0610-2100",
+      "tim_sha256": "1001ab46e1de32a8bd7e4b09af634b22e0850e33a523b3ac9db34641ec2e7fbf",
+      "toas": 2758
+    },
+    {
+      "epochs": 96,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_deterministic_chromatic_structure",
+        "published_scattering_process"
+      ],
+      "noise": {
+        "chrom_amplitude": -14.32,
+        "chrom_gamma": 1.76,
+        "chrom_index": 6.11,
+        "common_amplitude": -15.45,
+        "dm_amplitude": -14.02,
+        "dm_gamma": 3.73,
+        "efac": 1.02,
+        "log10_ecorr": null,
+        "log10_equad": -6.63,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.39,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "5c0c720470a6da1fc60ed056a9590e3e905e00b63357e2704f29180379622b05",
+      "precision_proxy_us": 0.06655654677031396,
+      "prior_search_membership": {
+        "EPTA_DR2": true,
+        "JBO800": true,
+        "NANOGrav11": true
+      },
+      "rank_key": [
+        3,
+        0,
+        0.06655654677031396,
+        "J0613-0200"
+      ],
+      "selected": false,
+      "span_days": 1561.001763278713,
+      "target": "J0613-0200",
+      "tim_sha256": "2963ae6a461c0709f526157bb631d418afa02fea3b6a05175a99e07525785c0d",
+      "toas": 3067
+    },
+    {
+      "epochs": 131,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_deterministic_chromatic_structure"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -16.36,
+        "dm_amplitude": -13.46,
+        "dm_gamma": 2.35,
+        "efac": 0.95,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 17.9,
+        "sw_amplitude": -5.61,
+        "sw_gamma": 1.88
+      },
+      "par_sha256": "bc65badd3cfef37042e237cfd9d78d422ff79e7cdf7466e8399c2e95931026d5",
+      "precision_proxy_us": 0.12391844297488586,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        1,
+        0,
+        0.12391844297488586,
+        "J0614-3329"
+      ],
+      "selected": false,
+      "span_days": 1560.9969217253383,
+      "target": "J0614-3329",
+      "tim_sha256": "eb4b6a30a281b9c1b67a8e7492d9a2ff41d738387c14ff82f69eb82c4a5f28fe",
+      "toas": 3499
+    },
+    {
+      "epochs": 80,
+      "exclusion_reasons": [],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -16.77,
+        "dm_amplitude": -13.72,
+        "dm_gamma": 1.66,
+        "efac": 1.04,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "b1c0c912a08ea20c849d5e70f34790a05d0fc520c194c422e3fa1494a428f548",
+      "precision_proxy_us": 0.3346296381615081,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.3346296381615081,
+        "J0636-3044"
+      ],
+      "selected": false,
+      "span_days": 1539.0359355463443,
+      "target": "J0636-3044",
+      "tim_sha256": "d8e1af5d4ce9ab11bf1e56f48143fca985f7c4ad46633c8563a61fda50337415",
+      "toas": 2217
+    },
+    {
+      "epochs": 100,
+      "exclusion_reasons": [],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.37,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.03,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 10.69,
+        "sw_amplitude": -5.77,
+        "sw_gamma": 1.28
+      },
+      "par_sha256": "badd6867fd5db3cdcb5d9fdebe999257aee36ecbe8e7ad2e4f00396f96030cf3",
+      "precision_proxy_us": 0.18247981291369592,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.18247981291369592,
+        "J0711-6830"
+      ],
+      "selected": false,
+      "span_days": 1566.5747530055887,
+      "target": "J0711-6830",
+      "tim_sha256": "ed3b052d9e3c6ec088eab4576a54c11b811f18623753fdac42b2518333110367",
+      "toas": 2830
+    },
+    {
+      "epochs": 102,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_scattering_process"
+      ],
+      "noise": {
+        "chrom_amplitude": -13.28,
+        "chrom_gamma": 1.58,
+        "chrom_index": 5.25,
+        "common_amplitude": -12.65,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.06,
+        "log10_ecorr": -6.04,
+        "log10_equad": null,
+        "red_amplitude": -12.29,
+        "red_gamma": 2.28,
+        "solar_density": 8.5,
+        "sw_amplitude": -6.16,
+        "sw_gamma": -0.2
+      },
+      "par_sha256": "75e39d7e6f9f91748fdfcb1ed0e03e16eb95b96fe55800c4710ca196172637c2",
+      "precision_proxy_us": 0.19411333881601173,
+      "prior_search_membership": {
+        "EPTA_DR2": true,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        2,
+        1,
+        0.19411333881601173,
+        "J0900-3144"
+      ],
+      "selected": false,
+      "span_days": 1566.5578647582588,
+      "target": "J0900-3144",
+      "tim_sha256": "1362e6f704e027e553e3385992fbda6adbf47fcfaf2028b88cb8b2400b603da3",
+      "toas": 3262
+    },
+    {
+      "epochs": 81,
+      "exclusion_reasons": [],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.6,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 0.94,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "0146f91ed2985fd36deb088b132c9ef40b61a6ca37d8ae4b655c7f1bf5a52157",
+      "precision_proxy_us": 0.24013194250271594,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": true
+      },
+      "rank_key": [
+        2,
+        0,
+        0.24013194250271594,
+        "J0931-1902"
+      ],
+      "selected": false,
+      "span_days": 1448.8500456103939,
+      "target": "J0931-1902",
+      "tim_sha256": "a3e58dc63603f3f38730276468baae67e0bcd4e561d8f8d0b0e4c6d42db7e20d",
+      "toas": 1903
+    },
+    {
+      "epochs": 244,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_deterministic_chromatic_structure"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.41,
+        "dm_amplitude": -12.74,
+        "dm_gamma": 2.19,
+        "efac": 1.02,
+        "log10_ecorr": null,
+        "log10_equad": -6.22,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "2b682d5364474f8c4e280d2699e3e22c35198590554d8d0377427d3106a037e4",
+      "precision_proxy_us": 0.22192376086800078,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.22192376086800078,
+        "J0955-6150"
+      ],
+      "selected": false,
+      "span_days": 1587.6985808291865,
+      "target": "J0955-6150",
+      "tim_sha256": "5084e6256ae273bf1afc14f4f58ae57b4e30fe7cda926688b06f45d1618a0550",
+      "toas": 6167
+    },
+    {
+      "epochs": 104,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.6,
+        "dm_amplitude": -13.1,
+        "dm_gamma": 3.41,
+        "efac": 0.95,
+        "log10_ecorr": null,
+        "log10_equad": -6.22,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 5.51,
+        "sw_amplitude": -5.55,
+        "sw_gamma": 1.87
+      },
+      "par_sha256": "75f31c9ba9f1286e382072eb29f2219eabcff226d918e82c2e15f969ecc5cba0",
+      "precision_proxy_us": 0.22995600478386755,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.22995600478386755,
+        "J1012-4235"
+      ],
+      "selected": false,
+      "span_days": 1560.7913085792825,
+      "target": "J1012-4235",
+      "tim_sha256": "ae1f3ed5c0ccc97754c68722b48f93b69fedec59a569604f22d7a3d74c7070c5",
+      "toas": 2898
+    },
+    {
+      "epochs": 104,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_deterministic_chromatic_structure",
+        "published_scattering_process"
+      ],
+      "noise": {
+        "chrom_amplitude": -13.42,
+        "chrom_gamma": 1.57,
+        "chrom_index": 3.85,
+        "common_amplitude": -15.77,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.1,
+        "log10_ecorr": -6.68,
+        "log10_equad": -6.86,
+        "red_amplitude": -13.28,
+        "red_gamma": 1.31,
+        "solar_density": 8.7,
+        "sw_amplitude": -5.27,
+        "sw_gamma": 2.2
+      },
+      "par_sha256": "149fea63020ebe3a52f768f856247b1f6bb9e11526fca751f701331233b46a98",
+      "precision_proxy_us": 0.03684685512897488,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        1,
+        0.03684685512897488,
+        "J1017-7156"
+      ],
+      "selected": false,
+      "span_days": 1599.308726922507,
+      "target": "J1017-7156",
+      "tim_sha256": "1fc7fff896d913acb67d057d7837a320528882c9e4910285df5061f8e46c54f3",
+      "toas": 3321
+    },
+    {
+      "epochs": 95,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_deterministic_chromatic_structure"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.37,
+        "dm_amplitude": -13.06,
+        "dm_gamma": 0.93,
+        "efac": 1.0,
+        "log10_ecorr": -5.86,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 10.63,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "52bec48392bd26c8551bc076fdc846606814523e2d4b5d47d1cb8b37119210b0",
+      "precision_proxy_us": 0.17063298512126826,
+      "prior_search_membership": {
+        "EPTA_DR2": true,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        2,
+        0,
+        0.17063298512126826,
+        "J1022+1001"
+      ],
+      "selected": false,
+      "span_days": 1532.707811593842,
+      "target": "J1022+1001",
+      "tim_sha256": "d9e31af58a52a471a19e7918dc1186e2669c388db3eeba9cc2b18b5e9dd53eae",
+      "toas": 2945
+    },
+    {
+      "epochs": 98,
+      "exclusion_reasons": [
+        "known_wide_stellar_companion",
+        "published_deterministic_chromatic_structure"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.14,
+        "dm_amplitude": -14.19,
+        "dm_gamma": 3.61,
+        "efac": 1.03,
+        "log10_ecorr": -6.86,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "2fadb0144c3c8d3caeb6d33ff42977448ab67f92e81dd4e267e190c81d5a1fe6",
+      "precision_proxy_us": 0.20669664403609625,
+      "prior_search_membership": {
+        "EPTA_DR2": true,
+        "JBO800": true,
+        "NANOGrav11": true
+      },
+      "rank_key": [
+        3,
+        0,
+        0.20669664403609625,
+        "J1024-0719"
+      ],
+      "selected": false,
+      "span_days": 1560.7863665937039,
+      "target": "J1024-0719",
+      "tim_sha256": "cd0a12a855447816d8ee2c4c5a94a1886175d98fba41113e319887a4acf69dc8",
+      "toas": 2783
+    },
+    {
+      "epochs": 94,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -13.56,
+        "dm_amplitude": -13.57,
+        "dm_gamma": 1.72,
+        "efac": 1.0,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 16.9,
+        "sw_amplitude": -5.75,
+        "sw_gamma": 2.19
+      },
+      "par_sha256": "3991fce929cd9cf06ae8d427cdd30757778218dac221cf4dca6dcfefa04d395c",
+      "precision_proxy_us": 0.1562481354339362,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.1562481354339362,
+        "J1036-8317"
+      ],
+      "selected": false,
+      "span_days": 1491.0053885436573,
+      "target": "J1036-8317",
+      "tim_sha256": "3d2c1c6c73bab8d8d5f601cd64f2ac32e98c84c677921b0da30f5c300a17b4f8",
+      "toas": 2046
+    },
+    {
+      "epochs": 101,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_deterministic_chromatic_structure"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -13.69,
+        "dm_amplitude": -12.33,
+        "dm_gamma": 2.24,
+        "efac": 1.01,
+        "log10_ecorr": null,
+        "log10_equad": -6.18,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "3e6e8e6e22fa7ed77e4866e9ec449cc64ba0c860ee5222f441e09e359498ce08",
+      "precision_proxy_us": 0.21759226642801816,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.21759226642801816,
+        "J1045-4509"
+      ],
+      "selected": false,
+      "span_days": 1580.5547358053664,
+      "target": "J1045-4509",
+      "tim_sha256": "af76466151d8c1f789d565d33bc53464da47447bbeb0f79eb74a266f378358d6",
+      "toas": 3231
+    },
+    {
+      "epochs": 116,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -13.69,
+        "dm_amplitude": -12.7,
+        "dm_gamma": 1.96,
+        "efac": 0.94,
+        "log10_ecorr": null,
+        "log10_equad": -5.73,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "c79aa149a3ac45966d4462dc87beae7a3b85ed24c3a3184cad8463d0cfbc3e84",
+      "precision_proxy_us": 0.26369624623212967,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.26369624623212967,
+        "J1101-6424"
+      ],
+      "selected": false,
+      "span_days": 1580.5410612640117,
+      "target": "J1101-6424",
+      "tim_sha256": "bab55c60d0fc832bd762e821db7115cf4175ce523e3f8ee630a28a9e6743a2c5",
+      "toas": 3693
+    },
+    {
+      "epochs": 102,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -15.68,
+        "dm_amplitude": -12.74,
+        "dm_gamma": 2.84,
+        "efac": 0.93,
+        "log10_ecorr": null,
+        "log10_equad": -6.18,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 3.51,
+        "sw_amplitude": -5.27,
+        "sw_gamma": 1.56
+      },
+      "par_sha256": "808e1c9d64fd1f1d34bea626b429067b2d0ea1f27aa4a7db06a81c32e58e8077",
+      "precision_proxy_us": 0.1486224538617448,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.1486224538617448,
+        "J1125-5825"
+      ],
+      "selected": false,
+      "span_days": 1599.354496872882,
+      "target": "J1125-5825",
+      "tim_sha256": "0c3dba0556b6a616b49356d254a9e9dd2354f7dd518e675db694f2cc3e66e169",
+      "toas": 3233
+    },
+    {
+      "epochs": 83,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_deterministic_chromatic_structure"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -15.32,
+        "dm_amplitude": -13.19,
+        "dm_gamma": 4.41,
+        "efac": 0.97,
+        "log10_ecorr": -6.77,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 17.5,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "7749b674042d97c0e638c4cfd98a6ea1735cba7d56f0ed652b59a1c3de13bb44",
+      "precision_proxy_us": 0.04379757131802761,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.04379757131802761,
+        "J1125-6014"
+      ],
+      "selected": false,
+      "span_days": 1566.6463487862711,
+      "target": "J1125-6014",
+      "tim_sha256": "52607a156d4656046fc2719a0af3ca251809fb569e74215d04442cd6ef92f431",
+      "toas": 2636
+    },
+    {
+      "epochs": 102,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.05,
+        "dm_amplitude": -13.15,
+        "dm_gamma": 2.46,
+        "efac": 0.99,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "0a3e88fe3279d7292d5fe985e52e7a21869caa2a63eca7fece75dd7f3d4357c2",
+      "precision_proxy_us": 0.06786735568794089,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.06786735568794089,
+        "J1216-6410"
+      ],
+      "selected": false,
+      "span_days": 1599.3454668531704,
+      "target": "J1216-6410",
+      "tim_sha256": "38d86dfcb216ada55899794382d4caf576092a913e81a73886683e6f1ce9d115",
+      "toas": 3256
+    },
+    {
+      "epochs": 71,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_deterministic_chromatic_structure"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -16.54,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.04,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 7.13,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "75b84b6fbd9d655a2439643305176a542f750727c37c09116c5a8fa958762963",
+      "precision_proxy_us": 0.2909079746246993,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        1,
+        0,
+        0.2909079746246993,
+        "J1231-1411"
+      ],
+      "selected": false,
+      "span_days": 1566.6227796755484,
+      "target": "J1231-1411",
+      "tim_sha256": "78c073c2de37eb8849d886c4edf33e97910fa11371fa29ab33f2248c55a16c82",
+      "toas": 2129
+    },
+    {
+      "epochs": 74,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -13.87,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 0.99,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 8.5,
+        "sw_amplitude": -7.19,
+        "sw_gamma": -0.76
+      },
+      "par_sha256": "1b79d7c1c8f5e271217defb72a501a303ec5d9304d380dfda57002694bca83f7",
+      "precision_proxy_us": 0.412140276317495,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.412140276317495,
+        "J1327-0755"
+      ],
+      "selected": false,
+      "span_days": 1284.3806117068234,
+      "target": "J1327-0755",
+      "tim_sha256": "b45c31ef5f1636d738f08f2954c9d2778c6fe9fe64064d8ca1b8623d7d31f77d",
+      "toas": 788
+    },
+    {
+      "epochs": 97,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_deterministic_chromatic_structure"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -17.81,
+        "dm_amplitude": -13.46,
+        "dm_gamma": 2.42,
+        "efac": 1.03,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "bcebf061ba30ace379cc1c3fa2a8770f14fffaaea24d56f1c22dd33b937793ad",
+      "precision_proxy_us": 0.2895825364339231,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.2895825364339231,
+        "J1421-4409"
+      ],
+      "selected": false,
+      "span_days": 1559.0440666172144,
+      "target": "J1421-4409",
+      "tim_sha256": "3eaacad7b4cc1ae55e42ba84e9e9a82e00cc011f461ccdbd9e3388fa30101dad",
+      "toas": 2994
+    },
+    {
+      "epochs": 99,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_scattering_process"
+      ],
+      "noise": {
+        "chrom_amplitude": -13.01,
+        "chrom_gamma": 2.08,
+        "chrom_index": 5.53,
+        "common_amplitude": -13.19,
+        "dm_amplitude": -12.2,
+        "dm_gamma": 2.32,
+        "efac": 1.03,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": -12.52,
+        "red_gamma": 2.63,
+        "solar_density": 16.5,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "90abd87efede51cf2d5162401e62aebe143db77395508d1933d185cd734b9799",
+      "precision_proxy_us": 0.2768761826703967,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        1,
+        0.2768761826703967,
+        "J1431-5740"
+      ],
+      "selected": false,
+      "span_days": 1606.3285849616295,
+      "target": "J1431-5740",
+      "tim_sha256": "0acb035ca67dadf45e243f7a3aac1678387206e51c9893494a19925fb8a62048",
+      "toas": 3138
+    },
+    {
+      "epochs": 127,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.73,
+        "dm_amplitude": -13.06,
+        "dm_gamma": 1.15,
+        "efac": 1.01,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 3.5,
+        "sw_amplitude": -5.44,
+        "sw_gamma": 1.16
+      },
+      "par_sha256": "6c55582f521651ed809240f1876f7ae7600c3a0b15f1031ab46002a25788640a",
+      "precision_proxy_us": 0.19912819809859145,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.19912819809859145,
+        "J1435-6100"
+      ],
+      "selected": false,
+      "span_days": 1599.4139851338186,
+      "target": "J1435-6100",
+      "tim_sha256": "48c934e1c731d91916e18ff803b37737be8d3391e0e3078e324066d5ea5d927e",
+      "toas": 3976
+    },
+    {
+      "epochs": 97,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -15.73,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.05,
+        "log10_ecorr": -6.63,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 1.07,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "5ab88cd048ff6dbebcfe3591861c68201157dafc4f2b2ffbc603628521bb7fe6",
+      "precision_proxy_us": 0.12005884391215269,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.12005884391215269,
+        "J1446-4701"
+      ],
+      "selected": false,
+      "span_days": 1606.3302431467164,
+      "target": "J1446-4701",
+      "tim_sha256": "4b949c093ece253c066331c5e30f0851c54f855e4dd94ca23107810187f0fa07",
+      "toas": 2207
+    },
+    {
+      "epochs": 97,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -13.83,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.0,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": -13.51,
+        "red_gamma": 2.39,
+        "solar_density": 9.03,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "4cd11b903cd681604cb3ede557b111496bde694d9e574d277cfce35778b2f799",
+      "precision_proxy_us": 0.30187446649487104,
+      "prior_search_membership": {
+        "EPTA_DR2": true,
+        "JBO800": true,
+        "NANOGrav11": true
+      },
+      "rank_key": [
+        3,
+        1,
+        0.30187446649487104,
+        "J1455-3330"
+      ],
+      "selected": false,
+      "span_days": 1566.616194249451,
+      "target": "J1455-3330",
+      "tim_sha256": "a4b20f7ade1f834759879bda9674e7545bf2cbeb511175a03a6d7209618df363",
+      "toas": 2448
+    },
+    {
+      "epochs": 59,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -17.63,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 0.97,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "6f1fe8d9dfd1fbf27fc619e26b508249ceca0e4d19c152e0c5291abc89fbbcfb",
+      "precision_proxy_us": 0.3270252693628105,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.3270252693628105,
+        "J1514-4946"
+      ],
+      "selected": false,
+      "span_days": 1322.529299358248,
+      "target": "J1514-4946",
+      "tim_sha256": "03dc45740e65786ffd3c4b9ada933db6f541b538d1493214befff4ab9a62b30c",
+      "toas": 713
+    },
+    {
+      "epochs": 99,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_scattering_process"
+      ],
+      "noise": {
+        "chrom_amplitude": -12.97,
+        "chrom_gamma": 1.2,
+        "chrom_index": 5.49,
+        "common_amplitude": -13.42,
+        "dm_amplitude": -12.38,
+        "dm_gamma": 2.35,
+        "efac": 0.99,
+        "log10_ecorr": -5.82,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 17.09,
+        "sw_amplitude": -4.72,
+        "sw_gamma": 1.63
+      },
+      "par_sha256": "0036901d3454cc34bf2db9e3e29c9d5164434a91d0b489780fe13fd68a1086dd",
+      "precision_proxy_us": 0.20044394014378672,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.20044394014378672,
+        "J1525-5545"
+      ],
+      "selected": false,
+      "span_days": 1324.3104314569646,
+      "target": "J1525-5545",
+      "tim_sha256": "b109f2d16d326217478dae523812bc51d3967e006357434656e272314bfbfa8f",
+      "toas": 9504
+    },
+    {
+      "epochs": 99,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -13.96,
+        "dm_amplitude": -14.25,
+        "dm_gamma": 1.99,
+        "efac": 1.05,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 1.5,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "441770ee9188bcbf923a73032943cb191edc3ee3c2e94dcaadf47deece68edd7",
+      "precision_proxy_us": 0.3378411144365258,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.3378411144365258,
+        "J1543-5149"
+      ],
+      "selected": false,
+      "span_days": 1599.3964065224573,
+      "target": "J1543-5149",
+      "tim_sha256": "70e8ff0dfcadb17f686e419eec2d72f49547ad4cabaa9f18d342484ac86885c7",
+      "toas": 2685
+    },
+    {
+      "epochs": 154,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_scattering_process"
+      ],
+      "noise": {
+        "chrom_amplitude": -13.51,
+        "chrom_gamma": 1.64,
+        "chrom_index": 4.0,
+        "common_amplitude": -14.23,
+        "dm_amplitude": -13.58,
+        "dm_gamma": 1.4,
+        "efac": 1.03,
+        "log10_ecorr": -6.72,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 6.89,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "992912cc936bd00f2e9645082940a83bb2e734dcb46314cce7778eed3ee48810",
+      "precision_proxy_us": 0.05871890360185738,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.05871890360185738,
+        "J1545-4550"
+      ],
+      "selected": false,
+      "span_days": 1580.529582068244,
+      "target": "J1545-4550",
+      "tim_sha256": "02701800e207b98c5577cda8aeb490ddff0290c0b57cd76b66ffa745d87d877b",
+      "toas": 4905
+    },
+    {
+      "epochs": 95,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -13.01,
+        "dm_amplitude": -13.11,
+        "dm_gamma": 0.87,
+        "efac": 0.99,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "87db9240cb75376dee9e18566f750f23d3ccc62fa9b947a5ecc08de19a39715c",
+      "precision_proxy_us": 0.2972549690557402,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.2972549690557402,
+        "J1547-5709"
+      ],
+      "selected": false,
+      "span_days": 1539.433537633864,
+      "target": "J1547-5709",
+      "tim_sha256": "e8532275c8e8975ef26609d63466dfb1abb915a4b16addc6db44f088f75143e5",
+      "toas": 2870
+    },
+    {
+      "epochs": 97,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_deterministic_chromatic_structure",
+        "published_scattering_process"
+      ],
+      "noise": {
+        "chrom_amplitude": -13.51,
+        "chrom_gamma": 1.57,
+        "chrom_index": 4.0,
+        "common_amplitude": -13.51,
+        "dm_amplitude": -13.1,
+        "dm_gamma": 1.81,
+        "efac": 1.01,
+        "log10_ecorr": null,
+        "log10_equad": -6.81,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 2.72,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "195a62cffa38075bd295a21bed0d29fca762bc7a2b49a7c5840e36a9f1f089a2",
+      "precision_proxy_us": 0.024144829061987234,
+      "prior_search_membership": {
+        "EPTA_DR2": true,
+        "JBO800": true,
+        "NANOGrav11": true
+      },
+      "rank_key": [
+        3,
+        0,
+        0.024144829061987234,
+        "J1600-3053"
+      ],
+      "selected": false,
+      "span_days": 1587.648314265185,
+      "target": "J1600-3053",
+      "tim_sha256": "e135329bf0a4ef54fb07233916673320cc2d0d9343bb67e0468ad9df34ee3201",
+      "toas": 6200
+    },
+    {
+      "epochs": 100,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_scattering_process"
+      ],
+      "noise": {
+        "chrom_amplitude": -13.6,
+        "chrom_gamma": 0.95,
+        "chrom_index": 4.0,
+        "common_amplitude": -14.96,
+        "dm_amplitude": -13.35,
+        "dm_gamma": 1.1,
+        "efac": 1.06,
+        "log10_ecorr": -6.09,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 9.9,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "d36c301cc5457623e2cbc3cbeaa4d0452ff3282dd073de6214cb8fe03e7af88f",
+      "precision_proxy_us": 0.12704131070224026,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.12704131070224026,
+        "J1603-7202"
+      ],
+      "selected": false,
+      "span_days": 1604.5211331537503,
+      "target": "J1603-7202",
+      "tim_sha256": "6b524da1f0247566377ee2263aed97ab31f6c710eaabae43c122cf4658deeb33",
+      "toas": 3121
+    },
+    {
+      "epochs": 99,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -17.26,
+        "dm_amplitude": -13.15,
+        "dm_gamma": 2.32,
+        "efac": 1.02,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 8.13,
+        "sw_amplitude": -6.55,
+        "sw_gamma": 0.24
+      },
+      "par_sha256": "237ef300ad15a114306456496ddc97c180d6ee3618d16afb285fa78281540c62",
+      "precision_proxy_us": 0.07718959085479103,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": true
+      },
+      "rank_key": [
+        1,
+        0,
+        0.07718959085479103,
+        "J1614-2230"
+      ],
+      "selected": false,
+      "span_days": 1564.836023225791,
+      "target": "J1614-2230",
+      "tim_sha256": "fea39c3c9c8f250ec45ead51aec0929ae63c679bc504fadf6547320e6c74c8b5",
+      "toas": 3027
+    },
+    {
+      "epochs": 102,
+      "exclusion_reasons": [],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.32,
+        "dm_amplitude": -14.87,
+        "dm_gamma": 5.83,
+        "efac": 1.04,
+        "log10_ecorr": -6.68,
+        "log10_equad": -6.54,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "e1d55ba67caa284020ec02e12cc9e372e0c1ffa5153a9bdf23ab3562986e924f",
+      "precision_proxy_us": 0.11679494292574341,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.11679494292574341,
+        "J1629-6902"
+      ],
+      "selected": false,
+      "span_days": 1604.523502389784,
+      "target": "J1629-6902",
+      "tim_sha256": "cdf1605621026a96e6e32ce3a8a0751281074974a8ed86416f1426256f9cb9a5",
+      "toas": 3106
+    },
+    {
+      "epochs": 99,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_deterministic_chromatic_structure",
+        "published_scattering_process"
+      ],
+      "noise": {
+        "chrom_amplitude": -13.87,
+        "chrom_gamma": 2.38,
+        "chrom_index": 8.83,
+        "common_amplitude": -12.88,
+        "dm_amplitude": -12.74,
+        "dm_gamma": 1.97,
+        "efac": 0.97,
+        "log10_ecorr": -6.31,
+        "log10_equad": -6.13,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 1.52,
+        "sw_amplitude": -8.31,
+        "sw_gamma": -1.96
+      },
+      "par_sha256": "954660389004689c58db2976ce04c3e8b9ff9bd7398db53bdbbcf2e9dc3d44cb",
+      "precision_proxy_us": 0.10055144384070701,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": true
+      },
+      "rank_key": [
+        2,
+        0,
+        0.10055144384070701,
+        "J1643-1224"
+      ],
+      "selected": false,
+      "span_days": 1564.8403268337643,
+      "target": "J1643-1224",
+      "tim_sha256": "f114bff0fbe53f972923c1c5d844d40fe4de7486f6ae7edb4326b36101ce5419",
+      "toas": 3162
+    },
+    {
+      "epochs": 98,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_deterministic_chromatic_structure",
+        "published_scattering_process"
+      ],
+      "noise": {
+        "chrom_amplitude": -12.7,
+        "chrom_gamma": 1.26,
+        "chrom_index": 2.98,
+        "common_amplitude": -13.1,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 0.94,
+        "log10_ecorr": -6.13,
+        "log10_equad": -5.95,
+        "red_amplitude": -12.61,
+        "red_gamma": 1.51,
+        "solar_density": 2.41,
+        "sw_amplitude": -8.92,
+        "sw_gamma": -0.68
+      },
+      "par_sha256": "a025f99cd3d8887e4eeb87e02302834a1c245215121dceb1b7fea278009faa74",
+      "precision_proxy_us": 0.18000866204083638,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        1,
+        0.18000866204083638,
+        "J1652-4838"
+      ],
+      "selected": false,
+      "span_days": 1558.9543013305956,
+      "target": "J1652-4838",
+      "tim_sha256": "3a11cec71331d319c3bcc9a8373c7f7214ebc459aa3ea8a0ac116d7b203f3d56",
+      "toas": 3124
+    },
+    {
+      "epochs": 85,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -15.55,
+        "dm_amplitude": -12.47,
+        "dm_gamma": 1.75,
+        "efac": 1.01,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 7.47,
+        "sw_amplitude": -6.27,
+        "sw_gamma": 2.36
+      },
+      "par_sha256": "88d7ea6936c0f6471a2de4756e61c894a5aad9e03280d92d0dcc817b56fcb5d0",
+      "precision_proxy_us": 0.3260054429083101,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        1,
+        0,
+        0.3260054429083101,
+        "J1653-2054"
+      ],
+      "selected": false,
+      "span_days": 1558.9643504257765,
+      "target": "J1653-2054",
+      "tim_sha256": "b202fcff9b56990f8c3f37091416d621248372c8a086d480e826c9ddf1223f5d",
+      "toas": 2686
+    },
+    {
+      "epochs": 71,
+      "exclusion_reasons": [],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.01,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 0.99,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 1.5,
+        "sw_amplitude": -6.1,
+        "sw_gamma": 2.36
+      },
+      "par_sha256": "19dd21de2efa3a1913e1112fc8c747f01ccf9cae9064ec6e06748b4f3e379055",
+      "precision_proxy_us": 0.3112482010120329,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.3112482010120329,
+        "J1658-5324"
+      ],
+      "selected": false,
+      "span_days": 1481.9829883232742,
+      "target": "J1658-5324",
+      "tim_sha256": "b67ed051c6faa27b99f96f37493543e559cbf7b22e317e137317929d398727b3",
+      "toas": 1161
+    },
+    {
+      "epochs": 78,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_scattering_process",
+        "insufficient_usable_span_or_epochs"
+      ],
+      "noise": {
+        "chrom_amplitude": -13.6,
+        "chrom_gamma": 5.3,
+        "chrom_index": 4.0,
+        "common_amplitude": -13.37,
+        "dm_amplitude": -12.74,
+        "dm_gamma": 1.22,
+        "efac": 1.03,
+        "log10_ecorr": null,
+        "log10_equad": -5.82,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "838eca52ecf2eff5882900e2149336dc6d8a1e47f8772955db571c69147c2bf4",
+      "precision_proxy_us": 0.2953726309137678,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.2953726309137678,
+        "J1708-3506"
+      ],
+      "selected": false,
+      "span_days": 1148.9037080860944,
+      "target": "J1708-3506",
+      "tim_sha256": "5ffba345b3d6ffb8f40a9defd78ce31ba1b4cb7d896afaadd2581453859a2ec2",
+      "toas": 2492
+    },
+    {
+      "epochs": 40,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_scattering_process",
+        "insufficient_usable_span_or_epochs"
+      ],
+      "noise": {
+        "chrom_amplitude": -14.69,
+        "chrom_gamma": 0.6,
+        "chrom_index": 4.0,
+        "common_amplitude": -16.59,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.07,
+        "log10_ecorr": -6.86,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "0d70f4f891350735594e1fb43615f2871b4d92e666cf065ef0fee30b159f6e77",
+      "precision_proxy_us": 0.028854335920370986,
+      "prior_search_membership": {
+        "EPTA_DR2": true,
+        "JBO800": true,
+        "NANOGrav11": true
+      },
+      "rank_key": [
+        3,
+        0,
+        0.028854335920370986,
+        "J1713+0747"
+      ],
+      "selected": false,
+      "span_days": 722.7875097075012,
+      "target": "J1713+0747",
+      "tim_sha256": "b8dcb4d8463714917cc61f9f36e213b0735c454d070fd0d9662655dacc915b45",
+      "toas": 1273
+    },
+    {
+      "epochs": 100,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -13.24,
+        "dm_amplitude": -13.28,
+        "dm_gamma": 2.35,
+        "efac": 1.03,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "6ef48e36ac11f769c4db83495303358a660463ea9a3144a66493d53154fdac87",
+      "precision_proxy_us": 0.33237007167712546,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        1,
+        0,
+        0.33237007167712546,
+        "J1719-1438"
+      ],
+      "selected": false,
+      "span_days": 1558.619144293938,
+      "target": "J1719-1438",
+      "tim_sha256": "11fac8b77b5d53275f183519539b1e66b8dc08a6689273992fd8f23337722227",
+      "toas": 2659
+    },
+    {
+      "epochs": 66,
+      "exclusion_reasons": [
+        "published_deterministic_chromatic_structure"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -12.92,
+        "dm_amplitude": -12.88,
+        "dm_gamma": 4.32,
+        "efac": 1.07,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 9.88,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "769d739b33c19a0d2f9d4276a0457be38e05b33c9205c2e1dd127cb7103cf7ca",
+      "precision_proxy_us": 0.3528141966146851,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.3528141966146851,
+        "J1721-2457"
+      ],
+      "selected": false,
+      "span_days": 1206.706458026878,
+      "target": "J1721-2457",
+      "tim_sha256": "b9404a9b5c0dde85e122cc7cd5d494d519d610623d739e67820b37d9a615947b",
+      "toas": 2112
+    },
+    {
+      "epochs": 96,
+      "exclusion_reasons": [],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -15.5,
+        "dm_amplitude": -13.19,
+        "dm_gamma": 1.29,
+        "efac": 1.02,
+        "log10_ecorr": -6.4,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 6.26,
+        "sw_amplitude": -7.92,
+        "sw_gamma": -1.61
+      },
+      "par_sha256": "3f8f3b1ed31e87450f77ba995218235a8705bf1bfaf8c22595c863e7f1862d0a",
+      "precision_proxy_us": 0.11023051850198425,
+      "prior_search_membership": {
+        "EPTA_DR2": true,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        2,
+        0,
+        0.11023051850198425,
+        "J1730-2304"
+      ],
+      "selected": false,
+      "span_days": 1558.6888540096625,
+      "target": "J1730-2304",
+      "tim_sha256": "9e2e83bdb5dcd3d7e12a9f9aff16610e9216163afa1f7ea184662f9f91b8661e",
+      "toas": 3030
+    },
+    {
+      "epochs": 147,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -15.73,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.04,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 14.5,
+        "sw_amplitude": -5.72,
+        "sw_gamma": 2.04
+      },
+      "par_sha256": "1cd223298006a8ed36ed7389930ebd019c52d53aae67c52fd93dc73805c95837",
+      "precision_proxy_us": 0.15480574380981774,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.15480574380981774,
+        "J1732-5049"
+      ],
+      "selected": false,
+      "span_days": 1628.5419533902823,
+      "target": "J1732-5049",
+      "tim_sha256": "dc595d4beba5a6efeddda696927cc1e355f25fb556e5af2ecad6ebd27a352ac3",
+      "toas": 4442
+    },
+    {
+      "epochs": 102,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_deterministic_chromatic_structure"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.05,
+        "dm_amplitude": -12.88,
+        "dm_gamma": 1.68,
+        "efac": 1.0,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 6.1,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "c63fd1c3149a8762ae48115e358cf25dff2245320eb7975ee728afa4cd3caf55",
+      "precision_proxy_us": 0.3101337981651592,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.3101337981651592,
+        "J1737-0811"
+      ],
+      "selected": false,
+      "span_days": 1558.7277620276363,
+      "target": "J1737-0811",
+      "tim_sha256": "634200b3520647cc23ec67c1fc317163769262ea55a3d03fc4426e450fafe869",
+      "toas": 3258
+    },
+    {
+      "batch_index": 2,
+      "epochs": 99,
+      "exclusion_reasons": [],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -16.18,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.03,
+        "log10_ecorr": -6.59,
+        "log10_equad": -7.04,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 3.73,
+        "sw_amplitude": -6.43,
+        "sw_gamma": 0.91
+      },
+      "par_sha256": "589cf087aee7c65133b33db321506f52cb6813784a53a69f849ccac4ec0de393",
+      "precision_proxy_us": 0.04180530206919563,
+      "prior_search_membership": {
+        "EPTA_DR2": true,
+        "JBO800": true,
+        "NANOGrav11": true
+      },
+      "rank_key": [
+        3,
+        0,
+        0.04180530206919563,
+        "J1744-1134"
+      ],
+      "selected": true,
+      "span_days": 1558.726290024635,
+      "target": "J1744-1134",
+      "tim_sha256": "212e0f1e612b2836ad0fc20cc303d4bf4fa70eddc17d6e740d030471c71d707d",
+      "toas": 2957
+    },
+    {
+      "epochs": 97,
+      "exclusion_reasons": [
+        "published_deterministic_chromatic_structure",
+        "published_scattering_process"
+      ],
+      "noise": {
+        "chrom_amplitude": -12.97,
+        "chrom_gamma": 2.61,
+        "chrom_index": 4.05,
+        "common_amplitude": -12.88,
+        "dm_amplitude": -12.83,
+        "dm_gamma": 1.41,
+        "efac": 1.04,
+        "log10_ecorr": null,
+        "log10_equad": -6.31,
+        "red_amplitude": -12.65,
+        "red_gamma": 2.48,
+        "solar_density": 18.17,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "fe0368fba0ac53ba05e15b3b1f8717848755428497667bcb943b7d1a244adbf5",
+      "precision_proxy_us": 0.17844326685482537,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": true
+      },
+      "rank_key": [
+        1,
+        1,
+        0.17844326685482537,
+        "J1747-4036"
+      ],
+      "selected": false,
+      "span_days": 1489.2031041415976,
+      "target": "J1747-4036",
+      "tim_sha256": "f12c8f1b2600c10910a10b0d5ac1dd7e26261981a353af3c8598c4e8f0efc03e",
+      "toas": 3098
+    },
+    {
+      "epochs": 95,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -13.15,
+        "dm_amplitude": -12.79,
+        "dm_gamma": 2.31,
+        "efac": 1.0,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 2.0,
+        "sw_amplitude": -8.04,
+        "sw_gamma": -2.32
+      },
+      "par_sha256": "82f7044a37ed5343c37fdc304515bf0689fd5f92478064eaf6fc7d60ca2f957c",
+      "precision_proxy_us": 0.2526371138033715,
+      "prior_search_membership": {
+        "EPTA_DR2": true,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        2,
+        0,
+        0.2526371138033715,
+        "J1751-2857"
+      ],
+      "selected": false,
+      "span_days": 1558.6931606961007,
+      "target": "J1751-2857",
+      "tim_sha256": "cd1737e19456c5730bdd0f2523211a7a508467ae3acee30e00e2745c9c352313",
+      "toas": 2967
+    },
+    {
+      "epochs": 105,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_scattering_process"
+      ],
+      "noise": {
+        "chrom_amplitude": -13.69,
+        "chrom_gamma": 1.58,
+        "chrom_index": 4.0,
+        "common_amplitude": -15.91,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.03,
+        "log10_ecorr": -6.49,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 7.69,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "959e0663eed67e0a884c8ab15d6dac6fe095a2fff92303a06e25de381897a2ff",
+      "precision_proxy_us": 0.19471523185024744,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.19471523185024744,
+        "J1757-5322"
+      ],
+      "selected": false,
+      "span_days": 1531.08156679714,
+      "target": "J1757-5322",
+      "tim_sha256": "8018db93eab0688ed60a1d5633b97ce5748324c776a029fc244e83fb187fa380",
+      "toas": 3323
+    },
+    {
+      "batch_index": 1,
+      "epochs": 96,
+      "exclusion_reasons": [],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -13.06,
+        "dm_amplitude": -13.21,
+        "dm_gamma": 2.35,
+        "efac": 1.01,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": -13.02,
+        "red_gamma": 3.26,
+        "solar_density": 3.8,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "3fff38d392f1e0a29b6526660aeb52f134d7401fd125b4e153143062f96002d6",
+      "precision_proxy_us": 0.20053120145199163,
+      "prior_search_membership": {
+        "EPTA_DR2": true,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        2,
+        1,
+        0.20053120145199163,
+        "J1801-1417"
+      ],
+      "selected": true,
+      "span_days": 1558.7383749591827,
+      "target": "J1801-1417",
+      "tim_sha256": "6c016ab8a8ee1fb1999927ad6968d3851d7f18b47ebcbc7806f37d038309341a",
+      "toas": 3069
+    },
+    {
+      "epochs": 95,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_scattering_process"
+      ],
+      "noise": {
+        "chrom_amplitude": -13.28,
+        "chrom_gamma": 1.68,
+        "chrom_index": 6.52,
+        "common_amplitude": -16.45,
+        "dm_amplitude": -12.47,
+        "dm_gamma": 2.72,
+        "efac": 1.05,
+        "log10_ecorr": -6.0,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 6.34,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "a18506b068cad62e7fb66b81d00d537e505c1e7b353bea616e2bf12f8115fecc",
+      "precision_proxy_us": 0.170287678724483,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        1,
+        0,
+        0.170287678724483,
+        "J1802-2124"
+      ],
+      "selected": false,
+      "span_days": 1604.7468809437196,
+      "target": "J1802-2124",
+      "tim_sha256": "cfabc626602dea6e516b2a2d6bbacee10f9ef4a4ccef5969a7dfbb8552ac129b",
+      "toas": 3039
+    },
+    {
+      "epochs": 59,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "insufficient_usable_span_or_epochs"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -13.51,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.01,
+        "log10_ecorr": -6.09,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.32,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "134bb0292a680016bd3b1d6eeb29118a71eeb448917921ed93bda4232faddc61",
+      "precision_proxy_us": 0.3627967063141588,
+      "prior_search_membership": {
+        "EPTA_DR2": true,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        2,
+        0,
+        0.3627967063141588,
+        "J1804-2717"
+      ],
+      "selected": false,
+      "span_days": 1145.9467066496,
+      "target": "J1804-2717",
+      "tim_sha256": "748a840edda6016d4e369f77b0a1b53cc9833ee57ef050c4df16131dc05fa177",
+      "toas": 1569
+    },
+    {
+      "epochs": 68,
+      "exclusion_reasons": [
+        "published_deterministic_chromatic_structure",
+        "published_scattering_process"
+      ],
+      "noise": {
+        "chrom_amplitude": -12.56,
+        "chrom_gamma": 1.87,
+        "chrom_index": 6.26,
+        "common_amplitude": -15.68,
+        "dm_amplitude": -11.47,
+        "dm_gamma": 4.02,
+        "efac": 1.07,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": -11.93,
+        "red_gamma": 2.13,
+        "solar_density": 5.3,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "3cb832c10f4b5d77a547461287d16595c4abeb0d6319f5336993d7ff9820aea9",
+      "precision_proxy_us": 0.36267130576273376,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        1,
+        0.36267130576273376,
+        "J1804-2858"
+      ],
+      "selected": false,
+      "span_days": 1447.0795662550881,
+      "target": "J1804-2858",
+      "tim_sha256": "5840250c79138a51054baee7b8af1a9a412903fc07630e63b23070091cf3a3c2",
+      "toas": 2167
+    },
+    {
+      "epochs": 197,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -17.81,
+        "dm_amplitude": -13.1,
+        "dm_gamma": 2.4,
+        "efac": 1.04,
+        "log10_ecorr": null,
+        "log10_equad": -6.73,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 7.56,
+        "sw_amplitude": -8.37,
+        "sw_gamma": -2.21
+      },
+      "par_sha256": "04467e3a11f9ca815cafdcc17770b28866315dfbf689e906de4e21ff9e8f4a6f",
+      "precision_proxy_us": 0.04968265476996809,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        1,
+        0,
+        0.04968265476996809,
+        "J1811-2405"
+      ],
+      "selected": false,
+      "span_days": 1578.7781380462548,
+      "target": "J1811-2405",
+      "tim_sha256": "57620bfec026f388044553de6d51e5b0e2d4035b21b454937387b5759b57fc6f",
+      "toas": 6290
+    },
+    {
+      "epochs": 96,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_scattering_process"
+      ],
+      "noise": {
+        "chrom_amplitude": -12.42,
+        "chrom_gamma": 2.04,
+        "chrom_index": 2.53,
+        "common_amplitude": -17.58,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.02,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 2.1,
+        "sw_amplitude": -8.59,
+        "sw_gamma": 1.72
+      },
+      "par_sha256": "32f999121e96397ab201fa27552c6ef52d49eddf93a8d70701a5c39d2e8033a0",
+      "precision_proxy_us": 0.236826903781974,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        1,
+        0,
+        0.236826903781974,
+        "J1825-0319"
+      ],
+      "selected": false,
+      "span_days": 1476.1105503726722,
+      "target": "J1825-0319",
+      "tim_sha256": "cbe7a3a88c5afe7db47b3546e7034b65959dcde0b27c6b5acb53279bbaa077c2",
+      "toas": 3044
+    },
+    {
+      "epochs": 76,
+      "exclusion_reasons": [
+        "published_deterministic_chromatic_structure"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.87,
+        "dm_amplitude": -12.83,
+        "dm_gamma": 2.55,
+        "efac": 0.98,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "1fc3a14bb62de6c7624aad0f9c2216743ed979be5a95eb37ce1c30574a092ea1",
+      "precision_proxy_us": 0.10754701183403717,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": true
+      },
+      "rank_key": [
+        2,
+        0,
+        0.10754701183403717,
+        "J1832-0836"
+      ],
+      "selected": false,
+      "span_days": 1564.9348395179404,
+      "target": "J1832-0836",
+      "tim_sha256": "300b7aa216c13102ceffb0006d956c8a80fb12465ec9dc143b7900d1665469d4",
+      "toas": 1949
+    },
+    {
+      "epochs": 96,
+      "exclusion_reasons": [],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -15.91,
+        "dm_amplitude": -12.97,
+        "dm_gamma": 2.6,
+        "efac": 1.01,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 1.17,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "f41805ab255f7430cbb886780e8ca9486b390874689c9ed826bb8c18a3f3b6b0",
+      "precision_proxy_us": 0.09540449841194809,
+      "prior_search_membership": {
+        "EPTA_DR2": true,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        2,
+        0,
+        0.09540449841194809,
+        "J1843-1113"
+      ],
+      "selected": false,
+      "span_days": 1558.8039692766688,
+      "target": "J1843-1113",
+      "tim_sha256": "ce7e2acc8d841d92fd2f47e285024a9704e01cfe69f0491d64e680d287b10b7c",
+      "toas": 2886
+    },
+    {
+      "epochs": 62,
+      "exclusion_reasons": [],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.55,
+        "dm_amplitude": -13.08,
+        "dm_gamma": 3.33,
+        "efac": 0.96,
+        "log10_ecorr": null,
+        "log10_equad": -5.18,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 5.5,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "693dd291d5c481cd0970ab8ed885efc354b044300beec606d61c649baf79830e",
+      "precision_proxy_us": 1.0034388810463917,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        1.0034388810463917,
+        "J1843-1448"
+      ],
+      "selected": false,
+      "span_days": 1552.9170014443152,
+      "target": "J1843-1448",
+      "tim_sha256": "1d7b4a936abcd6706db0aa9f2744d129c1f846cda7ebc649633009002bc188fd",
+      "toas": 1969
+    },
+    {
+      "epochs": 108,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_deterministic_chromatic_structure",
+        "published_scattering_process"
+      ],
+      "noise": {
+        "chrom_amplitude": -13.51,
+        "chrom_gamma": 1.23,
+        "chrom_index": 4.0,
+        "common_amplitude": -13.65,
+        "dm_amplitude": -13.33,
+        "dm_gamma": 3.72,
+        "efac": 1.06,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "43b40a77769df7c6edc9ec6dcaeb03d5929f79a6affeecfae70f1d1620e67109",
+      "precision_proxy_us": 0.08899185687884288,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.08899185687884288,
+        "J1902-5105"
+      ],
+      "selected": false,
+      "span_days": 1559.0840476405137,
+      "target": "J1902-5105",
+      "tim_sha256": "2443c3faab99c7b7ae7dad8b9eadb179c0453455f365c55f65474dd075c86caf",
+      "toas": 3438
+    },
+    {
+      "epochs": 109,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.64,
+        "dm_amplitude": -13.56,
+        "dm_gamma": 2.64,
+        "efac": 1.04,
+        "log10_ecorr": -6.95,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 7.31,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "631ac66df203fdf7487cc12d40c9046395a07f5f2aa72db52620bb536eb314cd",
+      "precision_proxy_us": 0.14571565253863555,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.14571565253863555,
+        "J1903-7051"
+      ],
+      "selected": false,
+      "span_days": 1591.7117777219974,
+      "target": "J1903-7051",
+      "tim_sha256": "b9d82a83cd4e1dbad81182748dd12d7fccfa9b21b4a6ac5e1bfa64b7b06cb848",
+      "toas": 2913
+    },
+    {
+      "epochs": 232,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.28,
+        "dm_amplitude": -13.6,
+        "dm_gamma": 2.04,
+        "efac": 1.04,
+        "log10_ecorr": -7.17,
+        "log10_equad": -7.17,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.96,
+        "sw_amplitude": -6.43,
+        "sw_gamma": 1.39
+      },
+      "par_sha256": "28bc520429489392035c7e3ba019fb7356a93221341d60b0c187b4bb3cbd632e",
+      "precision_proxy_us": 0.008245631677629104,
+      "prior_search_membership": {
+        "EPTA_DR2": true,
+        "JBO800": false,
+        "NANOGrav11": true
+      },
+      "rank_key": [
+        2,
+        0,
+        0.008245631677629104,
+        "J1909-3744"
+      ],
+      "selected": false,
+      "span_days": 1628.7350829809584,
+      "target": "J1909-3744",
+      "tim_sha256": "2c713408aea01c09b3eca173e8466224e9676483cc765dcc703678cab40138c6",
+      "toas": 7199
+    },
+    {
+      "epochs": 61,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_scattering_process",
+        "insufficient_usable_span_or_epochs"
+      ],
+      "noise": {
+        "chrom_amplitude": -13.87,
+        "chrom_gamma": 2.74,
+        "chrom_index": 4.89,
+        "common_amplitude": -14.64,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.02,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 5.78,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "00529471032e3ffd64054c57f1dce02fe905c88e5e2a29aeaaebd627e8176d45",
+      "precision_proxy_us": 0.28413527275297273,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        1,
+        0,
+        0.28413527275297273,
+        "J1911-1114"
+      ],
+      "selected": false,
+      "span_days": 1107.0641586259808,
+      "target": "J1911-1114",
+      "tim_sha256": "30314f7d9739c2d27fbd5eaf0bcd929f12de42de78724db07844d2ccf18f4f40",
+      "toas": 1804
+    },
+    {
+      "epochs": 99,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_deterministic_chromatic_structure"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -16.04,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.02,
+        "log10_ecorr": -6.54,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 2.52,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "e2b829b47dda6604da103cb3c3cefb8e2aa473e87cda28e7072110ef649e72a3",
+      "precision_proxy_us": 0.10906348725175204,
+      "prior_search_membership": {
+        "EPTA_DR2": true,
+        "JBO800": true,
+        "NANOGrav11": true
+      },
+      "rank_key": [
+        3,
+        0,
+        0.10906348725175204,
+        "J1918-0642"
+      ],
+      "selected": false,
+      "span_days": 1476.1760244825346,
+      "target": "J1918-0642",
+      "tim_sha256": "d6276ac3ef64703f1b28a297cc671ead3a100f5c4526aaa5f500064e3c184027",
+      "toas": 3123
+    },
+    {
+      "epochs": 127,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.1,
+        "dm_amplitude": -13.66,
+        "dm_gamma": 1.57,
+        "efac": 1.05,
+        "log10_ecorr": -6.59,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "e5ae472b971c8b742ac86fe5b6677365abb2c9d38ec931b7922995cf66c0d108",
+      "precision_proxy_us": 0.19796849292813487,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.19796849292813487,
+        "J1933-6211"
+      ],
+      "selected": false,
+      "span_days": 1598.809266803626,
+      "target": "J1933-6211",
+      "tim_sha256": "2e4b9d3aa3b3bde09d8b28d12fa76a2c66c47bc64ac909cb9ab7139629e1d7fd",
+      "toas": 2937
+    },
+    {
+      "epochs": 91,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.46,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 0.97,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "68c666a49b7d8a288b5785db4ba256f540a0209dd7f4839e6daf7d96cb210e46",
+      "precision_proxy_us": 0.13578905721858356,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.13578905721858356,
+        "J1946-5403"
+      ],
+      "selected": false,
+      "span_days": 1476.2301479309026,
+      "target": "J1946-5403",
+      "tim_sha256": "4ae3a8d68cb9b1a047863e3c2f190dcc3a4e96fa3d942fb3c26701ed8d1f7684",
+      "toas": 1815
+    },
+    {
+      "epochs": 101,
+      "exclusion_reasons": [],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.14,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.03,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 3.35,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "33c3f26eb52046444b35cc915328e4d0b1fc6141f2cc3ca6f2c513a38cf4f9df",
+      "precision_proxy_us": 0.12217006550573205,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": true
+      },
+      "rank_key": [
+        2,
+        0,
+        0.12217006550573205,
+        "J2010-1323"
+      ],
+      "selected": false,
+      "span_days": 1553.7238290704845,
+      "target": "J2010-1323",
+      "tim_sha256": "cd5089163b28b38ddcd6b7dbb03671e3136d5ee677810b3c2394adcab650d13a",
+      "toas": 3121
+    },
+    {
+      "epochs": 96,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -16.04,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.06,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "abc8b5998fd3779181f7e3669042effbc5e798fd361d9c5e75f810e731a6f807",
+      "precision_proxy_us": 0.2984702520253219,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.2984702520253219,
+        "J2039-3616"
+      ],
+      "selected": false,
+      "span_days": 1476.2063882882067,
+      "target": "J2039-3616",
+      "tim_sha256": "d32a7b76bdccaf9e333e23d1da482860f4709a895f45f93b81df291aff2dcda1",
+      "toas": 1917
+    },
+    {
+      "epochs": 99,
+      "exclusion_reasons": [],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -16.72,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.1,
+        "log10_ecorr": -6.63,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 7.78,
+        "sw_amplitude": -6.48,
+        "sw_gamma": 0.19
+      },
+      "par_sha256": "996a712cf744b7f4155295da04a943f2379c869de8a8d7704b7efa5f06a3da46",
+      "precision_proxy_us": 0.17447132193153084,
+      "prior_search_membership": {
+        "EPTA_DR2": true,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        2,
+        0,
+        0.17447132193153084,
+        "J2124-3358"
+      ],
+      "selected": false,
+      "span_days": 1553.753871258159,
+      "target": "J2124-3358",
+      "tim_sha256": "dae92b2aa0e9cb90ea3183d176b738fdb13088f4814be3a8608ae668cca621ab",
+      "toas": 3138
+    },
+    {
+      "epochs": 112,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_deterministic_chromatic_structure",
+        "published_scattering_process"
+      ],
+      "noise": {
+        "chrom_amplitude": -14.01,
+        "chrom_gamma": 1.01,
+        "chrom_index": 4.0,
+        "common_amplitude": -13.83,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.03,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 1.28,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "10b07a288ed02fbf71c3b16eafce55e98e677012d8c83471bdedf113eedb4c5f",
+      "precision_proxy_us": 0.12898613096306,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.12898613096306,
+        "J2129-5721"
+      ],
+      "selected": false,
+      "span_days": 1572.9185931083412,
+      "target": "J2129-5721",
+      "tim_sha256": "90962b0cfbc5172d0b70fef1535de7261769e37f4e2542dfa3f08ed82bbdc9f6",
+      "toas": 3039
+    },
+    {
+      "epochs": 96,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.01,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.04,
+        "log10_ecorr": -6.09,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 5.37,
+        "sw_amplitude": -6.55,
+        "sw_gamma": 0.7
+      },
+      "par_sha256": "e77912eb7aebd2b584dce10e6cefaae57fcafe31ab66483ab60b1619de57bd43",
+      "precision_proxy_us": 0.11948495434884572,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": true
+      },
+      "rank_key": [
+        2,
+        0,
+        0.11948495434884572,
+        "J2145-0750"
+      ],
+      "selected": false,
+      "span_days": 1553.6929940038317,
+      "target": "J2145-0750",
+      "tim_sha256": "fac36e1d37e71efbb5cc708a6ef3dec86a2584ab42005a3c2e1a3a871ab9feaf",
+      "toas": 2966
+    },
+    {
+      "epochs": 93,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_deterministic_chromatic_structure",
+        "published_scattering_process"
+      ],
+      "noise": {
+        "chrom_amplitude": -13.51,
+        "chrom_gamma": 0.92,
+        "chrom_index": 4.0,
+        "common_amplitude": -13.65,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.03,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 0.88,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "aafb30cac976a5ce84f6f9bea0a20220080970d85487175fe3422ab7ca8be1f8",
+      "precision_proxy_us": 0.17692216588560647,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.17692216588560647,
+        "J2150-0326"
+      ],
+      "selected": false,
+      "span_days": 1465.0650903361093,
+      "target": "J2150-0326",
+      "tim_sha256": "69d9425608e4c0672b61e4c54166889dad0f5c7154dd1d33824f71bc3988ecc8",
+      "toas": 2091
+    },
+    {
+      "epochs": 96,
+      "exclusion_reasons": [
+        "supplied_binary_model",
+        "published_scattering_process"
+      ],
+      "noise": {
+        "chrom_amplitude": -13.96,
+        "chrom_gamma": 2.42,
+        "chrom_index": 4.0,
+        "common_amplitude": -17.76,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.06,
+        "log10_ecorr": -6.04,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 1.52,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "5b69e5d4b6875bc40df63bc3eb499e5c13fb105fd2e4b34a08053233839d2d51",
+      "precision_proxy_us": 0.17161315521124965,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        1,
+        0,
+        0.17161315521124965,
+        "J2222-0137"
+      ],
+      "selected": false,
+      "span_days": 1465.0160243493956,
+      "target": "J2222-0137",
+      "tim_sha256": "90fc0d0869f6de452b4e9a39723a3fe974a382c600db6931b121203781296ccb",
+      "toas": 2993
+    },
+    {
+      "epochs": 89,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -13.87,
+        "dm_amplitude": -14.23,
+        "dm_gamma": 2.69,
+        "efac": 1.07,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": -14.19,
+        "red_gamma": 3.15,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "a7a82991fa09a2dbddac82573bac3adc9507c0f21be5550db8e790adc6759f3a",
+      "precision_proxy_us": 0.35544664082593225,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": true
+      },
+      "rank_key": [
+        2,
+        1,
+        0.35544664082593225,
+        "J2229+2643"
+      ],
+      "selected": false,
+      "span_days": 1362.238071954991,
+      "target": "J2229+2643",
+      "tim_sha256": "279d2e7a90403990c2822b2ab1d84b2599f8774b7606b9da448ba82f43fdfe97",
+      "toas": 2094
+    },
+    {
+      "epochs": 91,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -17.63,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.02,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": -12.83,
+        "red_gamma": 1.99,
+        "solar_density": 8.85,
+        "sw_amplitude": -6.16,
+        "sw_gamma": 2.44
+      },
+      "par_sha256": "a938c1198644bb01bc9b27f1bc6e10860f53d23854b8d6845303326a673a39e7",
+      "precision_proxy_us": 0.17902683184077894,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": true
+      },
+      "rank_key": [
+        2,
+        1,
+        0.17902683184077894,
+        "J2234+0944"
+      ],
+      "selected": false,
+      "span_days": 1338.3390305284047,
+      "target": "J2234+0944",
+      "tim_sha256": "0c29b561ed9e206567de1b3928697ab1483bcd288d19dab83a3c8220e5b91148",
+      "toas": 2365
+    },
+    {
+      "epochs": 68,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -15.45,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.01,
+        "log10_ecorr": -6.13,
+        "log10_equad": null,
+        "red_amplitude": -13.3,
+        "red_gamma": 0.84,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "f7b565b0da73e2f1375e81d08d897d58fc3a7497ce71f99a3d87c774ed6b1a38",
+      "precision_proxy_us": 0.4502088947595707,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        1,
+        0.4502088947595707,
+        "J2236-5527"
+      ],
+      "selected": false,
+      "span_days": 1553.7619393256682,
+      "target": "J2236-5527",
+      "tim_sha256": "25ca17e54e71c76333ae0a1b0168ee09249001a0070fa44119fd6c584de6f961",
+      "toas": 1599
+    },
+    {
+      "epochs": 107,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.82,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.05,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 5.86,
+        "sw_amplitude": -6.16,
+        "sw_gamma": 1.81
+      },
+      "par_sha256": "c63ce68000b0cc4784752904badbb53ecea35f25404ace92e445131e48f9e0c9",
+      "precision_proxy_us": 0.015952914386393933,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        0,
+        0,
+        0.015952914386393933,
+        "J2241-5236"
+      ],
+      "selected": false,
+      "span_days": 1598.8025872103171,
+      "target": "J2241-5236",
+      "tim_sha256": "36b0f59668abca29c44fb64915060dc2382d2a214f1228ad0ff6801b4dcf06bb",
+      "toas": 3405
+    },
+    {
+      "epochs": 91,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -13.33,
+        "dm_amplitude": -14.25,
+        "dm_gamma": 3.28,
+        "efac": 1.0,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": -13.51,
+        "red_gamma": 3.47,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "c504cb3297850eb595e7b49ff927ecfaa775cb81efbe02804ad19a38c1b2333c",
+      "precision_proxy_us": 0.24986359959470883,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": true
+      },
+      "rank_key": [
+        2,
+        1,
+        0.24986359959470883,
+        "J2317+1439"
+      ],
+      "selected": false,
+      "span_days": 1362.2152475965704,
+      "target": "J2317+1439",
+      "tim_sha256": "9ff71fc2bdce4a4260aa93649dc3071c271919a817e147a9e92f664116a0ba9d",
+      "toas": 1948
+    },
+    {
+      "batch_index": 0,
+      "epochs": 79,
+      "exclusion_reasons": [],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -14.1,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 1.02,
+        "log10_ecorr": null,
+        "log10_equad": -6.64,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 4.0,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "dffb8ac77e42718a6dcd7e6861b4148bf84bbd9ec0039300c7e8f0f684780772",
+      "precision_proxy_us": 0.326193060057882,
+      "prior_search_membership": {
+        "EPTA_DR2": true,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        2,
+        0,
+        0.326193060057882,
+        "J2322+2057"
+      ],
+      "selected": true,
+      "span_days": 1362.229114339818,
+      "target": "J2322+2057",
+      "tim_sha256": "2100381f59f15065f154551319d43dc0e8fbeaffb23e212e7504922ae1e05e00",
+      "toas": 1756
+    },
+    {
+      "epochs": 76,
+      "exclusion_reasons": [
+        "supplied_binary_model"
+      ],
+      "noise": {
+        "chrom_amplitude": null,
+        "chrom_gamma": null,
+        "chrom_index": null,
+        "common_amplitude": -17.63,
+        "dm_amplitude": null,
+        "dm_gamma": null,
+        "efac": 0.95,
+        "log10_ecorr": null,
+        "log10_equad": null,
+        "red_amplitude": null,
+        "red_gamma": null,
+        "solar_density": 9.27,
+        "sw_amplitude": null,
+        "sw_gamma": null
+      },
+      "par_sha256": "148afe907b700aa37afea95a6be09c291a4b7ad81cad2ab5d146fc56d8bc9004",
+      "precision_proxy_us": 0.2603683669739043,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "rank_key": [
+        1,
+        0,
+        0.2603683669739043,
+        "J2322-2650"
+      ],
+      "selected": false,
+      "span_days": 1398.2354508316057,
+      "target": "J2322-2650",
+      "tim_sha256": "244f2d3680377f05c2380af92b482ea7412551fb09edad003f9fdd3e337013d1",
+      "toas": 1967
+    }
+  ],
+  "selected": [
+    "J2322+2057",
+    "J1801-1417",
+    "J1744-1134",
+    "J0030+0451"
+  ],
+  "source_evidence_root": "../Project Recherche Data/mpta-batch01-20260908",
+  "source_hashes": {
+    "research/access.html": "0475a96d074b33f0a64372b725955a60f50e44afbe6d9079fc3e497e6a9e07bb",
+    "research/epta-sample.html": "16f05d6f191e0f2228a7c1d4ac821f06eca257ccb054ec5d6fbbeff327fd2da9",
+    "research/epta-tables.json": "28f8556172cc66980ada4195af23af2d4a9686108f5ec7b0768b65d990438495",
+    "research/epta.html": "dccfc486abc950ed80a0a65919273040486c69ac7343d2e13e85dc8e1684db34",
+    "research/epta.pdf": "1b8541de6af7e5e96c4e8ced4719e4e7808fa93135c62cb40a1c22f26df6eb7e",
+    "research/jbo-archive-inventory.json": "2dfa19498381f6c37d2388913b8cd674c4860e55938280ed23cbcb4f8dc22fa6",
+    "research/jbo-metadata.json": "769fa2c584445e4579aa5a5d519da7f8d918479df631931adf1aa67d837f2f61",
+    "research/jbo-partial-membership.json": "4a7cbd0cc23da3e1c4c83923f72dde09aa17c32e12abc7d13279c140165ffc7a",
+    "research/mpta-tables.json": "29af525cb4f944cfd2765f05914f65382cc480e67f77a68d119c6361aa7d3097",
+    "research/mpta.html": "be9eec64d4d105595bd776c09e8916e7dec8a1baf92b0b0365df1a2c1edde6f5",
+    "research/mpta.pdf": "8bf7689c477a541b1bac3083ffbab56ebc23f69dc3821a42feba02b500c1b1fa",
+    "research/nanograv-tables.json": "8605c99b7244d817c604f2fd5d3eefdcc90532b3e9c67c59675ee04660561ce8",
+    "research/nanograv.html": "fc07d48f76a667fa987679d6cc58aee62dbf28041e43061c718db22824c95d29",
+    "research/nanograv.pdf": "328b9ff20cdfe210518c825d7488dc1c7623d2b3ad6f3b826e9cee3218843bb1"
+  }
+}

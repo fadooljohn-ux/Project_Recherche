@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE",
+  "target": "J1327-6222",
+  "disposition": "INCONCLUSIVE_NOISE_SENSITIVE",
+  "original_result_sha256": "2f7fe68720647f30e26cde5f2fd504316e658c87ffa7b221bfc0c273a8220609",
+  "master_sha256": "0e388965bda1e54528c99b1fb8e6a95a81394fc541a9e3a6487ed7518a219d1f",
+  "report_sha256": "a547b40d062d1d7aa0962ee88e9a192eb52315b4e2b2bf24fc4895e8de1981a7",
+  "steps": {
+    "1": "a523a2bbe0cac3187db401a6c220ee01b04a5b22b48f96097b6c922e2e2ff184",
+    "2": "c81ea504e2b0c4252efd079291641009d6837e630393ec652170a3293b3f2402",
+    "3": "08018aa51ef662fbfd0afb4fabf82af0dfbcfef030a8201c60280cbaed1e135f",
+    "4": "44417340b80b0bda6ef83441284e03d8ca393584a07d59feec7825a338a1969c"
+  },
+  "observed_result_unchanged": true,
+  "no_new_blind_TPA_search": true,
+  "no_background_job": true
+}

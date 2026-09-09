@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-09-08T17:29:48.573297+00:00",
+  "entries": [
+    {
+      "id": "J1939-DEEP-20260909-STEP1",
+      "kind": "Noise-model review",
+      "scope": "Fixed finite Fourier family; original survey threshold preserved",
+      "source": "./results/research/j1939-deep-review-20260909/step1.json",
+      "source_sha256": "7a43e8eaf3d15fc1ae242d070f512d03cb9e825770ef3a4b1d853370636c5739",
+      "status": "NOISE_SENSITIVE",
+      "summary": "16 declared noise models; original-period statistic 149.353 to 15.223"
+    },
+    {
+      "id": "J1939-DEEP-20260909-STEP2",
+      "kind": "Observing-day and band review",
+      "scope": "Diagnostic subset fits; source noise and selection limit p-values",
+      "source": "./results/research/j1939-deep-review-20260909/step2.json",
+      "source_sha256": "39542f744305e16eff5cf2f1663cf66160593e08ff3f3ef48275d9d3df8a47b8",
+      "status": "CONSISTENCY_CONCERNS",
+      "summary": "All 157 day removals retain the released-noise signal; receiver-band and time checks raise concerns"
+    },
+    {
+      "id": "J1939-DEEP-20260909-STEP3",
+      "kind": "Noise simulations",
+      "scope": "512 nulls and 256 injections; no planetary probability or campaign-calibrated discovery claim",
+      "source": "./results/research/j1939-deep-review-20260909/step3.json",
+      "source_sha256": "8677e650e5e06fc7bb9b6a921a3033e7e801e4086e4a932790fc00399911319e",
+      "status": "INCONCLUSIVE_NOISE_SENSITIVE",
+      "summary": "40/512 noise-only grid maxima exceed original-candidate statistic; plus-one estimate 0.07992. Different 67-day global peak is separate"
+    },
+    {
+      "id": "J1939-DEEP-20260909-STEP4",
+      "kind": "Cross-source comparison",
+      "scope": "Fixed-period overlap fits with source-specific covariances; preserve conditional limitations",
+      "source": "./results/research/j1939-deep-review-20260909/step4.json",
+      "source_sha256": "04e5d8efddb72de230a52bbe0747c65bb194af0b10eb4ceba5fcfc36886da3f3",
+      "status": "NOT_CORROBORATED",
+      "summary": "At 577.5 days, PPTA overlap amplitude 0.338 us versus InPTA 4.170 us; common-signal interpretation not supported"
+    },
+    {
+      "id": "J1939-DEEP-20260909-CLOSEOUT",
+      "kind": "Candidate deep-review closeout",
+      "scope": "Original result and all prior records retained. Different 67-day residual feature documented, not promoted to a new calibrated detection.",
+      "source": "./docs/J1939_DEEP_REVIEW_REPORT_2026-09-09.md",
+      "source_sha256": "943b92bc32f50ddb6591731c4f647737d97ea21f00f77ffb89e380e26019acd3",
+      "status": "INCONCLUSIVE_NOISE_SENSITIVE",
+      "summary": "Original candidate parked as inconclusive/noise-sensitive; no confirmed planet. Compelling future candidates receive deep review by standing owner instruction."
+    }
+  ],
+  "next_step": "INCONCLUSIVE / NOISE-SENSITIVE: deep review complete; park original 567-day candidate. Noise alternatives and overlapping PPTA weaken a planetary interpretation. Separate 67-day residual structure documented in report.",
+  "result_path": "../Project Recherche Data/pta-campaign01-20260908/inpta/J1939+2134/run01/result.json",
+  "result_sha256": "f027268999ab65e90ef34988839c628f7eb823b0253365c6f4dd8d774a5bf1d7",
+  "target": "J1939+2134"
+}

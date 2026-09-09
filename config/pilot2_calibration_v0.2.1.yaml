@@ -1,0 +1,199 @@
+schema_version: 1
+plan_id: pilot2-b1937-full-calibration-v0.2.1
+status: frozen_revision_design_execution_not_authorized
+target: B1937+21
+dataset: nanograv_15yr_timing_v2.1.0_wideband
+scientific_role: target_specific_circular_signal_detector_calibration_revision
+case_id_prefix: p2r1
+
+authority:
+  execution_authorized: false
+  observed_residual_access_authorized: false
+  observed_periodic_search_authorized: false
+  discovery_claim_authorized: false
+  external_adviser_role: passive_audit_and_recommendations_only
+
+revision_basis:
+  failed_protocol: config/pilot2_calibration_v0.2.yaml
+  failure_disposition: results/pilot2/sealed_gaussian_failure_disposition_v0.2.json
+  deterministic_analysis: results/pilot2/sealed_gaussian_deterministic_failure_analysis_v0.2.json
+  analysis_freeze: protocol/PILOT2_SEALED_FAILURE_ANALYSIS_FREEZE_v0.2.json
+  v0.2_cases_role: historical_diagnostic_only
+  v0.2_case_reuse_authorized: false
+  v0.2_threshold_reuse_authorized: false
+
+frozen_input:
+  preflight_completion_record: protocol/PILOT2_PREFLIGHT_COMPLETION_RECORD_v0.2.1.json
+  preflight_result: results/pilot2/preflight_regrade_result_v0.2.1.json
+  controlled_data_root_generation: Pulsar-Timing-Pilot-v0.2-r1
+  target_products: 6
+  covariance_shape: [1320, 1320]
+  timing_design_shape: [1320, 284]
+  timing_design_rank: 284
+  active_toas: 660
+  reference_epoch: released_model_PEPOCH
+
+detector:
+  trigger: covariance_whitened_gls_circular_scan
+  trigger_statistic: global_maximum_delta_chi2
+  search_period_minimum_days: 30.0
+  search_period_maximum_days: 2000.0
+  frequency_oversampling: 5
+  covariance_source: released_white_and_PLRedNoise_model
+  timing_design_matrix_projected: true
+  grader: ProjectCircularSignal_joint_timing_refit
+  primary_solver: WidebandDownhillFitter_low_rank_covariance
+  audit_solver: WidebandTOAFitter_explicit_full_covariance
+  preserve_release_red_noise: true
+  wavex_allowed: false
+  threshold_source: gaussian_calibration_global_maxima_only
+
+gaussian_nulls:
+  construction: frozen_release_covariance_at_actual_toa_epochs
+  calibration_cases: 5000
+  calibration_base_seed: 19372210
+  threshold_target_population_quantile: 0.99
+  threshold_order_statistic_rank: 4962
+  threshold_estimator: distribution_free_one_sided_tolerance_order_statistic
+  threshold_one_sided_confidence: 0.9534342612233192
+  threshold_expected_tail_probability: 0.007798440311937612
+  sealed_evaluation_cases: 2000
+  sealed_evaluation_base_seed: 19372211
+  calibration_and_evaluation_sets_disjoint: true
+  trigger_comparison: strictly_greater_than_threshold
+  evaluation_interval: wilson_95_percent
+  evaluation_wilson_upper_95_maximum: 0.025
+  evaluation_maximum_false_positives: 36
+  evaluation_raw_false_positive_rate_role: reported_estimate_not_hard_gate
+  evaluation_pass_probability_at_true_0p01: 0.9996068482064723
+  threshold_retuning_after_sealed_evaluation_authorized: false
+
+structured_tail_evaluation:
+  role: locked_threshold_readiness_stress_not_recalibration
+  cases_per_variant: 1000
+  calibration_cases_per_variant: 0
+  contaminated_probability: 0.01
+  contaminated_standard_deviation_multiplier: 3.0
+  analytic_unit_variance_normalization: true
+  analytic_marginal_excess_kurtosis: 1.6296296296296298
+  no_reroll: true
+  rebaseline_tripwire: wilson_lower_95_false_positive_rate_strictly_greater_than_0.01
+  variants:
+    - id: timing_native_innovation_scale_mixture
+      base_seed: 19372220
+      selected_native_innovation_block: timing
+    - id: dm_native_innovation_scale_mixture
+      base_seed: 19372221
+      selected_native_innovation_block: dm
+    - id: clustered_utc_day_scale_mixture
+      base_seed: 19372222
+      selection_unit: floor_mjd_utc_day
+      apply_to_paired_timing_and_dm_coordinates: true
+
+injections:
+  insertion_domain: toa
+  maximum_toa_adjustment_error_microseconds: 0.001
+  phases_radians: [0.0, 1.5707963267948966, 3.141592653589793, 4.71238898038469]
+  covariance_noise_realizations_per_phase: 3
+  main_base_seed: 19372230
+  main_period_ladders:
+    - period_days: 50.0
+      amplitudes_microseconds: [0.025, 0.05, 0.1, 0.2]
+    - period_days: 100.0
+      amplitudes_microseconds: [0.025, 0.05, 0.1, 0.2]
+    - period_days: 200.0
+      amplitudes_microseconds: [0.025, 0.05, 0.1, 0.2]
+    - period_days: 500.0
+      amplitudes_microseconds: [0.1, 0.25, 0.5, 1.0]
+    - period_days: 1000.0
+      amplitudes_microseconds: [0.25, 0.5, 1.0, 2.0]
+  annual_identifiability_map:
+    base_seed: 19372231
+    periods_days: [300.0, 330.0, 350.0, 365.25, 380.0, 400.0, 450.0]
+    amplitude_microseconds: 5.0
+    noise_realizations_per_phase: 1
+  search_boundary_map:
+    base_seed: 19372232
+    noise_realizations_per_phase: 1
+    period_ladders:
+      - period_days: 30.0
+        amplitudes_microseconds: [0.05, 0.2]
+      - period_days: 2000.0
+        amplitudes_microseconds: [1.0, 5.0]
+
+candidate_eligibility:
+  maximum_signal_astrometry_correlation: 0.8
+  maximum_ordinary_model_absorption_fraction: 0.8
+  annual_mask_method: empirical_periodwise_identifiability_mask
+  masked_periods_are_sensitivity_gaps_only: true
+  masked_periods_can_produce_candidates: false
+  strongest_unmasked_cell_semantics_required: true
+
+solver_audit:
+  deterministic_fraction: 0.10
+  selection_method: lowest_sha256_ranked_injection_case_ids
+  expected_cases: 29
+  amplitude_difference_maximum_microseconds: 0.01
+  phase_difference_maximum_radians: 0.001
+  chi2_difference_maximum: 0.1
+  failures_maximum: 0
+
+injection_gates:
+  strong_control_definition: highest_amplitude_per_main_period
+  strong_control_recovery_rate_minimum: 0.90
+  injected_frequency_recovery_rate_minimum: 0.95
+  frequency_recovery_tolerance: one_independent_fourier_bin
+  median_amplitude_bias_fraction_maximum: 0.10
+  phase_error_p90_maximum_radians: 0.10
+  minimum_main_periods_with_monotonic_detection_fraction: 3
+  minimum_main_periods_bracketing_50_and_90_percent_recovery: 3
+  annual_eligibility_violations_maximum: 0
+  sensitivity_interpolation_without_bracketing_authorized: false
+
+null_ensemble_gates:
+  whitened_variance_minimum: 0.90
+  whitened_variance_maximum: 1.10
+  maximum_absolute_pooled_lag_correlation: 0.10
+
+execution_controls:
+  stage_order:
+    - gaussian_threshold_calibration
+    - commit_threshold_lock
+    - sealed_gaussian_evaluation
+    - structured_tail_evaluation
+    - injection_recovery_and_annual_map
+    - promotion_grade
+  checkpoint_every_cases: 25
+  heartbeat_interval_seconds: 30
+  resume_requires_inventory_and_implementation_hash_match: true
+  dashboard_reports_scientific_outcomes_before_stage_completion: false
+  manual_refresh_required: true
+  failed_stage_reroll_authorized: false
+  stop_on_any_integrity_failure: true
+  stop_on_any_unexpected_material_warning: true
+
+resource_projection:
+  gaussian_null_scans: 7000
+  structured_tail_scans: 3000
+  injection_scans: 284
+  primary_injection_fits: 568
+  explicit_full_covariance_audits: 29
+  measured_scan_seconds_each: 0.0019905758593813517
+  measured_primary_fit_seconds_each: 10.101615196251826
+  measured_audit_seconds_each: 67.50023775829978
+  measured_setup_seconds: 0.2856906250017346
+  contingency_multiplier: 1.25
+  projected_wall_hours_with_contingency: 2.679160103897434
+
+resource_caps:
+  macbook_wall_hours_maximum: 6.0
+  peak_memory_gib_maximum: 16.0
+  complete_data_root_gib_maximum: 1.5
+  additional_download_bytes_maximum: 0
+
+promotion:
+  calibration_pass_requires_all_hard_gates: true
+  pass_authorizes_observed_search: false
+  pass_authorizes_observed_search_design_preparation_only: true
+  fable_review_required: false
+  observed_search_requires_separate_user_authorization_and_freeze: true

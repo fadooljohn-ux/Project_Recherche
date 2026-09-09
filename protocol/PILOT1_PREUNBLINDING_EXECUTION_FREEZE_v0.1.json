@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot1-preunblinding-execution-freeze-v0.1",
+  "status": "frozen_before_synthetic_execution",
+  "authorization": "exact_frozen_synthetic_validation_only",
+  "preparation_freeze_sha256": "00faa4a0f202c8ca452af6ddaf1f0c170303b382eac3ac1843d427fff4153e35",
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "threshold_retuning_authorized": false,
+  "new_recovery_randomness_authorized": false,
+  "further_tail_reroll_authorized": false,
+  "locked_threshold_delta_chi2": 23.33426855482562,
+  "authorized_case_counts": {
+    "structured_tail_nulls": 3000,
+    "timing_block_nulls": 1000,
+    "dm_block_nulls": 1000,
+    "clustered_utc_day_nulls": 1000,
+    "deterministic_recovery_replays": 160,
+    "originally_triggered_frequency_recovered_denominator": 125,
+    "deletion_units": 749,
+    "paired_row_deletion_units": 433,
+    "utc_day_deletion_units": 316,
+    "new_recovery_realizations": 0,
+    "observed_residual_searches": 0
+  },
+  "inventory_sha256": {
+    "structured_tail_evaluation": "7df6d66e94cbb02b44961d998920cee85b073435d9859f6d175ddc888a7a0278",
+    "deletion_replay": "d2832b45c1e2f438620be91374cc4086e289a158bb8ed9d3373dc57c3c7561e5",
+    "deletion_units": "617809921a1598b120514273bbab9ce0374b322601fcdb96c346d75933164eb4"
+  },
+  "external_prerequisites": {
+    "run_records/pilot1/tail-robustness-r1-v0.1-summary.json": {
+      "bytes": 12001,
+      "sha256": "78482d0cc8697b03884efc4d7c9714376e713d3f2067d2f3df09a07e10a87c80"
+    },
+    "run_records/pilot1/tail-robustness-recovery-v0.1-ledger.json": {
+      "bytes": 40219,
+      "sha256": "dc89431c012a175b978c9926e6f99c0abf5af75c75e5c3d2ef6b438eaed8567a"
+    }
+  },
+  "frozen_sha256": {
+    "src/pulsar_pilot/preunblinding_validation.py": "ab2128b54e907a522619c1602e836b734ff006216a7ac79e53e57332a8856c9d",
+    "tests/test_preunblinding_validation.py": "84f7b8c799a0852bd6d2a546e8b0f9e0e75da42dd8c9c98492e5f37182771d14",
+    "src/pulsar_pilot/preunblinding.py": "e11a93d5cbe30261a902271aaaab0c2e8786c17d057055d05350e449d938708c",
+    "config/pilot1_preunblinding_validation_v0.1.yaml": "caefe8967271766e3ab031e69d6dbab1e1c6f53baa028c5dc0656389e4c371be",
+    "protocol/PILOT1_PREUNBLINDING_VALIDATION_FREEZE_v0.1.json": "00faa4a0f202c8ca452af6ddaf1f0c170303b382eac3ac1843d427fff4153e35",
+    "protocol/PILOT1_PREUNBLINDING_VALIDATION_PROTOCOL_v0.1.md": "943a56c176be937c5b59a5cc53580ad7dc4b96c6af62df2ead37eef9fbf70b24",
+    "protocol/FABLE_FINAL_PREEXECUTION_SIGNOFF_CONTRACT_v0.1.md": "be0f7bd43265c387df055f248a2bb400725456959e08aaf56e3badd311ad8156",
+    "results/pilot1/preunblinding_freeze_result_v0.1.json": "802d0b8a4d4763150775cab666f565c3408164c809d8e6ea1448b734789877e7",
+    "protocol/INITIAL_V0.1_RELEASE_FREEZE.json": "95486696ad1a689e49490afbe7d1891fdfe09e093e9aaec7448cc6214d127eb8",
+    "pixi.lock": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8"
+  },
+  "result_publication_required": true,
+  "independent_fable_signoff_required_after_pass": true,
+  "observed_search_execution_state": "locked",
+  "next_gate_if_pass": "hash_bound_fable_reviewer_packet",
+  "next_gate_if_fail": "detector_rebaseline_or_independent_disposition"
+}

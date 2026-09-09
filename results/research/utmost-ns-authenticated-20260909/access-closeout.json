@@ -1,0 +1,19 @@
+{
+  "recorded_utc": "2026-09-09T08:18:08.494383+00:00",
+  "authenticated_toa_access": "SUCCESS",
+  "scope": "MONSPSR_TIMING single-channel total-intensity one-subintegration non-DM-corrected TOAs",
+  "target_queries_completed": 174,
+  "raw_toas": 28305,
+  "broad_query_status": "PARTIAL_TIMEOUT_RETAINED",
+  "broad_query_saved_pages": 25,
+  "broad_query_saved_toas": 12500,
+  "broad_query_error": "The read operation timed out",
+  "file_index_query": "{filePulsarList(mainProject:\"MONSPSR\",jname:\"J0134-2937\",first:50){edges{node{id path fileName fileSize isDirectory}}pageInfo{hasNextPage endCursor}}}",
+  "file_index_error": "You do not have permission to perform this action",
+  "temporary_token_created_with_user_authorization": true,
+  "temporary_token_revoked": true,
+  "revocation_verified_by": "Portal token management page states: You do not have any API tokens yet.",
+  "credential_saved_to_disk": false,
+  "credential_process_closed": true,
+  "receipt_variable_note": "Initial downloader mutated pagination variables in-place; for any multipage receipt its initial_variables.after is the terminal cursor. Per-page content and endCursor are preserved. The corrected downloader copies variables. All target acquisitions begin at after=null."
+}

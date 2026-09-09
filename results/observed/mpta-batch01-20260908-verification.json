@@ -1,0 +1,22 @@
+{
+  "background_run_active": false,
+  "calibration_caches_verified": 10,
+  "candidates": 0,
+  "execution_source_sha256": "e227dc70b3001018a90d257031b0b6e034a91bd82f13d6b190e56c2b0b4bc90c",
+  "focused_tests": "4 passed in 1.05 seconds",
+  "independent_peak_likelihood_checks": 10,
+  "lint": "PASS",
+  "observed_results": 10,
+  "prepared_profiles": 10,
+  "previous_observed_result_hashes_unchanged": {
+    "B1257+12": "f30a2938425df6edc9984920db38037c798821f31c7073e69ff3da55a66f3854",
+    "B1937+21": "bca91e1a88ed79625b34a34e19f4063516ac1e49d46d17cad4e5e232c449978d",
+    "J1544+4937": "c7850158c54d2942a1dfdd734256e859511daeb3a8f7bd595290646fcbbe2b12",
+    "J1719-1438": "5755d312887ed25508631a2c9bf42ef5650ef23837e25620a05fbc89827856ff",
+    "J2322-2650": "2cf4126aa6b97bf0d52e8da9e2e18bde0de2ae71a6394b7a6b342e10ed36561c"
+  },
+  "qualified_source_unchanged": true,
+  "runtime_doctor": "PASS, 134 packages, 63 longdouble mantissa bits, 71 qualified source files",
+  "status": "VERIFIED",
+  "summary_sha256": "649746bc8ff24b5a7f7b0d381af7776ecda738806d84b51c5052e37a87b7b94f"
+}

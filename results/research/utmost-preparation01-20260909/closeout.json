@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE_PREPARATION_ONLY",
+  "targets": 4,
+  "toas": 873,
+  "null_realizations": 16384,
+  "template_checks": 12,
+  "observed_searches": 0,
+  "binary_support_added": false,
+  "historical_result_jsons_verified_unchanged": 335,
+  "workbook_readback_verified": true,
+  "workbook_sha256": "00510d3e66f2c00bd584c64fb9fd713e71061ff46ec74eeeed4d6ff87aef2bf0",
+  "historical_cells_preserved_except_authorized_target_status": true,
+  "retained_preparation_failures": 2,
+  "readiness": "Four datasets conditionally prepared; no execution freeze or launch intent",
+  "preparation_sha256": "3f04386d90d569e09e3a2cb2a6e658deb63ba17f63eabe1cb2c2fca7cee6dc89",
+  "adapter_sha256": "9eb92a9334423e60b2c0a966efbc8255fdbe65b284509e0eb541b3e55008a94a"
+}

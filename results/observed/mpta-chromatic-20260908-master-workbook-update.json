@@ -1,0 +1,28 @@
+{
+  "batch": "../Project Recherche Data/chromatic-support-20260908",
+  "completed": 4,
+  "incomplete": 0,
+  "selected": [
+    "J1721-2457",
+    "J1832-0836",
+    "J1747-4036",
+    "J1804-2858"
+  ],
+  "previous_sha256": "d9439a1ae7de5bf828b1510dfc15889bd62041249492dfbaa66de7f5cf5df905",
+  "sha256": "e1021d1fbff5b64726f4760b2c513a97e32e3086da56d84b708b1985951afb4d",
+  "backup": "../Recherche Recovery/20260907T223404/master-workbook-history/d9439a1ae7de5bf828b1510dfc15889bd62041249492dfbaa66de7f5cf5df905.xlsx",
+  "changes": 10,
+  "sheets": "{\"kind\":\"sheet\",\"id\":\"ws/x446ci\",\"name\":\"Overview\",\"index\":0,\"range\":\"A1:E28\",\"address\":\"A1:E28\"}\n{\"kind\":\"sheet\",\"id\":\"ws/n14a13\",\"name\":\"Targets\",\"index\":1,\"range\":\"A1:T89\",\"address\":\"A1:T89\"}\n{\"kind\":\"sheet\",\"id\":\"ws/c2if6f\",\"name\":\"Searches\",\"index\":2,\"range\":\"A1:V24\",\"address\":\"A1:V24\"}\n{\"kind\":\"sheet\",\"id\":\"ws/5hck2y\",\"name\":\"Work log\",\"index\":3,\"range\":\"A1:I21\",\"address\":\"A1:I21\"}",
+  "counts": [
+    88,
+    23,
+    19,
+    4,
+    2,
+    63,
+    24,
+    0,
+    0
+  ],
+  "updated_utc": "2026-09-08T11:42:08.386Z"
+}

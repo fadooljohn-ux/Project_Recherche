@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "milestone": "initial-v0.1",
+  "status": "pass",
+  "passed": 22,
+  "total": 22,
+  "amendment_basis": "published_reference_discrepancy_dossier_v0.1",
+  "original_20_of_22_failure_preserved": true,
+  "rows": {
+    "protocol_control": {"outcome": "PASS", "evidence": "all execution and amendment freezes verified"},
+    "calibration_nulls": {"outcome": "PASS", "observed": 1000, "minimum": 1000},
+    "sealed_evaluation_nulls": {"outcome": "PASS", "observed": 500, "minimum": 500},
+    "noise_aware_statistic": {"outcome": "PASS", "evidence": "full released covariance and timing-design projection"},
+    "null_fidelity": {"outcome": "PASS", "variance": 0.99963309393246, "maximum_correlation": 0.002829904525049085},
+    "false_positive_rate": {"outcome": "PASS", "observed": 0.004, "maximum": 0.01},
+    "false_positive_uncertainty": {"outcome": "PASS", "observed_upper_95": 0.014465715215177033, "maximum": 0.025},
+    "strong_control_recovery": {"outcome": "PASS", "observed": 1.0, "minimum": 0.9},
+    "frequency_recovery": {"outcome": "PASS", "observed": 1.0, "minimum": 0.95},
+    "amplitude_bias": {"outcome": "PASS", "observed": 0.015558206885670112, "maximum": 0.1},
+    "phase_error": {"outcome": "PASS", "observed_p90_radians": 0.09712570853386743, "maximum": 0.1},
+    "monotonic_response": {"outcome": "PASS", "observed_periods": 5, "minimum": 3},
+    "sensitivity_bracketing": {"outcome": "PASS", "observed_periods": 5, "minimum": 3, "recovered_definition": "triggered_and_frequency_recovered"},
+    "annual_mask": {"outcome": "PASS", "eligibility_violations": 0, "maximum": 0},
+    "independent_audit": {"outcome": "PASS", "failures": 0, "audits": 53, "maximum_failures": 0},
+    "published_reference_applicability": {"outcome": "PASS", "disposition": "verified_noncomparable_contextual_reference", "original_numeric_gate_outcome": "fail_preserved"},
+    "warning_hygiene": {"outcome": "PASS", "unexpected_material_warnings": 0, "maximum": 0},
+    "reproducibility": {"outcome": "PASS", "evidence": "all phase ledgers and external summary hashes verified"},
+    "runtime": {"outcome": "PASS", "observed_hours": 2.408647874641665, "maximum_hours": 4.0},
+    "memory": {"outcome": "PASS", "observed_gib": 0.6098213195800781, "maximum_gib": 16.0},
+    "storage": {"outcome": "PASS", "observed_gib": 0.7593471882864833, "maximum_gib": 5.0},
+    "blind_boundary": {"outcome": "PASS", "observed_residual_search_executed": false}
+  },
+  "sensitivity": {
+    "50_days": {"crossing_50_microseconds": 0.23333333333333334, "crossing_90_microseconds": 0.2866666666666667},
+    "100_days": {"crossing_50_microseconds": 0.16250000000000003, "crossing_90_microseconds": 0.26, "projected_mass_90_moon": 0.04188449009443688},
+    "200_days": {"crossing_50_microseconds": 0.2, "crossing_90_microseconds": 0.28},
+    "500_days": {"crossing_50_microseconds": 0.26, "crossing_90_microseconds": 0.34},
+    "1000_days": {"crossing_50_microseconds": 0.375, "crossing_90_microseconds": 0.476}
+  },
+  "external_records": {
+    "reference_discrepancy": {"logical_path": "run_records/pilot1/reference-discrepancy-v0.1.json", "bytes": 3027, "sha256": "66cbd929274be624eaf671453ed84771a8e4d1e4aebb4cd5145f44ea12872e44"},
+    "sensitivity_extension": {"logical_path": "run_records/pilot1/sensitivity-extension-v0.1-summary.json", "bytes": 331606, "sha256": "fcc905f2648684418a4cbde150928d0e61a59ba2456134130ed6cccd65ca88b4"}
+  },
+  "promotion_authorized": true,
+  "initial_v0.1_implementation_started": true,
+  "observed_residual_periodic_search_authorized": false,
+  "next_gate": "separately_reviewed_one_shot_observed_residual_search_freeze"
+}

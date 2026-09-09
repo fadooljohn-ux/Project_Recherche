@@ -1,0 +1,7 @@
+{
+  "attempt": "attempt01",
+  "error": "Compatibility mismatch: weighted_rms_us published summary mismatch, reduced_chi_square published summary mismatch",
+  "master_before_sha256": "ef25801bab3c77df05fa857b4c70bef4bdee81547248666c70f3004425465245",
+  "observed_search_executed": false,
+  "target": "J1730-2304"
+}

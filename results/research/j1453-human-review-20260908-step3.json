@@ -1,0 +1,411 @@
+{
+  "method": "Timing-marginalized Gaussian objective: chi-square + logdet(C) + logdet(Xscaled.T C^-1 Xscaled); same timing prior measure; discrete covariance selection repeated separately under null and sinusoid. No signal-prior evidence claim.",
+  "covariance_models": [
+    {
+      "model": "released",
+      "null_objective": -2842.5286205655157,
+      "signal_objective": -2877.8476756984833,
+      "peak": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.31905513296764,
+        "amplitude_us": 1.5199940751980152,
+        "sin_cos_us": [
+          -1.3151245489876646,
+          -0.7621216499267432
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05075022260761523,
+            0.01650328986741756
+          ],
+          [
+            0.01650328986741757,
+            0.09562684345870338
+          ]
+        ],
+        "null_chi2": 203.67575897776192,
+        "rank": 82,
+        "dof_null": 162
+      },
+      "at_candidate": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.31905513296764,
+        "amplitude_us": 1.5199940751980152,
+        "sin_cos_us": [
+          -1.3151245489876646,
+          -0.7621216499267432
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05075022260761523,
+            0.01650328986741756
+          ],
+          [
+            0.01650328986741757,
+            0.09562684345870338
+          ]
+        ],
+        "null_chi2": 203.67575897776192,
+        "rank": 82,
+        "dof_null": 162
+      }
+    },
+    {
+      "model": "red_exp365_0.5us",
+      "null_objective": -2853.399902870443,
+      "signal_objective": -2880.670060427984,
+      "peak": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 27.270157557541307,
+        "amplitude_us": 1.3811272452631846,
+        "sin_cos_us": [
+          -1.2217822940361567,
+          -0.6440190164801186
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05583851004600528,
+            0.01906261416002288
+          ],
+          [
+            0.019062614160022886,
+            0.10243393141021692
+          ]
+        ],
+        "null_chi2": 190.09621097383473,
+        "rank": 82,
+        "dof_null": 162
+      },
+      "at_candidate": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 27.270157557541307,
+        "amplitude_us": 1.3811272452631846,
+        "sin_cos_us": [
+          -1.2217822940361567,
+          -0.6440190164801186
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05583851004600528,
+            0.01906261416002288
+          ],
+          [
+            0.019062614160022886,
+            0.10243393141021692
+          ]
+        ],
+        "null_chi2": 190.09621097383473,
+        "rank": 82,
+        "dof_null": 162
+      }
+    },
+    {
+      "model": "red_exp365_1us",
+      "null_objective": -2861.5310196820365,
+      "signal_objective": -2880.9914672272444,
+      "peak": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 19.4604475452079,
+        "amplitude_us": 1.246281221648058,
+        "sin_cos_us": [
+          -1.1192709486435217,
+          -0.5481326727674667
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.06530500207112046,
+            0.02189805909634952
+          ],
+          [
+            0.02189805909634951,
+            0.11511836229672012
+          ]
+        ],
+        "null_chi2": 176.78681129533692,
+        "rank": 82,
+        "dof_null": 162
+      },
+      "at_candidate": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 19.4604475452079,
+        "amplitude_us": 1.246281221648058,
+        "sin_cos_us": [
+          -1.1192709486435217,
+          -0.5481326727674667
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.06530500207112046,
+            0.02189805909634952
+          ],
+          [
+            0.02189805909634951,
+            0.11511836229672012
+          ]
+        ],
+        "null_chi2": 176.78681129533692,
+        "rank": 82,
+        "dof_null": 162
+      }
+    },
+    {
+      "model": "red_exp365_2us",
+      "null_objective": -2864.4914933146915,
+      "signal_objective": -2876.00087143266,
+      "peak": {
+        "period_days": 118.85,
+        "delta_chi2": 11.509378117968296,
+        "amplitude_us": 1.1211903881130265,
+        "sin_cos_us": [
+          -1.003818529465051,
+          -0.49941590513284806
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.09037317971637397,
+            0.024560540107695452
+          ],
+          [
+            0.024560540107695455,
+            0.14952550760189223
+          ]
+        ],
+        "null_chi2": 162.76094931325727,
+        "rank": 82,
+        "dof_null": 162
+      },
+      "at_candidate": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 11.509182682881539,
+        "amplitude_us": 1.1202496139322853,
+        "sin_cos_us": [
+          -1.0036121997953262,
+          -0.49771653572834085
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.09032130554682696,
+            0.02445178634417151
+          ],
+          [
+            0.024451786344171507,
+            0.14952592534327108
+          ]
+        ],
+        "null_chi2": 162.76094931325727,
+        "rank": 82,
+        "dof_null": 162
+      }
+    },
+    {
+      "model": "red_exp365_4us",
+      "null_objective": -2857.613870983529,
+      "signal_objective": -2863.27303651549,
+      "peak": {
+        "period_days": 118.5,
+        "delta_chi2": 5.6591655319606,
+        "amplitude_us": 1.0667621233212714,
+        "sin_cos_us": [
+          -0.9043245004987019,
+          -0.5658432870951822
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.16508153364143466,
+            0.028671757675765325
+          ],
+          [
+            0.028671757675765373,
+            0.24192205657460525
+          ]
+        ],
+        "null_chi2": 149.7297508466757,
+        "rank": 82,
+        "dof_null": 162
+      },
+      "at_candidate": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 5.612520880636652,
+        "amplitude_us": 1.0415238447542503,
+        "sin_cos_us": [
+          -0.8965805080034915,
+          -0.5300144449539811
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.16243198114697377,
+            0.023521810243465054
+          ],
+          [
+            0.023521810243465068,
+            0.2447185002841904
+          ]
+        ],
+        "null_chi2": 149.7297508466757,
+        "rank": 82,
+        "dof_null": 162
+      }
+    },
+    {
+      "model": "double_dm_errors",
+      "null_objective": -2765.701014573951,
+      "signal_objective": -2801.524114388181,
+      "peak": {
+        "period_days": 118.95,
+        "delta_chi2": 35.82309981422986,
+        "amplitude_us": 1.5096423946721762,
+        "sin_cos_us": [
+          -1.343073954775893,
+          -0.6893275794527486
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.05135843836326594,
+            0.016694793216106084
+          ],
+          [
+            0.016694793216106077,
+            0.09663156326002169
+          ]
+        ],
+        "null_chi2": 114.5728248259164,
+        "rank": 82,
+        "dof_null": 162
+      },
+      "at_candidate": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 35.80553225232788,
+        "amplitude_us": 1.5136775494377022,
+        "sin_cos_us": [
+          -1.3409914695359308,
+          -0.7021122433796406
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.051324397402115605,
+            0.01673959749009751
+          ],
+          [
+            0.016739597490097517,
+            0.0966707851877726
+          ]
+        ],
+        "null_chi2": 114.5728248259164,
+        "rank": 82,
+        "dof_null": 162
+      }
+    },
+    {
+      "model": "chromatic_nu4_exp90_1us",
+      "null_objective": -2786.77496118114,
+      "signal_objective": -2793.4993211746,
+      "peak": {
+        "period_days": 45.516525766669545,
+        "delta_chi2": 6.724359993460135,
+        "amplitude_us": 2.1140516625801484,
+        "sin_cos_us": [
+          -0.20938155297435623,
+          2.103657243310311
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.5388350285319684,
+            0.0333057507377944
+          ],
+          [
+            0.033305750737794376,
+            0.676451799406202
+          ]
+        ],
+        "null_chi2": 122.54860600516409,
+        "rank": 82,
+        "dof_null": 162
+      },
+      "at_candidate": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 2.2435293995924304,
+        "amplitude_us": 1.5387800870921602,
+        "sin_cos_us": [
+          -0.054850407328301806,
+          -1.5378021944474118
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.6551445469984958,
+            0.07978158037870595
+          ],
+          [
+            0.07978158037870597,
+            1.0567912325525648
+          ]
+        ],
+        "null_chi2": 122.54860600516409,
+        "rank": 82,
+        "dof_null": 162
+      }
+    },
+    {
+      "model": "chromatic_nu4_exp90_2us",
+      "null_objective": -2729.3646843279876,
+      "signal_objective": -2736.568171177061,
+      "peak": {
+        "period_days": 45.35511964692958,
+        "delta_chi2": 7.203486849073217,
+        "amplitude_us": 2.669502180897947,
+        "sin_cos_us": [
+          -0.5495620031108738,
+          2.6123214768775407
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.8287827197087607,
+            -0.014705334616085437
+          ],
+          [
+            -0.014705334616085463,
+            0.9906540754456037
+          ]
+        ],
+        "null_chi2": 118.83482824779372,
+        "rank": 82,
+        "dof_null": 162
+      },
+      "at_candidate": {
+        "period_days": 118.86682633580926,
+        "delta_chi2": 3.0999727582315555,
+        "amplitude_us": 2.1505270700317096,
+        "sin_cos_us": [
+          0.16140613750521815,
+          -2.1444614097052006
+        ],
+        "coefficient_covariance_us2": [
+          [
+            0.841107240804291,
+            0.13920485677196714
+          ],
+          [
+            0.13920485677196712,
+            1.5590436850565907
+          ]
+        ],
+        "null_chi2": 118.83482824779372,
+        "rank": 82,
+        "dof_null": 162
+      }
+    }
+  ],
+  "selected_null": "red_exp365_2us",
+  "selected_signal": "red_exp365_1us",
+  "selected_family_statistic": 16.499973912552832,
+  "seed": 2026092201,
+  "null_count": 512,
+  "injection_count": 256,
+  "null_generator": "red_exp365_2us",
+  "injected_amplitude_us": 1.5199940751980152,
+  "injected_period_days": 118.86682633580926,
+  "null_exceedances": 46,
+  "diagnostic_p_plus_one": 0.09161793372319688,
+  "injection_exceeds_observed": 188,
+  "injection_recovers_period_within_2_days": 197,
+  "limitations": "Plug-in noise family and modest simulation count; not a new campaign-calibrated discovery p-value. Injection at estimated signal is a sensitivity diagnostic. Full grid searched and covariance reselection repeated; does not model all possible propagation noise."
+}

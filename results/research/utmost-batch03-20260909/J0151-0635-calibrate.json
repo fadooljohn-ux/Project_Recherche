@@ -1,0 +1,55 @@
+{
+  "calibration": {
+    "cache_hit": false,
+    "cache_key": "ff70f2a405dfc71471084d9f0f4470b8f5d2ec8dc527aff7c00a205c0ae6a816",
+    "eligible_cells": 203,
+    "excluded_cells": 4,
+    "frequency_count": 207,
+    "median_worst_phase_amplitude_us": 611.6881955876354,
+    "observed_search_executed": false,
+    "path": "../Project Recherche Data/utmost-batch03-20260909/calibration-cache/ff70f2a405dfc71471084d9f0f4470b8f5d2ec8dc527aff7c00a205c0ae6a816",
+    "status": "CALIBRATED_CONDITIONAL",
+    "target": "J0151-0635",
+    "threshold": 26.31352960824332,
+    "timing_rank": 5
+  },
+  "observed_search_executed": false,
+  "preparation_sha256": "31fe6a30a846d189ddbf497743022f216b3867d34f664c39e387ef3dd0b113ec",
+  "profile_sha256": "0324c5e4c5b1d240ee9e00572757e69d285e35b0ba5cd0fa4f34bca54b111395",
+  "target": "J0151-0635",
+  "template_checks": [
+    {
+      "expected_coefficients_us": [
+        1000.0,
+        500.0
+      ],
+      "period_days": 60.0,
+      "recovered_coefficients_us": [
+        1000.0000000000002,
+        500.0000000000002
+      ]
+    },
+    {
+      "expected_coefficients_us": [
+        1000.0,
+        500.0
+      ],
+      "period_days": 150.0,
+      "recovered_coefficients_us": [
+        1000.0000000000002,
+        500.0000000000002
+      ]
+    },
+    {
+      "expected_coefficients_us": [
+        1000.0,
+        500.0
+      ],
+      "period_days": 250.0,
+      "recovered_coefficients_us": [
+        1000.0000000000005,
+        500.0
+      ]
+    }
+  ]
+}

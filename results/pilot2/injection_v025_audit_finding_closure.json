@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "record_id": "pilot2-b1937-v0.2.5-audit-finding-closure",
+  "status": "implemented_pending_final_validation_and_sol_audit",
+  "source_audit": {
+    "record": "protocol/DEDICATED_SOL_AUDIT_RECORD_PILOT2_v0.2.4.json",
+    "record_sha256": "a26c0c3f86d9c5bf1fec439b14c329fdf8e186ab8ab3dcdd7dda8f6417de1230",
+    "disposition": "results/pilot2/dedicated_sol_audit_disposition_v0.2.4.json",
+    "disposition_sha256": "b6c13b3bed5aac604a5d4f4f94defec920128d73d370cf3917d99d5564b2f47d"
+  },
+  "closures": [
+    {
+      "finding_id": "SOL-V024-001",
+      "severity": "P1",
+      "remediation": "ledger and case commits require file fsync, macOS F_FULLFSYNC, atomic replace, and parent-directory fsync before return"
+    },
+    {
+      "finding_id": "SOL-V024-002",
+      "severity": "P1",
+      "remediation": "new, resumed, and interrupted artifacts require the complete exact v0.2.5 record and nested solver/input schemas"
+    },
+    {
+      "finding_id": "SOL-V024-003",
+      "severity": "P1",
+      "remediation": "freeze hashes must match exact compiled path sets and every path must be repository-relative, nonsymlinked, and confined"
+    }
+  ],
+  "inventory_policy": "reuse_exact_never_executed_v0.2.3_inventory_without_seed_churn",
+  "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+  "science_cases_executed": 0,
+  "execution_authorized": false,
+  "next_gate": "single_local_validation_cycle_and_v0.2.5_readiness_freeze"
+}

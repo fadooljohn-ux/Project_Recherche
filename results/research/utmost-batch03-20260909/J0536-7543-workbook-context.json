@@ -1,0 +1,18 @@
+{
+  "target": "J0536-7543",
+  "created_utc": "2026-09-09T05:52:22.604111+00:00",
+  "result_path": "../Project Recherche Data/utmost-batch03-20260909/J0536-7543/run01/result.json",
+  "result_sha256": "12f279c212d68eb9316d1c54efca6abbb1092687c6f18bf0592a3b9adbb5eae3",
+  "next_step": "Retain result with low-scatter preparation warning (reduced chi-square 0.129124). Published-noise sensitivity is conditional; future noise changes require separate scope.",
+  "entries": [
+    {
+      "id": "utmost-batch03-20260909-J0536-7543-PREPARATION-CONTEXT",
+      "kind": "Noise-model limitation",
+      "status": "NOISE_MODEL_LIMITATION",
+      "summary": "Preparation reduced chi-square 0.129124 under published EFAC 3.41096. Low scatter warning retained; no noise rescaling.",
+      "scope": "Existing observed flag tests excess scatter only. An unflagged observed result does not remove this preparation warning; sensitivity remains conditional.",
+      "source": "./results/research/utmost-batch03-20260909/J0536-7543-prepare.json",
+      "source_sha256": "f67324303ec7449c85c1e737dd914c2943f24b7b617799cf36e15a49ef8265cc"
+    }
+  ]
+}

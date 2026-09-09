@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-08-09T02:03:31.667419+00:00",
+  "authoritative_run_id": "20260809T020331Z",
+  "case": "C0",
+  "case_purpose": "matched_null_pipeline_control",
+  "case_result": "pass",
+  "review_status": "pending",
+  "criteria": {
+    "configuration_frozen_and_c0_only": true,
+    "zero_delay_applied_exactly": true,
+    "toa_count_unchanged": true,
+    "fit_converged": true,
+    "periodogram_finite": true,
+    "material_warnings_dispositioned": true,
+    "runtime_under_60_minutes": true,
+    "peak_memory_under_16_gib": true
+  },
+  "injection": {
+    "requested_amplitude_us": 0.0,
+    "achieved_amplitude_us": 0.0,
+    "maximum_high_precision_toa_shift_us": 0.0,
+    "mjd_float_cache_refresh_max_difference_us": 0.628642737865448,
+    "mjd_float_cache_refresh_nonzero_rows": 99,
+    "mjd_float_cache_disposition": "Auxiliary float64 cache refresh only; authoritative high-precision Time values were unchanged."
+  },
+  "refit": {
+    "ntoas": 433,
+    "weighted_rms_us": 0.9406894922243831,
+    "wideband_chi2": 734.6080630585474,
+    "reduced_chi2": 1.0708572347792236
+  },
+  "strongest_trigger": {
+    "role": "uncalibrated_diagnostic_artifact",
+    "period_days": 30.44843195562162,
+    "frequency_per_day": 0.03284241373931811,
+    "peak_power": 0.18096863338230854,
+    "recovered_amplitude_us": 0.5819117100746155,
+    "diagonal_weighted_delta_chi2": 612.1762073437221,
+    "disposition": "Near the frozen 30-day short-period boundary; correlated noise is not included in this trigger and no false-alarm probability is assigned."
+  },
+  "frozen_frequency_null_probes": [
+    {
+      "case_ids": [
+        "C1",
+        "C2"
+      ],
+      "period_days": 100.0,
+      "power": 0.014570173611738488,
+      "recovered_amplitude_us": 0.1650916177916846,
+      "diagonal_weighted_delta_chi2": 49.28762214350627
+    },
+    {
+      "case_ids": [
+        "C3"
+      ],
+      "period_days": 365.25,
+      "power": 0.00009703187019234044,
+      "recovered_amplitude_us": 0.013291735001341122,
+      "diagonal_weighted_delta_chi2": 0.328237005362098
+    }
+  ],
+  "search": {
+    "minimum_period_days": 30.0,
+    "maximum_period_days": 2862.152603828432,
+    "frequency_count": 945,
+    "frequency_oversampling": 5,
+    "independent_fourier_bin_per_day": 0.0001746936901027559,
+    "weights": "scaled_toa_uncertainty_diagonal",
+    "correlated_noise_in_periodogram": "not_modeled",
+    "false_alarm_probability": null
+  },
+  "resources": {
+    "fit_wall_seconds": 2.709884124999917,
+    "total_wall_seconds": 3.709237416000178,
+    "cpu_seconds": 11.820977,
+    "peak_rss_mib": 244.89453125,
+    "external_data_root_size": "746 MiB"
+  },
+  "external_outputs": {
+    "full_record": {
+      "logical_path": "run_records/c0_matched_null_20260809T020331Z.json",
+      "sha256": "86e7b9d152d49383c912a951241c4c13b129186ccec32c5896124b46362b97ab"
+    },
+    "log": {
+      "logical_path": "run_records/c0_matched_null_20260809T020331Z.log",
+      "sha256": "533e28b210641c3ab3689b37f66897798c0457fa04384de3c2cbf78f283092ef"
+    },
+    "periodogram": {
+      "logical_path": "derived/g3/c0/J1744-1134_C0_20260809T020331Z.periodogram.npz",
+      "sha256": "955c081c56bb904b78e472cb74c905b028731232af290ffab92307916d3978a7"
+    },
+    "postfit_model": {
+      "logical_path": "derived/g3/c0/J1744-1134_C0_20260809T020331Z.postfit.par",
+      "sha256": "36dec0b7c3d8074b214124ed8eb713bdf55ad329b5461a904b87c6aa94e77ebe"
+    }
+  },
+  "execution_history": [
+    {
+      "run_id": "20260809T015827Z",
+      "status": "failed_integrity_check",
+      "reason": "Compared refreshed float64 MJD cache rather than authoritative high-precision Time values."
+    },
+    {
+      "run_id": "20260809T015959Z",
+      "status": "superseded_pass",
+      "reason": "Passed before exact frozen-case frequency probes were added."
+    },
+    {
+      "run_id": "20260809T020040Z",
+      "status": "superseded_pass",
+      "reason": "Superseded so the authoritative record could include the final lean Pixi lock hash."
+    },
+    {
+      "run_id": "20260809T020331Z",
+      "status": "authoritative_pass",
+      "pixi_lock_sha256": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8"
+    }
+  ],
+  "authorized_next_cases": [],
+  "blocked_cases": [
+    "C1",
+    "C2",
+    "C3"
+  ],
+  "block_reason": "C0 report requires review and merge before any C1 authorization."
+}

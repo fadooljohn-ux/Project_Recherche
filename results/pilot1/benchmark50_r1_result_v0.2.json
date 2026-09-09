@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "benchmark_id": "pilot1-first-50-corrective-replay-v0.2",
+  "status": "pass",
+  "scorecard_passed": 17,
+  "scorecard_total": 17,
+  "external_record": {
+    "logical_path": "run_records/pilot1/benchmark50-r1-summary.json",
+    "bytes": 58981,
+    "sha256": "25b332e89da6b175524f0b84c711a268c5c560386bc89ea0b214fa8a18010e2f"
+  },
+  "execution": {
+    "case_count": 50,
+    "benchmark_wall_seconds": 616.5501454999976,
+    "projected_complete_wall_hours": 1.1862539420428964,
+    "peak_memory_gib": 0.4431953430175781,
+    "complete_data_root_gib": 0.7165062492713332,
+    "sealed_evaluation_cases_executed": 0,
+    "observed_residual_global_search_executed": false
+  },
+  "null_diagnostics": {
+    "whitened_variance": 1.0106087045935368,
+    "maximum_absolute_pooled_lag_correlation": 0.011626219543872137
+  },
+  "toa_application": {
+    "maximum_adjustment_error_microseconds": 8.961775143756512e-06,
+    "threshold_microseconds": 0.001,
+    "uncentered_residual_target_error_diagnostic_microseconds": 0.0023089756520764688
+  },
+  "full_covariance_audits": {
+    "count": 4,
+    "maximum_amplitude_difference_microseconds": 4.655985029167198e-05,
+    "maximum_phase_difference_radians": 9.572316439498962e-06,
+    "maximum_chi2_difference": 0.0014077404505314917
+  },
+  "warnings": {
+    "expected_count": 246,
+    "unexpected_count": 0,
+    "status": "pass"
+  },
+  "disposition": "authorize_remaining_990_calibration_nulls_only"
+}

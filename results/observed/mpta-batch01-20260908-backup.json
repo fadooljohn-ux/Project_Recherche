@@ -1,0 +1,11 @@
+{
+  "status": "VERIFIED",
+  "created_utc": "2026-09-08T10:36:46.326575+00:00",
+  "archive": "../Recherche Recovery/20260907T223404/mpta-batch01-20260908.tar",
+  "archive_bytes": 397445120,
+  "archive_sha256": "744937e3adb2d6a70ea78b62846dabaf2c5ea6281a5971044aeb7fdeacf7339d",
+  "file_count": 241,
+  "archive_file_set_verified": true,
+  "archive_contents_verified": true,
+  "source_after_hashes_verified": true
+}

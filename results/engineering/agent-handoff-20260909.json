@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "scope": "Harness-independent operating documentation and macOS bootstrap; public workbook closeout fallback",
+  "baseline_commit": "783be01",
+  "fresh_clone_install": {
+    "status": "AGENT_RUNTIME_READY",
+    "checkout": "/private/tmp/recherche-agent-clean-checkout-20260909",
+    "environment": {
+      "python": "3.11.15",
+      "machine": "x86_64",
+      "longdouble_nmant": 63,
+      "numpy": "2.4.6",
+      "scipy": "1.17.1",
+      "pint": "1.1.5",
+      "astropy": "8.0.1"
+    },
+    "scientific_lock_sha256": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8",
+    "operator_requirements_sha256": "5b8c98dc1e8efcb9abe8980bcc9d3c0bb5ed7b7a082af03d73e54f127ffc155e",
+    "qualified_source_files_verified": 71,
+    "workbook_backend": "openpyxl 3.1.5",
+    "historical_host_qualification_transferred": false,
+    "observed_inputs_included": false,
+    "scientific_fits_executed": 0,
+    "next": "Acquire/restore the selected source inputs, verify their provenance, and follow AGENT_README.md. This is not scientific qualification."
+  },
+  "workbook_checks": {
+    "status": "PASS",
+    "temporary_observed_closeouts": 2,
+    "duplicate_updates_unchanged": 2,
+    "conflicting_evidence_rejections": 2,
+    "review_registration": "PASS",
+    "historical_rows_notes_and_candidate_grades_preserved": true,
+    "canonical_master_sha256": "d3774beb5ec634f2fcba1859450c5e9bc755b0fa8954fcbe0b03fc0a334e61e2",
+    "scientific_runs_executed": 0
+  },
+  "scientific_source_files_unchanged": 71,
+  "canonical_master_unchanged": "d3774beb5ec634f2fcba1859450c5e9bc755b0fa8954fcbe0b03fc0a334e61e2",
+  "cli_help_checks": [
+    "calibration --help",
+    "master-workbook --help with portable backend"
+  ],
+  "changed_python_and_shell_syntax": "PASS",
+  "local_document_links": "PASS",
+  "scientific_runs_executed": 0,
+  "limitations": [
+    "Scientific runtime is macOS osx-64; cloud/Linux/Windows agents need a macOS worker",
+    "External input/resource restoration or pinned public acquisition is still required",
+    "Fresh setup does not transfer historical host qualification",
+    "Public workbook fallback supports observed closeout and review entries; existing grading editor remains optional and manual grading is documented"
+  ],
+  "localized_repair": "Preserve exact float values after XLSX serialization instead of accepting 16-digit rounding of historical cells",
+  "files": {
+    "AGENT_README.md": "8ce98d9156e262e22418c03fcafc9cf6c379464c3d809477df00b75b7d4563cb",
+    "CLAUDE.md": "101f9f68a13fb361302cab4149321f95eb03734974f05f56f0b4c4f572d60de4",
+    "README.md": "889594b002c31cf9e86fb6d573278c5731c011eb5c74637daef6e7048886876a",
+    "AGENTS.md": "8fdca8795842ff34dd8b68f6757b13ae2bd60d29453427dd0cb75a1eead2a8b8",
+    "docs/OPERATOR_GUIDE.md": "d2ee2f37c834e861c0e1cd3b5ffd5762407c824fbde65cafb5634f1df5e4a7c4",
+    "docs/MASTER_WORKBOOK.md": "6764547a03230ce7d0f6618831cecc38b79ba68be109922f9e1a851038e0a5f6",
+    "tools/recherche": "b222572ec3138fe1cb4f81aebb4db0ba20d30a02a09f0e43aa4ccfdce26fbc73",
+    "tools/agent_setup.py": "cde4dc45f753a6baad6acff762dc8361236b1a09113a3dc639742572cdcf6ed0",
+    "tools/agent_workbook.py": "6b9d7910bc063f1234e7890b441f8d17c6fc3c23cf4c276621b6edb265ded984",
+    "tools/check_agent_handoff.py": "39c4d53017a2fe0e4f6bbc4e3deb694b14ff77f7c2c812de573062c23fd6b611",
+    "tools/requirements-agent.txt": "5b8c98dc1e8efcb9abe8980bcc9d3c0bb5ed7b7a082af03d73e54f127ffc155e",
+    "tools/ipta_campaign.py": "e77fa11d17d1d322b99e6747fe3a9e23dfc6b4d80adb6f73c7da5d7459fec406",
+    "tools/ipta_prepare.py": "7f2a8eb29dcb0e3d9fe0ac8bbae62b5d07617972fff52fe56c52a848982231a7"
+  },
+  "development_backups_isolated": true
+}

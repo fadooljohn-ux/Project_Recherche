@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "authorization_id": "user-authorization-pilot2-calibration-2026-08-09",
+  "recorded_utc": "2026-08-09T14:50:06Z",
+  "authorization": "frozen_pilot2_calibration_after_successful_package_verification",
+  "initial_execution_scope": "first_gaussian_threshold_calibration_case",
+  "authorization_condition": "all_package_and_execution_freeze_verifications_pass_before_first_case",
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "discovery_claim_authorized": false,
+  "external_adviser_signoff_required": false
+}

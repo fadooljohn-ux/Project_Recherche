@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-08-10T09:35:29Z",
+  "status": "pass",
+  "operation": "v0.2.3_runner_zero_science_integrity_dry_run",
+  "criteria": {
+    "remediation_freeze_passes": true,
+    "implementation_freeze_passes": true,
+    "execution_gate_fail_closed": true,
+    "predecessors_not_loaded": true,
+    "zero_cases_recorded": true,
+    "stage_pending": true,
+    "hard_stop_absent": true,
+    "artifact_verification_passes": true
+  },
+  "execution_gate_status": "fail_closed_before_readiness_freeze",
+  "allowed_gate_failures": [
+    "v0.2.3 readiness freeze is absent",
+    "Separate v0.2.3 execution freeze is absent"
+  ],
+  "science_cases_executed": 0,
+  "random_draws_generated": 0,
+  "model_fits_executed": 0,
+  "periodic_scans_executed": 0,
+  "predecessor_artifacts_loaded": 0,
+  "health_record": "run_records/pilot2/calibration-v0.2.3-health.json",
+  "dashboard": "derived/pilot2/calibration-v0.2.3-dashboard/index.html",
+  "temporary_data_root_destroyed_after_validation": true
+}

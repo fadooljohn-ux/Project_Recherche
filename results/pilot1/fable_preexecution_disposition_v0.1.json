@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "record_id": "fable-preexecution-disposition-v0.1",
+  "status": "accepted_for_freeze_preparation_only",
+  "reviewer": "Claude Fable 5",
+  "review_date": "2026-08-09",
+  "source_disposition_sha256": "bfbdc9f6b42fbc5af766e68801fd7f7b1c37283b8fef8087b5b76f1d0c371c02",
+  "selected_disposition": "ONE_SHOT_FREEZE_PREPARATION_MAY_RESUME_WITH_DELETION_CHECKS_ADVISORY",
+  "manifest_verification": "pass_7_of_7",
+  "independent_recalculation": "pass",
+  "repository_tests": "88_passed",
+  "mandatory_conditions": {
+    "C1_advisory_demotion": "accepted",
+    "C2_frozen_deletion_reporting": "accepted",
+    "C3_no_rerolls_or_new_randomness": "accepted",
+    "C4_borderline_result_mandatory_reporting": "accepted",
+    "C5_robust_refit_containment": "accepted_by_omission_for_v0.1",
+    "C6_unchanged_locked_detector": "accepted",
+    "C7_authority_boundary": "accepted"
+  },
+  "deletion_checks_as_hard_vetoes": false,
+  "robust_candidate_refit_included": false,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "final_fable_signoff_required": true,
+  "explicit_user_execution_authorization_required": true,
+  "next_gate": "prepare_hash_bound_one_shot_freeze_for_final_fable_review"
+}

@@ -1,0 +1,13 @@
+#!/bin/sh
+set -eu
+recherche_repo=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+cd "$recherche_repo"
+export PYTHONPATH="$recherche_repo/src"
+export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1
+mode=${1:-current}
+if [ "$#" -gt 0 ]; then shift; fi
+case "$mode" in
+  current) exec .pixi/envs/default/bin/python -m pytest -q -p no:cacheprovider "$@" ;;
+  history) exec .pixi/envs/default/bin/python tools/check_history.py "$@" ;;
+  *) echo 'Usage: tools/checks current [pytest arguments] | history' >&2; exit 2 ;;
+esac

@@ -1,0 +1,191 @@
+{
+  "recorded_utc": "2026-09-08T02:52:30.082874+00:00",
+  "starting_commit": "7845f85ecb65017c75081649f08a7ba0968e7b49",
+  "retained_repair": "Signal derivatives use the same upstream delay as the forward model; current implementation digest includes the signal component.",
+  "rejected_change": "Convergence-limited explicit-covariance audit; regression preserved and original solver restored.",
+  "qualification_status": "Original formal FAIL preserved; no new formal attempt. Annual solver agreement remains an open numerical issue.",
+  "focused_tests": {
+    "passed": 76,
+    "seconds": 1.83
+  },
+  "formal_artifacts_unchanged": true,
+  "formal_ledger_verification": {
+    "status": "pass",
+    "completed_cases": 344,
+    "stage_results": 2,
+    "failures": []
+  },
+  "development_runs": {
+    "pilot2-ioc-dev-annual-jacobian-20260908": {
+      "result": {
+        "accounting": {
+          "cases": 1,
+          "primary_fits": 2,
+          "random_draws": 1,
+          "scans": 1,
+          "solver_audits": 1
+        },
+        "case_artifacts": [
+          "cases/recherche-dev-20260907-annual-365d.json"
+        ],
+        "checks": {
+          "all_fits_converged": true,
+          "case_records_valid": true,
+          "offline_resources_verified": true,
+          "solver_audits_passed": true
+        },
+        "formal_qualification": false,
+        "scope": "selected development fixtures; no population recovery or discovery claim",
+        "status": "PASS"
+      },
+      "elapsed_seconds": 178.071,
+      "terminal_state": "complete",
+      "terminal_artifacts_verified": 11,
+      "solver_comparisons": {
+        "annual": {
+          "amplitude_difference_microseconds": 0.003115209627111426,
+          "chi2_difference": 0.0019515993885761418,
+          "phase_difference_radians": 7.278756657713713e-05
+        }
+      }
+    },
+    "pilot2-ioc-dev-solver-repair-20260908": {
+      "result": {
+        "accounting": {
+          "cases": 4,
+          "primary_fits": 8,
+          "random_draws": 4,
+          "scans": 4,
+          "solver_audits": 2
+        },
+        "case_artifacts": [
+          "cases/recherche-dev-20260907-main.json",
+          "cases/recherche-dev-20260907-phase_reference.json",
+          "cases/recherche-dev-20260907-annual-365d.json",
+          "cases/recherche-dev-20260907-boundary.json"
+        ],
+        "checks": {
+          "all_fits_converged": true,
+          "case_records_valid": true,
+          "offline_resources_verified": true,
+          "solver_audits_passed": false
+        },
+        "formal_qualification": false,
+        "scope": "selected development fixtures; no population recovery or discovery claim",
+        "status": "FAIL"
+      },
+      "elapsed_seconds": 100.165,
+      "terminal_state": "operational_failure",
+      "terminal_artifacts_verified": 14,
+      "solver_comparisons": {
+        "main": {
+          "amplitude_difference_microseconds": 1.2100246093993405e-07,
+          "chi2_difference": 0.0009008554217189157,
+          "phase_difference_radians": 2.8848220118282697e-08
+        },
+        "annual": {
+          "amplitude_difference_microseconds": 0.01338506096568537,
+          "chi2_difference": 0.00012969197700840596,
+          "phase_difference_radians": 0.00029232197754669453
+        }
+      }
+    },
+    "pilot2-ioc-dev-jacobian-final-20260908": {
+      "result": {
+        "accounting": {
+          "cases": 4,
+          "primary_fits": 8,
+          "random_draws": 4,
+          "scans": 4,
+          "solver_audits": 2
+        },
+        "case_artifacts": [
+          "cases/recherche-dev-20260907-main.json",
+          "cases/recherche-dev-20260907-phase_reference.json",
+          "cases/recherche-dev-20260907-annual-365d.json",
+          "cases/recherche-dev-20260907-boundary.json"
+        ],
+        "checks": {
+          "all_fits_converged": true,
+          "case_records_valid": true,
+          "offline_resources_verified": true,
+          "solver_audits_passed": true
+        },
+        "formal_qualification": false,
+        "scope": "selected development fixtures; no population recovery or discovery claim",
+        "status": "PASS"
+      },
+      "elapsed_seconds": 215.821,
+      "terminal_state": "complete",
+      "terminal_artifacts_verified": 14,
+      "solver_comparisons": {
+        "main": {
+          "amplitude_difference_microseconds": 1.8096316400928458e-06,
+          "chi2_difference": 0.0006581476849305545,
+          "phase_difference_radians": 6.059861229479324e-08
+        },
+        "annual": {
+          "amplitude_difference_microseconds": 0.003115209627111426,
+          "chi2_difference": 0.0019515993885761418,
+          "phase_difference_radians": 7.278756657713713e-05
+        }
+      }
+    }
+  },
+  "separate_fixture_comparisons": {
+    "baseline-diagnosis": {
+      "fixture": {
+        "case_id": "recherche-dev-annual-diagnosis-20260908-pi",
+        "family": "annual",
+        "period_days": 365.25,
+        "amplitude_microseconds": 5.0,
+        "phase_radians": 3.141592653589793,
+        "noise_realization_index": 0,
+        "seed": 8183475920083870252,
+        "stratum": "detection_recovery"
+      },
+      "amplitude_difference_us": 0.004250147181807051,
+      "phase_difference_radians": 2.0181141442421335e-06,
+      "chi2_difference": 0.0015203426553398458,
+      "elapsed_seconds": 89.81270820897771
+    },
+    "repaired-diagnosis": {
+      "fixture": {
+        "case_id": "recherche-dev-annual-diagnosis-20260908-pi",
+        "family": "annual",
+        "period_days": 365.25,
+        "amplitude_microseconds": 5.0,
+        "phase_radians": 3.141592653589793,
+        "noise_realization_index": 0,
+        "seed": 8183475920083870252,
+        "stratum": "detection_recovery"
+      },
+      "amplitude_difference_us": 0.006514538803642722,
+      "phase_difference_radians": 4.13617858474602e-06,
+      "chi2_difference": 0.0021825925402936264,
+      "elapsed_seconds": 128.8742035839823
+    },
+    "final-solver-diagnosis": {
+      "fixture": {
+        "case_id": "recherche-dev-annual-diagnosis-20260908-pi",
+        "family": "annual",
+        "period_days": 365.25,
+        "amplitude_microseconds": 5.0,
+        "phase_radians": 3.141592653589793,
+        "noise_realization_index": 0,
+        "seed": 8183475920083870252,
+        "stratum": "detection_recovery"
+      },
+      "amplitude_difference_us": 7.687326613847745e-05,
+      "phase_difference_radians": 4.9515933131516476e-08,
+      "chi2_difference": 0.000451906871603569,
+      "elapsed_seconds": 28.6443195840111
+    }
+  },
+  "source_sha256": {
+    "src/pulsar_pilot/circular_signal.py": "4b66f6b7e72168d889ea3e3f0c3039afa40415a8c544e69b4aab8d34f42e58bb",
+    "src/pulsar_pilot/pilot2_release_contract.py": "516cd30739e76e0b6510957f3ddaa4649ddc6399a9f8af5e776dde8993b1043f",
+    "src/pulsar_pilot/c1r1.py": "38850dbc99028b4ec5edad2910144b0c256836c2b9c787e48f5ec1c01d034176",
+    "tests/test_circular_signal.py": "30bb18cf079949dd61b75bf5d0d9357448f08c7f0721f7d542c1d03731714a85"
+  }
+}

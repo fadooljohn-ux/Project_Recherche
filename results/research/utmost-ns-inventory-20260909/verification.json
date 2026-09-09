@@ -1,0 +1,31 @@
+{
+  "status": "INTAKE_SAVED_EXECUTION_PENDING_INPUTS",
+  "historical_result_files_unchanged": 1210,
+  "workbook_preservation": {
+    "Overview": {
+      "historical_rows_preserved": 33,
+      "rows_added": 0
+    },
+    "Targets": {
+      "historical_rows_preserved": 744,
+      "rows_added": 11
+    },
+    "Searches": {
+      "historical_rows_preserved": 338,
+      "rows_added": 0
+    },
+    "Work log": {
+      "historical_rows_preserved": 131,
+      "rows_added": 4
+    },
+    "Candidate grades": {
+      "historical_rows_preserved": 8,
+      "rows_added": 0
+    }
+  },
+  "master_sha256": "2048970895e8648e4b84123eee0578a34c149f9c80a544d2c6334fbb30fbb39f",
+  "observed_searches_launched": 0,
+  "j1752_follow_up_performed": false,
+  "standalone_coverage_eligible": 0,
+  "combined_coverage_eligible": null
+}

@@ -1,0 +1,26 @@
+.DS_Store
+.pixi/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.coverage
+.env
+results/**/*.png
+results/**/*.pdf
+results/**/*.npz
+results/**/*.h5
+results/**/*.hdf5
+results/**/*.pickle
+results/**/*.pkl
+results/**/*.tim
+results/**/*.par
+*.tar
+*.tar.gz
+*.fits
+*.fit
+
+# Reconstructable agent/operator runtime and local setup receipt
+.agent-venv/
+.agent-setup.json

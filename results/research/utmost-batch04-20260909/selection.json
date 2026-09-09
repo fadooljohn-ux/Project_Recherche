@@ -1,0 +1,1952 @@
+{
+  "created_utc": "2026-09-09T06:07:07.290186+00:00",
+  "dataset": "UTMOST DR1",
+  "eligible_before_selection": 32,
+  "inventory_sha256": "be35df020956807029290b9267e5779e1fce23757b6f4ea4c506b3b59f6a9fb6",
+  "master_sha256_at_selection": "d0a4dcd84704b9bd6489cfa0e4856c39811e0140e0eb5e8f16a76593c4789ed6",
+  "observed_search_authorized": true,
+  "policy": {
+    "detection_probability": 0.95,
+    "false_alarm_probability": 0.01,
+    "maximum_condition_number": 10000000000.0,
+    "maximum_period_days": 400.0,
+    "minimum_period_days": 30.0,
+    "minimum_retained_power": 0.2,
+    "null_count": 4096,
+    "oversampling": 5,
+    "search_count": 25,
+    "seed": 3333721762
+  },
+  "previously_consumed_targets": [
+    "J0134-2937",
+    "J0151-0635",
+    "J0255-5304",
+    "J0418-4154",
+    "J0452-1759",
+    "J0536-7543",
+    "J0601-0527",
+    "J0738-4042",
+    "J0742-2822",
+    "J0820-1350",
+    "J0837+0610",
+    "J0837-4135",
+    "J0856-6137",
+    "J0907-5157",
+    "J0924-5814",
+    "J1001-5507",
+    "J1157-6224",
+    "J1210-5559",
+    "J1224-6407",
+    "J1231-6303",
+    "J1243-6423",
+    "J1253-5820",
+    "J1305-6455",
+    "J1306-6617",
+    "J1320-5359",
+    "J1326-5859",
+    "J1327-6222",
+    "J1327-6301",
+    "J1401-6357",
+    "J1418-3921",
+    "J1430-6623",
+    "J1435-5954",
+    "J1453-6413",
+    "J1534-5334",
+    "J1544-5308",
+    "J1557-4258",
+    "J1559-4438",
+    "J1604-4909",
+    "J1623-4256",
+    "J1633-5015",
+    "J1644-4559",
+    "J1651-5222",
+    "J1705-3423",
+    "J1707-4053",
+    "J1715-4034",
+    "J1751-4657",
+    "J1807-0847",
+    "J1824-1945",
+    "J1836-1008",
+    "J1847-0402",
+    "J1848-0123",
+    "J2046+1540",
+    "J2046-0421",
+    "J2330-2005"
+  ],
+  "remaining_after_selection": 7,
+  "resources": {
+    "../Project Recherche Data/operational-20260908/metadata/resources.json": "70e6ecc3e9181fe2c8e5c51c4367942fb19b09f5cd40285b089bcc1e2cf2e317",
+    "../Project Recherche Data/utmost-batch04-20260909/de430.bsp": "6e1b277c5f07135a84950604b83e56b736be696a7f3560bcddb1d4aeb944fca1",
+    "../Project Recherche Data/utmost-inventory-20260909/TimingDataRelease1-e6c36c26b54749d89d29c148da98f0919b3ce5a8/clock_file/mo2gps.clk": "218e2d0cec340b3e273cf81081e9b58d41925acfe2b751ef96ec1ddbeb3df05e"
+  },
+  "rows": [
+    {
+      "aliases": [
+        "B0628-28"
+      ],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J0630-2834",
+      "declared_ntoa": 87,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58406.78818189156888607",
+      "frequency_max_mhz": 840.234009,
+      "frequency_min_mhz": 834.414978,
+      "in_master": true,
+      "median_toa_uncertainty_us": 715.092,
+      "noise_parameters": {
+        "TNGLOBALEF": "1.66578",
+        "TNGLOBALEQ": "-2.76693"
+      },
+      "observing_days": 83,
+      "par_path": "pulsars/J0630-2834/J0630-2834.par",
+      "par_sha256": "b7e704ee3eb8446459d29baa403f0ffc7c0e1fa65b28a07f21b2ff7b46389d0d",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": false,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        false,
+        1,
+        223.45302514443588,
+        "J0630-2834"
+      ],
+      "raw_toas": 87,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1300.4391606647685,
+      "start_mjd": "57106.34902122680048464",
+      "target": "J0630-2834",
+      "tim_path": "pulsars/J0630-2834/J0630-2834.tim",
+      "tim_sha256": "ad5849f3a4921616d3b5e518582b69e95151ed457c81e238400af7048107f083",
+      "toas_in_model_window": 87,
+      "toas_outside_model_window": 0,
+      "units": "implicit; resolve EPHVER",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J1034-3224",
+      "declared_ntoa": 41,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58505.68760527067042432",
+      "frequency_max_mhz": 840.234009,
+      "frequency_min_mhz": 834.617981,
+      "in_master": true,
+      "median_toa_uncertainty_us": 2119.861,
+      "noise_parameters": {
+        "TNGLOBALEF": "0.695093",
+        "TNGLOBALEQ": "-5.92767"
+      },
+      "observing_days": 40,
+      "par_path": "pulsars/J1034-3224/J1034-3224.par",
+      "par_sha256": "9f44a908e9ff1676c46540566082af453f7b4fa86896f07a37a6b4efb4d8da3c",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": false,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        false,
+        1,
+        230.12219674184698,
+        "J1034-3224"
+      ],
+      "raw_toas": 41,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1332.2713890583161,
+      "start_mjd": "57173.41621621235433537",
+      "target": "J1034-3224",
+      "tim_path": "pulsars/J1034-3224/J1034-3224.tim",
+      "tim_sha256": "798ef0dfd3113839b1a1e48ddb5a3f56d1508477294aac3cf1ab05ac0916a039",
+      "toas_in_model_window": 41,
+      "toas_outside_model_window": 0,
+      "units": "implicit; resolve EPHVER",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [
+        "B1356-60"
+      ],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J1359-6038",
+      "declared_ntoa": 429,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58423.05751207102979805",
+      "frequency_max_mhz": 840.234009,
+      "frequency_min_mhz": 833.721985,
+      "in_master": true,
+      "median_toa_uncertainty_us": 37.447,
+      "noise_parameters": {
+        "TNGLOBALEF": "1.18585",
+        "TNGLOBALEQ": "-4.7688",
+        "TNREDAMP": "-10.0233",
+        "TNREDC": "10",
+        "TNREDGAM": "4.98972"
+      },
+      "observing_days": 309,
+      "par_path": "pulsars/J1359-6038/J1359-6038.par",
+      "par_sha256": "e5642cb6877f4ef89a8bc3e1ba7509f7c4d26d79149d2f81378b61585f753a03",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        true,
+        0,
+        2.2962119383515955,
+        "J1359-6038"
+      ],
+      "raw_toas": 429,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1262.5516676371637,
+      "start_mjd": "57160.50584443386610545",
+      "target": "J1359-6038",
+      "tim_path": "pulsars/J1359-6038/J1359-6038.tim",
+      "tim_sha256": "e49bf5668f88ee20ac731466a221cf12b9f0dba4a319f22918f26503ef505a9f",
+      "toas_in_model_window": 429,
+      "toas_outside_model_window": 0,
+      "units": "TDB",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [
+        "B0906-49"
+      ],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J0908-4913",
+      "declared_ntoa": 173,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58409.89166707585944849",
+      "frequency_max_mhz": 840.22998,
+      "frequency_min_mhz": 833.010986,
+      "in_master": true,
+      "median_toa_uncertainty_us": 46.509,
+      "noise_parameters": {
+        "TNGLOBALEF": "1.34321",
+        "TNGLOBALEQ": "-6.98425",
+        "TNREDAMP": "-9.61292",
+        "TNREDC": "10",
+        "TNREDGAM": "4.94295"
+      },
+      "observing_days": 152,
+      "par_path": "pulsars/J0908-4913/J0908-4913.par",
+      "par_sha256": "4d6dba995401f115f91d89272f521c3c83227d735153a44433ebde16a7d41a33",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        true,
+        0,
+        4.749615627353939,
+        "J0908-4913"
+      ],
+      "raw_toas": 173,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1238.5602428963064,
+      "start_mjd": "57171.33142417955316361",
+      "target": "J0908-4913",
+      "tim_path": "pulsars/J0908-4913/J0908-4913.tim",
+      "tim_sha256": "a017e7e138187f2921701bf42f8010b249e376cd87fa0fadc34e5da139b4397b",
+      "toas_in_model_window": 173,
+      "toas_outside_model_window": 0,
+      "units": "implicit; resolve EPHVER",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [
+        "B1557-50"
+      ],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J1600-5044",
+      "declared_ntoa": 175,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58426.13413473847536039",
+      "frequency_max_mhz": 840.234009,
+      "frequency_min_mhz": 834.140991,
+      "in_master": true,
+      "median_toa_uncertainty_us": 165.119,
+      "noise_parameters": {
+        "TNGLOBALEF": "0.903154",
+        "TNGLOBALEQ": "-4.2572",
+        "TNREDAMP": "-10.2008",
+        "TNREDC": "10",
+        "TNREDGAM": "6.09071"
+      },
+      "observing_days": 157,
+      "par_path": "pulsars/J1600-5044/J1600-5044.par",
+      "par_sha256": "c9cecfe1259b1336dd697682ad50a544e833b5d5e48dbea6f21119b352e13ba9",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        true,
+        0,
+        12.023375029212534,
+        "J1600-5044"
+      ],
+      "raw_toas": 175,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1291.5013825378658,
+      "start_mjd": "57134.63275220060969062",
+      "target": "J1600-5044",
+      "tim_path": "pulsars/J1600-5044/J1600-5044.tim",
+      "tim_sha256": "a0d4be8760f779aebc06b6da1d89ea0a50c85138ddf714534ec5920ddb6b5f07",
+      "toas_in_model_window": 175,
+      "toas_outside_model_window": 0,
+      "units": "TDB",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [
+        "B1046-58"
+      ],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J1048-5832",
+      "declared_ntoa": 232,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58415.94756421744094865",
+      "frequency_max_mhz": 835.60199,
+      "frequency_min_mhz": 834.231995,
+      "in_master": true,
+      "median_toa_uncertainty_us": 137.443,
+      "noise_parameters": {
+        "TNGLOBALEF": "1.1366",
+        "TNGLOBALEQ": "-3.98387",
+        "TNREDAMP": "-8.62911",
+        "TNREDC": "10",
+        "TNREDGAM": "6.23412"
+      },
+      "observing_days": 198,
+      "par_path": "pulsars/J1048-5832/J1048-5832.par",
+      "par_sha256": "f9a5075d07ff34026d52c0bd96127ff8dba2c8db51f299783d1fe85e654459fe",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 232,
+      "rank_key": [
+        true,
+        0,
+        12.313273022786287,
+        "J1048-5832"
+      ],
+      "raw_toas": 232,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1224.5111296837056,
+      "start_mjd": "57191.43643453373532992",
+      "target": "J1048-5832",
+      "tim_path": "pulsars/J1048-5832/J1048-5832.tim",
+      "tim_sha256": "de7f3884a950dbbbee5a5f0855fda8897b88beec1294f579bb2529c12b96cfd6",
+      "toas_in_model_window": 232,
+      "toas_outside_model_window": 0,
+      "units": "implicit; resolve EPHVER",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [
+        "B1451-68"
+      ],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J1456-6843",
+      "declared_ntoa": 119,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58465.97904349609671826",
+      "frequency_max_mhz": 840.234009,
+      "frequency_min_mhz": 833.77301,
+      "in_master": true,
+      "median_toa_uncertainty_us": 72.101,
+      "noise_parameters": {
+        "TNGLOBALEF": "0.953783",
+        "TNGLOBALEQ": "-3.86066"
+      },
+      "observing_days": 108,
+      "par_path": "pulsars/J1456-6843/J1456-6843.par",
+      "par_sha256": "ab4f0f82ffb4dec9bbbcf596d01020637e00cece177a5b6def4130080cfadca7",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        true,
+        0,
+        14.12010769222348,
+        "J1456-6843"
+      ],
+      "raw_toas": 119,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1500.9141852970786,
+      "start_mjd": "56965.06485819901821088",
+      "target": "J1456-6843",
+      "tim_path": "pulsars/J1456-6843/J1456-6843.tim",
+      "tim_sha256": "3b8b840ee10319891018a0c72f5e4d8ced8e2e184dec0f11054c448b0686a63b",
+      "toas_in_model_window": 119,
+      "toas_outside_model_window": 0,
+      "units": "TDB",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [
+        "B1055-52"
+      ],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J1057-5226",
+      "declared_ntoa": 126,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58422.93250691606148450",
+      "frequency_max_mhz": 840.234009,
+      "frequency_min_mhz": 833.971985,
+      "in_master": true,
+      "median_toa_uncertainty_us": 129.39600000000002,
+      "noise_parameters": {
+        "TNGLOBALEF": "1.25986",
+        "TNGLOBALEQ": "-4.20755",
+        "TNREDAMP": "-9.97154",
+        "TNREDC": "10",
+        "TNREDGAM": "6.11065"
+      },
+      "observing_days": 120,
+      "par_path": "pulsars/J1057-5226/J1057-5226.par",
+      "par_sha256": "6f95d49023f31ae59da658162c6675b036a65b37d1496bf9f6e8b4d127acff34",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        true,
+        0,
+        15.538183416159375,
+        "J1057-5226"
+      ],
+      "raw_toas": 126,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1288.4904340437536,
+      "start_mjd": "57134.44207287230796055",
+      "target": "J1057-5226",
+      "tim_path": "pulsars/J1057-5226/J1057-5226.tim",
+      "tim_sha256": "b6dc75399096f4fbf8b2468ac8fbbaf82df0a541231f0531c5f2a4602d5459e7",
+      "toas_in_model_window": 126,
+      "toas_outside_model_window": 0,
+      "units": "implicit; resolve EPHVER",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [
+        "B1159-58"
+      ],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J1202-5820",
+      "declared_ntoa": 134,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58424.96597932326672264",
+      "frequency_max_mhz": 840.232971,
+      "frequency_min_mhz": 834.171021,
+      "in_master": true,
+      "median_toa_uncertainty_us": 173.59199999999998,
+      "noise_parameters": {
+        "TNGLOBALEF": "0.861438",
+        "TNGLOBALEQ": "-3.96719",
+        "TNREDAMP": "-10.2519",
+        "TNREDC": "10",
+        "TNREDGAM": "4.96166"
+      },
+      "observing_days": 130,
+      "par_path": "pulsars/J1202-5820/J1202-5820.par",
+      "par_sha256": "9c0bfb3feca06f080bf9ba88cb69e7ffa782ea38bdb75b6e6c7161b6a680cd80",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        true,
+        0,
+        15.927287013695546,
+        "J1202-5820"
+      ],
+      "raw_toas": 134,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1251.4741485206855,
+      "start_mjd": "57173.49183080258122658",
+      "target": "J1202-5820",
+      "tim_path": "pulsars/J1202-5820/J1202-5820.tim",
+      "tim_sha256": "752122f8bceb79260dbf9887dec29b07a34718c388cc31ca44f12ea8a749e8f0",
+      "toas_in_model_window": 134,
+      "toas_outside_model_window": 0,
+      "units": "implicit; resolve EPHVER",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [
+        "B1054-62"
+      ],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J1056-6258",
+      "declared_ntoa": 198,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58421.93066934213333496",
+      "frequency_max_mhz": 840.234009,
+      "frequency_min_mhz": 833.966003,
+      "in_master": true,
+      "median_toa_uncertainty_us": 169.22050000000002,
+      "noise_parameters": {
+        "TNGLOBALEF": "1.36224",
+        "TNGLOBALEQ": "-4.1625",
+        "TNREDAMP": "-9.72759",
+        "TNREDC": "10",
+        "TNREDGAM": "2.91699"
+      },
+      "observing_days": 170,
+      "par_path": "pulsars/J1056-6258/J1056-6258.par",
+      "par_sha256": "e2e87fae6f693ff1f92a6612f0203acae8821882bc1b74ff9f40c1d2bb592650",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        true,
+        0,
+        17.09605830363696,
+        "J1056-6258"
+      ],
+      "raw_toas": 198,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1315.3965276732906,
+      "start_mjd": "57106.53414166884272163",
+      "target": "J1056-6258",
+      "tim_path": "pulsars/J1056-6258/J1056-6258.tim",
+      "tim_sha256": "36874a2e41dbcf553a1e08a7b6adb75cef663cd1fc13579f52e3bc77c6c3b809",
+      "toas_in_model_window": 198,
+      "toas_outside_model_window": 0,
+      "units": "implicit; resolve EPHVER",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [
+        "B1826-17"
+      ],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J1829-1751",
+      "declared_ntoa": 79,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58410.27950503060235121",
+      "frequency_max_mhz": 835.666992,
+      "frequency_min_mhz": 834.382996,
+      "in_master": true,
+      "median_toa_uncertainty_us": 142.66,
+      "noise_parameters": {
+        "TNGLOBALEF": "1.08492",
+        "TNGLOBALEQ": "-6.68067",
+        "TNREDAMP": "-9.68135",
+        "TNREDC": "10",
+        "TNREDGAM": "5.78601"
+      },
+      "observing_days": 75,
+      "par_path": "pulsars/J1829-1751/J1829-1751.par",
+      "par_sha256": "205f287c06d66b436f529980bbef8a2a5f59a71ac4bd7b82d6426d42d444bce9",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 79,
+      "rank_key": [
+        true,
+        0,
+        17.413528610549356,
+        "J1829-1751"
+      ],
+      "raw_toas": 79,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1214.6342876960255,
+      "start_mjd": "57195.64521733457681307",
+      "target": "J1829-1751",
+      "tim_path": "pulsars/J1829-1751/J1829-1751.tim",
+      "tim_sha256": "98b150afa66a08b66d8c8a21e5b06de8764a3f782170c5aa76b486f7b43cfdb1",
+      "toas_in_model_window": 79,
+      "toas_outside_model_window": 0,
+      "units": "implicit; resolve EPHVER",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J1013-5934",
+      "declared_ntoa": 132,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58512.64954281949415105",
+      "frequency_max_mhz": 835.616028,
+      "frequency_min_mhz": 834.245972,
+      "in_master": true,
+      "median_toa_uncertainty_us": 322.3115,
+      "noise_parameters": {
+        "TNGLOBALEF": "0.967401",
+        "TNGLOBALEQ": "-9.72716"
+      },
+      "observing_days": 102,
+      "par_path": "pulsars/J1013-5934/J1013-5934.par",
+      "par_sha256": "b321041293c458b11702845d6992a557d3d8d8c518b8357a93d1cb5c7125a6a9",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        true,
+        0,
+        27.139095401759253,
+        "J1013-5934"
+      ],
+      "raw_toas": 132,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1221.5909838012285,
+      "start_mjd": "57291.05855901826569010",
+      "target": "J1013-5934",
+      "tim_path": "pulsars/J1013-5934/J1013-5934.tim",
+      "tim_sha256": "ec2c7307426dcadf8fb1d604d559fb4bb2494c6a76c58f36adffb2f4c3485aee",
+      "toas_in_model_window": 132,
+      "toas_outside_model_window": 0,
+      "units": "implicit; resolve EPHVER",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [
+        "B1133-55"
+      ],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J1136-5525",
+      "declared_ntoa": 147,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58421.95705927546313774",
+      "frequency_max_mhz": 840.234009,
+      "frequency_min_mhz": 834.065979,
+      "in_master": true,
+      "median_toa_uncertainty_us": 306.173,
+      "noise_parameters": {
+        "TNGLOBALEF": "1.04494",
+        "TNGLOBALEQ": "-3.73226",
+        "TNREDAMP": "-10.3309",
+        "TNREDC": "10",
+        "TNREDGAM": "8.61158"
+      },
+      "observing_days": 116,
+      "par_path": "pulsars/J1136-5525/J1136-5525.par",
+      "par_sha256": "cbb60e9c0629a37ea779400874669f3441ccbf0dc4014c2e98f807759cceacdb",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        true,
+        0,
+        30.49159955892172,
+        "J1136-5525"
+      ],
+      "raw_toas": 147,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1258.5357042809414,
+      "start_mjd": "57163.42135499452164638",
+      "target": "J1136-5525",
+      "tim_path": "pulsars/J1136-5525/J1136-5525.tim",
+      "tim_sha256": "6e145c12dc1495d6f185f30f3a68774ded6c50be7d09b332ec2fadd3996d64ea",
+      "toas_in_model_window": 147,
+      "toas_outside_model_window": 0,
+      "units": "implicit; resolve EPHVER",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [
+        "B1424-55"
+      ],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J1428-5530",
+      "declared_ntoa": 168,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58465.95891087369903971",
+      "frequency_max_mhz": 840.234009,
+      "frequency_min_mhz": 834.492004,
+      "in_master": true,
+      "median_toa_uncertainty_us": 257.3045,
+      "noise_parameters": {
+        "TNGLOBALEF": "1.35128",
+        "TNGLOBALEQ": "-3.402"
+      },
+      "observing_days": 156,
+      "par_path": "pulsars/J1428-5530/J1428-5530.par",
+      "par_sha256": "b4f11a6c1f186cb409874a6ad493a54a2c0bbaf6bfbf83e3fd304d64e0949687",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        true,
+        0,
+        40.67327072912173,
+        "J1428-5530"
+      ],
+      "raw_toas": 168,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1305.4266739040245,
+      "start_mjd": "57160.53223696967447154",
+      "target": "J1428-5530",
+      "tim_path": "pulsars/J1428-5530/J1428-5530.tim",
+      "tim_sha256": "80d274f6c0a8609cbc4827d04761a844b486ae2ac14bc86bb24c6246b5ce608f",
+      "toas_in_model_window": 168,
+      "toas_outside_model_window": 0,
+      "units": "TDB",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [
+        "B1601-52"
+      ],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J1605-5257",
+      "declared_ntoa": 162,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58504.92152931311171571",
+      "frequency_max_mhz": 840.234009,
+      "frequency_min_mhz": 833.27002,
+      "in_master": true,
+      "median_toa_uncertainty_us": 507.4335,
+      "noise_parameters": {
+        "TNGLOBALEF": "1.1281",
+        "TNGLOBALEQ": "-3.68351"
+      },
+      "observing_days": 147,
+      "par_path": "pulsars/J1605-5257/J1605-5257.par",
+      "par_sha256": "2c15798c9ced795b25b848196dbe1e6f311f3acbb4c3a279818571500c66d899",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        true,
+        0,
+        47.83164477339,
+        "J1605-5257"
+      ],
+      "raw_toas": 162,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1334.3248802736007,
+      "start_mjd": "57170.59664903951107107",
+      "target": "J1605-5257",
+      "tim_path": "pulsars/J1605-5257/J1605-5257.tim",
+      "tim_sha256": "6e60d2e693449e281eeb04f5dfe4f89a8fa77d3d7ea3a8e6578c86d820e2391d",
+      "toas_in_model_window": 162,
+      "toas_outside_model_window": 0,
+      "units": "TDB",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [
+        "B1322-66"
+      ],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J1326-6700",
+      "declared_ntoa": 132,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58425.02881034305277552",
+      "frequency_max_mhz": 840.234009,
+      "frequency_min_mhz": 833.963989,
+      "in_master": true,
+      "median_toa_uncertainty_us": 571.8875,
+      "noise_parameters": {
+        "TNGLOBALEF": "1.1992",
+        "TNGLOBALEQ": "-4.05738",
+        "TNREDAMP": "-9.40495",
+        "TNREDC": "10",
+        "TNREDGAM": "3.73586"
+      },
+      "observing_days": 118,
+      "par_path": "pulsars/J1326-6700/J1326-6700.par",
+      "par_sha256": "6b4560c636f72541e8422959a28d5234789c3be09d6b75f45601662fe6782781",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        true,
+        0,
+        60.17712303175074,
+        "J1326-6700"
+      ],
+      "raw_toas": 132,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1261.5286422283148,
+      "start_mjd": "57163.50016811473800971",
+      "target": "J1326-6700",
+      "tim_path": "pulsars/J1326-6700/J1326-6700.tim",
+      "tim_sha256": "9a8ab82680028ce14e02cf39d0fb64e7c6759baf08f4aa566102562015a7aa61",
+      "toas_in_model_window": 132,
+      "toas_outside_model_window": 0,
+      "units": "implicit; resolve EPHVER",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [
+        "B1011-58"
+      ],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J1012-5857",
+      "declared_ntoa": 193,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58512.66246695165872538",
+      "frequency_max_mhz": 835.620972,
+      "frequency_min_mhz": 834.247986,
+      "in_master": true,
+      "median_toa_uncertainty_us": 940.383,
+      "noise_parameters": {
+        "TNGLOBALEF": "1.01041",
+        "TNGLOBALEQ": "-5.31794"
+      },
+      "observing_days": 142,
+      "par_path": "pulsars/J1012-5857/J1012-5857.par",
+      "par_sha256": "eaf44c951a161df3c38b4b08ed82cfc3f08f32468491fe2bd8218a906838e39b",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        true,
+        0,
+        68.39578101521741,
+        "J1012-5857"
+      ],
+      "raw_toas": 193,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1321.2513751280164,
+      "start_mjd": "57191.41109182364237995",
+      "target": "J1012-5857",
+      "tim_path": "pulsars/J1012-5857/J1012-5857.tim",
+      "tim_sha256": "d682296109944959ec7b1c19b7343631b964eed6431550532a1c4925c5a7fe4a",
+      "toas_in_model_window": 193,
+      "toas_outside_model_window": 0,
+      "units": "implicit; resolve EPHVER",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [
+        "B1648-42"
+      ],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J1651-4246",
+      "declared_ntoa": 148,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58402.23425794694623647",
+      "frequency_max_mhz": 840.234009,
+      "frequency_min_mhz": 832.68103,
+      "in_master": true,
+      "median_toa_uncertainty_us": 988.386,
+      "noise_parameters": {
+        "TNGLOBALEF": "1.20104",
+        "TNGLOBALEQ": "-9.7449",
+        "TNREDAMP": "-12.6332",
+        "TNREDC": "10",
+        "TNREDGAM": "15.309"
+      },
+      "observing_days": 98,
+      "par_path": "pulsars/J1651-4246/J1651-4246.par",
+      "par_sha256": "00f9ba1de6a28112427473f0078782f9cea77912466854e38c1c63e2e9c88d67",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        true,
+        0,
+        97.57828910195958,
+        "J1651-4246"
+      ],
+      "raw_toas": 148,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1231.613884730111,
+      "start_mjd": "57170.62037321683527935",
+      "target": "J1651-4246",
+      "tim_path": "pulsars/J1651-4246/J1651-4246.tim",
+      "tim_sha256": "b23e39245475548421175327aed6206770462a6743a40a9b45fd44cbe287ad1e",
+      "toas_in_model_window": 148,
+      "toas_outside_model_window": 0,
+      "units": "TDB",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J1840-0809",
+      "declared_ntoa": 75,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58499.04303242803820240",
+      "frequency_max_mhz": 835.70697,
+      "frequency_min_mhz": 834.669006,
+      "in_master": true,
+      "median_toa_uncertainty_us": 1272.636,
+      "noise_parameters": {
+        "TNGLOBALEF": "0.999368",
+        "TNGLOBALEQ": "-3.20047"
+      },
+      "observing_days": 69,
+      "par_path": "pulsars/J1840-0809/J1840-0809.par",
+      "par_sha256": "4b84d3d74ef57dd37f8a9e3df0a37055123d412df5ef7002eafd00b0d08f9e75",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        true,
+        0,
+        163.90250294145952,
+        "J1840-0809"
+      ],
+      "raw_toas": 75,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1222.5547962678115,
+      "start_mjd": "57276.48823616022664851",
+      "target": "J1840-0809",
+      "tim_path": "pulsars/J1840-0809/J1840-0809.tim",
+      "tim_sha256": "59e45e8c1c98353fc72548cd41f4f67b063161952c5b68512c21d52ca7a059cf",
+      "toas_in_model_window": 75,
+      "toas_outside_model_window": 0,
+      "units": "implicit; resolve EPHVER",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [
+        "B0818-41"
+      ],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J0820-4114",
+      "declared_ntoa": 88,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58505.59246922232420474",
+      "frequency_max_mhz": 835.606018,
+      "frequency_min_mhz": 833.948975,
+      "in_master": true,
+      "median_toa_uncertainty_us": 1860.8865,
+      "noise_parameters": {
+        "TNGLOBALEF": "1.27608",
+        "TNGLOBALEQ": "-6.25824"
+      },
+      "observing_days": 78,
+      "par_path": "pulsars/J0820-4114/J0820-4114.par",
+      "par_sha256": "d1c3757740236544082eda912a642283177f9985b77ef8ba7b93095f9b6db167",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": false,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        true,
+        0,
+        253.1374861654523,
+        "J0820-4114"
+      ],
+      "raw_toas": 88,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1207.5517689995675,
+      "start_mjd": "57298.04070022275683272",
+      "target": "J0820-4114",
+      "tim_path": "pulsars/J0820-4114/J0820-4114.tim",
+      "tim_sha256": "d83ed6a1ca9ad6a9d9a830e9356b78f33c5d5ec48ab61e0cc44974126cf79e2c",
+      "toas_in_model_window": 88,
+      "toas_outside_model_window": 0,
+      "units": "implicit; resolve EPHVER",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [
+        "B1929+10"
+      ],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J1932+1059",
+      "declared_ntoa": 116,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58430.26700921925425547",
+      "frequency_max_mhz": 840.234009,
+      "frequency_min_mhz": 833.875977,
+      "in_master": true,
+      "median_toa_uncertainty_us": 38.827,
+      "noise_parameters": {
+        "TNGLOBALEF": "0.835987",
+        "TNGLOBALEQ": "-4.22633",
+        "TNREDAMP": "-10.4108",
+        "TNREDC": "10",
+        "TNREDGAM": "5.75085"
+      },
+      "observing_days": 106,
+      "par_path": "pulsars/J1932+1059/J1932+1059.par",
+      "par_sha256": "b1dae7226de36d6df91ff68e71b242cd402b949009636ee54aa5a9ae9f59e269",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        true,
+        1,
+        6.283562636331258,
+        "J1932+1059"
+      ],
+      "raw_toas": 116,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1295.5465792585167,
+      "start_mjd": "57134.72042996073762566",
+      "target": "J1932+1059",
+      "tim_path": "pulsars/J1932+1059/J1932+1059.tim",
+      "tim_sha256": "e4a2528b3ea96e7578f25a1d7ce753c2cf1a8e460ad669be3867f3255f61fdfd",
+      "toas_in_model_window": 116,
+      "toas_outside_model_window": 0,
+      "units": "implicit; resolve EPHVER",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [
+        "B1749-28"
+      ],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J1752-2806",
+      "declared_ntoa": 145,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58427.20798078740958559",
+      "frequency_max_mhz": 840.234009,
+      "frequency_min_mhz": 834.10199,
+      "in_master": true,
+      "median_toa_uncertainty_us": 28.386,
+      "noise_parameters": {
+        "TNGLOBALEF": "1.45645",
+        "TNGLOBALEQ": "-3.92246",
+        "TNREDAMP": "-9.72688",
+        "TNREDC": "12",
+        "TNREDGAM": "1.89388"
+      },
+      "observing_days": 130,
+      "par_path": "pulsars/J1752-2806/J1752-2806.par",
+      "par_sha256": "2b5d7f8f1167466cb698737f20b89e6f402af0bac8d6fb27b2090bff173e857e",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        true,
+        1,
+        10.504776650015872,
+        "J1752-2806"
+      ],
+      "raw_toas": 145,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1459.8260336649444,
+      "start_mjd": "56967.38194712246530216",
+      "target": "J1752-2806",
+      "tim_path": "pulsars/J1752-2806/J1752-2806.tim",
+      "tim_sha256": "36e059e7fb6ab61cc7e1456e9ce584e69a0845d215bc0efb979e9ca5f729b8f6",
+      "toas_in_model_window": 145,
+      "toas_outside_model_window": 0,
+      "units": "TDB",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [
+        "B1742-30"
+      ],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J1745-3040",
+      "declared_ntoa": 110,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58421.21700711308369947",
+      "frequency_max_mhz": 840.232971,
+      "frequency_min_mhz": 833.765015,
+      "in_master": true,
+      "median_toa_uncertainty_us": 66.10499999999999,
+      "noise_parameters": {
+        "TNGLOBALEF": "1.32093",
+        "TNGLOBALEQ": "-4.03186",
+        "TNREDAMP": "-14.3731",
+        "TNREDC": "10",
+        "TNREDGAM": "18.1032"
+      },
+      "observing_days": 90,
+      "par_path": "pulsars/J1745-3040/J1745-3040.par",
+      "par_sha256": "2d0ab02f9870543120f3942fdb69e113a3db7cd87369e15426ce2d14d3f5d38f",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        true,
+        1,
+        12.158105063452577,
+        "J1745-3040"
+      ],
+      "raw_toas": 110,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1247.5128943325528,
+      "start_mjd": "57173.70411278053077453",
+      "target": "J1745-3040",
+      "tim_path": "pulsars/J1745-3040/J1745-3040.tim",
+      "tim_sha256": "73c922624e2484b2b198fb45d7b4d4d8ddd2ab96d279962e915192d6c768ae77",
+      "toas_in_model_window": 110,
+      "toas_outside_model_window": 0,
+      "units": "TDB",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [
+        "B1911-04"
+      ],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J1913-0440",
+      "declared_ntoa": 88,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58390.36354365173112058",
+      "frequency_max_mhz": 840.234009,
+      "frequency_min_mhz": 834.450012,
+      "in_master": true,
+      "median_toa_uncertainty_us": 78.803,
+      "noise_parameters": {
+        "TNGLOBALEF": "1.43782",
+        "TNGLOBALEQ": "-4.69919",
+        "TNREDAMP": "-11.0254",
+        "TNREDC": "10",
+        "TNREDGAM": "8.82056"
+      },
+      "observing_days": 80,
+      "par_path": "pulsars/J1913-0440/J1913-0440.par",
+      "par_sha256": "f61909f59d17e041cdf07c1ef18b7d340bbae2987df4f8c8aade1144e271e626",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        true,
+        1,
+        12.264838579884561,
+        "J1913-0440"
+      ],
+      "raw_toas": 88,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1255.6580539541285,
+      "start_mjd": "57134.70548969760259084",
+      "target": "J1913-0440",
+      "tim_path": "pulsars/J1913-0440/J1913-0440.tim",
+      "tim_sha256": "c4b72681abc668505d0a41fa99775a70da66d1345e3c36c3d4dc9a48e9305cce",
+      "toas_in_model_window": 88,
+      "toas_outside_model_window": 0,
+      "units": "implicit; resolve EPHVER",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    },
+    {
+      "aliases": [
+        "B0950+08"
+      ],
+      "assessment": "CONDITIONAL_PREPARATION_CANDIDATE",
+      "clock": "TT(TAI)",
+      "commented_rows": 0,
+      "dataset_id": "pulsars/J0953+0755",
+      "declared_ntoa": 73,
+      "ephemeris": "DE430",
+      "ephver": "5",
+      "finish_mjd": "58454.79989752354759602",
+      "frequency_max_mhz": 840.232971,
+      "frequency_min_mhz": 832.939026,
+      "in_master": true,
+      "median_toa_uncertainty_us": 26.006,
+      "noise_parameters": {
+        "TNGLOBALEF": "3.04301",
+        "TNGLOBALEQ": "-4.08022"
+      },
+      "observing_days": 66,
+      "par_path": "pulsars/J0953+0755/J0953+0755.par",
+      "par_sha256": "94f6a03bf25f87d24a59eb553c2c49c6f94d0b49e548203b08bef3df39dc0e9f",
+      "passes_target_and_coverage_screen": true,
+      "posterior_available": true,
+      "posterior_columns": [
+        "F0",
+        "F1",
+        "EFAC",
+        "EQUAD",
+        "RedAmp",
+        "RedSlope",
+        "sigma_RN"
+      ],
+      "preferred_inventory_variant": true,
+      "preparation_prerequisites": [
+        "utmost_adapter_and_released_clock_binding",
+        "global_white_noise_translation",
+        "source_timing_and_phase_connection_verification",
+        "target_calibration_and_noise_adequacy",
+        "single_band_dispersion_noise_policy"
+      ],
+      "previously_searched_by_recherche": true,
+      "prior_search_membership": {
+        "EPTA_DR2": false,
+        "JBO800": true,
+        "NANOGrav11": false
+      },
+      "pulse_number_toas": 0,
+      "rank_key": [
+        true,
+        1,
+        13.433699472461349,
+        "J0953+0755"
+      ],
+      "raw_toas": 73,
+      "ready_to_launch": false,
+      "screen_exclusion_reasons": [],
+      "sites": [
+        "mo"
+      ],
+      "span_days": 1320.2971810553274,
+      "start_mjd": "57134.50271646822019278",
+      "target": "J0953+0755",
+      "tim_path": "pulsars/J0953+0755/J0953+0755.tim",
+      "tim_sha256": "bd74564b195331f25d684ed24e8fd9fd9b86a70bea09f518b547e66040b2a030",
+      "toas_in_model_window": 73,
+      "toas_outside_model_window": 0,
+      "units": "TDB",
+      "variant": "pulsars",
+      "well_separated_band_days": 0
+    }
+  ],
+  "selected": [
+    "J0630-2834",
+    "J1034-3224",
+    "J1359-6038",
+    "J0908-4913",
+    "J1600-5044",
+    "J1048-5832",
+    "J1456-6843",
+    "J1057-5226",
+    "J1202-5820",
+    "J1056-6258",
+    "J1829-1751",
+    "J1013-5934",
+    "J1136-5525",
+    "J1428-5530",
+    "J1605-5257",
+    "J1326-6700",
+    "J1012-5857",
+    "J1651-4246",
+    "J1840-0809",
+    "J0820-4114",
+    "J1932+1059",
+    "J1752-2806",
+    "J1745-3040",
+    "J1913-0440",
+    "J0953+0755"
+  ],
+  "selection_basis": "Unsearched by Recherche first, then fewer named prior-inventory memberships, then released white-error/sqrt(TOA count), then target ID; no residual peaks",
+  "source": "UTMOST"
+}

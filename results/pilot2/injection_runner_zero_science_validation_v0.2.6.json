@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "validation_id": "pilot2-b1937-injection-runner-zero-science-validation-v0.2.6",
+  "recorded_utc": "2026-08-11T01:00:00Z",
+  "status": "pass",
+  "operation": "v0.2.6_exact_typed_context_binding_and_nested_directory_durability_zero_science_validation",
+  "implementation_freeze_sha256": "37e5b462289a2f30b16f1984269c30c53f98e948665d2f13e6068bcf1578b7f5",
+  "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+  "implementation_sha256": "3d56ab925e87f3938f4b85ded3c8c3683e5b2d80dc14b468a9bfa6fb6ba8183e",
+  "validation_manifest": "results/pilot2/injection_validation_manifest_v0.2.6.json",
+  "repository_tests": {
+    "passed": 269,
+    "failed": 0,
+    "deselected": 3
+  },
+  "v0.2.6_boundary_tests": {
+    "passed": 33,
+    "failed": 0
+  },
+  "input_binding_controls": {
+    "trusted_context_schema_and_types_required": true,
+    "record_exact_recursive_value_and_type_equality_required": true,
+    "boolean_integer_alias_rejected": true,
+    "integer_float_alias_rejected": true,
+    "epoch_grid_span_and_count_changes_rejected": true,
+    "canonical_input_binding_sha256_in_attempt_journal": true,
+    "canonical_input_binding_sha256_in_execution_binding": true
+  },
+  "durability_controls": {
+    "every_new_directory_entry_synced_in_immediate_parent": true,
+    "all_case_family_directories_precreated_before_executor": true,
+    "directory_sync_failure_stopped_before_executor": true,
+    "file_fsync_observed": true,
+    "macos_fullfsync_observed": true,
+    "atomic_replace_observed_after_file_sync": true,
+    "final_parent_directory_fsync_observed_after_replace": true
+  },
+  "recovery_controls": {
+    "attempt_input_binding_hash_required": true,
+    "partial_artifact_rejected": true,
+    "complete_artifact_adopted_without_recomputation": true,
+    "ledger_reconciliation_verified": true,
+    "annual_interruption_adoption_verified": true
+  },
+  "dry_run": {
+    "status": "pass",
+    "temporary_initialized_data_root": true,
+    "external_project_data_root_used": false,
+    "predecessors_loaded": false,
+    "zero_cases_recorded": true
+  },
+  "science_cases_executed": 0,
+  "random_draws_generated": 0,
+  "timing_model_fits_executed": 0,
+  "periodic_scans_executed": 0,
+  "predecessor_artifacts_loaded": 0,
+  "observed_residual_vectors_loaded": 0,
+  "execution_authorized": false,
+  "next_gate": "v0.2.6_execution_readiness_freeze_then_one_fresh_sol_audit"
+}

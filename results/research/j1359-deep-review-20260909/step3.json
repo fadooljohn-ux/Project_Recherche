@@ -1,0 +1,416 @@
+{
+  "candidate_family_statistic": 7.211433817144098,
+  "code_sha256": "d4ecde5a1a65c789ee6114806168e577eed7b24cd42942ab8fcb728a846fc89b",
+  "completed_utc": "2026-09-09T06:20:11.432717+00:00",
+  "diagnostic_definition": "Refined original candidate profiled across noise models versus each noise-only global maximum across the declared period union; conditional candidate-specific diagnostic",
+  "diagnostic_p_plus_one": 0.9376218323586745,
+  "global_family_statistic": 11.002467062313372,
+  "gls_code_sha256": "b69eb86b1fc28da36dff4b6cece1d07c73324cabdb3b08419d1871f6177b844b",
+  "injection_amplitude_us": 22.894557681106722,
+  "injection_count": 256,
+  "injection_exceeds_observed": 249,
+  "injection_period_recovered_within_2_days": 137,
+  "limit": "Plug-in finite diagnostic family, not a recalibrated discovery significance",
+  "method": "Chi-square plus logdet(C) plus logdet(Xscaled.T C^-1 Xscaled); same linear-timing prior measure",
+  "models": [
+    {
+      "at_candidate": {
+        "amplitude_us": 22.894557681106722,
+        "coefficient_covariance_us2": [
+          [
+            16.472105915124637,
+            0.2100978253422559
+          ],
+          [
+            0.2100978253422562,
+            11.821078754011685
+          ]
+        ],
+        "delta_chi2": 41.755294459483345,
+        "dof_null": 424,
+        "null_chi2": 415.66846765471627,
+        "period_days": 96.0589236857732,
+        "rank": 5,
+        "sin_cos_us": [
+          -11.360349183275739,
+          19.87720397459283
+        ]
+      },
+      "name": "released",
+      "null_objective": -7833.028482687186,
+      "peak": {
+        "amplitude_us": 22.894557681106722,
+        "coefficient_covariance_us2": [
+          [
+            16.472105915124637,
+            0.2100978253422559
+          ],
+          [
+            0.2100978253422562,
+            11.821078754011685
+          ]
+        ],
+        "delta_chi2": 41.755294459483345,
+        "dof_null": 424,
+        "null_chi2": 415.66846765471627,
+        "period_days": 96.0589236857732,
+        "rank": 5,
+        "sin_cos_us": [
+          -11.360349183275739,
+          19.87720397459283
+        ]
+      },
+      "signal_objective": -7874.783777146669
+    },
+    {
+      "at_candidate": {
+        "amplitude_us": 21.08465210498528,
+        "coefficient_covariance_us2": [
+          [
+            58.50193481478174,
+            -0.9723076962482499
+          ],
+          [
+            -0.9723076962482466,
+            61.49682331579156
+          ]
+        ],
+        "delta_chi2": 7.219312489713186,
+        "dof_null": 424,
+        "null_chi2": 362.8731594915663,
+        "period_days": 96.0589236857732,
+        "rank": 5,
+        "sin_cos_us": [
+          -10.534499246178912,
+          18.26436092559814
+        ]
+      },
+      "name": "red32",
+      "null_objective": -7872.224743208946,
+      "peak": {
+        "amplitude_us": 11.286377449437229,
+        "coefficient_covariance_us2": [
+          [
+            11.69512210663727,
+            0.30254583895895976
+          ],
+          [
+            0.30254583895895815,
+            11.524564422932261
+          ]
+        ],
+        "delta_chi2": 11.275191978539837,
+        "dof_null": 424,
+        "null_chi2": 362.8731594915663,
+        "period_days": 35.113426821650954,
+        "rank": 5,
+        "sin_cos_us": [
+          6.270878893406361,
+          -9.38394340538112
+        ]
+      },
+      "signal_objective": -7883.499935187486
+    },
+    {
+      "at_candidate": {
+        "amplitude_us": 21.085575383986278,
+        "coefficient_covariance_us2": [
+          [
+            58.551572147108345,
+            -0.9753188550599543
+          ],
+          [
+            -0.9753188550599479,
+            61.577729370086615
+          ]
+        ],
+        "delta_chi2": 7.211433817143943,
+        "dof_null": 424,
+        "null_chi2": 362.1990108489998,
+        "period_days": 96.0589236857732,
+        "rank": 5,
+        "sin_cos_us": [
+          -10.563390276130503,
+          18.248733521752122
+        ]
+      },
+      "name": "red64",
+      "null_objective": -7872.497468125172,
+      "peak": {
+        "amplitude_us": 11.310827527161427,
+        "coefficient_covariance_us2": [
+          [
+            12.087736908876781,
+            0.28623015907649024
+          ],
+          [
+            0.28623015907649024,
+            11.94777782161023
+          ]
+        ],
+        "delta_chi2": 10.909892520604911,
+        "dof_null": 424,
+        "null_chi2": 362.1990108489998,
+        "period_days": 35.113426821650954,
+        "rank": 5,
+        "sin_cos_us": [
+          6.270306224714429,
+          -9.413717607698892
+        ]
+      },
+      "signal_objective": -7883.407360645778
+    },
+    {
+      "at_candidate": {
+        "amplitude_us": 22.741637711387,
+        "coefficient_covariance_us2": [
+          [
+            27.37245760378531,
+            -0.31739974728957804
+          ],
+          [
+            -0.3173997472895772,
+            25.97841940497726
+          ]
+        ],
+        "delta_chi2": 19.406008097263438,
+        "dof_null": 424,
+        "null_chi2": 434.086099268074,
+        "period_days": 96.0589236857732,
+        "rank": 5,
+        "sin_cos_us": [
+          -12.270071941517001,
+          19.1475173415766
+        ]
+      },
+      "name": "red64_half_amp",
+      "null_objective": -7830.848003228584,
+      "peak": {
+        "amplitude_us": 34.63080117708901,
+        "coefficient_covariance_us2": [
+          [
+            50.064759234188024,
+            -1.5851715034010878
+          ],
+          [
+            -1.5851715034010847,
+            47.41459851009533
+          ]
+        ],
+        "delta_chi2": 24.89556768810226,
+        "dof_null": 424,
+        "null_chi2": 434.086099268074,
+        "period_days": 119.60082748250588,
+        "rank": 5,
+        "sin_cos_us": [
+          -7.88496376752682,
+          33.72120603643735
+        ]
+      },
+      "signal_objective": -7855.743570916687
+    },
+    {
+      "at_candidate": {
+        "amplitude_us": 18.512920640763838,
+        "coefficient_covariance_us2": [
+          [
+            163.01220192735897,
+            -4.175809652476567
+          ],
+          [
+            -4.175809652476574,
+            176.45892291937247
+          ]
+        ],
+        "delta_chi2": 1.936554316402924,
+        "dof_null": 424,
+        "null_chi2": 329.24015555767346,
+        "period_days": 96.0589236857732,
+        "rank": 5,
+        "sin_cos_us": [
+          -8.486072203401363,
+          16.453413299673674
+        ]
+      },
+      "name": "red64_double_amp",
+      "null_objective": -7864.868550148053,
+      "peak": {
+        "amplitude_us": 12.516978047745726,
+        "coefficient_covariance_us2": [
+          [
+            14.313038588342444,
+            0.09911486763116689
+          ],
+          [
+            0.09911486763116366,
+            14.16383706502682
+          ]
+        ],
+        "delta_chi2": 11.098647716795671,
+        "dof_null": 424,
+        "null_chi2": 329.24015555767346,
+        "period_days": 35.113426821650954,
+        "rank": 5,
+        "sin_cos_us": [
+          6.6212065909984625,
+          -10.622352033663116
+        ]
+      },
+      "signal_objective": -7875.9671978648485
+    },
+    {
+      "at_candidate": {
+        "amplitude_us": 19.297697896397374,
+        "coefficient_covariance_us2": [
+          [
+            155.3833041170635,
+            -4.29664618508354
+          ],
+          [
+            -4.296646185083546,
+            169.81809982222669
+          ]
+        ],
+        "delta_chi2": 2.192390137871328,
+        "dof_null": 424,
+        "null_chi2": 347.6135867302423,
+        "period_days": 96.0589236857732,
+        "rank": 5,
+        "sin_cos_us": [
+          -9.575999308790577,
+          16.75414519868626
+        ]
+      },
+      "name": "red64_flatter",
+      "null_objective": -7859.111712113481,
+      "peak": {
+        "amplitude_us": 13.124667581869028,
+        "coefficient_covariance_us2": [
+          [
+            17.178494243886966,
+            0.0713705417352401
+          ],
+          [
+            0.07137054173523687,
+            17.14951873033131
+          ]
+        ],
+        "delta_chi2": 10.077030046855212,
+        "dof_null": 424,
+        "null_chi2": 347.6135867302423,
+        "period_days": 35.113426821650954,
+        "rank": 5,
+        "sin_cos_us": [
+          6.800936656380771,
+          -11.225157447914047
+        ]
+      },
+      "signal_objective": -7869.188742160336
+    },
+    {
+      "at_candidate": {
+        "amplitude_us": 22.325317759770236,
+        "coefficient_covariance_us2": [
+          [
+            28.805662191701884,
+            -0.12476547964410205
+          ],
+          [
+            -0.12476547964410245,
+            27.18895778634155
+          ]
+        ],
+        "delta_chi2": 17.97770314052365,
+        "dof_null": 424,
+        "null_chi2": 389.75317821593933,
+        "period_days": 96.0589236857732,
+        "rank": 5,
+        "sin_cos_us": [
+          -11.717315982460825,
+          19.003271277384858
+        ]
+      },
+      "name": "red64_steeper",
+      "null_objective": -7857.4907755759095,
+      "peak": {
+        "amplitude_us": 32.27838449610953,
+        "coefficient_covariance_us2": [
+          [
+            56.073958318605094,
+            -1.0475323178928821
+          ],
+          [
+            -1.0475323178928757,
+            54.31669588860957
+          ]
+        ],
+        "delta_chi2": 19.184881399413825,
+        "dof_null": 424,
+        "null_chi2": 389.75317821593933,
+        "period_days": 117.3770154550618,
+        "rank": 5,
+        "sin_cos_us": [
+          -0.17349068096136983,
+          32.277918251682586
+        ]
+      },
+      "signal_objective": -7876.675656975323
+    },
+    {
+      "at_candidate": {
+        "amplitude_us": 21.190045064546105,
+        "coefficient_covariance_us2": [
+          [
+            58.49197828527371,
+            -0.8903713178023848
+          ],
+          [
+            -0.8903713178023912,
+            61.58434048083519
+          ]
+        ],
+        "delta_chi2": 7.284522898752748,
+        "dof_null": 424,
+        "null_chi2": 369.72026094920085,
+        "period_days": 96.0589236857732,
+        "rank": 5,
+        "sin_cos_us": [
+          -9.838079745394976,
+          18.76779680092322
+        ]
+      },
+      "name": "chromatic64_nu4",
+      "null_objective": -7864.869650897183,
+      "peak": {
+        "amplitude_us": 10.829765992547452,
+        "coefficient_covariance_us2": [
+          [
+            11.676390271863893,
+            -0.005949827120252621
+          ],
+          [
+            -0.005949827120252621,
+            11.732771123574798
+          ]
+        ],
+        "delta_chi2": 10.044811268863258,
+        "dof_null": 424,
+        "null_chi2": 369.72026094920085,
+        "period_days": 32.24383141860797,
+        "rank": 5,
+        "sin_cos_us": [
+          10.82401828474032,
+          0.3527883571555419
+        ]
+      },
+      "signal_objective": -7874.914462166047
+    }
+  ],
+  "null_count": 512,
+  "null_exceedances": 480,
+  "null_generator": "red64",
+  "selected_candidate_signal": "red64",
+  "selected_null": "red64",
+  "selected_signal": "red32",
+  "selection_repeated": "Same noise family and period union reselected under null and signal in every simulation"
+}

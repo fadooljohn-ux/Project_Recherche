@@ -1,0 +1,54 @@
+schema_version: 1
+interpretation_id: pilot1-null-sensitivity-interpretation-v0.1
+status: frozen_analysis_design
+target: J1744-1134
+dataset: nanograv_15yr_timing_v2.1.0_wideband
+
+sources:
+  parent_injection_summary:
+    logical_path: run_records/pilot1/injection-calibration-v0.1-summary.json
+    bytes: 390638
+    sha256: 8bf50152cf3cd31109f363ef0bb01bf5f21f9c1d423b6a9ed53cabecafc692b8
+  sensitivity_extension_summary:
+    logical_path: run_records/pilot1/sensitivity-extension-v0.1-summary.json
+    bytes: 331606
+    sha256: fcc905f2648684418a4cbde150928d0e61a59ba2456134130ed6cccd65ca88b4
+  observed_search_result:
+    logical_path: run_records/pilot1/one-shot-observed-search-v0.1-result.json
+    bytes: 3999
+    sha256: 720f3604058121ddc4aa7ff5a0be159089b28ca279328b18addd4d1904ce06bc
+
+recovery_interpretation:
+  periods_days: [50.0, 100.0, 200.0, 500.0, 1000.0]
+  sampled_amplitudes_microseconds: [0.1, 0.2, 0.3, 0.4, 0.5, 1.0, 2.0, 5.0]
+  cases_per_cell: 12
+  recovered_definition: triggered_and_frequency_recovered
+  point_crossing_method: frozen_linear_interpolation_between_adjacent_sampled_fractions
+  uncertainty_interval: two_sided_wilson_95_percent_diagnostic
+  conservative_grid_rule: smallest_sampled_amplitude_with_wilson_95_lower_bound_at_or_above_target
+  conservative_targets: [0.5, 0.9]
+  interpolate_conservative_grid_thresholds: false
+
+mass_interpretation:
+  pulsar_mass_solar: 1.4
+  output_unit: projected_lunar_masses
+  relation: low_companion_mass_circular_orbit_projected_mass
+  inclination_resolved: false
+
+claim_rules:
+  empirical_crossings_are_formal_upper_limits: false
+  wilson_intervals_are_population_guarantees: false
+  fixed_phase_noise_design_disclosed: true
+  annual_masked_periods_are_sensitivity_gaps: true
+  interpolate_sensitivity_across_period: false
+  observed_null_excludes_all_signal_families: false
+  new_observed_residual_access_authorized: false
+  new_observed_periodic_search_authorized: false
+  threshold_retuning_authorized: false
+  additional_randomness_authorized: false
+
+expected_outcome:
+  calibrated_period_count: 5
+  conservative_50_percent_supported_period_count: 5
+  conservative_90_percent_supported_period_count: 0
+  formal_95_percent_exclusion_limit_supported: false

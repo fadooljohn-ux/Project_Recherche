@@ -1,0 +1,14 @@
+{
+  "status": "VERIFIED",
+  "historical_result_files_preserved": 1210,
+  "historical_workbook_values_formulas_and_number_formats_preserved": true,
+  "work_log_rows_added": 4,
+  "search_rows_added": 0,
+  "master_sha256": "8c1a0b90d1664ed9d16c0a5104fb301050329f88ddc3927d639ae697156279c1",
+  "reconciliation_sha256": "38e13adfeb5bc6c4faf6f40a96e436eb23f0dc629130d8f01303bfaf86d58e58",
+  "token_revoked": true,
+  "observed_search_launched": false,
+  "scientific_source_modified": false,
+  "visual_review": "New work-log rows inspected; existing layout retained; no truncation",
+  "formula_error_matches": 0
+}

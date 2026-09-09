@@ -1,0 +1,50 @@
+{
+  "accounting": {
+    "primary_fits": 0,
+    "scans": 1,
+    "solver_audits": 0
+  },
+  "annual_mask": {
+    "masked_grid_frequencies_per_day": [
+      0.0027421357985447695
+    ],
+    "masked_grid_indices": [
+      65
+    ],
+    "masked_grid_periods_days": [
+      364.6792403682897
+    ],
+    "selection_semantics": "nearest_period_cell_ties_to_lowest_index",
+    "target_periods_days": [
+      365.25
+    ]
+  },
+  "artifact_count": 10,
+  "completed_at_utc": "2026-09-08T08:25:43.599150Z",
+  "elapsed_seconds": 8.494,
+  "frequency_count": 953,
+  "interpretation": "No eligible grid cell exceeded the frozen threshold in this B1937+21 circular-signal search. No candidate was generated; this does not establish absence of companions.",
+  "ledger_inactive": true,
+  "network_attempts": 0,
+  "package_sha256": "9d739084cee43fd98a45fda67e254c647361b994c2d306f37378312d6388edb3",
+  "periodogram_selection_reproduced_without_scan_or_fits": true,
+  "residual_vector_sha256": "72617de6ab3b39954b4ddbe3e60d9797a39287a9aa6b579e5d87abdc79b21131",
+  "resource_trace_status": "pass",
+  "result_sha256": "bca91e1a88ed79625b34a34e19f4063516ac1e49d46d17cad4e5e232c449978d",
+  "run_id": "pilot2-ioc-observed-b1937-20260908-01",
+  "scientific_disposition": "NO_TRIGGER",
+  "selected_peak": {
+    "frequency_per_day": 0.007226407395634309,
+    "index": 195,
+    "period_days": 138.38134846979844,
+    "statistic": 12.756696672532273
+  },
+  "single_intent_verified": true,
+  "source_commit": "244719ca6fbb685dad3a4421677cdfe68ff6250a",
+  "source_inputs_and_qualification_bindings_verified": true,
+  "status": "VERIFIED",
+  "terminal_files_and_hashes_verified": true,
+  "terminal_inventory_sha256": "1aac177838ca0b9f8a5550228a7f7192985ad7fe00e8516a8758d3a9346ac4db",
+  "threshold": 22.485020743823544,
+  "unexpected_warnings": 0
+}

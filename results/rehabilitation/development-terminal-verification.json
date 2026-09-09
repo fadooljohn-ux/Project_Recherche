@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "all_terminal_inventories_verified": true,
+  "runs": [
+    {
+      "run_id": "pilot2-ioc-dev-integration-01",
+      "terminal_state": "complete",
+      "elapsed_seconds": 213.262,
+      "inventory_sha256": "64b5d849732538bf1c2d6784e12c4f7e69a4445bc74e524de2c27f74c147e1ef",
+      "artifact_count": 14,
+      "accounting": {
+        "cases": 4,
+        "primary_fits": 8,
+        "random_draws": 4,
+        "scans": 4,
+        "solver_audits": 2
+      }
+    },
+    {
+      "run_id": "pilot2-ioc-dev-annual-02",
+      "terminal_state": "complete",
+      "elapsed_seconds": 105.93,
+      "inventory_sha256": "d0d17b4a9996899b6bc3f12df574bf2a883f4a21e6f98133eceb88c1d7759555",
+      "artifact_count": 11,
+      "accounting": {
+        "cases": 1,
+        "primary_fits": 2,
+        "random_draws": 1,
+        "scans": 1,
+        "solver_audits": 1
+      }
+    },
+    {
+      "run_id": "pilot2-ioc-dev-stop-03",
+      "terminal_state": "controlled_stop",
+      "elapsed_seconds": 5.693,
+      "inventory_sha256": "9f4af88a9d8362f3673f82776ca26a14f420e6a83368742f239849ece81d93d0",
+      "artifact_count": 7,
+      "accounting": {
+        "cases": 0,
+        "primary_fits": 0,
+        "random_draws": 1,
+        "scans": 1,
+        "solver_audits": 0
+      }
+    }
+  ],
+  "formal_qualification_executed": false
+}

@@ -1,0 +1,11 @@
+{
+  "checks": "Consumed grid, observed-input and freeze hashes; all historical JSON hashes; replaced attempt hashes; final workbook receipt and counts",
+  "historical_json_records_preserved": 252,
+  "master_sha256": "99b7c9966639acf781fe487630cc0467e4459d51e374f719a202bcff808105f4",
+  "no_trigger": 17,
+  "report_sha256": "b472eb4ce3250c8290dfa11c0833d164eebde0e668e9f1159121c8950666660d",
+  "superseded_import_attempts": 3,
+  "unconfirmed_candidates": 1,
+  "valid_datasets": 18,
+  "verified_utc": "2026-09-08T16:52:50.471367+00:00"
+}

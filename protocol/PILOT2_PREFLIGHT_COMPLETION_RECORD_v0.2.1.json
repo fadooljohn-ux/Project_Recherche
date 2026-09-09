@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "record_id": "pilot2-b1937-preflight-completion-v0.2.1",
+  "status": "preflight_passed_after_frozen_json_only_regrade",
+  "target": "B1937+21",
+  "score": "16_of_16",
+  "execution_counts": {
+    "released_fit_reproductions": 1,
+    "synthetic_null_cases": 20,
+    "synthetic_injection_cases": 30,
+    "full_covariance_solver_audits": 10,
+    "observed_periodic_searches": 0,
+    "threshold_calibrations": 0
+  },
+  "preserved_sequence": {
+    "initial_pre_case_failure": "results/pilot2/preflight_failed_attempt_v0.2.json",
+    "r1_original_failure_grade": "results/pilot2/preflight_r1_failure_result_v0.2.1.json",
+    "deterministic_regrade_result": "results/pilot2/preflight_regrade_result_v0.2.1.json"
+  },
+  "external_records": {
+    "r1_source_summary": {
+      "logical_path": "run_records/pilot2/pilot2-preflight-20260809T124548Z-summary.json",
+      "bytes": 59471,
+      "sha256": "b007205c4751e9171c5ab04c54ce02ed7b5e48bc4ed2d219e1477db7542d8d6a"
+    },
+    "json_only_regrade": {
+      "logical_path": "run_records/pilot2/pilot2-preflight-r1-deterministic-regrade-v0.2.1.json",
+      "bytes": 11447,
+      "sha256": "de00792cbfd598a7eae7f7d570b89a459789864750aeff9937fb782fcb504eff"
+    }
+  },
+  "repository_sha256": {
+    "results/pilot2/preflight_regrade_result_v0.2.1.json": "de00792cbfd598a7eae7f7d570b89a459789864750aeff9937fb782fcb504eff",
+    "docs/PILOT2_PREFLIGHT_RESULT_v0.2.1.md": "1ab0082c0ff07e4ef53624e54503dea62827dbef1a35a505fa09b7b5a8bb896b",
+    "protocol/PILOT2_PREFLIGHT_R1_REGRADE_FREEZE_v0.2.1.json": "b2eada04b60b36df2a9c5ef8f3bf08ea001e6e294bc4e64e53d680735079343e"
+  },
+  "resources": {
+    "preflight_wall_seconds": 802.2364021250032,
+    "peak_memory_gib": 0.5507850646972656,
+    "complete_data_root_gib": 0.11526034586131573,
+    "additional_download_bytes": 0,
+    "projected_reference_calibration_wall_hours": 2.1385170012277412
+  },
+  "next_gate": "prepare_separately_frozen_target_specific_full_calibration_design",
+  "full_calibration_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "external_adviser_required_for_next_gate": false
+}

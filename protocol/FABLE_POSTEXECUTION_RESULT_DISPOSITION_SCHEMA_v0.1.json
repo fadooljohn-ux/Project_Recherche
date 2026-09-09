@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "record_type": "fable-postexecution-result-disposition-v0.1",
+  "required_fields": [
+    "reviewer",
+    "review_date",
+    "verdict",
+    "no_conditions_remaining",
+    "intent_sha256",
+    "result_sha256",
+    "log_sha256",
+    "exactly_one_observed_scan_confirmed",
+    "null_disposition_correct",
+    "claim_boundary_accepted",
+    "additional_search_or_retry_authorized"
+  ],
+  "passing_values": {
+    "reviewer": "Claude Fable 5",
+    "verdict": "PASS",
+    "no_conditions_remaining": true,
+    "exactly_one_observed_scan_confirmed": true,
+    "null_disposition_correct": true,
+    "claim_boundary_accepted": true,
+    "additional_search_or_retry_authorized": false
+  },
+  "note": "Create the actual disposition only after independently verifying the post-execution review packet. A conditional pass is not a pass."
+}

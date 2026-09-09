@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "validation_id": "pilot2-b1937-injection-runner-zero-science-validation-v0.2.5",
+  "recorded_utc": "2026-08-10T11:32:05Z",
+  "status": "pass",
+  "operation": "v0.2.5_durability_schema_containment_zero_science_validation",
+  "implementation_freeze_sha256": "dcb3a961f2a1e8ef07811f5f50aeeb9dfdbec6a83a61fec95d445986de05ef2d",
+  "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+  "implementation_sha256": "7f8760106c4c850e6d2eec6ef8dbc307784d6a01b7a21ba8d1254aab2ef5cc4d",
+  "validation_manifest": "results/pilot2/injection_validation_manifest_v0.2.5.json",
+  "repository_tests": {
+    "passed": 236,
+    "failed": 0,
+    "deselected": 3
+  },
+  "v0.2.5_boundary_tests": {
+    "passed": 24,
+    "failed": 0
+  },
+  "durability_controls": {
+    "file_fsync_observed": true,
+    "macos_fullfsync_observed": true,
+    "atomic_replace_observed_after_file_sync": true,
+    "parent_directory_fsync_observed_after_replace": true,
+    "file_sync_failure_stopped_before_executor": true,
+    "directory_sync_failure_stopped_before_executor": true
+  },
+  "artifact_controls": {
+    "partial_artifact_rejected": true,
+    "complete_artifact_adopted_without_recomputation": true,
+    "ledger_reconciliation_verified": true,
+    "annual_interruption_adoption_verified": true,
+    "nonannual_candidate_field_required": true,
+    "nested_solver_schema_required": true
+  },
+  "path_controls": {
+    "exact_hash_path_set_required": true,
+    "parent_traversal_rejected_before_hash_access": true,
+    "absolute_path_rejected_before_hash_access": true,
+    "symlink_escape_rejected": true
+  },
+  "dry_run": {
+    "status": "pass",
+    "temporary_initialized_data_root": true,
+    "external_project_data_root_used": false,
+    "predecessors_loaded": false,
+    "zero_cases_recorded": true
+  },
+  "science_cases_executed": 0,
+  "random_draws_generated": 0,
+  "timing_model_fits_executed": 0,
+  "periodic_scans_executed": 0,
+  "predecessor_artifacts_loaded": 0,
+  "observed_residual_vectors_loaded": 0,
+  "execution_authorized": false,
+  "next_gate": "v0.2.5_execution_readiness_freeze_then_one_fresh_sol_audit"
+}

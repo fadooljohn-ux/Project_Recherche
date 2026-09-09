@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "archive": "../Recherche Recovery/20260907T223404/b1937-first-observed-terminal-20260908.tar",
+  "sha256": "85bc9bb017b1e4ec9bab50b4fb2195321174007a3ccae4f93abd8acab44f614a",
+  "file_count": 15,
+  "archive_content_and_source_after_verified": true,
+  "files": {
+    "run/result.json": "bca91e1a88ed79625b34a34e19f4063516ac1e49d46d17cad4e5e232c449978d",
+    "run/input-binding.json": "27770e19c4a7553babb54c4f3617a0d9ae2e3f52add644ba25d5f6658876592d",
+    "run/context.log": "0d6297db906fbbf6456d5ad5ebdbc4c70569062015df7678d11e2c3d158c28a0",
+    "run/terminal-inventory.json": "1aac177838ca0b9f8a5550228a7f7192985ad7fe00e8516a8758d3a9346ac4db",
+    "run/accounting.json": "ae3104ffafe3d3b1bafe96d4f29710026fa82a35f73e14c6332c61646a1d1e5e",
+    "run/resource-trace.json": "82060aa54963ee8d41b5b277ea67ae0c6c6100a0130c9907d29ea04bf52e220a",
+    "run/manifest.json": "6b4e204c1ada469a6baff6f509ee1e3944da8186445054784cbe0f2d4b3c6eef",
+    "run/periodogram.json": "6b5b4ddbf3de96c6881a1aeba9611e884d6728c6b1ecb20a10bb53c5d3647413",
+    "run/status.json": "7875ab77156af933d5912f2d206e8a4be045db81e1aca602b4a40ac6f290bc73",
+    "run/ledger.json": "4072dfdb173fc45501c1992c0474af1fc9a231bbab73478011942143fe7a60d6",
+    "run/warnings.json": "adab43b7615ad699becc7ba4758c8adc1c15fec1b8134f1c37491fcbca7a2513",
+    "intent.json": "a66d4a67e6f35ad29e2d68643082ba075c20a2de0084cf783e7a3e64af06037d",
+    "first-search.json": "9d739084cee43fd98a45fda67e254c647361b994c2d306f37378312d6388edb3",
+    "launch-receipt.json": "10aa22a8ba38218ba1dabfaeef06819c9b51d19a6d5d86226be004c417715547",
+    "terminal-verification.json": "e7f5b3610e51c26431f773caae83fb806c373d088883e4e513bc7569615e7be8"
+  }
+}

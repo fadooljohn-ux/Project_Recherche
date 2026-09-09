@@ -1,0 +1,44 @@
+{
+  "created_utc": "2026-09-08T16:41:14.847881+00:00",
+  "datasets": [
+    {
+      "corrected_toas": 1315,
+      "source": "epta",
+      "superseded_result_path": "../Project Recherche Data/pta-campaign01-20260908/epta/J1730-2304/run01/result.json",
+      "superseded_result_sha256": "152858356c774f00380e16fa48bd6065b2dcb0d7d5851dd6fecbed03c133e27b",
+      "target": "J1730-2304"
+    },
+    {
+      "corrected_toas": 1946,
+      "source": "epta",
+      "superseded_result_path": "../Project Recherche Data/pta-campaign01-20260908/epta/J1744-1134/run01/result.json",
+      "superseded_result_sha256": "3af31634a916a5e9be32a12617d125c7e2ee7e330d016877012c0432030272b5",
+      "target": "J1744-1134"
+    },
+    {
+      "corrected_toas": 882,
+      "source": "epta",
+      "superseded_result_path": "../Project Recherche Data/pta-campaign01-20260908/epta/J1911+1347/run01/result.json",
+      "superseded_result_sha256": "f237a1c1a4f8119ef67bda7b25a254a0a0ef14ff32e1187224620ba20be84580",
+      "target": "J1911+1347"
+    }
+  ],
+  "intake_sha256": "874a3c198eca490c1ced96cde4638ee5495bf5b562a14069ca3ac8d67ef10bb9",
+  "policy": {
+    "detection_probability": 0.95,
+    "false_alarm_probability": 0.01,
+    "maximum_condition_number": 10000000000.0,
+    "maximum_period_days": 2000.0,
+    "minimum_period_days": 30.0,
+    "minimum_retained_power": 0.2,
+    "null_count": 4096,
+    "oversampling": 5,
+    "search_count": 18,
+    "seed": 2026092300
+  },
+  "source_freezes": {
+    "epta": "7ea331a51cc6e1814f6a9e15059784861cc197c31379d12b731d43bd7e2a22c1",
+    "inpta": "977221f037cd442b6a4819dad92a1b28e0d3b55354a22d86fa219e038a70aa63",
+    "ppta": "873a378b8effb7561d0883696634053c460f5884aaf7390f75ce01312062a855"
+  }
+}

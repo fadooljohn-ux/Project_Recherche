@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "assessment_id": "pilot2-b1937-calibration-revision-implementation-readiness-v0.2.1",
+  "recorded_utc": "2026-08-10T01:11:12Z",
+  "status": "pass",
+  "inventory_sha256": "5dc1601881e58b64d5afd8f4a4236e441447155bfb9e6b9d03d58958b3331106",
+  "implementation_sha256": "0dd97eb7319b722a04f581d7afc2ef73ac2bb7d6fec00e3c62a5e46d5baaf42a",
+  "fresh_data_root": {
+    "generation": "Pulsar-Timing-Pilot-v0.2.1",
+    "controlled_files": 16,
+    "controlled_manifest_sha256": "8d114059ce42cfe575a0794b83ae9bd972fa647d3345c4ceedabb7fbac1d9543",
+    "cache_files": 14,
+    "cache_manifest_sha256": "24d89116e4318c28406695cacad35e1e69cc78312097e1bf5b77d7bd0cdfc134",
+    "setup_status": "pass"
+  },
+  "scorecard": {
+    "overall": "PASS",
+    "passed": 12,
+    "total": 12,
+    "criteria": {
+      "design_freeze": "PASS",
+      "fresh_data_root_integrity": "PASS",
+      "offline_b1937_setup": "PASS",
+      "separate_revision_ledger": "PASS",
+      "resume_hash_binding": "PASS",
+      "checkpoint_and_heartbeat": "PASS",
+      "rank_4962_threshold_grader": "PASS",
+      "immutable_threshold_lock": "PASS",
+      "wilson_only_sealed_grader": "PASS",
+      "hard_stop_controls": "PASS",
+      "observed_search_boundary": "PASS",
+      "zero_case_integrity_validation": "PASS"
+    }
+  },
+  "verification": {
+    "repository_tests": "151 passed",
+    "lint": "pass",
+    "science_cases_executed": 0,
+    "random_draws_generated": 0,
+    "model_fits_executed": 0,
+    "periodic_scans_executed": 0
+  },
+  "authority": {
+    "execution_authorized_by_this_artifact": false,
+    "conditional_user_authorization_record_required": true,
+    "observed_residual_access_authorized": false,
+    "observed_periodic_search_authorized": false
+  },
+  "disposition": "ready_for_conditional_execution_freeze"
+}

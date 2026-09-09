@@ -1,0 +1,7 @@
+{
+  "attempt": "attempt01",
+  "error": "Compatibility mismatch: reduced_chi_square published summary mismatch",
+  "master_before_sha256": "b5dc28b85948eab27c5062e54cc236e5e3ed11cf4f0ffca0b21e601476c4bc3e",
+  "observed_search_executed": false,
+  "target": "J1939+2134"
+}

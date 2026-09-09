@@ -1,0 +1,19 @@
+{
+  "astrometric_parameters": [
+    "PX",
+    "ELONG",
+    "ELAT",
+    "PMELONG",
+    "PMELAT"
+  ],
+  "case_count": 284,
+  "case_order_sha256": "2cdf585ea5fb422177b259acb20ed351c41efa00b3eb8fa64a85165c9920c0fe",
+  "execution_authorized": false,
+  "frequency_recovery_tolerance": "one_independent_fourier_bin_inverse_span",
+  "full_covariance_audit_count": 29,
+  "injection_id": "pilot1-injection-calibration-v0.1",
+  "locked_threshold_delta_chi2": 23.33426855482562,
+  "observed_residual_search_authorized": false,
+  "ordinary_absorption_measurement": "one_minus_exact_frequency_covariance_gls_postfit_amplitude_fraction_clipped_0_1",
+  "schema_version": 1
+}

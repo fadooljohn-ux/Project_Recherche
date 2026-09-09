@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-09-08T09:06:46.356010+00:00",
+  "archive": "../Recherche Recovery/20260907T223404/b1257-benchmark-20260908.tar",
+  "archive_bytes": 645120,
+  "archive_sha256": "719753e3e12b528f4bfa6feebeec02b56955b64581738182cfa3b8e5dc8b06b6",
+  "files_verified": 60,
+  "exact_file_set": true,
+  "content_hashes_verified": true,
+  "source_after_verified": true,
+  "terminal_inventory_sha256": "4e12a9762c5111bcc0378d0eb1c4381d0e642e38f1d23714da11bf6c28054b15"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PRESERVED",
+  "historical_result_files_unchanged": 1232,
+  "scientific_source_files_unchanged": 71,
+  "root_environment_lock_unchanged": true,
+  "historical_master_cells_and_formulas_preserved": true,
+  "search_records": 337,
+  "work_log_records": 150,
+  "master_sha256": "460a10e0644349af17b722f5c0fbe99332cfd6daaf129f169114f1c447dcf241",
+  "new_observed_searches": 0,
+  "formula_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+}

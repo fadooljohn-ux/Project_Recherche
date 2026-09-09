@@ -1,0 +1,15 @@
+{
+  "status": "SINGLE_PULSAR_POOL_COMPLETE",
+  "release_pulsars": 68,
+  "known_binary_exclusions": 51,
+  "single_pulsars": 17,
+  "already_searched": 1,
+  "new_searches": 16,
+  "new_targets": 6,
+  "prior_target_overlaps": 10,
+  "remaining_eligible": 0,
+  "candidate_count": 1,
+  "noise_adequacy_flags": 0,
+  "B1937_preserved": true,
+  "new_discoveries": 0
+}

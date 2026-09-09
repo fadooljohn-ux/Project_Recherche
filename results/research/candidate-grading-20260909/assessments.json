@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "assessment_id": "candidate-grading-20260909",
+  "assessed_utc": "2026-09-09T05:27:05.412253+00:00",
+  "method": "docs/CANDIDATE_GRADING.md",
+  "records": [
+    {
+      "record_id": "ng15-batch01-20260908-J1453+1902-run01",
+      "target": "J1453+1902",
+      "result_sha256": "975c9baf7109cf683b00d2f882bbf531bc52a37aac47d1d1228152d4f8fc8436",
+      "statistical_grade": "NOT_ESTABLISHED",
+      "global_fap": null,
+      "global_sigma": null,
+      "global_scope": "No noise-robust survey-wide false-alarm calibration. Original 1% allowance is conditional and per batch.",
+      "diagnostic_source": "results/research/j1453-human-review-20260908-step3.json",
+      "exceedance_field": "null_exceedances",
+      "null_count": 512,
+      "null_exceedances": 46,
+      "diagnostic_p_plus_one": 0.09161793372319688,
+      "diagnostic_scope": "Noise-family maximum over the original eligible grid plus local refinement. Covariance reselected under both hypotheses. Conditional on the selected finite noise model; not survey-wide FAP.",
+      "robustness_grade": "NOISE_SENSITIVE",
+      "robustness_evidence": "Correlated-noise alternatives weaken the signal. Its strength depends on observing days; later data and band subsets do not independently reinforce it.",
+      "confirmation_grade": "UNAVAILABLE",
+      "confirmation_evidence": "No additional independent calibrated timing series acquired. The narrowband reduction shares the discovery observations and weakly reproduces the feature.",
+      "disposition": "INCONCLUSIVE_NOISE_SENSITIVE",
+      "sources": [
+        {
+          "path": "results/research/j1453-human-review-20260908-step3.json",
+          "sha256": "cb1f4c81ef8d6b7bec3c7088f3fa3ba5543fcd0a44400f0f988c9db98cae6273"
+        },
+        {
+          "path": "docs/J1453_HUMAN_REVIEW_2026-09-08.md",
+          "sha256": "c96f8409d63a1f610183a788d71934c891a0980f99fb262a10564b6153ecfade"
+        }
+      ]
+    },
+    {
+      "record_id": "pta-campaign01-20260908-inpta-J1939+2134-run01",
+      "target": "J1939+2134",
+      "result_sha256": "f027268999ab65e90ef34988839c628f7eb823b0253365c6f4dd8d774a5bf1d7",
+      "statistical_grade": "NOT_ESTABLISHED",
+      "global_fap": null,
+      "global_sigma": null,
+      "global_scope": "No noise-robust survey-wide false-alarm calibration. Original 1% allowance is conditional and per batch.",
+      "diagnostic_source": "results/research/j1939-deep-review-20260909/candidate-assessment.json",
+      "exceedance_field": "null_global_max_exceedances",
+      "null_count": 512,
+      "null_exceedances": 40,
+      "diagnostic_p_plus_one": 0.07992202729044834,
+      "diagnostic_scope": "Original 567-day candidate profiled over the noise family, compared with each simulation maximum across the declared grid. Conservative candidate-specific diagnostic. Conditional on the selected finite noise model; not survey-wide FAP.",
+      "robustness_grade": "NOISE_SENSITIVE",
+      "robustness_evidence": "The original 567-day signal weakens with correlated/chromatic noise and fails conditional time, receiver-band and source consistency checks. The separate 67-day feature is not this candidate.",
+      "confirmation_grade": "NOT_CORROBORATED",
+      "confirmation_evidence": "Overlapping PPTA observations do not corroborate a common planetary timing delay. Source errors and shared propagation limit the comparison.",
+      "disposition": "INCONCLUSIVE_NOISE_SENSITIVE",
+      "sources": [
+        {
+          "path": "results/research/j1939-deep-review-20260909/candidate-assessment.json",
+          "sha256": "c083c49082ab78cb84f10165d39405c9d8cac19db831b9b546943d739bb6467a"
+        },
+        {
+          "path": "docs/J1939_DEEP_REVIEW_REPORT_2026-09-09.md",
+          "sha256": "943b92bc32f50ddb6591731c4f647737d97ea21f00f77ffb89e380e26019acd3"
+        }
+      ]
+    },
+    {
+      "record_id": "utmost-batch02-20260909-J1327-6222-run01",
+      "target": "J1327-6222",
+      "result_sha256": "2f7fe68720647f30e26cde5f2fd504316e658c87ffa7b221bfc0c273a8220609",
+      "statistical_grade": "NOT_ESTABLISHED",
+      "global_fap": null,
+      "global_sigma": null,
+      "global_scope": "No noise-robust survey-wide false-alarm calibration. Original 1% allowance is conditional and per batch.",
+      "diagnostic_source": "results/research/j1327-deep-review-20260909/step3.json",
+      "exceedance_field": "null_exceedances",
+      "null_count": 512,
+      "null_exceedances": 511,
+      "diagnostic_p_plus_one": 0.9980506822612085,
+      "diagnostic_scope": "Noise-family maximum over the original eligible grid plus local refinement. Covariance reselected under both hypotheses. Conditional on the selected finite noise model; not survey-wide FAP.",
+      "robustness_grade": "NOISE_SENSITIVE",
+      "robustness_evidence": "The signal survives individual-day removal but collapses when red-noise coverage extends from 10 to 32/64 Fourier modes. Strength varies with time; radio-band discrimination is unavailable.",
+      "confirmation_grade": "UNDERPOWERED",
+      "confirmation_evidence": "Independent TPA measurements do not corroborate the signal. Conditional detection power is only 11.7%, insufficient to rule it out.",
+      "disposition": "INCONCLUSIVE_NOISE_SENSITIVE",
+      "sources": [
+        {
+          "path": "results/research/j1327-deep-review-20260909/step3.json",
+          "sha256": "08018aa51ef662fbfd0afb4fabf82af0dfbcfef030a8201c60280cbaed1e135f"
+        },
+        {
+          "path": "docs/J1327_DEEP_REVIEW_2026-09-09.md",
+          "sha256": "a547b40d062d1d7aa0962ee88e9a192eb52315b4e2b2bf24fc4895e8de1981a7"
+        }
+      ]
+    }
+  ]
+}

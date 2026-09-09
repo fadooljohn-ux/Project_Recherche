@@ -1,0 +1,39 @@
+{
+  "status": "PREPARATION_COMPLETE",
+  "targets": 25,
+  "toas": 2850,
+  "observing_days": 2580,
+  "unchanged_pre_repair_residuals": [
+    "J1623-4256",
+    "J1435-5954",
+    "J0536-7543",
+    "J0418-4154",
+    "J1306-6617",
+    "J0856-6137",
+    "J0924-5814",
+    "J1418-3921",
+    "J1707-4053",
+    "J1715-4034",
+    "J1231-6303",
+    "J1824-1945",
+    "J0601-0527",
+    "J0452-1759",
+    "J1848-0123",
+    "J0837+0610",
+    "J2330-2005",
+    "J0820-1350",
+    "J1847-0402",
+    "J1705-3423",
+    "J1836-1008"
+  ],
+  "pulse_number_repair": {
+    "target": "J0742-2822",
+    "phase_connection": "RELEASED_PULSE_NUMBERS",
+    "phase_arc_cycles": 0.501342569661459,
+    "pulse_number_integer_spread": 0.0,
+    "null_reduced_chi2": 1.0348347377875196
+  },
+  "noise_flags": [
+    "J0536-7543"
+  ]
+}

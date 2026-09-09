@@ -1,0 +1,21 @@
+{
+  "report_id": "PR-J1453-2026-01",
+  "version": "1.0",
+  "date": "2026-09-08",
+  "pages": 8,
+  "scientific_review_commit": "a4f56a4",
+  "scientific_disposition": "INCONCLUSIVE_NOISE_SENSITIVE",
+  "new_scientific_runs": 0,
+  "master_workbook_unchanged_from_review_closeout": true,
+  "repository_visibility": "private",
+  "files": {
+    "output/pdf/J1453+1902_Candidate_Report.pdf": "da574256177d30def9a71a119d7459fd24285e14c9a3f57a1b19d0ea31258772",
+    "output/pdf/J1453+1902_Candidate_Report.md": "f62f72a06b8af7725b00d58acecded1079fa1dd253d4763703e9008504cbb099",
+    "outputs/recherche-master-20260908/Project-Recherche-Master.xlsx": "f7c06616643a05b93ce30559d80d088717cbafdbaff89f57817826723bf0a9f6",
+    "tools/build_j1453_report.py": "5e5838e3436fec9366fcab494b13eab5f7f456887513dd4c960c4c39ac6ac5ac",
+    "output/pdf/j1453-assets/phase-fit.png": "037a967de8115582fc96afa5033e395502d61aca1dabe53d8c09e7e3df9f8863",
+    "output/pdf/j1453-assets/reduction-comparison.csv": "315d017894c150b4c322774418292706af73f72f0b5b678e84039e04d5537e41",
+    "output/pdf/j1453-assets/reduction-comparison.png": "3131052aabbeec3b419860607bd226cb5eae3625c680ad9bd9dc62d06758d617",
+    "output/pdf/j1453-assets/review-diagnostics.png": "dcaaf658bcb6a02250c429571571cae1d3678dbcb108f8e4a8c19c78737c2acc"
+  }
+}

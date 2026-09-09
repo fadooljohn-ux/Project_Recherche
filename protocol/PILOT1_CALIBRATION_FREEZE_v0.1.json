@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot1-calibration-null-freeze-v0.1",
+  "status": "frozen_before_remaining_calibration_nulls",
+  "recorded_utc": "2026-08-09T05:23:46Z",
+  "target": "J1744-1134",
+  "dataset": "nanograv_15yr_timing_v2.1.0",
+  "implementation_base_commit": "223b073b2688c9edd1109efdfa9c2ab6d58589f5",
+  "authorization": "remaining_990_calibration_null_scans_only",
+  "authorized_calibration_id": "pilot1-calibration-null-v0.1",
+  "authorized_new_scan_count": 990,
+  "reused_verified_benchmark_count": 10,
+  "total_calibration_population": 1000,
+  "all_case_order_sha256": "952d4f1b7b315de90e85f1a65f2e66ef2653930cf1b5223a2c2d7ea674790b1c",
+  "reused_case_order_sha256": "a1aef8903dbf038dd640f2f84a11f5baeb54e2776afd1f83f2a3bbfe9939bac2",
+  "remaining_case_order_sha256": "c356c19ea0376f661c11aee4ae7eaff225165e7be442ebe90874f490a0a769e0",
+  "threshold_estimator": "conservative_nearest_rank",
+  "threshold_quantile": 0.99,
+  "threshold_rank": 990,
+  "trigger_comparison": "strictly_greater_than_threshold",
+  "threshold_disposition": "proposed_not_locked",
+  "sealed_evaluation_authorized": false,
+  "observed_residual_search_authorized": false,
+  "candidate_or_discovery_claim_authorized": false,
+  "promotion_evaluation_authorized": false,
+  "source_benchmark_summary": {
+    "logical_path": "run_records/pilot1/benchmark50-r1-summary.json",
+    "bytes": 58981,
+    "sha256": "25b332e89da6b175524f0b84c711a268c5c560386bc89ea0b214fa8a18010e2f"
+  },
+  "reused_benchmark_artifacts": [
+    {
+      "case_id": "null-calibration-0925",
+      "seed": 1516273739293721965,
+      "logical_path": "derived/pilot1/benchmark50-r1/01-null-calibration-0925.json",
+      "sha256": "43bc69468f74a4b673920b208d9b5640736950e9a8070a67234cc29897d63964"
+    },
+    {
+      "case_id": "null-calibration-0322",
+      "seed": 14357937658192937908,
+      "logical_path": "derived/pilot1/benchmark50-r1/02-null-calibration-0322.json",
+      "sha256": "a0350e20bfb05d9ae21bb9cbe935faf80c8b11523281936b2d97ba53b33cb985"
+    },
+    {
+      "case_id": "null-calibration-0355",
+      "seed": 11113209529881590296,
+      "logical_path": "derived/pilot1/benchmark50-r1/03-null-calibration-0355.json",
+      "sha256": "31f8f90c5b391795f2aaadee056ba89ce9a30ec102172e66c8f11b99a3f3d1ec"
+    },
+    {
+      "case_id": "null-calibration-0425",
+      "seed": 1372689140527392272,
+      "logical_path": "derived/pilot1/benchmark50-r1/04-null-calibration-0425.json",
+      "sha256": "01acaf75355b5a38fbf83783a5e9ae15af7b30cc554d9b35e1766de84aac42c9"
+    },
+    {
+      "case_id": "null-calibration-0309",
+      "seed": 16500054995474254456,
+      "logical_path": "derived/pilot1/benchmark50-r1/05-null-calibration-0309.json",
+      "sha256": "e756abda4a062db5a3ec72bbdce4eccacd21cccadc246b54d317c0a5c74dbe93"
+    },
+    {
+      "case_id": "null-calibration-0442",
+      "seed": 17798694222176118780,
+      "logical_path": "derived/pilot1/benchmark50-r1/06-null-calibration-0442.json",
+      "sha256": "b4d83b75842868234567967d2e6477e339b43d817c357153c4dc6743db295e70"
+    },
+    {
+      "case_id": "null-calibration-0895",
+      "seed": 1885059482746273102,
+      "logical_path": "derived/pilot1/benchmark50-r1/07-null-calibration-0895.json",
+      "sha256": "fdccdd37fadfa7624c5a78312d370ffb295f3daf71b7eae10b81467e0b6c0e23"
+    },
+    {
+      "case_id": "null-calibration-0957",
+      "seed": 2706624053057076152,
+      "logical_path": "derived/pilot1/benchmark50-r1/08-null-calibration-0957.json",
+      "sha256": "baa015c2898d6fc0f23846ef9ea90cfa25c286cde3814ed7349c7cc32978885b"
+    },
+    {
+      "case_id": "null-calibration-0763",
+      "seed": 12306041000469906175,
+      "logical_path": "derived/pilot1/benchmark50-r1/09-null-calibration-0763.json",
+      "sha256": "873d29a3a275fc928f8147faf4c132df2ae9a3a923a73fd87d2eba3fdfa5e3b7"
+    },
+    {
+      "case_id": "null-calibration-0258",
+      "seed": 1007513867730097060,
+      "logical_path": "derived/pilot1/benchmark50-r1/10-null-calibration-0258.json",
+      "sha256": "56a02762591720af6f3d308b61d408e2ab2ccefcd84d88c9765a54b2a1c65801"
+    }
+  ],
+  "frozen_sha256": {
+    "src/pulsar_pilot/pilot1_calibration.py": "dbb09dabab20e0afcb754939350e980af08fa52caa538700829545f4a09249b5",
+    "tests/test_pilot1_calibration.py": "13a79e2835e61ce259d2e29408f74fadf157f424045e3d19c651b1ec2d62190d",
+    "results/pilot1/calibration_null_plan_v0.1.json": "cc869515fa66cfb42be648dfbfc5bc5814dab9ff27adee8453042c5a72403734",
+    "docs/PILOT1_CALIBRATION_NULL_FREEZE_v0.1.md": "f583bd92e4f1f4739e8832c39a8a8a0944b91bbda7cb42ef3b8742c0d221d945",
+    "results/pilot1/benchmark50_r1_result_v0.2.json": "0e0537ce54d246287caad28397f02f569e7727f01fb54efd72d38c5a56d80ccd",
+    "docs/PILOT1_BENCHMARK50_R1_RESULT_v0.2.md": "b586a5de17dd9df0419f2a7c38ea2c12c34a1f3f072eabf630a6eb0ff480a509",
+    "src/pulsar_pilot/pilot1_benchmark.py": "d6939a4383b166a0e1c1f663008013c04d049dc69c9a2342428953be796467e9",
+    "src/pulsar_pilot/pilot1_runtime.py": "bf4472794c2fa778ba5ff55147577b756637744cbb393a1c94509f06612f41de",
+    "config/pilot1.yaml": "c86ef883d806d629f993544d0689efc3acc39c16469e91432bdaf5b401966e94",
+    "config/target.yaml": "c6f051fdf883c6629883510b83c103ff9e46039e5a083994fc65b78cb6710937"
+  },
+  "pixi_lock_sha256": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8",
+  "stop_rule": "any_failed_calibration_scorecard_row_stops_progression",
+  "next_authorization_if_pass": "lock_threshold_then_sealed_500_evaluation_nulls"
+}

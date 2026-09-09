@@ -1,0 +1,2223 @@
+{
+  "scope": "Model parsing only; no TOA processing, fitting, calibration or observed search",
+  "models": [
+    {
+      "target": "J0134-2937",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.01756'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.9752'"
+      ]
+    },
+    {
+      "target": "J0151-0635",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.839015'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.35533'"
+      ]
+    },
+    {
+      "target": "J0255-5304",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.958232'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.19942'"
+      ]
+    },
+    {
+      "target": "J0418-4154",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.03423'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.71957'"
+      ]
+    },
+    {
+      "target": "J0452-1759",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.24652'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.91503'"
+      ]
+    },
+    {
+      "target": "J0536-7543",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 3.41096'",
+        "Unrecognized parfile line 'TNGLOBALEQ -9.1186'"
+      ]
+    },
+    {
+      "target": "J0601-0527",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.554011'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.61583'"
+      ]
+    },
+    {
+      "target": "J0630-2834",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.66578'",
+        "Unrecognized parfile line 'TNGLOBALEQ -2.76693'"
+      ]
+    },
+    {
+      "target": "J0738-4042",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1",
+        "F2"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.68249'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.8981'"
+      ]
+    },
+    {
+      "target": "J0742-2822",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 21.4766'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.33962'"
+      ]
+    },
+    {
+      "target": "J0820-1350",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.61063'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.82676'"
+      ]
+    },
+    {
+      "target": "J0820-4114",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.27608'",
+        "Unrecognized parfile line 'TNGLOBALEQ -6.25824'"
+      ]
+    },
+    {
+      "target": "J0837+0610",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.11429'",
+        "Unrecognized parfile line 'TNGLOBALEQ -9.13911'"
+      ]
+    },
+    {
+      "target": "J0837-4135",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.19154'",
+        "Unrecognized parfile line 'TNGLOBALEQ -5.72319'"
+      ]
+    },
+    {
+      "target": "J0856-6137",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.04012'",
+        "Unrecognized parfile line 'TNGLOBALEQ -8.65611'"
+      ]
+    },
+    {
+      "target": "J0907-5157",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.09337'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.85668'"
+      ]
+    },
+    {
+      "target": "J0908-4913",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.34321'",
+        "Unrecognized parfile line 'TNGLOBALEQ -6.98425'"
+      ]
+    },
+    {
+      "target": "J0924-5814",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.02476'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.57196'"
+      ]
+    },
+    {
+      "target": "J0953+0755",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 3.04301'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.08022'"
+      ]
+    },
+    {
+      "target": "J1001-5507",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.877482'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.20175'"
+      ]
+    },
+    {
+      "target": "J1012-5857",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.01041'",
+        "Unrecognized parfile line 'TNGLOBALEQ -5.31794'"
+      ]
+    },
+    {
+      "target": "J1013-5934",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.967401'",
+        "Unrecognized parfile line 'TNGLOBALEQ -9.72716'"
+      ]
+    },
+    {
+      "target": "J1034-3224",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.695093'",
+        "Unrecognized parfile line 'TNGLOBALEQ -5.92767'"
+      ]
+    },
+    {
+      "target": "J1048-5832",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.1366'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.98387'"
+      ]
+    },
+    {
+      "target": "J1056-6258",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.36224'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.1625'"
+      ]
+    },
+    {
+      "target": "J1057-5226",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.25986'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.20755'"
+      ]
+    },
+    {
+      "target": "J1136-5525",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.04494'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.73226'"
+      ]
+    },
+    {
+      "target": "J1157-6224",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.861431'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.89338'"
+      ]
+    },
+    {
+      "target": "J1202-5820",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.861438'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.96719'"
+      ]
+    },
+    {
+      "target": "J1210-5559",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.796477'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.92531'"
+      ]
+    },
+    {
+      "target": "J1224-6407",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.993245'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.68957'"
+      ]
+    },
+    {
+      "target": "J1231-6303",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.22476'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.04777'"
+      ]
+    },
+    {
+      "target": "J1243-6423",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.68789'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.38259'"
+      ]
+    },
+    {
+      "target": "J1253-5820",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.864758'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.25682'"
+      ]
+    },
+    {
+      "target": "J1305-6455",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.0771'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.77921'"
+      ]
+    },
+    {
+      "target": "J1306-6617",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.11746'",
+        "Unrecognized parfile line 'TNGLOBALEQ -5.61738'"
+      ]
+    },
+    {
+      "target": "J1320-5359",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.885694'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.95211'"
+      ]
+    },
+    {
+      "target": "J1326-5859",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.914559'",
+        "Unrecognized parfile line 'TNGLOBALEQ -7.26826'"
+      ]
+    },
+    {
+      "target": "J1326-6700",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.1992'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.05738'"
+      ]
+    },
+    {
+      "target": "J1327-6222",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.523467'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.71054'"
+      ]
+    },
+    {
+      "target": "J1327-6301",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.06633'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.71183'"
+      ]
+    },
+    {
+      "target": "J1359-6038",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.18585'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.7688'"
+      ]
+    },
+    {
+      "target": "J1401-6357",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.47249'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.75063'"
+      ]
+    },
+    {
+      "target": "J1418-3921",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.783299'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.20049'"
+      ]
+    },
+    {
+      "target": "J1428-5530",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.35128'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.402'"
+      ]
+    },
+    {
+      "target": "J1430-6623",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.31553'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.56707'"
+      ]
+    },
+    {
+      "target": "J1435-5954",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.97386'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.02412'"
+      ]
+    },
+    {
+      "target": "J1453-6413",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.34995'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.6893'"
+      ]
+    },
+    {
+      "target": "J1456-6843",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.953783'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.86066'"
+      ]
+    },
+    {
+      "target": "J1534-5334",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.914529'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.77189'"
+      ]
+    },
+    {
+      "target": "J1544-5308",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.04086'",
+        "Unrecognized parfile line 'TNGLOBALEQ -7.97506'"
+      ]
+    },
+    {
+      "target": "J1557-4258",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1",
+        "F2"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.03727'",
+        "Unrecognized parfile line 'TNGLOBALEQ -5.7046'"
+      ]
+    },
+    {
+      "target": "J1559-4438",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 2.14044'",
+        "Unrecognized parfile line 'TNGLOBALEQ -6.95987'"
+      ]
+    },
+    {
+      "target": "J1600-5044",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.903154'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.2572'"
+      ]
+    },
+    {
+      "target": "J1604-4909",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.00628'",
+        "Unrecognized parfile line 'TNGLOBALEQ -6.97114'"
+      ]
+    },
+    {
+      "target": "J1605-5257",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.1281'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.68351'"
+      ]
+    },
+    {
+      "target": "J1623-4256",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.979955'",
+        "Unrecognized parfile line 'TNGLOBALEQ -9.63115'"
+      ]
+    },
+    {
+      "target": "J1633-5015",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.852713'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.81827'"
+      ]
+    },
+    {
+      "target": "J1644-4559",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 3.12319'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.09044'"
+      ]
+    },
+    {
+      "target": "J1651-4246",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.20104'",
+        "Unrecognized parfile line 'TNGLOBALEQ -9.7449'"
+      ]
+    },
+    {
+      "target": "J1651-5222",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.08569'",
+        "Unrecognized parfile line 'TNGLOBALEQ -7.05779'"
+      ]
+    },
+    {
+      "target": "J1703-3241",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.968394'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.09114'"
+      ]
+    },
+    {
+      "target": "J1705-1906",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.03058'",
+        "Unrecognized parfile line 'TNGLOBALEQ -6.90431'"
+      ]
+    },
+    {
+      "target": "J1705-3423",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.984958'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.7031'"
+      ]
+    },
+    {
+      "target": "J1707-4053",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.786712'",
+        "Unrecognized parfile line 'TNGLOBALEQ -2.67389'"
+      ]
+    },
+    {
+      "target": "J1715-4034",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.17592'",
+        "Unrecognized parfile line 'TNGLOBALEQ -2.89028'"
+      ]
+    },
+    {
+      "target": "J1745-3040",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "FINISH cannot be unfrozen... Setting FINISH.frozen to True",
+        "START cannot be unfrozen... Setting START.frozen to True",
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.32093'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.03186'"
+      ]
+    },
+    {
+      "target": "J1751-4657",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.644682'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.90827'"
+      ]
+    },
+    {
+      "target": "J1752-2806",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1",
+        "F2"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.45645'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.92246'"
+      ]
+    },
+    {
+      "target": "J1807-0847",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.920718'",
+        "Unrecognized parfile line 'TNGLOBALEQ -6.37804'"
+      ]
+    },
+    {
+      "target": "J1820-0427",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.30336'",
+        "Unrecognized parfile line 'TNGLOBALEQ -8.13694'"
+      ]
+    },
+    {
+      "target": "J1824-1945",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.94452'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.70746'"
+      ]
+    },
+    {
+      "target": "J1825-0935",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "TroposphereDelay",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "PMRA",
+        "PMDEC",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "PINT only supports 'T2CMETHOD IAU2000B'",
+        "Unrecognized parfile line 'EPHVER 2'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.38026'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.47192'"
+      ]
+    },
+    {
+      "target": "J1829-1751",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1",
+        "F2"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.08492'",
+        "Unrecognized parfile line 'TNGLOBALEQ -6.68067'"
+      ]
+    },
+    {
+      "target": "J1836-1008",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.893518'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.8504'"
+      ]
+    },
+    {
+      "target": "J1840-0809",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.999368'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.20047'"
+      ]
+    },
+    {
+      "target": "J1842-0359",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.745769'",
+        "Unrecognized parfile line 'TNGLOBALEQ -2.55475'"
+      ]
+    },
+    {
+      "target": "J1847-0402",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "PMRA",
+        "PMDEC",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "FINISH cannot be unfrozen... Setting FINISH.frozen to True",
+        "START cannot be unfrozen... Setting START.frozen to True",
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.974408'",
+        "Unrecognized parfile line 'TNGLOBALEQ -7.78025'"
+      ]
+    },
+    {
+      "target": "J1848-0123",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.754785'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.71851'"
+      ]
+    },
+    {
+      "target": "J1913-0440",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.43782'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.69919'"
+      ]
+    },
+    {
+      "target": "J1932+1059",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "PLRedNoise",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.835987'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.22633'"
+      ]
+    },
+    {
+      "target": "J2006-0807",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.11286'",
+        "Unrecognized parfile line 'TNGLOBALEQ -7.44036'"
+      ]
+    },
+    {
+      "target": "J2046+1540",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.09272'",
+        "Unrecognized parfile line 'TNGLOBALEQ -5.07588'"
+      ]
+    },
+    {
+      "target": "J2046-0421",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.09163'",
+        "Unrecognized parfile line 'TNGLOBALEQ -4.00331'"
+      ]
+    },
+    {
+      "target": "J2048-1616",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 1.04567'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.40925'"
+      ]
+    },
+    {
+      "target": "J2330-2005",
+      "parsed": true,
+      "components": [
+        "AstrometryEquatorial",
+        "SolarSystemShapiro",
+        "SolarWindDispersion",
+        "DispersionDM",
+        "AbsPhase",
+        "Spindown"
+      ],
+      "free_params": [
+        "RAJ",
+        "DECJ",
+        "F0",
+        "F1"
+      ],
+      "has_scale_toa_error": false,
+      "units": "TDB",
+      "warnings": [
+        "Unrecognized parfile line 'EPHVER 5'",
+        "Unrecognized parfile line 'TNGLOBALEF 0.855751'",
+        "Unrecognized parfile line 'TNGLOBALEQ -3.56675'"
+      ]
+    }
+  ],
+  "molonglo_observatory": {
+    "name": "most",
+    "clock_files": [
+      "mo2gps.clk"
+    ],
+    "clock_fmt": "tempo2"
+  }
+}

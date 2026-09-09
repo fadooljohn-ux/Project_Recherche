@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "design_id": "pilot1-calibration-design-v0.1",
+  "status": "design_frozen_for_review",
+  "recorded_utc": "2026-08-09T03:25:52Z",
+  "target": "J1744-1134",
+  "dataset": "nanograv_15yr_timing_v2.1.0",
+  "promotion_milestone": "initial-v0.1",
+  "execution_authorized": false,
+  "authorized_next_work": [
+    "implement_covariance_whitened_trigger",
+    "implement_covariance_null_generator",
+    "implement_resumable_matrix_runner",
+    "run_noninjected_numerical_preflights"
+  ],
+  "blocked_work": [
+    "generate_pilot1_synthetic_realizations",
+    "inspect_sealed_evaluation_nulls",
+    "search_observed_residuals",
+    "make_candidate_or_discovery_claim"
+  ],
+  "design_sha256": {
+    "config/pilot1.yaml": "c86ef883d806d629f993544d0689efc3acc39c16469e91432bdaf5b401966e94",
+    "docs/PILOT1_CALIBRATION_SCOPE.md": "4177b5f1abc88bb4f131dc231d0f52bd99c3f016c293ea7b353711c728a61b10",
+    "docs/V0.1_PROMOTION_SCORECARD.md": "7103703337c07cb83d8e594bf471188ee4fe7c7862a9841968733aaab1509523",
+    "protocol/PILOT1_PROTOCOL_v0.1.md": "8b5c144706617cb574bf160a1ffdf304802ee8333a47cc3798b490ca314a75b9",
+    "src/pulsar_pilot/pilot1.py": "62b442bb6915eb674cf5a71a98d0a3f8cbbb6d85779b9970e18643f0d20df995",
+    "results/pilot1/plan_summary.json": "785b365b63b8c9763f83969d31d0de3e8a279cd935a01b569a57198356d85dbb"
+  },
+  "research_sha256": {
+    "research/pilot1/RESEARCH_BRIEF.md": "f094e8865caa1ece73182a478f5da02dc10ea9e2b62b7c246f4be3ca479cc8e2",
+    "research/pilot1/SOURCE_REGISTER.md": "779ac152ab925696a4b15bced47b83a23c397fce2bf2bb8123a8bacef8ad7c7c",
+    "research/pilot1/CLAIM_EVIDENCE_LEDGER.csv": "f71355895b5e3deee8d783c67ac75162197c2d01927c6cebadcccfd51d9a112a",
+    "research/pilot1/SEARCH_LOG.md": "3826843b249f50c6dc2e01612f19b0f116f1c5c078675587d55750b76f92d882",
+    "research/pilot1/literature_manifest.sha256": "657f54d73472533342a5d779f89fe766f1970a38fd0a648a33973f25adcfff5c"
+  },
+  "pixi_lock_sha256": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8"
+}

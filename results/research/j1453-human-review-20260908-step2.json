@@ -1,0 +1,121 @@
+{
+  "groups": {
+    "early_late": {
+      "subsets": [
+        {
+          "toas": 65,
+          "fit": {
+            "period_days": 118.86682633580926,
+            "delta_chi2": 25.42424425497294,
+            "amplitude_us": 1.9495805749623996,
+            "sin_cos_us": [
+              -1.771480395305169,
+              -0.8140771630012498
+            ],
+            "coefficient_covariance_us2": [
+              [
+                0.12442658716642907,
+                0.07011681235856314
+              ],
+              [
+                0.07011681235856314,
+                0.20629521717737767
+              ]
+            ],
+            "null_chi2": 122.05375893646854,
+            "rank": 46,
+            "dof_null": 84
+          }
+        },
+        {
+          "toas": 57,
+          "fit": {
+            "period_days": 118.86682633580926,
+            "delta_chi2": 1.656267919371792,
+            "amplitude_us": 0.5274824869009032,
+            "sin_cos_us": [
+              -0.5183735554848572,
+              -0.09760446178914715
+            ],
+            "coefficient_covariance_us2": [
+              [
+                0.16802528531280095,
+                0.08429056899644818
+              ],
+              [
+                0.08429056899644821,
+                0.5049041816719773
+              ]
+            ],
+            "null_chi2": 60.05271218691301,
+            "rank": 47,
+            "dof_null": 67
+          }
+        }
+      ],
+      "joint_split_delta_chi2": 38.556363017058096,
+      "extra_delta_chi2_over_common_signal": 3.2373078840904554,
+      "extra_dof": 2,
+      "fixed_period_consistency_p": 0.19816526156578193
+    },
+    "radio_band": {
+      "subsets": [
+        {
+          "toas": 49,
+          "fit": {
+            "period_days": 118.86682633580926,
+            "delta_chi2": 1.204963166225874,
+            "amplitude_us": 37.627433364749756,
+            "sin_cos_us": [
+              33.83532493429207,
+              -16.461911438516378
+            ],
+            "coefficient_covariance_us2": [
+              [
+                1513.3248520377192,
+                376.88686739597097
+              ],
+              [
+                376.88686739597114,
+                1475.0991398693081
+              ]
+            ],
+            "null_chi2": 33.32947408143907,
+            "rank": 58,
+            "dof_null": 40
+          }
+        },
+        {
+          "toas": 73,
+          "fit": {
+            "period_days": 118.86682633580926,
+            "delta_chi2": 3.8603231165138645,
+            "amplitude_us": 3.2106021581919633,
+            "sin_cos_us": [
+              0.3346980276140669,
+              -3.193108743606792
+            ],
+            "coefficient_covariance_us2": [
+              [
+                1.460492518049193,
+                0.45306067376769915
+              ],
+              [
+                0.4530606737676991,
+                3.013396815620566
+              ]
+            ],
+            "null_chi2": 73.60736435449355,
+            "rank": 80,
+            "dof_null": 66
+          }
+        }
+      ],
+      "joint_split_delta_chi2": 39.86393188287107,
+      "extra_delta_chi2_over_common_signal": 4.54487674990343,
+      "extra_dof": 2,
+      "fixed_period_consistency_p": 0.10306057313168686
+    }
+  },
+  "limitations": "Same discovery observations; descriptive fixed-period contrasts, not independent validation. Free subset nuisance parameters reduce sensitivity."
+}

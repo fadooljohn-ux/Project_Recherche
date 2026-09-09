@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "authorization_id": "stage-c-c2-v0.4",
+  "recorded_utc": "2026-08-09T02:41:40Z",
+  "basis": {
+    "c1_r1_case_result": "pass",
+    "c1_r1_review_pr": 5,
+    "c1_r1_merge_commit": "05bb11ac6309122a1b30639f99e72b0912020e5d",
+    "validated_joint_component": "ProjectCircularSignal",
+    "validated_covariance_crosscheck": "WidebandTOAFitter_explicit_full_covariance"
+  },
+  "authorized_cases": [
+    "C2"
+  ],
+  "blocked_cases": [
+    "C3"
+  ],
+  "authorization_conditions": [
+    "Use the frozen 100-day, 5-microsecond, 1.0471975511965976-radian C2 waveform.",
+    "Preserve the release PLRedNoise component and exclude WaveX from all C0/C2 joint fits.",
+    "Require valid execution, covariance-solver agreement, warning hygiene, provenance, and resource hard gates.",
+    "Classify phase-aware matched-null recovery as robust, partial, or inconsistent without using that diagnostic to override hard execution gates.",
+    "Treat exact-frequency C0 exceedance and the global strongest peak as uncalibrated diagnostics only.",
+    "Stop after publishing the C2 review record; C3 remains blocked."
+  ],
+  "config_sha256": {
+    "config/target.yaml": "c6f051fdf883c6629883510b83c103ff9e46039e5a083994fc65b78cb6710937",
+    "config/injections.yaml": "32b6d592fc695882fe0e528fb0c5ba2917161bc4883caf565db62cd59d2412b2"
+  },
+  "implementation_sha256": {
+    "src/pulsar_pilot/circular_signal.py": "5da1874ecf03b63017dc21823475c033656f461e6a07e3ee11a2274c2a8dec54",
+    "src/pulsar_pilot/c1r1.py": "38850dbc99028b4ec5edad2910144b0c256836c2b9c787e48f5ec1c01d034176",
+    "src/pulsar_pilot/c2.py": "47abc741e56a5c9104c4f19f31110373e9b6d2e2ba21ddc1d299844e802049a1"
+  },
+  "scorecard_sha256": {
+    "docs/RESULT_SCORECARD.md": "9fa2a7ca2e21b887da6003f3b098ea8bde9a090bbb5a35ac3737fcd9ef39ebcf"
+  },
+  "pixi_lock_sha256": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8"
+}

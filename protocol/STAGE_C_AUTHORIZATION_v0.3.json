@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "authorization_id": "stage-c-c1-r1-v0.3",
+  "recorded_utc": "2026-08-09T02:29:39Z",
+  "basis": {
+    "c1_case_result": "fail",
+    "c1_review_pr": 4,
+    "c1_merge_commit": "0b931509b61e6dd94754e2ca8b2a2a7531f85023",
+    "c1_failure_modes": [
+      "global_strongest_peak_did_not_recover_injected_frequency",
+      "PINT_WaveX_incompatible_with_release_PLRedNoise"
+    ],
+    "null_integration_preflight": "pass"
+  },
+  "authorized_cases": [
+    "C1-R1"
+  ],
+  "blocked_cases": [
+    "C2",
+    "C3"
+  ],
+  "authorization_conditions": [
+    "Preserve the original C1 100-day, 20-microsecond, 1.0471975511965976-radian injection waveform.",
+    "Use ProjectCircularSignal as a deterministic physical delay while preserving the release PLRedNoise covariance component.",
+    "Grade exact-frequency C0 exceedance, not the uncalibrated global strongest peak.",
+    "Require 95-105 percent phase-aware matched-null amplitude recovery and no more than 0.01 radians phase error.",
+    "Cross-check the low-rank solver with an explicit full-covariance WidebandTOAFitter execution.",
+    "Fail on any material warning and stop after publishing the C1-R1 review record."
+  ],
+  "config_sha256": {
+    "config/target.yaml": "c6f051fdf883c6629883510b83c103ff9e46039e5a083994fc65b78cb6710937",
+    "config/injections.yaml": "6bb071a26653e779a50b18219109d02b4b67416e8c4732c391f8af6d1b37e66a"
+  },
+  "implementation_sha256": {
+    "src/pulsar_pilot/circular_signal.py": "5da1874ecf03b63017dc21823475c033656f461e6a07e3ee11a2274c2a8dec54",
+    "src/pulsar_pilot/c1r1.py": "38850dbc99028b4ec5edad2910144b0c256836c2b9c787e48f5ec1c01d034176"
+  },
+  "scorecard_sha256": {
+    "docs/RESULT_SCORECARD.md": "4515417bbbaef6c90730c0eb58619c592fae94680878303b5219a6c3a8a6ca49"
+  },
+  "pixi_lock_sha256": "7412baa7d224dfdc419066b706f27257684931df9a0ad0f57949e1fe31cf68c8"
+}

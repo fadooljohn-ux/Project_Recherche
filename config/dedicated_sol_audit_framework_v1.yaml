@@ -1,0 +1,41 @@
+schema_version: 1
+framework_id: project-recherche-dedicated-sol-audit-v1
+status: active_project_audit_standard
+auditor:
+  implementation: dedicated_subagent
+  model: gpt-5.6-sol
+  reasoning_effort: high
+  independence: no_implementation_ownership_for_the_package_under_review
+authority:
+  read_only: true
+  edit_files: false
+  execute_science: false
+  authorize_execution: false
+  remediate_findings: false
+  inspect_sealed_scientific_outcomes: false
+  retune_thresholds: false
+  rerun_or_resume_failed_versions: false
+required_outputs:
+  executive_disposition: pass_or_hold
+  findings: severity_evidence_impact_recommendation
+  scorecard: pass_fail_not_applicable
+  evidence_paths_and_hashes: true
+  residual_risks: true
+  explicit_no_science_attestation: true
+finding_severities:
+  P0: integrity_or_authorization_breach
+  P1: execution_blocking_correctness_or_fail_closed_defect
+  P2: material_auditability_recovery_or_validation_gap
+  P3: non_blocking_clarity_maintainability_or_documentation_issue
+workflow:
+  preserve_auditor_report_verbatim: true
+  primary_agent_reproduces_material_findings: true
+  auditor_cannot_clear_own_findings: true
+  remediation_requires_separate_user_instruction: true
+  science_requires_separate_explicit_user_authorization: true
+  audit_disposition_is_advisory_not_authorization: true
+milestone_triggers:
+  - before_initial_execution_of_a_new_science_runner_version
+  - after_terminal_execution_failure_and_before_remediation_authorization
+  - before_promotion_or_observed_data_access
+  - before_release_or_migration_to_dedicated_hardware

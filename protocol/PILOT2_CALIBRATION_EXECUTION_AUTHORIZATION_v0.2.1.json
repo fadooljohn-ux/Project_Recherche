@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "authorization_id": "user-conditional-authorization-pilot2-calibration-v0.2.1-2026-08-10",
+  "recorded_utc": "2026-08-10T01:12:42Z",
+  "authorization": "execute_v0.2.1_after_successful_implementation_and_zero_case_verification",
+  "condition_status": "satisfied",
+  "initial_scope": "exactly_5000_frozen_gaussian_threshold_calibration_cases_and_threshold_lock_on_pass",
+  "sealed_scope": "conditionally_authorized_after_calibration_pass_and_separate_threshold_bound_continuation_freeze",
+  "structured_tail_scope": "not_authorized_by_this_record",
+  "injection_scope": "not_authorized_by_this_record",
+  "threshold_retuning_authorized": false,
+  "observed_residual_access_authorized": false,
+  "observed_periodic_search_authorized": false,
+  "discovery_claim_authorized": false,
+  "external_adviser_signoff_required": false
+}

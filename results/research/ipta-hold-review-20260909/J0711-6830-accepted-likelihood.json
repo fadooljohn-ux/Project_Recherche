@@ -1,0 +1,25 @@
+{
+  "absolute_difference": 1.1368683772161603e-13,
+  "audit_code_sha256": "edfe62a53afd1f324eff9579ecd9b30e1e23cc95f3d577828d4b9668c22a74cc",
+  "augmented_data_chi2": 524.8401293574954,
+  "augmented_total_chi2": 524.8622391709187,
+  "data_only_reduced_chi2": 1.109598582151153,
+  "dof": 473,
+  "inputs": {
+    "reference.txt": "cb41536b7119ba31c5c1c6a3d3e2f9676091e53379856010de3bdc18b96f7621",
+    "reference.txt.dm": "6df77e986d1e0eae43407c3b1f073f5b5f36a7ba7fa671bb8b407e840229b32d",
+    "reference.txt.ecorr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "reference.txt.red": "2054bbb7eaa5ea1bbd4d807966ae4149aa722309458204f6913be6adfe1ad8d6",
+    "timing.npz": "ed05412b9c7089034db369f106120a208bddc8d8fc9498d41ca81213a67b1f05"
+  },
+  "joint_columns": 450,
+  "joint_rank": 450,
+  "marginal_gls_chi2": 524.8622391709185,
+  "marginal_reduced_chi2": 1.1096453259427452,
+  "noise_prior_penalty": 0.022109813423353736,
+  "prepared": "../Project Recherche Data/ipta-hold-release-20260909/J0711-6830/attempt01",
+  "scope": "No frequency search or noise-amplitude adjustment; fixed released inputs",
+  "status": "LIKELIHOOD_EQUIVALENT",
+  "weighted_raw_rms_us": 1.5656016983039158,
+  "white_postfit_rms_us": 1.51069973061942
+}

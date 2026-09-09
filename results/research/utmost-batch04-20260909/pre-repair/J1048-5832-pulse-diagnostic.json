@@ -1,0 +1,18 @@
+{
+  "f0_hz": 8.0824186367784,
+  "integer_offset_spread": 3.0,
+  "noise_parameters": {
+    "TNGLOBALEF": "1.1366",
+    "TNGLOBALEQ": "-3.98387",
+    "TNREDAMP": "-8.62911",
+    "TNREDC": "10",
+    "TNREDGAM": "6.23412"
+  },
+  "null_reduced_chi2": 1.0049990220989191,
+  "phase_arc_cycles": 0.9271019583279677,
+  "residual_span_seconds": 0.41811632928103115,
+  "status": "DIAGNOSTIC_ONLY",
+  "supplied_pulse_count_used": true,
+  "target": "J1048-5832",
+  "toas": 232
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "freeze_id": "pilot2-b1937-sealed-gaussian-failure-analysis-freeze-v0.2",
+  "recorded_utc": "2026-08-10T00:01:00Z",
+  "status": "frozen_analysis_revision_not_authorized",
+  "analysis_mode": "read_only_no_new_random_draws_fits_or_scans",
+  "source_external_sha256": {
+    "artifact_ledger": "6f53ab6e38499f0a1253ba7992dfea71fc7945fec0209e52bf7b02f6f0f46b83",
+    "sealed_gaussian_result": "c315ed9211503d2c136e75cfed1e75718c50f9779069d0d45281e80f3d933362",
+    "threshold_lock": "533926bb286375de43f8feb9568649685aca2ec0079d9641984e70411cd7937e"
+  },
+  "frozen_sha256": {
+    "docs/PILOT2_SEALED_GAUSSIAN_FAILURE_ANALYSIS_v0.2.md": "82760581e97866edb281fe598171f8088427aae12f74feb714fcfe91f0eeb99f",
+    "results/pilot2/sealed_gaussian_deterministic_failure_analysis_v0.2.json": "89bb4d2a65ca57d2a78de93903d3b3a0fb63015b5b11eb224ef5d8ca62ab0954",
+    "results/pilot2/sealed_gaussian_failure_disposition_v0.2.json": "74535e7c62e25def30b9f9e1456146f0f13556cb48b7a0eb98a7f9be0250e495",
+    "src/pulsar_pilot/pilot2_failure_analysis.py": "335e05eee77001082ba54e019953da6dca72ffb6f4948232d28b7ef0b3ec2eca",
+    "tests/test_pilot2_failure_analysis.py": "8cfe9b7365e475fe65cb4926eb93f1b54e9c1e217d611d0a187d6a5b84721338"
+  },
+  "verification": {
+    "repository_tests": "140 passed",
+    "case_records_verified": 1500,
+    "case_records_changed": 0,
+    "new_random_draws": 0,
+    "new_model_fits": 0,
+    "new_periodic_scans": 0
+  },
+  "authority": {
+    "v0.2_threshold_retuning_authorized": false,
+    "v0.2_reroll_authorized": false,
+    "v0.2_sealed_case_reuse_authorized": false,
+    "v0.2_downstream_execution_authorized": false,
+    "v0.2.1_revision_execution_authorized": false,
+    "observed_periodic_search_authorized": false
+  }
+}

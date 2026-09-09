@@ -1,0 +1,20 @@
+{
+  "bat_bbat_max_difference_days": 0.0,
+  "bat_max_difference_days": 0.0,
+  "derivative_relative_errors": {
+    "DM2": 3.899789744667564e-06,
+    "F0": 4.991890909050675e-08,
+    "JUMP2": 1.206739407571824e-10,
+    "RAJ": 1.0480265086895636e-05
+  },
+  "design_columns": 13,
+  "design_rank": 13,
+  "dm_covariance_relative_error": 1.0015800120196133e-15,
+  "normalized_design_condition": 423.2213395872633,
+  "phase_arc_cycles": 0.06544126456174126,
+  "red_covariance_relative_error": 6.943769200416925e-16,
+  "reduced_chi_square": 0.982057924882989,
+  "residual_max_difference_seconds": 0.0,
+  "weighted_rms_us": 17.743335649768362,
+  "white_relative_error": 2.258087329559926e-16
+}

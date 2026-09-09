@@ -1,0 +1,28 @@
+{
+  "batch": "./results/research/candidate-grading-utmost-batch04-20260909",
+  "completed": 0,
+  "incomplete": 0,
+  "selected": [],
+  "previous_sha256": "77db22689c94373f688f389c3b25691c62e34d3c60ec1c91bf8ceb8c4628506e",
+  "sha256": "523744e5d114c5399d3c2f230d490266fe50e06f17ff961a327ec10eb2a4e966",
+  "backup": "../Recherche Recovery/20260907T223404/master-workbook-history/77db22689c94373f688f389c3b25691c62e34d3c60ec1c91bf8ceb8c4628506e.xlsx",
+  "changes": 5,
+  "sheets": "{\"kind\":\"sheet\",\"id\":\"ws/guhj0y\",\"name\":\"Overview\",\"index\":0,\"range\":\"A1:E28\",\"address\":\"A1:E28\"}\n{\"kind\":\"sheet\",\"id\":\"ws/o1d59f\",\"name\":\"Targets\",\"index\":1,\"range\":\"A1:T744\",\"address\":\"A1:T744\"}\n{\"kind\":\"sheet\",\"id\":\"ws/q5tqko\",\"name\":\"Searches\",\"index\":2,\"range\":\"A1:V332\",\"address\":\"A1:V332\"}\n{\"kind\":\"sheet\",\"id\":\"ws/2y5d2h\",\"name\":\"Work log\",\"index\":3,\"range\":\"A1:I124\",\"address\":\"A1:I124\"}\n{\"kind\":\"sheet\",\"id\":\"ws/gvufyx\",\"name\":\"Candidate grades\",\"index\":4,\"range\":\"A1:P8\",\"address\":\"A1:P8\"}",
+  "counts": [
+    743,
+    277,
+    266,
+    4,
+    2,
+    464,
+    331,
+    7,
+    0
+  ],
+  "updated_utc": "2026-09-09T06:22:24.458Z",
+  "operation": "candidate_grading",
+  "candidate_grades": {
+    "records": 7,
+    "excluded_invalid_imports": 2
+  }
+}

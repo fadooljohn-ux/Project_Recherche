@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "audit_id": "pilot2-b1937-v0.2.2-first-case-crash-audit",
+  "recorded_utc": "2026-08-10T09:18:57.750363Z",
+  "status": "terminal_implementation_exception_before_first_case_record",
+  "execution_gate_status_before_launch": "pass",
+  "execution_gate_failures_before_launch": [],
+  "attempted_case": {
+    "case_id": "p2r2-inj-main-p00-a00-h00-n00",
+    "seed": 2691995251659989168,
+    "family": "main",
+    "period_days": 50.0,
+    "amplitude_microseconds": 0.025,
+    "phase_radians": 0.0,
+    "disposition": "consumed_never_reuse"
+  },
+  "completed_case_records": 0,
+  "case_artifacts_written": 0,
+  "checkpoint_count": 0,
+  "exception": {
+    "type": "AttributeError",
+    "message": "'str' object has no attribute 'get_label_matrix'",
+    "source": "src/pulsar_pilot/pilot2_injection_executor.py:_phase_telemetry",
+    "failing_expression": "primary['fitter'].get_parameter_correlation_matrix().get_label_matrix(['CSSIN', 'CSCOS'])"
+  },
+  "root_cause": {
+    "primary": "PINT_get_parameter_correlation_matrix_returned_formatted_text_not_a_CorrelationMatrix_object",
+    "correct_accessor": "primary['fitter'].parameter_correlation_matrix",
+    "test_gap": "preexecution_tests_did_not_exercise_the_real_PINT_phase_telemetry_accessor",
+    "secondary_control_gap": "unexpected_exception_left_the_ledger_running_but_inactive_without_a_terminal_hard_stop"
+  },
+  "v0.2.2_state_bindings": {
+    "inventory_sha256": "e8c2a38a22bd690e611cb99e0e2fab947335c0363a7198c54a47d119032ce613",
+    "execution_freeze_sha256": "9e247d3d3c2eba0edc936b2db778683257ae5888c1bd581f682dc074ba768d03",
+    "ledger_sha256": "9d0c2c2d1bef17cd4197975b899fc46fa2866c2111eeeee9931234290afcde19",
+    "health_sha256": "292113f3663d47e74d12484aea19d054414d3e96b28c05972647a48a99c7ecf8",
+    "setup_log_sha256": "f456bc3109931d9af286344687c54dc2f88d43bd079d9bbfb7b90323fa84a073",
+    "runner_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "integrity_boundaries": {
+    "v0.2.2_files_modified_after_crash": false,
+    "v0.2.2_resume_authorized": false,
+    "v0.2.2_rerun_authorized": false,
+    "threshold_retuned": false,
+    "promotion_executed": false,
+    "observed_residual_accessed": false,
+    "observed_periodic_search_executed": false,
+    "scientific_outcomes_inspected": false
+  },
+  "required_remediation": [
+    "new_versioned_executor_and_runner",
+    "new_case_ids_and_seeds_disjoint_from_v0.2.1_and_all_v0.2.2_cases",
+    "real_PINT_accessor_compatibility_test_without_science_execution",
+    "unexpected_exception_terminal_hard_stop",
+    "new_zero_science_implementation_and_readiness_freezes",
+    "separate_future_execution_authorization"
+  ]
+}

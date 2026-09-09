@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "verification_id": "pilot2-b1937-v0.2.6-sol-audit-primary-verification",
+  "recorded_utc": "2026-08-11T01:09:50Z",
+  "target_commit": "8c1dd7062246c111a49e8fcbd6f9181a04dd844c",
+  "status": "hold_confirmed",
+  "audit_report": "docs/audits/DEDICATED_SOL_AUDIT_PILOT2_v0.2.6_2026-08-11.md",
+  "audit_report_sha256": "1326f283e92f54aa3884baa35e2a1fb331749c116ffc0de21731877f0cd1ef44",
+  "findings": [
+    {
+      "finding_id": "SOL-V026-001",
+      "severity": "P1",
+      "primary_disposition": "confirmed",
+      "evidence": "ordinary json.loads silently retained the final contradictory execution_authorized and nested active_toas members; freeze and recovered-record trust decisions do not reject duplicate raw member names before dictionary construction"
+    }
+  ],
+  "prior_finding_disposition": {
+    "SOL-V025-001": "partial_at_unique_key_parsed_object_layer",
+    "SOL-V025-002": "closed"
+  },
+  "reproduction": {
+    "duplicate_authorization_input": "{\"execution_authorized\":true,\"execution_authorized\":false}",
+    "parsed_authorization": {
+      "execution_authorized": false
+    },
+    "duplicate_binding_input": "{\"input_binding\":{\"active_toas\":0,\"active_toas\":660}}",
+    "parsed_binding": {
+      "input_binding": {
+        "active_toas": 660
+      }
+    }
+  },
+  "science_cases_executed": 0,
+  "random_draws_generated": 0,
+  "timing_model_fits_executed": 0,
+  "periodic_scans_executed": 0,
+  "external_data_roots_accessed": 0,
+  "scientific_outcomes_inspected": 0,
+  "execution_authorized": false,
+  "next_gate": "preserve_v0.2.6_hold_then_new_duplicate_json_rejection_remediation_version"
+}

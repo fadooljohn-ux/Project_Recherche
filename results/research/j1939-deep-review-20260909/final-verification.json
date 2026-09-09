@@ -1,0 +1,22 @@
+{
+  "code_sha256": "252af33c337a68cdc44b44c77a5d49e1a75f8c2fcb1d1b5bdabc5b18610114ea",
+  "completed_utc": "2026-09-08T17:31:39.526481+00:00",
+  "historical_json_records_preserved": 324,
+  "report_sha256": "943b92bc32f50ddb6591731c4f647737d97ea21f00f77ffb89e380e26019acd3",
+  "review_disposition": "INCONCLUSIVE_NOISE_SENSITIVE",
+  "status": "COMPLETE",
+  "step_hashes_verified": 4,
+  "verification": "Original candidate, PPTA result and all 324 prior JSON records unchanged; four step receipts and report hashes verified; workbook authoring preserved scientific rows/operator notes and found no formula errors; updated view and diagnostic plot inspected.",
+  "workbook_counts": [
+    692,
+    221,
+    215,
+    4,
+    2,
+    469,
+    252,
+    2,
+    0
+  ],
+  "workbook_sha256": "5f5049fca61abbd69c1694a4e0d82c7723c17a368453ec43d123a55cf883ec38"
+}

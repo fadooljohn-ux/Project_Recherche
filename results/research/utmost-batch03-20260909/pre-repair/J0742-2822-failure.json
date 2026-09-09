@@ -1,0 +1,7 @@
+{
+  "adapter_sha256": "3ab8f840400e923a9662cbd400291d5109bb888cc4c92933c88a9bb22ba0a848",
+  "observed_search_executed": false,
+  "status": "PREPARATION_FAILED",
+  "target": "J0742-2822",
+  "traceback": "Traceback (most recent call last):\n  File \"./tools/utmost_prepare.py\", line 204, in prepare\n    if arc >= .5: raise ValueError(f'Ambiguous pulse connection: {arc}')\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Ambiguous pulse connection: 0.501342569661459\n"
+}

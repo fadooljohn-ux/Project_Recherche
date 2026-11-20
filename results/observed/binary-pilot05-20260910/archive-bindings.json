@@ -1,0 +1,42 @@
+{
+  "selection.json": {
+    "source_sha256": "a2dc63c60a6b2ebf3daad93e30a82c85c372df046936ab51edb7d03c88ed99bf",
+    "archived_sha256": "a2dc63c60a6b2ebf3daad93e30a82c85c372df046936ab51edb7d03c88ed99bf"
+  },
+  "preparation.json": {
+    "source_sha256": "5ed88afddc5f50fb9d8120bc696d6f080c0b913a4f006ba098ac46774ad2f4a4",
+    "archived_sha256": "2b3c46ffaea1834828fc771797768371fa83e655ece670738253a000a00fcf56"
+  },
+  "execution-freeze.json": {
+    "source_sha256": "2dd7f9215c760157a499827abb3cc30fefdb8c51b9791c9f4daedea8418f7cdc",
+    "archived_sha256": "2083f6aac33a2293205e0f939908cb46df783780dbcebb232c6cd3e3e2f6f27d"
+  },
+  "J0509+0856/calibration.json": {
+    "source_sha256": "64b1954b6b0bacc37f3cf0827db4213f72338409f488143bce1b3cc162b1e78f",
+    "archived_sha256": "64b1954b6b0bacc37f3cf0827db4213f72338409f488143bce1b3cc162b1e78f"
+  },
+  "J0509+0856/projection-and-sensitivity.npz": {
+    "source_sha256": "fc35283ae7c31940e229c80057b9486256f48f626da2cb9cc32f56d1af617461",
+    "archived_sha256": "fc35283ae7c31940e229c80057b9486256f48f626da2cb9cc32f56d1af617461"
+  },
+  "J0509+0856/null-maxima.npy": {
+    "source_sha256": "e78eb6129a3d765d83c562aba4fed19d8b46ea14c402029b0c9544a126fd24b4",
+    "archived_sha256": "e78eb6129a3d765d83c562aba4fed19d8b46ea14c402029b0c9544a126fd24b4"
+  },
+  "J0509+0856/preparation-receipt.json": {
+    "source_sha256": "63bbed1a265441c00c35ff468ad4f2a47ae8b6c832b7fda88efcad892fe5c3c7",
+    "archived_sha256": "63bbed1a265441c00c35ff468ad4f2a47ae8b6c832b7fda88efcad892fe5c3c7"
+  },
+  "J0509+0856/profile.json": {
+    "source_sha256": "57a9709bb9f8735ca07f11019e43699d32a4c2388c4ba13d5a197a2f805c32c1",
+    "archived_sha256": "57a9709bb9f8735ca07f11019e43699d32a4c2388c4ba13d5a197a2f805c32c1"
+  },
+  "J0509+0856/result.json": {
+    "source_sha256": "7f8ba329c4ac6a11031e14d20ae617f911cad1958218ceaef6b902a0a3e2cf5e",
+    "archived_sha256": "7f8ba329c4ac6a11031e14d20ae617f911cad1958218ceaef6b902a0a3e2cf5e"
+  },
+  "J0509+0856/periodogram.npz": {
+    "source_sha256": "f32ed89b917690a14eecf1042f5215a35d5f3e2077259034b1ea848cd6c86fb7",
+    "archived_sha256": "f32ed89b917690a14eecf1042f5215a35d5f3e2077259034b1ea848cd6c86fb7"
+  }
+}

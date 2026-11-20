@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "workbook": "outputs/recherche-master-20260908/Project-Recherche-Master.xlsx",
+  "previous_sha256": "7eb47f4508fe506d9e3197528358ed98795d3f7f430ec186f9c87426970c1201",
+  "sha256": "86fa61ebd59f1812885a3681208e8f37d2afbe7b9bb8aefd288231d46e8effb0",
+  "historical_cells_preserved": 26379,
+  "work_log_rows_appended": 4,
+  "counts": {
+    "registered": 783,
+    "observed": 286,
+    "searches": 360,
+    "candidate_grades": 8
+  }
+}

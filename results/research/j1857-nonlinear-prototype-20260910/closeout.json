@@ -1,0 +1,32 @@
+{
+  "status": "CONDITIONAL_NONLINEAR_PROTOTYPE_COMPATIBLE",
+  "target": "J1857+0943",
+  "date": "2026-09-10",
+  "prototype_attempts": 1,
+  "execution_failures": 0,
+  "closeout_verification_note": "Scope input hash checked against original config; cal.write serializes the saved scope differently, so its content is checked semantically and its own bytes are bound in the artifact manifest. No science rerun.",
+  "native_optimizer_fits": 10,
+  "noise_scenarios": 5,
+  "synthetic_template_checks": 25,
+  "original_failure_preserved": true,
+  "publication_source_bindings_preserved": 71,
+  "shared_binary_adapter_unchanged": true,
+  "calibration_executed": false,
+  "observed_search_executed": false,
+  "operational_profile_created": false,
+  "counts": {
+    "registered": 783,
+    "observed": 286,
+    "searches": 360,
+    "candidate_grades": 8
+  },
+  "next_step": "Efficient shared nonlinear statistic with bounded synthetic validation and cost benchmark before full calibration",
+  "artifacts": {
+    "scope.json": "de0b5f4b479bac417a951f71bcf7b41edee7329870729709321d0c099d4e17f5",
+    "workbook-closeout.json": "0f7ba317514c9ba4b782b35c3c2ead844af85821c0c314327cca689a09e2cdcd",
+    "artifact-manifest.json": "41f0f35f7803b0aa3bb694efa8f25ae1c2d30ba81fcfb936ddb842a692ba15c3",
+    "receipt.json": "584a91bb1f7bc3e16cf168607c1e1884eefceb05317d3908089e7d4025115451"
+  },
+  "report_sha256": "49196e1f0f831339d3685f6dcde1d67dfd8cb0977e45383f404dc412e7fb4d82",
+  "code_sha256": "d9abf8fc7ff054269b1e238d96d4c03f2b42c1335d59a0b83be46ccc6e23d0b5"
+}

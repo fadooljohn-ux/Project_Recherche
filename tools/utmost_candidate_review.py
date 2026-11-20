@@ -8,6 +8,7 @@ import mpta_batch as mpta
 import target_calibration as cal
 import j1453_review as common
 import argparse
+from recherche_common import require
 
 REPO=mpta.REPO
 ROOT=SOURCE=EVIDENCE=TPA=None
@@ -48,7 +49,7 @@ def main():
     if not (ROOT/'scope.json').exists(): save('scope.json',scope)
     else:
         old=cal.read(ROOT/'scope.json')
-        assert all(old[k]==json.loads(json.dumps(v)) for k,v in scope.items())
+        require(all(old[k]==json.loads(json.dumps(v)) for k,v in scope.items()), 'all(old[k]==json.loads(json.dumps(v)) for k,v in scope.items())')
     local=np.linspace(low,high,301)
     g=common.GLS(c,x);h=common.template(t,local,len(t));scores,_=g.scan(y,g.bank(h));j=int(np.argmax(scores))
     optimized=minimize_scalar(lambda p:-g.fit(y,t,p)['delta_chi2'],bounds=(local[max(0,j-1)],local[min(len(local)-1,j+1)]),method='bounded')

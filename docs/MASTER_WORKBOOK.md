@@ -1,7 +1,119 @@
 # Project Recherche master workbook
 
-Current handoff (2026-09-09): 754 targets, 277 observed identities and 351
-search/refinement records after IPTA hold resolution. Counts later in this file
+Latest development (2026-11-18 UTC): [second-stage sensitivity curve](JOINT_NOISE_STAGE_2026-11-18.md#sensitivity-curve)
+adds one Work log row. No Searches or Candidate grades row changes; totals
+remain 783 / 286 / 360.
+
+Latest grade update (2026-11-18 UTC): on the owner's instruction the
+[second stage is the standing rule](CANDIDATE_GRADING.md#second-stage-rule)
+and the Candidate grades rows of J1453, J1939, J1327, J1359, J0908 and J1048
+now carry their second-stage tails (46, 812, 1,006, 240, 476 and 835 of 1,024)
+in place of the September deep-review tails. Grades and dispositions are
+unchanged. Two Work log rows added; no Searches row changes; totals remain
+783 / 286 / 360. These rows were changed by a checked script, as for J2043,
+because `--review` does not edit existing grade rows.
+
+Latest second-stage runs (2026-11-18 UTC): [the six other September candidates](JOINT_NOISE_STAGE_2026-11-18.md#the-six-other-september-candidates)
+add seven Work log rows (implementation; J1453, J1939, J1327, J1359, J0908
+and J1048, all below the joint threshold). Candidate grades rows and Searches
+rows are unchanged; totals remain 783 / 286 / 360.
+
+Latest second-stage test (2026-11-18 UTC): [J2043+1711 joint-noise stage 3](JOINT_NOISE_STAGE_2026-11-18.md#stage-3-nonlinear-orbit-and-j20431711)
+adds two Work log rows and completes the diagnostic fields of J2043's Candidate
+grades row (53 of 1,024; grades unchanged). No Searches row changes; totals
+remain 783 / 286 / 360.
+
+Latest development (2026-11-18 UTC): [second-stage joint-noise test](JOINT_NOISE_STAGE_2026-11-18.md)
+adds four Work log rows (implementation; J1752, J1012 and J1738 development
+runs, all below the joint threshold). Exposed-data development only: no
+Searches, Targets or grades change; totals remain 783 / 286 / 360.
+
+Latest observed searches (2026-11-18 UTC): [J0740, J2043 and J0613 nonlinear searches](HELD_NONLINEAR_SEARCHES_2026-11-17.md)
+add thirteen Work log rows (verification, preparation, calibration and observed
+search per target; J2043 review) and one Candidate grades row (J2043+1711,
+INCONCLUSIVE_NOISE_SENSITIVE; exceedance fields blank because no tail was
+computed with red noise admitted). Targets rows for J1857, J0740, J2043 and
+J0613 now state the nonlinear search outcome in their next-step and dataset
+columns. The nonlinear tool is outside the batch layout, so the Searches sheet
+and the status column are unchanged; totals remain 783 / 286 / 360.
+
+Latest observed search (2026-11-17): [J1857 nonlinear search](J1857_NONLINEAR_CALIBRATION_2026-11-17.md#observed-search)
+adds one Work log row (NO_TRIGGER). The nonlinear tool is outside the batch
+layout, so the Searches sheet is unchanged; totals remain 783 / 286 / 360.
+
+Latest calibration (2026-11-17): [J1857 nonlinear calibration](J1857_NONLINEAR_CALIBRATION_2026-11-17.md)
+adds two Work log rows (preparation; calibration and freeze). No observed search
+ran; no Searches or grades change; totals remain 783 / 286 / 360.
+
+Latest development (2026-11-17): [reusable nonlinear statistic](NONLINEAR_STATISTIC_2026-11-17.md)
+adds two Work log rows (implementation; synthetic verification, no holds). No
+Searches or grades change; totals remain 783 / 286 / 360.
+
+Latest closeout (2026-11-17): two Work log rows, `QUALIFICATION-03` (PASS,
+21/21 gates) and `THRESHOLD-STUDY-20261116` (NOT_ADOPTED). No Searches or grades
+change; totals remain 783 / 286 / 360. See
+[Qualification 03](QUALIFICATION_03_2026-11-16.md).
+
+Latest prototype (2026-09-10): [J1857 native nonlinear compatibility](J1857_NONLINEAR_PROTOTYPE_2026-09-10.md)
+adds four Work log rows. Bounded compatibility passes; no operational profile,
+calibration or search is produced. The preceding four-target ranking added five
+Work log rows. All historical cells and 783 / 286 / 360 counts are preserved.
+
+Latest comparison (2026-09-10): [J1802 joint model review](J1802_JOINT_MODEL_COMPARISON_2026-09-10.md)
+adds four Work log rows, including a repaired output-write failure. Its model
+hold remains; no Searches or grades change. Totals remain 783 / 286 / 360.
+
+Latest preparation (2026-09-10): [J1802](ELL1H_J1802_PREPARATION_2026-09-10.md)
+adds four Work log rows. Timing-interface checks pass; orbital/noise adequacy
+holds block calibration. No Searches or candidate-grade rows change; totals
+remain 783 / 286 / 360. All historical cells and notes are preserved.
+
+Latest review (2026-09-10): [J1802 source clarification](J1802_MODEL_CLARIFICATION_2026-09-10.md)
+adds three Work log rows. Explicit source removal of H3/H4 is established; the
+preparation hold remains. No Searches rows or grades change. Counts remain
+783 registered targets, 286 observed identities and 360 search/refinement records.
+
+Current handoff (2026-09-10): 783 targets, 286 observed identities and 360
+search/refinement records after J2317's H3-only NO_TRIGGER search. The wrapper
+registered the terminal run; two further Work log entries document verified
+closeout. See [J2317 observed search](ELL1H_J2317_OBSERVED_2026-09-10.md).
+The earlier J2145 H3-only search also returned NO_TRIGGER. Its wrapper
+registered the terminal result; two further Work log rows document closeout.
+See [J2145 observed search](ELL1H_J2145_OBSERVED_2026-09-10.md).
+The earlier binary pilot06 completed J0557+1551 with NO_TRIGGER.
+The subsequent [J2317 preparation](ELL1H_J2317_PREPARATION_2026-09-10.md) adds
+two Work log records, with no new Search or grade. It passed on the first attempt
+and is ready for conditional calibration; no released red component is present.
+Its subsequent [calibration](ELL1H_J2317_CALIBRATION_2026-09-10.md) adds three
+Work log entries for threshold, mask/sensitivity and closeout. Threshold 22.902100,
+929/940 eligible cells and 95/96 diagnostic recoveries are preserved. No Searches
+row or grade is added; counts remain unchanged.
+The subsequent ELL1H model-only assessment adds four Work log records and no
+Searches rows: two H3-only adapter candidates and one missing-Shapiro-model hold.
+See [ELL1H compatibility](ELL1H_COMPATIBILITY_2026-09-10.md). All eight grades
+and historical records remain unchanged.
+The H3-only adapter extension and J2145 real-data preparation subsequently add
+three Work log records, again without new Searches or grades. J2145 is ready
+for calibration with the released H3 retained and red coverage extended to 128
+modes. See [preparation closeout](ELL1H_J2145_PREPARATION_2026-09-10.md).
+Its subsequent [calibration](ELL1H_J2145_CALIBRATION_2026-09-10.md) adds three
+Work log records for threshold, mask/sensitivity and verified closeout. Threshold
+21.203245, 390/402 eligible cells and 90/96 diagnostic recoveries are preserved.
+No observed search or grade is added; counts remain unchanged.
+The five-system queue is complete; see BINARY_PILOT06_2026-09-10.md. Original
+searches, current candidate grades and individual noise/model limitations remain
+preserved. The preceding J0509 run is documented below.
+The original result, calibration, near-threshold peak and excess residual-scatter
+caveat are recorded in Searches and Work log; see BINARY_PILOT05_2026-09-10.md.
+The preceding joint-noise development
+reanalyses of J1012/J1752 are recorded in Work log, preserving original Search
+rows and grades; see JOINT_NOISE_IMPROVEMENT_2026-09-10.md.
+The subsequent EPTA J1012 native compatibility and fixed-period follow-up adds
+four Work log records, including the retained first clock hold. Its independent
+confirmation grade is now NOT_CORROBORATED; significance, disposition and all
+356 Search rows remain preserved. See EPTA_J1012_FOLLOWUP_2026-09-10.md and its
+immutable successor assessment.
+The original J1012 crossing is preserved with a noise-sensitive review grade. Counts later in this file
 are dated historical milestones. For the public-dependency operator backend,
 see [agent closeout instructions](../AGENT_README.md#5-close-out-every-run-in-the-canonical-workbook).
 

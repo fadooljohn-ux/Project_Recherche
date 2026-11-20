@@ -1,0 +1,24 @@
+{
+  "status": "COMPLETE",
+  "target": "J1752-2806",
+  "external_subdirectory": "joint-noise-development-20260910/J1752-2806",
+  "artifacts": {
+    "ensemble-results.npz": "32481457d9eecc91db91574385852cd65a1d962eea4d67629041922507bc7a2b",
+    "inputs.npz": "0df41e9be427665703eaa29c64d9f3549f72a2ae2167d758641ec2590aa3ceab",
+    "model-00.npz": "40090c1ad0334994de2d1fcd4c29dda0783873f5c21f7ab11efbd8bca9220aaa",
+    "model-01.npz": "41efb1d0d3964e175b24e6977729fca6ed2dc0859013f2c086e08cce88a51c5e",
+    "model-02.npz": "b3c27bc4bddc7e05ed18360e4da5654acd62f48fc9bf51a33fff255b6b97cd79",
+    "model-03.npz": "112e5f782dbf6c14ef12e0c3c838dabd9cca759b9004629a6c0ce3d784c4a7a0",
+    "model-04.npz": "4fe703709d2d130483e3c0c0045084dfce120e1ef69cd717c22ea9315f0da891",
+    "model-05.npz": "570082dc2102febad80713eb5f180666176bf1a779d2d96ef7e35fb5024af95b",
+    "model-06.npz": "f4cd3e90e0d19ed63a28a603581d340011a060af51ad6ca2d156b7e909643692",
+    "model-07.npz": "8bbfa7f9bd506e6dd8d162ab118c12c502d76916f0c9fb69a741b84accb3405c",
+    "model-08.npz": "a2680a2bc1c2fef8579223dfc75070c36b66431eb24339e6b0ca36753ca53281",
+    "model-09.npz": "14176c95a95c0f27638423b719254d12dcd8114a5d3bb51090a2c1696ed96d23",
+    "model-10.npz": "19962a66a96b5c0cb24642f0d183ff0ed5d0e35314959f8b0df1ed93c011343c",
+    "model-11.npz": "2bb8febd7136e65413027ed953f7908a06b704d5d028e366436924388d38e779",
+    "result.json": "cf1c336d8111476a0648198985e7a8b590bd4bb55a6410c7b398fc7b1a4d7cfd",
+    "scope.json": "d73e7307a99f03b9474a89c8c95fb9444c09b2ce6ac1c66268993b386d2602a5",
+    "verification.json": "548ac2ccc96e477f1060cbc4a16147494679f32d3e20c37c8b837b1b5c81f0b4"
+  }
+}

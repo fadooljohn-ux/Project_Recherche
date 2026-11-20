@@ -1,0 +1,104 @@
+"""Model-only assessment of three saved NG15 ELL1H exclusions; no timing fit."""
+import argparse
+import hashlib
+import json
+from pathlib import Path
+import astropy.units as u
+import numpy as np
+import pint
+from pint.models import get_model
+import binary_noise_coverage as coverage
+
+
+def digest(path):
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+
+
+def assess(data):
+    output = data / 'assessment.json'
+    if output.exists():
+        raise FileExistsError('Assessment already exists; retain/read it')
+    intake = json.loads((data / 'intake.json').read_text())
+    records = []
+    for row in intake['rows']:
+        target = row['target']
+        par, tim = [data / target / (target + '.' + suffix) for suffix in ['par', 'tim']]
+        for path, suffix in [(par, 'par'), (tim, 'tim')]:
+            if digest(path) != row[suffix + '_sha256']:
+                raise ValueError('Original input changed: ' + target)
+        fields = {v[0]: v[1:] for line in par.read_text().splitlines()
+                  if (v := line.split()) and not line.startswith('#')}
+        # Text inventory only: no TOA object, clocks, residuals or fit.
+        arrivals = []
+        for line in tim.read_text().splitlines():
+            v = line.split()
+            if not v or v[0] in {'C', 'FORMAT', 'MODE'} or line.startswith('#'):
+                continue
+            if len(v) < 5:
+                raise ValueError('Unrecognized TIM directive: ' + v[0])
+            arrivals.append((float(v[2]), float(v[3]), v[4], '-pp_dm' in v, '-pp_dme' in v))
+        if len(arrivals) != int(fields['NTOA'][0]):
+            raise ValueError('Active TIM count disagrees with released model: ' + target)
+        model = get_model(par)
+        component = model.components['BinaryELL1H']
+        binary = component.binary_instance
+        parameters = {name: {'value': str(getattr(model, name).value),
+                             'uncertainty': str(getattr(model, name).uncertainty_value),
+                             'free': name in model.free_params}
+                      for name in component.params if name in model.free_params or name in ['H3', 'H4', 'STIGMA', 'NHARMS']}
+        times = np.array([r[0] for r in arrivals]); span = float(np.ptp(times))
+        minimum = max(30., 10 * float(model.PB.value)); maximum = min(2000., span / 2)
+        red = model.components.get('PLRedNoise'); noise = {'status': 'NO_RELEASED_RED_COMPONENT'}
+        if red is not None:
+            amplitude, gamma, nlin, nlog, fmin = red.get_plc_vals()
+            noise = {'status': 'COVERAGE_EXTENSION_NEEDED',
+                     'released_linear_amplitude': float(amplitude),
+                     'released_log10_amplitude': float(np.log10(amplitude)), 'released_gamma': float(gamma),
+                     'logarithmic_modes': nlog, 'minimum_frequency_multiple': fmin,
+                     **coverage.mode_plan(span, minimum, nlin)}
+        # Analytic check on synthetic orbital phases, never observed residuals.
+        synthetic_times = (np.longdouble(model.TASC.value) + np.arange(256, dtype=np.longdouble) *
+                           np.longdouble(model.PB.value) / 256) * u.day
+        binary.update_input(barycentric_toa=synthetic_times)
+        delay = binary.delayS().to_value(u.s)
+        probe = {'synthetic_phase_count': 256, 'finite_delay': bool(np.isfinite(delay).all()),
+                 'delay_function': binary.ds_func.__name__, 'fit_parameters': binary.fit_params,
+                 'standalone_H3_seconds': float(binary.H3.to_value(u.s)),
+                 'delay_peak_to_peak_us': float(np.ptp(delay) * 1e6)}
+        if model.H3.value is not None:
+            phase = binary.Phi().to_value(u.rad)
+            expected = -4 / 3 * float(model.H3.value) * np.sin(3 * phase)
+            derivative = binary.d_delayS_d_par('H3').to_value(u.dimensionless_unscaled)
+            expected_derivative = -4 / 3 * np.sin(3 * phase)
+            probe['analytic_delay_relative_error'] = float(np.linalg.norm(delay - expected) / np.linalg.norm(expected))
+            probe['analytic_H3_derivative_relative_error'] = float(np.linalg.norm(derivative - expected_derivative) / np.linalg.norm(expected_derivative))
+            if max(probe['analytic_delay_relative_error'], probe['analytic_H3_derivative_relative_error']) > 1e-10:
+                raise ValueError('H3-only analytic convention mismatch: ' + target)
+        if not probe['finite_delay']:
+            raise ValueError('Nonfinite standalone Shapiro delay: ' + target)
+        records.append({'target': target,
+                        'status': 'H3_ONLY_ADAPTER_CANDIDATE' if model.H3.value is not None else 'MISSING_SHAPIRO_MODEL_HOLD',
+                        'model_loaded': True, 'units': fields['UNITS'][0], 'ephemeris': fields['EPHEM'][0],
+                        'active_TIM_rows': len(arrivals), 'observing_days_site_MJD': len(set(np.floor(times))),
+                        'paired_DM_rows': sum(r[3] and r[4] for r in arrivals),
+                        'site_MJD_range': [float(times.min()), float(times.max())], 'span_days': span,
+                        'raw_TOA_uncertainty_median_us': float(np.median([r[1] for r in arrivals])),
+                        'observatories': sorted(set(r[2] for r in arrivals)),
+                        'binary_period_days': float(model.PB.value), 'prospective_period_bounds_days': [minimum, maximum],
+                        'parameters': parameters, 'noise_coverage_plan': noise, 'standalone_probe': probe,
+                        'limitations': 'No observed residuals, timing/design fit, clock replay, calibration, sensitivity or search. H3-only is a released timing coefficient, not a mass/inclination posterior.'})
+    package = Path(pint.__file__).parent
+    result = {'status': 'MODEL_ONLY_ASSESSMENT_COMPLETE', 'pint_version': pint.__version__,
+              'intake_sha256': digest(data / 'intake.json'), 'assessment_code_sha256': digest(__file__),
+              'runtime_code_sha256': {name: digest(package / name) for name in
+                                     ['models/binary_ell1.py', 'models/stand_alone_psr_binaries/ELL1H_model.py']},
+              'records': records, 'calibration_executed': False, 'observed_search_executed': False,
+              'actual_TOA_fit_executed': False}
+    output.write_text(json.dumps(result, indent=2, allow_nan=False) + '\n')
+    print(json.dumps(result), flush=True)
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--data', type=Path, required=True)
+    assess(parser.parse_args().data.resolve())

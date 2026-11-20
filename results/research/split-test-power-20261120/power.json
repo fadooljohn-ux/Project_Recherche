@@ -1,0 +1,794 @@
+{
+ "status": "SPLIT_TEST_POWER_COMPLETE",
+ "target": "J2043+1711",
+ "observed_residuals_read": false,
+ "config": {
+  "target": "J2043+1711",
+  "role": "Simulation only: power of a receiver split and a time split to test the 37.48-day feature. Reads no observed residuals; authorizes no observed test.",
+  "source": "nonlinear-held-20261117/j2043",
+  "tim": "binary-pilot02-20260909/J2043+1711/original/J2043+1711.tim",
+  "period_days": 37.48230065939762,
+  "amplitude_us": 0.0892607439250184,
+  "receiver_part_a": "430",
+  "count": 4000,
+  "seed": 2026112001,
+  "analysis_models": [
+   {
+    "name": "white_only",
+    "red": null
+   },
+   {
+    "name": "reference_red",
+    "red": [
+     -14.1,
+     3.0
+    ]
+   },
+   {
+    "name": "fitted_red",
+    "red": [
+     -14.6,
+     4.0
+    ]
+   }
+  ],
+  "generators": [
+   {
+    "name": "white_only",
+    "red": null
+   },
+   {
+    "name": "fitted_red",
+    "red": [
+     -14.6,
+     4.0
+    ]
+   },
+   {
+    "name": "reference_red",
+    "red": [
+     -14.1,
+     3.0
+    ]
+   },
+   {
+    "name": "stronger_steeper",
+    "red": [
+     -13.6,
+     4.0
+    ]
+   }
+  ]
+ },
+ "config_sha256": "4035ca071e653905af3412cdd8f12a0e1aab2f61b9abff60308648f537011ca2",
+ "code_sha256": "e11ccb87aff36c4dc754622cc82bb221a9e5a82ac52f86f3e5fa925c4d0b7643",
+ "inputs": {
+  "arrays": "eecad0d890dcd0dd634104c9b5e9e005e638bb021d16f454b8c13bbad35d01b0",
+  "tim": "a9b02d6ea4d934004669fb1d718c36b4f880b468ec9bccaa24e8b36f5f82a2e5"
+ },
+ "time_split_last_epoch_of_part_a_mjd": 57609.0,
+ "red_modes": 128,
+ "rule": "Shared timing model; cosine and sine of the declared period fitted separately in the two parts; D is the chi-square (2 d.o.f.) of the difference; rejected when above its 0.99 quantile",
+ "results": [
+  {
+   "limit": 9.21034037197618,
+   "limit_probability": 0.01,
+   "amplitude_us": 0.0892607439250184,
+   "amplitude_uncertainty_us": {
+    "whole": 0.018007799449808442,
+    "part_a": 0.438066846386029,
+    "part_b": 0.04758072237628904
+   },
+   "generators": {
+    "white_only": {
+     "planet": {
+      "rejected_fraction": 0.00975,
+      "median_statistic": 1.3592811095556843,
+      "whole_data_amplitude_us": 0.09061887823912365
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.00975,
+      "median_statistic": 1.3592811095556856,
+      "whole_data_amplitude_us": 0.08926074392501841
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.209,
+      "median_statistic": 5.071524932977612,
+      "whole_data_amplitude_us": 0.09061887823912367
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.0115,
+      "median_statistic": 1.3950464065472072,
+      "whole_data_amplitude_us": 0.0906188782391237
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.00975,
+      "median_statistic": 1.3592811095556838
+     }
+    },
+    "fitted_red": {
+     "planet": {
+      "rejected_fraction": 0.018,
+      "median_statistic": 1.5642038540336425,
+      "whole_data_amplitude_us": 0.09328555581913754
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.02525,
+      "median_statistic": 1.7176051238894257,
+      "whole_data_amplitude_us": 0.0892607439250184
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.2345,
+      "median_statistic": 5.359380570054652,
+      "whole_data_amplitude_us": 0.09328555581913757
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.01825,
+      "median_statistic": 1.6273523402582386,
+      "whole_data_amplitude_us": 0.0932855558191375
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.018,
+      "median_statistic": 1.5642038540336407
+     }
+    },
+    "reference_red": {
+     "planet": {
+      "rejected_fraction": 0.0235,
+      "median_statistic": 1.7271426463694446,
+      "whole_data_amplitude_us": 0.09523515547822176
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.031,
+      "median_statistic": 1.847455799358202,
+      "whole_data_amplitude_us": 0.08926074392501834
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.24375,
+      "median_statistic": 5.356971524772826,
+      "whole_data_amplitude_us": 0.09523515547822177
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.02175,
+      "median_statistic": 1.7344246341321918,
+      "whole_data_amplitude_us": 0.0952351554782218
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.0235,
+      "median_statistic": 1.7271426463694426
+     }
+    },
+    "stronger_steeper": {
+     "planet": {
+      "rejected_fraction": 0.61475,
+      "median_statistic": 13.832518527241938,
+      "whole_data_amplitude_us": 0.26888906246996025
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.391,
+      "median_statistic": 6.513934494794444,
+      "whole_data_amplitude_us": 0.08926074392501854
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.6855,
+      "median_statistic": 17.343253571698888,
+      "whole_data_amplitude_us": 0.2688890624699602
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.615,
+      "median_statistic": 14.043170587577453,
+      "whole_data_amplitude_us": 0.26888906246996036
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.61475,
+      "median_statistic": 13.83251852724195
+     }
+    }
+   },
+   "split": "receiver",
+   "analysis_model": "white_only",
+   "toas_part_a": 220,
+   "toas_part_b": 239
+  },
+  {
+   "limit": 9.21034037197618,
+   "limit_probability": 0.01,
+   "amplitude_us": 0.0892607439250184,
+   "amplitude_uncertainty_us": {
+    "whole": 0.01990465079016358,
+    "part_a": 0.4448276022664614,
+    "part_b": 0.048793986071394055
+   },
+   "generators": {
+    "white_only": {
+     "planet": {
+      "rejected_fraction": 0.0085,
+      "median_statistic": 1.3453620474757746,
+      "whole_data_amplitude_us": 0.09065855783140031
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.0085,
+      "median_statistic": 1.345758722334669,
+      "whole_data_amplitude_us": 0.08926074392501843
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.201,
+      "median_statistic": 4.929400008439755,
+      "whole_data_amplitude_us": 0.0906585578314003
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.01025,
+      "median_statistic": 1.357036520092739,
+      "whole_data_amplitude_us": 0.09065855783140032
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.0085,
+      "median_statistic": 1.3453620474757741
+     }
+    },
+    "fitted_red": {
+     "planet": {
+      "rejected_fraction": 0.00825,
+      "median_statistic": 1.373749387560776,
+      "whole_data_amplitude_us": 0.09143777331777804
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.008,
+      "median_statistic": 1.3829545444935842,
+      "whole_data_amplitude_us": 0.08926074392501834
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.20775,
+      "median_statistic": 5.17871710495786,
+      "whole_data_amplitude_us": 0.09143777331777804
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.00825,
+      "median_statistic": 1.3970565121903686,
+      "whole_data_amplitude_us": 0.09143777331777804
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.00825,
+      "median_statistic": 1.373749387560777
+     }
+    },
+    "reference_red": {
+     "planet": {
+      "rejected_fraction": 0.0115,
+      "median_statistic": 1.3954618509840948,
+      "whole_data_amplitude_us": 0.09118804989012644
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.0115,
+      "median_statistic": 1.3954618509840895,
+      "whole_data_amplitude_us": 0.08926074392501851
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.205,
+      "median_statistic": 5.050209013556714,
+      "whole_data_amplitude_us": 0.09118804989012644
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.0105,
+      "median_statistic": 1.4169042998420827,
+      "whole_data_amplitude_us": 0.09118804989012641
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.0115,
+      "median_statistic": 1.3954618509840953
+     }
+    },
+    "stronger_steeper": {
+     "planet": {
+      "rejected_fraction": 0.023,
+      "median_statistic": 1.6672277973042247,
+      "whole_data_amplitude_us": 0.0925549205772009
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.02875,
+      "median_statistic": 1.722211541035991,
+      "whole_data_amplitude_us": 0.08926074392502344
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.2355,
+      "median_statistic": 5.296408757579515,
+      "whole_data_amplitude_us": 0.09255492057720083
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.02575,
+      "median_statistic": 1.6536412387958273,
+      "whole_data_amplitude_us": 0.0925549205772008
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.023,
+      "median_statistic": 1.667227797304228
+     }
+    }
+   },
+   "split": "receiver",
+   "analysis_model": "reference_red",
+   "toas_part_a": 220,
+   "toas_part_b": 239
+  },
+  {
+   "limit": 9.21034037197618,
+   "limit_probability": 0.01,
+   "amplitude_us": 0.0892607439250184,
+   "amplitude_uncertainty_us": {
+    "whole": 0.019349792604713166,
+    "part_a": 0.44186196964334384,
+    "part_b": 0.04821670196320707
+   },
+   "generators": {
+    "white_only": {
+     "planet": {
+      "rejected_fraction": 0.009,
+      "median_statistic": 1.3514514122663885,
+      "whole_data_amplitude_us": 0.09056987758192024
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.0085,
+      "median_statistic": 1.3426256962042036,
+      "whole_data_amplitude_us": 0.0892607439250184
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.204,
+      "median_statistic": 5.023981008321968,
+      "whole_data_amplitude_us": 0.09056987758192021
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.01125,
+      "median_statistic": 1.3601706088326226,
+      "whole_data_amplitude_us": 0.0905698775819203
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.009,
+      "median_statistic": 1.351451412266389
+     }
+    },
+    "fitted_red": {
+     "planet": {
+      "rejected_fraction": 0.00825,
+      "median_statistic": 1.3929300360300787,
+      "whole_data_amplitude_us": 0.09132210850868268
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.00825,
+      "median_statistic": 1.3929300360300754,
+      "whole_data_amplitude_us": 0.08926074392501834
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.2155,
+      "median_statistic": 5.271329374942638,
+      "whole_data_amplitude_us": 0.09132210850868265
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.0095,
+      "median_statistic": 1.421535540568864,
+      "whole_data_amplitude_us": 0.0913221085086827
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.00825,
+      "median_statistic": 1.3929300360300783
+     }
+    },
+    "reference_red": {
+     "planet": {
+      "rejected_fraction": 0.0125,
+      "median_statistic": 1.427491016567489,
+      "whole_data_amplitude_us": 0.09140318539126535
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.013,
+      "median_statistic": 1.4282240648627162,
+      "whole_data_amplitude_us": 0.08926074392501851
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.21225,
+      "median_statistic": 5.184486506013913,
+      "whole_data_amplitude_us": 0.0914031853912654
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.01225,
+      "median_statistic": 1.4791658733771766,
+      "whole_data_amplitude_us": 0.09140318539126537
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.0125,
+      "median_statistic": 1.4274910165674886
+     }
+    },
+    "stronger_steeper": {
+     "planet": {
+      "rejected_fraction": 0.06275,
+      "median_statistic": 2.274492876811068,
+      "whole_data_amplitude_us": 0.09720017392807125
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.0775,
+      "median_statistic": 2.4959623692729167,
+      "whole_data_amplitude_us": 0.08926074392501734
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.299,
+      "median_statistic": 5.747082299884727,
+      "whole_data_amplitude_us": 0.09720017392807123
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.0635,
+      "median_statistic": 2.237368464717287,
+      "whole_data_amplitude_us": 0.09720017392807123
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.06275,
+      "median_statistic": 2.274492876811071
+     }
+    }
+   },
+   "split": "receiver",
+   "analysis_model": "fitted_red",
+   "toas_part_a": 220,
+   "toas_part_b": 239
+  },
+  {
+   "limit": 9.21034037197618,
+   "limit_probability": 0.01,
+   "amplitude_us": 0.0892607439250184,
+   "amplitude_uncertainty_us": {
+    "whole": 0.018007799449808442,
+    "part_a": 0.023572496807157416,
+    "part_b": 0.029289944608737014
+   },
+   "generators": {
+    "white_only": {
+     "planet": {
+      "rejected_fraction": 0.009,
+      "median_statistic": 1.3573110283167404,
+      "whole_data_amplitude_us": 0.09061887823912365
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.009,
+      "median_statistic": 1.357311028316741,
+      "whole_data_amplitude_us": 0.08926074392501841
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.8685,
+      "median_statistic": 18.893038652218166,
+      "whole_data_amplitude_us": 0.0906188782391237
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.997,
+      "median_statistic": 37.096784986704165,
+      "whole_data_amplitude_us": 0.09061887823912369
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.009,
+      "median_statistic": 1.3573110283167402
+     }
+    },
+    "fitted_red": {
+     "planet": {
+      "rejected_fraction": 0.1345,
+      "median_statistic": 3.131817085337368,
+      "whole_data_amplitude_us": 0.09328555581913754
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.39475,
+      "median_statistic": 7.282790912544125,
+      "whole_data_amplitude_us": 0.0892607439250184
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.81925,
+      "median_statistic": 19.711068459193598,
+      "whole_data_amplitude_us": 0.09328555581913757
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.9755,
+      "median_statistic": 39.35643058447254,
+      "whole_data_amplitude_us": 0.09328555581913753
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.1345,
+      "median_statistic": 3.131817085337369
+     }
+    },
+    "reference_red": {
+     "planet": {
+      "rejected_fraction": 0.2035,
+      "median_statistic": 3.951945101086476,
+      "whole_data_amplitude_us": 0.09523515547822176
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.54475,
+      "median_statistic": 10.122879724275531,
+      "whole_data_amplitude_us": 0.08926074392501834
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.81275,
+      "median_statistic": 20.789475506968984,
+      "whole_data_amplitude_us": 0.09523515547822178
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.9715,
+      "median_statistic": 39.28686031418443,
+      "whole_data_amplitude_us": 0.09523515547822177
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.2035,
+      "median_statistic": 3.951945101086469
+     }
+    },
+    "stronger_steeper": {
+     "planet": {
+      "rejected_fraction": 0.95925,
+      "median_statistic": 168.7280222384615,
+      "whole_data_amplitude_us": 0.26888906246996025
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.8715,
+      "median_statistic": 41.86343110438442,
+      "whole_data_amplitude_us": 0.08926074392501854
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.9625,
+      "median_statistic": 177.78954101251492,
+      "whole_data_amplitude_us": 0.2688890624699602
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.971,
+      "median_statistic": 200.34267321391803,
+      "whole_data_amplitude_us": 0.26888906246996014
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.95925,
+      "median_statistic": 168.7280222384614
+     }
+    }
+   },
+   "split": "time",
+   "analysis_model": "white_only",
+   "toas_part_a": 233,
+   "toas_part_b": 226
+  },
+  {
+   "limit": 9.21034037197618,
+   "limit_probability": 0.01,
+   "amplitude_us": 0.0892607439250184,
+   "amplitude_uncertainty_us": {
+    "whole": 0.01990465079016358,
+    "part_a": 0.025961137776469263,
+    "part_b": 0.03186221045903789
+   },
+   "generators": {
+    "white_only": {
+     "planet": {
+      "rejected_fraction": 0.00625,
+      "median_statistic": 1.3058009409637155,
+      "whole_data_amplitude_us": 0.09065855783140031
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.00675,
+      "median_statistic": 1.309720134976081,
+      "whole_data_amplitude_us": 0.08926074392501843
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.79025,
+      "median_statistic": 14.724160363419262,
+      "whole_data_amplitude_us": 0.09065855783140032
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.994,
+      "median_statistic": 29.91409708054905,
+      "whole_data_amplitude_us": 0.09065855783140031
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.00625,
+      "median_statistic": 1.3058009409637155
+     }
+    },
+    "fitted_red": {
+     "planet": {
+      "rejected_fraction": 0.00775,
+      "median_statistic": 1.3476447228216584,
+      "whole_data_amplitude_us": 0.09143777331777804
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.00775,
+      "median_statistic": 1.3589456567329492,
+      "whole_data_amplitude_us": 0.08926074392501834
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.77725,
+      "median_statistic": 14.921138662951208,
+      "whole_data_amplitude_us": 0.09143777331777804
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.992,
+      "median_statistic": 29.962879300599496,
+      "whole_data_amplitude_us": 0.09143777331777801
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.00775,
+      "median_statistic": 1.347644722821663
+     }
+    },
+    "reference_red": {
+     "planet": {
+      "rejected_fraction": 0.00875,
+      "median_statistic": 1.423010138650056,
+      "whole_data_amplitude_us": 0.09118804989012644
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.00875,
+      "median_statistic": 1.423010138650062,
+      "whole_data_amplitude_us": 0.08926074392501851
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.77725,
+      "median_statistic": 14.704196163226612,
+      "whole_data_amplitude_us": 0.09118804989012648
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.99275,
+      "median_statistic": 30.31497079754509,
+      "whole_data_amplitude_us": 0.09118804989012644
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.00875,
+      "median_statistic": 1.4230101386500582
+     }
+    },
+    "stronger_steeper": {
+     "planet": {
+      "rejected_fraction": 0.11375,
+      "median_statistic": 2.9002928420688194,
+      "whole_data_amplitude_us": 0.0925549205772009
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.1595,
+      "median_statistic": 3.3626235405010094,
+      "whole_data_amplitude_us": 0.08926074392502344
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.7535,
+      "median_statistic": 16.163948927581128,
+      "whole_data_amplitude_us": 0.09255492057720092
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.95825,
+      "median_statistic": 31.116472068594106,
+      "whole_data_amplitude_us": 0.09255492057720079
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.11375,
+      "median_statistic": 2.900292842068862
+     }
+    }
+   },
+   "split": "time",
+   "analysis_model": "reference_red",
+   "toas_part_a": 233,
+   "toas_part_b": 226
+  },
+  {
+   "limit": 9.21034037197618,
+   "limit_probability": 0.01,
+   "amplitude_us": 0.0892607439250184,
+   "amplitude_uncertainty_us": {
+    "whole": 0.019349792604713166,
+    "part_a": 0.025109144051750323,
+    "part_b": 0.03104400609163729
+   },
+   "generators": {
+    "white_only": {
+     "planet": {
+      "rejected_fraction": 0.00775,
+      "median_statistic": 1.3257794701678869,
+      "whole_data_amplitude_us": 0.09056987758192024
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.0075,
+      "median_statistic": 1.3351174654405216,
+      "whole_data_amplitude_us": 0.0892607439250184
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.815,
+      "median_statistic": 15.595536870628532,
+      "whole_data_amplitude_us": 0.09056987758192026
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.9965,
+      "median_statistic": 32.24866958859488,
+      "whole_data_amplitude_us": 0.09056987758192026
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.00775,
+      "median_statistic": 1.325779470167887
+     }
+    },
+    "fitted_red": {
+     "planet": {
+      "rejected_fraction": 0.0095,
+      "median_statistic": 1.3994792326090373,
+      "whole_data_amplitude_us": 0.09132210850868268
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.0095,
+      "median_statistic": 1.3994792326090462,
+      "whole_data_amplitude_us": 0.08926074392501834
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.803,
+      "median_statistic": 15.77962123591088,
+      "whole_data_amplitude_us": 0.09132210850868266
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.9955,
+      "median_statistic": 32.39922795442497,
+      "whole_data_amplitude_us": 0.09132210850868264
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.0095,
+      "median_statistic": 1.3994792326090386
+     }
+    },
+    "reference_red": {
+     "planet": {
+      "rejected_fraction": 0.0135,
+      "median_statistic": 1.5590211935937741,
+      "whole_data_amplitude_us": 0.09140318539126535
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.0145,
+      "median_statistic": 1.587973641432431,
+      "whole_data_amplitude_us": 0.08926074392501851
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.797,
+      "median_statistic": 15.708379490897126,
+      "whole_data_amplitude_us": 0.09140318539126538
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.994,
+      "median_statistic": 32.62828006934094,
+      "whole_data_amplitude_us": 0.09140318539126532
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.0135,
+      "median_statistic": 1.55902119359377
+     }
+    },
+    "stronger_steeper": {
+     "planet": {
+      "rejected_fraction": 0.318,
+      "median_statistic": 5.360042214745979,
+      "whole_data_amplitude_us": 0.09720017392807125
+     },
+     "noise_fluke": {
+      "rejected_fraction": 0.414,
+      "median_statistic": 7.19157842126306,
+      "whole_data_amplitude_us": 0.08926074392501734
+     },
+     "part_a_only": {
+      "rejected_fraction": 0.7635,
+      "median_statistic": 19.187552498514574,
+      "whole_data_amplitude_us": 0.09720017392807123
+     },
+     "part_b_only": {
+      "rejected_fraction": 0.93175,
+      "median_statistic": 35.49256422461548,
+      "whole_data_amplitude_us": 0.09720017392807125
+     },
+     "noise_unconditional": {
+      "rejected_fraction": 0.318,
+      "median_statistic": 5.360042214746
+     }
+    }
+   },
+   "split": "time",
+   "analysis_model": "fitted_red",
+   "toas_part_a": 233,
+   "toas_part_b": 226
+  }
+ ]
+}

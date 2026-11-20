@@ -1,0 +1,44 @@
+name: tests
+
+# Installs the committed pixi.lock on an Intel macOS runner and runs the suite.
+# It never resolves new dependencies and runs no observed search. The host
+# binding checked by `tools/recherche doctor` is specific to the owner's Mac, so
+# doctor is not run here; agent_setup verifies precision and the qualified source.
+# Manual only, on the owner's instruction: automatic triggers consume the
+# account's Actions allowance. Start it from the Actions tab or with
+# `gh workflow run tests`.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    runs-on: macos-15-intel
+    timeout-minutes: 30
+    env:
+      OMP_NUM_THREADS: "1"
+      OPENBLAS_NUM_THREADS: "1"
+      MKL_NUM_THREADS: "1"
+      VECLIB_MAXIMUM_THREADS: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: prefix-dev/setup-pixi@v0.8.8
+        with:
+          pixi-version: v0.62.2
+          run-install: false
+      - name: Install locked runtimes and verify precision and qualified source
+        run: python3 tools/agent_setup.py --install
+      - name: Run tests
+        run: PYTHONPATH=src .pixi/envs/default/bin/python -m pytest -q
+      - name: Integrity checks survive python -O
+        run: |
+          PYTHONOPTIMIZE=1 .pixi/envs/default/bin/python -c "
+          import sys; sys.path.insert(0, 'tools')
+          from recherche_common import IntegrityError, require
+          try:
+              require(False, 'expected')
+          except IntegrityError:
+              sys.exit(0)
+          sys.exit(1)"

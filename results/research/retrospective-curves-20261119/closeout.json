@@ -1,0 +1,56 @@
+{
+ "status": "CLOSEOUT_COMPLETE",
+ "date": "2026-11-19",
+ "owner_instruction": "Proceed with the three steps you've outlined",
+ "observed_residuals_read": false,
+ "frozen_or_run": false,
+ "rebuilt_thresholds": {
+  "j1752": 23.0624115622835,
+  "j1738": 22.097018895793894,
+  "j1012": 40.56197300066651,
+  "j2043-consumed": 23.001185823013543
+ },
+ "j2043_receiver_white": {
+  "config": "config/j2043-joint-noise-receiver-white.json",
+  "status": "JOINT_NOISE_CALIBRATED",
+  "threshold": 21.332924853981353,
+  "members": 3150,
+  "per_generator_thresholds": {
+   "between_grid_stronger_steeper": 21.332924853981353,
+   "reference_red": 20.415370307211788,
+   "released_chain_joint": 20.00475605292644,
+   "released_chain_red": 18.93966299284341,
+   "released_white_only": 19.631980820647414,
+   "strong_steep": 20.515390189815207,
+   "weak_shallow_inflated_white": 19.53908141293948,
+   "white_only_inflated": 20.28750873990066
+  },
+  "validation_crossings_of_1024": {
+   "released_white_only": 3,
+   "white_only_inflated": 2,
+   "reference_red": 6,
+   "between_grid_stronger_steeper": 7,
+   "strong_steep": 7,
+   "weak_shallow_inflated_white": 4,
+   "released_chain_red": 8,
+   "released_chain_joint": 9
+  }
+ },
+ "limits": [
+  "results/research/detection-limits-20261119/limits-j1752.json",
+  "results/research/detection-limits-20261119/limits-binaries.json",
+  "results/research/detection-limits-20261119/limits-j2043-receiver-white.json"
+ ],
+ "population_limits": "results/research/population-limits-20261119/population-limits.json",
+ "documents": [
+  "docs/DETECTION_LIMITS_2026-11-19.md",
+  "docs/POPULATION_LIMITS_2026-11-19.md",
+  "docs/REMAINING_TARGETS_2026-11-19.md",
+  "docs/JOINT_NOISE_STAGE_2026-11-18.md"
+ ],
+ "not_done": [
+  "No target prepared or searched; the remaining-targets list awaits owner approval",
+  "Binary limits assume a total inner mass of 1.6 solar masses",
+  "Orbit model types of the 32 proposed binaries not read"
+ ]
+}

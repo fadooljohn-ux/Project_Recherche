@@ -5,15 +5,18 @@ title: "Project Recherche"
 authors:
   - family-names: Fadool
     given-names: John
-version: 0.1.0
-date-released: "2026-09-09"
+version: 0.2.0
+date-released: "2026-11-21"
 repository-code: "https://github.com/fadooljohn-ux/Project_Recherche"
-url: "https://github.com/fadooljohn-ux/Project_Recherche/releases/tag/v0.1.0"
+url: "https://github.com/fadooljohn-ux/Project_Recherche/releases/tag/v0.2.0"
 license: MIT
 abstract: >-
   Pulsar-timing companion searches with source-specific timing and noise
-  preparation, automatic conditional calibration, observed known-system
-  recovery, candidate review, and cumulative evidence tracking.
+  preparation, automatic conditional calibration, a second-stage joint-noise
+  test, treatment of pulsars in binaries (orbit re-expression, Shapiro-delay
+  nuisance basis, nonlinear orbit fits, tempo2 model translation), observed
+  known-system recovery, detection and population limits, candidate review,
+  and cumulative evidence tracking.
 keywords:
   - astronomy
   - astrophysics

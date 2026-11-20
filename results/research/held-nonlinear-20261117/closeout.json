@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "closeout_id": "held-nonlinear-20261117",
+  "created": "2026-11-18",
+  "owner_instruction": "Proceed with the surrogate checks for the three candidates along with preparation and calibration. Once complete launch.",
+  "master_before_sha256": "02dfbbec3ab1f28b91b6b1e62ca992885e1bd1f84f5192ea9e1253570969feb2",
+  "working_folder": "../Project Recherche Data/nonlinear-held-20261117/",
+  "targets": {
+    "J0740+6620": {
+      "status": "NO_TRIGGER",
+      "peak_statistic": 8.191151378582987,
+      "peak_period_days": 62.98008765877917,
+      "peak_amplitude_us": 0.18866988915643748,
+      "threshold": 22.309641856443804,
+      "eligible_cells": 222,
+      "frequency_count": 233,
+      "empirical_quantile": 18.48907990378879,
+      "completed_utc": "2026-11-18T01:08:42.974325+00:00",
+      "files": {
+        "calibration.json": "b0e0aeac88e46d93dea684f3f7f820c855a8179661d9d3ef63fc3be4643e9b28",
+        "execution-freeze.json": "444cd3120cabbc354b5a65fa7b1b4518f46823c592c3d4fb943078395b948218",
+        "observed-result.json": "71470b86bda2b6b414842fa3febc4296ce337e6b62598fb2ffa6ce876e52fbea",
+        "preparation-receipt.json": "6a6a99941fbcd0c7e55d15fff8e5bf7855de2c52453670eeac3051bd70ffecb2",
+        "scope.json": "e273ea6b8169d4fc9c5effe0b5f8e02957610b924877fac2cab23c80c4670817",
+        "verification-receipt.json": "f43864ab6a5d6f26427139dd2f53167a0dd159d9e892209a0dbee86661c16e32",
+        "verification-scope.json": "534793e152a19f9dc10aa64f503afb97d2bc0a476ddde9da268132a817ae7352"
+      },
+      "periodogram_sha256": "056fd7328089a1f63efc1ee8034091d3e7be50a6dd6ff33e45cb7ca6dcce14e9"
+    },
+    "J2043+1711": {
+      "status": "PERIODIC_SIGNAL_CANDIDATE",
+      "peak_statistic": 26.871281465953018,
+      "peak_period_days": 37.48230065939762,
+      "peak_amplitude_us": 0.0892607439250184,
+      "threshold": 23.998096952191695,
+      "eligible_cells": 530,
+      "frequency_count": 542,
+      "empirical_quantile": 20.457684779563266,
+      "completed_utc": "2026-11-18T02:10:59.767193+00:00",
+      "files": {
+        "calibration.json": "a8fe7e718db6b33b87d3edfccf350beada45fb83ea4919ade3d614aca5823816",
+        "execution-freeze.json": "d5f61dfd8fe123cf68de75b3961fc2b25c0d3d1d2255b67df5f2d184b81fb003",
+        "observed-result.json": "6d6742492c8c5a5f8a23ef7d2babb61a64c51e0d6c8f2375d3da65e3ce08f222",
+        "preparation-receipt.json": "4c5b7af2b585d6b93ba65f49496e1c12160db9a28c7ea2c241903d37361e3951",
+        "scope.json": "9004a7b43f313e2359b63afbb52fa7956c9a246f2979e1b99b69ea40b1798a9b",
+        "verification-receipt.json": "d6c9d16f86317d99e38016f8eaaff940d5891988a3614cc239789bc1027c3e8d",
+        "verification-scope.json": "ed1ef15d34d47e78f2bf6bc5e1db233adf85c12322661629f3e50aff05aaa671"
+      },
+      "periodogram_sha256": "991a8c81c4526c25fe7f1e8d64d50cbd3700e9d298ac65e39d021492cb84c085"
+    },
+    "J0613-0200": {
+      "status": "NO_TRIGGER",
+      "peak_statistic": 14.390617321324825,
+      "peak_period_days": 41.45061049548762,
+      "peak_amplitude_us": 0.16922126512165062,
+      "threshold": 25.019010056146374,
+      "eligible_cells": 891,
+      "frequency_count": 903,
+      "empirical_quantile": 21.30175337690615,
+      "completed_utc": "2026-11-18T05:28:30.407492+00:00",
+      "files": {
+        "calibration.json": "a021155bceab3f1c5a07f27f125efde9c09244584feb17aabed4f414500d4244",
+        "execution-freeze.json": "19f05a51397fd25c8e135341f9d7269fef8c803f0530acde2634da03ade1c472",
+        "observed-result.json": "f185c90a94c7def6027f98256a8ecba3228da6f91866872921d44dbc19b3e31d",
+        "preparation-receipt.json": "850c1fe2e27462f97f9b18bcfcfe6d1041203a9ee7dafa59d5bc89a6d389986a",
+        "scope.json": "44ff14bbbb5440a71235bbfcf07512d7a504dec23ac5b6a510cde6b0107879b9",
+        "verification-receipt.json": "06b3bf812b55609114298eefd8cd95ba978378e5da848948b665af15e307096b",
+        "verification-scope.json": "50d6303eaa4cb4b54a1d427790de18e8314efdbc319c856448296c4c830674ea",
+        "verification01-hold-receipt.json": "f1f47e0878a147550b420d2d5b7ced41a956872d424e9ef451bab816991672a3"
+      },
+      "periodogram_sha256": "36d1e0b3c3551f8f043a59d06eed80210d3ce7fcf781e278f7e186ed197dde74"
+    }
+  },
+  "j2043_review": {
+    "verdict": "WEAKENED; inconclusive and noise-sensitive",
+    "performed_by": "Review subagent; numbers not independently rerun by the recording agent",
+    "working_folder": "../Project Recherche Data/j2043-review-20261118/",
+    "files": {
+      "01_reproduce.json": "f58b7c8b20b1278eaa529252d1c8e063540a6a0bffe5bc2ce4adbe3a0d8a610d",
+      "01_reproduce.py": "bce786b8687a2741aef7c2f89ec736167646b952aefbae1f42ea8be1f8de337e",
+      "01b_orbit_fixed.json": "11ef208b79719adfc765300cc408515cff6466778531b459fb56a6ff992fac70",
+      "01b_orbit_fixed.py": "2be45a9e0e789b22947b2fb6d9bb9f0d6177183960561acc941083dcc717b6d4",
+      "02_load_meta.py": "104fa6053f4973065f96ed394d6da03f67f6027527a523dc2d8cb491febfada6",
+      "03_explore.py": "f8cbf25c63d5de0587560832a0ff91544b49be585d2e920e49d10ea3a9328c66",
+      "04_sampling.json": "c8e3c75cbbb8f97a405ade0ea3ccd7a93f290223a3c0d9d4e84d674ce6e05585",
+      "04_sampling.py": "5daf01943b9aa529ed0412b01c5ab4c4252d073c5816d0648cbd9dd7aaa410b8",
+      "04b_harmonic_control.json": "cbf45db6047bacff3005f01c23952d69761e61c7688b41452bfc59ba873e8cba",
+      "04b_harmonic_control.py": "0dce605d2af2a8dde10969dd5034aa145484e4df1ac45230e66ed426e6920014",
+      "05_noise.json": "d97d841940d12caf411fa4006813868a4e5d55031faac6a8457b73c6cda0eb7c",
+      "05_noise.py": "648d2196f8c0492b5c5e0bb6ba89e5d380dc187d657d792394799e48e669af08",
+      "05b_red.json": "04815807e8102994e5c7bedf3f1581f61a46188b0ae0e4bcf66002a89d8f8478",
+      "05b_red.py": "2a269e2d39ffb5d7f6b6002ad866960994e11ecb4d7975d9fefc57999e2c63a1",
+      "05c_predictive.json": "b7301a9641f5ee3fbf0503c5d67727836db945b2707b82af88ac6e516fe8f1d2",
+      "05c_predictive.py": "8ab73521aaa7897b797f39db13c01566d70fa27300245c3a3f7bc9d7ebc484fa",
+      "05d_conditional.json": "fa114c40e5d59d76f3b7c193a0466d781b01d58c0158ea0309f2972995d38641",
+      "05d_conditional.py": "6684ae2357295e4e87ceec69952eddbeda8dbf442e197bfbf7c27f6c63848e72",
+      "05e_chain_full.json": "9439bd7da54f4dd3972a6be5ff123c215b27bbf60f64fdfbd9af09d228c4e2c6",
+      "05e_chain_full.py": "31bac39b2aa0990d821acb5804e41eb57f9a874a10a9e801bf720dae83030a36",
+      "06_dm.json": "2838f96ccf0bc81a4409155158d6a61bd5f3dd1651e711e52a9dac8613829ee5",
+      "06_dm.py": "5b2688b42f9ee5c838c98920f35cec017727c33ee6539540f788f6d6e01d55c2",
+      "07_subsets.json": "2309a3f541b51fecac9d31236bb747486d0fe74e819c14214116aa028a504d81",
+      "07_subsets.py": "81dfd08debc0896dfcdf22413d3e64f68bd050fc6a3def383d395053f1402a95",
+      "08_narrowband.json": "005f86cf162ef65605778490721649680e575e6f8637932397a2778039310a08",
+      "08_narrowband.py": "1ca315f3d397595faa999a2846e20a6bf08ecb76c7cc3a3e6365a0dcaa5e8a51",
+      "09_physical.json": "c70408929329c228c7eaeb4369b8c2cf94be35429ee75bf1d74607c3f5af0a7d",
+      "09_physical.py": "5f517b58ed94bb0e3b269d64b1ea52765eff84af1827ce6ec08c2ed7101d7a36",
+      "REVIEW.md": "5b6f192a5e39d23b73b28060d94f16c84ff51dde89be1d2c2f4f725ee8479085",
+      "common.py": "29d0be3ff017a345dde3334b30a2ced81af5e27642492230222be28ce2f9b543"
+    }
+  },
+  "code_changes": [
+    "tools/nonlinear_verification.py: BoundedOrbit cuts the orbit box at declared physical floors (J0613: M2 >= 0, cos i >= 0.05)",
+    "tools/nonlinear_statistic.py: default maximum_iterations 60 -> 200 after one J0613 simulated null needed 61 (verification01 hold preserved)"
+  ]
+}

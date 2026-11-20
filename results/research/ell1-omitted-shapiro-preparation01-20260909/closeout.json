@@ -1,0 +1,24 @@
+{
+  "status": "PREPARATION_AND_LEAKAGE_COMPLETE",
+  "prepared_targets": [
+    "J1012+5307",
+    "J1738+0333"
+  ],
+  "calibration_executed": false,
+  "observed_search_executed": false,
+  "observed_periodograms_inspected": false,
+  "preparation_failures": 0,
+  "preserved_scientific_source_files": 71,
+  "dispositions": {
+    "J1012+5307": "TIMING_COMPATIBLE_SHAPIRO_LEAKAGE_FOLLOWUP",
+    "J1738+0333": "TIMING_COMPATIBLE_READY_FOR_CONDITIONAL_CALIBRATION"
+  },
+  "evidence_sha256": {
+    "selection.json": "d8e00c7847af4bbe73551982254b9fe31f2d5ab683f71e01e7fabf502c272672",
+    "leakage.json": "4b63db14a8eac3f68ad5d43ce045b806331e633e395bdbfaa3cdb2b6d27f4c98",
+    "J1738+0333/receipt.json": "66de8609cb4c60f8a5a9877a4b53b7f4a3928aaf1915deca6b46a8171d37b8ff",
+    "J1012+5307/receipt.json": "41d017d4b7c40f2a77af51a5ae9656cb3174386ce93e19bed2571a59cba9649d"
+  },
+  "adapter_sha256": "4514096fda0b6de35ba0887c59e07e75205300bde55e4ef15886c733b3f4a032",
+  "leakage_code_sha256": "4c7254f7b3de616fb59b0ddb8f80d8eb8ea191ebde7e30bc5c1da36f773d764d"
+}

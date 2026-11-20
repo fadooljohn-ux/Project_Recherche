@@ -127,3 +127,138 @@ zero unresolved preparation holds, six coverage and 45 companion exclusions.
 No new candidate or observed execution failure occurred. Current state:
 `results/observed/ipta-hold-release-20260909/progress.json`.
 The UTMOST-NS combined-input gap remains unchanged; no further run is queued.
+
+Post-release update: the owner authorized the
+[small white-dwarf binary pilot](BINARY_PILOT01_2026-09-09.md). NG15's original
+51 binary exclusions remain historical isolated-search dispositions. Three were
+selected for this new scope: J1614−2230 and J1909−3744 completed NO_TRIGGER;
+J0613−0200 is held for nonlinear Shapiro uncertainty. The other 48 have not been
+assessed under the new adapter and are not automatically eligible. General binary
+support remains incomplete. The [public follow-up availability check](FOLLOWUP_AVAILABILITY_2026-09-09.md)
+leaves UTMOST-NS awaiting combined inputs; its request draft is still unsent.
+
+[Binary expansion 02](BINARY_PILOT02_2026-09-09.md) assessed all 48 remaining NG15
+exclusions. Forty-five do not satisfy the present adapter's structural or physical
+parameter requirements. J0740+6620, J1857+0943 and J2043+1711 were selected for
+full preparation and all reached the nonlinear Shapiro model limit. No calibration
+or observed search ran. NG15 binary status across both pilots is two searched,
+four nonlinear holds and 45 other adapter exclusions, totaling the original 51.
+There is no remaining demonstrated-compatible batch under this adapter. Preserve
+the distinction between an adapter exclusion and a failed planet detection.
+
+The [omitted-Shapiro assessment](ELL1_OMITTED_SHAPIRO_ASSESSMENT_2026-09-09.md)
+subdivides the 14 missing-parameter exclusions: five candidate white-dwarf systems
+for future conditional-branch preparation, one companion-classification gap,
+four orbital-frequency polynomial models, three black-widow PB models, and one
+existing known-companion benchmark. J1012+5307 and J1738+0333 are the recommended
+first development pair. These remain adapter exclusions until the branch and
+actual timing/noise preparation are verified; none is newly searched or calibrated.
+
+Subsequent bounded branch work has now searched four of those five systems:
+J1012+5307 (original crossing, reviewed as INCONCLUSIVE_NOISE_SENSITIVE),
+J1738+0333, J1125+7819 and J0509+0856 (NO_TRIGGER). J1012's separate native EPTA
+fixed-period follow-up is NOT_CORROBORATED. J0509's near-threshold result and
+excess residual scatter are preserved in [pilot05](BINARY_PILOT05_2026-09-10.md).
+J0557+1551 was the final unsearched member at the pilot05 closeout.
+Other binary-model exclusions and the four nonlinear Shapiro holds remain
+separate work. No new batch or follow-up is active.
+
+[Binary pilot06](BINARY_PILOT06_2026-09-10.md) subsequently searched J0557+1551
+with NO_TRIGGER, completing all five saved systems. The queue reconciles as
+four NO_TRIGGER and one original J1012 crossing, now noise-sensitive and not
+corroborated by EPTA. No new planet is confirmed. The subsequent
+[ELL1H compatibility assessment](ELL1H_COMPATIBILITY_2026-09-10.md) is complete:
+J2145-0750 and J2317+1439 are H3-only adapter candidates, while J1802-2124 lacks
+released Shapiro terms and remains held. No actual TOA fit, calibration or
+observed search ran. The next proposed scope is a strict H3-only extension and
+bounded J2145 timing/noise preparation. Four nonlinear measured-Shapiro holds
+and all other model/classification gaps remain preserved. No job is active.
+
+The [H3-only extension and J2145 preparation](ELL1H_J2145_PREPARATION_2026-09-10.md)
+are now complete. J2145 passed timing/noise compatibility with 400 TOAs,
+184/184 design rank and 128 red Fourier modes. Its saved profile is ready for
+threshold, annual-mask and sensitivity calibration; no observed search ran.
+J2317 remains unprepared, J1802 remains a model hold, and the earlier nonlinear
+holds are unchanged. No job is active.
+
+[J2145 calibration](ELL1H_J2145_CALIBRATION_2026-09-10.md) subsequently completed:
+4096 nulls, threshold 21.203245, 390 eligible cells and 90/96 bounded recoveries.
+It is ready for freeze and one observed search, with the fixed-noise limits
+retained. Neither freeze nor observed launch has run; all other target
+dispositions remain unchanged. No job is active.
+
+The subsequent [J2145 observed search](ELL1H_J2145_OBSERVED_2026-09-10.md)
+completed once with NO_TRIGGER: peak 15.548556 at 345.265855 days versus
+threshold 21.203245. No execution failure or automated noise flag occurred.
+J2145's run01 destination is consumed. Current totals are 285 observed identities
+and 359 search/refinement records. J2317 H3-only timing/noise preparation is the
+next recommended scope; it has not run. All previous holds remain unchanged.
+
+[J2317 H3-only preparation](ELL1H_J2317_PREPARATION_2026-09-10.md) subsequently
+passed with all 708 TOAs, full rank 328/328 and reduced chi-square 1.006933.
+Its weak signed H3 term remains free. No released red component is available;
+the prepared profile is ready for conditional threshold/mask/sensitivity
+calibration, which has not run. No observed search or additional identity is
+added. J1802 and the four earlier nonlinear holds remain separate.
+
+[J2317 calibration](ELL1H_J2317_CALIBRATION_2026-09-10.md) subsequently completed:
+4096 nulls, threshold 22.902100, 929 eligible cells and 95/96 bounded recoveries.
+It is ready for freeze and one observed search. No red component was added;
+the fixed-noise limitation remains. No freeze or observed launch has run, and
+all other target dispositions are unchanged. No job is active.
+
+The subsequent [J2317 observed search](ELL1H_J2317_OBSERVED_2026-09-10.md)
+completed with NO_TRIGGER: peak 12.711083 at 84.212684 days versus 22.902100.
+No execution failure or automated noise flag occurred. Its run01 destination
+is consumed. Both assessed H3-only adapter candidates are searched; totals are
+286 observed identities and 360 search/refinement records. Next recommend
+bounded J1802 source/model clarification, preserving its hold and the four
+earlier nonlinear holds. No additional assessment or search is active.
+
+### J1802 source clarification — 10 September 2026
+
+The [source review](J1802_MODEL_CLARIFICATION_2026-09-10.md) establishes explicit
+H3/H4 removal in both release configurations, with an F-test reason in wideband.
+Both cuts exclude phase 0.15–0.35. NB/WB noise choices differ. No fit, calibration
+or search ran; the hold remains pending a target-specific omitted-Shapiro ELL1H
+preparation and timing/noise assessment. No release terms or excluded TOAs were
+restored. Three Work log rows added; all searches and four nonlinear holds preserved.
+
+### J1802 preparation adequacy — 10 September 2026
+
+[J1802 preparation](ELL1H_J1802_PREPARATION_2026-09-10.md) passes timing-interface
+checks with 126 TOAs and rank 66/66, but is PREPARATION_ADEQUACY_HOLD. Retained
+orbital structure and a red-noise comparison with its optimum at the grid edge
+prevent calibration. No observed outer-period scan ran. Next recommend bounded
+joint orbital/Shapiro and noise comparison, preserving the four nonlinear holds.
+
+### J1802 joint comparison — 10 September 2026
+
+The [joint comparison](J1802_JOINT_MODEL_COMPARISON_2026-09-10.md) retains the hold.
+Neither omission nor physical/free-harmonic alternatives provide an interior,
+validated joint solution. No calibration or outer-period observed scan ran.
+Recommend parking J1802 and prioritizing the four earlier nonlinear holds before
+further implementation. No additional comparison is executed by this closeout.
+
+
+### Remaining nonlinear holds — 10 September 2026
+
+The [bounded priority assessment](BINARY_HOLD_PRIORITIES_2026-09-10.md) recommends
+J1857+0943, J0740+6620, J0613−0200, then J2043+1711. This is an engineering
+priority, not a planet-probability or sensitivity ranking. All original inputs
+and failures are preserved; all four remain held. No preparation, calibration
+or observed search ran. Next recommend one J1857 nonlinear-Shapiro compatibility
+prototype; implementation is pending. J1802 remains parked. The master has five
+additional Work log entries and unchanged scientific counts. Monitoring is paused.
+
+
+### J1857 nonlinear compatibility — 10 September 2026
+
+The [native prototype](J1857_NONLINEAR_PROTOTYPE_2026-09-10.md) conditionally
+passes on 364 wideband TOAs/DMs. Seven orbital/Shapiro terms are evaluated
+natively, with 160 linear nuisance terms. The released-noise 64-mode spectrum
+is preferred among five fixed diagnostics; reduced chi-square is 0.990714.
+No operational profile, calibration or observed search was produced. Next
+recommend a reusable nonlinear statistic and bounded synthetic/cost verification.
+The pilot02 failure is preserved, the other three nonlinear targets remain
+held and J1802 stays parked. Four Work log entries preserve all prior records.

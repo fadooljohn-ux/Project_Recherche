@@ -27,7 +27,7 @@ inventory:
 
 manifests:
   resource: protocol/PILOT2_RUNTIME_RESOURCE_MANIFEST_v0.2.8.json
-  environment: protocol/PILOT2_RUNTIME_ENVIRONMENT_MANIFEST_v0.2.8.json
+  environment: protocol/PILOT2_RUNTIME_ENVIRONMENT_MANIFEST_QUALIFICATION03.json
 
 implementation_paths:
   - src/pulsar_pilot/pilot2_trusted_data.py
@@ -39,7 +39,6 @@ implementation_paths:
   - src/pulsar_pilot/pilot2_injection_executor_v028.py
   - src/pulsar_pilot/pilot2_injection_executor_v023.py
   - src/pulsar_pilot/pilot2_injection_remediation_v023.py
-  - src/pulsar_pilot/pilot2_injection_runner_v022.py
   - src/pulsar_pilot/pilot2_injection_remediation.py
   - src/pulsar_pilot/injection_integrity.py
   - src/pulsar_pilot/c1.py

@@ -1,0 +1,75 @@
+{
+ "status": "CLOSEOUT_COMPLETE",
+ "date": "2026-11-20",
+ "owner_instruction": "Yes search both",
+ "selection_sha256": "a4ebaeaaaa9952c94071baf812045fb57bb6562577832ffe2f08f4931a1bd899",
+ "execution_freeze_sha256": "7c15fbe262d9a5f9b1f30694aadee82b18839687ef6b7faf113a4e9525b897c2",
+ "preparation_sha256": "c2670b231558bdec2a87e0834712545049ce154ce8649ec41c92ee43c708c529",
+ "adapter_sha256": "dca5d0afc6089349015b0c4a156ba430eb01166544b384a40b234b4c92101a99",
+ "orbit_reexpress_sha256": "a5034134ffbac8a7c77da3e28d824543d812d4397c8f2f0ed92fe0ae7c7dd536",
+ "searched": {
+  "J1933-6211": {
+   "result_sha256": "137921ca8381f7ec3e4014feeffc8408fdef53b62515de02c96a95053e721607",
+   "periodogram_sha256": "7e61760c6a7c6cb347d3256a7cf131ae939c106ee87920b706cd0c9a3b9f376b",
+   "receipt_sha256": "0879c49423423be85da3c3128c24d7902ddf99e580d0a6e8fa85485456580441",
+   "status": "NO_TRIGGER",
+   "peak_period_days": 159.9289146218574,
+   "peak_statistic": 4.524515238861816,
+   "threshold": 18.165014000932597,
+   "peak_amplitude_us": 0.4954840894256299,
+   "null_reduced_chi2": 1.0107128505434897,
+   "released_binary_model": "DD",
+   "searched_binary_model": "ELL1",
+   "reexpression_equivalence": {
+    "limit_in_TOA_sigma": 0.1,
+    "maximum_difference_in_TOA_sigma": 9.649944327623963e-08,
+    "maximum_difference_seconds_after_projection": 6.374713689864213e-14,
+    "maximum_difference_seconds_before_projection": 1.921778684887916e-09
+   },
+   "search_period_days": [
+    128.19406719508467,
+    296.2394006370423
+   ],
+   "minimum_mass_earth_95_range": [
+    0.0016485403129880094,
+    0.0033159409723587966
+   ],
+   "host_mass_solar_assumed": 1.6
+  },
+  "J2322-2650": {
+   "result_sha256": "1c659904408bb73cb3b4745fb585a51ea5fdd92ce984463083f0b85cc8c9159c",
+   "periodogram_sha256": "6d8570ce79ac8c036bc9df726470fff1de10985dca8d4b0d71b967da111dbffb",
+   "receipt_sha256": "542cc76e8b3ae8896bde5a8da2cf5ffd0d26bfc79a09fdd9614d0d539e9c9659",
+   "status": "NO_TRIGGER",
+   "peak_period_days": 54.84222137409756,
+   "peak_statistic": 7.417043270001969,
+   "threshold": 21.356429440176992,
+   "peak_amplitude_us": 0.9879122771302483,
+   "null_reduced_chi2": 1.0116556753371593,
+   "released_binary_model": "DD",
+   "searched_binary_model": "ELL1",
+   "reexpression_equivalence": {
+    "limit_in_TOA_sigma": 0.1,
+    "maximum_difference_in_TOA_sigma": 1.253889271794188e-07,
+    "maximum_difference_seconds_after_projection": 6.030322752801763e-14,
+    "maximum_difference_seconds_before_projection": 1.3203424684144983e-13
+   },
+   "search_period_days": [
+    30.0,
+    285.61125406198875
+   ],
+   "minimum_mass_earth_95_range": [
+    0.00263971082751235,
+    0.011430283978951026
+   ],
+   "host_mass_solar_assumed": 1.6
+  }
+ },
+ "held": [],
+ "consumed": [
+  "J1933-6211/run01",
+  "J2322-2650/run01"
+ ],
+ "crossings": 0,
+ "new_planets_confirmed": 0
+}

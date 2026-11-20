@@ -1,0 +1,25 @@
+{
+  "largest_cell_difference": 0.04577415448210331,
+  "linearised_joint_statistic": 18.418935209724793,
+  "linearised_peak_period_days": 37.567487706350796,
+  "members_with_unconverged_cells": 0,
+  "nonlinear_joint_statistic": 18.44582541188663,
+  "nonlinear_minus_linearised": 0.02689020216183735,
+  "nonlinear_peak_period_days": 37.567487706350796,
+  "null_noise": {
+    "gamma": 4.0,
+    "log10_amplitude": -14.59651076704778,
+    "white_scale": 1.0
+  },
+  "periodogram_sha256": "47ebdf5204a1becf07b6dc49b7a5f50f75e5a66afd3c99f609cd225d4ae0a05d",
+  "result_sha256": "ffa99cc2e9b1669e555aae3e414038740c7eb3dcedae2c4d066546f8b52a68db",
+  "scope": "Validity check of the linearised orbit; the frozen decision statistic is the linearised one",
+  "signal_noise": {
+    "gamma": 5.0,
+    "log10_amplitude": -15.09651076704778,
+    "white_scale": 0.95
+  },
+  "status": "CONSISTENT",
+  "threshold": 23.001185823013543,
+  "tolerance": 0.5
+}

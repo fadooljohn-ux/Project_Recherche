@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "closeout_id": "joint-noise-stage-20261118",
+  "created": "2026-11-18",
+  "owner_decisions": "1. Grid profile 2. Second stage 3. Stop after stage 2",
+  "master_before_sha256": "3815db3b8a9285b0eabcaddb476e5e65eb95776c981bdfe597c38e5afd66a98e",
+  "working_folder": "../Project Recherche Data/joint-noise-stage-20261118/",
+  "targets": {
+    "J1012+5307": {
+      "status": "BELOW_JOINT_NOISE_THRESHOLD",
+      "peak_statistic": 18.858610335442336,
+      "peak_period_days": 223.0124814326369,
+      "threshold": 40.56197300066651,
+      "statistic_at_fixed_noise_period": 13.941498337742928,
+      "files": {
+        "calibration.json": "2d5ee72b38f0f920f675d5815eeb5d6a51479caf62ef11dd8c8a3acc8d3c6bad",
+        "execution-freeze.json": "1a41b9156248e6bf31782b89473649da368cc36ddd0b14d363f3ca993d31e976",
+        "result.json": "f6513d4520ab5ffa70ade477f9cfc09a04b25bed8ba8c5b4392ba2af5d919afa",
+        "scope.json": "a8e9388f43df7571e030497690c9ad7116d80dc489eaf5ae3a01b446a4da84e8"
+      }
+    },
+    "J1752-2806": {
+      "status": "BELOW_JOINT_NOISE_THRESHOLD",
+      "peak_statistic": 10.754911716987863,
+      "peak_period_days": 81.78496479869125,
+      "threshold": 23.062411562283614,
+      "statistic_at_fixed_noise_period": 10.754911716987863,
+      "files": {
+        "calibration.json": "a47cd8a67288c19930ef4d03c736086e0b99bdbe1fc2e35c336eeb827c8ebe83",
+        "execution-freeze.json": "5e3cb948171142b5ea6a182411083bc4315ac7c8d11ee83288bdd6c1b93cc512",
+        "result.json": "e6af55c2bc6b282b79d2d30d89f70936191561bf8b8b08d6df84494b63fe4efb",
+        "scope.json": "9c958d9312f8b71839d02127fbe8425d98bf256ed72efb0f6bda3ac6f1ab2378"
+      }
+    },
+    "J1738+0333": {
+      "status": "BELOW_JOINT_NOISE_THRESHOLD",
+      "peak_statistic": 11.309274804248957,
+      "peak_period_days": 31.1131209201112,
+      "threshold": 22.09701889579378,
+      "statistic_at_fixed_noise_period": 11.309274804248957,
+      "files": {
+        "calibration.json": "a5989ba724177445a6fceab3a3248f01f8035a74cad5f47494d785eaf863b27d",
+        "execution-freeze.json": "d15bfba0ac31b171876c67dc96bb83c6335f0777d0494eb5ec5d43560d2babed",
+        "result.json": "b170ca246f4ae2684e93d74e2c87d8203fb06d2532579ae8982dc78443c8e522",
+        "scope.json": "ead64339669ca8fac2f5c9680ccb0042ee18a42a2058a48672a2dcd3e60d572a"
+      }
+    }
+  },
+  "september_equivalence": {
+    "file_sha256": "d7c770df615cdd3bd9eb0097a06316f9811cc77c5608c5891d06f22070c7c2b9",
+    "J1012+5307": {
+      "members_compared": 12,
+      "largest_objective_difference": 6.989466783124954e-10
+    },
+    "J1752-2806": {
+      "members_compared": 12,
+      "largest_objective_difference": 2.3209167920867912e-10
+    }
+  }
+}

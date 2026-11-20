@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "workbook": "outputs/recherche-master-20260908/Project-Recherche-Master.xlsx",
+  "previous_sha256": "ed244345c3c64553f6a7e3ad77e22ec70d1d842d6edc6ca2ccf7938c20552199",
+  "sha256": "9ace756650b099a01dd0a1e1138330c460678b2802bfda419b2e9f0858aef8f8",
+  "historical_cells_verified": 26316,
+  "work_log_rows_appended": 3,
+  "search_records": 360,
+  "candidate_grades": 8,
+  "observed_identities": 286,
+  "registered_targets": 783,
+  "prior_cells_preserved": true,
+  "visual_review": "Changed Work log rows inspected after export; external preview retained"
+}

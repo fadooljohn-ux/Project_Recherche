@@ -1,0 +1,84 @@
+{
+  "cost_projection": {
+    "injection_count": 96,
+    "null_count": 4096
+  },
+  "injections": {
+    "maximum_median_amplitude_bias": 0.2,
+    "maximum_peak_offset_cells": 2.0,
+    "minimum_located_fraction": 0.9,
+    "minimum_strong_cases": 20,
+    "noncentralities": [
+      25,
+      60
+    ],
+    "periods_days": [
+      100,
+      300,
+      600,
+      1200,
+      1600
+    ],
+    "phases_per_case": 4,
+    "seed": 2026111724,
+    "strong_noncentrality": 60
+  },
+  "nulls": {
+    "count": 512,
+    "maximum_boundary_cell_fraction": 0.1,
+    "mean_cell_statistic_range": [
+      1.8,
+      2.2
+    ],
+    "seed": 2026111723
+  },
+  "orbital_parameters": [
+    "PB",
+    "A1",
+    "TASC",
+    "EPS1",
+    "EPS2",
+    "PBDOT",
+    "M2",
+    "SINI"
+  ],
+  "oversampling": 5,
+  "parameter_domain_published_sigma": 5.0,
+  "reference": {
+    "amplitudes_us": [
+      0.0,
+      0.3
+    ],
+    "maximum_chi2_difference": 0.02,
+    "maximum_function_evaluations": 120,
+    "optimizer_starts": [
+      0.0,
+      0.5
+    ],
+    "periods_days": [
+      100,
+      300,
+      600,
+      1200,
+      1600
+    ],
+    "seed": 2026111722,
+    "vectors": 8
+  },
+  "scope": "Synthetic verification of the nonlinear statistic on J2043+1711 before preparation; simulated data only. Criteria are those fixed for J1857+0943; PBDOT joins the nonlinear orbit; surrogate order chosen in development on native delays only.",
+  "source_batch": "binary-pilot02-20260909",
+  "surrogate": {
+    "degree": 3,
+    "maximum_projected_whitened_error_norm": 0.02,
+    "pair": [
+      "M2",
+      "SINI"
+    ],
+    "pair_degree": 7,
+    "training_points": 1000,
+    "training_seed": 2026111720,
+    "validation_points": 150,
+    "validation_seed": 2026111721
+  },
+  "target": "J2043+1711"
+}

@@ -1,0 +1,11 @@
+{
+  "after_sha256": "b6c08702a481091c85655bd3a181834c7ff7f356c74890089c325103fda83442",
+  "backend": "openpyxl",
+  "backup": "RECHERCHE_RECOVERY/master-workbook-history/f29ee580b7a83229d2ed5ee2087354838d5e5b4df34f1ef23713c9a76aeefe00.xlsx",
+  "before_sha256": "f29ee580b7a83229d2ed5ee2087354838d5e5b4df34f1ef23713c9a76aeefe00",
+  "formulas": "Preserved; Excel/LibreOffice recalculates on open; no cached-value claim",
+  "scientific_runs_executed": 0,
+  "searches_added": 1,
+  "status": "UPDATED",
+  "work_log_rows_added": 1
+}

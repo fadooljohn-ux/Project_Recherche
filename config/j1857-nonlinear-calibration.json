@@ -1,0 +1,25 @@
+{
+  "target": "J1857+0943",
+  "source_batch": "binary-pilot02-20260909",
+  "orbital_parameters": ["PB", "A1", "TASC", "EPS1", "EPS2", "M2", "SINI"],
+  "parameter_domain_published_sigma": 5.0,
+  "surrogate": {
+    "degree": 3, "pair": ["M2", "SINI"], "pair_degree": 7,
+    "training_points": 800, "training_seed": 2026111701,
+    "validation_points": 150, "validation_seed": 2026111702,
+    "maximum_projected_whitened_error_norm": 0.02
+  },
+  "optimizer_starts": [0.0, 0.5],
+  "maximum_function_evaluations": 120,
+  "maximum_multistart_chi2_difference": 0.01,
+  "minimum_distance_to_domain_bound": 0.01,
+  "maximum_chi2_difference": 0.02,
+  "adequacy_tail_cutoff": 0.0027,
+  "policy": {
+    "oversampling": 5, "false_alarm_probability": 0.01, "search_count": 3, "null_count": 4096,
+    "seed": 2026093001, "minimum_retained_power": 0.2, "maximum_condition_number": 10000000000.0,
+    "detection_probability": 0.95
+  },
+  "injections": {"periods": 3, "phases_radians": [0.0, 1.5707963267948966], "realizations": 16},
+  "scope": "J1857+0943 preparation and calibration with the nonlinear orbit statistic. Owner decision 2026-11-17: orbit domain of five published standard errors where physical. Policy, search count and seed follow binary pilot02 (seed plus batch index 1). No observed outer-period scan."
+}

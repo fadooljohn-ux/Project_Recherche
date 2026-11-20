@@ -1,0 +1,405 @@
+{
+  "target": "J1802-2124",
+  "status": "SOURCE_OMISSION_CLARIFIED_HOLD_RETAINED",
+  "preserved_hold": "MISSING_SHAPIRO_MODEL_HOLD",
+  "scope": "Released-file inspection only; no timing fit, calibration or observed search",
+  "release_url": "https://zenodo.org/records/16051178",
+  "archive_sha256": "91476bf20d4c8baa9f5ad39c6e114b581478a5a7e269876489cafc8f62c5708f",
+  "files": [
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/tim/J1802-2124_PINT_20220302.nb.tim",
+      "sha256": "c2ca67d89f24e07bf9e897f5b096138cb35ca814ba11e5983f98f2c57aabf5eb",
+      "bytes": 2721778
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/README.narrowband",
+      "sha256": "69267e9093bc26096e877d0b1b11b3d0b875e37e93372e6fb44fd0b0e3924168",
+      "bytes": 6128
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/NoRedNoisePars/J1802-2124_NANOGrav_15yv1p2.NRN.par",
+      "sha256": "89cf69990a340d479a1c8d66b4c83a28ffff00e4dd99979fd47fb49e1001a26c",
+      "bytes": 9920
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/predictive/J1802-2124_pred.par",
+      "sha256": "e32c710a2e1418cf051fa329558a88cba3ed5284d41fe940d1082dc739d277df",
+      "bytes": 2188
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J1802-2124.Rcvr_800.GUPPI.15y.x.nb.tim",
+      "sha256": "8fe946199bb2278512d326474befbb4b58e9e693e63952f0afc5c10b1c5c4f7b",
+      "bytes": 1263821
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/initial/J1802-2124.Rcvr1_2.GUPPI.15y.x.nb.tim",
+      "sha256": "5a75b292c547860c3816b854e0651538bde5ad6548f2c58c4fb93bd1a6ccee38",
+      "bytes": 1252808
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tim/excise/J1802-2124.nb_excise.tim",
+      "sha256": "28cfd6a4af070004a1fdc5c9d7e6ea01376924f3dc0ed7daa4af710e7814cc9c",
+      "bytes": 2957717
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tempo2/J1802-2124_tempo2_20220304.par",
+      "sha256": "d888f8e8e32c30dcc40e490af538b7238f9162cd6b6c854476c2609022dfc12a",
+      "bytes": 9137
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/par/J1802-2124_PINT_20220302.nb.par",
+      "sha256": "5362aef305da64f7a32d7e4e866dd4d8fc52eae73278516d3da27329772492f1",
+      "bytes": 9377
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/wideband/README.wb_correlations",
+      "sha256": "c64969a21256a7790c89885e6227999c3a16411d06eaa77ec5e61b1a4c97135b",
+      "bytes": 3076
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/correlations/narrowband/README.nb_correlations",
+      "sha256": "a03d9cff498b4e535035d26fe4cbbaaff5ab9ebcab0a0e253d305fe3e6677d27",
+      "bytes": 3076
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/clock/README.clock",
+      "sha256": "0c920982b8a913a0d32efb86be0d0500ee7d4f0dea5de433b4e63a2a43e2c3ee",
+      "bytes": 386
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/README",
+      "sha256": "d9b2b8e3924aa5eb45287a444238d050bc126796ce42e75244e40b21fe447c24",
+      "bytes": 5078
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/residuals/README.residuals",
+      "sha256": "2ace398091e0699250557275113112577dfe7cca44c56ac41294b5ec7496e66a",
+      "bytes": 2030
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1802-2124_PINT_20230224.wb.tim",
+      "sha256": "6a55592a505a83666e2b9ad8798a46d4fda61645ab1ab8082f4c7140eb27e1eb",
+      "bytes": 62642
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/README.wideband",
+      "sha256": "92517d13479fd90d21028de7cd2617dd40dd92ba38ca093d0cd2da22ee5bcbd9",
+      "bytes": 7444
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1802-2124_PINT_20230209.wb.par",
+      "sha256": "d1ca6f813d01ee79732b7a985f287bd8eb99833ab59e95bf4e7dccd62edb6040",
+      "bytes": 9880
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/alternate/tim/initial/J1802-2124.Rcvr1_2.GUPPI.15y.x.wb.tim",
+      "sha256": "0a0e976351123ada9fd992a9b2a2a9c8dfbbe1955e7521c6cfd6deda2fd16a57",
+      "bytes": 29284
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/alternate/tim/initial/J1802-2124.Rcvr_800.GUPPI.15y.x.wb.tim",
+      "sha256": "f3db4a5bbc458e323b6f6bfbb6e33c0f5a3b49b6cd6686617630fab00ac2d0f8",
+      "bytes": 29331
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/alternate/tim/excise/J1802-2124.wb_excise.tim",
+      "sha256": "90067a7a1460be18de69621ca004db88ad4ea67fa2e13fcaa158297e79efa8f1",
+      "bytes": 62610
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/config/J1802-2124.nb.yaml",
+      "sha256": "e1cfa8bc9a2c6b5ae158c1944a8735d1b687284ab2d28bc9c393ce6faad97f40",
+      "bytes": 2681
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/config/J1802-2124.wb.yaml",
+      "sha256": "c0b3e738cc19d2a72c827099434a5a16ae06502ba2c066d035314f5626b676e8",
+      "bytes": 2371
+    }
+  ],
+  "models": [
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/NoRedNoisePars/J1802-2124_NANOGrav_15yv1p2.NRN.par",
+      "sha256": "89cf69990a340d479a1c8d66b4c83a28ffff00e4dd99979fd47fb49e1001a26c",
+      "parameters": {
+        "START": [
+          "57682.9164254267206481"
+        ],
+        "FINISH": [
+          "58945.5403619002087615"
+        ],
+        "NTOA": [
+          "6796"
+        ],
+        "CHI2": [
+          "6756.641308037312"
+        ],
+        "BINARY": [
+          "ELL1H"
+        ],
+        "PB": [
+          "0.69888924331530727504",
+          "1",
+          "1.6021867030859053733e-11"
+        ],
+        "A1": [
+          "3.7188616488166986",
+          "1",
+          "4.2947663215000563e-07"
+        ],
+        "TASC": [
+          "58314.1068676937442277",
+          "1",
+          "7.1596589931668377263e-09"
+        ],
+        "EPS1": [
+          "2.6496908687064429e-06",
+          "1",
+          "2.3628080417536033146e-07"
+        ],
+        "EPS2": [
+          "2.04649546995866803e-06",
+          "1",
+          "2.1380056075541486122e-07"
+        ],
+        "NHARMS": [
+          "7"
+        ]
+      }
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/predictive/J1802-2124_pred.par",
+      "sha256": "e32c710a2e1418cf051fa329558a88cba3ed5284d41fe940d1082dc739d277df",
+      "parameters": {
+        "START": [
+          "57977.1729173719647454"
+        ],
+        "FINISH": [
+          "58945.5403619002087615"
+        ],
+        "NTOA": [
+          "5861"
+        ],
+        "BINARY": [
+          "ELL1H"
+        ],
+        "PB": [
+          "0.6988892433269041172",
+          "0",
+          "2.2526811552542376672e-11"
+        ],
+        "A1": [
+          "3.7188619644108427",
+          "0",
+          "6.124593476310123e-07"
+        ],
+        "TASC": [
+          "58314.1068677059640954",
+          "0",
+          "9.9948669000577422575e-09"
+        ],
+        "EPS1": [
+          "2.654851269743661115e-06",
+          "0",
+          "3.5335416353308482866e-07"
+        ],
+        "EPS2": [
+          "2.0950514600503759333e-06",
+          "0",
+          "3.1092935891555414678e-07"
+        ],
+        "NHARMS": [
+          "7"
+        ]
+      }
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/alternate/tempo2/J1802-2124_tempo2_20220304.par",
+      "sha256": "d888f8e8e32c30dcc40e490af538b7238f9162cd6b6c854476c2609022dfc12a",
+      "parameters": {
+        "BINARY": [
+          "ELL1"
+        ],
+        "PB": [
+          "0.69888924332750228306",
+          "1",
+          "0.00000000002333800706"
+        ],
+        "A1": [
+          "3.7188619904383465526",
+          "1",
+          "0.00000063973700514744"
+        ],
+        "TASC": [
+          "58314.106867706300008",
+          "1",
+          "0.00000001039137820837"
+        ],
+        "EPS1": [
+          "2.6595370714808516902e-06",
+          "1",
+          "0.00000036702790791736"
+        ],
+        "EPS2": [
+          "2.1420639730700042312e-06",
+          "1",
+          "0.00000032448246955207"
+        ],
+        "START": [
+          "57682.916425426394504"
+        ],
+        "FINISH": [
+          "58945.540361899886296"
+        ],
+        "NTOA": [
+          "6796"
+        ]
+      }
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/narrowband/par/J1802-2124_PINT_20220302.nb.par",
+      "sha256": "5362aef305da64f7a32d7e4e866dd4d8fc52eae73278516d3da27329772492f1",
+      "parameters": {
+        "START": [
+          "57682.9164254267206481"
+        ],
+        "FINISH": [
+          "58945.5403619002087731"
+        ],
+        "NTOA": [
+          "6796"
+        ],
+        "CHI2": [
+          "6756.641308037312"
+        ],
+        "BINARY": [
+          "ELL1H"
+        ],
+        "PB": [
+          "0.6988892433269041172",
+          "1",
+          "2.2526811552542376672e-11"
+        ],
+        "A1": [
+          "3.7188619644108427",
+          "1",
+          "6.124593476310123e-07"
+        ],
+        "TASC": [
+          "58314.1068677059640954",
+          "1",
+          "9.9948669000577422575e-09"
+        ],
+        "EPS1": [
+          "2.654851269743661115e-06",
+          "1",
+          "3.5335416353308482866e-07"
+        ],
+        "EPS2": [
+          "2.0950514600503759333e-06",
+          "1",
+          "3.1092935891555414678e-07"
+        ],
+        "NHARMS": [
+          "7"
+        ],
+        "RNAMP": [
+          "1.5767122662996158"
+        ],
+        "RNIDX": [
+          "-1.4712131084544269"
+        ]
+      }
+    },
+    {
+      "member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1802-2124_PINT_20230209.wb.par",
+      "sha256": "d1ca6f813d01ee79732b7a985f287bd8eb99833ab59e95bf4e7dccd62edb6040",
+      "parameters": {
+        "START": [
+          "57682.9164254988967824"
+        ],
+        "FINISH": [
+          "58945.5403618518090740"
+        ],
+        "NTOA": [
+          "126"
+        ],
+        "CHI2": [
+          "227.74994459213093"
+        ],
+        "BINARY": [
+          "ELL1H"
+        ],
+        "PB": [
+          "0.6988892433325567942",
+          "1",
+          "1.2228808219379842959e-11"
+        ],
+        "A1": [
+          "3.718861406130752",
+          "1",
+          "3.612779216264895e-07"
+        ],
+        "TASC": [
+          "58314.1068677105806479",
+          "1",
+          "5.9127916250672314934e-09"
+        ],
+        "EPS1": [
+          "2.3360094925073967034e-06",
+          "1",
+          "2.3551918833123938074e-07"
+        ],
+        "EPS2": [
+          "2.3076756503303011488e-06",
+          "1",
+          "2.0146684121682878017e-07"
+        ],
+        "NHARMS": [
+          "7"
+        ]
+      }
+    }
+  ],
+  "reductions": {
+    "narrowband": {
+      "final_toas": 6796,
+      "site_mjd_days": 69,
+      "first_site_mjd": "57682.9164254263945022",
+      "last_site_mjd": "58945.5403618998862962",
+      "span_days": 1262.6239364734918,
+      "paired_dm_toas": 0,
+      "retained_excision_file_cut_counts": {
+        "eclipsing": 748,
+        "snr": 139,
+        "outlier10": 19,
+        "maxout": 49
+      },
+      "configured_phase_exclusion": [
+        0.15,
+        0.35
+      ],
+      "explicit_shapiro_removal": true,
+      "removal_reason": "Explicit removal; target F-test value not supplied"
+    },
+    "wideband": {
+      "final_toas": 126,
+      "site_mjd_days": 70,
+      "first_site_mjd": "57682.9164254985706365",
+      "last_site_mjd": "58945.5403618514866088",
+      "span_days": 1262.623936352916,
+      "paired_dm_toas": 126,
+      "retained_excision_file_cut_counts": {
+        "eclipsing": 14
+      },
+      "configured_phase_exclusion": [
+        0.15,
+        0.35
+      ],
+      "explicit_shapiro_removal": true,
+      "removal_reason": "F-test"
+    }
+  },
+  "script_sha256": "26c1400e20d6bdadd8704026ef57e45721fe9833f227c794a43784a08ac67739",
+  "limitation": "Excision labels are provenance, not an independent diagnosis of eclipses. Narrowband and wideband are overlapping reductions, not independent confirmation."
+}

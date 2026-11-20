@@ -1,0 +1,6 @@
+{
+  "adapter_sha256": "b7515801b23359da67b8f8979b6e21a3b84d017e8539c197d0f7958ddacd0e6e",
+  "error": "Binary derivative/local-linearity mismatch: SINI {\"step_in_parameter_units\": 0.0031891555504500206, \"relative_derivative_error\": 6.928063138841605e-06, \"maximum_nonlinearity_in_TOA_sigma\": 1.8142353543833627}",
+  "status": "PREPARATION_FAILED",
+  "target": "J2043+1711"
+}

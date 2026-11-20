@@ -1,0 +1,82 @@
+{
+  "archive_sha256": "91476bf20d4c8baa9f5ad39c6e114b581478a5a7e269876489cafc8f62c5708f",
+  "created_utc": "2026-09-09T13:14:46.286644+00:00",
+  "dataset": "NANOGrav15 v2.1.0 wideband; ELL1 white-dwarf binaries",
+  "intake_inventory_sha256": "8a7de27b4c5b4327824cf19fe845796d68848eeed24b51818f95f425939a3248",
+  "master_workbook_sha256": "f2dc316ddadb67b31c907c49d5ac1313f8bf100a10699ae1acfce768134ab4ec",
+  "maximum_period_rule": "min(2000 days, half observation span)",
+  "minimum_period_rule": "max(30 days, 10 inner binary periods)",
+  "observed_periodograms_inspected": false,
+  "policy": {
+    "detection_probability": 0.95,
+    "false_alarm_probability": 0.01,
+    "maximum_condition_number": 10000000000.0,
+    "maximum_period_days": 2000.0,
+    "minimum_period_days": 30.0,
+    "minimum_retained_power": 0.2,
+    "null_count": 4096,
+    "oversampling": 5,
+    "search_count": 3,
+    "seed": 2026093000
+  },
+  "references": [
+    "https://nanograv.org/science/data",
+    "https://academic.oup.com/mnras/article/422/2/1294/1034885",
+    "https://arxiv.org/abs/2104.00880",
+    "https://ueaeprints.uea.ac.uk/id/eprint/67589/1/Published_manuscript.pdf",
+    "https://arxiv.org/abs/2407.06482"
+  ],
+  "requested_selection_sha256": "432a0137f7e0c194506cd22656fb746103119544d6a71d88895ebb9cf0c106e5",
+  "rows": [
+    {
+      "batch_index": 0,
+      "binary_period_days": 4.766944619412857,
+      "exclusion_reasons": [
+        "known_binary"
+      ],
+      "par_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J0740+6620_PINT_20230131.wb.par",
+      "par_sha256": "3df45ecd89ea189d3feeff8d1c7a8e5baed70537907b87aadd94554439c96dd4",
+      "release_name": "J0740+6620",
+      "selected": true,
+      "selection_basis": "Published white-dwarf companion; released ELL1 model; long coverage; no observed periodogram inspected",
+      "target": "J0740+6620",
+      "tim_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J0740+6620_PINT_20230131.wb.tim",
+      "tim_sha256": "55f2fd0762c7be7ba02340d4b10846f0bed7a2ba52e96d8da121febb97a87b9f"
+    },
+    {
+      "batch_index": 1,
+      "binary_period_days": 12.32717119145527,
+      "exclusion_reasons": [
+        "known_binary"
+      ],
+      "par_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/B1855+09_PINT_20230131.wb.par",
+      "par_sha256": "b58c8f48d9fb392db6030da0d92d3a95cb740ee40f78f842c3ef1a5ab106103d",
+      "release_name": "B1855+09",
+      "selected": true,
+      "selection_basis": "Published white-dwarf companion; released ELL1 model; long coverage; no observed periodogram inspected",
+      "target": "J1857+0943",
+      "tim_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/B1855+09_PINT_20230131.wb.tim",
+      "tim_sha256": "3babc2cd9ab2469312f1d0261c7ebb9c338f5ab1560771ab20e9769c1afda797"
+    },
+    {
+      "batch_index": 2,
+      "binary_period_days": 1.4822907863872237,
+      "exclusion_reasons": [
+        "known_binary"
+      ],
+      "par_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2043+1711_PINT_20230131.wb.par",
+      "par_sha256": "901b46a54324dbca9c1ea91bc70994c407a74bf1ac396088402cc0a8b36cebbf",
+      "release_name": "J2043+1711",
+      "selected": true,
+      "selection_basis": "Published white-dwarf companion; released ELL1 model; long coverage; no observed periodogram inspected",
+      "target": "J2043+1711",
+      "tim_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J2043+1711_PINT_20230131.wb.tim",
+      "tim_sha256": "a9b02d6ea4d934004669fb1d718c36b4f880b468ec9bccaa24e8b36f5f82a2e5"
+    }
+  ],
+  "selected": [
+    "J0740+6620",
+    "J1857+0943",
+    "J2043+1711"
+  ]
+}

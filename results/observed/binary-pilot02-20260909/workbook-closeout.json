@@ -1,0 +1,11 @@
+{
+  "master_sha256": "c911b386c638d042c54baed26094743b547b94079d898ececca174fda30f2c26",
+  "search_records_preserved": 353,
+  "observed_identities": 279,
+  "registered_targets": 783,
+  "work_records_added": 4,
+  "target_rows_added": 29,
+  "old_pilot_artifact_hashes_preserved": true,
+  "publication_scientific_source_verified": true,
+  "new_scientific_searches": 0
+}

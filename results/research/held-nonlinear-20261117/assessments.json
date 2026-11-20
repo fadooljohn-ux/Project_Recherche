@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "assessment_id": "j2043-review-20261118",
+  "records": [
+    {
+      "record_id": "held-nonlinear-20261117-J2043+1711-run01",
+      "target": "J2043+1711",
+      "result_sha256": "6d6742492c8c5a5f8a23ef7d2babb61a64c51e0d6c8f2375d3da65e3ce08f222",
+      "statistical_grade": "NOT_ESTABLISHED",
+      "global_fap": null,
+      "global_sigma": null,
+      "global_scope": "No noise-robust false-alarm calibration. The frozen 1% allowance is conditional on the released white-only noise model and covers three searches, not the roughly 360 project search records. Under that fixed model 0 of 4096 simulated null maxima reach the observed 26.871; no simulation tail was computed against the observed statistic over the full grid with red noise admitted, so the exceedance fields are blank (unavailable, not zero).",
+      "diagnostic_source": "results/research/held-nonlinear-20261117/j2043-review/05e_chain_full.json",
+      "exceedance_field": null,
+      "null_count": null,
+      "null_exceedances": null,
+      "diagnostic_p_plus_one": null,
+      "diagnostic_scope": "Linearised statistic at the candidate period recomputed over 500 joint white+red samples of the released NANOGrav wideband noise chain: median 19.2 (5-95%: 14.8-25.0), below the frozen threshold 23.998 in 91%. Thresholds were not recalibrated under the alternative noise.",
+      "robustness_grade": "NOISE_SENSITIVE",
+      "robustness_evidence": "The released par noise is the chain maximum-posterior sample with its red term (log10 A -14.34, gamma 3.05) removed; restoring it lowers 26.87 to 18.18. Error inflation x1.058 removes the crossing; either of two epochs removed takes it below threshold. Supporting: independent reproduction 26.87 (0.0892 +/- 0.0174 us), amplitude and phase consistent across halves, thirds and quarters, not carried by few epochs, absent from DMX, present in narrowband TOAs of the same observations (23.54). Daily aliases (1.0245, 0.9714 d) fit nearly as well, so the period is not determined. With red noise it remains about 4 sigma locally (0.078 +/- 0.019 us). Achromaticity is not testable with these two bands.",
+      "confirmation_grade": "UNAVAILABLE",
+      "confirmation_evidence": "All 459 TOAs are Arecibo. The NANOGrav narrowband reduction shares the observations and is not independent. IPTA DR2 holds only a 9-year subset of the same observations; EPTA, PPTA, MPTA, InPTA, UTMOST and TPA folders hold no J2043+1711 data. No independent timing series on disk.",
+      "disposition": "INCONCLUSIVE_NOISE_SENSITIVE",
+      "review_provenance": "Review performed by a subagent on 2026-11-18 (UTC); the recording agent did not independently rerun its numbers.",
+      "sources": [
+        {
+          "path": "results/research/held-nonlinear-20261117/j2043-review/REVIEW.md",
+          "sha256": "5b6f192a5e39d23b73b28060d94f16c84ff51dde89be1d2c2f4f725ee8479085"
+        },
+        {
+          "path": "results/research/held-nonlinear-20261117/j2043-review/01_reproduce.json",
+          "sha256": "f58b7c8b20b1278eaa529252d1c8e063540a6a0bffe5bc2ce4adbe3a0d8a610d"
+        },
+        {
+          "path": "results/research/held-nonlinear-20261117/j2043-review/05b_red.json",
+          "sha256": "04815807e8102994e5c7bedf3f1581f61a46188b0ae0e4bcf66002a89d8f8478"
+        },
+        {
+          "path": "results/research/held-nonlinear-20261117/j2043-review/05e_chain_full.json",
+          "sha256": "9439bd7da54f4dd3972a6be5ff123c215b27bbf60f64fdfbd9af09d228c4e2c6"
+        },
+        {
+          "path": "results/research/held-nonlinear-20261117/j2043-review/07_subsets.json",
+          "sha256": "2309a3f541b51fecac9d31236bb747486d0fe74e819c14214116aa028a504d81"
+        },
+        {
+          "path": "results/research/held-nonlinear-20261117/j2043-review/08_narrowband.json",
+          "sha256": "005f86cf162ef65605778490721649680e575e6f8637932397a2778039310a08"
+        },
+        {
+          "path": "results/research/held-nonlinear-20261117/j2043-review/09_physical.json",
+          "sha256": "c70408929329c228c7eaeb4369b8c2cf94be35429ee75bf1d74607c3f5af0a7d"
+        },
+        {
+          "path": "results/research/held-nonlinear-20261117/j2043/observed-result.json",
+          "sha256": "6d6742492c8c5a5f8a23ef7d2babb61a64c51e0d6c8f2375d3da65e3ce08f222"
+        }
+      ]
+    }
+  ]
+}

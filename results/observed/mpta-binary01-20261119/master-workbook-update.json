@@ -1,0 +1,11 @@
+{
+  "status": "UPDATED",
+  "before_sha256": "28a7426193e71d8bf8b479645067c6b88866b9b5467a5f96c914a680e0811804",
+  "after_sha256": "d02f1311294561b5bbe3f518eb9cf55dcde770df2b41ec0b04d92281a6308969",
+  "backend": "openpyxl",
+  "scientific_runs_executed": 0,
+  "searches_added": 0,
+  "work_log_rows_added": 1,
+  "backup": "../Recherche Recovery/20260907T223404/master-workbook-history/28a7426193e71d8bf8b479645067c6b88866b9b5467a5f96c914a680e0811804.xlsx",
+  "formulas": "Preserved; Excel/LibreOffice recalculates on open; no cached-value claim"
+}

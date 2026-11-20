@@ -1,0 +1,22 @@
+{
+  "NG15_reference": {
+    "inputs.npz": "8940a16401bd843a0d34fea15d1e006c859cd6d87fbe8ce5d7c5f92f60d22c21",
+    "model-13.npz": "33d384881d758efa68bbd645bf5b8a06f0a31ed27eaf11c424bf6e0295e9ef19",
+    "result.json": "7d8411e96eb90dcece86032ac3116d2946d96b6d81c24c5b71953ff5e6772bae",
+    "scope.json": "28a350b008a22f2ce6f758fb83f34b8274b9d16fc71156bf4f4ac1f01a9f06db"
+  },
+  "TCB_to_TDB_K": "1.0000000155051979176",
+  "TCB_to_TDB_epoch": "43144.0003725",
+  "code_sha256": "97d5f83a20ce519fd3f971d77010c5ac7440e36ff917479cf7165e033f8d4edf",
+  "comparison": "Conditional fixed-period coefficients versus saved NG15 joint-noise model; no EPTA period selection",
+  "conditional_fixed_period_alpha": 0.01,
+  "models": [
+    "published_red149_dm45",
+    "covered_red256_dm64",
+    "covered_double_red_power"
+  ],
+  "native_preparation_scope_sha256": "9f2328b6d69226c345039deb7db18bf2cd2576a46703d867fcd6a999e3506944",
+  "overlap": "Separate observatories can share propagation noise. No independent-error assumption is claimed beyond this conditional coefficient diagnostic.",
+  "period_days_tdb": 138.9110415844769,
+  "reference_epoch_mjd_tdb": 56104.0
+}

@@ -1,0 +1,289 @@
+{
+  "status": "MODEL_ONLY_ASSESSMENT_COMPLETE",
+  "pint_version": "1.1.5",
+  "intake_sha256": "f8a61bea19a9ebc4de47849cef969b8516f82826661f09d5bbafe66ca0ae966a",
+  "assessment_code_sha256": "2828ed9923fd00490d46a19c368dbcdd92f32e2ef2213bcdec0a63298f5de906",
+  "runtime_code_sha256": {
+    "models/binary_ell1.py": "e1c771117ad84dab78c2a1a343adc3b8c6eecb88479425687dbf2d370f27d8de",
+    "models/stand_alone_psr_binaries/ELL1H_model.py": "444fabb382b22deeb9e2164e883f7673256bde1a06a99abceb8f075eefb6e1ca"
+  },
+  "records": [
+    {
+      "target": "J1802-2124",
+      "status": "MISSING_SHAPIRO_MODEL_HOLD",
+      "model_loaded": true,
+      "units": "TDB",
+      "ephemeris": "DE440",
+      "active_TIM_rows": 126,
+      "observing_days_site_MJD": 70,
+      "paired_DM_rows": 126,
+      "site_MJD_range": [
+        57682.91642549857,
+        58945.54036185149
+      ],
+      "span_days": 1262.6239363529166,
+      "raw_TOA_uncertainty_median_us": 0.8634999999999999,
+      "observatories": [
+        "gbt"
+      ],
+      "binary_period_days": 0.6988892433325568,
+      "prospective_period_bounds_days": [
+        30.0,
+        631.3119681764583
+      ],
+      "parameters": {
+        "PB": {
+          "value": "0.6988892433325567942",
+          "uncertainty": "1.2228808219379842959e-11",
+          "free": true
+        },
+        "A1": {
+          "value": "3.718861406130752",
+          "uncertainty": "3.612779216264895e-07",
+          "free": true
+        },
+        "TASC": {
+          "value": "58314.106867710580648",
+          "uncertainty": "5.9127916250672314934e-09",
+          "free": true
+        },
+        "EPS1": {
+          "value": "2.3360094925073967034e-06",
+          "uncertainty": "2.3551918833123938074e-07",
+          "free": true
+        },
+        "EPS2": {
+          "value": "2.3076756503303011488e-06",
+          "uncertainty": "2.0146684121682878017e-07",
+          "free": true
+        },
+        "H3": {
+          "value": "None",
+          "uncertainty": "None",
+          "free": false
+        },
+        "H4": {
+          "value": "None",
+          "uncertainty": "None",
+          "free": false
+        },
+        "STIGMA": {
+          "value": "None",
+          "uncertainty": "None",
+          "free": false
+        },
+        "NHARMS": {
+          "value": "7",
+          "uncertainty": "None",
+          "free": false
+        }
+      },
+      "noise_coverage_plan": {
+        "status": "NO_RELEASED_RED_COMPONENT"
+      },
+      "standalone_probe": {
+        "synthetic_phase_count": 256,
+        "finite_delay": true,
+        "delay_function": "delayS3p_H3_STIGMA_approximate",
+        "fit_parameters": [
+          "H3"
+        ],
+        "standalone_H3_seconds": 0.0,
+        "delay_peak_to_peak_us": 0.0
+      },
+      "limitations": "No observed residuals, timing/design fit, clock replay, calibration, sensitivity or search. H3-only is a released timing coefficient, not a mass/inclination posterior."
+    },
+    {
+      "target": "J2145-0750",
+      "status": "H3_ONLY_ADAPTER_CANDIDATE",
+      "model_loaded": true,
+      "units": "TDB",
+      "ephemeris": "DE440",
+      "active_TIM_rows": 400,
+      "observing_days_site_MJD": 285,
+      "paired_DM_rows": 400,
+      "site_MJD_range": [
+        53267.183254179574,
+        58942.554852580324
+      ],
+      "span_days": 5675.37159840075,
+      "raw_TOA_uncertainty_median_us": 0.245,
+      "observatories": [
+        "gbt"
+      ],
+      "binary_period_days": 6.838902509644943,
+      "prospective_period_bounds_days": [
+        68.38902509644943,
+        2000.0
+      ],
+      "parameters": {
+        "PB": {
+          "value": "6.8389025096449431854",
+          "uncertainty": "5.9252693277827814166e-11",
+          "free": true
+        },
+        "A1": {
+          "value": "10.164109472584704",
+          "uncertainty": "1.0698934857539896e-07",
+          "free": true
+        },
+        "A1DOT": {
+          "value": "7.5003050457681e-15",
+          "uncertainty": "8.861636615907568e-16",
+          "free": true
+        },
+        "TASC": {
+          "value": "56102.447555474526066",
+          "uncertainty": "1.1599117846920089454e-08",
+          "free": true
+        },
+        "EPS1": {
+          "value": "-6.9007338843147292277e-06",
+          "uncertainty": "1.38257843605394365134e-08",
+          "free": true
+        },
+        "EPS2": {
+          "value": "-1.8048732901610866792e-05",
+          "uncertainty": "1.4338315882350990423e-08",
+          "free": true
+        },
+        "H3": {
+          "value": "1.7696019252495095212e-07",
+          "uncertainty": "5.1490949737076372308e-08",
+          "free": true
+        },
+        "H4": {
+          "value": "None",
+          "uncertainty": "None",
+          "free": false
+        },
+        "STIGMA": {
+          "value": "None",
+          "uncertainty": "None",
+          "free": false
+        },
+        "NHARMS": {
+          "value": "3",
+          "uncertainty": "None",
+          "free": false
+        }
+      },
+      "noise_coverage_plan": {
+        "status": "COVERAGE_EXTENSION_NEEDED",
+        "released_log10_amplitude": 5.0065469785790043e-14,
+        "released_gamma": 2.5302127694160306,
+        "logarithmic_modes": null,
+        "minimum_frequency_multiple": 1,
+        "required_modes": 83,
+        "released_modes": 30,
+        "selected_modes": 128,
+        "shortest_released_period_days": 189.17905328002502,
+        "shortest_selected_period_days": 44.33884061250586,
+        "extended": true
+      },
+      "standalone_probe": {
+        "synthetic_phase_count": 256,
+        "finite_delay": true,
+        "delay_function": "delayS3p_H3_STIGMA_approximate",
+        "fit_parameters": [
+          "H3"
+        ],
+        "standalone_H3_seconds": 1.7696019252495094e-07,
+        "delay_peak_to_peak_us": 0.4718938467332025,
+        "analytic_delay_relative_error": 5.2542799208191196e-17,
+        "analytic_H3_derivative_relative_error": 4.811104742644251e-17
+      },
+      "limitations": "No observed residuals, timing/design fit, clock replay, calibration, sensitivity or search. H3-only is a released timing coefficient, not a mass/inclination posterior."
+    },
+    {
+      "target": "J2317+1439",
+      "status": "H3_ONLY_ADAPTER_CANDIDATE",
+      "model_loaded": true,
+      "units": "TDB",
+      "ephemeris": "DE440",
+      "active_TIM_rows": 708,
+      "observing_days_site_MJD": 313,
+      "paired_DM_rows": 708,
+      "site_MJD_range": [
+        53355.8880051286,
+        59070.32654212183
+      ],
+      "span_days": 5714.438536993228,
+      "raw_TOA_uncertainty_median_us": 0.206,
+      "observatories": [
+        "arecibo"
+      ],
+      "binary_period_days": 2.459331465137028,
+      "prospective_period_bounds_days": [
+        30.0,
+        2000.0
+      ],
+      "parameters": {
+        "PB": {
+          "value": "2.4593314651370281594",
+          "uncertainty": "2.0728531542557131856e-11",
+          "free": true
+        },
+        "A1": {
+          "value": "2.3139486936388893",
+          "uncertainty": "6.276789200791629e-08",
+          "free": true
+        },
+        "TASC": {
+          "value": "56213.65308579149755",
+          "uncertainty": "1.5914411986690970072e-08",
+          "free": true
+        },
+        "EPS1": {
+          "value": "4.374840843954673324e-07",
+          "uncertainty": "5.284254975536153989e-08",
+          "free": true
+        },
+        "EPS2": {
+          "value": "-1.6705107609134634612e-08",
+          "uncertainty": "5.2537592319295646536e-08",
+          "free": true
+        },
+        "H3": {
+          "value": "6.101516518833240109e-08",
+          "uncertainty": "4.4530336403226385297e-08",
+          "free": true
+        },
+        "H4": {
+          "value": "None",
+          "uncertainty": "None",
+          "free": false
+        },
+        "STIGMA": {
+          "value": "None",
+          "uncertainty": "None",
+          "free": false
+        },
+        "NHARMS": {
+          "value": "3",
+          "uncertainty": "None",
+          "free": false
+        }
+      },
+      "noise_coverage_plan": {
+        "status": "NO_RELEASED_RED_COMPONENT"
+      },
+      "standalone_probe": {
+        "synthetic_phase_count": 256,
+        "finite_delay": true,
+        "delay_function": "delayS3p_H3_STIGMA_approximate",
+        "fit_parameters": [
+          "H3"
+        ],
+        "standalone_H3_seconds": 6.10151651883324e-08,
+        "delay_peak_to_peak_us": 0.1627071071688864,
+        "analytic_delay_relative_error": 5.827786860351054e-17,
+        "analytic_H3_derivative_relative_error": 5.1810907109929804e-17
+      },
+      "limitations": "No observed residuals, timing/design fit, clock replay, calibration, sensitivity or search. H3-only is a released timing coefficient, not a mass/inclination posterior."
+    }
+  ],
+  "calibration_executed": false,
+  "observed_search_executed": false,
+  "actual_TOA_fit_executed": false
+}

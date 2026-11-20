@@ -1,0 +1,17 @@
+{
+  "completed_utc": "2026-11-18T02:10:59.767193+00:00",
+  "eligible_cells": 530,
+  "execution_freeze_sha256": "d5f61dfd8fe123cf68de75b3961fc2b25c0d3d1d2255b67df5f2d184b81fb003",
+  "frequency_count": 542,
+  "interpretation": "A crossing is a candidate for review under fixed released noise, not a detection",
+  "null_chi2": 714.3922381388345,
+  "null_orbit_on_domain_bound": false,
+  "peak_amplitude_us": 0.0892607439250184,
+  "peak_orbit_on_domain_bound": false,
+  "peak_period_days": 37.48230065939762,
+  "peak_statistic": 26.871281465953018,
+  "periodogram_sha256": "991a8c81c4526c25fe7f1e8d64d50cbd3700e9d298ac65e39d021492cb84c085",
+  "status": "PERIODIC_SIGNAL_CANDIDATE",
+  "target": "J2043+1711",
+  "threshold": 23.998096952191695
+}

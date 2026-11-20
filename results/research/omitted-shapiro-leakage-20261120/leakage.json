@@ -1,0 +1,1734 @@
+{
+  "calibration_executed": false,
+  "code_sha256": "d786bcb3672317ae9a5ca2458f72526b1734a6878fc54d2b720544e0d8bae9f3",
+  "data": "../Project Recherche Data/ng15-binary-dev3-20261120",
+  "deciding_inclination_degrees": 85.0,
+  "inclinations_degrees": [
+    30.0,
+    60.0,
+    75.0,
+    85.0,
+    88.0
+  ],
+  "limit_delta_chi2": 0.1,
+  "limitations": "A grid, not a posterior or a continuous bound; phase and nuisance design fixed at the released model; a synthetic statistic also has a cross term with noise or a real signal",
+  "observed_residuals_loaded": false,
+  "observed_search_executed": false,
+  "pulsar_masses_solar": [
+    1.4,
+    2.0
+  ],
+  "results": [
+    {
+      "grid": {
+        "algorithm": "linear_frequency_independent_bin_oversampling",
+        "frequency_count": 268,
+        "frequency_step_per_day": 0.00012044586810828063,
+        "maximum_frequency_per_day": 0.03333333333333333,
+        "maximum_period_days": 830.2484889734878,
+        "minimum_frequency_per_day": 0.0012044586810828063,
+        "minimum_period_days": 30.0,
+        "oversampling": 5,
+        "span_days": 1660.4969779469757
+      },
+      "inner_period_days": 0.7302414215080226,
+      "largest_deciding_delta_chi2": 0.012814942530172421,
+      "largest_delta_chi2_any_scenario": 0.019789553248753224,
+      "mass_function_solar": 1.3800798546443133e-06,
+      "profile_sha256": "59b93cdf02f1ebcbaa0b5df2efb2a8aa2609bc86c6b3a22d34c2cda54195d51b",
+      "scenarios": [
+        {
+          "companion_mass_solar": 0.02824005513601397,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 8.4392302609279e-06,
+          "projected_whitened_norm_squared": 3.7649761951803726e-05,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 0.3052687356135784,
+          "synthetic_peak_amplitude_us": 0.0014816177646705267,
+          "synthetic_peak_period_days": 48.83814641020516
+        },
+        {
+          "companion_mass_solar": 0.0162127407638387,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 0.00030362812204762094,
+          "projected_whitened_norm_squared": 0.0015906752467547889,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 0.41942191977402515,
+          "synthetic_peak_amplitude_us": 0.010542724309427527,
+          "synthetic_peak_period_days": 56.47948904581549
+        },
+        {
+          "companion_mass_solar": 0.014524390640421759,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 0.00184567531990893,
+          "projected_whitened_norm_squared": 0.010181829209496968,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 0.5754464704077952,
+          "synthetic_peak_amplitude_us": 0.023919386938576426,
+          "synthetic_peak_period_days": 35.63298235937716
+        },
+        {
+          "companion_mass_solar": 0.014080125476014872,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 0.007976846433526365,
+          "projected_whitened_norm_squared": 0.0455803494592599,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 0.8310077155492696,
+          "synthetic_peak_amplitude_us": 0.05060630503165992,
+          "synthetic_peak_period_days": 35.48070465698666
+        },
+        {
+          "companion_mass_solar": 0.014034796211294585,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 0.012318234618271627,
+          "projected_whitened_norm_squared": 0.07306554912502498,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 0.969668318703545,
+          "synthetic_peak_amplitude_us": 0.06288991393612932,
+          "synthetic_peak_period_days": 35.48070465698666
+        },
+        {
+          "companion_mass_solar": 0.0357670777646075,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 1.3537506366971244e-05,
+          "projected_whitened_norm_squared": 6.03945948124251e-05,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 0.3866341815979684,
+          "synthetic_peak_amplitude_us": 0.001876523878978316,
+          "synthetic_peak_period_days": 48.83814641020516
+        },
+        {
+          "companion_mass_solar": 0.020547078955470786,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 0.0004876736562104114,
+          "projected_whitened_norm_squared": 0.002554870109517191,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 0.5315507986455686,
+          "synthetic_peak_amplitude_us": 0.013361231882195283,
+          "synthetic_peak_period_days": 56.47948904581549
+        },
+        {
+          "companion_mass_solar": 0.01840900905512923,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 0.0029649698788371203,
+          "projected_whitened_norm_squared": 0.01635651546725563,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 0.7293524077352718,
+          "synthetic_peak_amplitude_us": 0.030316742481432388,
+          "synthetic_peak_period_days": 35.63298235937716
+        },
+        {
+          "companion_mass_solar": 0.017846343211912186,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 0.012814942530172421,
+          "projected_whitened_norm_squared": 0.07322562414773365,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 1.053289541254632,
+          "synthetic_peak_amplitude_us": 0.06414271590265248,
+          "synthetic_peak_period_days": 35.48070465698666
+        },
+        {
+          "companion_mass_solar": 0.017788931803831533,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 0.019789553248753224,
+          "projected_whitened_norm_squared": 0.11738163948544415,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 1.229042683204179,
+          "synthetic_peak_amplitude_us": 0.07971219341669691,
+          "synthetic_peak_period_days": 35.48070465698666
+        }
+      ],
+      "status": "LEAKAGE_NEGLIGIBLE",
+      "target": "J1745+1017"
+    },
+    {
+      "grid": {
+        "algorithm": "linear_frequency_independent_bin_oversampling",
+        "frequency_count": 196,
+        "frequency_step_per_day": 0.0001626542651608546,
+        "maximum_frequency_per_day": 0.03333333333333333,
+        "maximum_period_days": 614.8009700274779,
+        "minimum_frequency_per_day": 0.001626542651608546,
+        "minimum_period_days": 30.0,
+        "oversampling": 5,
+        "span_days": 1229.6019400549558
+      },
+      "inner_period_days": 0.28601600164709123,
+      "largest_deciding_delta_chi2": 0.2431250404781258,
+      "largest_delta_chi2_any_scenario": 0.33484280042363407,
+      "mass_function_solar": 5.209177370396541e-06,
+      "profile_sha256": "a28e85b8d6def9bd6c72863616a75332557d0c58fb857fd4c576c4982af9cd40",
+      "scenarios": [
+        {
+          "companion_mass_solar": 0.044298707927862384,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 0.00031456220882549764,
+          "projected_whitened_norm_squared": 0.0009735466889192019,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 0.4794176058942626,
+          "synthetic_peak_amplitude_us": 0.005228728729958062,
+          "synthetic_peak_period_days": 74.97572805213144
+        },
+        {
+          "companion_mass_solar": 0.0253517012860061,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 0.01134895922749976,
+          "projected_whitened_norm_squared": 0.03770344824619355,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 0.6577909642606212,
+          "synthetic_peak_amplitude_us": 0.029581346960988394,
+          "synthetic_peak_period_days": 75.90135432437998
+        },
+        {
+          "companion_mass_solar": 0.022701530421575595,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 0.05337608596801497,
+          "projected_whitened_norm_squared": 0.21375579265123834,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 0.9068683512204817,
+          "synthetic_peak_amplitude_us": 0.06429578397696781,
+          "synthetic_peak_period_days": 75.90135432437998
+        },
+        {
+          "companion_mass_solar": 0.022004566461341243,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 0.15146363080054162,
+          "projected_whitened_norm_squared": 0.8328138670232605,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 1.357522076631701,
+          "synthetic_peak_amplitude_us": 0.11472451187713384,
+          "synthetic_peak_period_days": 74.97572805213144
+        },
+        {
+          "companion_mass_solar": 0.021933462981702876,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 0.20860099574120197,
+          "projected_whitened_norm_squared": 1.5313778985270645,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 1.7493245080274755,
+          "synthetic_peak_amplitude_us": 0.1346223688882202,
+          "synthetic_peak_period_days": 74.97572805213144
+        },
+        {
+          "companion_mass_solar": 0.0560587475244567,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 0.0005037455331589,
+          "projected_whitened_norm_squared": 0.001559055036190778,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 0.6066892644221378,
+          "synthetic_peak_amplitude_us": 0.006616806617112019,
+          "synthetic_peak_period_days": 74.97572805213144
+        },
+        {
+          "companion_mass_solar": 0.03211375529643534,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 0.018210589524833846,
+          "projected_whitened_norm_squared": 0.06049911766521612,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 0.8332434113260935,
+          "synthetic_peak_amplitude_us": 0.03747157348246705,
+          "synthetic_peak_period_days": 75.90135432437998
+        },
+        {
+          "companion_mass_solar": 0.028760724549175727,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 0.08567144603633575,
+          "projected_whitened_norm_squared": 0.3430893727585883,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 1.1489177323053446,
+          "synthetic_peak_amplitude_us": 0.08145676957873282,
+          "synthetic_peak_period_days": 75.90135432437998
+        },
+        {
+          "companion_mass_solar": 0.0278787617395194,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 0.2431250404781258,
+          "projected_whitened_norm_squared": 1.3368087379168458,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 1.719917299758787,
+          "synthetic_peak_amplitude_us": 0.14535061792398182,
+          "synthetic_peak_period_days": 74.97572805213144
+        },
+        {
+          "companion_mass_solar": 0.027788781255204387,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 0.33484280042363407,
+          "projected_whitened_norm_squared": 2.4581419768763912,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 2.2163210678813394,
+          "synthetic_peak_amplitude_us": 0.17056091708878615,
+          "synthetic_peak_period_days": 74.97572805213144
+        }
+      ],
+      "status": "LEAKAGE_NOT_NEGLIGIBLE",
+      "target": "J0610-2100"
+    },
+    {
+      "grid": {
+        "algorithm": "linear_frequency_independent_bin_oversampling",
+        "frequency_count": 85,
+        "frequency_step_per_day": 0.00015367341681154478,
+        "maximum_frequency_per_day": 0.014376662668772244,
+        "maximum_period_days": 650.7306343206619,
+        "minimum_frequency_per_day": 0.0015367341681154477,
+        "minimum_period_days": 69.55717213648717,
+        "oversampling": 5,
+        "span_days": 1301.4612686413238
+      },
+      "inner_period_days": 6.955717213648717,
+      "largest_deciding_delta_chi2": 1.9439196690773637,
+      "largest_delta_chi2_any_scenario": 2.3611287403131698,
+      "mass_function_solar": 0.0002768596024522743,
+      "profile_sha256": "d125e162d4106294ac05d84c3fdc852ef47cad4f97855abb7e27f247c8c64bec",
+      "scenarios": [
+        {
+          "companion_mass_solar": 0.17657371178061043,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 0.0014985095931669924,
+          "projected_whitened_norm_squared": 0.0033533960563884523,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 1.8763803388737932,
+          "synthetic_peak_amplitude_us": 0.043390901753978625,
+          "synthetic_peak_period_days": 325.3653171603309
+        },
+        {
+          "companion_mass_solar": 0.09855318701059765,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 0.06958635697965584,
+          "projected_whitened_norm_squared": 0.123422071696645,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 2.5046060686557605,
+          "synthetic_peak_amplitude_us": 0.11508753591111028,
+          "synthetic_peak_period_days": 295.78665196393723
+        },
+        {
+          "companion_mass_solar": 0.08794279032085253,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 0.4164933006139527,
+          "projected_whitened_norm_squared": 0.695069894175304,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 3.3729768343242075,
+          "synthetic_peak_amplitude_us": 0.24766399352788693,
+          "synthetic_peak_period_days": 282.92636274811383
+        },
+        {
+          "companion_mass_solar": 0.08516451557995887,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 1.2190130573489444,
+          "projected_whitened_norm_squared": 2.3157844471867017,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 4.504828706460752,
+          "synthetic_peak_amplitude_us": 0.42256527211986933,
+          "synthetic_peak_period_days": 282.92636274811383
+        },
+        {
+          "companion_mass_solar": 0.08488136251066979,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 1.4805978861754112,
+          "projected_whitened_norm_squared": 2.9822025299858432,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 4.850883635031494,
+          "synthetic_peak_amplitude_us": 0.4653521284200111,
+          "synthetic_peak_period_days": 282.92636274811383
+        },
+        {
+          "companion_mass_solar": 0.22195961715963658,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 0.0023678564431849755,
+          "projected_whitened_norm_squared": 0.005298838589273899,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 2.358678749301967,
+          "synthetic_peak_amplitude_us": 0.054543951330031065,
+          "synthetic_peak_period_days": 325.3653171603309
+        },
+        {
+          "companion_mass_solar": 0.12436812382354619,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 0.11081560455630976,
+          "projected_whitened_norm_squared": 0.19654846272027923,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 3.1606604222985637,
+          "synthetic_peak_amplitude_us": 0.14523346581577973,
+          "synthetic_peak_period_days": 295.78665196393723
+        },
+        {
+          "companion_mass_solar": 0.11103848279862777,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 0.6639793546402244,
+          "projected_whitened_norm_squared": 1.1080899958872135,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 4.258794027706348,
+          "synthetic_peak_amplitude_us": 0.31270595332321455,
+          "synthetic_peak_period_days": 282.92636274811383
+        },
+        {
+          "companion_mass_solar": 0.10754585057821252,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 1.9439196690773637,
+          "projected_whitened_norm_squared": 3.692904607617389,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 5.688702996151116,
+          "synthetic_peak_amplitude_us": 0.5336159233158307,
+          "synthetic_peak_period_days": 282.92636274811383
+        },
+        {
+          "companion_mass_solar": 0.10718983774085852,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 2.3611287403131698,
+          "projected_whitened_norm_squared": 4.755757230731318,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 6.125790330868581,
+          "synthetic_peak_amplitude_us": 0.5876557310379416,
+          "synthetic_peak_period_days": 282.92636274811383
+        }
+      ],
+      "status": "LEAKAGE_NOT_NEGLIGIBLE",
+      "target": "J0406+3039"
+    },
+    {
+      "grid": {
+        "algorithm": "linear_frequency_independent_bin_oversampling",
+        "frequency_count": 143,
+        "frequency_step_per_day": 0.00011518887970771815,
+        "maximum_frequency_per_day": 0.017418439600001,
+        "maximum_period_days": 868.1393573211353,
+        "minimum_frequency_per_day": 0.0011518887970771814,
+        "minimum_period_days": 57.41042383612494,
+        "oversampling": 5,
+        "span_days": 1736.2787146422706
+      },
+      "inner_period_days": 5.741042383612494,
+      "largest_deciding_delta_chi2": 454.3476704224297,
+      "largest_delta_chi2_any_scenario": 917.0467179887758,
+      "mass_function_solar": 0.0012431690612564052,
+      "profile_sha256": "f298a8ce5f99d02411f731758f7a8e4871f680762e28e32fe2c7398d5351538a",
+      "scenarios": [
+        {
+          "companion_mass_solar": 0.30718000016776037,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 0.20632632855286856,
+          "projected_whitened_norm_squared": 0.5899529821347164,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 3.323170827240314,
+          "synthetic_peak_amplitude_us": 0.02706982892601845,
+          "synthetic_peak_period_days": 99.78613302541787
+        },
+        {
+          "companion_mass_solar": 0.16754277312695323,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 8.673355083988499,
+          "projected_whitened_norm_squared": 24.0193648426355,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 4.346142705590674,
+          "synthetic_peak_amplitude_us": 0.17684389998062863,
+          "synthetic_peak_period_days": 99.78613302541787
+        },
+        {
+          "companion_mass_solar": 0.1490296837147565,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 58.36159813500032,
+          "projected_whitened_norm_squared": 152.72815218407428,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 5.952098120950009,
+          "synthetic_peak_amplitude_us": 0.5848965572285466,
+          "synthetic_peak_period_days": 67.8233872907137
+        },
+        {
+          "companion_mass_solar": 0.14420104220629462,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 286.61901634440824,
+          "projected_whitened_norm_squared": 732.1616558883218,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 8.89186158530313,
+          "synthetic_peak_amplitude_us": 1.3097187726240307,
+          "synthetic_peak_period_days": 67.8233872907137
+        },
+        {
+          "companion_mass_solar": 0.14370936300328901,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 578.478093575593,
+          "projected_whitened_norm_squared": 1424.0665188116973,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 11.439485404996244,
+          "synthetic_peak_amplitude_us": 1.3747312730643513,
+          "synthetic_peak_period_days": 100.94643689780642
+        },
+        {
+          "companion_mass_solar": 0.38374882107222297,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 0.32200520083070255,
+          "projected_whitened_norm_squared": 0.9207158864569499,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 4.1515166562882175,
+          "synthetic_peak_amplitude_us": 0.03381735442188004,
+          "synthetic_peak_period_days": 99.78613302541787
+        },
+        {
+          "companion_mass_solar": 0.2107007449691505,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 13.717275775157084,
+          "projected_whitened_norm_squared": 37.98763549975979,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 5.465681919424291,
+          "synthetic_peak_amplitude_us": 0.22239778400309937,
+          "synthetic_peak_period_days": 99.78613302541787
+        },
+        {
+          "companion_mass_solar": 0.18759025467330578,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 92.47027779365132,
+          "projected_whitened_norm_squared": 241.98814135801973,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 7.492169174072794,
+          "synthetic_peak_amplitude_us": 0.7362351673378651,
+          "synthetic_peak_period_days": 67.8233872907137
+        },
+        {
+          "companion_mass_solar": 0.18155576821508065,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 454.3476704224297,
+          "projected_whitened_norm_squared": 1160.6206279270746,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 11.195264169258586,
+          "synthetic_peak_amplitude_us": 1.6489963891473776,
+          "synthetic_peak_period_days": 67.8233872907137
+        },
+        {
+          "companion_mass_solar": 0.18094114582003548,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 917.0467179887758,
+          "projected_whitened_norm_squared": 2257.5367015230186,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 14.403192342618768,
+          "synthetic_peak_amplitude_us": 1.7308924522698417,
+          "synthetic_peak_period_days": 100.94643689780642
+        }
+      ],
+      "status": "LEAKAGE_NOT_NEGLIGIBLE",
+      "target": "J0437-4715"
+    },
+    {
+      "grid": {
+        "algorithm": "linear_frequency_independent_bin_oversampling",
+        "frequency_count": 182,
+        "frequency_step_per_day": 0.00011994605726887601,
+        "maximum_frequency_per_day": 0.022900712983098467,
+        "maximum_period_days": 833.708104100795,
+        "minimum_frequency_per_day": 0.00119946057268876,
+        "minimum_period_days": 43.66676272210543,
+        "oversampling": 5,
+        "span_days": 1667.41620820159
+      },
+      "inner_period_days": 4.366676272210543,
+      "largest_deciding_delta_chi2": 7.047752451733421,
+      "largest_delta_chi2_any_scenario": 11.330655076834525,
+      "mass_function_solar": 0.21860324454745347,
+      "profile_sha256": "95bf5896d3819beae1ce13f31c244fdc84c3b04c6968413f10912d3deccc4e28",
+      "scenarios": [
+        {
+          "companion_mass_solar": 3.453894764317571,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 0.014506004670733453,
+          "projected_whitened_norm_squared": 0.06401907132030388,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 37.35099710868436,
+          "synthetic_peak_amplitude_us": 0.21121407744021528,
+          "synthetic_peak_period_days": 51.46346321609846
+        },
+        {
+          "companion_mass_solar": 1.372925810233011,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 0.21621440729609387,
+          "projected_whitened_norm_squared": 1.2138291903094132,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 35.581154446207975,
+          "synthetic_peak_amplitude_us": 0.7748759646025162,
+          "synthetic_peak_period_days": 62.68481985720264
+        },
+        {
+          "companion_mass_solar": 1.1701726951051532,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 1.197158437022684,
+          "projected_whitened_norm_squared": 6.472013731664961,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 46.614650635056336,
+          "synthetic_peak_amplitude_us": 758.9980761607014,
+          "synthetic_peak_period_days": 362.48178439165
+        },
+        {
+          "companion_mass_solar": 1.1197202263772188,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 4.810794019190147,
+          "projected_whitened_norm_squared": 23.99850620634858,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 68.02891090608503,
+          "synthetic_peak_amplitude_us": 1561.8412266429543,
+          "synthetic_peak_period_days": 362.48178439165
+        },
+        {
+          "companion_mass_solar": 1.1146379277001521,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 7.731708546630703,
+          "projected_whitened_norm_squared": 36.476451151336676,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 83.58778193940088,
+          "synthetic_peak_amplitude_us": 2036.8298965712017,
+          "synthetic_peak_period_days": 362.48178439165
+        },
+        {
+          "companion_mass_solar": 3.9608379384767054,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 0.01907672227927241,
+          "projected_whitened_norm_squared": 0.08419093140224561,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 42.83316559508476,
+          "synthetic_peak_amplitude_us": 0.2422148872943022,
+          "synthetic_peak_period_days": 51.46346321609846
+        },
+        {
+          "companion_mass_solar": 1.6485480839275042,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 0.31174085927671047,
+          "projected_whitened_norm_squared": 1.7501153578725743,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 42.724263429987914,
+          "synthetic_peak_amplitude_us": 0.9304365007969025,
+          "synthetic_peak_period_days": 62.68481985720264
+        },
+        {
+          "companion_mass_solar": 1.4140061085920317,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 1.7480517350730742,
+          "projected_whitened_norm_squared": 9.450223531974594,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 56.32792580408828,
+          "synthetic_peak_amplitude_us": 917.1534428979222,
+          "synthetic_peak_period_days": 362.48178439165
+        },
+        {
+          "companion_mass_solar": 1.3552719902670731,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 7.047752451733421,
+          "projected_whitened_norm_squared": 35.15750836120922,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 82.33992323036871,
+          "synthetic_peak_amplitude_us": 1890.4004927749427,
+          "synthetic_peak_period_days": 362.48178439165
+        },
+        {
+          "companion_mass_solar": 1.3493468171190737,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 11.330655076834525,
+          "projected_whitened_norm_squared": 53.45546639919676,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 101.18882975989584,
+          "synthetic_peak_amplitude_us": 2465.724402203067,
+          "synthetic_peak_period_days": 362.48178439165
+        }
+      ],
+      "status": "LEAKAGE_NOT_NEGLIGIBLE",
+      "target": "J0709+0458"
+    },
+    {
+      "grid": {
+        "algorithm": "linear_frequency_independent_bin_oversampling",
+        "frequency_count": 121,
+        "frequency_step_per_day": 9.864631165432572e-05,
+        "maximum_frequency_per_day": 0.012812086143691418,
+        "maximum_period_days": 1013.7226453069816,
+        "minimum_frequency_per_day": 0.0009864631165432572,
+        "minimum_period_days": 78.05130162135173,
+        "oversampling": 5,
+        "span_days": 2027.4452906139632
+      },
+      "inner_period_days": 7.805130162135172,
+      "largest_deciding_delta_chi2": 60.33952050990153,
+      "largest_delta_chi2_any_scenario": 102.76682158957865,
+      "mass_function_solar": 0.08305501706039402,
+      "profile_sha256": "5c2b149c2440effe64db42a466b2c7bf1cc170d47af3ddca878e7e48ae6a640b",
+      "scenarios": [
+        {
+          "companion_mass_solar": 1.9559833327159997,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 0.06484091663457683,
+          "projected_whitened_norm_squared": 0.23486546400643898,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 21.16780204099605,
+          "synthetic_peak_amplitude_us": 0.15964344373481792,
+          "synthetic_peak_period_days": 117.87472619848623
+        },
+        {
+          "companion_mass_solar": 0.870240354402887,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 1.684944024283627,
+          "projected_whitened_norm_squared": 5.796845671059,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 22.579374763931707,
+          "synthetic_peak_amplitude_us": 0.746421019241555,
+          "synthetic_peak_period_days": 103.44108625581444
+        },
+        {
+          "companion_mass_solar": 0.7531791512684871,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 9.60841895600455,
+          "projected_whitened_norm_squared": 29.956198612529807,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 30.087021563344866,
+          "synthetic_peak_amplitude_us": 1.7842748204560093,
+          "synthetic_peak_period_days": 103.44108625581444
+        },
+        {
+          "companion_mass_solar": 0.7235877493102464,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 40.04204574412635,
+          "projected_whitened_norm_squared": 119.43275582634762,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 44.6376614757194,
+          "synthetic_peak_amplitude_us": 3.655190723530275,
+          "synthetic_peak_period_days": 103.44108625581444
+        },
+        {
+          "companion_mass_solar": 0.7205960927044169,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 68.18161489474628,
+          "projected_whitened_norm_squared": 211.3072157428423,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 57.458222426429295,
+          "synthetic_peak_amplitude_us": 4.769543212832434,
+          "synthetic_peak_period_days": 103.44108625581444
+        },
+        {
+          "companion_mass_solar": 2.311585443232035,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 0.0905604867238227,
+          "projected_whitened_norm_squared": 0.3280263734534789,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 25.016155426662028,
+          "synthetic_peak_amplitude_us": 0.1886669760791969,
+          "synthetic_peak_period_days": 117.87472619848623
+        },
+        {
+          "companion_mass_solar": 1.0624356661383982,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 2.5113793807962583,
+          "projected_whitened_norm_squared": 8.640096336817564,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 27.566100499633112,
+          "synthetic_peak_amplitude_us": 0.9112704424534935,
+          "synthetic_peak_period_days": 103.44108625581444
+        },
+        {
+          "companion_mass_solar": 0.9235269685561363,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 14.446229696880959,
+          "projected_whitened_norm_squared": 45.039056683883736,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 36.891854707451934,
+          "synthetic_peak_amplitude_us": 2.1878273093878824,
+          "synthetic_peak_period_days": 103.44108625581444
+        },
+        {
+          "companion_mass_solar": 0.8882475209584606,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 60.33952050990153,
+          "projected_whitened_norm_squared": 179.97370228755275,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 54.7954165683237,
+          "synthetic_peak_amplitude_us": 4.4869666490360425,
+          "synthetic_peak_period_days": 103.44108625581444
+        },
+        {
+          "companion_mass_solar": 0.8846769736015574,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 102.76682158957865,
+          "projected_whitened_norm_squared": 318.49305673322476,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 70.54155141747276,
+          "synthetic_peak_amplitude_us": 5.85557581800718,
+          "synthetic_peak_period_days": 103.44108625581444
+        }
+      ],
+      "status": "LEAKAGE_NOT_NEGLIGIBLE",
+      "target": "J1022+1001"
+    },
+    {
+      "grid": {
+        "algorithm": "linear_frequency_independent_bin_oversampling",
+        "frequency_count": 3,
+        "frequency_step_per_day": 0.00016263766609055143,
+        "maximum_frequency_per_day": 0.0017962243245575125,
+        "maximum_period_days": 614.8637176355151,
+        "minimum_frequency_per_day": 0.0016263766609055143,
+        "minimum_period_days": 556.7233370176874,
+        "oversampling": 5,
+        "span_days": 1229.7274352710301
+      },
+      "inner_period_days": 55.67233370176874,
+      "largest_deciding_delta_chi2": 0.013901805613406483,
+      "largest_delta_chi2_any_scenario": 0.01884734397056423,
+      "mass_function_solar": 0.0023568880757978685,
+      "profile_sha256": "871008877e771b5a1db6d67003d1b2a17cada720189e09ed883bbd49c9e6bffd",
+      "scenarios": [
+        {
+          "companion_mass_solar": 0.39279230204886484,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 3.2991948855726856e-05,
+          "projected_whitened_norm_squared": 0.0003403399186781813,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 4.239219000059752,
+          "synthetic_peak_amplitude_us": 0.02103163981654621,
+          "synthetic_peak_period_days": 614.8637176355151
+        },
+        {
+          "companion_mass_solar": 0.2111936462929327,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 0.0010257581775669246,
+          "projected_whitened_norm_squared": 0.012950540743543149,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 5.441118559656111,
+          "synthetic_peak_amplitude_us": 0.11591505592539333,
+          "synthetic_peak_period_days": 614.8637176355151
+        },
+        {
+          "companion_mass_solar": 0.18748926493287893,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 0.003926104153141777,
+          "projected_whitened_norm_squared": 0.07457804227049275,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 7.3451579024488725,
+          "synthetic_peak_amplitude_us": 0.21533273082325288,
+          "synthetic_peak_period_days": 614.8637176355151
+        },
+        {
+          "companion_mass_solar": 0.1813213075968666,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 0.008801912607304353,
+          "projected_whitened_norm_squared": 0.24726356274545144,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 10.186866211761993,
+          "synthetic_peak_amplitude_us": 0.31302726153242794,
+          "synthetic_peak_period_days": 614.8637176355151
+        },
+        {
+          "companion_mass_solar": 0.18069359409145522,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 0.01193244270214334,
+          "projected_whitened_norm_squared": 0.3252876132658979,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 11.31422229640533,
+          "synthetic_peak_amplitude_us": 0.37532900620175985,
+          "synthetic_peak_period_days": 614.8637176355151
+        },
+        {
+          "companion_mass_solar": 0.4888066267896463,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 5.1092388361958814e-05,
+          "projected_whitened_norm_squared": 0.0005270612953549345,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 5.275455574951671,
+          "synthetic_peak_amplitude_us": 0.026172623192859675,
+          "synthetic_peak_period_days": 614.8637176355151
+        },
+        {
+          "companion_mass_solar": 0.26503217794439626,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 0.0016154015752165133,
+          "projected_whitened_norm_squared": 0.02039498623998092,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 6.828195486142295,
+          "synthetic_peak_amplitude_us": 0.14546469682067065,
+          "synthetic_peak_period_days": 614.8637176355151
+        },
+        {
+          "companion_mass_solar": 0.2355552647082518,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 0.006197187472220364,
+          "projected_whitened_norm_squared": 0.11771824975442295,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 9.228211624034365,
+          "synthetic_peak_amplitude_us": 0.27053686741787925,
+          "synthetic_peak_period_days": 614.8637176355151
+        },
+        {
+          "companion_mass_solar": 0.22787460139203666,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 0.013901805613406483,
+          "projected_whitened_norm_squared": 0.39052989252733833,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 12.802290630951669,
+          "synthetic_peak_amplitude_us": 0.39339536754904564,
+          "synthetic_peak_period_days": 614.8637176355151
+        },
+        {
+          "companion_mass_solar": 0.227092690583283,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 0.01884734397056423,
+          "projected_whitened_norm_squared": 0.5137931678888369,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 14.219525579017521,
+          "synthetic_peak_amplitude_us": 0.47170722515579167,
+          "synthetic_peak_period_days": 614.8637176355151
+        }
+      ],
+      "status": "LEAKAGE_NEGLIGIBLE",
+      "target": "J0605+3757"
+    },
+    {
+      "grid": {
+        "algorithm": "linear_frequency_independent_bin_oversampling",
+        "frequency_count": 14,
+        "frequency_step_per_day": 7.855422499035811e-05,
+        "maximum_frequency_per_day": 0.001775953035856131,
+        "maximum_period_days": 1273.0060033343107,
+        "minimum_frequency_per_day": 0.0007855422499035811,
+        "minimum_period_days": 563.0779529695905,
+        "oversampling": 5,
+        "span_days": 2546.0120066686213
+      },
+      "inner_period_days": 56.30779529695905,
+      "largest_deciding_delta_chi2": 5.578118191567655,
+      "largest_delta_chi2_any_scenario": 7.905294309780756,
+      "mass_function_solar": 0.002775996170036199,
+      "profile_sha256": "92c3e7c50f54398ea3a0552b4797abc56883d92365d9d0aa380a3c271cca927f",
+      "scenarios": [
+        {
+          "companion_mass_solar": 0.41882229921013503,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 0.006368690824076185,
+          "projected_whitened_norm_squared": 0.06530426096677643,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 4.529374685852252,
+          "synthetic_peak_amplitude_us": 0.015069282923726968,
+          "synthetic_peak_period_days": 1060.8383361119256
+        },
+        {
+          "companion_mass_solar": 0.2242377474059276,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 0.19769562275280983,
+          "projected_whitened_norm_squared": 2.2311862808075653,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 5.806898895056732,
+          "synthetic_peak_amplitude_us": 0.08471625000619147,
+          "synthetic_peak_period_days": 1060.8383361119256
+        },
+        {
+          "companion_mass_solar": 0.19895424019836938,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 1.017842174383089,
+          "projected_whitened_norm_squared": 12.924470826337421,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 7.904088492174187,
+          "synthetic_peak_amplitude_us": 0.193394095016708,
+          "synthetic_peak_period_days": 1060.8383361119256
+        },
+        {
+          "companion_mass_solar": 0.1923799762205464,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 3.5355873812651777,
+          "projected_whitened_norm_squared": 51.729468675190176,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 11.510559274981402,
+          "synthetic_peak_amplitude_us": 0.35427620628499235,
+          "synthetic_peak_period_days": 1060.8383361119256
+        },
+        {
+          "companion_mass_solar": 0.19171101974097698,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 5.0102992359199945,
+          "projected_whitened_norm_squared": 80.06015737235593,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 13.71501486375465,
+          "synthetic_peak_amplitude_us": 0.416745626631808,
+          "synthetic_peak_period_days": 979.2353871802388
+        },
+        {
+          "companion_mass_solar": 0.5206019564429749,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 0.009840160101612573,
+          "projected_whitened_norm_squared": 0.10090054627887697,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 5.630075875532338,
+          "synthetic_peak_amplitude_us": 0.018731328745103238,
+          "synthetic_peak_period_days": 1060.8383361119256
+        },
+        {
+          "companion_mass_solar": 0.28122533769647884,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 0.3109485266607287,
+          "projected_whitened_norm_squared": 3.509354820618467,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 7.282659238345838,
+          "synthetic_peak_amplitude_us": 0.10624596568588583,
+          "synthetic_peak_period_days": 1060.8383361119256
+        },
+        {
+          "companion_mass_solar": 0.24982030285492596,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 1.6048317360282227,
+          "projected_whitened_norm_squared": 20.378012893844375,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 9.924904233949945,
+          "synthetic_peak_amplitude_us": 0.24283861122666492,
+          "synthetic_peak_period_days": 1060.8383361119256
+        },
+        {
+          "companion_mass_solar": 0.2416422857326935,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 5.578118191567655,
+          "projected_whitened_norm_squared": 81.61390432215873,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 14.458042400834335,
+          "synthetic_peak_amplitude_us": 0.44499492072538094,
+          "synthetic_peak_period_days": 1060.8383361119256
+        },
+        {
+          "companion_mass_solar": 0.24080986075745558,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 7.905294309780756,
+          "projected_whitened_norm_squared": 126.31962218512571,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 17.227548129938082,
+          "synthetic_peak_amplitude_us": 0.523477765942078,
+          "synthetic_peak_period_days": 979.2353871802388
+        }
+      ],
+      "status": "LEAKAGE_NOT_NEGLIGIBLE",
+      "target": "J2033+1734"
+    },
+    {
+      "grid": {
+        "algorithm": "linear_frequency_independent_bin_oversampling",
+        "frequency_count": 27,
+        "frequency_step_per_day": 4.792132794970166e-05,
+        "maximum_frequency_per_day": 0.001710374077177654,
+        "maximum_period_days": 2000.0,
+        "minimum_frequency_per_day": 0.0005,
+        "minimum_period_days": 584.6674206207181,
+        "oversampling": 5,
+        "span_days": 4173.507049093474
+      },
+      "inner_period_days": 58.46674206207181,
+      "largest_deciding_delta_chi2": 17.83930596586919,
+      "largest_delta_chi2_any_scenario": 24.226287374156588,
+      "mass_function_solar": 0.00296283785625456,
+      "profile_sha256": "bff3673a15a91d44d10865bc29b1abf13f621e1a33abdf331625c91024d2ee45",
+      "scenarios": [
+        {
+          "companion_mass_solar": 0.4297240830642782,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 0.021577943130825925,
+          "projected_whitened_norm_squared": 0.15493324751709464,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 4.643625720496668,
+          "synthetic_peak_amplitude_us": 0.01996829600878068,
+          "synthetic_peak_period_days": 1825.0795305631875
+        },
+        {
+          "companion_mass_solar": 0.2296704903681927,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 0.7029922275719083,
+          "projected_whitened_norm_squared": 5.621969326691174,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 5.935050100989463,
+          "synthetic_peak_amplitude_us": 0.11424057085464634,
+          "synthetic_peak_period_days": 1825.0795305631875
+        },
+        {
+          "companion_mass_solar": 0.20372557569938796,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 3.4928232190903765,
+          "projected_whitened_norm_squared": 30.52612191534078,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 8.04612585859489,
+          "synthetic_peak_amplitude_us": 0.25580286466889895,
+          "synthetic_peak_period_days": 1825.0795305631875
+        },
+        {
+          "companion_mass_solar": 0.19698127867940785,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 11.312167611446087,
+          "projected_whitened_norm_squared": 104.99610575106983,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 11.452662938630013,
+          "synthetic_peak_amplitude_us": 0.463148923865946,
+          "synthetic_peak_period_days": 1825.0795305631875
+        },
+        {
+          "companion_mass_solar": 0.19629506606408856,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 15.361224430796872,
+          "projected_whitened_norm_squared": 147.76171688513367,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 13.115053161466664,
+          "synthetic_peak_amplitude_us": 0.5406423849374759,
+          "synthetic_peak_period_days": 1825.0795305631875
+        },
+        {
+          "companion_mass_solar": 0.5338985947549374,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 0.03330797366296723,
+          "projected_whitened_norm_squared": 0.23915683235095506,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 5.769342106828609,
+          "synthetic_peak_amplitude_us": 0.02480904747696895,
+          "synthetic_peak_period_days": 1825.0795305631875
+        },
+        {
+          "companion_mass_solar": 0.2879639446965914,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 1.1051376031760232,
+          "projected_whitened_norm_squared": 8.838006258316824,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 7.441445508793678,
+          "synthetic_peak_amplitude_us": 0.143236361689113,
+          "synthetic_peak_period_days": 1825.0795305631875
+        },
+        {
+          "companion_mass_solar": 0.2557524537968219,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 5.504591768638226,
+          "projected_whitened_norm_squared": 48.1083149313787,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 10.100923385928542,
+          "synthetic_peak_amplitude_us": 0.3211290978206023,
+          "synthetic_peak_period_days": 1825.0795305631875
+        },
+        {
+          "companion_mass_solar": 0.2473665737329809,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 17.83930596586919,
+          "projected_whitened_norm_squared": 165.57902252286826,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 14.38210783400584,
+          "synthetic_peak_amplitude_us": 0.5816165028114068,
+          "synthetic_peak_period_days": 1825.0795305631875
+        },
+        {
+          "companion_mass_solar": 0.24651304072262348,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 24.226287374156588,
+          "projected_whitened_norm_squared": 233.03596873314547,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 16.47026437748796,
+          "synthetic_peak_amplitude_us": 0.6789543972081047,
+          "synthetic_peak_period_days": 1825.0795305631875
+        }
+      ],
+      "status": "LEAKAGE_NOT_NEGLIGIBLE",
+      "target": "J1910+1256"
+    },
+    {
+      "grid": {
+        "algorithm": "linear_frequency_independent_bin_oversampling",
+        "frequency_count": 25,
+        "frequency_step_per_day": 3.4945076810719425e-05,
+        "maximum_frequency_per_day": 0.0013127741096590159,
+        "maximum_period_days": 2000.0,
+        "minimum_frequency_per_day": 0.0005,
+        "minimum_period_days": 761.7456747831073,
+        "oversampling": 5,
+        "span_days": 5723.266859114468
+      },
+      "inner_period_days": 76.17456747831073,
+      "largest_deciding_delta_chi2": 237.57691074755508,
+      "largest_delta_chi2_any_scenario": 528.9091103807629,
+      "mass_function_solar": 0.006271584649641799,
+      "profile_sha256": "6818e5216ad61826beab53a4f636fc5fd1e4667fcd9e7b2895b44bcd8c407ab6",
+      "scenarios": [
+        {
+          "companion_mass_solar": 0.581947581871744,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 0.05011735905391097,
+          "projected_whitened_norm_squared": 0.27944879472636897,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 6.298074558845605,
+          "synthetic_peak_amplitude_us": 0.04016247853014832,
+          "synthetic_peak_period_days": 761.7456747831073
+        },
+        {
+          "companion_mass_solar": 0.30376277209577723,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 3.0032762586203523,
+          "projected_whitened_norm_squared": 13.583457732193962,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 7.881627136248,
+          "synthetic_peak_amplitude_us": 0.2883877209411251,
+          "synthetic_peak_period_days": 761.7456747831073
+        },
+        {
+          "companion_mass_solar": 0.2685843906037794,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 25.72418897366477,
+          "projected_whitened_norm_squared": 106.75838150844491,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 10.72926899104009,
+          "synthetic_peak_amplitude_us": 0.8309740816047482,
+          "synthetic_peak_period_days": 761.7456747831073
+        },
+        {
+          "companion_mass_solar": 0.2594748836828562,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 151.55351444076098,
+          "projected_whitened_norm_squared": 665.6377345153892,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 16.007692910678287,
+          "synthetic_peak_amplitude_us": 2.0245927583312895,
+          "synthetic_peak_period_days": 761.7456747831073
+        },
+        {
+          "companion_mass_solar": 0.258548831285234,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 337.3688194483448,
+          "projected_whitened_norm_squared": 1667.4334467880121,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 20.620605885550262,
+          "synthetic_peak_amplitude_us": 3.0180631516828336,
+          "synthetic_peak_period_days": 761.7456747831073
+        },
+        {
+          "companion_mass_solar": 0.718396671865509,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 0.07637462048661539,
+          "projected_whitened_norm_squared": 0.42585635088453566,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 7.77478237418414,
+          "synthetic_peak_amplitude_us": 0.04957936386148148,
+          "synthetic_peak_period_days": 761.7456747831073
+        },
+        {
+          "companion_mass_solar": 0.3795395934986224,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 4.688569566773175,
+          "projected_whitened_norm_squared": 21.20583690957925,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 9.847782000277782,
+          "synthetic_peak_amplitude_us": 0.36032907397051667,
+          "synthetic_peak_period_days": 761.7456747831073
+        },
+        {
+          "companion_mass_solar": 0.33613517672788396,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 40.29100322371609,
+          "projected_whitened_norm_squared": 167.21235790636757,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 13.427752522612597,
+          "synthetic_peak_amplitude_us": 1.0399696689319535,
+          "synthetic_peak_period_days": 761.7456747831073
+        },
+        {
+          "companion_mass_solar": 0.3248736108032639,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 237.57691074755508,
+          "projected_whitened_norm_squared": 1043.460834456472,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 20.042313624767477,
+          "synthetic_peak_amplitude_us": 2.534876402947524,
+          "synthetic_peak_period_days": 761.7456747831073
+        },
+        {
+          "companion_mass_solar": 0.3237282742770883,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 528.9091103807629,
+          "projected_whitened_norm_squared": 2614.114553923115,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 25.819003414920488,
+          "synthetic_peak_amplitude_us": 3.778908498239082,
+          "synthetic_peak_period_days": 761.7456747831073
+        }
+      ],
+      "status": "LEAKAGE_NOT_NEGLIGIBLE",
+      "target": "J1455-3330"
+    },
+    {
+      "grid": {
+        "algorithm": "linear_frequency_independent_bin_oversampling",
+        "frequency_count": 5,
+        "frequency_step_per_day": 7.791003696179444e-05,
+        "maximum_frequency_per_day": 0.0010750850986353424,
+        "maximum_period_days": 1283.5316719081784,
+        "minimum_frequency_per_day": 0.0007791003696179445,
+        "minimum_period_days": 930.1589253440015,
+        "oversampling": 5,
+        "span_days": 2567.063343816357
+      },
+      "inner_period_days": 93.01589253440015,
+      "largest_deciding_delta_chi2": 2.3355334010985827,
+      "largest_delta_chi2_any_scenario": 2.5670461127807,
+      "mass_function_solar": 0.0008394930091161501,
+      "profile_sha256": "10e5f6f3b4c94ad96b16f8bffba54424323b0f763a70535260c21c335d42d460",
+      "scenarios": [
+        {
+          "companion_mass_solar": 0.26504503965588166,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 0.01602273026294713,
+          "projected_whitened_norm_squared": 0.12756428210618667,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 2.851277934687903,
+          "synthetic_peak_amplitude_us": 0.017372291566451026,
+          "synthetic_peak_period_days": 1283.5316719081784
+        },
+        {
+          "companion_mass_solar": 0.14561613206737103,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 0.28663606497226135,
+          "projected_whitened_norm_squared": 3.757721776777406,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 3.7195674385191566,
+          "synthetic_peak_amplitude_us": 0.07385392031295633,
+          "synthetic_peak_period_days": 1283.5316719081784
+        },
+        {
+          "companion_mass_solar": 0.12965551917731152,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 0.8320912406807033,
+          "projected_whitened_norm_squared": 16.01200235849553,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 4.965453895720332,
+          "synthetic_peak_amplitude_us": 0.12852284828888613,
+          "synthetic_peak_period_days": 1283.5316719081784
+        },
+        {
+          "companion_mass_solar": 0.12548753167219315,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 1.470587428559295,
+          "projected_whitened_norm_squared": 37.060206865412034,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 6.522040255519407,
+          "synthetic_peak_amplitude_us": 0.17458752151318802,
+          "synthetic_peak_period_days": 1283.5316719081784
+        },
+        {
+          "companion_mass_solar": 0.1250630050354372,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 1.6162924055482826,
+          "projected_whitened_norm_squared": 42.69490601810388,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 6.961266000956933,
+          "synthetic_peak_amplitude_us": 0.18363946394121322,
+          "synthetic_peak_period_days": 1283.5316719081784
+        },
+        {
+          "companion_mass_solar": 0.3317607594882083,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 0.025104246645946973,
+          "projected_whitened_norm_squared": 0.19986638660531655,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 3.5689863668159285,
+          "synthetic_peak_amplitude_us": 0.021745151886710532,
+          "synthetic_peak_period_days": 1283.5316719081784
+        },
+        {
+          "companion_mass_solar": 0.18332453542799598,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 0.4543107752614059,
+          "projected_whitened_norm_squared": 5.955892165173353,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 4.682777677023736,
+          "synthetic_peak_amplitude_us": 0.09297895390220139,
+          "synthetic_peak_period_days": 1283.5316719081784
+        },
+        {
+          "companion_mass_solar": 0.16336081413313108,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 1.3209449272367069,
+          "projected_whitened_norm_squared": 25.419055334669785,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 6.256275059421814,
+          "synthetic_peak_amplitude_us": 0.16193369371703056,
+          "synthetic_peak_period_days": 1283.5316719081784
+        },
+        {
+          "companion_mass_solar": 0.15814235200510965,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 2.3355334010985827,
+          "projected_whitened_norm_squared": 58.85767095846129,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 8.219229210549498,
+          "synthetic_peak_amplitude_us": 0.22001931916998801,
+          "synthetic_peak_period_days": 1283.5316719081784
+        },
+        {
+          "companion_mass_solar": 0.15761071117580489,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 2.5670461127807,
+          "projected_whitened_norm_squared": 67.8093840898375,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 8.772938766215356,
+          "synthetic_peak_amplitude_us": 0.23143172118338992,
+          "synthetic_peak_period_days": 1283.5316719081784
+        }
+      ],
+      "status": "LEAKAGE_NOT_NEGLIGIBLE",
+      "target": "J2229+2643"
+    },
+    {
+      "grid": {
+        "algorithm": "linear_frequency_independent_bin_oversampling",
+        "frequency_count": 6,
+        "frequency_step_per_day": 6.05148453957186e-05,
+        "maximum_frequency_per_day": 0.0008521582383421472,
+        "maximum_period_days": 1652.4870772796348,
+        "minimum_frequency_per_day": 0.000605148453957186,
+        "minimum_period_days": 1173.490972692437,
+        "oversampling": 5,
+        "span_days": 3304.9741545592697
+      },
+      "inner_period_days": 117.34909726924371,
+      "largest_deciding_delta_chi2": 0.21114037958542417,
+      "largest_delta_chi2_any_scenario": 0.2484186805052335,
+      "mass_function_solar": 0.0024167891875235452,
+      "profile_sha256": "c94000fbdfc32805a4d4715c2c4f8422c3e111006f055912d1a3914f97e05abd",
+      "scenarios": [
+        {
+          "companion_mass_solar": 0.39666190333984047,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 0.00036859108879569826,
+          "projected_whitened_norm_squared": 0.11107781257919401,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 4.287546716087341,
+          "synthetic_peak_amplitude_us": 0.014063258533762994,
+          "synthetic_peak_period_days": 1271.1439055997191
+        },
+        {
+          "companion_mass_solar": 0.2131393022299119,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 0.012076428226550208,
+          "projected_whitened_norm_squared": 3.6799316443765293,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 5.523701956349399,
+          "synthetic_peak_amplitude_us": 0.08100038879377465,
+          "synthetic_peak_period_days": 1271.1439055997191
+        },
+        {
+          "companion_mass_solar": 0.18920018163908553,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 0.053871376374698764,
+          "projected_whitened_norm_squared": 18.061279745185836,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 7.542196130241794,
+          "synthetic_peak_amplitude_us": 0.1720996833998693,
+          "synthetic_peak_period_days": 1271.1439055997191
+        },
+        {
+          "companion_mass_solar": 0.1829717948283243,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 0.1337048454092965,
+          "projected_whitened_norm_squared": 51.65112288566879,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 11.173620909419132,
+          "synthetic_peak_amplitude_us": 0.24906684211353733,
+          "synthetic_peak_period_days": 1173.490972692437
+        },
+        {
+          "companion_mass_solar": 0.1823379465729897,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 0.15730162889796917,
+          "projected_whitened_norm_squared": 66.78601406306784,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 13.935683372853157,
+          "synthetic_peak_amplitude_us": 0.27312926032423707,
+          "synthetic_peak_period_days": 1173.490972692437
+        },
+        {
+          "companion_mass_solar": 0.4935375408112275,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 0.0005706163795562408,
+          "projected_whitened_norm_squared": 0.17195971685060338,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 5.3346823694285055,
+          "synthetic_peak_amplitude_us": 0.0174978891950699,
+          "synthetic_peak_period_days": 1271.1439055997191
+        },
+        {
+          "companion_mass_solar": 0.2674487759107148,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 0.019014839074871285,
+          "projected_whitened_norm_squared": 5.794205597190509,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 6.931182148319629,
+          "synthetic_peak_amplitude_us": 0.10163988811326155,
+          "synthetic_peak_period_days": 1271.1439055997191
+        },
+        {
+          "companion_mass_solar": 0.23768500232086434,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 0.0850194970934235,
+          "projected_whitened_norm_squared": 28.504208062531273,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 9.474974543843675,
+          "synthetic_peak_amplitude_us": 0.2162022958643265,
+          "synthetic_peak_period_days": 1271.1439055997191
+        },
+        {
+          "companion_mass_solar": 0.22993030961554373,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 0.21114037958542417,
+          "projected_whitened_norm_squared": 81.56501478094711,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 14.041257657443852,
+          "synthetic_peak_amplitude_us": 0.31298821862606624,
+          "synthetic_peak_period_days": 1173.490972692437
+        },
+        {
+          "companion_mass_solar": 0.2291408791412992,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 0.2484186805052335,
+          "projected_whitened_norm_squared": 105.471847977573,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 17.512727325861974,
+          "synthetic_peak_amplitude_us": 0.34323672063980326,
+          "synthetic_peak_period_days": 1173.490972692437
+        }
+      ],
+      "status": "LEAKAGE_NOT_NEGLIGIBLE",
+      "target": "J1955+2908"
+    },
+    {
+      "grid": {
+        "algorithm": "linear_frequency_independent_bin_oversampling",
+        "frequency_count": 7,
+        "frequency_step_per_day": 3.4846848522553474e-05,
+        "maximum_frequency_per_day": 0.0006801916170552007,
+        "maximum_period_days": 2000.0,
+        "minimum_frequency_per_day": 0.0005,
+        "minimum_period_days": 1470.173955288316,
+        "oversampling": 5,
+        "span_days": 5739.3999308303755
+      },
+      "inner_period_days": 147.0173955288316,
+      "largest_deciding_delta_chi2": 0.030385462535008772,
+      "largest_delta_chi2_any_scenario": 0.051593031341009135,
+      "mass_function_solar": 0.000782965585561223,
+      "profile_sha256": "5f30e8f7d438f6cb835b85ccbbd1c8caf31b6a08947ecfd102c2928573168529",
+      "scenarios": [
+        {
+          "companion_mass_solar": 0.25825258378532057,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 2.8389001458149088e-05,
+          "projected_whitened_norm_squared": 0.05760927290088174,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 2.7946554567637705,
+          "synthetic_peak_amplitude_us": 0.0046730988423574335,
+          "synthetic_peak_period_days": 1483.1640649469794
+        },
+        {
+          "companion_mass_solar": 0.1420527850581222,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 0.0007567688209867933,
+          "projected_whitened_norm_squared": 2.2016803696199116,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 3.6849261269545392,
+          "synthetic_peak_amplitude_us": 0.025296817749757165,
+          "synthetic_peak_period_days": 1563.9970528710573
+        },
+        {
+          "companion_mass_solar": 0.12650343050516497,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 0.004439480972457617,
+          "projected_whitened_norm_squared": 12.21678642465908,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 5.050150297375028,
+          "synthetic_peak_amplitude_us": 0.06319855656152702,
+          "synthetic_peak_period_days": 1654.1487702218635
+        },
+        {
+          "companion_mass_solar": 0.12244202619049345,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 0.01912660049843056,
+          "projected_whitened_norm_squared": 44.372686996395345,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 7.5243290407987535,
+          "synthetic_peak_amplitude_us": 0.13037249374578755,
+          "synthetic_peak_period_days": 1654.1487702218635
+        },
+        {
+          "companion_mass_solar": 0.12202833648794581,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 0.032474683134864124,
+          "projected_whitened_norm_squared": 73.30589006105215,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 9.55938922378471,
+          "synthetic_peak_amplitude_us": 0.17112022379235545,
+          "synthetic_peak_period_days": 1654.1487702218635
+        },
+        {
+          "companion_mass_solar": 0.3233618570489527,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 4.450802744539902e-05,
+          "projected_whitened_norm_squared": 0.09031931268036897,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 3.4992291851079194,
+          "synthetic_peak_amplitude_us": 0.005851255765534288,
+          "synthetic_peak_period_days": 1483.1640649469794
+        },
+        {
+          "companion_mass_solar": 0.17887013013815103,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 0.0011998843005853418,
+          "projected_whitened_norm_squared": 3.490843751952022,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 4.639987984805402,
+          "synthetic_peak_amplitude_us": 0.03185326553878395,
+          "synthetic_peak_period_days": 1563.9970528710573
+        },
+        {
+          "companion_mass_solar": 0.15941448734219993,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 0.007049903413802893,
+          "projected_whitened_norm_squared": 19.40027783770996,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 6.363994378984283,
+          "synthetic_peak_amplitude_us": 0.07964025524676618,
+          "synthetic_peak_period_days": 1654.1487702218635
+        },
+        {
+          "companion_mass_solar": 0.15432793326300331,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 0.030385462535008772,
+          "projected_whitened_norm_squared": 70.49264287280413,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 9.483787439540311,
+          "synthetic_peak_amplitude_us": 0.16432362433163666,
+          "synthetic_peak_period_days": 1654.1487702218635
+        },
+        {
+          "companion_mass_solar": 0.15380970973915148,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 0.051593031341009135,
+          "projected_whitened_norm_squared": 116.46220126902816,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 12.049061096060589,
+          "synthetic_peak_amplitude_us": 0.21568721421192755,
+          "synthetic_peak_period_days": 1654.1487702218635
+        }
+      ],
+      "status": "LEAKAGE_NEGLIGIBLE",
+      "target": "J1643-1224"
+    },
+    {
+      "grid": {
+        "algorithm": "linear_frequency_independent_bin_oversampling",
+        "frequency_count": 645,
+        "frequency_step_per_day": 5.101711240660438e-05,
+        "maximum_frequency_per_day": 0.03333333333333333,
+        "maximum_period_days": 1960.1266179670056,
+        "minimum_frequency_per_day": 0.0005101711240660438,
+        "minimum_period_days": 30.0,
+        "oversampling": 5,
+        "span_days": 3920.253235934011
+      },
+      "inner_period_days": 0.3547907343158679,
+      "largest_deciding_delta_chi2": 7.630967317678756,
+      "largest_delta_chi2_any_scenario": 12.185350852614315,
+      "mass_function_solar": 0.00034550355741611494,
+      "profile_sha256": "291ba5d5226c532f1cd73df6de6dbda798380b9de79b7c30e64d9d6c3461a482",
+      "scenarios": [
+        {
+          "companion_mass_solar": 0.1912843140870198,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 0.013651756328287344,
+          "projected_whitened_norm_squared": 0.10293801056055882,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 2.0700813013105903,
+          "synthetic_peak_amplitude_us": 0.01261710770678557,
+          "synthetic_peak_period_days": 149.62798610435158
+        },
+        {
+          "companion_mass_solar": 0.10647856267829982,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 0.28715375757367406,
+          "projected_whitened_norm_squared": 3.959856302017597,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 2.7627024277194048,
+          "synthetic_peak_amplitude_us": 0.057638838815819146,
+          "synthetic_peak_period_days": 148.49444075507617
+        },
+        {
+          "companion_mass_solar": 0.09497965429432349,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 1.281836997707344,
+          "projected_whitened_norm_squared": 24.459854916305588,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 3.7941366943775736,
+          "synthetic_peak_amplitude_us": 0.1389288917679226,
+          "synthetic_peak_period_days": 46.78106486794763
+        },
+        {
+          "companion_mass_solar": 0.09197010799555022,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 4.788633716108873,
+          "projected_whitened_norm_squared": 105.96676966163,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 5.673773296561668,
+          "synthetic_peak_amplitude_us": 0.26934236651961213,
+          "synthetic_peak_period_days": 46.78106486794763
+        },
+        {
+          "companion_mass_solar": 0.09166341671347286,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 7.646390554688313,
+          "projected_whitened_norm_squared": 190.63031023271787,
+          "pulsar_mass_solar": 1.4,
+          "raw_delay_peak_to_peak_us": 7.310252006529432,
+          "synthetic_peak_amplitude_us": 0.3409570706406142,
+          "synthetic_peak_period_days": 46.78106486794763
+        },
+        {
+          "companion_mass_solar": 0.24027885673137497,
+          "inclination_degrees": 30.0,
+          "maximum_synthetic_delta_chi2": 0.021540755223263538,
+          "projected_whitened_norm_squared": 0.1624232395695649,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 2.6003008704290727,
+          "synthetic_peak_amplitude_us": 0.01584878629234523,
+          "synthetic_peak_period_days": 149.62798610435158
+        },
+        {
+          "companion_mass_solar": 0.13431544250119382,
+          "inclination_degrees": 60.0,
+          "maximum_synthetic_delta_chi2": 0.4569219671442644,
+          "projected_whitened_norm_squared": 6.300963450433933,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 3.484960631928953,
+          "synthetic_peak_amplitude_us": 0.07270746285514537,
+          "synthetic_peak_period_days": 148.49444075507617
+        },
+        {
+          "companion_mass_solar": 0.11988033860497688,
+          "inclination_degrees": 75.0,
+          "maximum_synthetic_delta_chi2": 2.0420555657617188,
+          "projected_whitened_norm_squared": 38.96625152722374,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 4.78884025231428,
+          "synthetic_peak_amplitude_us": 0.17535168674696028,
+          "synthetic_peak_period_days": 46.78106486794763
+        },
+        {
+          "companion_mass_solar": 0.11609958937610183,
+          "inclination_degrees": 85.0,
+          "maximum_synthetic_delta_chi2": 7.630967317678756,
+          "projected_whitened_norm_squared": 168.86423226058793,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 7.162357034263483,
+          "synthetic_peak_amplitude_us": 0.3400076267826875,
+          "synthetic_peak_period_days": 46.78106486794763
+        },
+        {
+          "companion_mass_solar": 0.1157142439614158,
+          "inclination_degrees": 88.0,
+          "maximum_synthetic_delta_chi2": 12.185350852614315,
+          "projected_whitened_norm_squared": 303.79002965054156,
+          "pulsar_mass_solar": 2.0,
+          "raw_delay_peak_to_peak_us": 9.2283302808485,
+          "synthetic_peak_amplitude_us": 0.4304180562656107,
+          "synthetic_peak_period_days": 46.78106486794763
+        }
+      ],
+      "status": "LEAKAGE_NOT_NEGLIGIBLE",
+      "target": "J1738+0333"
+    }
+  ],
+  "rule": "Companion mass from the mass function at each pulsar mass and inclination; Shapiro delay on the real sampling, projected with every search nuisance column and scanned over the full search grid; negligible when the largest statistic for inclinations up to the deciding one is within the limit",
+  "selection_sha256": "23eefad6692c4835bc6ddf3896dc7335eb50e4b29e871d915f4c532053bfb4da",
+  "status": "LEAKAGE_ASSESSMENT_COMPLETE"
+}

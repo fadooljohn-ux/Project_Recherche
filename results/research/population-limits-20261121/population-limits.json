@@ -1,0 +1,3273 @@
+{
+ "status": "POPULATION_LIMITS_COMPLETE",
+ "atlas": "outputs/sensitivity-atlas-20260909/atlas.json",
+ "atlas_sha256": "7d9a447c24c6fc2042b2354d9d9b45c3be1b866acaf481d0d6a6d48a3caa7f87",
+ "host_mass_solar": 1.4,
+ "curve_definition": "95% detection probability at the injected grid frequency, circular orbit, phase extrema, fixed supplied noise and linear timing model",
+ "rule": "Pulsar counted over the fraction of a period bin where margin times its 95% worst-phase curve is at or below the mass; hosting fraction f excluded when prod(1 - 0.95 f c_i) < 0.05",
+ "observations_read": false,
+ "limits": [
+  "Minimum mass (m sin i) for a 1.4 solar-mass pulsar (atlas) or the stated total inner mass (extra files); true masses are larger",
+  "Circular orbits on the searched grids only",
+  "Margin 1 assumes each supplied noise model is correct",
+  "Pulsars were selected as isolated and by data quality, not at random",
+  "Datasets with a fixed-noise crossing are left out, not counted as detections or as clean"
+ ],
+ "tables": [
+  {
+   "margin": 1.0,
+   "pulsars": 310,
+   "datasets_left_out": [
+    "ng15-batch01-20260908-J1453+1902-run01",
+    "pta-campaign01-20260908-inpta-J1939+2134-run01",
+    "utmost-batch02-20260909-J1327-6222-run01",
+    "utmost-batch04-20260909-J1359-6038-run01",
+    "utmost-batch04-20260909-J0908-4913-run01",
+    "utmost-batch04-20260909-J1048-5832-run01",
+    "utmost-batch04-20260909-J1752-2806-run01"
+   ],
+   "cells": [
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 30.375,
+     "hosting_fraction_upper_limit_95": 0.09919294052612337
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 40,
+     "effective_pulsars": 36.04166666666667,
+     "hosting_fraction_upper_limit_95": 0.08405785635781603
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 47,
+     "effective_pulsars": 41.833333333333336,
+     "hosting_fraction_upper_limit_95": 0.07287712024049889
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 80,
+     "effective_pulsars": 66.54166666666666,
+     "hosting_fraction_upper_limit_95": 0.04640682784049446
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 183,
+     "effective_pulsars": 152.45833333333334,
+     "hosting_fraction_upper_limit_95": 0.020498719763746696
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 260,
+     "effective_pulsars": 244.08333333333334,
+     "hosting_fraction_upper_limit_95": 0.012842321772690117
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 280,
+     "effective_pulsars": 276.125,
+     "hosting_fraction_upper_limit_95": 0.011358831343438151
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 285,
+     "effective_pulsars": 281.7083333333333,
+     "hosting_fraction_upper_limit_95": 0.011134805585230877
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 286,
+     "effective_pulsars": 282.9583333333333,
+     "hosting_fraction_upper_limit_95": 0.01108582948011241
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 286,
+     "effective_pulsars": 282.9583333333333,
+     "hosting_fraction_upper_limit_95": 0.01108582948011241
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 286,
+     "effective_pulsars": 282.9583333333333,
+     "hosting_fraction_upper_limit_95": 0.01108582948011241
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 50,
+     "effective_pulsars": 43.0,
+     "hosting_fraction_upper_limit_95": 0.07096536940913496
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 52,
+     "effective_pulsars": 45.58333333333333,
+     "hosting_fraction_upper_limit_95": 0.06705925990905455
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 64,
+     "effective_pulsars": 55.0,
+     "hosting_fraction_upper_limit_95": 0.055892146651968136
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 120,
+     "effective_pulsars": 97.04166666666666,
+     "hosting_fraction_upper_limit_95": 0.03203767787553912
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 232,
+     "effective_pulsars": 208.20833333333337,
+     "hosting_fraction_upper_limit_95": 0.015041754770589678
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 283,
+     "effective_pulsars": 269.625,
+     "hosting_fraction_upper_limit_95": 0.011632052769817599
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 294,
+     "effective_pulsars": 286.58333333333337,
+     "hosting_fraction_upper_limit_95": 0.010946717721964943
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 297,
+     "effective_pulsars": 290.125,
+     "hosting_fraction_upper_limit_95": 0.010813686030297587
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 298,
+     "effective_pulsars": 291.125,
+     "hosting_fraction_upper_limit_95": 0.010776728980496671
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 298,
+     "effective_pulsars": 291.125,
+     "hosting_fraction_upper_limit_95": 0.010776728980496671
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 298,
+     "effective_pulsars": 291.125,
+     "hosting_fraction_upper_limit_95": 0.010776728980496671
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 57,
+     "effective_pulsars": 49.916666666666664,
+     "hosting_fraction_upper_limit_95": 0.06148770060136324
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 59,
+     "effective_pulsars": 51.916666666666664,
+     "hosting_fraction_upper_limit_95": 0.05917419317465093
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 73,
+     "effective_pulsars": 62.791666666666664,
+     "hosting_fraction_upper_limit_95": 0.049153075713915965
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 137,
+     "effective_pulsars": 119.08333333333334,
+     "hosting_fraction_upper_limit_95": 0.02617565377054546
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 254,
+     "effective_pulsars": 230.875,
+     "hosting_fraction_upper_limit_95": 0.013574358414492121
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 291,
+     "effective_pulsars": 273.20833333333337,
+     "hosting_fraction_upper_limit_95": 0.011481169265667312
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 300,
+     "effective_pulsars": 285.1666666666667,
+     "hosting_fraction_upper_limit_95": 0.011001862987540217
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 301,
+     "effective_pulsars": 285.75,
+     "hosting_fraction_upper_limit_95": 0.010979474003973408
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 302,
+     "effective_pulsars": 287.08333333333337,
+     "hosting_fraction_upper_limit_95": 0.01092875925137609
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 302,
+     "effective_pulsars": 287.08333333333337,
+     "hosting_fraction_upper_limit_95": 0.01092875925137609
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 302,
+     "effective_pulsars": 287.08333333333337,
+     "hosting_fraction_upper_limit_95": 0.01092875925137609
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 56,
+     "effective_pulsars": 33.166666666666664,
+     "hosting_fraction_upper_limit_95": 0.09229443095090058
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 58,
+     "effective_pulsars": 34.45833333333333,
+     "hosting_fraction_upper_limit_95": 0.08893784961135597
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 70,
+     "effective_pulsars": 39.79166666666667,
+     "hosting_fraction_upper_limit_95": 0.07737874905303305
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 128,
+     "effective_pulsars": 66.54166666666666,
+     "hosting_fraction_upper_limit_95": 0.04676846909847757
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 236,
+     "effective_pulsars": 127.375,
+     "hosting_fraction_upper_limit_95": 0.024589471579617852
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 279,
+     "effective_pulsars": 148.79166666666666,
+     "hosting_fraction_upper_limit_95": 0.02107185085299519
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 289,
+     "effective_pulsars": 154.54166666666666,
+     "hosting_fraction_upper_limit_95": 0.02029181369738398
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 289,
+     "effective_pulsars": 154.66666666666666,
+     "hosting_fraction_upper_limit_95": 0.02027544429435326
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 290,
+     "effective_pulsars": 154.83333333333334,
+     "hosting_fraction_upper_limit_95": 0.02025382561368848
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 290,
+     "effective_pulsars": 154.83333333333334,
+     "hosting_fraction_upper_limit_95": 0.02025382561368848
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 290,
+     "effective_pulsars": 154.83333333333334,
+     "hosting_fraction_upper_limit_95": 0.02025382561368848
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 38,
+     "effective_pulsars": 33.208333333333336,
+     "hosting_fraction_upper_limit_95": 0.09091677592439551
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 39,
+     "effective_pulsars": 34.208333333333336,
+     "hosting_fraction_upper_limit_95": 0.0883674306561288
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 39,
+     "effective_pulsars": 34.208333333333336,
+     "hosting_fraction_upper_limit_95": 0.0883674306561288
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 39,
+     "effective_pulsars": 34.208333333333336,
+     "hosting_fraction_upper_limit_95": 0.0883674306561288
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 39,
+     "effective_pulsars": 34.208333333333336,
+     "hosting_fraction_upper_limit_95": 0.0883674306561288
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 39,
+     "effective_pulsars": 34.208333333333336,
+     "hosting_fraction_upper_limit_95": 0.0883674306561288
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 39,
+     "effective_pulsars": 34.208333333333336,
+     "hosting_fraction_upper_limit_95": 0.0883674306561288
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 39,
+     "effective_pulsars": 34.208333333333336,
+     "hosting_fraction_upper_limit_95": 0.0883674306561288
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 39,
+     "effective_pulsars": 34.208333333333336,
+     "hosting_fraction_upper_limit_95": 0.0883674306561288
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 39,
+     "effective_pulsars": 34.208333333333336,
+     "hosting_fraction_upper_limit_95": 0.0883674306561288
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 39,
+     "effective_pulsars": 34.208333333333336,
+     "hosting_fraction_upper_limit_95": 0.0883674306561288
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 36,
+     "effective_pulsars": 30.875000000000004,
+     "hosting_fraction_upper_limit_95": 0.09772392780619713
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 31.875000000000004,
+     "hosting_fraction_upper_limit_95": 0.09477704205033069
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 31.875000000000004,
+     "hosting_fraction_upper_limit_95": 0.09477704205033069
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 31.875000000000004,
+     "hosting_fraction_upper_limit_95": 0.09477704205033069
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 31.875000000000004,
+     "hosting_fraction_upper_limit_95": 0.09477704205033069
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 31.875000000000004,
+     "hosting_fraction_upper_limit_95": 0.09477704205033069
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 31.875000000000004,
+     "hosting_fraction_upper_limit_95": 0.09477704205033069
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 31.875000000000004,
+     "hosting_fraction_upper_limit_95": 0.09477704205033069
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 31.875000000000004,
+     "hosting_fraction_upper_limit_95": 0.09477704205033069
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 31.875000000000004,
+     "hosting_fraction_upper_limit_95": 0.09477704205033069
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 31.875000000000004,
+     "hosting_fraction_upper_limit_95": 0.09477704205033069
+    }
+   ]
+  },
+  {
+   "margin": 3.0,
+   "pulsars": 310,
+   "datasets_left_out": [
+    "ng15-batch01-20260908-J1453+1902-run01",
+    "pta-campaign01-20260908-inpta-J1939+2134-run01",
+    "utmost-batch02-20260909-J1327-6222-run01",
+    "utmost-batch04-20260909-J1359-6038-run01",
+    "utmost-batch04-20260909-J0908-4913-run01",
+    "utmost-batch04-20260909-J1048-5832-run01",
+    "utmost-batch04-20260909-J1752-2806-run01"
+   ],
+   "cells": [
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 21,
+     "effective_pulsars": 18.083333333333336,
+     "hosting_fraction_upper_limit_95": 0.1612679353939473
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 30.375,
+     "hosting_fraction_upper_limit_95": 0.09919294052612337
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 40,
+     "effective_pulsars": 36.208333333333336,
+     "hosting_fraction_upper_limit_95": 0.08369595895391575
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 47,
+     "effective_pulsars": 41.833333333333336,
+     "hosting_fraction_upper_limit_95": 0.07287712024049889
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 84,
+     "effective_pulsars": 70.45833333333333,
+     "hosting_fraction_upper_limit_95": 0.0438827634885702
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 183,
+     "effective_pulsars": 152.45833333333334,
+     "hosting_fraction_upper_limit_95": 0.020498719763746696
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 260,
+     "effective_pulsars": 248.20833333333331,
+     "hosting_fraction_upper_limit_95": 0.012629937267716438
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 280,
+     "effective_pulsars": 276.125,
+     "hosting_fraction_upper_limit_95": 0.011358831343438151
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 285,
+     "effective_pulsars": 281.8333333333333,
+     "hosting_fraction_upper_limit_95": 0.011129872295519516
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 286,
+     "effective_pulsars": 282.9583333333333,
+     "hosting_fraction_upper_limit_95": 0.01108582948011241
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 286,
+     "effective_pulsars": 282.9583333333333,
+     "hosting_fraction_upper_limit_95": 0.01108582948011241
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 27.833333333333336,
+     "hosting_fraction_upper_limit_95": 0.10795529345970789
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 50,
+     "effective_pulsars": 43.0,
+     "hosting_fraction_upper_limit_95": 0.07096536940913496
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 52,
+     "effective_pulsars": 45.58333333333333,
+     "hosting_fraction_upper_limit_95": 0.06705925990905455
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 64,
+     "effective_pulsars": 55.0,
+     "hosting_fraction_upper_limit_95": 0.055892146651968136
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 126,
+     "effective_pulsars": 104.66666666666666,
+     "hosting_fraction_upper_limit_95": 0.029733973028583008
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 232,
+     "effective_pulsars": 208.20833333333337,
+     "hosting_fraction_upper_limit_95": 0.015041754770589678
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 283,
+     "effective_pulsars": 272.0,
+     "hosting_fraction_upper_limit_95": 0.011530884364137368
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 294,
+     "effective_pulsars": 286.58333333333337,
+     "hosting_fraction_upper_limit_95": 0.010946717721964943
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 297,
+     "effective_pulsars": 290.125,
+     "hosting_fraction_upper_limit_95": 0.010813686030297587
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 298,
+     "effective_pulsars": 291.125,
+     "hosting_fraction_upper_limit_95": 0.010776728980496671
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 298,
+     "effective_pulsars": 291.125,
+     "hosting_fraction_upper_limit_95": 0.010776728980496671
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 49,
+     "effective_pulsars": 40.375,
+     "hosting_fraction_upper_limit_95": 0.07556893358613831
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 57,
+     "effective_pulsars": 49.916666666666664,
+     "hosting_fraction_upper_limit_95": 0.06148770060136324
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 59,
+     "effective_pulsars": 51.916666666666664,
+     "hosting_fraction_upper_limit_95": 0.05917419317465093
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 73,
+     "effective_pulsars": 62.791666666666664,
+     "hosting_fraction_upper_limit_95": 0.049153075713915965
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 151,
+     "effective_pulsars": 126.66666666666669,
+     "hosting_fraction_upper_limit_95": 0.024625094595349267
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 254,
+     "effective_pulsars": 230.875,
+     "hosting_fraction_upper_limit_95": 0.013574358414492121
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 292,
+     "effective_pulsars": 274.95833333333337,
+     "hosting_fraction_upper_limit_95": 0.011408457712872229
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 300,
+     "effective_pulsars": 285.1666666666667,
+     "hosting_fraction_upper_limit_95": 0.011001862987540217
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 302,
+     "effective_pulsars": 286.2083333333333,
+     "hosting_fraction_upper_limit_95": 0.01096202779675692
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 302,
+     "effective_pulsars": 287.08333333333337,
+     "hosting_fraction_upper_limit_95": 0.01092875925137609
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 302,
+     "effective_pulsars": 287.08333333333337,
+     "hosting_fraction_upper_limit_95": 0.01092875925137609
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 51,
+     "effective_pulsars": 30.666666666666664,
+     "hosting_fraction_upper_limit_95": 0.09953327472941113
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 56,
+     "effective_pulsars": 33.166666666666664,
+     "hosting_fraction_upper_limit_95": 0.09229443095090058
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 58,
+     "effective_pulsars": 34.45833333333333,
+     "hosting_fraction_upper_limit_95": 0.08893784961135597
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 70,
+     "effective_pulsars": 39.79166666666667,
+     "hosting_fraction_upper_limit_95": 0.07737874905303305
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 139,
+     "effective_pulsars": 73.08333333333333,
+     "hosting_fraction_upper_limit_95": 0.04263609446630512
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 236,
+     "effective_pulsars": 127.375,
+     "hosting_fraction_upper_limit_95": 0.024589471579617852
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 279,
+     "effective_pulsars": 149.83333333333331,
+     "hosting_fraction_upper_limit_95": 0.020925690605853482
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 289,
+     "effective_pulsars": 154.54166666666666,
+     "hosting_fraction_upper_limit_95": 0.02029181369738398
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 290,
+     "effective_pulsars": 154.83333333333334,
+     "hosting_fraction_upper_limit_95": 0.02025382561368848
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 290,
+     "effective_pulsars": 154.83333333333334,
+     "hosting_fraction_upper_limit_95": 0.02025382561368848
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 290,
+     "effective_pulsars": 154.83333333333334,
+     "hosting_fraction_upper_limit_95": 0.02025382561368848
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 33.083333333333336,
+     "hosting_fraction_upper_limit_95": 0.09124182654770628
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 38,
+     "effective_pulsars": 33.208333333333336,
+     "hosting_fraction_upper_limit_95": 0.09091677592439551
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 39,
+     "effective_pulsars": 34.208333333333336,
+     "hosting_fraction_upper_limit_95": 0.0883674306561288
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 39,
+     "effective_pulsars": 34.208333333333336,
+     "hosting_fraction_upper_limit_95": 0.0883674306561288
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 39,
+     "effective_pulsars": 34.208333333333336,
+     "hosting_fraction_upper_limit_95": 0.0883674306561288
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 39,
+     "effective_pulsars": 34.208333333333336,
+     "hosting_fraction_upper_limit_95": 0.0883674306561288
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 39,
+     "effective_pulsars": 34.208333333333336,
+     "hosting_fraction_upper_limit_95": 0.0883674306561288
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 39,
+     "effective_pulsars": 34.208333333333336,
+     "hosting_fraction_upper_limit_95": 0.0883674306561288
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 39,
+     "effective_pulsars": 34.208333333333336,
+     "hosting_fraction_upper_limit_95": 0.0883674306561288
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 39,
+     "effective_pulsars": 34.208333333333336,
+     "hosting_fraction_upper_limit_95": 0.0883674306561288
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 39,
+     "effective_pulsars": 34.208333333333336,
+     "hosting_fraction_upper_limit_95": 0.0883674306561288
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 36,
+     "effective_pulsars": 29.833333333333336,
+     "hosting_fraction_upper_limit_95": 0.10101821796295042
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 36,
+     "effective_pulsars": 30.875000000000004,
+     "hosting_fraction_upper_limit_95": 0.09772392780619713
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 31.875000000000004,
+     "hosting_fraction_upper_limit_95": 0.09477704205033069
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 31.875000000000004,
+     "hosting_fraction_upper_limit_95": 0.09477704205033069
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 31.875000000000004,
+     "hosting_fraction_upper_limit_95": 0.09477704205033069
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 31.875000000000004,
+     "hosting_fraction_upper_limit_95": 0.09477704205033069
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 31.875000000000004,
+     "hosting_fraction_upper_limit_95": 0.09477704205033069
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 31.875000000000004,
+     "hosting_fraction_upper_limit_95": 0.09477704205033069
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 31.875000000000004,
+     "hosting_fraction_upper_limit_95": 0.09477704205033069
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 31.875000000000004,
+     "hosting_fraction_upper_limit_95": 0.09477704205033069
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 31.875000000000004,
+     "hosting_fraction_upper_limit_95": 0.09477704205033069
+    }
+   ]
+  }
+ ],
+ "extra": [
+  {
+   "file": "results/research/population-limits-20261121/binary-curves.json",
+   "sha256": "fc1f53b602d985b7a69d84d733581ff6722636538f51bf9079e9c089b23dcea9",
+   "host_mass_solar": 1.6,
+   "curve_definition": "95% detection probability on the search grid, circular outer orbit, worst phase, fixed published noise, inner orbit and Shapiro freedom projected; minimum mass for the stated total inner mass",
+   "curves": 43
+  }
+ ],
+ "tables_atlas_only": [
+  {
+   "margin": 1.0,
+   "pulsars": 271,
+   "datasets_left_out": [
+    "ng15-batch01-20260908-J1453+1902-run01",
+    "pta-campaign01-20260908-inpta-J1939+2134-run01",
+    "utmost-batch02-20260909-J1327-6222-run01",
+    "utmost-batch04-20260909-J1359-6038-run01",
+    "utmost-batch04-20260909-J0908-4913-run01",
+    "utmost-batch04-20260909-J1048-5832-run01",
+    "utmost-batch04-20260909-J1752-2806-run01"
+   ],
+   "cells": [
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 23,
+     "effective_pulsars": 21.541666666666668,
+     "hosting_fraction_upper_limit_95": 0.13695256142366963
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 25,
+     "effective_pulsars": 24.083333333333332,
+     "hosting_fraction_upper_limit_95": 0.12314293574100038
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 32,
+     "effective_pulsars": 29.875,
+     "hosting_fraction_upper_limit_95": 0.10062363794238335
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 65,
+     "effective_pulsars": 54.58333333333333,
+     "hosting_fraction_upper_limit_95": 0.05630915565119352
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 168,
+     "effective_pulsars": 140.5,
+     "hosting_fraction_upper_limit_95": 0.022226428399443825
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 245,
+     "effective_pulsars": 232.125,
+     "hosting_fraction_upper_limit_95": 0.013499489029230243
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 265,
+     "effective_pulsars": 264.16666666666663,
+     "hosting_fraction_upper_limit_95": 0.01186989104275592
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 270,
+     "effective_pulsars": 269.75,
+     "hosting_fraction_upper_limit_95": 0.01162547061289914
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 271,
+     "effective_pulsars": 271.0,
+     "hosting_fraction_upper_limit_95": 0.011572092299120967
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 271,
+     "effective_pulsars": 271.0,
+     "hosting_fraction_upper_limit_95": 0.011572092299120967
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 271,
+     "effective_pulsars": 271.0,
+     "hosting_fraction_upper_limit_95": 0.011572092299120967
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 23,
+     "effective_pulsars": 23.0,
+     "hosting_fraction_upper_limit_95": 0.1285509356910769
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 25,
+     "effective_pulsars": 25.0,
+     "hosting_fraction_upper_limit_95": 0.11887173158615073
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 34.41666666666667,
+     "hosting_fraction_upper_limit_95": 0.08787138536746335
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 93,
+     "effective_pulsars": 76.45833333333333,
+     "hosting_fraction_upper_limit_95": 0.040501792006338744
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 205,
+     "effective_pulsars": 187.625,
+     "hosting_fraction_upper_limit_95": 0.016678417261830558
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 256,
+     "effective_pulsars": 249.04166666666669,
+     "hosting_fraction_upper_limit_95": 0.012587235672586228
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 267,
+     "effective_pulsars": 266.0,
+     "hosting_fraction_upper_limit_95": 0.011788572438381262
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 270,
+     "effective_pulsars": 269.54166666666663,
+     "hosting_fraction_upper_limit_95": 0.011634435794217631
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 271,
+     "effective_pulsars": 270.54166666666663,
+     "hosting_fraction_upper_limit_95": 0.01159166862851347
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 271,
+     "effective_pulsars": 270.54166666666663,
+     "hosting_fraction_upper_limit_95": 0.01159166862851347
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 271,
+     "effective_pulsars": 270.54166666666663,
+     "hosting_fraction_upper_limit_95": 0.01159166862851347
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 23,
+     "effective_pulsars": 21.916666666666664,
+     "hosting_fraction_upper_limit_95": 0.13487374310624456
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 25,
+     "effective_pulsars": 23.916666666666664,
+     "hosting_fraction_upper_limit_95": 0.1242305824283301
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 39,
+     "effective_pulsars": 34.791666666666664,
+     "hosting_fraction_upper_limit_95": 0.08708583556712866
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 103,
+     "effective_pulsars": 91.08333333333334,
+     "hosting_fraction_upper_limit_95": 0.034091049607926555
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 220,
+     "effective_pulsars": 202.875,
+     "hosting_fraction_upper_limit_95": 0.015433298483666398
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 257,
+     "effective_pulsars": 245.20833333333337,
+     "hosting_fraction_upper_limit_95": 0.01278355945855557
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 266,
+     "effective_pulsars": 257.1666666666667,
+     "hosting_fraction_upper_limit_95": 0.01219214497034911
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 267,
+     "effective_pulsars": 257.75,
+     "hosting_fraction_upper_limit_95": 0.012164651540564606
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 268,
+     "effective_pulsars": 259.0833333333333,
+     "hosting_fraction_upper_limit_95": 0.012102435091889043
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 268,
+     "effective_pulsars": 259.0833333333333,
+     "hosting_fraction_upper_limit_95": 0.012102435091889043
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 268,
+     "effective_pulsars": 259.0833333333333,
+     "hosting_fraction_upper_limit_95": 0.012102435091889043
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 23,
+     "effective_pulsars": 15.708333333333334,
+     "hosting_fraction_upper_limit_95": 0.18743407575269325
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 25,
+     "effective_pulsars": 17.0,
+     "hosting_fraction_upper_limit_95": 0.17419941320886667
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 22.333333333333336,
+     "hosting_fraction_upper_limit_95": 0.13508081533838048
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 95,
+     "effective_pulsars": 49.08333333333333,
+     "hosting_fraction_upper_limit_95": 0.06311564304799674
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 203,
+     "effective_pulsars": 109.91666666666666,
+     "hosting_fraction_upper_limit_95": 0.028465811488617064
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 246,
+     "effective_pulsars": 131.33333333333331,
+     "hosting_fraction_upper_limit_95": 0.023855744232082948
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 256,
+     "effective_pulsars": 137.08333333333334,
+     "hosting_fraction_upper_limit_95": 0.022860754869552174
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 256,
+     "effective_pulsars": 137.20833333333334,
+     "hosting_fraction_upper_limit_95": 0.022839969971314763
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 257,
+     "effective_pulsars": 137.375,
+     "hosting_fraction_upper_limit_95": 0.02281255310375769
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 257,
+     "effective_pulsars": 137.375,
+     "hosting_fraction_upper_limit_95": 0.02281255310375769
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 257,
+     "effective_pulsars": 137.375,
+     "hosting_fraction_upper_limit_95": 0.02281255310375769
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 18.916666666666668,
+     "hosting_fraction_upper_limit_95": 0.1542200420398076
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 19.916666666666668,
+     "hosting_fraction_upper_limit_95": 0.14704064435536499
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 19.916666666666668,
+     "hosting_fraction_upper_limit_95": 0.14704064435536499
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 19.916666666666668,
+     "hosting_fraction_upper_limit_95": 0.14704064435536499
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 19.916666666666668,
+     "hosting_fraction_upper_limit_95": 0.14704064435536499
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 19.916666666666668,
+     "hosting_fraction_upper_limit_95": 0.14704064435536499
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 19.916666666666668,
+     "hosting_fraction_upper_limit_95": 0.14704064435536499
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 19.916666666666668,
+     "hosting_fraction_upper_limit_95": 0.14704064435536499
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 19.916666666666668,
+     "hosting_fraction_upper_limit_95": 0.14704064435536499
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 19.916666666666668,
+     "hosting_fraction_upper_limit_95": 0.14704064435536499
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 19.916666666666668,
+     "hosting_fraction_upper_limit_95": 0.14704064435536499
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 16.0,
+     "hosting_fraction_upper_limit_95": 0.18132355148374063
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 17.0,
+     "hosting_fraction_upper_limit_95": 0.1714038952756874
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 17.0,
+     "hosting_fraction_upper_limit_95": 0.1714038952756874
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 17.0,
+     "hosting_fraction_upper_limit_95": 0.1714038952756874
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 17.0,
+     "hosting_fraction_upper_limit_95": 0.1714038952756874
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 17.0,
+     "hosting_fraction_upper_limit_95": 0.1714038952756874
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 17.0,
+     "hosting_fraction_upper_limit_95": 0.1714038952756874
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 17.0,
+     "hosting_fraction_upper_limit_95": 0.1714038952756874
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 17.0,
+     "hosting_fraction_upper_limit_95": 0.1714038952756874
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 17.0,
+     "hosting_fraction_upper_limit_95": 0.1714038952756874
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 17.0,
+     "hosting_fraction_upper_limit_95": 0.1714038952756874
+    }
+   ]
+  },
+  {
+   "margin": 3.0,
+   "pulsars": 271,
+   "datasets_left_out": [
+    "ng15-batch01-20260908-J1453+1902-run01",
+    "pta-campaign01-20260908-inpta-J1939+2134-run01",
+    "utmost-batch02-20260909-J1327-6222-run01",
+    "utmost-batch04-20260909-J1359-6038-run01",
+    "utmost-batch04-20260909-J0908-4913-run01",
+    "utmost-batch04-20260909-J1048-5832-run01",
+    "utmost-batch04-20260909-J1752-2806-run01"
+   ],
+   "cells": [
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 15.25,
+     "hosting_fraction_upper_limit_95": 0.18817761989410434
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 23,
+     "effective_pulsars": 21.541666666666668,
+     "hosting_fraction_upper_limit_95": 0.13695256142366963
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 25,
+     "effective_pulsars": 24.25,
+     "hosting_fraction_upper_limit_95": 0.12237969476569048
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 32,
+     "effective_pulsars": 29.875,
+     "hosting_fraction_upper_limit_95": 0.10062363794238335
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 69,
+     "effective_pulsars": 58.5,
+     "hosting_fraction_upper_limit_95": 0.0526376116003672
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 168,
+     "effective_pulsars": 140.5,
+     "hosting_fraction_upper_limit_95": 0.022226428399443825
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 245,
+     "effective_pulsars": 236.25,
+     "hosting_fraction_upper_limit_95": 0.013265003603382997
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 265,
+     "effective_pulsars": 264.16666666666663,
+     "hosting_fraction_upper_limit_95": 0.01186989104275592
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 270,
+     "effective_pulsars": 269.875,
+     "hosting_fraction_upper_limit_95": 0.011620092173663872
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 271,
+     "effective_pulsars": 271.0,
+     "hosting_fraction_upper_limit_95": 0.011572092299120967
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 271,
+     "effective_pulsars": 271.0,
+     "hosting_fraction_upper_limit_95": 0.011572092299120967
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 18.625,
+     "hosting_fraction_upper_limit_95": 0.15682922145917932
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 23,
+     "effective_pulsars": 23.0,
+     "hosting_fraction_upper_limit_95": 0.1285509356910769
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 25,
+     "effective_pulsars": 25.0,
+     "hosting_fraction_upper_limit_95": 0.11887173158615073
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 34.41666666666667,
+     "hosting_fraction_upper_limit_95": 0.08787138536746335
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 99,
+     "effective_pulsars": 84.08333333333333,
+     "hosting_fraction_upper_limit_95": 0.036889142077123876
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 205,
+     "effective_pulsars": 187.625,
+     "hosting_fraction_upper_limit_95": 0.016678417261830558
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 256,
+     "effective_pulsars": 251.41666666666669,
+     "hosting_fraction_upper_limit_95": 0.012468845515545456
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 267,
+     "effective_pulsars": 266.0,
+     "hosting_fraction_upper_limit_95": 0.011788572438381262
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 270,
+     "effective_pulsars": 269.54166666666663,
+     "hosting_fraction_upper_limit_95": 0.011634435794217631
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 271,
+     "effective_pulsars": 270.54166666666663,
+     "hosting_fraction_upper_limit_95": 0.01159166862851347
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 271,
+     "effective_pulsars": 270.54166666666663,
+     "hosting_fraction_upper_limit_95": 0.01159166862851347
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 22,
+     "effective_pulsars": 19.416666666666664,
+     "hosting_fraction_upper_limit_95": 0.15102789894318833
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 23,
+     "effective_pulsars": 21.916666666666664,
+     "hosting_fraction_upper_limit_95": 0.13487374310624456
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 25,
+     "effective_pulsars": 23.916666666666664,
+     "hosting_fraction_upper_limit_95": 0.1242305824283301
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 39,
+     "effective_pulsars": 34.791666666666664,
+     "hosting_fraction_upper_limit_95": 0.08708583556712866
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 117,
+     "effective_pulsars": 98.66666666666667,
+     "hosting_fraction_upper_limit_95": 0.031507703864985984
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 220,
+     "effective_pulsars": 202.875,
+     "hosting_fraction_upper_limit_95": 0.015433298483666398
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 258,
+     "effective_pulsars": 246.95833333333334,
+     "hosting_fraction_upper_limit_95": 0.012693483962784404
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 266,
+     "effective_pulsars": 257.1666666666667,
+     "hosting_fraction_upper_limit_95": 0.01219214497034911
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 268,
+     "effective_pulsars": 258.2083333333333,
+     "hosting_fraction_upper_limit_95": 0.012143247009114759
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 268,
+     "effective_pulsars": 259.0833333333333,
+     "hosting_fraction_upper_limit_95": 0.012102435091889043
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 268,
+     "effective_pulsars": 259.0833333333333,
+     "hosting_fraction_upper_limit_95": 0.012102435091889043
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 22,
+     "effective_pulsars": 15.125,
+     "hosting_fraction_upper_limit_95": 0.19415780110441605
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 23,
+     "effective_pulsars": 15.708333333333334,
+     "hosting_fraction_upper_limit_95": 0.18743407575269325
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 25,
+     "effective_pulsars": 17.0,
+     "hosting_fraction_upper_limit_95": 0.17419941320886667
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 37,
+     "effective_pulsars": 22.333333333333336,
+     "hosting_fraction_upper_limit_95": 0.13508081533838048
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 106,
+     "effective_pulsars": 55.625,
+     "hosting_fraction_upper_limit_95": 0.055816558912556026
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 203,
+     "effective_pulsars": 109.91666666666666,
+     "hosting_fraction_upper_limit_95": 0.028465811488617064
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 246,
+     "effective_pulsars": 132.375,
+     "hosting_fraction_upper_limit_95": 0.023668492620634484
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 256,
+     "effective_pulsars": 137.08333333333334,
+     "hosting_fraction_upper_limit_95": 0.022860754869552174
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 257,
+     "effective_pulsars": 137.375,
+     "hosting_fraction_upper_limit_95": 0.02281255310375769
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 257,
+     "effective_pulsars": 137.375,
+     "hosting_fraction_upper_limit_95": 0.02281255310375769
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 257,
+     "effective_pulsars": 137.375,
+     "hosting_fraction_upper_limit_95": 0.02281255310375769
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 18.875,
+     "hosting_fraction_upper_limit_95": 0.15455957555448657
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 18.916666666666668,
+     "hosting_fraction_upper_limit_95": 0.1542200420398076
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 19.916666666666668,
+     "hosting_fraction_upper_limit_95": 0.14704064435536499
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 19.916666666666668,
+     "hosting_fraction_upper_limit_95": 0.14704064435536499
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 19.916666666666668,
+     "hosting_fraction_upper_limit_95": 0.14704064435536499
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 19.916666666666668,
+     "hosting_fraction_upper_limit_95": 0.14704064435536499
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 19.916666666666668,
+     "hosting_fraction_upper_limit_95": 0.14704064435536499
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 19.916666666666668,
+     "hosting_fraction_upper_limit_95": 0.14704064435536499
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 19.916666666666668,
+     "hosting_fraction_upper_limit_95": 0.14704064435536499
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 19.916666666666668,
+     "hosting_fraction_upper_limit_95": 0.14704064435536499
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 19.916666666666668,
+     "hosting_fraction_upper_limit_95": 0.14704064435536499
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 14.958333333333336,
+     "hosting_fraction_upper_limit_95": 0.19312407597042475
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 16.0,
+     "hosting_fraction_upper_limit_95": 0.18132355148374063
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 17.0,
+     "hosting_fraction_upper_limit_95": 0.1714038952756874
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 17.0,
+     "hosting_fraction_upper_limit_95": 0.1714038952756874
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 17.0,
+     "hosting_fraction_upper_limit_95": 0.1714038952756874
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 17.0,
+     "hosting_fraction_upper_limit_95": 0.1714038952756874
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 17.0,
+     "hosting_fraction_upper_limit_95": 0.1714038952756874
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 17.0,
+     "hosting_fraction_upper_limit_95": 0.1714038952756874
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 17.0,
+     "hosting_fraction_upper_limit_95": 0.1714038952756874
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 17.0,
+     "hosting_fraction_upper_limit_95": 0.1714038952756874
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 20,
+     "effective_pulsars": 17.0,
+     "hosting_fraction_upper_limit_95": 0.1714038952756874
+    }
+   ]
+  }
+ ],
+ "tables_extra_only": [
+  {
+   "margin": 1.0,
+   "pulsars": 39,
+   "datasets_left_out": [],
+   "cells": [
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 14,
+     "effective_pulsars": 8.833333333333334,
+     "hosting_fraction_upper_limit_95": 0.31022095173693903
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 15,
+     "effective_pulsars": 11.958333333333334,
+     "hosting_fraction_upper_limit_95": 0.2355182733051356
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 15,
+     "effective_pulsars": 11.958333333333334,
+     "hosting_fraction_upper_limit_95": 0.2355182733051356
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 15,
+     "effective_pulsars": 11.958333333333334,
+     "hosting_fraction_upper_limit_95": 0.2355182733051356
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 15,
+     "effective_pulsars": 11.958333333333334,
+     "hosting_fraction_upper_limit_95": 0.2355182733051356
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 15,
+     "effective_pulsars": 11.958333333333334,
+     "hosting_fraction_upper_limit_95": 0.2355182733051356
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 15,
+     "effective_pulsars": 11.958333333333334,
+     "hosting_fraction_upper_limit_95": 0.2355182733051356
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 15,
+     "effective_pulsars": 11.958333333333334,
+     "hosting_fraction_upper_limit_95": 0.2355182733051356
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 15,
+     "effective_pulsars": 11.958333333333334,
+     "hosting_fraction_upper_limit_95": 0.2355182733051356
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 15,
+     "effective_pulsars": 11.958333333333334,
+     "hosting_fraction_upper_limit_95": 0.2355182733051356
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 15,
+     "effective_pulsars": 11.958333333333334,
+     "hosting_fraction_upper_limit_95": 0.2355182733051356
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 27,
+     "effective_pulsars": 20.0,
+     "hosting_fraction_upper_limit_95": 0.14760491658654507
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 27,
+     "effective_pulsars": 20.583333333333332,
+     "hosting_fraction_upper_limit_95": 0.14363750007515258
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 27,
+     "effective_pulsars": 20.583333333333332,
+     "hosting_fraction_upper_limit_95": 0.14363750007515258
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 27,
+     "effective_pulsars": 20.583333333333332,
+     "hosting_fraction_upper_limit_95": 0.14363750007515258
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 27,
+     "effective_pulsars": 20.583333333333332,
+     "hosting_fraction_upper_limit_95": 0.14363750007515258
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 27,
+     "effective_pulsars": 20.583333333333332,
+     "hosting_fraction_upper_limit_95": 0.14363750007515258
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 27,
+     "effective_pulsars": 20.583333333333332,
+     "hosting_fraction_upper_limit_95": 0.14363750007515258
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 27,
+     "effective_pulsars": 20.583333333333332,
+     "hosting_fraction_upper_limit_95": 0.14363750007515258
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 27,
+     "effective_pulsars": 20.583333333333332,
+     "hosting_fraction_upper_limit_95": 0.14363750007515258
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 27,
+     "effective_pulsars": 20.583333333333332,
+     "hosting_fraction_upper_limit_95": 0.14363750007515258
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 27,
+     "effective_pulsars": 20.583333333333332,
+     "hosting_fraction_upper_limit_95": 0.14363750007515258
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 34,
+     "effective_pulsars": 28.0,
+     "hosting_fraction_upper_limit_95": 0.10756146956507001
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 34,
+     "effective_pulsars": 28.0,
+     "hosting_fraction_upper_limit_95": 0.10756146956507001
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 34,
+     "effective_pulsars": 28.0,
+     "hosting_fraction_upper_limit_95": 0.10756146956507001
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 34,
+     "effective_pulsars": 28.0,
+     "hosting_fraction_upper_limit_95": 0.10756146956507001
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 34,
+     "effective_pulsars": 28.0,
+     "hosting_fraction_upper_limit_95": 0.10756146956507001
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 34,
+     "effective_pulsars": 28.0,
+     "hosting_fraction_upper_limit_95": 0.10756146956507001
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 34,
+     "effective_pulsars": 28.0,
+     "hosting_fraction_upper_limit_95": 0.10756146956507001
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 34,
+     "effective_pulsars": 28.0,
+     "hosting_fraction_upper_limit_95": 0.10756146956507001
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 34,
+     "effective_pulsars": 28.0,
+     "hosting_fraction_upper_limit_95": 0.10756146956507001
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 34,
+     "effective_pulsars": 28.0,
+     "hosting_fraction_upper_limit_95": 0.10756146956507001
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 34,
+     "effective_pulsars": 28.0,
+     "hosting_fraction_upper_limit_95": 0.10756146956507001
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 33,
+     "effective_pulsars": 17.458333333333332,
+     "hosting_fraction_upper_limit_95": 0.17158299885338144
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 33,
+     "effective_pulsars": 17.458333333333332,
+     "hosting_fraction_upper_limit_95": 0.17158299885338144
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 33,
+     "effective_pulsars": 17.458333333333332,
+     "hosting_fraction_upper_limit_95": 0.17158299885338144
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 33,
+     "effective_pulsars": 17.458333333333332,
+     "hosting_fraction_upper_limit_95": 0.17158299885338144
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 33,
+     "effective_pulsars": 17.458333333333332,
+     "hosting_fraction_upper_limit_95": 0.17158299885338144
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 33,
+     "effective_pulsars": 17.458333333333332,
+     "hosting_fraction_upper_limit_95": 0.17158299885338144
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 33,
+     "effective_pulsars": 17.458333333333332,
+     "hosting_fraction_upper_limit_95": 0.17158299885338144
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 33,
+     "effective_pulsars": 17.458333333333332,
+     "hosting_fraction_upper_limit_95": 0.17158299885338144
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 33,
+     "effective_pulsars": 17.458333333333332,
+     "hosting_fraction_upper_limit_95": 0.17158299885338144
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 33,
+     "effective_pulsars": 17.458333333333332,
+     "hosting_fraction_upper_limit_95": 0.17158299885338144
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 33,
+     "effective_pulsars": 17.458333333333332,
+     "hosting_fraction_upper_limit_95": 0.17158299885338144
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 14.291666666666668,
+     "hosting_fraction_upper_limit_95": 0.20022994369226346
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 14.291666666666668,
+     "hosting_fraction_upper_limit_95": 0.20022994369226346
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 14.291666666666668,
+     "hosting_fraction_upper_limit_95": 0.20022994369226346
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 14.291666666666668,
+     "hosting_fraction_upper_limit_95": 0.20022994369226346
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 14.291666666666668,
+     "hosting_fraction_upper_limit_95": 0.20022994369226346
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 14.291666666666668,
+     "hosting_fraction_upper_limit_95": 0.20022994369226346
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 14.291666666666668,
+     "hosting_fraction_upper_limit_95": 0.20022994369226346
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 14.291666666666668,
+     "hosting_fraction_upper_limit_95": 0.20022994369226346
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 14.291666666666668,
+     "hosting_fraction_upper_limit_95": 0.20022994369226346
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 14.291666666666668,
+     "hosting_fraction_upper_limit_95": 0.20022994369226346
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 14.291666666666668,
+     "hosting_fraction_upper_limit_95": 0.20022994369226346
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 14.875000000000002,
+     "hosting_fraction_upper_limit_95": 0.19322643774623377
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 14.875000000000002,
+     "hosting_fraction_upper_limit_95": 0.19322643774623377
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 14.875000000000002,
+     "hosting_fraction_upper_limit_95": 0.19322643774623377
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 14.875000000000002,
+     "hosting_fraction_upper_limit_95": 0.19322643774623377
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 14.875000000000002,
+     "hosting_fraction_upper_limit_95": 0.19322643774623377
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 14.875000000000002,
+     "hosting_fraction_upper_limit_95": 0.19322643774623377
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 14.875000000000002,
+     "hosting_fraction_upper_limit_95": 0.19322643774623377
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 14.875000000000002,
+     "hosting_fraction_upper_limit_95": 0.19322643774623377
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 14.875000000000002,
+     "hosting_fraction_upper_limit_95": 0.19322643774623377
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 14.875000000000002,
+     "hosting_fraction_upper_limit_95": 0.19322643774623377
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 14.875000000000002,
+     "hosting_fraction_upper_limit_95": 0.19322643774623377
+    }
+   ]
+  },
+  {
+   "margin": 3.0,
+   "pulsars": 39,
+   "datasets_left_out": [],
+   "cells": [
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 4,
+     "effective_pulsars": 2.8333333333333335,
+     "hosting_fraction_upper_limit_95": 0.7193084460508335
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 14,
+     "effective_pulsars": 8.833333333333334,
+     "hosting_fraction_upper_limit_95": 0.31022095173693903
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 15,
+     "effective_pulsars": 11.958333333333334,
+     "hosting_fraction_upper_limit_95": 0.2355182733051356
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 15,
+     "effective_pulsars": 11.958333333333334,
+     "hosting_fraction_upper_limit_95": 0.2355182733051356
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 15,
+     "effective_pulsars": 11.958333333333334,
+     "hosting_fraction_upper_limit_95": 0.2355182733051356
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 15,
+     "effective_pulsars": 11.958333333333334,
+     "hosting_fraction_upper_limit_95": 0.2355182733051356
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 15,
+     "effective_pulsars": 11.958333333333334,
+     "hosting_fraction_upper_limit_95": 0.2355182733051356
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 15,
+     "effective_pulsars": 11.958333333333334,
+     "hosting_fraction_upper_limit_95": 0.2355182733051356
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 15,
+     "effective_pulsars": 11.958333333333334,
+     "hosting_fraction_upper_limit_95": 0.2355182733051356
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 15,
+     "effective_pulsars": 11.958333333333334,
+     "hosting_fraction_upper_limit_95": 0.2355182733051356
+    },
+    {
+     "period_min_days": 30,
+     "period_max_days": 60,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 15,
+     "effective_pulsars": 11.958333333333334,
+     "hosting_fraction_upper_limit_95": 0.2355182733051356
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 9.208333333333334,
+     "hosting_fraction_upper_limit_95": 0.3018478316201153
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 27,
+     "effective_pulsars": 20.0,
+     "hosting_fraction_upper_limit_95": 0.14760491658654507
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 27,
+     "effective_pulsars": 20.583333333333332,
+     "hosting_fraction_upper_limit_95": 0.14363750007515258
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 27,
+     "effective_pulsars": 20.583333333333332,
+     "hosting_fraction_upper_limit_95": 0.14363750007515258
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 27,
+     "effective_pulsars": 20.583333333333332,
+     "hosting_fraction_upper_limit_95": 0.14363750007515258
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 27,
+     "effective_pulsars": 20.583333333333332,
+     "hosting_fraction_upper_limit_95": 0.14363750007515258
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 27,
+     "effective_pulsars": 20.583333333333332,
+     "hosting_fraction_upper_limit_95": 0.14363750007515258
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 27,
+     "effective_pulsars": 20.583333333333332,
+     "hosting_fraction_upper_limit_95": 0.14363750007515258
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 27,
+     "effective_pulsars": 20.583333333333332,
+     "hosting_fraction_upper_limit_95": 0.14363750007515258
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 27,
+     "effective_pulsars": 20.583333333333332,
+     "hosting_fraction_upper_limit_95": 0.14363750007515258
+    },
+    {
+     "period_min_days": 60,
+     "period_max_days": 120,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 27,
+     "effective_pulsars": 20.583333333333332,
+     "hosting_fraction_upper_limit_95": 0.14363750007515258
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 27,
+     "effective_pulsars": 20.958333333333332,
+     "hosting_fraction_upper_limit_95": 0.14177722321772263
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 34,
+     "effective_pulsars": 28.0,
+     "hosting_fraction_upper_limit_95": 0.10756146956507001
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 34,
+     "effective_pulsars": 28.0,
+     "hosting_fraction_upper_limit_95": 0.10756146956507001
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 34,
+     "effective_pulsars": 28.0,
+     "hosting_fraction_upper_limit_95": 0.10756146956507001
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 34,
+     "effective_pulsars": 28.0,
+     "hosting_fraction_upper_limit_95": 0.10756146956507001
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 34,
+     "effective_pulsars": 28.0,
+     "hosting_fraction_upper_limit_95": 0.10756146956507001
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 34,
+     "effective_pulsars": 28.0,
+     "hosting_fraction_upper_limit_95": 0.10756146956507001
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 34,
+     "effective_pulsars": 28.0,
+     "hosting_fraction_upper_limit_95": 0.10756146956507001
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 34,
+     "effective_pulsars": 28.0,
+     "hosting_fraction_upper_limit_95": 0.10756146956507001
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 34,
+     "effective_pulsars": 28.0,
+     "hosting_fraction_upper_limit_95": 0.10756146956507001
+    },
+    {
+     "period_min_days": 120,
+     "period_max_days": 240,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 34,
+     "effective_pulsars": 28.0,
+     "hosting_fraction_upper_limit_95": 0.10756146956507001
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 29,
+     "effective_pulsars": 15.541666666666666,
+     "hosting_fraction_upper_limit_95": 0.19128017331004013
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 33,
+     "effective_pulsars": 17.458333333333332,
+     "hosting_fraction_upper_limit_95": 0.17158299885338144
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 33,
+     "effective_pulsars": 17.458333333333332,
+     "hosting_fraction_upper_limit_95": 0.17158299885338144
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 33,
+     "effective_pulsars": 17.458333333333332,
+     "hosting_fraction_upper_limit_95": 0.17158299885338144
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 33,
+     "effective_pulsars": 17.458333333333332,
+     "hosting_fraction_upper_limit_95": 0.17158299885338144
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 33,
+     "effective_pulsars": 17.458333333333332,
+     "hosting_fraction_upper_limit_95": 0.17158299885338144
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 33,
+     "effective_pulsars": 17.458333333333332,
+     "hosting_fraction_upper_limit_95": 0.17158299885338144
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 33,
+     "effective_pulsars": 17.458333333333332,
+     "hosting_fraction_upper_limit_95": 0.17158299885338144
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 33,
+     "effective_pulsars": 17.458333333333332,
+     "hosting_fraction_upper_limit_95": 0.17158299885338144
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 33,
+     "effective_pulsars": 17.458333333333332,
+     "hosting_fraction_upper_limit_95": 0.17158299885338144
+    },
+    {
+     "period_min_days": 240,
+     "period_max_days": 400,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 33,
+     "effective_pulsars": 17.458333333333332,
+     "hosting_fraction_upper_limit_95": 0.17158299885338144
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 18,
+     "effective_pulsars": 14.208333333333334,
+     "hosting_fraction_upper_limit_95": 0.20119957916941447
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 14.291666666666668,
+     "hosting_fraction_upper_limit_95": 0.20022994369226346
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 14.291666666666668,
+     "hosting_fraction_upper_limit_95": 0.20022994369226346
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 14.291666666666668,
+     "hosting_fraction_upper_limit_95": 0.20022994369226346
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 14.291666666666668,
+     "hosting_fraction_upper_limit_95": 0.20022994369226346
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 14.291666666666668,
+     "hosting_fraction_upper_limit_95": 0.20022994369226346
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 14.291666666666668,
+     "hosting_fraction_upper_limit_95": 0.20022994369226346
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 14.291666666666668,
+     "hosting_fraction_upper_limit_95": 0.20022994369226346
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 14.291666666666668,
+     "hosting_fraction_upper_limit_95": 0.20022994369226346
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 14.291666666666668,
+     "hosting_fraction_upper_limit_95": 0.20022994369226346
+    },
+    {
+     "period_min_days": 400,
+     "period_max_days": 1000,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 19,
+     "effective_pulsars": 14.291666666666668,
+     "hosting_fraction_upper_limit_95": 0.20022994369226346
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.01,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 14.875000000000002,
+     "hosting_fraction_upper_limit_95": 0.19322643774623377
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.03,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 14.875000000000002,
+     "hosting_fraction_upper_limit_95": 0.19322643774623377
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.1,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 14.875000000000002,
+     "hosting_fraction_upper_limit_95": 0.19322643774623377
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 0.3,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 14.875000000000002,
+     "hosting_fraction_upper_limit_95": 0.19322643774623377
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 1,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 14.875000000000002,
+     "hosting_fraction_upper_limit_95": 0.19322643774623377
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 3,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 14.875000000000002,
+     "hosting_fraction_upper_limit_95": 0.19322643774623377
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 10,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 14.875000000000002,
+     "hosting_fraction_upper_limit_95": 0.19322643774623377
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 30,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 14.875000000000002,
+     "hosting_fraction_upper_limit_95": 0.19322643774623377
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 100,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 14.875000000000002,
+     "hosting_fraction_upper_limit_95": 0.19322643774623377
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 300,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 14.875000000000002,
+     "hosting_fraction_upper_limit_95": 0.19322643774623377
+    },
+    {
+     "period_min_days": 1000,
+     "period_max_days": 2000,
+     "minimum_mass_earth": 1000,
+     "pulsars_with_any_coverage": 17,
+     "effective_pulsars": 14.875000000000002,
+     "hosting_fraction_upper_limit_95": 0.19322643774623377
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "evidence": "results/observed/mpta-binary01-20261119/closeout.json",
+ "entries": [
+  [
+   "mpta-binary01-20261119-closeout",
+   "Observed closeout",
+   "MeerKAT binaries batch 01 (J0125-2327, J1216-6410 searched; J1909-3744, J2241-5236, J1811-2405, J1614-2230 held)",
+   "VERIFIED",
+   "Owner instruction 'I approve the MeerKat binary list. Start on the most precise targets.' New adapter tools/mpta_binary.py. J0125-2327 NO_TRIGGER (5.04 / 21.77, peak 126.4 d); J1216-6410 NO_TRIGGER (6.29 / 23.18, peak 142.8 d). 95% minimum mass about 0.0005-0.003 Earth masses at 40-400 d for a 1.6 solar-mass inner system. Four held at preparation for nonlinear orbital parameters (SINI for J1909 and J1614, FB2 for J2241, PB/OMDOT degeneracy for J1811).",
+   "Holds are not non-detections. Linearity neighbourhood uses the larger of released and search-covariance uncertainties (released MPTA uncertainties are about 3 times smaller). run01 destinations consumed. 26 approved targets not yet prepared."
+  ]
+ ],
+ "target_updates": []
+}

@@ -1,0 +1,11 @@
+{
+  "selected": ["J1012+5307", "J1738+0333"],
+  "seed": 2026093100,
+  "shapiro_mode": "omitted_in_release",
+  "references": ["https://academic.oup.com/mnras/article/494/3/4031/5819465", "https://academic.oup.com/mnras/article/423/4/3316/1747458"],
+  "stress_grid_note": "Cartesian central and plus/minus three quoted uncertainties; bounded stress scenarios, not a joint posterior or credible region.",
+  "stress_grid": {
+    "J1012+5307": {"companion_mass_solar": [0.120, 0.165, 0.210], "inclination_degrees": [44.0, 50.0, 56.0]},
+    "J1738+0333": {"companion_mass_solar": [0.166, 0.181, 0.202], "inclination_degrees": [29.6, 32.6, 35.6]}
+  }
+}

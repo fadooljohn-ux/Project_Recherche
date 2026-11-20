@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "assessment_id": "epta-j1012-followup-20260910",
+  "records": [
+    {
+      "record_id": "binary-pilot03-20260909-J1012+5307-run01",
+      "target": "J1012+5307",
+      "result_sha256": "da9fc747a4da30cb7af08fe6cad03e8b772f3a911b1bec65c621c3e475316870",
+      "statistical_grade": "NOT_ESTABLISHED",
+      "global_fap": null,
+      "global_sigma": null,
+      "global_scope": "Original two-grid conditional allowance does not cover unknown noise hyperparameters or all historical project searches.",
+      "diagnostic_source": "results/research/j1012-review-20260909/red128.json",
+      "exceedance_field": "null_exceedances",
+      "null_count": 512,
+      "null_exceedances": 512,
+      "diagnostic_p_plus_one": 1.0,
+      "diagnostic_scope": "Largest per-model plus-one tail across the five declared covariance models, not pooled. Original-period statistic compared with each simulated maximum across the original eligible grid.",
+      "robustness_grade": "NOISE_SENSITIVE",
+      "robustness_evidence": "139-day power falls from 32.113 to 8.477 / 5.597 when red Fourier coverage increases from 30 to 64 / 128 modes. Shapiro scenarios retain 30.61\u201334.70 under released noise. All observing-day deletions and temporal/receiver subsets assessed. Subsequent finite-grid joint-noise development gives 11.336 below 33.395; EPTA is assessed separately as non-corroboration.",
+      "confirmation_grade": "NOT_CORROBORATED",
+      "confirmation_evidence": "Native T2/H3/H4 EPTA DR2full comparison: 5324 clock-covered TOAs; fixed 138.911-day amplitudes 0.07049-0.07454 us versus saved NG15 0.49463 us; conditional p=0.2928-0.5211. Conditional analytic power >99.9999% for the exact saved waveform under three declared covariances. Period/noise uncertainty and shared propagation are not marginalized; no global exclusion claim.",
+      "disposition": "INCONCLUSIVE_NOISE_SENSITIVE",
+      "sources": [
+        {
+          "path": "results/research/j1012-review-20260909/closeout.json",
+          "sha256": "04d03c16facedb647b55d9284458406a5d44f4cabda81c556b7da5ab3992166f"
+        },
+        {
+          "path": "results/research/j1012-review-20260909/days.json",
+          "sha256": "ced13bba8e68af0b01b4840530ece50a2c5b76f70d53897b0114b1d02ea1ba3c"
+        },
+        {
+          "path": "results/research/j1012-review-20260909/independent-inputs.json",
+          "sha256": "6f68680b32dc57753690c259928522f5630348dd6692d87d0076b40081a55ad4"
+        },
+        {
+          "path": "results/research/j1012-review-20260909/noise-inputs.json",
+          "sha256": "ce1f68415af12a69f6398fdff7b24e810fb4bd73d41218c70bdaa0e097e6d704"
+        },
+        {
+          "path": "results/research/j1012-review-20260909/red128.json",
+          "sha256": "7542aff72051af6620eab552f57322ed8efe7cc918675c1fbbd99118fdc944a7"
+        },
+        {
+          "path": "results/research/j1012-review-20260909/red128_chrom4.json",
+          "sha256": "a225d877eb8613c35ab9012f31f83d20122cf4ea33cdb8b1855a92e4dc4ec79e"
+        },
+        {
+          "path": "results/research/j1012-review-20260909/red128_double_power.json",
+          "sha256": "f1e83d1a979d46eb060d511bb926916fcb89d0d44cae42b53deded7fb417c480"
+        },
+        {
+          "path": "results/research/j1012-review-20260909/red64.json",
+          "sha256": "e30d4af305b3a3db3c8830d8eea551ec0d13e01b33e9e1d8e6cc45f6f6a70161"
+        },
+        {
+          "path": "results/research/j1012-review-20260909/released30.json",
+          "sha256": "46a391438a428a5162ccfafa2bd8e2ab8b687b72ea297a7b1578869a76943527"
+        },
+        {
+          "path": "results/research/j1012-review-20260909/scope.json",
+          "sha256": "f45ce164ddf4098715a6e39077af92e5a8f90c316cbe554eb45c5ef0a2a9c5f0"
+        },
+        {
+          "path": "results/research/j1012-review-20260909/shapiro.json",
+          "sha256": "945e72a6695ce6df1a4fa3e986a35bb9d66600c27eaff6faa3ac244a67b6fcbf"
+        },
+        {
+          "path": "results/research/j1012-review-20260909/subsets.json",
+          "sha256": "ebd4ca3bb09e23d0ca73e86175a5e4b26c7008fce2a272321f259e646540883b"
+        },
+        {
+          "path": "results/research/epta-j1012-followup-20260910/result.json",
+          "sha256": "4ddc5bc40a81d644d705f4a88cd219b56154d3fbc28cbd48929fb37f2203500e"
+        },
+        {
+          "path": "results/research/epta-j1012-followup-20260910/null-compatibility.json",
+          "sha256": "1d52e9a4ddab889f2bfc457fcd5f79a0ec1c8bb9a05122af5d3577a323c8c8d3"
+        },
+        {
+          "path": "results/research/epta-j1012-followup-20260910/attempt02/compatibility.json",
+          "sha256": "3e2d86fc040a3b0c5312debe906ced984babe5e4b130b0b6a9de879e19536b3d"
+        },
+        {
+          "path": "results/research/epta-j1012-followup-20260910/comparison-freeze.json",
+          "sha256": "a89c860dc643d5fd6e952518f783286b25590e9756b5b446d50eb5e66e8247f6"
+        },
+        {
+          "path": "results/research/j1012-review-20260909/assessments.json",
+          "sha256": "4a4abef27cd03ebce9fb2f271583ec6a5d7ae7dd85b56bb9db118f6116b960df"
+        },
+        {
+          "path": "results/research/joint-noise-development-20260910/closeout.json",
+          "sha256": "cf91c1e3d6ad4c05ba9aeea3f3321c04f9b9a06dacbdc90ce473daa8c27bee1d"
+        }
+      ]
+    }
+  ],
+  "predecessor": {
+    "path": "results/research/j1012-review-20260909/assessments.json",
+    "sha256": "4a4abef27cd03ebce9fb2f271583ec6a5d7ae7dd85b56bb9db118f6116b960df"
+  }
+}

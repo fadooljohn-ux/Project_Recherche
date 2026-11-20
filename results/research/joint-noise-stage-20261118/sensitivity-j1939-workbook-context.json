@@ -1,0 +1,14 @@
+{
+ "evidence": "results/research/joint-noise-stage-20261118/sensitivity-closeout.json",
+ "entries": [
+  [
+   "joint-noise-sensitivity-20261118-j1939",
+   "Implementation",
+   "Second-stage joint-noise test; J1939+2134 retrospective sensitivity curve",
+   "VERIFIED",
+   "Retrospective curve on simulated data at reduced size (8 periods, 16 injections per step). With white-only true noise the second stage needs 1.2-1.5 times the ideal amplitude from 30 to 234 d, 2.1 at 449 d, 3.1 at 634 d and 10.1 at 1078 d (0.66 us ideal, 6.6 us second stage). With the reference red noise as truth the ratio is 1.2-1.4 to 449 d, 1.9 at 634 d and 2.6 at 1078 d. Largest second-stage amplitude over all generators at 1078 d: 249 us.",
+   "No observed residuals read; consumed run untouched. Coarser than the other curves. Open decision: narrow the noise grid where a released chain exists."
+  ]
+ ],
+ "target_updates": []
+}

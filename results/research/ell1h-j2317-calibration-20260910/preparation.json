@@ -1,0 +1,30 @@
+{
+  "held": [],
+  "observed_search_executed": false,
+  "results": [
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "d68b0301d9370f9fa7b5b4ce496bf2612848780dd33b393dbeb0804c7ee75279",
+        "eligible_cells": 929,
+        "excluded_cells": 11,
+        "frequency_count": 940,
+        "median_worst_phase_amplitude_us": 0.40293072225988136,
+        "observed_search_executed": false,
+        "path": "RECHERCHE_DATA/ell1h-j2317-preparation-20260910/calibration-cache/d68b0301d9370f9fa7b5b4ce496bf2612848780dd33b393dbeb0804c7ee75279",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J2317+1439",
+        "threshold": 22.902100122504283,
+        "timing_rank": 328
+      },
+      "conditional_injection_recovered": 95,
+      "conditional_injection_trials": 96,
+      "injection_scope": "Three eligible periods, two phases, 16 fixed-noise realizations each; diagnostic, not occurrence completeness",
+      "noiseless_relative_amplitude_error": 1.6495271846338624e-15,
+      "profile_sha256": "0912b307ec70db3c657dd0471385530780afe08cb6aa460f9699f37fff8b58de",
+      "target": "J2317+1439"
+    }
+  ],
+  "selection_sha256": "c809aea02a9f40dd669bd081b2d92f3095bbc0923b2bf0d7bc02f3f8bb784519",
+  "status": "PREPARED"
+}

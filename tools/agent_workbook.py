@@ -15,6 +15,7 @@ import zipfile
 import openpyxl
 from openpyxl.utils import get_column_letter
 from openpyxl.workbook.properties import CalcProperties
+from recherche_common import RECOVERY_ROOT
 
 REPO = Path(__file__).resolve().parents[1]
 MASTER = REPO / 'outputs/recherche-master-20260908/Project-Recherche-Master.xlsx'
@@ -73,7 +74,8 @@ def apply(wb, root, mode, review):
                 targets.cell(row, col, value)
         return
     allowed = {'': 'MPTA', '--tpa-observed': 'TPA', '--ng15-observed': 'NG15',
-               '--pta-observed': 'PTA', '--utmost-observed': 'UTMOST', '--ipta-observed': 'IPTA'}
+               '--pta-observed': 'PTA', '--utmost-observed': 'UTMOST', '--ipta-observed': 'IPTA',
+               '--binary-observed': 'NG15 binary pilot'}
     if mode not in allowed:
         raise ValueError('Fallback supports observed closeout and --review. Use a review context for preparation/diagnosis records.')
     selection_path = root / 'selection.json'
@@ -84,15 +86,30 @@ def apply(wb, root, mode, review):
         raise ValueError('Frozen selection changed')
     batch = root.parent.name + '-' + root.name if mode == '--pta-observed' else root.name
     for target in selection['selected']:
+        if mode == '--binary-observed' and target not in freeze['targets']:
+            continue
         row = target_rows[target]
         result_path = root / target / 'run01/result.json'
         if not result_path.exists():
+            if mode == '--binary-observed' and not result_path.parent.exists():
+                continue
             state = 'INCOMPLETE' if result_path.parent.exists() else 'NOT_LAUNCHED'
             add_work(work, [f'{batch}-{target}-{state.lower()}', now, 'Observed attempt', target, state,
                            'No terminal result exists; not a nondetection', 'Inspect retained evidence before continuing',
                            str(freeze_path), digest(freeze_path)])
             continue
         result = read(result_path)
+        display_path = str(result_path)
+        if mode == '--binary-observed':
+            published = REPO / 'results/observed' / root.name / target / 'result.json'
+            published.parent.mkdir(parents=True, exist_ok=True)
+            for filename in ['result.json', 'periodogram.npz']:
+                source, destination = result_path.parent / filename, published.parent / filename
+                if destination.exists() and digest(destination) != digest(source):
+                    raise ValueError('Existing binary evidence differs')
+                if not destination.exists():
+                    shutil.copy2(source, destination)
+            display_path = published.relative_to(REPO).as_posix()
         if result['target'] != target or result['execution_freeze_sha256'] != digest(freeze_path):
             raise ValueError('Result target or execution freeze differs')
         if digest(result_path.parent / 'periodogram.npz') != result['periodogram_sha256']:
@@ -117,21 +134,21 @@ def apply(wb, root, mode, review):
                          prep.get('epochs', prep.get('observing_days')), bounds['minimum_period_days'], bounds['maximum_period_days'],
                          result['grid_cells'], result['grid_cells'] - result['eligible_cells'],
                          result.get('sensitivity_median_worst_phase_us', result.get('sensitivity_median_worst_phase_amplitude_us')),
-                         detail, None, 'Preserve consumed record; new data/scope requires a new ID', str(result_path), digest(result_path),
+                         detail, None, 'Preserve consumed record; new data/scope requires a new ID', display_path, digest(result_path),
                          f"observed={result['observed_sha256']}; calibration={result['calibration_key']}"])
         prior_candidate = targets.cell(row, 3).value == 'PERIODIC_SIGNAL_CANDIDATE'
         if result['candidate'] or not prior_candidate:
             for col, value in [(3, disposition), (4, record_id), (5, 'Threshold crossing; review required' if result['candidate'] else 'No qualifying signal in the frozen eligible cells')]:
                 targets.cell(row, col, value)
         targets.cell(row, 6, 'Preserve prior candidate review and assess this dataset separately' if prior_candidate else
-                     'Bounded deep review and three-measure grading required' if result['candidate'] else 'Preserve result; new data or scope required for another search')
+                     'Second-stage joint-noise test required before grading' if result['candidate'] else 'Preserve result; new data or scope required for another search')
         targets.cell(row, 7, 'SEARCHED')
         add_work(work, [record_id + '-PORTABLE-CLOSEOUT', now, 'Observed closeout', target, disposition,
                        'Saved terminal result registered; no scientific execution by updater',
-                       'Update source queue from reconciled campaign totals', str(result_path), digest(result_path)])
+                       'Update source queue from reconciled campaign totals', display_path, digest(result_path)])
         if result['candidate']:
             append(wb['Candidate grades'], [record_id, target, 'REVIEW_PENDING', 'NOT_ASSESSED', 'NOT_ASSESSED',
-                   None, None, None, None, None, 'Global FAP not established; bounded review required.',
+                   None, None, None, None, None, 'Global FAP not established; second-stage joint-noise test required before grading.',
                    None, None, 'REVIEW_PENDING', None, None])
 
 
@@ -189,7 +206,7 @@ def main():
                    'searches_added': wb['Searches'].max_row - len(before['Searches']),
                    'work_log_rows_added': wb['Work log'].max_row - len(before['Work log'])}
         if changed:
-            history = REPO.parent / 'Recherche Recovery/20260907T223404/master-workbook-history' if master == MASTER.resolve() else master.parent / 'workbook-history'
+            history = RECOVERY_ROOT / '20260907T223404/master-workbook-history' if master == MASTER.resolve() else master.parent / 'workbook-history'
             backup = history / (before_hash + '.xlsx')
             backup.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(master, backup)

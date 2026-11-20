@@ -1,0 +1,14 @@
+{
+  "candidate_amplitude_us": 0.5016500366136958,
+  "candidate_delta_chi2": 8.477090641871392,
+  "diagnostic_p_plus_one": 0.9688109161793372,
+  "injection_count": 64,
+  "injection_recovered": 1,
+  "maximum_delta_chi2": 15.629155182266034,
+  "model": "red64",
+  "null_count": 512,
+  "null_exceedances": 496,
+  "null_maxima_sha256": "0c9830e730e72957e1efa2f2feab712097761366aad7aca9ae08e34e8162c6f0",
+  "review_code_sha256": "c610f1b0066d952fc79174414e206a698a8844e32dfd16c25ebdf34b6f0bd9f5",
+  "strongest_eligible_period_days": 67.50194219654254
+}

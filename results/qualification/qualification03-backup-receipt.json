@@ -1,0 +1,1636 @@
+{
+  "status": "pass",
+  "created_at_utc": "2026-11-17T05:58:45.567110+00:00",
+  "source": "../Project Recherche Data/qualification-03-20261116",
+  "archive": "../Recherche Recovery/20260907T223404/qualification03-terminal-evidence.tar",
+  "archive_sha256": "d73550609c08a328f901ec700180c2c2cbdc1fc33a53ff89389e88f167b4ac6b",
+  "file_count": 404,
+  "excluded": [
+    "development",
+    "threshold-study-40",
+    "threshold-study-trial-conservative",
+    "threshold-study-trial-point-quantile",
+    "development-solver-check.log"
+  ],
+  "exact_file_set_verified": true,
+  "archived_content_hashes_verified": true,
+  "source_after_hashes_verified": true,
+  "files": {
+    "compare_with_qualification02.py": {
+      "sha256": "1d35924edf61c4627e1e75b32ca71de5abed1db6bb969600a8e2c2dbae7280bc",
+      "size_bytes": 2628
+    },
+    "data/.project-recherche-data-root.json": {
+      "sha256": "2d91eefde8e56f68784849a71c77b23b0235b08e3959cdd3ee57c8bb210586a0",
+      "size_bytes": 175
+    },
+    "data/controlled/clock-overrides/gps2utc.clk": {
+      "sha256": "f4409a787ef168bbb4d2eceb4cd14c958d549c099607b3fdd301797546d28638",
+      "size_bytes": 339264
+    },
+    "data/controlled/clock-overrides/tai2tt_bipm2019.clk": {
+      "sha256": "3d1e27041f0c7a6c7aa79d2d6d5b90235ac2e73d436defcfc6e8d6fcdd78f512",
+      "size_bytes": 36459
+    },
+    "data/controlled/clock-overrides/time_ao.dat": {
+      "sha256": "7e1755bb794d84bb7e585d556dcf46fffde159ea5d7f9543cd54e7fcb55bf86d",
+      "size_bytes": 492183
+    },
+    "data/controlled/clock-overrides/time_gbt.dat": {
+      "sha256": "060493be69cd421ce383a91631f089c22e8ed58fb322fdd9f1c4ed3ff2d2797b",
+      "size_bytes": 400170
+    },
+    "data/controlled/nanograv15yr-v2.1.0/wideband/par/B1937+21_PINT_20230131.wb.par": {
+      "sha256": "1791d09c03bce63381018035ffcd0052406e1f3394aa119b5f469eff99b5a083",
+      "size_bytes": 44433
+    },
+    "data/controlled/nanograv15yr-v2.1.0/wideband/tim/B1937+21_PINT_20230131.wb.tim": {
+      "sha256": "4dde72540e60e1950b284360cf6517e75ddad5a79564b2cab683f9c974d7901d",
+      "size_bytes": 360761
+    },
+    "data/derived/cache-v0.2.8/ephemerides/de440.bsp": {
+      "sha256": "a4ce9bf9b3282becc9f4b2ac3cebe03a2ae7599981aabd7265fd8482fff7c4b5",
+      "size_bytes": 119799808
+    },
+    "data/derived/cache-v0.2.8/iers/Leap_Second.dat": {
+      "sha256": "6cb6f5d4b819f2e568e25db4b0b26d89dedf031fdffb18bc94d40f4e94e268d7",
+      "size_bytes": 1352
+    },
+    "data/derived/cache-v0.2.8/iers/ReadMe.eopc04": {
+      "sha256": "42d7890543fae69df024219d1d36f242b4fcd847f6f8a756c7d37c5dfd100243",
+      "size_bytes": 3275
+    },
+    "data/derived/cache-v0.2.8/iers/ReadMe.finals2000A": {
+      "sha256": "7c6182cc0fd0cbece39711f648d15e48b49168925602e360a5709c5ccc8d5a12",
+      "size_bytes": 3429
+    },
+    "data/derived/cache-v0.2.8/iers/eopc04.1962-now": {
+      "sha256": "f04b166d36f9dde242d3aaae8349a53b8b0b69d287941dcbbfd05cadcb00c673",
+      "size_bytes": 5158836
+    },
+    "data/derived/cache-v0.2.8/iers/finals2000A.all": {
+      "sha256": "f707ea5031a467f1a3b2f0645fac2f627095ed0cb41d34c515b495cb81a5a25d",
+      "size_bytes": 3756992
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0301-p2r3-inj-annual-p00-h00-n00.json": {
+      "sha256": "8a65fda5c169adb03b532a923da7db694fcf3aa8bacd32caf08ea5febc29023a",
+      "size_bytes": 3217
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0302-p2r3-inj-annual-p00-h01-n00.json": {
+      "sha256": "fdddf81e31ab2e483f818a1338789dd7acee5435247d26934dde74d18852ae5b",
+      "size_bytes": 3230
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0303-p2r3-inj-annual-p00-h02-n00.json": {
+      "sha256": "bc42e28821335943ec0964995943525b75d9c9da111983617bff22b6bf7487d9",
+      "size_bytes": 3228
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0304-p2r3-inj-annual-p00-h03-n00.json": {
+      "sha256": "2b5209381ab45eb89bb8837c2e9b29e53a8b596ade337071c863f146637861c5",
+      "size_bytes": 3224
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0305-p2r3-inj-annual-p01-h00-n00.json": {
+      "sha256": "922bdac12ee12a0360accc160369b59a0ff4209a09f8f1fc8b99e95580376b61",
+      "size_bytes": 3201
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0306-p2r3-inj-annual-p01-h01-n00.json": {
+      "sha256": "b3a4e266ae4ddefd71029c21f807a8bd1a646faf481dcce1fc90118296502448",
+      "size_bytes": 3228
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0307-p2r3-inj-annual-p01-h02-n00.json": {
+      "sha256": "bf6876c3df731f8a6e00707c821378e23259d27b7a33cfa34840074ffd2fc904",
+      "size_bytes": 3237
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0308-p2r3-inj-annual-p01-h03-n00.json": {
+      "sha256": "713be4ae63bab03fee7c34025b21cf7cb8789a16edea765aadc1243d7e431385",
+      "size_bytes": 3243
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0309-p2r3-inj-annual-p02-h00-n00.json": {
+      "sha256": "5c9fbd21018346a21d8879cb7bd4bea388420515a11d4aa471bf1ccd46238224",
+      "size_bytes": 3197
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0310-p2r3-inj-annual-p02-h01-n00.json": {
+      "sha256": "dbcb34ccad652e10322a2eab121971c87dca8cb408c9450093e0c51acdd8b243",
+      "size_bytes": 3973
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0311-p2r3-inj-annual-p02-h02-n00.json": {
+      "sha256": "a317ff9ab3ff5094ff65051fd4592d45d05e9e19d458a79db38fde1a6110aead",
+      "size_bytes": 3234
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0312-p2r3-inj-annual-p02-h03-n00.json": {
+      "sha256": "d2ee6fb83d314c72b68f130cdd50c5730b12bbb8e52abf43e4448128cb230467",
+      "size_bytes": 3236
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0313-p2r3-inj-annual-p03-h00-n00.json": {
+      "sha256": "61b18d135b0f3d793021180d35ac0caf37c4456d9b137bd38c1868c556b123a2",
+      "size_bytes": 3175
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0314-p2r3-inj-annual-p03-h01-n00.json": {
+      "sha256": "6649e51002b2a0f5a57a472bb58e12631c68b5af65a609c0d32070248a591a0a",
+      "size_bytes": 3210
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0315-p2r3-inj-annual-p03-h02-n00.json": {
+      "sha256": "0df2ce17b560f82900365e38435d0546f930d77a20fec61e14e9e68a8ee45ff9",
+      "size_bytes": 3949
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0316-p2r3-inj-annual-p03-h03-n00.json": {
+      "sha256": "0366bcc7028e9825a02e07e6c5bc9e73ddd3f9cfe3408361146098fa7e69c9e9",
+      "size_bytes": 3206
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0317-p2r3-inj-annual-p04-h00-n00.json": {
+      "sha256": "d8d60d760290adceef74b2bcfe79bd282a6c7f3daba1376c06ce90422a66af02",
+      "size_bytes": 3213
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0318-p2r3-inj-annual-p04-h01-n00.json": {
+      "sha256": "fb8198c5877135b324cfa67c6d46679b05571be7280ba1a8b68574ee6d5a8584",
+      "size_bytes": 3224
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0319-p2r3-inj-annual-p04-h02-n00.json": {
+      "sha256": "eeb784c27efc3c72ac57be8ce80c542416d3bb0f001b7299f13f5216a9bfddc9",
+      "size_bytes": 3218
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0320-p2r3-inj-annual-p04-h03-n00.json": {
+      "sha256": "7388b375d72a7f6fb0a873779c4e31596161967c3353ec5a3a55548ba4c29c08",
+      "size_bytes": 3993
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0321-p2r3-inj-annual-p05-h00-n00.json": {
+      "sha256": "759fb9ba6a004b5ae1845f1389756bb5228af4a4ac25f90e6fc52758ac10b312",
+      "size_bytes": 3212
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0322-p2r3-inj-annual-p05-h01-n00.json": {
+      "sha256": "0d0b31620374c57ed9a1143177309991820f6fc3ca2e26f8581b204c2ae4faf0",
+      "size_bytes": 3224
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0323-p2r3-inj-annual-p05-h02-n00.json": {
+      "sha256": "506472577008a228be87f9e98fd62ad3337bf6f4d7b05b935f51051fe8de0430",
+      "size_bytes": 3245
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0324-p2r3-inj-annual-p05-h03-n00.json": {
+      "sha256": "8257bc3a4194926498da5e64877d4b9a5ed179e65fc0ea44ef2acd5b78ca9042",
+      "size_bytes": 3243
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0325-p2r3-inj-annual-p06-h00-n00.json": {
+      "sha256": "9265c373c234f6d71b1eceb61830569114d1ce707daf83d8c01410e717ee6203",
+      "size_bytes": 3959
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0326-p2r3-inj-annual-p06-h01-n00.json": {
+      "sha256": "cdc021af5aa9dbf03262f43a320c2a63cea149deeeb6fdc0cdf915c76267849a",
+      "size_bytes": 3237
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0327-p2r3-inj-annual-p06-h02-n00.json": {
+      "sha256": "7c9039882bb05470a99a6c9b27f9479138370dc5030ef876b330594f834f959b",
+      "size_bytes": 3243
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/annual/0328-p2r3-inj-annual-p06-h03-n00.json": {
+      "sha256": "0d5cb6cee23d07cc4d85ae9797f2944bf7b79590811cd1a898ba973298b9d037",
+      "size_bytes": 3241
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/boundary/0329-p2r3-inj-boundary-p00-a00-h00-n00.json": {
+      "sha256": "c6124c624ead3755449fa553e902edf787c1cd0dea6841c09ba4526aadd36cdf",
+      "size_bytes": 3230
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/boundary/0330-p2r3-inj-boundary-p00-a00-h01-n00.json": {
+      "sha256": "6e9e55b84efd35ecd5d46818add39e0042339761572ec1c45a2a92eb42d81334",
+      "size_bytes": 4010
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/boundary/0331-p2r3-inj-boundary-p00-a00-h02-n00.json": {
+      "sha256": "656a8e440805be41e81a438033fe6493e7d4abec60e1cf46558a39f8ca2cf196",
+      "size_bytes": 3266
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/boundary/0332-p2r3-inj-boundary-p00-a00-h03-n00.json": {
+      "sha256": "fb31154bca137ffbe167105848709196290c71850528c2ae5fa4620cd44d9bc4",
+      "size_bytes": 3244
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/boundary/0333-p2r3-inj-boundary-p00-a01-h00-n00.json": {
+      "sha256": "fdae93ef36655d4e8e5540f3d269ab21cb132b031ff1121ec0d3a7e21a31573d",
+      "size_bytes": 3225
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/boundary/0334-p2r3-inj-boundary-p00-a01-h01-n00.json": {
+      "sha256": "c49465ea423b90340d4ae924e8faa0c7d453c1d44948f8ca22f12a1f46d8d979",
+      "size_bytes": 3246
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/boundary/0335-p2r3-inj-boundary-p00-a01-h02-n00.json": {
+      "sha256": "5b6f98ecac0c07c6ec492ef27ee8ec275f55511aa3d016eb33ff0c4983eb01e6",
+      "size_bytes": 3243
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/boundary/0336-p2r3-inj-boundary-p00-a01-h03-n00.json": {
+      "sha256": "8c6a8c3060bb3fed2cbaeb4390de199da9c0a5a03d2bc66ca073b28fefc1e365",
+      "size_bytes": 3259
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/boundary/0337-p2r3-inj-boundary-p01-a00-h00-n00.json": {
+      "sha256": "e09904c74d152c31c2009ecd4b4658d2879b7c397875c70d7198efd6297fd818",
+      "size_bytes": 3227
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/boundary/0338-p2r3-inj-boundary-p01-a00-h01-n00.json": {
+      "sha256": "475236c5890fe8378a3b620f7bcdb4b05f3525e1b9d7344fa03f7da232744984",
+      "size_bytes": 3246
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/boundary/0339-p2r3-inj-boundary-p01-a00-h02-n00.json": {
+      "sha256": "fd417a998eef83fafc5c955bce15e69d6e21827a95e5fe935ae05462fd46dff2",
+      "size_bytes": 3260
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/boundary/0340-p2r3-inj-boundary-p01-a00-h03-n00.json": {
+      "sha256": "e89957ee288f23ce6239e60718bc9aaa5fbb8a396cc3ff1ab8704262634d5d9c",
+      "size_bytes": 3255
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/boundary/0341-p2r3-inj-boundary-p01-a01-h00-n00.json": {
+      "sha256": "fccc5368fbdec18baaee13d130dc310dc6a075d795e11361cc68f73cf8885f99",
+      "size_bytes": 3216
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/boundary/0342-p2r3-inj-boundary-p01-a01-h01-n00.json": {
+      "sha256": "78412e3c42f54d18be5489f8ab92393ce1dc32c1bcc3f05055a2b43e00209d67",
+      "size_bytes": 3246
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/boundary/0343-p2r3-inj-boundary-p01-a01-h02-n00.json": {
+      "sha256": "5613179b5bc7e504aed613a1c9c14c97571bcaac7937dbef3665154c9713797d",
+      "size_bytes": 3261
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/boundary/0344-p2r3-inj-boundary-p01-a01-h03-n00.json": {
+      "sha256": "04a085fc54641c88eb39a09d2d7fed5243b6168371005802ff5ba587f6af56cd",
+      "size_bytes": 3257
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0001-p2r3-inj-main-p00-a00-h00-n00.json": {
+      "sha256": "1db5af4f52f84bb16f281c141d0396df786be3009a5ea687fc46e8471e0d2915",
+      "size_bytes": 3210
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0002-p2r3-inj-main-p00-a00-h00-n01.json": {
+      "sha256": "1cdbe87692250c9d87af1b532a3388addf4aff2cbd170b9c56a4790532723e5f",
+      "size_bytes": 3222
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0003-p2r3-inj-main-p00-a00-h00-n02.json": {
+      "sha256": "fb69a6671a8c3f907c9eb1cdfcc5e34dd73437cdfdf7b1f74ef5b358176425c9",
+      "size_bytes": 3203
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0004-p2r3-inj-main-p00-a00-h01-n00.json": {
+      "sha256": "ce9b043ce01d21bb714715b6833fb49a3fff0f3f7ab06382e5a0ce2ffa98b426",
+      "size_bytes": 3233
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0005-p2r3-inj-main-p00-a00-h01-n01.json": {
+      "sha256": "f3175569b1f8c2fddcef6bcab1228757326f21490dcbc607e2a86fe35d20f10d",
+      "size_bytes": 3250
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0006-p2r3-inj-main-p00-a00-h01-n02.json": {
+      "sha256": "93b4ed62e640d833dc05ac65921cce758c92d3424952671ba0951bb7e9f9847f",
+      "size_bytes": 3238
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0007-p2r3-inj-main-p00-a00-h02-n00.json": {
+      "sha256": "d407cc29f4daf7e26fa3d8b8b9a79679c74887fe901bc6720c17ae7676df4a5f",
+      "size_bytes": 3239
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0008-p2r3-inj-main-p00-a00-h02-n01.json": {
+      "sha256": "b374fbc5cdd865d8a13a4c882e62d4fc5b29fa78b496934f08b83c7b8f25d9e5",
+      "size_bytes": 3237
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0009-p2r3-inj-main-p00-a00-h02-n02.json": {
+      "sha256": "9ac4d4d54918a5f8f2181e52d53a229efa07c11c302ebdcdca6670f5534d311c",
+      "size_bytes": 3251
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0010-p2r3-inj-main-p00-a00-h03-n00.json": {
+      "sha256": "a4d24d0cfd892d52d1ac5f880f93c89e58231503c891b0355d4340b5b8d28d8a",
+      "size_bytes": 3252
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0011-p2r3-inj-main-p00-a00-h03-n01.json": {
+      "sha256": "968771036acd674af0575c82ac9f91b1f674f53dd749ac4db3c768692c337fe6",
+      "size_bytes": 3253
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0012-p2r3-inj-main-p00-a00-h03-n02.json": {
+      "sha256": "0d88fc9b3bce9523dabf1f652ad86ba620366262347ba394f73980d2eeb27a0c",
+      "size_bytes": 3228
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0013-p2r3-inj-main-p00-a01-h00-n00.json": {
+      "sha256": "83767e271221390d46216f5c982b85f1a70dd4b18bd5287c8f0ea8894d1528d4",
+      "size_bytes": 3205
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0014-p2r3-inj-main-p00-a01-h00-n01.json": {
+      "sha256": "edc2cab59f3c5df46f2fa83250859c6f586dcb5ef583f5839909b1daa277a42f",
+      "size_bytes": 3209
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0015-p2r3-inj-main-p00-a01-h00-n02.json": {
+      "sha256": "1a568d01fce6051d86b82744ac8712c508cd57da263c460b6a75ab976fe63953",
+      "size_bytes": 3224
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0016-p2r3-inj-main-p00-a01-h01-n00.json": {
+      "sha256": "fb75be3fc7b441428af5cd88ae3e65a4b6d625b64dfdb84db4e834c0f78ae44b",
+      "size_bytes": 3232
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0017-p2r3-inj-main-p00-a01-h01-n01.json": {
+      "sha256": "657565e35d68a1263cbb568169e053578f02f8e0310dc385a815412e4c54ccaf",
+      "size_bytes": 3248
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0018-p2r3-inj-main-p00-a01-h01-n02.json": {
+      "sha256": "bbc84a3c848ef8991ec5266732dda75c8e7776a3d2e8d9eef8dd4df769d52670",
+      "size_bytes": 3248
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0019-p2r3-inj-main-p00-a01-h02-n00.json": {
+      "sha256": "c19c8b3c28f4899b883d3e2835d0d6249a7e31839eae067fddd300df622f5b00",
+      "size_bytes": 3235
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0020-p2r3-inj-main-p00-a01-h02-n01.json": {
+      "sha256": "c9158ecf82eff858a6815a2fb35bf4da04fbed1991671c485ba5e3a38221f900",
+      "size_bytes": 3229
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0021-p2r3-inj-main-p00-a01-h02-n02.json": {
+      "sha256": "d816cac81bba253e4c6ddd7c37d6cd8bb54f4011fdae4616a213ebfd62eca148",
+      "size_bytes": 3235
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0022-p2r3-inj-main-p00-a01-h03-n00.json": {
+      "sha256": "e74cea628b4b6d4ca37cdc372841f7f23850e32bee25c63933be2c1cca158130",
+      "size_bytes": 3234
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0023-p2r3-inj-main-p00-a01-h03-n01.json": {
+      "sha256": "e0deef6d13a529b31455bd66430bf2fd90bbcacb16355f37fcbffa55aa13acf4",
+      "size_bytes": 3243
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0024-p2r3-inj-main-p00-a01-h03-n02.json": {
+      "sha256": "fdc2772c2540b20bbea4fd1ba8e32ef3b87abaa46be1fe0422a9ccf3ffe994f6",
+      "size_bytes": 3233
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0025-p2r3-inj-main-p00-a02-h00-n00.json": {
+      "sha256": "43c73b57d58cd894c65e2a09f75d9b5e2d9f5312d3a7221ffe53847fe03e413b",
+      "size_bytes": 3976
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0026-p2r3-inj-main-p00-a02-h00-n01.json": {
+      "sha256": "d0ecfbaef61d2dadb9e8a7e6a171994c11b0f3d0c9335ab5cec30e80bffd8190",
+      "size_bytes": 3218
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0027-p2r3-inj-main-p00-a02-h00-n02.json": {
+      "sha256": "b176863a63ca706ab72c3921576ace1f9270f9b4dbed7fc587b8cd0d47b64fd8",
+      "size_bytes": 3215
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0028-p2r3-inj-main-p00-a02-h01-n00.json": {
+      "sha256": "3514148bc8b520702e2b5701676eea8f7e1d70771f6ce17c48d9636f01573793",
+      "size_bytes": 3232
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0029-p2r3-inj-main-p00-a02-h01-n01.json": {
+      "sha256": "48a5e48ab4b5bce7d85d159292bab4afca5dc9f83930958f1a19bd1e2dae935f",
+      "size_bytes": 3245
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0030-p2r3-inj-main-p00-a02-h01-n02.json": {
+      "sha256": "1b1af805d133589b504d336f9d2d0e8bdeddcea20521f7c424aa29bc7586d83a",
+      "size_bytes": 3230
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0031-p2r3-inj-main-p00-a02-h02-n00.json": {
+      "sha256": "935d9c8ade002d2ea339ce709852ddae3bd30708ba4210b724c674146647846e",
+      "size_bytes": 3229
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0032-p2r3-inj-main-p00-a02-h02-n01.json": {
+      "sha256": "0ff8db6b66d3176cad8a8ed87b997f95118a4007b865f809bf34e862bb924255",
+      "size_bytes": 3249
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0033-p2r3-inj-main-p00-a02-h02-n02.json": {
+      "sha256": "f35537f68edb72b311e8bb67c553e39363ff396e87798da8b6c7e24381313834",
+      "size_bytes": 4006
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0034-p2r3-inj-main-p00-a02-h03-n00.json": {
+      "sha256": "cfe485d7f03d9463668c7a5da75b2ae77569ddaadca1d77fe987ac2a9b49498a",
+      "size_bytes": 3232
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0035-p2r3-inj-main-p00-a02-h03-n01.json": {
+      "sha256": "556f173130d66165288fa430532f76ec1a84ba6255d763b0f4996d34a06f949e",
+      "size_bytes": 3240
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0036-p2r3-inj-main-p00-a02-h03-n02.json": {
+      "sha256": "908cbd47668c5c999d66608b108337ab5bb2f8ef8afc752496b5c7d10b2b93cd",
+      "size_bytes": 3230
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0037-p2r3-inj-main-p00-a03-h00-n00.json": {
+      "sha256": "5e1ee87dd6e4a3103d76f86b78069331b60e2e5af768b279badc0eace2b61904",
+      "size_bytes": 3197
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0038-p2r3-inj-main-p00-a03-h00-n01.json": {
+      "sha256": "883d747fc07e09b321a14253f19ce2e37f57fad1f0aa379dc56cd9ad450928c7",
+      "size_bytes": 3202
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0039-p2r3-inj-main-p00-a03-h00-n02.json": {
+      "sha256": "d6ee68634ab06baeb0ccf1c0f65801a03fda712a13625fce28ade17c0b44f354",
+      "size_bytes": 3232
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0040-p2r3-inj-main-p00-a03-h01-n00.json": {
+      "sha256": "628dce64166bd6ef3cd352d82a4619b6b063ce413a4e249619703abdca8093dd",
+      "size_bytes": 3233
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0041-p2r3-inj-main-p00-a03-h01-n01.json": {
+      "sha256": "6b726ab8f5cad1e34bbdf3c86474704c57098c1f1cac384c3b37aeb86f7c509f",
+      "size_bytes": 3233
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0042-p2r3-inj-main-p00-a03-h01-n02.json": {
+      "sha256": "e05a5442f5aa7f94e9488a431a6a6ddf76f15502f284d2056281e23880f779ea",
+      "size_bytes": 3234
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0043-p2r3-inj-main-p00-a03-h02-n00.json": {
+      "sha256": "35306330e40618a3f57c9e859b0b57cc9fea443bb863f93c0f58feb8374758db",
+      "size_bytes": 3235
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0044-p2r3-inj-main-p00-a03-h02-n01.json": {
+      "sha256": "8c7214ed966f0b5f3f6a5529fc2e794ef077b15e38f5cb2c5f8c7b3cc911f472",
+      "size_bytes": 3232
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0045-p2r3-inj-main-p00-a03-h02-n02.json": {
+      "sha256": "acb32c9bc873de009ea5ed07925d6e63564bf45802600f06067047e493c26c9a",
+      "size_bytes": 3231
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0046-p2r3-inj-main-p00-a03-h03-n00.json": {
+      "sha256": "192f3f0325de28110a91ddd033a045beff6f3c65891e407acb2d9cd7fa5f1bb2",
+      "size_bytes": 3226
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0047-p2r3-inj-main-p00-a03-h03-n01.json": {
+      "sha256": "8e571072df93d9760375ad5ed90d6e04d3f0a06b1648dcdc54c1cc5a71429953",
+      "size_bytes": 3231
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0048-p2r3-inj-main-p00-a03-h03-n02.json": {
+      "sha256": "09f46499d019ec9270f1527e0026f7b065ff49eea2dc16f118c0776b3f82e1c3",
+      "size_bytes": 3994
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0049-p2r3-inj-main-p01-a00-h00-n00.json": {
+      "sha256": "937c7eb6622eea5961c14c63146f2a2126d240f5bfa36fd719d925bc2dbd59a1",
+      "size_bytes": 3222
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0050-p2r3-inj-main-p01-a00-h00-n01.json": {
+      "sha256": "efe52a2ad9394d4ba02e27afb47dc380f5c27858a50d1ba02f2b5f43373d9d9f",
+      "size_bytes": 3230
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0051-p2r3-inj-main-p01-a00-h00-n02.json": {
+      "sha256": "49a075b8a2cf79fb2f7c487a64f17cac2a85b1c0bf5c20140c1bdccfae2b2fb3",
+      "size_bytes": 3207
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0052-p2r3-inj-main-p01-a00-h01-n00.json": {
+      "sha256": "f2052c65c2298ffff9bd457e7f03ac0e49c8d7f2b9890f273cb51edecf090e58",
+      "size_bytes": 3242
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0053-p2r3-inj-main-p01-a00-h01-n01.json": {
+      "sha256": "4a578b0b98c47fe7a20506dab834d07d6ee2bc253ec2c54577f1a0c7c995c8db",
+      "size_bytes": 3255
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0054-p2r3-inj-main-p01-a00-h01-n02.json": {
+      "sha256": "6daa497ff53b57c7815fee329bac18ae62ab04b6110ba4d29d47dd6d7c7239fe",
+      "size_bytes": 3239
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0055-p2r3-inj-main-p01-a00-h02-n00.json": {
+      "sha256": "c290489835cd1dfb3a4b5935e30c4805c118c2d9dad9254a0138c61d6496b3da",
+      "size_bytes": 3236
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0056-p2r3-inj-main-p01-a00-h02-n01.json": {
+      "sha256": "cb306656ee20794e249996515da1a6c8187db44ff1a170badca41235a0bf36db",
+      "size_bytes": 3254
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0057-p2r3-inj-main-p01-a00-h02-n02.json": {
+      "sha256": "af3ef1df8a3b08984517548c6f9c37892b9281cb871db207c1c00de33f054bcc",
+      "size_bytes": 3256
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0058-p2r3-inj-main-p01-a00-h03-n00.json": {
+      "sha256": "1fd7a8f0b42dc2ac39722724e410f79b0e8fe3f99459dac73fc7da46188c95c3",
+      "size_bytes": 3254
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0059-p2r3-inj-main-p01-a00-h03-n01.json": {
+      "sha256": "26f8ba9947329cceff88ddb3a3cf1a8303c2cd43e754a1f08dff9226559efe84",
+      "size_bytes": 3240
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0060-p2r3-inj-main-p01-a00-h03-n02.json": {
+      "sha256": "f2458daeda8f82f0ed1e8608483e143c56bd326cdb7b6dde4ca1dce1353a572a",
+      "size_bytes": 4000
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0061-p2r3-inj-main-p01-a01-h00-n00.json": {
+      "sha256": "3fa8dc193fe256e3dc5c24a4ea4552f819decd11143b8ed80fa2dbad495f8298",
+      "size_bytes": 3970
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0062-p2r3-inj-main-p01-a01-h00-n01.json": {
+      "sha256": "bb2d09f608d12064a4d669417b2208efc57b9e1de7c7ea7b93991359e19e8c66",
+      "size_bytes": 3218
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0063-p2r3-inj-main-p01-a01-h00-n02.json": {
+      "sha256": "413348079a1888c67f12cbb57fabd507da8f292f429b0b859224d9a1dc979aa1",
+      "size_bytes": 3223
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0064-p2r3-inj-main-p01-a01-h01-n00.json": {
+      "sha256": "c68cc901d551d931c58f881d500a1b62cce3680db727c1dfa7fe1d4a0010c152",
+      "size_bytes": 3237
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0065-p2r3-inj-main-p01-a01-h01-n01.json": {
+      "sha256": "7dab964de9396a6e51eec060c48625cb9d49cdfe7b19fd300cc835bc35ba71eb",
+      "size_bytes": 3256
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0066-p2r3-inj-main-p01-a01-h01-n02.json": {
+      "sha256": "8233073f202b960c910f6ae1f5fa0c9a7b7c21ca6e56a5d86bf5a6a59e62883a",
+      "size_bytes": 3998
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0067-p2r3-inj-main-p01-a01-h02-n00.json": {
+      "sha256": "b26b56e889e7b99cc418db65c4afd061dfc5e4812b4e60f8c52d165947541fa1",
+      "size_bytes": 3238
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0068-p2r3-inj-main-p01-a01-h02-n01.json": {
+      "sha256": "f13fb6ef6eefe4ba7d461aa0fd5d7c409c9de600be9fc07695f042aecb953a15",
+      "size_bytes": 3252
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0069-p2r3-inj-main-p01-a01-h02-n02.json": {
+      "sha256": "e4810613eb60849c89bae2a6eab2ef4c59b8482f434dffb2964e7a93ab899d05",
+      "size_bytes": 3257
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0070-p2r3-inj-main-p01-a01-h03-n00.json": {
+      "sha256": "534884e2a499e5f859075f7276070f3b68d37b42be828f09ff236dc850de99c7",
+      "size_bytes": 3250
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0071-p2r3-inj-main-p01-a01-h03-n01.json": {
+      "sha256": "35b716efe3560b16e09623b51af600d55ccac25a03a4f2ae159efec3866bf271",
+      "size_bytes": 3235
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0072-p2r3-inj-main-p01-a01-h03-n02.json": {
+      "sha256": "92e462010316d53d5aaa340cba2a1f6924f17293473c86e11be27bb59787608a",
+      "size_bytes": 3256
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0073-p2r3-inj-main-p01-a02-h00-n00.json": {
+      "sha256": "60a6a96321377e7e433daa66258b9bd4151c34c015b6015b2ab80135de8a2661",
+      "size_bytes": 3208
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0074-p2r3-inj-main-p01-a02-h00-n01.json": {
+      "sha256": "6acacce40cf86c9f451012a6b7d2e439982b6ca9a7b2e37039d74831fc4cbd77",
+      "size_bytes": 3207
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0075-p2r3-inj-main-p01-a02-h00-n02.json": {
+      "sha256": "94dfeb653c17d7b6a67d91b46719f545bf49b7a8c95817256c74337cbc6e5276",
+      "size_bytes": 3226
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0076-p2r3-inj-main-p01-a02-h01-n00.json": {
+      "sha256": "ba590704c5abf4c3e7d0543fa4a7cf7c83c1324399f2012f9047bff69cc2698c",
+      "size_bytes": 4010
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0077-p2r3-inj-main-p01-a02-h01-n01.json": {
+      "sha256": "772dcd05fec2efdf15fc5c8d370c2c98fd8c3b064cf2ded87a4b60e2af87339c",
+      "size_bytes": 4009
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0078-p2r3-inj-main-p01-a02-h01-n02.json": {
+      "sha256": "797dbd71766a2bbfc05bea517972c3b90ef332bd63da8039f6cc08e412d88e59",
+      "size_bytes": 3237
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0079-p2r3-inj-main-p01-a02-h02-n00.json": {
+      "sha256": "d117eae58f5287484360a2c6457d3c44afead8f45087b6fc278f6b55011428f8",
+      "size_bytes": 3237
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0080-p2r3-inj-main-p01-a02-h02-n01.json": {
+      "sha256": "355f4886769250de20eb3eb3102931007bc1eba184766ed07f936b653f8272a9",
+      "size_bytes": 3232
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0081-p2r3-inj-main-p01-a02-h02-n02.json": {
+      "sha256": "f217d4bfdc51f51251fa6a80a488a75c0c0e8f7010c3c1334736337acdf822bf",
+      "size_bytes": 3234
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0082-p2r3-inj-main-p01-a02-h03-n00.json": {
+      "sha256": "b096bead0a34a0ddd7fc16aaf4214eec780741b550fedfd183cc0a39b8d9afd6",
+      "size_bytes": 3235
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0083-p2r3-inj-main-p01-a02-h03-n01.json": {
+      "sha256": "46a8b9ddb454bfbd70de6475764317b41fccbe32169e2ed528cefea448cbeda3",
+      "size_bytes": 4002
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0084-p2r3-inj-main-p01-a02-h03-n02.json": {
+      "sha256": "f79cfe50ce5ca1c06329775f5a29bfdd8354162642a9b35c2236775afded6a9d",
+      "size_bytes": 3254
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0085-p2r3-inj-main-p01-a03-h00-n00.json": {
+      "sha256": "175a8d64e74d77a724e7b843d5d94e84d093badd542cc5886a387a0391961dbb",
+      "size_bytes": 3212
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0086-p2r3-inj-main-p01-a03-h00-n01.json": {
+      "sha256": "e4294218e534095710b6a4974e5e1a6e10488ed1f70622d1d3d2a6b8ba9ba1c0",
+      "size_bytes": 3212
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0087-p2r3-inj-main-p01-a03-h00-n02.json": {
+      "sha256": "1cf8b0dc8e13959ae06d5def3e13bd29d2aaa171e402ca0e4798b3c54332e498",
+      "size_bytes": 3215
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0088-p2r3-inj-main-p01-a03-h01-n00.json": {
+      "sha256": "0633be8f51a32aa8738a651f8ed94b9dbc78e9485f0ff28231d8ba8e04ffe04d",
+      "size_bytes": 3238
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0089-p2r3-inj-main-p01-a03-h01-n01.json": {
+      "sha256": "12fc27ab4d0759fda61bc63f00460784e9a6c9b19775f5d7ef5762e981e8b077",
+      "size_bytes": 3233
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0090-p2r3-inj-main-p01-a03-h01-n02.json": {
+      "sha256": "b6fec5065f573801282bab3b7f23334c55e31e243133962791b03e553936c136",
+      "size_bytes": 3253
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0091-p2r3-inj-main-p01-a03-h02-n00.json": {
+      "sha256": "b3978668ad1dec1fe8ea4b076ab666af6fb6bf92af076ac2cce189ab84968677",
+      "size_bytes": 3240
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0092-p2r3-inj-main-p01-a03-h02-n01.json": {
+      "sha256": "4fc8bbcafe3c90000a7f027dcea38b09e3331093d129c5bdd52749be4fc44d46",
+      "size_bytes": 3239
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0093-p2r3-inj-main-p01-a03-h02-n02.json": {
+      "sha256": "4aaab7597d44e51bdb5f87c3461395cde340a2aa72197cacf05eac4db33a628b",
+      "size_bytes": 3237
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0094-p2r3-inj-main-p01-a03-h03-n00.json": {
+      "sha256": "f76feffdb20c76d075cae6a6971754b3d102ce588e1f9ca8678ec51ff163f0c5",
+      "size_bytes": 3230
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0095-p2r3-inj-main-p01-a03-h03-n01.json": {
+      "sha256": "c8ddd81017961fb142f3f17957363028f616140df42a5d5ade90ec1d7ffd8e50",
+      "size_bytes": 3247
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0096-p2r3-inj-main-p01-a03-h03-n02.json": {
+      "sha256": "36dbb6129837bdf1724328068876f30e33dcce733258789634720f9c715b9ef4",
+      "size_bytes": 3236
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0097-p2r3-inj-main-p02-a00-h00-n00.json": {
+      "sha256": "cf0c4f317b78bd36fdeda9bb205deb1012efbec0a94c5256b5673d07508276e5",
+      "size_bytes": 3204
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0098-p2r3-inj-main-p02-a00-h00-n01.json": {
+      "sha256": "c3713cac04e7d23916e0879600e0b23c081a614acc639c85d4d0262188035505",
+      "size_bytes": 3225
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0099-p2r3-inj-main-p02-a00-h00-n02.json": {
+      "sha256": "11851a3b8033f38937c6429a27f278706c4bacfe2afb83823ec174d19cededa8",
+      "size_bytes": 3971
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0100-p2r3-inj-main-p02-a00-h01-n00.json": {
+      "sha256": "f1043de014f190574a2d608a783e52604bd059409f45cdef630671b59937b726",
+      "size_bytes": 3254
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0101-p2r3-inj-main-p02-a00-h01-n01.json": {
+      "sha256": "f638a717fa884b80f3a36a6da0945112b7220c4d9e288a565524179410c3e104",
+      "size_bytes": 3252
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0102-p2r3-inj-main-p02-a00-h01-n02.json": {
+      "sha256": "a8e324f41222ab6ff071fe940c7713c0f10d15e5f08bbceb71059ea9f8c7859e",
+      "size_bytes": 3236
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0103-p2r3-inj-main-p02-a00-h02-n00.json": {
+      "sha256": "d9bb19e6e314f499fe1a6546691be0963637f01319325ddeed2d83861d7be5be",
+      "size_bytes": 3243
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0104-p2r3-inj-main-p02-a00-h02-n01.json": {
+      "sha256": "0f58e2c83cf1b0712d09d2b5f37ae6cfeb728fdd25c0bc68c3d60b0862329ac3",
+      "size_bytes": 3249
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0105-p2r3-inj-main-p02-a00-h02-n02.json": {
+      "sha256": "a095405c5e6d019cbfb3c2d8d5ee77ddcee4bfddb9084ccc02acc93b23bb5dfd",
+      "size_bytes": 3251
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0106-p2r3-inj-main-p02-a00-h03-n00.json": {
+      "sha256": "53efa37f630cc1394bbedcb2e7579c8d96b79f8b3600af6414067a9583d835e7",
+      "size_bytes": 3256
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0107-p2r3-inj-main-p02-a00-h03-n01.json": {
+      "sha256": "6c664de6de211a4b2bf2d2e7ab8b7cd0dccf5733690aa43306ecf586e3c6b51a",
+      "size_bytes": 3239
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0108-p2r3-inj-main-p02-a00-h03-n02.json": {
+      "sha256": "0d316e9068e6254a928b11339a1927b6d61248c070dc62745244d94a5ac96ed5",
+      "size_bytes": 3231
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0109-p2r3-inj-main-p02-a01-h00-n00.json": {
+      "sha256": "99d93ccc5f2589f04b243ad5a8261d34134c5d433ed245b188422e62778f3aa3",
+      "size_bytes": 3969
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0110-p2r3-inj-main-p02-a01-h00-n01.json": {
+      "sha256": "bdbc6b4e694cffdae44767910a4023c832f455d5b6968fc509ab55462c1779ef",
+      "size_bytes": 3212
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0111-p2r3-inj-main-p02-a01-h00-n02.json": {
+      "sha256": "5709c6fe0038d39ab7604c3cbcf9134d276a6a5edb436c027efd2ffbeec00e9a",
+      "size_bytes": 3204
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0112-p2r3-inj-main-p02-a01-h01-n00.json": {
+      "sha256": "e80e91f625bcdbcef71b31aa5727096c434ff952a59e929a78446a5708f518b3",
+      "size_bytes": 3236
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0113-p2r3-inj-main-p02-a01-h01-n01.json": {
+      "sha256": "4abbc58b330a3c6894478b9dd00ad743cafa0e40f76687f7b72fa3fa607474c3",
+      "size_bytes": 3236
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0114-p2r3-inj-main-p02-a01-h01-n02.json": {
+      "sha256": "3def9955cda6f1b65dbfae806260a677108cf2189f49d9a27cbaf0969bcfd822",
+      "size_bytes": 3253
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0115-p2r3-inj-main-p02-a01-h02-n00.json": {
+      "sha256": "ae15d1bd4e48381ec55e82e931ec9ab810d011c5f308bc04470130a7277a66be",
+      "size_bytes": 3993
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0116-p2r3-inj-main-p02-a01-h02-n01.json": {
+      "sha256": "db53640d6e295361d5e08ca959206b1f54a72b8f397455c2bfdc7361f17126db",
+      "size_bytes": 3255
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0117-p2r3-inj-main-p02-a01-h02-n02.json": {
+      "sha256": "2b1520174a799ca2bfdeae408fcd8864dfdb0134cace8dfecbb553152bdc7054",
+      "size_bytes": 3251
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0118-p2r3-inj-main-p02-a01-h03-n00.json": {
+      "sha256": "bf277764aa6c281d370bc550ca53daae39536030111d9f14604ea19c34d4d496",
+      "size_bytes": 3229
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0119-p2r3-inj-main-p02-a01-h03-n01.json": {
+      "sha256": "fd1a5dd5456848a589a34c11ecf0d656b1bcd3d6c22db09c54d792780cfca38f",
+      "size_bytes": 3247
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0120-p2r3-inj-main-p02-a01-h03-n02.json": {
+      "sha256": "49f6acd07b426664c258f68344b46ffebb50286a5544b5df8ac95bbbbe8df7d7",
+      "size_bytes": 3230
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0121-p2r3-inj-main-p02-a02-h00-n00.json": {
+      "sha256": "dc2e072c16b64e0fef7c4c7b06a0a70a0a68f62b288191213e5199b97ef55511",
+      "size_bytes": 3220
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0122-p2r3-inj-main-p02-a02-h00-n01.json": {
+      "sha256": "9d0cecb5ed1d70b2806385959c430cb4165600934be89c8062573f832034103d",
+      "size_bytes": 3205
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0123-p2r3-inj-main-p02-a02-h00-n02.json": {
+      "sha256": "a521fdaf1bc9fbcff14c2850d88aeaf29a119d394ef80c493b57e81435079bfb",
+      "size_bytes": 3200
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0124-p2r3-inj-main-p02-a02-h01-n00.json": {
+      "sha256": "e9afa8dd295545816b7d8d9063d8b3d67808a8ba9d71c6b7157fcae05a82faec",
+      "size_bytes": 3250
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0125-p2r3-inj-main-p02-a02-h01-n01.json": {
+      "sha256": "74ebc95ba485c35833d190d507d309e044184ff1eb1d66dd97ab2b15b3497ba3",
+      "size_bytes": 3990
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0126-p2r3-inj-main-p02-a02-h01-n02.json": {
+      "sha256": "338c1685e731613199ea819a1575cd9085e7792e8bec51342fe04f6a54eaf4fb",
+      "size_bytes": 3235
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0127-p2r3-inj-main-p02-a02-h02-n00.json": {
+      "sha256": "a0e7f2631eb66c256883330d3a7dff27115e7d0ce5883aa50a75c8a56ad122bd",
+      "size_bytes": 3993
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0128-p2r3-inj-main-p02-a02-h02-n01.json": {
+      "sha256": "bfa7cecb58bbf6ffdcd7ba50b6aaee56471fa274f6204b299215bbfc5596992d",
+      "size_bytes": 3251
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0129-p2r3-inj-main-p02-a02-h02-n02.json": {
+      "sha256": "c67d6c36ffbb6379b46df660a82f8f4a1e6c9786f8fd0c0e74aa246d6b421523",
+      "size_bytes": 3251
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0130-p2r3-inj-main-p02-a02-h03-n00.json": {
+      "sha256": "de1c675ccc3effc3eab673caa892da0efa3c4a8970d64e87d75fa254b2453de5",
+      "size_bytes": 3235
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0131-p2r3-inj-main-p02-a02-h03-n01.json": {
+      "sha256": "90d20f48cd3ca4ed45639b57ce4f38cfe0079186bc2495ef0205ea8f0ae2dd8c",
+      "size_bytes": 3228
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0132-p2r3-inj-main-p02-a02-h03-n02.json": {
+      "sha256": "581b0928dbf8de4820e60270dcf2e4da9ce13b21f3cb32ee93bf0e2f0fdd67f8",
+      "size_bytes": 3250
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0133-p2r3-inj-main-p02-a03-h00-n00.json": {
+      "sha256": "c1767f2a4e777c6001a921d54334516d6f007c9943ec6ec51e88c3e368d0f3a7",
+      "size_bytes": 3203
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0134-p2r3-inj-main-p02-a03-h00-n01.json": {
+      "sha256": "e63b0eff8bcae500424d060cc7db9b4c758ca24c025a1a41fae1f10ee8441345",
+      "size_bytes": 3219
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0135-p2r3-inj-main-p02-a03-h00-n02.json": {
+      "sha256": "0fd992892471ed1c16a59a1eb48d805ac9fbd5a8c9567960935bfa8d5fe8c8d7",
+      "size_bytes": 3222
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0136-p2r3-inj-main-p02-a03-h01-n00.json": {
+      "sha256": "8af7fc6f6b74ec914dfcec25bda7d8dc85a03a4438c8b26f43caf0b98781adc8",
+      "size_bytes": 3236
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0137-p2r3-inj-main-p02-a03-h01-n01.json": {
+      "sha256": "b8a1ea811c757d7a9d4de2650c6c01b4e6024b0b03ee91a6a0a6f5e8eb10e1b9",
+      "size_bytes": 3229
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0138-p2r3-inj-main-p02-a03-h01-n02.json": {
+      "sha256": "43b458d5f6cccdfca53d1931a8d143e5919cf9d7a5b86d15187fbcf40f5ef185",
+      "size_bytes": 3249
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0139-p2r3-inj-main-p02-a03-h02-n00.json": {
+      "sha256": "b6c75f0144334c4c6836bc7b5e307e8129b5ba5c52463f87ae2dce6cd6c9354a",
+      "size_bytes": 4004
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0140-p2r3-inj-main-p02-a03-h02-n01.json": {
+      "sha256": "fc08dd876feb05119a7f9561e3a674c7cdbc83d35b063cb1c50fc88191840b32",
+      "size_bytes": 3249
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0141-p2r3-inj-main-p02-a03-h02-n02.json": {
+      "sha256": "806e2e5e981dd192eab01028b462230a210cc756f846ba145e7d3d3e90c0c93d",
+      "size_bytes": 3240
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0142-p2r3-inj-main-p02-a03-h03-n00.json": {
+      "sha256": "f51aa2ae7b750647b3d588b0a08dfee10603a7e458ee279efc12847b3dacdc5c",
+      "size_bytes": 3232
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0143-p2r3-inj-main-p02-a03-h03-n01.json": {
+      "sha256": "247fe9d73ebce50f613df6a46d70ca951c0d6150583ceb5ec976f8c81fdc8c9a",
+      "size_bytes": 3246
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0144-p2r3-inj-main-p02-a03-h03-n02.json": {
+      "sha256": "9c96be9c328001e2a2a91925ea359a02b5fdf52e147b6de66925c3c60144b329",
+      "size_bytes": 3250
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0145-p2r3-inj-main-p03-a00-h00-n00.json": {
+      "sha256": "045c0a350e810326ffff67c85bcafe5b27a6c4e885e6f59e3deace9ed7c6d6fc",
+      "size_bytes": 3222
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0146-p2r3-inj-main-p03-a00-h00-n01.json": {
+      "sha256": "1850b94d732e40f12b17cf4843275a4edad23c06b6a7c264f478bfdc8cf08ecc",
+      "size_bytes": 3201
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0147-p2r3-inj-main-p03-a00-h00-n02.json": {
+      "sha256": "d41a79c7495918be51ed89476336d5f356689e45297ea9670d21790e909ccc16",
+      "size_bytes": 3220
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0148-p2r3-inj-main-p03-a00-h01-n00.json": {
+      "sha256": "fe012c448e7b3ca7fd1a8374ce2013f45ac5b4bef1e75fb2e34abda3ef9f8921",
+      "size_bytes": 3232
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0149-p2r3-inj-main-p03-a00-h01-n01.json": {
+      "sha256": "bd6ec373f4e42c225eb29b593e4275a1ed82f6a8f79976698bc784d3e35b8ec0",
+      "size_bytes": 3234
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0150-p2r3-inj-main-p03-a00-h01-n02.json": {
+      "sha256": "3dba73ae8c2ab539416d9a90dc21258e2077e9aef588676485cc1bcd1e05a3ae",
+      "size_bytes": 3248
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0151-p2r3-inj-main-p03-a00-h02-n00.json": {
+      "sha256": "8456bcf855788358724327d237e3dda094436df9ac463cc22962768a39276cd4",
+      "size_bytes": 3234
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0152-p2r3-inj-main-p03-a00-h02-n01.json": {
+      "sha256": "9f8779457adf04d12260d421682281a397f0ff2d309f96b075068ea4418e6038",
+      "size_bytes": 3235
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0153-p2r3-inj-main-p03-a00-h02-n02.json": {
+      "sha256": "cee0cb69531de16ae04461169b84ba11ae193a66eee26229351ed35a0df5b149",
+      "size_bytes": 3248
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0154-p2r3-inj-main-p03-a00-h03-n00.json": {
+      "sha256": "f10ddd2a0f447746e2bd5eac12a51b8b54dcffd8ed86c9f4c04f1d1e5994a5c1",
+      "size_bytes": 3250
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0155-p2r3-inj-main-p03-a00-h03-n01.json": {
+      "sha256": "3ffdc7afba88cbc49b437fc7121849cb078323e2ae29c11ba363626350e917c6",
+      "size_bytes": 3231
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0156-p2r3-inj-main-p03-a00-h03-n02.json": {
+      "sha256": "1486b56a6a616e5b60018d242dac1663e715551b6e05b736dfb71cf0a3cab381",
+      "size_bytes": 3247
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0157-p2r3-inj-main-p03-a01-h00-n00.json": {
+      "sha256": "f965759ce37dfc77ec32d20ddfbed502cfc6c86a3852d01d9125de959998dc62",
+      "size_bytes": 3208
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0158-p2r3-inj-main-p03-a01-h00-n01.json": {
+      "sha256": "fee8c96ca8d88cbe8665c6d4cffa66e29bad0f2d0867ce58388b13c725872080",
+      "size_bytes": 3221
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0159-p2r3-inj-main-p03-a01-h00-n02.json": {
+      "sha256": "11d395d96512b470ec823f6b973ac1f3f84505bdf7ff3320a21ec7fbddfd2d75",
+      "size_bytes": 3198
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0160-p2r3-inj-main-p03-a01-h01-n00.json": {
+      "sha256": "7c2eddcfce27f4ea91975076bce030feac1afe4657903eb9245a7ee108435ad6",
+      "size_bytes": 3233
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0161-p2r3-inj-main-p03-a01-h01-n01.json": {
+      "sha256": "1fa781ddd8d26d8ec7f041dedd2765705cdbe86f522dbb0c2a7847fc0a06d5ab",
+      "size_bytes": 3251
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0162-p2r3-inj-main-p03-a01-h01-n02.json": {
+      "sha256": "63e13f54c16f51bdfb678438b024ae5d381863bf84a0b24cea5e5737faa26635",
+      "size_bytes": 3250
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0163-p2r3-inj-main-p03-a01-h02-n00.json": {
+      "sha256": "42f83baf822791a89080d44482e0dc5a252e63a43b93377024e83e7cbd40e08e",
+      "size_bytes": 3250
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0164-p2r3-inj-main-p03-a01-h02-n01.json": {
+      "sha256": "8bb1ac085f260e690d4c69ea4a234d14a30802915b981bc09442a95f0c189150",
+      "size_bytes": 3233
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0165-p2r3-inj-main-p03-a01-h02-n02.json": {
+      "sha256": "54ca5b22ed993b712ea5eeed134c2467e008bf9ea587d50b705e136fc609165d",
+      "size_bytes": 3256
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0166-p2r3-inj-main-p03-a01-h03-n00.json": {
+      "sha256": "367f775e3002ea00cc0bf3866449641f824d59a13e2e510debd495bcdbad2631",
+      "size_bytes": 3226
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0167-p2r3-inj-main-p03-a01-h03-n01.json": {
+      "sha256": "b6e7c49e43ffa883e8c2370a3059fbcc29a541342a30a5bb6d74598298988897",
+      "size_bytes": 3232
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0168-p2r3-inj-main-p03-a01-h03-n02.json": {
+      "sha256": "3176ca49db1da7e88624acc0479ac9fb8dd8b8f6c534f583205cc88c2c9d3167",
+      "size_bytes": 3989
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0169-p2r3-inj-main-p03-a02-h00-n00.json": {
+      "sha256": "4fded9d6216e0662a5c11339408c00400a08053fd375ba3e736ce27a6cd70347",
+      "size_bytes": 3200
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0170-p2r3-inj-main-p03-a02-h00-n01.json": {
+      "sha256": "c0f20284f937fd17433179ecf34f8fd2841466b280e57caf3fc3d3479fbdec72",
+      "size_bytes": 3203
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0171-p2r3-inj-main-p03-a02-h00-n02.json": {
+      "sha256": "9d2d5927278062eb3f7f7cecc3416308a861aec78dcc1941c621b1741d333c80",
+      "size_bytes": 3199
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0172-p2r3-inj-main-p03-a02-h01-n00.json": {
+      "sha256": "56bbeff31b1b9ceffd5440b2121402f3e087e01325bdf00b356ccfda7ef2469d",
+      "size_bytes": 3228
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0173-p2r3-inj-main-p03-a02-h01-n01.json": {
+      "sha256": "0d0d94b114ee8a5adbe0d15f314aa6689816d5e77a8d98c04c03484a4fc10650",
+      "size_bytes": 3990
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0174-p2r3-inj-main-p03-a02-h01-n02.json": {
+      "sha256": "a70020187e336572753fe66f03e592f2369e9495177877f8c934dd065b9c5e4f",
+      "size_bytes": 3245
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0175-p2r3-inj-main-p03-a02-h02-n00.json": {
+      "sha256": "ac28a748de2d9b72c0f7eda0bd45a3f2deae0230d3399018e2067b6e8be67fc2",
+      "size_bytes": 3249
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0176-p2r3-inj-main-p03-a02-h02-n01.json": {
+      "sha256": "557a4b97fb080c48c2e3bcbf6c6d636297ae3609ad4651b3119ae5f4ee5c7362",
+      "size_bytes": 3229
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0177-p2r3-inj-main-p03-a02-h02-n02.json": {
+      "sha256": "d62cea5d95b7f57b3d27f359e84ceb41baa3b34b82aa5834c3160298bd8f4a2e",
+      "size_bytes": 3226
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0178-p2r3-inj-main-p03-a02-h03-n00.json": {
+      "sha256": "104e7c9cf0bad3c324c5cf908bc2261085a691c5860ad3c3b574a79ee40d69ca",
+      "size_bytes": 3233
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0179-p2r3-inj-main-p03-a02-h03-n01.json": {
+      "sha256": "8090bf34ef2467404d4ffd0689ac472ec3176e27fdfe7103b38c96901470bd7e",
+      "size_bytes": 3245
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0180-p2r3-inj-main-p03-a02-h03-n02.json": {
+      "sha256": "651dd9ec89957dc813ae25b34f99acd493c1b6df226fe6a4c50465ba243fc45d",
+      "size_bytes": 3234
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0181-p2r3-inj-main-p03-a03-h00-n00.json": {
+      "sha256": "1e3b47f9198f2398217196e8c30b2e687f27e9e93bb414bc53c458d43cb032ee",
+      "size_bytes": 3202
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0182-p2r3-inj-main-p03-a03-h00-n01.json": {
+      "sha256": "e47945f58645119e03f178857dd477f54669e2aacd938f72dc7852c6c783f820",
+      "size_bytes": 3231
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0183-p2r3-inj-main-p03-a03-h00-n02.json": {
+      "sha256": "a6771007daf78e0ee2bafbc05309e1b37659ed08c3a9a330fbb73aaf4bb5bc69",
+      "size_bytes": 3210
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0184-p2r3-inj-main-p03-a03-h01-n00.json": {
+      "sha256": "c1d5f17902b95bd1b50c1e71d651a3d8a8bd4367ae7b4c9dfa523875392dce04",
+      "size_bytes": 3238
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0185-p2r3-inj-main-p03-a03-h01-n01.json": {
+      "sha256": "521b312e7d05a179ddf12c7163d7e78b641cda6fa96fc599e51a35ebe0d03eaf",
+      "size_bytes": 3246
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0186-p2r3-inj-main-p03-a03-h01-n02.json": {
+      "sha256": "a897c863559fe04347a8ed4c59b5c734ae90ddbc87e614ce181874a3dd721267",
+      "size_bytes": 3983
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0187-p2r3-inj-main-p03-a03-h02-n00.json": {
+      "sha256": "630d7c33247b60bda7eb28ed3d90a33573db795916d056cf662b4d5f2082dcbc",
+      "size_bytes": 3250
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0188-p2r3-inj-main-p03-a03-h02-n01.json": {
+      "sha256": "c816d6beeeea3dabb85932473f2407a2ea298a9c8a2f85a515eadda6c1ab13ac",
+      "size_bytes": 3231
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0189-p2r3-inj-main-p03-a03-h02-n02.json": {
+      "sha256": "5af130fad347fcaf5a3f68efa33993c7cb7dede7a7754fbfaaddd9ee95234942",
+      "size_bytes": 3248
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0190-p2r3-inj-main-p03-a03-h03-n00.json": {
+      "sha256": "31e0fa4cf0948cb8ffe77423c0fcda3c5bf2f128bd499ce0cbeef2bf27c08775",
+      "size_bytes": 3227
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0191-p2r3-inj-main-p03-a03-h03-n01.json": {
+      "sha256": "e81a28198bf16c13ca5ef82d4a499fe508b3c89702c160a5841a5dbdc59aa0b3",
+      "size_bytes": 3249
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0192-p2r3-inj-main-p03-a03-h03-n02.json": {
+      "sha256": "10a506fe15103a5265b30baa57359a5931ed4697f6464f14817281e1c1a4d1f7",
+      "size_bytes": 3249
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0193-p2r3-inj-main-p04-a00-h00-n00.json": {
+      "sha256": "73d8d40639cc590b2350cde43600aa1e702fbe39970e0e556d4afe086f27bfa0",
+      "size_bytes": 3221
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0194-p2r3-inj-main-p04-a00-h00-n01.json": {
+      "sha256": "63c598d24139e39cf7ff75be296fbe6033a46655222f81a0c4865707490d5fdb",
+      "size_bytes": 3213
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0195-p2r3-inj-main-p04-a00-h00-n02.json": {
+      "sha256": "7cc2b5ca8000f35dc95166f86f964667e50940d947607d2e3e02937056bc2dc4",
+      "size_bytes": 3204
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0196-p2r3-inj-main-p04-a00-h01-n00.json": {
+      "sha256": "2fbd43b37a647cbe16d579d33d677e84050bd1b0d29b99008e7793c525bcc399",
+      "size_bytes": 3237
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0197-p2r3-inj-main-p04-a00-h01-n01.json": {
+      "sha256": "79ce5a8c95c2b1c83b703484ab1e41ee2052e122c7e26474ac4264fb86d05155",
+      "size_bytes": 3237
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0198-p2r3-inj-main-p04-a00-h01-n02.json": {
+      "sha256": "359e5871423989394ed3f21214dab88d892238110ee4c40ace17b70e5a012a86",
+      "size_bytes": 3237
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0199-p2r3-inj-main-p04-a00-h02-n00.json": {
+      "sha256": "89cc7c814fc21b56fc757b0cf1e3d1c209e4c7935ed25346bb8f5e1551bdbc4c",
+      "size_bytes": 3231
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0200-p2r3-inj-main-p04-a00-h02-n01.json": {
+      "sha256": "eba1eeb37f1c2f9748a4575a04b939871bba8e56b0fa0168dc8c94ac1ecd604c",
+      "size_bytes": 3235
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0201-p2r3-inj-main-p04-a00-h02-n02.json": {
+      "sha256": "02d6bf08bc11eca1412562acc9d1f710006f9df2fca4a25cd1bbb06fe80c0c51",
+      "size_bytes": 3242
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0202-p2r3-inj-main-p04-a00-h03-n00.json": {
+      "sha256": "3aa6fbda3c7d7d56e7e6302132a758e0cce40fd67ee7e6a80201f04b74432ebd",
+      "size_bytes": 3233
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0203-p2r3-inj-main-p04-a00-h03-n01.json": {
+      "sha256": "a36dff15763894dbf6ddd442382575669383f702653dfedccdfbfd3824a1a31e",
+      "size_bytes": 3233
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0204-p2r3-inj-main-p04-a00-h03-n02.json": {
+      "sha256": "cc50c919a43d2f6201abbbf9a2aca7181823312626d0cbe891882cb65344047a",
+      "size_bytes": 4008
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0205-p2r3-inj-main-p04-a01-h00-n00.json": {
+      "sha256": "e68719546f3af0db12d1a41e4dc772315f7abdba76559b780d8459e2fa3032d5",
+      "size_bytes": 3211
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0206-p2r3-inj-main-p04-a01-h00-n01.json": {
+      "sha256": "25d87b0cad886fc82db8ca6015388fc5ac1f1198011a04ab807047d7450fa38b",
+      "size_bytes": 3219
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0207-p2r3-inj-main-p04-a01-h00-n02.json": {
+      "sha256": "44f8d34482ae6baa59149ba2ec455ed2622d403f00d7253440ddf77ab5c26340",
+      "size_bytes": 3963
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0208-p2r3-inj-main-p04-a01-h01-n00.json": {
+      "sha256": "6919d21c9f00897c942712f3fa1699c9156df872b8bd56a0323051bdc3ca6906",
+      "size_bytes": 3998
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0209-p2r3-inj-main-p04-a01-h01-n01.json": {
+      "sha256": "7a5f998df7e28839e59effd2ec448bd9bfc41926ea704fda65503c3228415f73",
+      "size_bytes": 3234
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0210-p2r3-inj-main-p04-a01-h01-n02.json": {
+      "sha256": "f77e018f0d4727e65a4453060f6de4b86836832cec8cbc09961ae4feb44f7a24",
+      "size_bytes": 3234
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0211-p2r3-inj-main-p04-a01-h02-n00.json": {
+      "sha256": "ac27926d8372108881aef68a8fe8fd210dc5a61fe5289879c0dc532b4ef1c3ea",
+      "size_bytes": 3235
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0212-p2r3-inj-main-p04-a01-h02-n01.json": {
+      "sha256": "6105ed14748b9dcb10ee8ab731a5ab7894dfb2c1fb4dbedd0673983d6c80eed8",
+      "size_bytes": 3230
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0213-p2r3-inj-main-p04-a01-h02-n02.json": {
+      "sha256": "f1e3d276ac34aa63135d77c73153985d90ab3734bd53df6aa35433b562527e7c",
+      "size_bytes": 3989
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0214-p2r3-inj-main-p04-a01-h03-n00.json": {
+      "sha256": "fd5151415b803570494deb131acfc5a2814c2b1879e730333675cb9e9f0e729c",
+      "size_bytes": 3238
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0215-p2r3-inj-main-p04-a01-h03-n01.json": {
+      "sha256": "f6391398571df156aa3eff863793e2d97b4efcaa6dffc91511dfeb055a5511d1",
+      "size_bytes": 4014
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0216-p2r3-inj-main-p04-a01-h03-n02.json": {
+      "sha256": "11451e6b93caefdd313a9d75989fa484e8e27ecaf39c7aff1c4d68651d7cacab",
+      "size_bytes": 3236
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0217-p2r3-inj-main-p04-a02-h00-n00.json": {
+      "sha256": "23e80329eee7d3951dc9580a3cd2e13c4d4aee849475fd40aa358cd73150417b",
+      "size_bytes": 3209
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0218-p2r3-inj-main-p04-a02-h00-n01.json": {
+      "sha256": "f50eabb22866fe41624b4e0f1a955dc93383933b2519d6a5a02a2c9cf0d422f8",
+      "size_bytes": 3222
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0219-p2r3-inj-main-p04-a02-h00-n02.json": {
+      "sha256": "f30d3d25a391dbee67fb383cd766dacf0f225095e0e897f1543af5af0eb1dc18",
+      "size_bytes": 3207
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0220-p2r3-inj-main-p04-a02-h01-n00.json": {
+      "sha256": "32cbebe58e2c70e8a4df1393cbb6c5b2b70b29888f212a1e10b2a95a2dbb78af",
+      "size_bytes": 3239
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0221-p2r3-inj-main-p04-a02-h01-n01.json": {
+      "sha256": "04fa65185f133d459a37cbedfd04e3fd918ef379a029f5e4908a1572a447e9a0",
+      "size_bytes": 4011
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0222-p2r3-inj-main-p04-a02-h01-n02.json": {
+      "sha256": "c378e8e901637a95b39fee8c67380f16224de1c69c90908f8ea7e6dfad5a6a24",
+      "size_bytes": 3252
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0223-p2r3-inj-main-p04-a02-h02-n00.json": {
+      "sha256": "0e96e482c619177ecdd5dda79359002d7a58a65d6e3d15f8d15e4639058abf2a",
+      "size_bytes": 3246
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0224-p2r3-inj-main-p04-a02-h02-n01.json": {
+      "sha256": "005d3b4afc2c51083b175e345d74ad2dfee922dafa80c03c482ffee0697cdb09",
+      "size_bytes": 3247
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0225-p2r3-inj-main-p04-a02-h02-n02.json": {
+      "sha256": "a458e2501980847cee47767072a4da4f8b8587422be27ce948d51b471df12658",
+      "size_bytes": 3228
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0226-p2r3-inj-main-p04-a02-h03-n00.json": {
+      "sha256": "8264da44a238b9d489966315d0802cc5fdf59aea82c0f1498d78b322850551e1",
+      "size_bytes": 3252
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0227-p2r3-inj-main-p04-a02-h03-n01.json": {
+      "sha256": "248584ff8683b09f3719267cce36651f877bcbee3c4cd998c5934bff38aa0391",
+      "size_bytes": 3252
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0228-p2r3-inj-main-p04-a02-h03-n02.json": {
+      "sha256": "0a3ba1608276b43ea8df36520e8e983340005ba2ee63aed26b849c11a37203e6",
+      "size_bytes": 3258
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0229-p2r3-inj-main-p04-a03-h00-n00.json": {
+      "sha256": "5a80a4c8823362502e694c986d528367599c6053a0e81010f6742b0bcbcc5b19",
+      "size_bytes": 3205
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0230-p2r3-inj-main-p04-a03-h00-n01.json": {
+      "sha256": "bd22164f132c74e1e7bbf6830852d235d2b5d44870d1529847acd1e8b59f4ad2",
+      "size_bytes": 3203
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0231-p2r3-inj-main-p04-a03-h00-n02.json": {
+      "sha256": "8b1f241385f62ba3cbca360ebb972e40392c5a4c2402f7cbd23bcafdb6162fc0",
+      "size_bytes": 3221
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0232-p2r3-inj-main-p04-a03-h01-n00.json": {
+      "sha256": "6d0a6714c3bf130e0805463179c49300587e9c04bffa8f9d074140600ee58d11",
+      "size_bytes": 3248
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0233-p2r3-inj-main-p04-a03-h01-n01.json": {
+      "sha256": "944897c4611d37788d3dcf8c246b5e0456999ee25a65e8462a4646f0fae04f0f",
+      "size_bytes": 3230
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0234-p2r3-inj-main-p04-a03-h01-n02.json": {
+      "sha256": "6fe60a066028ae949ee23272a595f3152bee0b92305d3bc1833cc95a983728c8",
+      "size_bytes": 3235
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0235-p2r3-inj-main-p04-a03-h02-n00.json": {
+      "sha256": "3690b7ac180c4a548927f6448d1c9fecb3255310ffe4a3d6f47df874508eaa17",
+      "size_bytes": 3237
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0236-p2r3-inj-main-p04-a03-h02-n01.json": {
+      "sha256": "3fd8eb25f558a5a44912fad98e42fd7a78ef1751672080be2268083526208688",
+      "size_bytes": 3227
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0237-p2r3-inj-main-p04-a03-h02-n02.json": {
+      "sha256": "9ba274beda79568aac1d2f7806ffb23ce4e78a6d390dfb465e07c7508cc7476a",
+      "size_bytes": 3252
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0238-p2r3-inj-main-p04-a03-h03-n00.json": {
+      "sha256": "f8c832652cdfde1ac99f80623b67bd3b3513e5980a2a01bcf36bbb7ab82ed0e9",
+      "size_bytes": 3229
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0239-p2r3-inj-main-p04-a03-h03-n01.json": {
+      "sha256": "74824e68ab615f11a00a218725bdb09be331818a86689788f62bab4995032cc2",
+      "size_bytes": 3249
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/main/0240-p2r3-inj-main-p04-a03-h03-n02.json": {
+      "sha256": "402c80e9077020c17570bf4b6a83ad8366e2c15239527fcde8ae12a8c1152677",
+      "size_bytes": 3249
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0241-p2r3-inj-phase-reference-p00-h00-n00.json": {
+      "sha256": "d6d7f3d537e7aebf3927474f7b0078275095d767dab8f18b378a7a9d389fe39c",
+      "size_bytes": 3246
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0242-p2r3-inj-phase-reference-p00-h00-n01.json": {
+      "sha256": "1a5defa99a94e74eb0acdb986ac22fa3575c50d2aeff8690227d6425a9ce787e",
+      "size_bytes": 3246
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0243-p2r3-inj-phase-reference-p00-h00-n02.json": {
+      "sha256": "7b23db0f3dbf5b10c5e86861c99d848b6a35f8547df88a02cc884eaad0c31a98",
+      "size_bytes": 3250
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0244-p2r3-inj-phase-reference-p00-h01-n00.json": {
+      "sha256": "c369078a40f2c07e74b11be0d0e06a4257373002de01c85ae9666a37855032c4",
+      "size_bytes": 3275
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0245-p2r3-inj-phase-reference-p00-h01-n01.json": {
+      "sha256": "af93d702cc48d220f9c870621fcb5c84f21ddda29e15cf584fd1c61238f464a5",
+      "size_bytes": 3260
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0246-p2r3-inj-phase-reference-p00-h01-n02.json": {
+      "sha256": "2ba6c08a6b93d00bc91779cd0eeec65c1d192a58c91b53e4257b6e7d2a63e01f",
+      "size_bytes": 3273
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0247-p2r3-inj-phase-reference-p00-h02-n00.json": {
+      "sha256": "c0924620898fdc28012d438209fa039bced7e69353a53946ae4207517db039e9",
+      "size_bytes": 4035
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0248-p2r3-inj-phase-reference-p00-h02-n01.json": {
+      "sha256": "98674fe2918dee196147dcce2c09c814cfe5d07df8eb30701927a1b145701bad",
+      "size_bytes": 3259
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0249-p2r3-inj-phase-reference-p00-h02-n02.json": {
+      "sha256": "d1ea702b76f2503350b5dbd6d41f29a42a912877e2c9310f1ac018c78c8744f3",
+      "size_bytes": 3259
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0250-p2r3-inj-phase-reference-p00-h03-n00.json": {
+      "sha256": "ab4393d1ce84c9302a2ec33eeeccaaa8b461278b46a88d542f50963abdf5e5a1",
+      "size_bytes": 4033
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0251-p2r3-inj-phase-reference-p00-h03-n01.json": {
+      "sha256": "67e40394565ea9ee54eb9bc63d2049c83bcf7fb60adfbe1b3821a408c8ad4c46",
+      "size_bytes": 4012
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0252-p2r3-inj-phase-reference-p00-h03-n02.json": {
+      "sha256": "6bb2f9cd987e98c615aedae6d805e91157d72a0b30439e847d3959f9bd9fc2e7",
+      "size_bytes": 4035
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0253-p2r3-inj-phase-reference-p01-h00-n00.json": {
+      "sha256": "e3f2ff33e6b9d6f30d2b4f72ab574dcaee5d1fc62e1302460e2997e0bff24779",
+      "size_bytes": 3233
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0254-p2r3-inj-phase-reference-p01-h00-n01.json": {
+      "sha256": "ad22bf197b03abf4aa354460db73d774d58ac71f1eab827f86040e0642ad91b9",
+      "size_bytes": 3240
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0255-p2r3-inj-phase-reference-p01-h00-n02.json": {
+      "sha256": "9496cba06637f87f3410e865175bf4ebdf1e771f71d012a240dac00bba2a7254",
+      "size_bytes": 3250
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0256-p2r3-inj-phase-reference-p01-h01-n00.json": {
+      "sha256": "f93a48a708fbfc886ace0c655dbf0afd742f0eeb07a15d4a10a9f6421371e095",
+      "size_bytes": 3280
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0257-p2r3-inj-phase-reference-p01-h01-n01.json": {
+      "sha256": "e5f2d652c4a5f9f41cf13fa06250b39211788f78fe0e25687c51d3267dd559ea",
+      "size_bytes": 3274
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0258-p2r3-inj-phase-reference-p01-h01-n02.json": {
+      "sha256": "103464028e1045d4fcc3e231c494fccd18cff4de1499dead17f43f8337881850",
+      "size_bytes": 3265
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0259-p2r3-inj-phase-reference-p01-h02-n00.json": {
+      "sha256": "9370c84288318de23569c2ea23f724a4f7af9c5f6ca6ffd015ba269c69d1b3f8",
+      "size_bytes": 3262
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0260-p2r3-inj-phase-reference-p01-h02-n01.json": {
+      "sha256": "b1a73d5b3b8ebd6dcd40276ea8bbc18541ac5ca3dfcaa5e377b758bbe96b6bad",
+      "size_bytes": 3276
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0261-p2r3-inj-phase-reference-p01-h02-n02.json": {
+      "sha256": "a06266afe88f998e1e1331c36530173e4f9eba836799dfa18e2a44ca78125f83",
+      "size_bytes": 3261
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0262-p2r3-inj-phase-reference-p01-h03-n00.json": {
+      "sha256": "90a003a8ddf3375704a1bb0a87a9348817d3f5c1bdfaf8075c9ea6e22f7c4671",
+      "size_bytes": 3273
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0263-p2r3-inj-phase-reference-p01-h03-n01.json": {
+      "sha256": "d3b748ad2a312e42777ec73b1dda524f980d04345e7cf69292f37b4b7ef01926",
+      "size_bytes": 3278
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0264-p2r3-inj-phase-reference-p01-h03-n02.json": {
+      "sha256": "4f3dffbc1d53643b841b21c83f7a4911ffe177b91d3a4182db3e4a2ea3371cb3",
+      "size_bytes": 3281
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0265-p2r3-inj-phase-reference-p02-h00-n00.json": {
+      "sha256": "9bdff7a1ec2f6d0871889793c8c0e7d1c2d669b4601984d62109622671666104",
+      "size_bytes": 4007
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0266-p2r3-inj-phase-reference-p02-h00-n01.json": {
+      "sha256": "8ad126215b8778eb56117509390e972f35dfd34053a1194a4849e58e9a9a5f4c",
+      "size_bytes": 3229
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0267-p2r3-inj-phase-reference-p02-h00-n02.json": {
+      "sha256": "52f548b7b0658bc455a5f886e13eb7c496cdfb53b13d786ad9932e239771075d",
+      "size_bytes": 3232
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0268-p2r3-inj-phase-reference-p02-h01-n00.json": {
+      "sha256": "5813bd8ad650922415ccadc7e906ed414a7b54d887b1972c1ba6a38b6b3be4b5",
+      "size_bytes": 3277
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0269-p2r3-inj-phase-reference-p02-h01-n01.json": {
+      "sha256": "9cb27154871aa1b893453c6a43e116b891bde2bcc3c4b69c34d3f3febcd9d36d",
+      "size_bytes": 3273
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0270-p2r3-inj-phase-reference-p02-h01-n02.json": {
+      "sha256": "db7fd3694e2ef4bf9cefe0ed32c0962fe4fdbd6c227d421e899f5ecbbf5e5e12",
+      "size_bytes": 3256
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0271-p2r3-inj-phase-reference-p02-h02-n00.json": {
+      "sha256": "9fa139738ada4668c4aabf997d8fd022913e82397a134848804dd0a50c141bcb",
+      "size_bytes": 3252
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0272-p2r3-inj-phase-reference-p02-h02-n01.json": {
+      "sha256": "18f44757603f83cabd231837aab77019f5952c907f31309c7efff3b71ffddaf6",
+      "size_bytes": 3259
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0273-p2r3-inj-phase-reference-p02-h02-n02.json": {
+      "sha256": "b9ed9fe929e575ccb230362b43739610b12a579d680c18af197d38fda5db5be3",
+      "size_bytes": 3275
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0274-p2r3-inj-phase-reference-p02-h03-n00.json": {
+      "sha256": "d8e741195b0d0f66de70ec5b0cc3d740a9c6b3eb1e86b709fea8554650de9652",
+      "size_bytes": 3280
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0275-p2r3-inj-phase-reference-p02-h03-n01.json": {
+      "sha256": "e40d18f150eeb004a649fc6e4fc26bec29e96b294198f7264738575ea33b3fb2",
+      "size_bytes": 3273
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0276-p2r3-inj-phase-reference-p02-h03-n02.json": {
+      "sha256": "b13ee7260554cacc8b495233c0b4b25a43f71c4d611e37cd0a341aa6a8141dad",
+      "size_bytes": 3269
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0277-p2r3-inj-phase-reference-p03-h00-n00.json": {
+      "sha256": "8a905e159643a7438546ed25303c57af734023c325522411af980a96da836e92",
+      "size_bytes": 3257
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0278-p2r3-inj-phase-reference-p03-h00-n01.json": {
+      "sha256": "79a5d517ec9c68be90bc572223eb6af7d40bc6fede81d871e455d6a60bff8790",
+      "size_bytes": 3232
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0279-p2r3-inj-phase-reference-p03-h00-n02.json": {
+      "sha256": "e880631c3f5ce9e5c09a1742859a1c280d222e9f81730ad73c80b394d942c1d6",
+      "size_bytes": 3247
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0280-p2r3-inj-phase-reference-p03-h01-n00.json": {
+      "sha256": "5ed738beca99caf3a19ce60d6b8c20fcf7e539ee58f28f7130e80fe75227e4b8",
+      "size_bytes": 3259
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0281-p2r3-inj-phase-reference-p03-h01-n01.json": {
+      "sha256": "98f81a9f2ebfda72bef2b74ba794304748c31cf4d65fa6e0c8d0c2ed32066264",
+      "size_bytes": 3258
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0282-p2r3-inj-phase-reference-p03-h01-n02.json": {
+      "sha256": "4c7549fd015334904d6f2ab01d2c50a470b56c20b761478b5f8e08c09fdfc2a5",
+      "size_bytes": 3260
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0283-p2r3-inj-phase-reference-p03-h02-n00.json": {
+      "sha256": "b813089e6ab4ae94bf00a3246ceb98a7a1a6b90a5b5200ea846da15aa8c2048a",
+      "size_bytes": 3258
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0284-p2r3-inj-phase-reference-p03-h02-n01.json": {
+      "sha256": "ec21c488b3c1d7fadc901700f50250cca212ddcb6472d23602b9a15520dfbe21",
+      "size_bytes": 3256
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0285-p2r3-inj-phase-reference-p03-h02-n02.json": {
+      "sha256": "8238a78300259fc6f6be9d515460d6f951dd6c3b6f175f7adad2dd103755c940",
+      "size_bytes": 3257
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0286-p2r3-inj-phase-reference-p03-h03-n00.json": {
+      "sha256": "66120776466e206ad45ad53f1adbf677cdd98f7b528272255dbdaff0f39f8031",
+      "size_bytes": 3254
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0287-p2r3-inj-phase-reference-p03-h03-n01.json": {
+      "sha256": "bdf235af34b3e82e15314014669cb7c21130efd8c025877a039fdd947f123504",
+      "size_bytes": 3255
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0288-p2r3-inj-phase-reference-p03-h03-n02.json": {
+      "sha256": "3181263c970cfa62d80183e33fc35cdcd004959089e16c30baaca2d6c7779542",
+      "size_bytes": 3274
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0289-p2r3-inj-phase-reference-p04-h00-n00.json": {
+      "sha256": "51ea47b3ba3037420d364766f73bee8f267d72eb850e24f55d301a03d1b076e4",
+      "size_bytes": 3991
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0290-p2r3-inj-phase-reference-p04-h00-n01.json": {
+      "sha256": "2a1ff1f130db4a9136770e06ab90076963ee4afae53cc068921dba76768c0c8e",
+      "size_bytes": 3233
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0291-p2r3-inj-phase-reference-p04-h00-n02.json": {
+      "sha256": "f0ae1d800a95fab20175232afab6214c2504128ecce021ad0e864dd5396ad776",
+      "size_bytes": 3235
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0292-p2r3-inj-phase-reference-p04-h01-n00.json": {
+      "sha256": "abe8f7f3a2e43f117792917ed44f80f4a0ea75828a643c7255225b7f915cd62b",
+      "size_bytes": 3258
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0293-p2r3-inj-phase-reference-p04-h01-n01.json": {
+      "sha256": "befb5b0d2f01b111e09abd093cc557aaf407472b21bec0a93d493707e651b5ad",
+      "size_bytes": 3257
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0294-p2r3-inj-phase-reference-p04-h01-n02.json": {
+      "sha256": "cb356e92b4a1528828d48e26e1799bf6bad0f34c6ee5c333874d4ae1210168cc",
+      "size_bytes": 3278
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0295-p2r3-inj-phase-reference-p04-h02-n00.json": {
+      "sha256": "91a691899f48a221a28d227863aa8e4dfa6813c8c45b29b7708c5dc4f21c8036",
+      "size_bytes": 3259
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0296-p2r3-inj-phase-reference-p04-h02-n01.json": {
+      "sha256": "ba521446f59e09b222d6a456dec0be4f9f6378d3b96eac3d684165a3c63d96b5",
+      "size_bytes": 3280
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0297-p2r3-inj-phase-reference-p04-h02-n02.json": {
+      "sha256": "93f68c1d74f971926baf423be3dbe76ec48ca96ddef73cb3fde2f13ef7ae89eb",
+      "size_bytes": 3263
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0298-p2r3-inj-phase-reference-p04-h03-n00.json": {
+      "sha256": "5377cea255a94085fd62b72e5a4b7410f25ab86727a17030bd691235867da108",
+      "size_bytes": 3276
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0299-p2r3-inj-phase-reference-p04-h03-n01.json": {
+      "sha256": "5eaeb3195b1311064c6dde580513bbbc975d392d87af5ad059dfe0ec1a8e1cf0",
+      "size_bytes": 3259
+    },
+    "data/derived/pilot2/calibration-v0.2.8/injections/phase_reference/0300-p2r3-inj-phase-reference-p04-h03-n02.json": {
+      "sha256": "3f89f9052ce98d5224dbf627210f166eb5f18b4d24297085a0670cbeb90bc4c5",
+      "size_bytes": 3277
+    },
+    "data/metadata/development-environment.json": {
+      "sha256": "35ce09f8e193e0472d75a5c2f1c2334d2c92819e7e871af4705a05ac652ee8b1",
+      "size_bytes": 33769
+    },
+    "data/metadata/resources.json": {
+      "sha256": "70e6ecc3e9181fe2c8e5c51c4367942fb19b09f5cd40285b089bcc1e2cf2e317",
+      "size_bytes": 5652
+    },
+    "data/protocol/PILOT2_INJECTION_EXECUTION_FREEZE_v0.2.2.json": {
+      "sha256": "9e247d3d3c2eba0edc936b2db778683257ae5888c1bd581f682dc074ba768d03",
+      "size_bytes": 3214
+    },
+    "data/protocol/PILOT2_INJECTION_EXECUTION_FREEZE_v0.2.7.json": {
+      "sha256": "8c45fe999b0c871d0cc383d47829aa175863a08d25bf00afef29f043f5dba5f8",
+      "size_bytes": 6080
+    },
+    "data/results/pilot2/injection_v022_crash_audit.json": {
+      "sha256": "6d58ef1be4a03969be41ee3e0d916adaa252ee5bfa42d7c23244f203f878b473",
+      "size_bytes": 2702
+    },
+    "data/results/pilot2/injection_v027_startup_failure_audit.json": {
+      "sha256": "c9d00f3c021091c18722d1a288c91e218f447ce1f9ac3f507dda0b9fdc70ab9d",
+      "size_bytes": 2407
+    },
+    "data/run_records/pilot2/annual-identifiability-mask-v0.2.8.json": {
+      "sha256": "8b7ece37fd7c0bb1b01b4a96427d9c33ab7580d7d4414fef49ee8e7b62d6e402",
+      "size_bytes": 6437
+    },
+    "data/run_records/pilot2/calibration-threshold-lock-v0.2.1.json": {
+      "sha256": "6e624af784aabd92ce8b28babdaed4c863ca12c94caad756da005f14bf9b5117",
+      "size_bytes": 652
+    },
+    "data/run_records/pilot2/calibration-v0.2.1-ledger.json": {
+      "sha256": "cb13ffc749cd4bec1ab41dfcfe056850507d52546c9425e2b4fbfff49c1bc621",
+      "size_bytes": 3470620
+    },
+    "data/run_records/pilot2/calibration-v0.2.8-health.json": {
+      "sha256": "09de82cd8c7769a9de358fb30fe688db7c4e71bbdc78d2631d5756ff21aeb6e1",
+      "size_bytes": 409
+    },
+    "data/run_records/pilot2/calibration-v0.2.8-ledger.json": {
+      "sha256": "ef9ffdd5849951a322bc7dad76ec8baf297c5e0be59ad6f79c4655fe15442744",
+      "size_bytes": 348640
+    },
+    "data/run_records/pilot2/injection-evaluation-v0.2.1.json": {
+      "sha256": "06cf10aa00231ecac05abccbe491b21c074371d749f8cc88dccff8cf034fba8c",
+      "size_bytes": 389085
+    },
+    "data/run_records/pilot2/injection-evaluation-v0.2.8.json": {
+      "sha256": "41e123da9f84164c44692859046bd8f3d5c96685f4999ec77769b9cf8f193cf8",
+      "size_bytes": 4829
+    },
+    "data/run_records/pilot2/injection-v0.2.8-setup.log": {
+      "sha256": "ebdb0658a64dd3527eef21c4e91b5c432b8df57efc105243a3c5c3087af4cff4",
+      "size_bytes": 167933
+    },
+    "data/run_records/pilot2/locks/pilot2-v0.2.8.lock": {
+      "sha256": "d72ff2ebde1427e770e3df341f770e9b996a7edf4fc3eba5a18f7d3bab69189b",
+      "size_bytes": 263
+    },
+    "data/run_records/pilot2/sealed-gaussian-evaluation-v0.2.1.json": {
+      "sha256": "f3a8677ea28255c7c06afd815fad1d911fcadde9a1fb0a4b2bf464f78aa59034",
+      "size_bytes": 1253
+    },
+    "data/run_records/pilot2/structured-tail-evaluation-v0.2.1.json": {
+      "sha256": "540f5d12496a02687253b3d0a64e63208c8df53d8cdae3f3935cc8da4fc0f252",
+      "size_bytes": 2439
+    },
+    "freeze_release.py": {
+      "sha256": "605ead1ac6bbe7765dea04d42fd59f7fa8f89116fdbcf55b87e66baa39ef6167",
+      "size_bytes": 4330
+    },
+    "input-copy-receipt.json": {
+      "sha256": "f427433eae99b777d95b22c86dc16a153ffe6adb3c991a4a1229bc27e72c8c2d",
+      "size_bytes": 3314
+    },
+    "inspect_annual_terminal.py": {
+      "sha256": "1bd19cb22e85bb0af14572c2c0692cdb854dab3d04dd48982c7a431579ef4095",
+      "size_bytes": 2737
+    },
+    "inspect_terminal.py": {
+      "sha256": "3826d9caf588953869c14084d333f93c50bab1d27fc5144f3f9e7ae1d465134d",
+      "size_bytes": 4461
+    },
+    "launch.log": {
+      "sha256": "1d48a3052bbc60fa0334c4f309a4af68a1857e389ed9a714b03fd266856cc6f4",
+      "size_bytes": 2160
+    },
+    "launch.pid": {
+      "sha256": "2239a5baa094c5f68c600212c71fe1ddfbebcbdd643dd5bf627d484acc51f467",
+      "size_bytes": 6
+    },
+    "make_data_root.py": {
+      "sha256": "33064f3418e094de8f414cdcbbcca9d35dd48b05fddf35a6e597c697d16379b7",
+      "size_bytes": 2230
+    },
+    "operator-authority.json": {
+      "sha256": "1d9ed34b9c91f9e7aa1c8de1d42411dd64ab4b0764c1e9a6ef12f2c5e556a1d6",
+      "size_bytes": 1798
+    },
+    "preflight/authority.json": {
+      "sha256": "f17af0883d3939a831246c10ab852432da2039468d39cf167edf7b8307c8ce45",
+      "size_bytes": 1592
+    },
+    "preflight/gate.json": {
+      "sha256": "babd2b6e4f8165e332b3d8c384974fa135f8f1890d0470d16d809d5c31d309e0",
+      "size_bytes": 7939
+    },
+    "preflight/preflight.json": {
+      "sha256": "95d6b1a56d74a28930910cb06d77d1549e82b5c5442ff2f39c7e900105f465a8",
+      "size_bytes": 1330
+    },
+    "preflight-command.err": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    "preflight-command.json": {
+      "sha256": "15de49a6ce7dfed36d1269534a783f5fe4d652927ba8f5854175819428901b12",
+      "size_bytes": 1398
+    },
+    "prepare-command.err": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    "prepare-command.json": {
+      "sha256": "48d62dbdb3e4918d05a96d06d8dda317bad12c55ac00d98c6ef510b9272cf9ef",
+      "size_bytes": 168
+    },
+    "qualification02-comparison.json": {
+      "sha256": "a0ff2101db05569537964f7ed7da367b11fd9161ba12fdf1ee5f605e3ef3d22d",
+      "size_bytes": 5118
+    },
+    "qualification03-terminal-verification.json": {
+      "sha256": "1749e48115b9aad92ebc7f2b134bb51b441952d669bb6d5996198acc41ce361d",
+      "size_bytes": 11234
+    },
+    "runs/pilot2-ioc-qualification-20261116-03/authority.json": {
+      "sha256": "f17af0883d3939a831246c10ab852432da2039468d39cf167edf7b8307c8ce45",
+      "size_bytes": 1592
+    },
+    "runs/pilot2-ioc-qualification-20261116-03/events.jsonl": {
+      "sha256": "2f785692f91798a296255597dd7aa6877c3f3c30f87de94419394637cc913d74",
+      "size_bytes": 418
+    },
+    "runs/pilot2-ioc-qualification-20261116-03/gate.json": {
+      "sha256": "babd2b6e4f8165e332b3d8c384974fa135f8f1890d0470d16d809d5c31d309e0",
+      "size_bytes": 7939
+    },
+    "runs/pilot2-ioc-qualification-20261116-03/manifest.json": {
+      "sha256": "fe7d176bc6e0830becde4b881f894af417a0e300329d63e5b473e0297082bdaf",
+      "size_bytes": 2282
+    },
+    "runs/pilot2-ioc-qualification-20261116-03/preflight.json": {
+      "sha256": "95d6b1a56d74a28930910cb06d77d1549e82b5c5442ff2f39c7e900105f465a8",
+      "size_bytes": 1330
+    },
+    "runs/pilot2-ioc-qualification-20261116-03/run.active": {
+      "sha256": "72ad62338bc1dde583ee3f8eca17dfbe57d91044f47eef173d0d27958acde647",
+      "size_bytes": 114
+    },
+    "runs/pilot2-ioc-qualification-20261116-03/run.lock": {
+      "sha256": "84319d9ebdad1894d9e32a08fecb0358feab6738c147f75097f423555de0e0ec",
+      "size_bytes": 109
+    },
+    "runs/pilot2-ioc-qualification-20261116-03/science-evidence-binding.json": {
+      "sha256": "6cf33a34197b29f3e5c5b98018f2e50b027cf41803a4b3668de0262a46d708d4",
+      "size_bytes": 1575
+    },
+    "runs/pilot2-ioc-qualification-20261116-03/status.json": {
+      "sha256": "f91937bdd68c4ce2c4605239a351e300d7177447b1ab56938d0a726bf0b0c278",
+      "size_bytes": 430
+    },
+    "runs/pilot2-ioc-qualification-20261116-03/terminal-inventory.json": {
+      "sha256": "f6753922c3fb7d2bd52753ea532465129fd95bb78ebe7c8a770d4ff6177dea22",
+      "size_bytes": 1780
+    },
+    "science-binding.json": {
+      "sha256": "05517558d1f46c9476ce21704634b392200370f719cd98c8c428696da266ec8f",
+      "size_bytes": 880
+    },
+    "terminal-inspection.log": {
+      "sha256": "462444202e55ca08255ba2f59831a8dc47cc2237242fdd8a48b97009cf7b7d7c",
+      "size_bytes": 11101
+    }
+  }
+}

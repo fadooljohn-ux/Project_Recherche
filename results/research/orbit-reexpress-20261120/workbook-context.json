@@ -1,0 +1,14 @@
+{
+ "evidence": "results/research/orbit-reexpress-20261120/closeout.json",
+ "entries": [
+  [
+   "orbit-reexpress-20261120",
+   "Method development",
+   "Small-eccentricity re-expression of near-circular DD/DDH orbits",
+   "VERIFIED",
+   "Owner instruction 'Yes built it'. tools/orbit_reexpress.py converts T0/OM/ECC to TASC/EPS1/EPS2 with an equivalence check (0.1 TOA sigma). Simulated orbits agree to better than 0.01 sigma; an eccentric orbit is caught. Development preparation of the seven near-circular held targets, no search: J1933-6211 and J2322-2650 clear every check (equivalence 1e-7 sigma); J1101-6424 and J1903-7051 then fail on STIGMA; J1732-5049 and J2236-5527 on SINI range; J1751-2857 has no period range.",
+   "No observed search executed; development root not frozen. Searching the two cleared targets needs a new root and a new owner instruction."
+  ]
+ ],
+ "target_updates": []
+}

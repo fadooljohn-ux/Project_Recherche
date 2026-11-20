@@ -1,0 +1,7 @@
+{
+  "selected": ["J0509+0856"],
+  "seed": 2026093500,
+  "shapiro_mode": "omitted_in_release",
+  "references": ["https://arxiv.org/abs/1906.05071"],
+  "selection_basis": "Next saved likely-white-dwarf ELL1 system; unsearched NG15 identity. One-target conditional 1% allowance, explicit pre-search noise-frequency coverage."
+}

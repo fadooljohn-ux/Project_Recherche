@@ -1,0 +1,14 @@
+{
+ "evidence": "results/research/joint-noise-chain-joint-20261119/closeout.json",
+ "entries": [
+  [
+   "joint-noise-chain-joint-20261119",
+   "Implementation",
+   "Second-stage joint-noise test; joint white-and-red chain generator (J1453+1902, simulated data)",
+   "VERIFIED",
+   "Owner instruction 'Have the chain noise model draw white and red noise together to see if the threshold remains'. Generator draws per-backend EFAC, EQUAD, DMEFAC, DMEQUAD and red noise together from the released NANOGrav wideband chain; released values reproduce the prepared covariance to 7e-16. The high threshold remains: wide grid 30.01 (consumed run used 22.35; 96 of 1024 joint-chain nulls exceed 22.35), chain-bounded grid 33.96 and held for validation false-alarm excess. Cause: one global white scale (ceiling 1.3) cannot follow per-backend white-noise spread in the chain; 86% of null fits end on the grid edge.",
+   "No observed residuals read; nothing frozen or run. J1453 (18.61) and J2043 (18.42) remain below threshold; their grades are unchanged. Second-stage thresholds for NANOGrav wideband targets are not shown to hold under the released chain's white-noise uncertainty. Not yet a standing requirement."
+  ]
+ ],
+ "target_updates": []
+}

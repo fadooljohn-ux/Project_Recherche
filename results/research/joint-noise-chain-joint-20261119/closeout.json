@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "closeout_id": "joint-noise-chain-joint-20261119",
+  "owner_instruction": "Have the chain noise model draw white and red noise together to see if the threshold remains",
+  "outcome": "THRESHOLD_REMAINS_HIGH",
+  "observed_residuals_read": false,
+  "frozen": false,
+  "run": false,
+  "wide_grid": {
+    "status": "JOINT_NOISE_CALIBRATED",
+    "threshold": 30.01,
+    "joint_chain_validation_above_30.01": "14/1024",
+    "joint_chain_validation_above_22.35": "96/1024",
+    "red_only_chain_validation_above_22.35": "31/1024"
+  },
+  "chain_bounded_grid": {
+    "status": "JOINT_NOISE_HOLD",
+    "hold": "VALIDATION_FALSE_ALARM_EXCESS:released_chain_joint",
+    "threshold": 33.96,
+    "joint_chain_validation_above_33.96": "19/1024"
+  },
+  "released_white_reproduces_prepared_covariance_max_relative_difference": 6.7e-16,
+  "sha256": {
+    "results/research/joint-noise-chain-joint-20261119/j1453-wide/scope.json": "284d73b4d9c2e2476e560fe8bd5b3ceba75e85b0fda0a2e67f7036039a438854",
+    "results/research/joint-noise-chain-joint-20261119/j1453-wide/calibration.json": "5b90f70d4f6dd6edf2c4033255b020d89f918caf5abb8cfa36b51e69fec910d8",
+    "results/research/joint-noise-chain-joint-20261119/j1453-bounded/scope.json": "7e5cdfb81fd9acfd644bee01b73d5a53519624d959b57d3fc0899bb57e1c66d9",
+    "results/research/joint-noise-chain-joint-20261119/j1453-bounded/calibration.json": "866c1b8673827d7501f390ec350a32ec635714f82ecb75ce36c27dba538baa53",
+    "config/j1453-joint-noise-chain-joint-wide.json": "4c256f5683755479c6c1456c464199e8304090adf710a1341deedb80de595858",
+    "config/j1453-joint-noise-chain-joint-bounded.json": "a229f65d3119ed8be573d432f1dc429e145403d89caf8b62a9d32f42ee92c1f7",
+    "tools/joint_noise_stage.py": "7300604e4b46847d454843c3b36c1ddd1ae4233a16018b6f6b8949179adc90f5",
+    "tests/test_joint_noise_stage.py": "7d33937dfcd0a58eae583bd335fe71f1945903a36d58ce82c55682a9ab482aa0"
+  },
+  "note": "Development roots; do not freeze or run. Consumed J1453 and J2043 outcomes (below threshold) are unchanged."
+}

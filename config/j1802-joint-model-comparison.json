@@ -1,0 +1,15 @@
+{
+  "target": "J1802-2124",
+  "preparation": "ell1h-j1802-preparation-20260910",
+  "red_rms_us": [0.125, 0.25, 0.5, 1, 2, 4, 8],
+  "red_gamma": [0, 0.5, 1, 1.5, 2, 3, 4.33, 6],
+  "red_modes": 64,
+  "companion_mass_solar": [0.66, 0.78, 0.90],
+  "absolute_cos_inclination": [0.143, 0.176, 0.209],
+  "physical_reference": "https://arxiv.org/html/1002.0514v1",
+  "physical_grid_definition": "Published marginal medians and plus/minus three quoted uncertainties: m=0.78+/-0.04 solar masses, |cos i|=0.176+/-0.011. Cartesian stress scenarios, not joint posterior or confidence region. Third-and-higher exact Shapiro harmonics at the preserved native phase; original apparent orbit retained.",
+  "orbital_harmonics": [3, 4, 5, 6, 7],
+  "synthetic_periods_days": [30, 60, 100, 300, 600],
+  "scope": "One finite comparison of omitted, literature-constrained physical Shapiro, and flexible orbital harmonics; noise reselected for each. Conditional residual harmonic checks and synthetic information-loss checks only. No observed outer-period scan, threshold calibration, automatic model promotion or expansion beyond this grid.",
+  "readiness": "Require supported interior noise solution, no unresolved orbital-structure diagnostic at the existing nominal p<0.0027 criterion, and local orbital shifts within the checked three-sigma domain. Free harmonic treatment also needs a separately specified calibrated uncertainty/sensitivity route; raw objective improvement alone never qualifies it. Boundary/ambiguity retains hold."
+}

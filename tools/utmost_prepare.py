@@ -12,13 +12,15 @@ from scipy.linalg import solve_triangular
 
 import mpta_batch as mpta
 import target_calibration as cal
+import binary_noise_coverage as noise_coverage
 import utmost_inventory as inventory
 from pulsar_pilot.pilot2_offline_resources import LocalPintRepository, NetworkDeny
 from pulsar_pilot.spin_phase import bind_precise_spin_phase
+from recherche_common import DATA_ROOT
 
 REPO = Path(__file__).resolve().parents[1]
-DATA = REPO.parent / 'Project Recherche Data/utmost-preparation01-20260909'
-UPSTREAM = REPO.parent / 'Project Recherche Data/utmost-inventory-20260909/TimingDataRelease1-e6c36c26b54749d89d29c148da98f0919b3ce5a8'
+DATA = DATA_ROOT / 'utmost-preparation01-20260909'
+UPSTREAM = DATA_ROOT / 'utmost-inventory-20260909/TimingDataRelease1-e6c36c26b54749d89d29c148da98f0919b3ce5a8'
 EVIDENCE = REPO / 'results/research/utmost-preparation01-20260909'
 TARGETS = ('J1807-0847', 'J0134-2937', 'J1453-6413', 'J1224-6407')
 POLICY = {**cal.DEFAULT_POLICY, 'minimum_period_days': 30., 'maximum_period_days': 400.,
@@ -56,7 +58,7 @@ def inventory_next(data, batch_size):
     # Search target and source are the second/third populated cells in this table.
     searched = {r[1] for r in searches[1:] if len(r)>2}
     consumed = {r[1] for r in searches[1:] if len(r)>2 and str(r[2]).startswith('UTMOST')}
-    for p in (REPO.parent/'Project Recherche Data').glob('utmost-*/selection.json'):
+    for p in DATA_ROOT.glob('utmost-*/selection.json'):
         for target in cal.read(p)['selected']:
             if (p.parent/target/'run01').exists(): consumed.add(target)
     source = REPO/'results/research/utmost-inventory-20260909/inventory.json'
@@ -71,9 +73,10 @@ def inventory_next(data, batch_size):
     data.mkdir()
     seed=int.from_bytes(hashlib.sha256(data.name.encode()).digest()[:4],'big')
     policy={**POLICY,'search_count':len(chosen),'seed':seed}
-    original=REPO.parent/'Project Recherche Data/utmost-preparation01-20260909'
+    original=DATA_ROOT / 'utmost-preparation01-20260909'
     for name in ('de430.bsp','conventions'): (data/name).symlink_to(original/name,target_is_directory=name=='conventions')
     selection={'selected':[r['target'] for r in chosen],'rows':chosen,'policy':policy,
+               'noise_coverage_rule':noise_coverage.RULE,
                'created_utc':mpta.now(),'source':'UTMOST','dataset':'UTMOST DR1',
                'selection_basis':'Unsearched by Recherche first, then fewer named prior-inventory memberships, then released white-error/sqrt(TOA count), then target ID; no residual peaks',
                'previously_consumed_targets':sorted(consumed),'eligible_before_selection':len(rows),
@@ -130,6 +133,7 @@ def select():
             if cal.digest(UPSTREAM / r[key + '_path']) != r[key + '_sha256']:
                 raise ValueError('Source input changed')
     result = {'selected': list(TARGETS), 'rows': rows, 'policy': POLICY,
+              'noise_coverage_rule':noise_coverage.RULE,
               'selection_basis': 'Two released white and two red noise models; one fully pulse-numbered dataset; no observed peaks used',
               'inventory_sha256': cal.digest(source), 'observed_search_authorized': False,
               'resources': {str(p): cal.digest(p) for p in [DATA/'de430.bsp', UPSTREAM/'clock_file/mo2gps.clk', mpta.RESOURCES/'metadata/resources.json']},
@@ -144,7 +148,6 @@ def prepare(target, selection):
     from pint.models import get_model
     from pint.toa import get_TOAs
     from pint.observatory import Observatory
-    from pint.observatory.clock_file import ClockFile
     from pint.solar_system_ephemerides import load_kernel
 
     root = DATA / target
@@ -230,8 +233,14 @@ def prepare(target, selection):
             # Tempo2 preProcess.C: multiply error by EFAC, then add EQUAD^2.
             white = (efac * errors)**2 + 10.**(2*logeq)
             covariance = np.diag(white)
+            coverage = {'rule':noise_coverage.RULE,'status':'NO_RELEASED_RED_COMPONENT',
+                        'limitation':'Released white noise retained; no fitted red component does not establish absent correlated noise.'}
             if 'TNREDAMP' in fields:
-                covariance += mpta.red_covariance(times, float(fields['TNREDAMP'][0]), float(fields['TNREDGAM'][0]), int(fields['TNREDC'][0]))
+                plan = noise_coverage.mode_plan(float(np.ptp(times)), POLICY['minimum_period_days'], int(fields['TNREDC'][0]))
+                coverage = {'rule':noise_coverage.RULE,**plan,
+                            'status':'EXTENDED_BEFORE_CALIBRATION' if plan['extended'] else 'RELEASED_BAND_COVERS_SEARCH',
+                            'limitation':'Fixed published amplitude/slope; frequency coverage is not noise inference.'}
+                covariance += mpta.red_covariance(times, float(fields['TNREDAMP'][0]), float(fields['TNREDGAM'][0]), plan['selected_modes'])
             baseline = design[:, [names.index('Offset')]]
             # Null-model adequacy only: no periodic template is applied to data.
             chol = np.linalg.cholesky(covariance)
@@ -252,7 +261,8 @@ def prepare(target, selection):
                    'phase_connection':phase_connection,
                    'timing_names':names, 'timing_rank':int(rank), 'null_reduced_chi2':reduced,
                    'noise_adequacy_flag':reduced > 2 or reduced < .5,
-                   'noise_parameters':row['noise_parameters'], 'noise_model':'Released fixed total timing noise; EFAC outside EQUAD, optional Fourier red process',
+                   'noise_parameters':row['noise_parameters'], 'noise_model':'Published white noise and fixed spectral parameters with explicit red-frequency coverage',
+                   'noise_coverage':coverage,'noise_coverage_code_sha256':cal.digest(noise_coverage.__file__),
                    'noise_limit':'Single band cannot separate dispersion/scattering from achromatic signals; fixed hyperparameters; no DM time-series inference',
                    'policy':{**POLICY,'seed':POLICY['seed']+TARGETS.index(target)},
                    'selection_sha256':cal.digest(DATA/'selection.json'), 'adapter_sha256':cal.digest(__file__),
@@ -276,6 +286,9 @@ def prepare(target, selection):
 def calibrate(target):
     from pulsar_pilot.pilot1_runtime import prepare_covariance_gls_scanner
     root = DATA/target/'prepared'
+    receipt = cal.read(root/'receipt.json')
+    if receipt['adapter_sha256'] != cal.digest(__file__) or receipt.get('noise_coverage_code_sha256') != cal.digest(noise_coverage.__file__):
+        raise ValueError('Preparation belongs to a different adapter/coverage implementation')
     result = cal.run(root/'profile/profile.json', DATA/'calibration-cache')
     profile, arrays = cal.load_profile(root/'profile/profile.json')
     # Three deterministic injected templates check units/projection, not detection yield.

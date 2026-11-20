@@ -1,0 +1,14 @@
+{
+  "status": "VERIFIED",
+  "previous_workbook_sha256": "de1faf7705a4c244dca41ffc3cecaf5f8b570f727c98565238fb3acb5172a4c0",
+  "workbook_sha256": "7c27d73b8644d43d7e85bb2d6708c054e8539799e4d5030800766e81408bf481",
+  "workbook": "outputs/recherche-master-20260908/Project-Recherche-Master.xlsx",
+  "previous_search_rows_preserved": 356,
+  "previous_target_rows_preserved": 783,
+  "previous_candidate_grades_preserved": true,
+  "previous_work_log_rows_preserved": true,
+  "new_work_log_rows": 5,
+  "all_target_cells_including_operator_notes_preserved": true,
+  "result_scope_code_inputs_and_checkpoint_hashes_verified": true,
+  "closeout_sha256": "cf91c1e3d6ad4c05ba9aeea3f3321c04f9b9a06dacbdc90ce473daa8c27bee1d"
+}

@@ -1,0 +1,28 @@
+{
+  "status": "SOURCE_OMISSION_CLARIFIED_HOLD_RETAINED",
+  "target": "J1802-2124",
+  "date": "2026-09-10",
+  "timing_fit_executed": false,
+  "calibration_executed": false,
+  "observed_search_executed": false,
+  "source_bindings_verified": 71,
+  "input_files_verified": 22,
+  "adapter_sha256": "78eec2ad77ab4e96be7c83f84e6540ca67beb44c530a5720b4d2cce9cc04e8ed",
+  "comparison_sha256": "77e172d4e5e5ff193bd2664ffe19e888cd7fbf2c56c5fc26675b56747c5969ff",
+  "report_sha256": "6db5b1302c47fac13543751b9432f4fde9ca938f733f5f0f798a1da348a4cd7e",
+  "workbook_receipt_sha256": "1ea536194708140abe62a096eab9044463002a1d7c9d1c5fcf91452865f3b1a0",
+  "next_step": "Target-specific omitted-Shapiro ELL1H preparation, retained phase cuts and timing/noise adequacy checks; not executed.",
+  "retained_holds": [
+    "J1802-2124",
+    "J0613-0200",
+    "J0740+6620",
+    "J1857+0943",
+    "J2043+1711"
+  ],
+  "counts": {
+    "registered": 783,
+    "observed": 286,
+    "search_records": 360,
+    "candidate_grades": 8
+  }
+}

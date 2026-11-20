@@ -1,0 +1,14 @@
+{
+ "evidence": "results/research/population-limits-20261121/population-limits.json",
+ "entries": [
+  [
+   "population-limits-20261121",
+   "Research",
+   "Population limit updated with all 43 binary searches (310 pulsars)",
+   "VERIFIED",
+   "Owner instruction 'Yes update it'. 271 isolated plus 39 binary pulsars, all NO_TRIGGER. 400-1,000 d: 14.7% to 8.8%; 1,000-2,000 d: 17.1% to 9.5%; 0.1 Earth mass at 60-240 d: 4.9-5.6%. Isolated-only tables reproduce exactly.",
+   "No observations read, no search run. Fixed-noise curves; long-period figures least robust. September and nonlinear NANOGrav binary searches not included."
+  ]
+ ],
+ "target_updates": []
+}

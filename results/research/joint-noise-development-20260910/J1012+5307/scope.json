@@ -1,0 +1,207 @@
+{
+  "alpha": 0.01,
+  "amplitude_offsets_dex": [
+    -0.5,
+    0.0,
+    0.5
+  ],
+  "calibration_nulls_each": 256,
+  "candidate_period_days": 138.9110415844769,
+  "code": {
+    "tools/binary_noise_coverage.py": "066dd27f662e971f2117d0ef84c4fbb7fc96a6f7da08735a328f9198c094e487",
+    "tools/j1453_review.py": "b69eb86b1fc28da36dff4b6cece1d07c73324cabdb3b08419d1871f6177b844b",
+    "tools/joint_noise.py": "96313f340b97e01dc18efb3a4511415f7f00f7a473ef359d9047318d56e721ae",
+    "tools/mpta_batch.py": "fb54f8f9f06eaf5937009ca24860e5af5a4bd9d4e10ebfbf3c7b86eb44111b7a",
+    "tools/noise_development.py": "9fd280269b9fdbb490187b804ccb9c73746ed0ac5d6a982bd1e64d8652d8cf78",
+    "tools/target_calibration.py": "9d2d230f53521ce6f4ee55ab48d1c364d3db7543f1b5da26a5ecf902264092df"
+  },
+  "coverage": {
+    "extended": true,
+    "released_modes": 30,
+    "required_modes": 190,
+    "selected_modes": 256,
+    "shortest_released_period_days": 189.0871311780885,
+    "shortest_selected_period_days": 22.158648184932247
+  },
+  "family": [
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 0.0,
+      "log10_amplitude": -13.098853813974781
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 0.0,
+      "log10_amplitude": -13.098853813974781
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 0.7911763562311424,
+      "log10_amplitude": -13.098853813974781
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 0.7911763562311424,
+      "log10_amplitude": -13.098853813974781
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 1.7911763562311425,
+      "log10_amplitude": -13.098853813974781
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 1.7911763562311425,
+      "log10_amplitude": -13.098853813974781
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 2.7911763562311425,
+      "log10_amplitude": -13.098853813974781
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 2.7911763562311425,
+      "log10_amplitude": -13.098853813974781
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 0.0,
+      "log10_amplitude": -12.598853813974781
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 0.0,
+      "log10_amplitude": -12.598853813974781
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 0.7911763562311424,
+      "log10_amplitude": -12.598853813974781
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 0.7911763562311424,
+      "log10_amplitude": -12.598853813974781
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 1.7911763562311425,
+      "log10_amplitude": -12.598853813974781
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 1.7911763562311425,
+      "log10_amplitude": -12.598853813974781
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 2.7911763562311425,
+      "log10_amplitude": -12.598853813974781
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 2.7911763562311425,
+      "log10_amplitude": -12.598853813974781
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 0.0,
+      "log10_amplitude": -12.098853813974781
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 0.0,
+      "log10_amplitude": -12.098853813974781
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 0.7911763562311424,
+      "log10_amplitude": -12.098853813974781
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 0.7911763562311424,
+      "log10_amplitude": -12.098853813974781
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 1.7911763562311425,
+      "log10_amplitude": -12.098853813974781
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 1.7911763562311425,
+      "log10_amplitude": -12.098853813974781
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 2.7911763562311425,
+      "log10_amplitude": -12.098853813974781
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 2.7911763562311425,
+      "log10_amplitude": -12.098853813974781
+    }
+  ],
+  "gamma_grid": [
+    0.0,
+    0.7911763562311424,
+    1.7911763562311425,
+    2.7911763562311425
+  ],
+  "generators": [
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 0.7911763562311424,
+      "log10_amplitude": -12.598853813974781,
+      "name": "published_extended"
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 1.2911763562311425,
+      "log10_amplitude": -12.348853813974781,
+      "name": "between_grid_stronger_steeper"
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 1.7911763562311425,
+      "log10_amplitude": -12.598853813974781,
+      "name": "steeper_with_chromatic_if_identifiable"
+    }
+  ],
+  "injection_amplitude_factors": [
+    1.0,
+    5.0
+  ],
+  "injection_periods_days": [
+    59.94120139620912,
+    138.9110415844769,
+    301.1531902234625
+  ],
+  "injection_reference_amplitude_us": 0.503807815010337,
+  "injections_each_cell": 16,
+  "inputs": {
+    "binary-pilot03-20260909/J1012+5307/prepared/observed.npz": "dc89f61f866731b09b30b599a462d71e11227c842df95f4d10879460f65d73df",
+    "binary-pilot03-20260909/J1012+5307/prepared/timing-model.par": "005ee3fe9393fcb9056adfdaf49dee7d3bcb86afd5ee37979af9fd582e265dfc",
+    "binary-pilot03-20260909/J1012+5307/profile/arrays.npz": "dd2457a461309007fd1a54fb1b6fc4b18380430b441381d62f3e61dceb8cf3d5",
+    "binary-pilot03-20260909/J1012+5307/profile/profile.json": "db3dd8f35161ff74af82aadd7ab30e281275005dc5b8bc86999a8e982cc3cd03",
+    "binary-pilot03-20260909/J1012+5307/run01/periodogram.npz": "ebabebd757b660bcb7ad21f3a56d4c1f04b5d0a19ed15384f887dff8046ae167",
+    "binary-pilot03-20260909/J1012+5307/run01/result.json": "da9fc747a4da30cb7af08fe6cad03e8b772f3a911b1bec65c621c3e475316870",
+    "j1012-review-20260909/noise-inputs.npz": "a13eb49f4df6dbcf2c3bbffbcef48bd671113d9dd5c277b64f5747443552ab85"
+  },
+  "limits": "Finite grid, fixed white noise and linear timing model; no noise posterior or survey-wide FAP. Boundary fits flag limited scope. Single-band chromatic ambiguity retained.",
+  "objective": "Timing-marginalized Gaussian objective with covariance determinant; discrete noise and circular coefficients profiled separately under null/signal",
+  "old_covariance_relative_error": 6.15786202739864e-22,
+  "prepared_sha256": "8940a16401bd843a0d34fea15d1e006c859cd6d87fbe8ce5d7c5f92f60d22c21",
+  "reference_epoch": 56104.0,
+  "released_gamma": 0.7911763562311424,
+  "released_log10_amplitude": -12.598853813974781,
+  "scope": "Exposed-data development reanalysis; not a new blind search",
+  "seed": 2026091001,
+  "source": "binary-pilot03-20260909/J1012+5307",
+  "target": "J1012+5307",
+  "threshold": "Maximum 1% finite-sample order threshold across three declared generators; independent validation ensembles; no original threshold reused",
+  "validation_nulls_each": 256
+}

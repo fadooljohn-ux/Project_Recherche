@@ -1,0 +1,28 @@
+{
+  "arrays": "arrays.npz",
+  "arrays_sha256": "515802d02cfef8d5ededfc5087a39350be2096cc785561e820116ca6cc1a57e6",
+  "layout": "first len(times) rows are TOA seconds; remaining rows are auxiliary measurements",
+  "observed_residuals_included": false,
+  "policy": {
+    "detection_probability": 0.95,
+    "false_alarm_probability": 0.01,
+    "maximum_condition_number": 10000000000.0,
+    "maximum_period_days": 631.3119739823742,
+    "minimum_period_days": 30.0,
+    "minimum_retained_power": 0.2,
+    "null_count": 4096,
+    "oversampling": 5,
+    "search_count": 1,
+    "seed": 2026093900
+  },
+  "provenance": {
+    "fixed_shapiro": null,
+    "noise_model": "Fixed NG15 wideband covariance with explicit red-frequency coverage: NO_RELEASED_RED_COMPONENT; all free binary, timing, DM and instrumental derivatives jointly projected",
+    "preparation_receipt_sha256": "41089a21940fc210c5a22763a245002d6fafa3d40891b5b3a6ff0a029a0dc0e8",
+    "shapiro_mode": "ell1h_omitted_in_release",
+    "timing_model": "Released ELL1H binary model; local linear marginalization of all free orbital parameters"
+  },
+  "reference_epoch_mjd_tdb": 58314.0,
+  "schema": "recherche-target-calibration-v1",
+  "target": "J1802-2124"
+}

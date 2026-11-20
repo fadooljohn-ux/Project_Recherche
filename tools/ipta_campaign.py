@@ -1,7 +1,6 @@
 """Sequential, resumable IPTA campaign; each observed destination is consumed once."""
 import argparse
 import hashlib
-import os
 from pathlib import Path
 import shutil
 import subprocess

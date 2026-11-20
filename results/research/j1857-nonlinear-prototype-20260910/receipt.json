@@ -1,0 +1,600 @@
+{
+  "best_diagnostic_noise": "released",
+  "calibration_executed": false,
+  "code": {
+    "tools/binary_noise_coverage.py": "066dd27f662e971f2117d0ef84c4fbb7fc96a6f7da08735a328f9198c094e487",
+    "tools/binary_wideband.py": "91f1a3fa712984a68c063acd5cd8778e297270b2b96c75475e934475208318d8",
+    "tools/j1857_nonlinear.py": "d9abf8fc7ff054269b1e238d96d4c03f2b42c1335d59a0b83be46ccc6e23d0b5"
+  },
+  "domain": "Released values plus/minus three published standard errors, with physical mass/inclination bounds; numerical domain, not an independent prior or posterior",
+  "holds": [],
+  "inclination_coordinate": "cos(i)",
+  "inputs": {
+    "par_sha256": "b58c8f48d9fb392db6030da0d92d3a95cb740ee40f78f842c3ef1a5ab106103d",
+    "prior_failure_sha256": "0c82e8b7a5dfe42be22db85b33e5bb1f2d73e7407f128141631b8e40572dc20a",
+    "selection_sha256": "d534495ae75baafa9c33782e6c9eb3e29e341f2e6f0954a5ce7e89f139de3f10",
+    "tim_sha256": "3babc2cd9ab2469312f1d0261c7ebb9c338f5ab1560771ab20e9769c1afda797"
+  },
+  "limits": "Finite-domain native orbit profiling with local linear nuisance treatment and five fixed-noise diagnostics. Conditional tails and local Fisher information are adequacy diagnostics, not global significance, posterior uncertainty, detection probability or general qualification. Any future calibration must use the same nonlinear/noise statistic in nulls, injections and observed execution.",
+  "linear_nuisance_columns": 160,
+  "noise_coverage": {
+    "extended": true,
+    "limitation": "Fixed released amplitude/slope extrapolated when extended; frequency coverage is not noise-posterior validation.",
+    "maximum_modes": 256,
+    "minimum_search_period_days": 123.2717119145527,
+    "red_basis_span_days": 5692.437535488243,
+    "released_modes": 30,
+    "required_modes": 47,
+    "rule": "cover_search_band_v1",
+    "selected_modes": 64,
+    "selection_uses_observed_periodogram": false,
+    "shortest_released_period_days": 189.74791784960811,
+    "shortest_selected_period_days": 88.9443364920038,
+    "spectral_amplitude": 1.4427982605995493e-14,
+    "spectral_gamma": 3.5544535384207827,
+    "status": "EXTENDED_BEFORE_CALIBRATION",
+    "verified_shortest_period_days": 88.94433649200376
+  },
+  "noise_objective_improvement": 0.0,
+  "nonlinear_parameters": [
+    "PB",
+    "A1",
+    "TASC",
+    "EPS1",
+    "EPS2",
+    "M2",
+    "SINI"
+  ],
+  "observed_outer_period_scan_executed": false,
+  "operational_profile_created": false,
+  "paired_dm_toas": 364,
+  "prospective_period_bounds_days": [
+    123.2717119145527,
+    2000.0
+  ],
+  "scenarios": [
+    {
+      "amplitude_factor": 1.0,
+      "chi2": 555.7905121756725,
+      "conditional_chi2_tail": 0.5541243769190495,
+      "conditional_orbital_harmonic_tail": 0.7641232895714615,
+      "dof": 561,
+      "function_evaluations": [
+        9,
+        15
+      ],
+      "gamma_offset": 0.0,
+      "independent_chi2_absolute_error": 1.1368683772161603e-13,
+      "joint_columns": 167,
+      "joint_rank": 167,
+      "label": "released",
+      "multistart_chi2_difference": 8.075502364590648e-07,
+      "native_derivative_relative_errors": {
+        "A1": 7.0260767443471606e-06,
+        "EPS1": 1.4353015724492354e-05,
+        "EPS2": 2.3241290392693785e-05,
+        "M2": 4.3011741916852315e-06,
+        "PB": 1.578360120897745e-05,
+        "SINI": 1.211290340154207e-05,
+        "TASC": 2.0991596689948837e-05
+      },
+      "native_nuisance_remainder_whitened": 2.2687068997884197e-06,
+      "normalized_joint_condition": 193.1476432240875,
+      "on_declared_orbit_boundary": false,
+      "optimizer_success": true,
+      "orbital_harmonic_delta_chi2": 7.419996696989281,
+      "orbital_harmonic_rank": 11,
+      "orbital_parameters": {
+        "A1": 9.230780030292376,
+        "EPS1": -2.1541471896850652e-05,
+        "EPS2": 2.438166151552529e-06,
+        "M2": 0.26315735645391286,
+        "PB": 12.327171191455339,
+        "SINI": 0.998932186254762,
+        "TASC": 56211.08796737093
+      },
+      "orbital_shifts_published_sigma": {
+        "A1": 0.019914929082202826,
+        "EPS1": 0.011918220833246842,
+        "EPS2": -0.001190148511530111,
+        "M2": -0.013210683965882382,
+        "PB": 0.0005224455643147081,
+        "SINI": 0.008592801428216123,
+        "TASC": -0.0013614099732730811
+      },
+      "profile_objective_with_linear_nuisance_measure": -11196.96523900239,
+      "reduced_chi2": 0.9907139254468315,
+      "synthetic_template_information": [
+        {
+          "period_days": 150,
+          "worst_phase_information_retained": 0.8427823159602049
+        },
+        {
+          "period_days": 300,
+          "worst_phase_information_retained": 0.8310489487533591
+        },
+        {
+          "period_days": 600,
+          "worst_phase_information_retained": 0.8516831443379574
+        },
+        {
+          "period_days": 1200,
+          "worst_phase_information_retained": 0.6483706525309226
+        },
+        {
+          "period_days": 1800,
+          "worst_phase_information_retained": 0.8386826375985774
+        }
+      ]
+    },
+    {
+      "amplitude_factor": 0.5,
+      "chi2": 572.4505127751436,
+      "conditional_chi2_tail": 0.35964167545803793,
+      "conditional_orbital_harmonic_tail": 0.759897331866358,
+      "dof": 561,
+      "function_evaluations": [
+        5,
+        11
+      ],
+      "gamma_offset": 0.0,
+      "independent_chi2_absolute_error": 0.0,
+      "joint_columns": 167,
+      "joint_rank": 167,
+      "label": "half_amplitude",
+      "multistart_chi2_difference": 1.8714578118306235e-06,
+      "native_derivative_relative_errors": {
+        "A1": 7.148694147280507e-06,
+        "EPS1": 1.5552488039261252e-05,
+        "EPS2": 2.2850083595450393e-05,
+        "M2": 4.6755666412539246e-06,
+        "PB": 1.598992981121279e-05,
+        "SINI": 1.2642421697212164e-05,
+        "TASC": 2.013465133048082e-05
+      },
+      "native_nuisance_remainder_whitened": 6.643539493357231e-06,
+      "normalized_joint_condition": 193.86327487949418,
+      "on_declared_orbit_boundary": false,
+      "optimizer_success": true,
+      "orbital_harmonic_delta_chi2": 7.46939747426359,
+      "orbital_harmonic_rank": 11,
+      "orbital_parameters": {
+        "A1": 9.230780043203051,
+        "EPS1": -2.153972290180675e-05,
+        "EPS2": 2.4399433771129237e-06,
+        "M2": 0.26236102430263825,
+        "PB": 12.327171191423968,
+        "SINI": 0.998950502238528,
+        "TASC": 56211.08796737553
+      },
+      "orbital_shifts_published_sigma": {
+        "A1": 0.0928070873310299,
+        "EPS1": 0.10238289972285593,
+        "EPS2": 0.14001221369054864,
+        "M2": -0.09547864128630949,
+        "PB": -0.2332790906732128,
+        "SINI": 0.09929124143625057,
+        "TASC": 0.29302283492121883
+      },
+      "profile_objective_with_linear_nuisance_measure": -11191.559149549474,
+      "reduced_chi2": 1.0204108962123772,
+      "synthetic_template_information": [
+        {
+          "period_days": 150,
+          "worst_phase_information_retained": 0.8412462797315223
+        },
+        {
+          "period_days": 300,
+          "worst_phase_information_retained": 0.8237315704350313
+        },
+        {
+          "period_days": 600,
+          "worst_phase_information_retained": 0.849468511203893
+        },
+        {
+          "period_days": 1200,
+          "worst_phase_information_retained": 0.7453539195292214
+        },
+        {
+          "period_days": 1800,
+          "worst_phase_information_retained": 0.870201707755477
+        }
+      ]
+    },
+    {
+      "amplitude_factor": 2.0,
+      "chi2": 543.9589691747483,
+      "conditional_chi2_tail": 0.6893586958678237,
+      "conditional_orbital_harmonic_tail": 0.7682527453183916,
+      "dof": 561,
+      "function_evaluations": [
+        13,
+        15
+      ],
+      "gamma_offset": 0.0,
+      "independent_chi2_absolute_error": 1.1368683772161603e-13,
+      "joint_columns": 167,
+      "joint_rank": 167,
+      "label": "double_amplitude",
+      "multistart_chi2_difference": 8.778931714914506e-08,
+      "native_derivative_relative_errors": {
+        "A1": 6.894632949991404e-06,
+        "EPS1": 1.429456340295268e-05,
+        "EPS2": 2.2706263075018742e-05,
+        "M2": 4.746078189937294e-06,
+        "PB": 1.5420018681609775e-05,
+        "SINI": 1.2805909534216619e-05,
+        "TASC": 1.8984360276231198e-05
+      },
+      "native_nuisance_remainder_whitened": 6.623155632572236e-06,
+      "normalized_joint_condition": 190.99715624186928,
+      "on_declared_orbit_boundary": false,
+      "optimizer_success": true,
+      "orbital_harmonic_delta_chi2": 7.371471756244463,
+      "orbital_harmonic_rank": 11,
+      "orbital_parameters": {
+        "A1": 9.230780016649659,
+        "EPS1": -2.1543959923529537e-05,
+        "EPS2": 2.437121544293129e-06,
+        "M2": 0.26395527507212146,
+        "PB": 12.32717119147983,
+        "SINI": 0.9989074539954609,
+        "TASC": 56211.08796736638
+      },
+      "orbital_shifts_published_sigma": {
+        "A1": -0.05711025236108379,
+        "EPS1": -0.11677198635665811,
+        "EPS2": -0.08418524822636023,
+        "M2": 0.06922116902773437,
+        "PB": 0.18304282841071004,
+        "SINI": -0.11387822525221818,
+        "TASC": -0.2918621398272609
+      },
+      "profile_objective_with_linear_nuisance_measure": -11191.54551763683,
+      "reduced_chi2": 0.9696238309710308,
+      "synthetic_template_information": [
+        {
+          "period_days": 150,
+          "worst_phase_information_retained": 0.845459093756615
+        },
+        {
+          "period_days": 300,
+          "worst_phase_information_retained": 0.8511321652189443
+        },
+        {
+          "period_days": 600,
+          "worst_phase_information_retained": 0.7916352083284509
+        },
+        {
+          "period_days": 1200,
+          "worst_phase_information_retained": 0.5439988745240347
+        },
+        {
+          "period_days": 1800,
+          "worst_phase_information_retained": 0.6053953857971032
+        }
+      ]
+    },
+    {
+      "amplitude_factor": 1.0,
+      "chi2": 582.6344632430101,
+      "conditional_chi2_tail": 0.25539843052498085,
+      "conditional_orbital_harmonic_tail": 0.7974939020837042,
+      "dof": 561,
+      "function_evaluations": [
+        12,
+        19
+      ],
+      "gamma_offset": -1.0,
+      "independent_chi2_absolute_error": 1.1368683772161603e-13,
+      "joint_columns": 167,
+      "joint_rank": 167,
+      "label": "shallower",
+      "multistart_chi2_difference": 5.86849409955903e-07,
+      "native_derivative_relative_errors": {
+        "A1": 7.244417934297186e-06,
+        "EPS1": 1.5410305598764366e-05,
+        "EPS2": 2.166509510984307e-05,
+        "M2": 4.4952550272298445e-06,
+        "PB": 1.5173836918951722e-05,
+        "SINI": 1.1501090706188263e-05,
+        "TASC": 1.875907589565826e-05
+      },
+      "native_nuisance_remainder_whitened": 6.042035952628887e-06,
+      "normalized_joint_condition": 193.98957159569625,
+      "on_declared_orbit_boundary": false,
+      "optimizer_success": true,
+      "orbital_harmonic_delta_chi2": 7.019601677498645,
+      "orbital_harmonic_rank": 11,
+      "orbital_parameters": {
+        "A1": 9.230780030631083,
+        "EPS1": -2.1541028555111498e-05,
+        "EPS2": 2.4398182879005136e-06,
+        "M2": 0.2629102960647286,
+        "PB": 12.327171191434012,
+        "SINI": 0.9989405697718735,
+        "TASC": 56211.08796737423
+      },
+      "orbital_shifts_published_sigma": {
+        "A1": 0.021827228186076308,
+        "EPS1": 0.03484954257188353,
+        "EPS2": 0.13007374967566984,
+        "M2": -0.03873414615492795,
+        "PB": -0.15842486064162054,
+        "SINI": 0.050106920107821286,
+        "TASC": 0.20993754637721532
+      },
+      "profile_objective_with_linear_nuisance_measure": -11182.720225697281,
+      "reduced_chi2": 1.0385641056025137,
+      "synthetic_template_information": [
+        {
+          "period_days": 150,
+          "worst_phase_information_retained": 0.8445795879781265
+        },
+        {
+          "period_days": 300,
+          "worst_phase_information_retained": 0.8315789357234423
+        },
+        {
+          "period_days": 600,
+          "worst_phase_information_retained": 0.8635232858661634
+        },
+        {
+          "period_days": 1200,
+          "worst_phase_information_retained": 0.7698903162053021
+        },
+        {
+          "period_days": 1800,
+          "worst_phase_information_retained": 0.8775061087376139
+        }
+      ]
+    },
+    {
+      "amplitude_factor": 1.0,
+      "chi2": 546.2710071012684,
+      "conditional_chi2_tail": 0.6641005473713641,
+      "conditional_orbital_harmonic_tail": 0.785435329166696,
+      "dof": 561,
+      "function_evaluations": [
+        11,
+        13
+      ],
+      "gamma_offset": 1.0,
+      "independent_chi2_absolute_error": 1.1368683772161603e-13,
+      "joint_columns": 167,
+      "joint_rank": 167,
+      "label": "steeper",
+      "multistart_chi2_difference": 4.969534757037763e-07,
+      "native_derivative_relative_errors": {
+        "A1": 6.852407734242327e-06,
+        "EPS1": 1.4783656558875881e-05,
+        "EPS2": 2.3064673961362713e-05,
+        "M2": 4.491207351583136e-06,
+        "PB": 1.6275172474475846e-05,
+        "SINI": 1.2967962468276686e-05,
+        "TASC": 1.901448821056123e-05
+      },
+      "native_nuisance_remainder_whitened": 6.197149113081632e-06,
+      "normalized_joint_condition": 192.2683627634591,
+      "on_declared_orbit_boundary": false,
+      "optimizer_success": true,
+      "orbital_harmonic_delta_chi2": 7.166605986577115,
+      "orbital_harmonic_rank": 11,
+      "orbital_parameters": {
+        "A1": 9.230780022739806,
+        "EPS1": -2.154249710544463e-05,
+        "EPS2": 2.4376010823643043e-06,
+        "M2": 0.26354418462377444,
+        "PB": 12.32717119148862,
+        "SINI": 0.9989200627967743,
+        "TASC": 56211.087967366344
+      },
+      "orbital_shifts_published_sigma": {
+        "A1": -0.022725996228518817,
+        "EPS1": -0.04110946873760381,
+        "EPS2": -0.046085465101060936,
+        "M2": 0.02675199155534826,
+        "PB": 0.24856506920386845,
+        "SINI": -0.051441032464523494,
+        "TASC": -0.29417649137121893
+      },
+      "profile_objective_with_linear_nuisance_measure": -11189.896102114259,
+      "reduced_chi2": 0.9737451106974482,
+      "synthetic_template_information": [
+        {
+          "period_days": 150,
+          "worst_phase_information_retained": 0.8409281196462369
+        },
+        {
+          "period_days": 300,
+          "worst_phase_information_retained": 0.8303855495545711
+        },
+        {
+          "period_days": 600,
+          "worst_phase_information_retained": 0.7982600874419887
+        },
+        {
+          "period_days": 1200,
+          "worst_phase_information_retained": 0.5254917769467228
+        },
+        {
+          "period_days": 1800,
+          "worst_phase_information_retained": 0.48354039125702286
+        }
+      ]
+    }
+  ],
+  "scope_sha256": "0b72bcefaf1f72aa8cab028f5e5b858d7999fba3f056de030890be2168cc7446",
+  "status": "CONDITIONAL_NONLINEAR_PROTOTYPE_COMPATIBLE",
+  "target": "J1857+0943",
+  "timing_names": [
+    "Offset",
+    "PX",
+    "ELONG",
+    "ELAT",
+    "PMELONG",
+    "PMELAT",
+    "F0",
+    "F1",
+    "JUMP1",
+    "DMX_0001",
+    "DMX_0002",
+    "DMX_0003",
+    "DMX_0004",
+    "DMX_0005",
+    "DMX_0006",
+    "DMX_0007",
+    "DMX_0008",
+    "DMX_0009",
+    "DMX_0010",
+    "DMX_0011",
+    "DMX_0012",
+    "DMX_0013",
+    "DMX_0014",
+    "DMX_0015",
+    "DMX_0016",
+    "DMX_0017",
+    "DMX_0018",
+    "DMX_0019",
+    "DMX_0020",
+    "DMX_0021",
+    "DMX_0022",
+    "DMX_0023",
+    "DMX_0024",
+    "DMX_0025",
+    "DMX_0026",
+    "DMX_0027",
+    "DMX_0028",
+    "DMX_0029",
+    "DMX_0030",
+    "DMX_0031",
+    "DMX_0032",
+    "DMX_0033",
+    "DMX_0034",
+    "DMX_0035",
+    "DMX_0036",
+    "DMX_0037",
+    "DMX_0038",
+    "DMX_0039",
+    "DMX_0040",
+    "DMX_0041",
+    "DMX_0042",
+    "DMX_0043",
+    "DMX_0044",
+    "DMX_0045",
+    "DMX_0046",
+    "DMX_0047",
+    "DMX_0048",
+    "DMX_0049",
+    "DMX_0050",
+    "DMX_0051",
+    "DMX_0052",
+    "DMX_0053",
+    "DMX_0054",
+    "DMX_0055",
+    "DMX_0056",
+    "DMX_0057",
+    "DMX_0058",
+    "DMX_0059",
+    "DMX_0060",
+    "DMX_0061",
+    "DMX_0062",
+    "DMX_0063",
+    "DMX_0064",
+    "DMX_0065",
+    "DMX_0066",
+    "DMX_0067",
+    "DMX_0068",
+    "DMX_0069",
+    "DMX_0070",
+    "DMX_0071",
+    "DMX_0072",
+    "DMX_0073",
+    "DMX_0074",
+    "DMX_0075",
+    "DMX_0076",
+    "DMX_0077",
+    "DMX_0078",
+    "DMX_0079",
+    "DMX_0080",
+    "DMX_0081",
+    "DMX_0082",
+    "DMX_0083",
+    "DMX_0084",
+    "DMX_0085",
+    "DMX_0086",
+    "DMX_0087",
+    "DMX_0088",
+    "DMX_0089",
+    "DMX_0090",
+    "DMX_0091",
+    "DMX_0092",
+    "DMX_0093",
+    "DMX_0094",
+    "DMX_0095",
+    "DMX_0096",
+    "DMX_0097",
+    "DMX_0098",
+    "DMX_0099",
+    "DMX_0100",
+    "DMX_0101",
+    "DMX_0102",
+    "DMX_0103",
+    "DMX_0104",
+    "DMX_0105",
+    "DMX_0106",
+    "DMX_0107",
+    "DMX_0108",
+    "DMX_0109",
+    "DMX_0110",
+    "DMX_0111",
+    "DMX_0112",
+    "DMX_0113",
+    "DMX_0114",
+    "DMX_0115",
+    "DMX_0116",
+    "DMX_0117",
+    "DMX_0118",
+    "DMX_0119",
+    "DMX_0120",
+    "DMX_0121",
+    "DMX_0122",
+    "DMX_0123",
+    "DMX_0124",
+    "DMX_0125",
+    "DMX_0126",
+    "DMX_0127",
+    "DMX_0128",
+    "DMX_0129",
+    "DMX_0130",
+    "DMX_0131",
+    "DMX_0132",
+    "DMX_0133",
+    "DMX_0134",
+    "DMX_0135",
+    "DMX_0136",
+    "DMX_0137",
+    "DMX_0138",
+    "DMX_0139",
+    "DMX_0140",
+    "DMX_0141",
+    "DMX_0142",
+    "DMX_0143",
+    "DMX_0144",
+    "DMX_0145",
+    "DMX_0146",
+    "DMX_0147",
+    "DMX_0148",
+    "DMX_0149",
+    "DMJUMP1",
+    "DMJUMP2",
+    "PB",
+    "A1",
+    "M2",
+    "SINI",
+    "TASC",
+    "EPS1",
+    "EPS2"
+  ],
+  "toas": 364
+}

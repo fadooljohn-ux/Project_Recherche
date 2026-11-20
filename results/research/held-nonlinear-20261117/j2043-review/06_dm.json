@@ -1,0 +1,213 @@
+{
+ "baseline": {
+  "stat": 26.86663181299295,
+  "amp_us": 0.08917422873076054,
+  "amp_err_us": 0.017371043757202616,
+  "phase": 2.8304804629038856,
+  "phase_err": 0.2086611571144112
+ },
+ "template_achromatic": {
+  "stat": 26.86663181299295,
+  "amp_us_at_weight_1": 0.08917422873076054,
+  "amp_err_us": 0.017371043757202616,
+  "phase": 2.8304804629038856,
+  "phase_err": 0.2086611571144112
+ },
+ "template_nu^-2_(ref 1400 MHz)_time_rows_only": {
+  "stat": 1.3713116105769905,
+  "amp_us_at_weight_1": 0.05184977067223225,
+  "amp_err_us": 0.04446227897857125,
+  "phase": -2.035792590715372,
+  "phase_err": 0.8913940589590957
+ },
+ "template_nu^-4_(ref 1400 MHz)": {
+  "stat": 23.370578447531038,
+  "amp_us_at_weight_1": 0.0070530454862692375,
+  "amp_err_us": 0.001480270540501442,
+  "phase": -0.4164097028812912,
+  "phase_err": 0.21503922330220698
+ },
+ "template_430_only": {
+  "stat": 23.73360079183833,
+  "amp_us_at_weight_1": 0.7073477821513563,
+  "amp_err_us": 0.1472017747230473,
+  "phase": -0.41821488466787493,
+  "phase_err": 0.21306764512569856
+ },
+ "template_L-wide_only": {
+  "stat": 26.85924137783962,
+  "amp_us_at_weight_1": 0.08024830597654238,
+  "amp_err_us": 0.01564408231842432,
+  "phase": 2.8183507175300515,
+  "phase_err": 0.20798610186890434
+ },
+ "two_band_joint": {
+  "stat_4dof": 28.36947459594947,
+  "improvement_over_achromatic_2dof": 1.5028427829565203,
+  "consistency_chi2_2dof": 1.502842782956521,
+  "430": [
+   0.5411545989848245,
+   -1.8931837854216687,
+   0.4422671225687065,
+   0.8012325078570488
+  ],
+  "L-wide": [
+   0.09804810632068683,
+   -2.8632040334331346,
+   0.04553794291507299,
+   0.5050381095415267
+  ],
+  "format": "[amp_us, phase, amp_err_us, phase_err]"
+ },
+ "periodic_DM_template(time+DM rows coherent)": {
+  "stat": 9.442016375183112,
+  "note": "per-epoch DMX absorbs any DM change that is constant within an epoch (windows 0.10-0.17 d), so this is ~0 by construction"
+ },
+ "template_information_share": {
+  "430_time_rows": 0.07617512529129021,
+  "L-wide_time_rows": 0.9138073515000228,
+  "dm_rows": 0.010017523208686731
+ },
+ "dm_variants": {
+  "released (DMX free, DM measurements used)": {
+   "stat": 26.86663181299293,
+   "stat_local_max": 26.851702677639445,
+   "amp_us": 0.08917422873076052,
+   "amp_err_us": 0.01737104375720261,
+   "phase": 2.830480462903885,
+   "phase_err": 0.20866115711441124,
+   "null_chi2": 714.392238139961,
+   "rank": 242
+  },
+  "DM measurements ignored (DMX from two-band timing only)": {
+   "stat": 26.692403988934664,
+   "stat_local_max": 26.66684667602275,
+   "amp_us": 0.08950134165930484,
+   "amp_err_us": 0.017498130874955962,
+   "phase": 2.8147921248327745,
+   "phase_err": 0.20868618196985217,
+   "null_chi2": 243.71351817680534,
+   "rank": 242
+  },
+  "DM measurement errors x2": {
+   "stat": 26.73041006169656,
+   "stat_local_max": 26.707334965657143,
+   "amp_us": 0.08940933795371596,
+   "amp_err_us": 0.01746619749780736,
+   "phase": 2.8184263514224193,
+   "phase_err": 0.2086834260628119,
+   "null_chi2": 361.6809946095451,
+   "rank": 242
+  },
+  "DM measurement errors x0.5": {
+   "stat": 27.64032518293036,
+   "stat_local_max": 27.662981779640027,
+   "amp_us": 0.0886954710586515,
+   "amp_err_us": 0.017009869121358812,
+   "phase": 2.8891290354960293,
+   "phase_err": 0.20827607936916853,
+   "null_chi2": 2110.03782271446,
+   "rank": 242
+  },
+  "DMX fixed at released values (no DMX columns)": {
+   "stat": 10.763771607698548,
+   "stat_local_max": 10.76604389660911,
+   "amp_us": 0.03566158150456626,
+   "amp_err_us": 0.010946822186424888,
+   "phase": 2.8453812985735065,
+   "phase_err": 0.31914082921873826,
+   "null_chi2": 714.3922393969074,
+   "rank": 19
+  },
+  "DMJUMPs fixed": {
+   "stat": 26.494534324666606,
+   "stat_local_max": 26.485571569443046,
+   "amp_us": 0.08806236426651384,
+   "amp_err_us": 0.017303030251768537,
+   "phase": 2.8200620143627373,
+   "phase_err": 0.21028460393962486,
+   "null_chi2": 714.3922381405253,
+   "rank": 240
+  },
+  "only epochs with both receivers (425 TOAs)": {
+   "stat": 27.185373971768435,
+   "stat_local_max": 27.163126700007457,
+   "amp_us": 0.09007284300137307,
+   "amp_err_us": 0.017445414457888025,
+   "phase": 2.8255777598732017,
+   "phase_err": 0.2074093657548943,
+   "null_chi2": 668.5359214285505,
+   "rank": 242
+  },
+  "only single-receiver epochs (34 TOAs)": {
+   "stat": 6.831630951671867,
+   "stat_local_max": 7.812559414388357,
+   "amp_us": 1.9626495123086412,
+   "amp_err_us": 0.8724080786548768,
+   "phase": -1.925083035788829,
+   "phase_err": 0.28067883863181886,
+   "null_chi2": 30.263594149538356,
+   "rank": 242
+  }
+ },
+ "dmx_series_poly3": {
+  "reduced_chi2_of_smooth_model": 2.818363309284733,
+  "scaled_stat_at_37.48": 0.7953226605342645,
+  "amp_pc_cm3_at_37.48": 5.028056788099115e-06,
+  "equivalent_delay_us_at_1400MHz": 0.01064308276883669,
+  "equivalent_delay_us_at_430MHz": 0.11282013102714934,
+  "rank_percentile_among_30_60d_cells": 0.48363636363636364,
+  "median_scaled_stat_30_60d": 0.820976889354825,
+  "max_scaled_stat_30_60d": [
+   4.78317854761939,
+   54.01860977383775
+  ],
+  "grid_max": [
+   90.72312074558891,
+   1652.9694590794352
+  ]
+ },
+ "dmx_series_poly8": {
+  "reduced_chi2_of_smooth_model": 1.2661612327257354,
+  "scaled_stat_at_37.48": 1.0967899751277652,
+  "amp_pc_cm3_at_37.48": 3.6558441385770145e-06,
+  "equivalent_delay_us_at_1400MHz": 0.007738467045347667,
+  "equivalent_delay_us_at_430MHz": 0.08203026181114888,
+  "rank_percentile_among_30_60d_cells": 0.49818181818181817,
+  "median_scaled_stat_30_60d": 1.1077569649453072,
+  "max_scaled_stat_30_60d": [
+   7.335831280127244,
+   31.972329962851745
+  ],
+  "grid_max": [
+   67.86569332486854,
+   393.56415692367506
+  ]
+ },
+ "dmx_series_poly15": {
+  "reduced_chi2_of_smooth_model": 0.6969494416693888,
+  "scaled_stat_at_37.48": 0.14640392713856976,
+  "amp_pc_cm3_at_37.48": 1.140162200250317e-06,
+  "equivalent_delay_us_at_1400MHz": 0.002413425539640876,
+  "equivalent_delay_us_at_430MHz": 0.02558309387612827,
+  "rank_percentile_among_30_60d_cells": 0.09818181818181818,
+  "median_scaled_stat_30_60d": 1.3903006995547667,
+  "max_scaled_stat_30_60d": [
+   9.028218341825243,
+   39.26293251970155
+  ],
+  "grid_max": [
+   23.20784475071656,
+   289.99464194376054
+  ]
+ },
+ "correlation_dmx_residual_vs_37.48d_model": {
+  "pearson_r": -0.07892195845142069,
+  "n_epochs": 223,
+  "approx_sigma_r": 0.06835859270246633
+ },
+ "correlation_dm_row_whitened_residual_vs_37.48d_model": {
+  "pearson_r": -0.0021946529892889707,
+  "approx_sigma_r": 0.04667600280093366
+ }
+}

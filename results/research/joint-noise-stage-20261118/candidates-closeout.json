@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "closeout_id": "joint-noise-stage-candidates-20261118",
+  "created": "2026-11-18",
+  "owner_instruction": "Run them through",
+  "master_before_sha256": "abeb7a58bf1a7fd1d7fa5a8060b74804d26ae4bdf0043722fd7ed001232c8629",
+  "targets": {
+    "J1453+1902": {
+      "files": {
+        "calibration.json": "10a7edd3fd8b9e5ed3185e52b79e87d744ec00e07fccf0fb3ed7777b359797d7",
+        "execution-freeze.json": "a76df7a386436273f91f8d0fd24a5d274a8d5da67aea5a9656ec69f8d7bd841d",
+        "result.json": "1d3c3d23ac07988b3614a24ed9ae227264e83a6dd5963c02d887826431f4eeaa",
+        "scope.json": "f3a83eecd8c75f9ddaeae133cd215afc9d4616d0b630416342dcba3e127e78f7"
+      },
+      "periodogram_sha256": "0829ddb3c0885fe917c389fe21af8d07ea9a4fe9366c09bcf8a11ab00bd240c4",
+      "status": "BELOW_JOINT_NOISE_THRESHOLD",
+      "peak_statistic": 18.607115906235975,
+      "peak_period_days": 118.42725685587168,
+      "threshold": 22.345403660383454,
+      "statistic_at_fixed_noise_period": 18.607115906235975,
+      "fixed_noise_statistic": 34.91423261298593,
+      "fixed_noise_threshold": 26.82648068150526,
+      "released_noise_member_statistic_at_fixed_noise_period": 34.914232612986005,
+      "null_noise": {
+        "gamma": 2.0,
+        "log10_amplitude": -12.537330215005825,
+        "white_scale": 1.0
+      },
+      "signal_noise": {
+        "gamma": 2.0,
+        "log10_amplitude": -13.037330215005825,
+        "white_scale": 0.95
+      },
+      "fit_on_grid_edge": [
+        true,
+        true
+      ],
+      "validation_false_alarms": {
+        "released_white_only": 5,
+        "white_only_inflated": 3,
+        "reference_red": 4,
+        "between_grid_stronger_steeper": 5,
+        "strong_steep": 13,
+        "weak_shallow_inflated_white": 4
+      },
+      "validation_nulls_at_or_above_observed": {
+        "released_white_only": 17,
+        "white_only_inflated": 27,
+        "reference_red": 30,
+        "between_grid_stronger_steeper": 35,
+        "strong_steep": 46,
+        "weak_shallow_inflated_white": 23
+      }
+    },
+    "J1939+2134": {
+      "files": {
+        "calibration.json": "a7cb264eabc81910b50c993d382ab1fac1c01bdf881e588f89690353b279ba9b",
+        "execution-freeze.json": "159b1cc055352b37cf811c636df8a954919e1a983220648fee210613c85432f3",
+        "result.json": "31ec7dd0db560777ab1ef92a0bd3b1c7083e711a34a20d1b616979ee3c4c8604",
+        "scope.json": "4ac56c311579bdbc48c75f941263ac48a1834b8d03de0c815ae00ab0aa3445c9"
+      },
+      "periodogram_sha256": "9156be6ac2a6410014cfab76b3cb77dd18ed1513c07db6d7e139e5fa952ba48f",
+      "status": "BELOW_JOINT_NOISE_THRESHOLD",
+      "peak_statistic": 10.453571611644293,
+      "peak_period_days": 46.07137939548655,
+      "threshold": 29.07239649003168,
+      "statistic_at_fixed_noise_period": 1.8244997028468788,
+      "fixed_noise_statistic": 149.35339283740004,
+      "fixed_noise_threshold": 26.712656334700245,
+      "released_noise_member_statistic_at_fixed_noise_period": 149.35339283739984,
+      "null_noise": {
+        "gamma": 2.0,
+        "log10_amplitude": -11.995060111921845,
+        "white_scale": 0.45
+      },
+      "signal_noise": {
+        "gamma": 2.0,
+        "log10_amplitude": -11.995060111921845,
+        "white_scale": 0.45
+      },
+      "fit_on_grid_edge": [
+        true,
+        true
+      ],
+      "validation_false_alarms": {
+        "released_white_only": 0,
+        "white_only_inflated": 0,
+        "reference_red": 0,
+        "between_grid_stronger_steeper": 1,
+        "strong_steep": 6,
+        "weak_shallow_inflated_white": 0,
+        "white_only_deflated": 0,
+        "weak_steeper_deflated_white": 0
+      },
+      "validation_nulls_at_or_above_observed": {
+        "released_white_only": 411,
+        "white_only_inflated": 376,
+        "reference_red": 605,
+        "between_grid_stronger_steeper": 812,
+        "strong_steep": 749,
+        "weak_shallow_inflated_white": 425,
+        "white_only_deflated": 565,
+        "weak_steeper_deflated_white": 589
+      }
+    },
+    "J1327-6222": {
+      "files": {
+        "calibration.json": "e87490f4edee0b105bdcd60cc830ee7a426b90493892384caf8372d2599569db",
+        "execution-freeze.json": "bb34285035de0bbe53868a02e87b3a30ab2ebde3df1126c820ce2711743af35c",
+        "result.json": "a4135f033b5abee9d4cf4c28296003e9ccb8cbcd9499636ad3dc783fb065d695",
+        "scope.json": "eabb3c052613b96d66c3e7551a4122a2b7beab85a12aef2b0f977ead1ca23fcc"
+      },
+      "periodogram_sha256": "5ee8219a716801b983095c32786d75de5efc8ce4263a58a02c7ced6a28dc209e",
+      "status": "BELOW_JOINT_NOISE_THRESHOLD",
+      "peak_statistic": 6.132040749166151,
+      "peak_period_days": 74.14632821227825,
+      "threshold": 23.25952243862463,
+      "statistic_at_fixed_noise_period": 0.5288700771545791,
+      "fixed_noise_statistic": 50.286992450422105,
+      "fixed_noise_threshold": 26.254701837830737,
+      "released_noise_member_statistic_at_fixed_noise_period": 0.6244880256206703,
+      "null_noise": {
+        "gamma": 4.02432,
+        "log10_amplitude": -9.10526,
+        "white_scale": 0.8
+      },
+      "signal_noise": {
+        "gamma": 5.02432,
+        "log10_amplitude": -9.10526,
+        "white_scale": 0.8
+      },
+      "fit_on_grid_edge": [
+        true,
+        true
+      ],
+      "validation_false_alarms": {
+        "released": 1,
+        "between_grid_stronger_steeper": 6,
+        "strong_steep": 10,
+        "weak_shallow_inflated_white": 8,
+        "white_only_inflated": 1
+      },
+      "validation_nulls_at_or_above_observed": {
+        "released": 961,
+        "between_grid_stronger_steeper": 971,
+        "strong_steep": 891,
+        "weak_shallow_inflated_white": 1006,
+        "white_only_inflated": 902
+      }
+    },
+    "J1359-6038": {
+      "files": {
+        "calibration.json": "2c0bc36947dec9a2b0132824f22a418983002e156d5a96c7ab529a88f2165148",
+        "execution-freeze.json": "d9a21050897159c0c01e9c0093c3fd2b602e23a55de94994e06946a4d50362d0",
+        "result.json": "b86ae2c8c84aafee264ba779ed72ac9b46fc7c93aea3b540e468adef63474040",
+        "scope.json": "8f05a38c6c6c12a6ff7f8bd1df00c26deee74eac6cff4a8f2a5ec313b7fbc6d8"
+      },
+      "periodogram_sha256": "a42fde73020cf84217b18a19f191c3e923f96dcff8c76ab2243d6938b59c737b",
+      "status": "BELOW_JOINT_NOISE_THRESHOLD",
+      "peak_statistic": 13.626904297090789,
+      "peak_period_days": 35.113426821650954,
+      "threshold": 23.786510572380507,
+      "statistic_at_fixed_noise_period": 7.48552018732255,
+      "fixed_noise_statistic": 41.74064788052098,
+      "fixed_noise_threshold": 26.204321340173617,
+      "released_noise_member_statistic_at_fixed_noise_period": 7.29696935902172,
+      "null_noise": {
+        "gamma": 4.98972,
+        "log10_amplitude": -10.0233,
+        "white_scale": 0.9
+      },
+      "signal_noise": {
+        "gamma": 4.98972,
+        "log10_amplitude": -10.0233,
+        "white_scale": 0.9
+      },
+      "fit_on_grid_edge": [
+        false,
+        false
+      ],
+      "validation_false_alarms": {
+        "released": 3,
+        "between_grid_stronger_steeper": 8,
+        "strong_steep": 11,
+        "weak_shallow_inflated_white": 3,
+        "white_only_inflated": 1
+      },
+      "validation_nulls_at_or_above_observed": {
+        "released": 147,
+        "between_grid_stronger_steeper": 240,
+        "strong_steep": 192,
+        "weak_shallow_inflated_white": 233,
+        "white_only_inflated": 80
+      }
+    },
+    "J0908-4913": {
+      "files": {
+        "calibration.json": "885907d9edee4bd6ae04e7d3756c7f89d195fe098223bef5753292f430af8c57",
+        "execution-freeze.json": "7964512b431af48e3a9e7751e20ef1d29b124267bea1ca17a16e33a15e39d32f",
+        "result.json": "aca8ebd26408a92c502db19ec98b4a46d93416a4c1bb1b8c1f41e17797fe45fd",
+        "scope.json": "a7718a2b90bee5ad4a62be7ebbe1379aa376870da255f5d498c0af291ba8b758"
+      },
+      "periodogram_sha256": "cf820e7f514a694f1dab50004b77a5a1b448ddc862936b2478ae85a5afe20007",
+      "status": "BELOW_JOINT_NOISE_THRESHOLD",
+      "peak_statistic": 11.306572896925985,
+      "peak_period_days": 31.842541850625064,
+      "threshold": 25.374666681747385,
+      "statistic_at_fixed_noise_period": 7.241322170086136,
+      "fixed_noise_statistic": 27.85177991584048,
+      "fixed_noise_threshold": 26.16308276576815,
+      "released_noise_member_statistic_at_fixed_noise_period": 6.404521174544392,
+      "null_noise": {
+        "gamma": 4.94295,
+        "log10_amplitude": -9.61292,
+        "white_scale": 0.8
+      },
+      "signal_noise": {
+        "gamma": 4.94295,
+        "log10_amplitude": -9.61292,
+        "white_scale": 0.8
+      },
+      "fit_on_grid_edge": [
+        true,
+        true
+      ],
+      "validation_false_alarms": {
+        "released": 0,
+        "between_grid_stronger_steeper": 3,
+        "strong_steep": 2,
+        "weak_shallow_inflated_white": 0,
+        "white_only_inflated": 0
+      },
+      "validation_nulls_at_or_above_observed": {
+        "released": 343,
+        "between_grid_stronger_steeper": 476,
+        "strong_steep": 402,
+        "weak_shallow_inflated_white": 457,
+        "white_only_inflated": 278
+      }
+    },
+    "J1048-5832": {
+      "files": {
+        "calibration.json": "3b2d32b4e93f734c49585694a663f8406953108615cefdd57c8d9548d5e5d206",
+        "execution-freeze.json": "597abd14bad896f7fab7e97a1119695b8479b4ab7dc7db577d1532391d57fe55",
+        "result.json": "3efdc61e6a3c913ae1759bff45eabf8ecec75bccbd616652e13b9b17dc011f0a",
+        "scope.json": "982ed0073fd9b16a70d1ac10a4d59b64a3b8e69d4eecc54365fe4f8a074ad89c"
+      },
+      "periodogram_sha256": "18c10c1a814c55fa922f608381d6fb038cb49aed8d2a1da08c6dcb8d6f119058",
+      "status": "BELOW_JOINT_NOISE_THRESHOLD",
+      "peak_statistic": 7.7184887843876595,
+      "peak_period_days": 48.09307523694746,
+      "threshold": 24.693781119482992,
+      "statistic_at_fixed_noise_period": 1.5816518247897875,
+      "fixed_noise_statistic": 36.722411022511466,
+      "fixed_noise_threshold": 26.142140166033556,
+      "released_noise_member_statistic_at_fixed_noise_period": 1.6280616913504184,
+      "null_noise": {
+        "gamma": 6.23412,
+        "log10_amplitude": -8.62911,
+        "white_scale": 0.85
+      },
+      "signal_noise": {
+        "gamma": 6.23412,
+        "log10_amplitude": -8.62911,
+        "white_scale": 0.85
+      },
+      "fit_on_grid_edge": [
+        false,
+        false
+      ],
+      "validation_false_alarms": {
+        "released": 0,
+        "between_grid_stronger_steeper": 6,
+        "strong_steep": 4,
+        "weak_shallow_inflated_white": 2,
+        "white_only_inflated": 1
+      },
+      "validation_nulls_at_or_above_observed": {
+        "released": 835,
+        "between_grid_stronger_steeper": 719,
+        "strong_steep": 691,
+        "weak_shallow_inflated_white": 796,
+        "white_only_inflated": 687
+      }
+    }
+  },
+  "note": "Six September candidates, each run once. Candidate grades and their recorded deep-review tails are unchanged. tools/joint_noise_stage.py changed before these preparations (subspace reduction, released-member statistic); the J2043 preparation is consumed and can no longer be loaded, by design."
+}

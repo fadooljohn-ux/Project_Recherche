@@ -13,9 +13,10 @@ import numpy as np
 import target_calibration as cal
 
 from pulsar_pilot.pilot1_runtime import prepare_covariance_gls_scanner
+from recherche_common import DATA_ROOT
 
 TARGETS = ("J1721-2457", "J1832-0836", "J1747-4036", "J1804-2858")
-DEFAULT = batch.REPO.parent / "Project Recherche Data/chromatic-support-20260908"
+DEFAULT = DATA_ROOT / "chromatic-support-20260908"
 
 
 def prepare(data, previous):

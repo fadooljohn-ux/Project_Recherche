@@ -1,0 +1,8 @@
+{
+  "status": "OUTPUT_WRITE_FAILED",
+  "error": "Missing output parent directory at final JSON write. Calculations completed but no result JSON saved.",
+  "code_sha256": "b6b9e20c05bf67deeac13617bc5637e528a1063bb5e26e13b92100949c38b24e",
+  "repair": "Create output parent before calculation; rerun identical deterministic comparison.",
+  "calibration_executed": false,
+  "observed_outer_period_scan_executed": false
+}

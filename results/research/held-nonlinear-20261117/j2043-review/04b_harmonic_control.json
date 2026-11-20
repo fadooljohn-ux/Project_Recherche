@@ -1,0 +1,26 @@
+{
+ "real_PB_harmonics_1_to_8": {
+  "stat_after": 23.148687050290725,
+  "generic_sensitivity_ratio": 0.769430964980097,
+  "harmonics_dchi2_16dof": 8.7916545783192
+ },
+ "fake_periods": {
+  "count": 60,
+  "stat_after_quantiles_5_50_95": [
+   15.238107282640765,
+   20.64580841199078,
+   26.86215562311716
+  ],
+  "generic_ratio_quantiles_5_50_95": [
+   0.6120916449863556,
+   0.6977084660737883,
+   0.8414476252379466
+  ],
+  "harmonics_dchi2_quantiles_5_50_95": [
+   10.204122716616604,
+   16.53622175878474,
+   27.034754705660696
+  ],
+  "fraction_fakes_with_stat_after_le_real": 0.7666666666666667
+ }
+}

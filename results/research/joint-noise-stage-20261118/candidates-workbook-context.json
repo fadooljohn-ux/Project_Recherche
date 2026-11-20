@@ -1,0 +1,62 @@
+{
+ "evidence": "results/research/joint-noise-stage-20261118/candidates-closeout.json",
+ "entries": [
+  [
+   "joint-noise-stage-candidates-20261118-implementation",
+   "Implementation",
+   "Second-stage joint-noise test; exact subspace reduction",
+   "VERIFIED",
+   "Owner instruction 'Run them through'. tools/joint_noise_stage.py can reduce a diagonal-covariance target exactly to its timing, red-noise and signal subspace (J1939+2134: 18,191 TOAs to 1,099 rows plus one white-noise term). Unit test against the unreduced calculation; J1939's released-noise member reproduces the fixed-noise statistic 149.353. Results now record that member's statistic. 365 tests pass.",
+   "Editing the tool invalidated earlier preparations; all were already consumed."
+  ],
+  [
+   "joint-noise-stage-20261118-J1453+1902-run01",
+   "Second-stage joint-noise test",
+   "J1453+1902; September fixed-noise crossing at 118.4 d",
+   "BELOW_JOINT_NOISE_THRESHOLD",
+   "189-member noise grid and 6 generators declared before the run. Joint statistic 18.607 at 118.4 d (18.607 at 118.4 d) against threshold 22.345; fixed-noise 34.914 against 26.826. 17-46 of 1024 validation nulls per generator reach the observed value. Fitted noise on a grid edge.",
+   "run01 consumed; do not rerun. Crossing does not survive; grade unchanged (INCONCLUSIVE_NOISE_SENSITIVE)."
+  ],
+  [
+   "joint-noise-stage-20261118-J1939+2134-run01",
+   "Second-stage joint-noise test",
+   "J1939+2134; September fixed-noise crossing at 567.4 d",
+   "BELOW_JOINT_NOISE_THRESHOLD",
+   "273-member noise grid and 8 generators declared before the run. Joint statistic 10.454 at 46.1 d (1.824 at 567.4 d) against threshold 29.072; fixed-noise 149.353 against 26.713. 376-812 of 1024 validation nulls per generator reach the observed value. Fitted noise on a grid edge.",
+   "run01 consumed; do not rerun. Crossing does not survive; grade unchanged (INCONCLUSIVE_NOISE_SENSITIVE)."
+  ],
+  [
+   "joint-noise-stage-20261118-J1327-6222-run01",
+   "Second-stage joint-noise test",
+   "J1327-6222; September fixed-noise crossing at 63.3 d",
+   "BELOW_JOINT_NOISE_THRESHOLD",
+   "189-member noise grid and 5 generators declared before the run. Joint statistic 6.132 at 74.1 d (0.529 at 63.3 d) against threshold 23.260; fixed-noise 50.287 against 26.255. 891-1006 of 1024 validation nulls per generator reach the observed value. Fitted noise on a grid edge.",
+   "run01 consumed; do not rerun. Crossing does not survive; grade unchanged (INCONCLUSIVE_NOISE_SENSITIVE)."
+  ],
+  [
+   "joint-noise-stage-20261118-J1359-6038-run01",
+   "Second-stage joint-noise test",
+   "J1359-6038; September fixed-noise crossing at 96.0 d",
+   "BELOW_JOINT_NOISE_THRESHOLD",
+   "189-member noise grid and 5 generators declared before the run. Joint statistic 13.627 at 35.1 d (7.486 at 96.0 d) against threshold 23.787; fixed-noise 41.741 against 26.204. 80-240 of 1024 validation nulls per generator reach the observed value.",
+   "run01 consumed; do not rerun. Crossing does not survive; grade unchanged (INCONCLUSIVE_NOISE_SENSITIVE)."
+  ],
+  [
+   "joint-noise-stage-20261118-J0908-4913-run01",
+   "Second-stage joint-noise test",
+   "J0908-4913; September fixed-noise crossing at 93.2 d",
+   "BELOW_JOINT_NOISE_THRESHOLD",
+   "189-member noise grid and 5 generators declared before the run. Joint statistic 11.307 at 31.8 d (7.241 at 93.2 d) against threshold 25.375; fixed-noise 27.852 against 26.163. 278-476 of 1024 validation nulls per generator reach the observed value. Fitted noise on a grid edge.",
+   "run01 consumed; do not rerun. Crossing does not survive; grade unchanged (INCONCLUSIVE_NOISE_SENSITIVE)."
+  ],
+  [
+   "joint-noise-stage-20261118-J1048-5832-run01",
+   "Second-stage joint-noise test",
+   "J1048-5832; September fixed-noise crossing at 105.0 d",
+   "BELOW_JOINT_NOISE_THRESHOLD",
+   "144-member noise grid and 5 generators declared before the run. Joint statistic 7.718 at 48.1 d (1.582 at 105.0 d) against threshold 24.694; fixed-noise 36.722 against 26.142. 687-835 of 1024 validation nulls per generator reach the observed value.",
+   "run01 consumed; do not rerun. Crossing does not survive; grade unchanged (INCONCLUSIVE_NOISE_SENSITIVE)."
+  ]
+ ],
+ "target_updates": []
+}

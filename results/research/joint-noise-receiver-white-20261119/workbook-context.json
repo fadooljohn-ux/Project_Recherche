@@ -1,0 +1,14 @@
+{
+ "evidence": "results/research/joint-noise-receiver-white-20261119/closeout.json",
+ "entries": [
+  [
+   "receiver-white-and-limits-20261119",
+   "Implementation",
+   "Second-stage joint-noise test; per-receiver white model, detection limits, independent-data research",
+   "VERIFIED",
+   "Owner instruction 'Proceed with steps 1-2. Do some research on the best sources for independent data for J2043 and J1453.' Family gained per-receiver white scales and noise floors. On simulated J1453+1902 data with joint chain draws: scales only 27.77 (set by chain); scales and floors 23.04 (set by strong_steep; chain 1% threshold 22.10; 4 of 1024 chain validation nulls cross; all validation false-alarm rates at or below 0.5%). Half-detection amplitude 4-17% above the consumed run's curve. Detection limits (50% and 95% amplitude, minimum mass) tabulated for J1939, J1453, J1359, J0908, J1048, J1327. Independent data: only FAST/CPTA DR1 is precise enough and its TOAs must be requested.",
+   "No observed residuals read; nothing frozen or run. Consumed outcomes and grades unchanged. Joint chain generator and per-receiver white family now required for future second-stage tests where a released chain exists (rule item 6). J2043 not recalibrated. No limits for J2043, J1752, J1012, J1738 (no curve). Source research not re-verified; no data request made."
+  ]
+ ],
+ "target_updates": []
+}

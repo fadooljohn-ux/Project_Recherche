@@ -5,7 +5,10 @@ from pathlib import Path
 
 
 def pytest_collection_modifyitems(config, items):
-    history = json.loads(Path(__file__).with_name("historical_state.json").read_text())
+    history = set(json.loads(Path(__file__).with_name("historical_state.json").read_text()))
+    # In the redacted public edition, tests bound to the private bytes of redacted files cannot pass.
+    if (Path(__file__).resolve().parents[1] / "publication-manifest.json").exists():
+        history |= set(json.loads(Path(__file__).with_name("publication_state.json").read_text())["tests"])
     selected, historical = [], []
     for item in items:
         (historical if item.nodeid in history else selected).append(item)
@@ -15,6 +18,7 @@ def pytest_collection_modifyitems(config, items):
 
 
 def pytest_report_header(config):
-    return (
-        "Historical release-state checks: run tools/check_history.py against recorded Git versions"
-    )
+    lines = ["Historical release-state checks: run tools/check_history.py against recorded Git versions"]
+    if (Path(__file__).resolve().parents[1] / "publication-manifest.json").exists():
+        lines.append("Public edition: tests bound to redacted files are deselected (tests/publication_state.json)")
+    return lines

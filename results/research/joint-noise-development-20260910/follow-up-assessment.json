@@ -1,0 +1,57 @@
+{
+  "status": "ASSESSMENT_COMPLETE_NO_NEW_CONFIRMATION",
+  "J1012+5307": {
+    "dataset": "EPTA DR2full",
+    "model": "T2",
+    "orthometric_shapiro_terms": {
+      "H3": [
+        "1.205005544975197506e-07",
+        "1",
+        "0.00000001693505598319"
+      ],
+      "H4": [
+        "4.7478832616209360693e-08",
+        "1",
+        "0.00000002285757727423"
+      ]
+    },
+    "published_toa_count": 5325,
+    "par_sha256": "1c530919dff1d6630edd1427b619ff4db73ef85acd8c7135ba88d83d1e03054d",
+    "disposition": "MODEL_COMPATIBILITY_HOLD",
+    "next_action": "Preserve fitted H3/H4. A separately bounded orthometric T2 adapter would be required before a joint cross-source fit.",
+    "new_fit_executed": false
+  },
+  "J1752-2806": {
+    "datasets": [
+      {
+        "source": "UTMOST",
+        "toas": 145,
+        "observing_days": 130,
+        "start_mjd_tdb": 56967.38272469896,
+        "end_mjd_tdb": 58427.208781512054,
+        "arrays_sha256": "75cdfb8a72dabf68ade141b2b672cddf89defc7ff977c46a3de23d3aea77632a"
+      },
+      {
+        "source": "TPA",
+        "toas": 400,
+        "observing_days": 50,
+        "start_mjd_tdb": 58787.783746763635,
+        "end_mjd_tdb": 60047.1624508646,
+        "arrays_sha256": "20a575ae72a4f2e97cbc18d97e5141d4b18d2f04dac3462d7c3a863e45ab1aca"
+      }
+    ],
+    "later_tpa_observations_already_reviewed": true,
+    "prior_propagation_sha256": "5f70f170f3db64e0d493c880787d344c280632e7be871d784f5e42ee17f82d33",
+    "median_conditional_power_by_modes": {
+      "12": 0.31406314024363935,
+      "32": 0.22221016683026165,
+      "64": 0.25002763924296834
+    },
+    "disposition": "UNDERPOWERED",
+    "next_action": "Additional calibrated timing or broader simultaneous radio-band coverage is needed; existing TPA data do not resolve this candidate.",
+    "new_fit_executed": false
+  },
+  "outgoing_messages": 0,
+  "new_observations_acquired": 0,
+  "limitations": "No development candidate crosses its new threshold. Rechecked existing data and saved follow-up evidence; not a fresh independent confirmation."
+}

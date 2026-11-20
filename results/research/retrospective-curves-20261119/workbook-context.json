@@ -1,0 +1,14 @@
+{
+ "evidence": "results/research/retrospective-curves-20261119/closeout.json",
+ "entries": [
+  [
+   "curves-population-targets-20261119",
+   "Implementation",
+   "Rebuilt second-stage curves, J2043 fixed white model, population limit, remaining-target proposal",
+   "VERIFIED",
+   "Owner instruction 'Proceed with the three steps you've outlined'. Curves rebuilt on simulated data for J1752, J1738, J1012, J2043 from fresh development roots; thresholds reproduce the consumed runs (23.06, 22.10, 40.56, 23.00). J2043 recalibrated with per-receiver white scales and floors and a joint chain generator: threshold 21.33, calibrated, 2-9 of 1024 validation nulls cross per generator. J2043 September amplitude (0.089 us at 37.5 d) equals the 50% detection amplitude; 95% is 0.12 us. Population limit from the saved atlas (271 pulsars, 7 candidate datasets left out): at most 1.5-2.8% of such pulsars host a companion of minimum mass 1 Earth or more at 30-400 d (3.2-5.6% with a threefold margin); 15-17% at 400-2000 d. Remaining-target inventory written; 32 MeerKAT binaries proposed.",
+   "No observed residuals read; nothing frozen or run; no target prepared or searched. Consumed outcomes and grades unchanged. The proposed target list needs owner approval. Binary limits assume 1.6 solar masses total. Population limit at margin 1 assumes supplied noise models are correct; pulsars not a random sample."
+  ]
+ ],
+ "target_updates": []
+}

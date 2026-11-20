@@ -1,0 +1,60 @@
+{
+  "review_code_sha256": "c610f1b0066d952fc79174414e206a698a8844e32dfd16c25ebdf34b6f0bd9f5",
+  "scenarios": [
+    {
+      "amplitude_us": 0.4918644016596152,
+      "candidate_delta_chi2": 30.611135837106943,
+      "inclination_degrees": 44.0,
+      "mass_solar": 0.12
+    },
+    {
+      "amplitude_us": 0.4972387827290356,
+      "candidate_delta_chi2": 31.28141379809665,
+      "inclination_degrees": 50.0,
+      "mass_solar": 0.12
+    },
+    {
+      "amplitude_us": 0.5042614185939417,
+      "candidate_delta_chi2": 32.17100964055602,
+      "inclination_degrees": 56.0,
+      "mass_solar": 0.12
+    },
+    {
+      "amplitude_us": 0.49627085900773793,
+      "candidate_delta_chi2": 31.160408854112475,
+      "inclination_degrees": 44.0,
+      "mass_solar": 0.165
+    },
+    {
+      "amplitude_us": 0.5038078150103371,
+      "candidate_delta_chi2": 32.112821597215614,
+      "inclination_degrees": 50.0,
+      "mass_solar": 0.165
+    },
+    {
+      "amplitude_us": 0.5137890171782378,
+      "candidate_delta_chi2": 33.40193577622693,
+      "inclination_degrees": 56.0,
+      "mass_solar": 0.165
+    },
+    {
+      "amplitude_us": 0.5007290482289228,
+      "candidate_delta_chi2": 31.721805525929017,
+      "inclination_degrees": 44.0,
+      "mass_solar": 0.21
+    },
+    {
+      "amplitude_us": 0.5105030729711966,
+      "candidate_delta_chi2": 32.97314244027773,
+      "inclination_degrees": 50.0,
+      "mass_solar": 0.21
+    },
+    {
+      "amplitude_us": 0.5236020546722532,
+      "candidate_delta_chi2": 34.69773126254817,
+      "inclination_degrees": 56.0,
+      "mass_solar": 0.21
+    }
+  ],
+  "scope": "Fixed candidate period and final design; subtract alternative-minus-reference delay; linear nuisance refit, not full nonlinear Shapiro inference"
+}

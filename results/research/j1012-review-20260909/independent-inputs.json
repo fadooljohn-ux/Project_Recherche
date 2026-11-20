@@ -1,0 +1,25 @@
+{
+  "status": "UNAVAILABLE_COMPATIBLE_TIMING_MODEL",
+  "raw_data_present": true,
+  "source": "EPTA DR2full",
+  "par_sha256": "1c530919dff1d6630edd1427b619ff4db73ef85acd8c7135ba88d83d1e03054d",
+  "published_toas": 5325,
+  "binary_model": "T2",
+  "orthometric_shapiro": {
+    "H3": [
+      "1.205005544975197506e-07",
+      "1",
+      "0.00000001693505598319"
+    ],
+    "H4": [
+      "4.7478832616209360693e-08",
+      "1",
+      "0.00000002285757727423"
+    ]
+  },
+  "reason": "Released T2 model with fitted H3/H4 requires orthometric Shapiro compatibility. Current ELL1 M2/SINI adapter is not sufficient; measured terms were not deleted. No independent timing fit or non-corroboration claimed.",
+  "literature": [
+    "https://arxiv.org/abs/2408.09795",
+    "https://doi.org/10.3847/1538-4357/ad5291"
+  ]
+}

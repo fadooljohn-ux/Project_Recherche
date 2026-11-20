@@ -1,0 +1,61 @@
+{
+  "status": "SAVED_QUEUE_COMPLETE",
+  "targets": [
+    {
+      "target": "J1012+5307",
+      "original_result": "CANDIDATE",
+      "peak_period_days": 138.9110415844769,
+      "peak_statistic": 32.1128215972156,
+      "threshold": 24.273445134790762,
+      "evidence": "results/observed/binary-pilot03-20260909/J1012+5307/result.json",
+      "result_sha256": "da9fc747a4da30cb7af08fe6cad03e8b772f3a911b1bec65c621c3e475316870",
+      "review_disposition": "INCONCLUSIVE_NOISE_SENSITIVE; EPTA NOT_CORROBORATED"
+    },
+    {
+      "target": "J1738+0333",
+      "original_result": "NO_TRIGGER",
+      "peak_period_days": 31.1131209201112,
+      "peak_statistic": 11.12955598149622,
+      "threshold": 23.53513536668762,
+      "evidence": "results/observed/binary-pilot03-20260909/J1738+0333/result.json",
+      "result_sha256": "c3760a49508a026d4976575ba397fadaffd9ac75848c0033f0719524ea0f1101",
+      "review_disposition": "No threshold-crossing review triggered"
+    },
+    {
+      "target": "J1125+7819",
+      "original_result": "NO_TRIGGER",
+      "peak_period_days": 1045.240815759905,
+      "peak_statistic": 9.611488948923709,
+      "threshold": 17.589649856029034,
+      "evidence": "results/observed/binary-pilot04-20260909/J1125+7819/result.json",
+      "result_sha256": "59be9f8606fec83ceb59afb2635115eea2a2aecc648bef4d163c7a0951ba6e94",
+      "review_disposition": "No threshold-crossing review triggered"
+    },
+    {
+      "target": "J0509+0856",
+      "original_result": "NO_TRIGGER",
+      "peak_period_days": 52.90493469806287,
+      "peak_statistic": 18.048934299898715,
+      "threshold": 18.850903503186256,
+      "evidence": "results/observed/binary-pilot05-20260910/J0509+0856/result.json",
+      "result_sha256": "7f8ba329c4ac6a11031e14d20ae617f911cad1958218ceaef6b902a0a3e2cf5e",
+      "review_disposition": "No threshold-crossing review triggered"
+    },
+    {
+      "target": "J0557+1551",
+      "original_result": "NO_TRIGGER",
+      "peak_period_days": 49.62436546871947,
+      "peak_statistic": 8.437573253242084,
+      "threshold": 19.41007322762458,
+      "evidence": "results/observed/binary-pilot06-20260910/J0557+1551/result.json",
+      "result_sha256": "fc4953c84c66c1505e1f02ccec521b4e36e0d441f2e8b8878d64564f026e5eb1",
+      "review_disposition": "No threshold-crossing review triggered"
+    }
+  ],
+  "searches": 5,
+  "original_crossings": 1,
+  "no_trigger": 4,
+  "new_planets_confirmed": 0,
+  "remaining_in_this_queue": 0,
+  "scope_note": "Separate historical search allowances and different sensitivity; not a pooled occurrence-rate experiment."
+}

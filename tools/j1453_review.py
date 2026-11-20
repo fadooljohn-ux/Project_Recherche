@@ -10,9 +10,10 @@ import numpy as np
 from scipy.linalg import solve_triangular
 from scipy.optimize import minimize_scalar
 from scipy.stats import chi2
+from recherche_common import DATA_ROOT, require
 
 REPO = Path(__file__).resolve().parents[1]
-DATA = REPO.parent / 'Project Recherche Data'
+DATA = DATA_ROOT
 ROOT = DATA / 'j1453-human-review-20260908'
 SOURCE = DATA / 'ng15-batch01-20260908/J1453+1902'
 REFERENCE = 57777.0
@@ -72,7 +73,7 @@ def run():
     if (ROOT / 'step3.json').exists():
         raise FileExistsError('Completed review exists; read its evidence instead of repeating simulations')
     scope = json.loads((ROOT / 'scope.json').read_text())
-    assert hashlib.sha256((SOURCE / 'run01/result.json').read_bytes()).hexdigest() == scope['original_result_sha256']
+    require(hashlib.sha256((SOURCE / 'run01/result.json').read_bytes()).hexdigest() == scope['original_result_sha256'], "hashlib.sha256((SOURCE / 'run01/result.json').read_bytes()).hexdigest() == scope['original_result_sha256']")
     a = np.load(SOURCE / 'profile/arrays.npz'); y = np.load(SOURCE / 'prepared/observed.npz')['residuals']
     t, c, x = a['times'], a['covariance'], a['design']; n = len(t)
     meta = np.load(ROOT / 'metadata.npz'); np.testing.assert_array_equal(t, meta['times'])

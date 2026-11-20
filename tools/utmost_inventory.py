@@ -9,9 +9,10 @@ from pathlib import Path
 import re
 import statistics
 import warnings
+from recherche_common import DATA_ROOT
 
 REPO = Path(__file__).resolve().parents[1]
-DATA = REPO.parent / 'Project Recherche Data'
+DATA = DATA_ROOT
 
 
 def read(path):

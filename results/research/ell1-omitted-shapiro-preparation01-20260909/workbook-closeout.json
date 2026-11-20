@@ -1,0 +1,17 @@
+{
+  "previous_workbook_sha256": "b9ea6c3ecb6825c23775e9006b00b46edb49ed455d5811b95c6f4ca9013481a6",
+  "workbook_sha256": "f9fc6c996f4fd656ac1f5c932b56927e2f28ffb674c55f0dfd50da42b5d6bb3b",
+  "registered_targets": 783,
+  "observed_identities": 279,
+  "search_records": 353,
+  "appended_work_log_records": 2,
+  "preserved_existing_search_and_work_log_values": true,
+  "preserved_target_operator_notes": true,
+  "changed_target_cells": [
+    "F766",
+    "G766",
+    "F772",
+    "G772"
+  ],
+  "authoring": "Artifact-tool XLSX import/edit/export with exact historical numeric XML preservation; preview inspected"
+}

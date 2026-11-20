@@ -1,0 +1,117 @@
+{
+  "checks": {
+    "joint_columns": 193,
+    "joint_rank": 193,
+    "null_fit": {
+      "chi2": 656.6930631196391,
+      "conditional_chi2_tail": 0.45206740744693513,
+      "distance_to_domain_bound": 3.595795367780669,
+      "dof": 653,
+      "fast_minus_native_chi2": -1.1484905826364411e-07,
+      "fast_orbit_difference_maximum": 0.00033546784726010484,
+      "fast_unconverged": false,
+      "multistart_chi2_difference": 2.509576006559655e-06,
+      "optimizer_success": true,
+      "orbit_shifts_domain_units": {
+        "A1": 0.0044181048646588445,
+        "EPS1": 0.0019640556381841636,
+        "EPS2": -0.009180664384794401,
+        "M2": -0.004555400312838176,
+        "PB": 0.0009007642826760166,
+        "PBDOT": -0.0016988225399298675,
+        "SINI": -0.005123533659818014,
+        "TASC": -0.0030290855954294856
+      },
+      "reduced_chi2": 1.0056555331081762
+    },
+    "surrogate_monomials": 259,
+    "surrogate_retained_directions": 108,
+    "surrogate_validation_error_norm": {
+      "maximum": 0.019577750464181032,
+      "median": 0.0009325670869985554
+    }
+  },
+  "code": {
+    "binary_noise_coverage.py": "066dd27f662e971f2117d0ef84c4fbb7fc96a6f7da08735a328f9198c094e487",
+    "binary_wideband.py": "91f1a3fa712984a68c063acd5cd8778e297270b2b96c75475e934475208318d8",
+    "j1857_nonlinear.py": "d9abf8fc7ff054269b1e238d96d4c03f2b42c1335d59a0b83be46ccc6e23d0b5",
+    "nonlinear_calibration.py": "9b89bec8a3de172a8dc236e802c60e4d30a3e111621367f0873103d8dba090be",
+    "nonlinear_statistic.py": "cd24112a4aec06e5c6237e62aa077320df9c9bd4024121685c4b9224309266e0",
+    "nonlinear_verification.py": "5de761f5dadb1e772e7488e2504b8a69659572aacf3f2f2a19a3d92dd291804b",
+    "target_calibration.py": "9d2d230f53521ce6f4ee55ab48d1c364d3db7543f1b5da26a5ecf902264092df"
+  },
+  "created_utc": "2026-11-18T01:06:26.037659+00:00",
+  "data_rows": 846,
+  "frequency_grid": {
+    "algorithm": "linear_frequency_independent_bin_oversampling",
+    "frequency_count": 903,
+    "frequency_step_per_day": 3.640230666598988e-05,
+    "maximum_frequency_per_day": 0.03333333333333333,
+    "maximum_period_days": 2000.0,
+    "minimum_frequency_per_day": 0.0005,
+    "minimum_period_days": 30.0,
+    "oversampling": 5,
+    "span_days": 5494.157330058893
+  },
+  "inputs": {
+    "par_sha256": "1650e3771978dfcd8ed86dc1c95eb6822ce65b5b6cc80436ea23edd73d68f74e",
+    "selection_sha256": "2ba19b6a065970236ffdb67fdd6b3002a1dbaae03cabfbcdec44d4a51e2ad893",
+    "tim_sha256": "25dcd9a57977b4b502f493d8132e4ccb75b26fc37bc5d1faf2fd794f704c45b1"
+  },
+  "linear_nuisance_columns": 185,
+  "noise_coverage": {
+    "extended": true,
+    "limitation": "Fixed released amplitude/slope extrapolated when extended; frequency coverage is not noise-posterior validation.",
+    "maximum_modes": 256,
+    "minimum_search_period_days": 30.0,
+    "red_basis_span_days": 5494.157330058893,
+    "released_modes": 30,
+    "required_modes": 184,
+    "rule": "cover_search_band_v1",
+    "selected_modes": 256,
+    "selection_uses_observed_periodogram": false,
+    "shortest_released_period_days": 183.13857766862978,
+    "shortest_selected_period_days": 21.461552070542552,
+    "spectral_amplitude": 1.9609218062913626e-14,
+    "spectral_gamma": 2.77217231312358,
+    "status": "EXTENDED_BEFORE_CALIBRATION",
+    "verified_shortest_period_days": 21.46155207054254
+  },
+  "nonlinear_parameters": [
+    "PB",
+    "A1",
+    "TASC",
+    "EPS1",
+    "EPS2",
+    "PBDOT",
+    "M2",
+    "SINI"
+  ],
+  "observed_outer_period_scan_executed": false,
+  "observed_sha256": "a4220e2f1c1205245561731846b0f700f4b440a699cdd2b0090584fb3b85f338",
+  "orbit_lower": [
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -3.617685452062433,
+    -5.847219893571389
+  ],
+  "orbit_upper": [
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    3.590671834120851
+  ],
+  "parameter_domain_published_sigma": 5.0,
+  "scope_sha256": "44ff14bbbb5440a71235bbfcf07512d7a504dec23ac5b6a510cde6b0107879b9",
+  "status": "NONLINEAR_PREPARATION_COMPATIBLE",
+  "target": "J0613-0200",
+  "toas": 423
+}

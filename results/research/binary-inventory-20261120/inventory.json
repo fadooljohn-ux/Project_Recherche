@@ -1,0 +1,2860 @@
+{
+ "status": "BINARY_INVENTORY_COMPLETE",
+ "observations_read": false,
+ "rule": "Reads released par files only (timing models; no TOAs, no residuals) and, per\nbinary, reports the orbit model, what the current tools would need to take it\n(native, small-eccentricity re-expression, Shapiro basis) or why they cannot,\nand a rough outer-period range. A class here is a model-level screen: every\ntarget must still pass the preparation checks, and each release needs its own\nnoise and clock adapter before anything can be prepared.\n",
+ "rows": [
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J0636+5128",
+   "searched_before_in_any_data": false,
+   "binary_model": "ELL1",
+   "inner_period_days": 0.06655134206984306,
+   "eccentricity": null,
+   "span_days": 2299.5760706434958,
+   "free_shapiro": [],
+   "extra_orbital_terms": [
+    "FB1",
+    "FB2",
+    "FB3"
+   ],
+   "parameter_form": "ELL1",
+   "class": "BLOCKED",
+   "blocker": "extra orbital terms: FB1 FB2 FB3",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1946+3417",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 27.019947991086987,
+   "eccentricity": 0.1344954498012509,
+   "span_days": 2094.290075179939,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [
+    "OMDOT"
+   ],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "eccentric orbit (0.134): re-expression does not apply; nonlinear orbit treatment needed",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J2214+3000",
+   "searched_before_in_any_data": false,
+   "binary_model": "ELL1",
+   "inner_period_days": 0.4166329461231113,
+   "eccentricity": null,
+   "span_days": 3152.4253185541675,
+   "free_shapiro": [],
+   "extra_orbital_terms": [
+    "FB1",
+    "FB2",
+    "FB3"
+   ],
+   "parameter_form": "ELL1",
+   "class": "BLOCKED",
+   "blocker": "extra orbital terms: FB1 FB2 FB3",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J2017+0603",
+   "searched_before_in_any_data": false,
+   "binary_model": "ELL1",
+   "inner_period_days": 2.198481136240214,
+   "eccentricity": null,
+   "span_days": 3040.6813983471875,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    1520.3406991735937
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1745+1017",
+   "searched_before_in_any_data": false,
+   "binary_model": "ELL1",
+   "inner_period_days": 0.7302414215080226,
+   "eccentricity": null,
+   "span_days": 1660.4969663782758,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NATIVE",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    830.2484831891379
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1751-2857",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 110.74645931150484,
+   "eccentricity": 0.00012788275191845603,
+   "span_days": 1262.6164949814847,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "no outer-period range (inner period 110.7 d, span 3.5 yr)",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J2043+1711",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1",
+   "inner_period_days": 1.4822907863872237,
+   "eccentricity": null,
+   "span_days": 3305.938883442672,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    1652.969441721336
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1918-0642",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 10.913177580159013,
+   "eccentricity": 2.034894777248526e-05,
+   "span_days": 5653.554989217861,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS RE-EXPRESSION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    109.13177580159014,
+    2826.7774946089303
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1857+0943",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1",
+   "inner_period_days": 12.32717119145527,
+   "eccentricity": null,
+   "span_days": 5692.437477618645,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    123.2717119145527,
+    2846.2187388093225
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1713+0747",
+   "searched_before_in_any_data": false,
+   "binary_model": "DDK",
+   "inner_period_days": 67.82512992625774,
+   "eccentricity": 7.49400714412097e-05,
+   "span_days": 5677.443304987741,
+   "free_shapiro": [
+    "M2"
+   ],
+   "extra_orbital_terms": [
+    "KOM",
+    "KIN"
+   ],
+   "parameter_form": "DDK",
+   "class": "BLOCKED",
+   "blocker": "orbit model DDK not supported",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J0614-3329",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 53.58461252958259,
+   "eccentricity": 0.0001807547294615118,
+   "span_days": 881.4795010530288,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "no outer-period range (inner period 53.6 d, span 2.4 yr)",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1802-2124",
+   "searched_before_in_any_data": false,
+   "binary_model": "ELL1H",
+   "inner_period_days": 0.6988892433325568,
+   "eccentricity": null,
+   "span_days": 1262.6239363529166,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1H",
+   "class": "NATIVE",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    631.3119681764583
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1012-4235",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 37.97246318560418,
+   "eccentricity": 0.0003456604372490202,
+   "span_days": 1228.5491882835486,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS RE-EXPRESSION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    379.72463185604175,
+    614.2745941417743
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J2302+4442",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 125.93529693816551,
+   "eccentricity": 0.0005030264224770972,
+   "span_days": 2970.806461839522,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS RE-EXPRESSION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    1259.3529693816552,
+    1485.403230919761
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J2229+2643",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 93.01589253440015,
+   "eccentricity": 0.00025530565613715464,
+   "span_days": 2567.0633206714992,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    930.1589253440015,
+    1283.5316603357496
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1853+1303",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 115.65378643713916,
+   "eccentricity": 2.3696282391487616e-05,
+   "span_days": 3293.0226537606723,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS RE-EXPRESSION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    1156.5378643713916,
+    1646.5113268803361
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J0610-2100",
+   "searched_before_in_any_data": false,
+   "binary_model": "ELL1",
+   "inner_period_days": 0.28601600164709123,
+   "eccentricity": null,
+   "span_days": 1229.6019284485155,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NATIVE",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    614.8009642242578
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J2234+0944",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1",
+   "inner_period_days": 0.4196600374234342,
+   "eccentricity": null,
+   "span_days": 2592.9442450824426,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NATIVE",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    1296.4721225412213
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1910+1256",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 58.46674206207181,
+   "eccentricity": 0.00023025003634756402,
+   "span_days": 4173.507014392482,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    584.6674206207181,
+    2086.753507196241
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1614-2230",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1",
+   "inner_period_days": 8.686619423146924,
+   "eccentricity": null,
+   "span_days": 4215.420586128603,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    86.86619423146924,
+    2107.7102930643014
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1705-1903",
+   "searched_before_in_any_data": false,
+   "binary_model": "ELL1",
+   "inner_period_days": 0.18395401097836994,
+   "eccentricity": null,
+   "span_days": 1360.2030799941276,
+   "free_shapiro": [],
+   "extra_orbital_terms": [
+    "FB1",
+    "FB2",
+    "FB3"
+   ],
+   "parameter_form": "ELL1",
+   "class": "BLOCKED",
+   "blocker": "extra orbital terms: FB1 FB2 FB3",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1719-1438",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1",
+   "inner_period_days": 0.0907062818190678,
+   "eccentricity": null,
+   "span_days": 1257.5481331660194,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NATIVE",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    628.7740665830097
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J0740+6620",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1",
+   "inner_period_days": 4.766944619412857,
+   "eccentricity": null,
+   "span_days": 2305.0711851372907,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    47.66944619412857,
+    1152.5355925686454
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1312+0051",
+   "searched_before_in_any_data": false,
+   "binary_model": "BT",
+   "inner_period_days": 38.50383276797792,
+   "eccentricity": 0.0002381538656478423,
+   "span_days": 1666.4529662896311,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS MODEL TRANSLATION + RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    385.0383276797792,
+    833.2264831448156
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J0437-4715",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 5.741042383612494,
+   "eccentricity": 1.9293678693861453e-05,
+   "span_days": 1736.2787030451582,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    57.41042383612494,
+    868.1393515225791
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1741+1351",
+   "searched_before_in_any_data": false,
+   "binary_model": "ELL1",
+   "inner_period_days": 16.33534782948241,
+   "eccentricity": null,
+   "span_days": 3305.9281637844033,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    163.35347829482407,
+    1652.9640818922016
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1630+3734",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 12.525025753997387,
+   "eccentricity": 5.1629668778546705e-05,
+   "span_days": 1263.6482753552264,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS RE-EXPRESSION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    125.25025753997386,
+    631.8241376776132
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1600-3053",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 14.348457551197724,
+   "eccentricity": 0.00017373888645809865,
+   "span_days": 4555.801599965445,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS RE-EXPRESSION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    143.48457551197723,
+    2277.9007999827227
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1455-3330",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 76.17456747831073,
+   "eccentricity": 0.00016964540648376468,
+   "span_days": 5723.266801216254,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    761.7456747831073,
+    2861.633400608127
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1643-1224",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 147.0173955288316,
+   "eccentricity": 0.0005057189615229531,
+   "span_days": 5739.3998729326995,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    1470.173955288316,
+    2869.6999364663498
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J2234+0611",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 32.00140162107527,
+   "eccentricity": 0.12927399943181692,
+   "span_days": 2387.4731714216687,
+   "free_shapiro": [],
+   "extra_orbital_terms": [
+    "OMDOT",
+    "PBDOT"
+   ],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "eccentric orbit (0.129): re-expression does not apply; nonlinear orbit treatment needed",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1022+1001",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 7.805130162135172,
+   "eccentricity": 9.719884659367994e-05,
+   "span_days": 2027.4452674735294,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    78.05130162135173,
+    1013.7226337367647
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1012+5307",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1",
+   "inner_period_days": 0.604672713829536,
+   "eccentricity": null,
+   "span_days": 5672.613877434487,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NATIVE",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    2836.3069387172436
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1738+0333",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1",
+   "inner_period_days": 0.3547907343158679,
+   "eccentricity": null,
+   "span_days": 3920.2532012012307,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NATIVE",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    1960.1266006006153
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J0509+0856",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1",
+   "inner_period_days": 4.9079768737934195,
+   "eccentricity": null,
+   "span_days": 1301.4613935791058,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NATIVE",
+   "blocker": null,
+   "rough_outer_period_days": [
+    49.079768737934195,
+    650.7306967895529
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J0406+3039",
+   "searched_before_in_any_data": false,
+   "binary_model": "ELL1",
+   "inner_period_days": 6.955717213648717,
+   "eccentricity": null,
+   "span_days": 1301.461268648054,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NATIVE",
+   "blocker": null,
+   "rough_outer_period_days": [
+    69.55717213648717,
+    650.730634324027
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J2317+1439",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1H",
+   "inner_period_days": 2.459331465137028,
+   "eccentricity": null,
+   "span_days": 5714.438536993242,
+   "free_shapiro": [
+    "H3"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1H",
+   "class": "NEEDS SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    2857.219268496621
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J0557+1551",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1",
+   "inner_period_days": 4.846550438655743,
+   "eccentricity": null,
+   "span_days": 1667.3786681814527,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NATIVE",
+   "blocker": null,
+   "rough_outer_period_days": [
+    48.465504386557434,
+    833.6893340907263
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1811-2405",
+   "searched_before_in_any_data": false,
+   "binary_model": "ELL1",
+   "inner_period_days": 6.272301969988267,
+   "eccentricity": null,
+   "span_days": 1262.6153600841062,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    62.72301969988267,
+    631.3076800420531
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J2033+1734",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 56.30779529695905,
+   "eccentricity": 0.00012872432708289471,
+   "span_days": 2546.011983517579,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    563.0779529695905,
+    1273.0059917587896
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1640+2224",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 175.46066190184385,
+   "eccentricity": 0.0007972596081186569,
+   "span_days": 5650.549900973616,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS RE-EXPRESSION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    1754.6066190184386,
+    2825.274950486808
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J0613-0200",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1",
+   "inner_period_days": 1.1985125567193307,
+   "eccentricity": null,
+   "span_days": 5494.15727218768,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    2747.07863609384
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J0605+3757",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 55.67233370176874,
+   "eccentricity": 0.000375112408669959,
+   "span_days": 1229.7274236645826,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    556.7233370176874,
+    614.8637118322913
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J2145-0750",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1H",
+   "inner_period_days": 6.838902509644943,
+   "eccentricity": null,
+   "span_days": 5675.371598400787,
+   "free_shapiro": [
+    "H3"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1H",
+   "class": "NEEDS SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    68.38902509644943,
+    2837.6857992003934
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1955+2908",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 117.34909726924371,
+   "eccentricity": 0.0003302283355797336,
+   "span_days": 3304.9741198427873,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    1173.490972692437,
+    1652.4870599213937
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J0709+0458",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 4.366676272210543,
+   "eccentricity": 0.00022508219920093842,
+   "span_days": 1667.416196634098,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    43.66676272210543,
+    833.708098317049
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J0023+0923",
+   "searched_before_in_any_data": false,
+   "binary_model": "ELL1",
+   "inner_period_days": 0.13879914222437062,
+   "eccentricity": null,
+   "span_days": 3262.096703408657,
+   "free_shapiro": [],
+   "extra_orbital_terms": [
+    "FB1",
+    "FB2",
+    "FB3"
+   ],
+   "parameter_form": "ELL1",
+   "class": "BLOCKED",
+   "blocker": "extra orbital terms: FB1 FB2 FB3",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1909-3744",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1",
+   "inner_period_days": 1.5334494520783657,
+   "eccentricity": null,
+   "span_days": 5715.339452818378,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    2857.669726409189
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1125+7819",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1",
+   "inner_period_days": 15.355445961116056,
+   "eccentricity": null,
+   "span_days": 2299.5297714977787,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NATIVE",
+   "blocker": null,
+   "rough_outer_period_days": [
+    153.55445961116055,
+    1149.7648857488894
+   ]
+  },
+  {
+   "release": "NANOGrav 15-year (wideband)",
+   "target": "J1903+0327",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 95.17411732339909,
+   "eccentricity": 0.4366784127706314,
+   "span_days": 3920.2649617600327,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [
+    "OMDOT"
+   ],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "eccentric orbit (0.437): re-expression does not apply; nonlinear orbit treatment needed",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J0125-2327",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1",
+   "inner_period_days": 7.27719974873306,
+   "eccentricity": null,
+   "span_days": 1164.6165688484616,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NATIVE",
+   "blocker": null,
+   "rough_outer_period_days": [
+    72.7719974873306,
+    582.3082844242308
+   ]
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J0437-4715",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 5.741046351664168,
+   "eccentricity": 1.9180572248442703e-05,
+   "span_days": 5347.550638166416,
+   "free_shapiro": [
+    "M2"
+   ],
+   "extra_orbital_terms": [
+    "KOM",
+    "KIN",
+    "OMDOT",
+    "PBDOT"
+   ],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "extra orbital terms: KOM KIN OMDOT PBDOT",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J0613-0200",
+   "searched_before_in_any_data": true,
+   "binary_model": "T2",
+   "inner_period_days": 1.1985125750944943,
+   "eccentricity": null,
+   "span_days": 6600.8044100802945,
+   "free_shapiro": [
+    "H3",
+    "H4"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    3300.4022050401472
+   ]
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J0614-3329",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 53.58461336154492,
+   "eccentricity": 0.0001807453615266994,
+   "span_days": 1163.53411916209,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS MODEL TRANSLATION + RE-EXPRESSION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    535.8461336154492,
+    581.767059581045
+   ]
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J0900-3144",
+   "searched_before_in_any_data": false,
+   "binary_model": "ELL1",
+   "inner_period_days": 18.737636063420858,
+   "eccentricity": null,
+   "span_days": 1018.1963198306912,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NATIVE",
+   "blocker": null,
+   "rough_outer_period_days": [
+    187.3763606342086,
+    509.0981599153456
+   ]
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J1017-7156",
+   "searched_before_in_any_data": false,
+   "binary_model": "DDH",
+   "inner_period_days": 6.511903298119557,
+   "eccentricity": 0.00014237897322341787,
+   "span_days": 4251.533624198666,
+   "free_shapiro": [],
+   "extra_orbital_terms": [
+    "OMDOT",
+    "PBDOT"
+   ],
+   "parameter_form": "DDH",
+   "class": "BLOCKED",
+   "blocker": "extra orbital terms: OMDOT PBDOT",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J1022+1001",
+   "searched_before_in_any_data": false,
+   "binary_model": "DDH",
+   "inner_period_days": 7.8051349689671765,
+   "eccentricity": 9.702394013948857e-05,
+   "span_days": 6602.858770375235,
+   "free_shapiro": [],
+   "extra_orbital_terms": [
+    "OMDOT"
+   ],
+   "parameter_form": "DDH",
+   "class": "BLOCKED",
+   "blocker": "extra orbital terms: OMDOT",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J1045-4509",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 4.083529254472651,
+   "eccentricity": null,
+   "span_days": 6602.893506358618,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    40.835292544726514,
+    3301.446753179309
+   ]
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J1125-6014",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 8.752603646790355,
+   "eccentricity": null,
+   "span_days": 5185.697689553359,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    87.52603646790355,
+    2592.8488447766795
+   ]
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J1446-4701",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 0.2776660770254635,
+   "eccentricity": null,
+   "span_days": 4051.0346986274526,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    2025.5173493137263
+   ]
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J1545-4550",
+   "searched_before_in_any_data": false,
+   "binary_model": "ELL1H",
+   "inner_period_days": 6.20306492616338,
+   "eccentricity": null,
+   "span_days": 3960.2167795543064,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1H",
+   "class": "NATIVE",
+   "blocker": null,
+   "rough_outer_period_days": [
+    62.0306492616338,
+    1980.1083897771532
+   ]
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J1600-3053",
+   "searched_before_in_any_data": false,
+   "binary_model": "DDH",
+   "inner_period_days": 14.348463787550857,
+   "eccentricity": 0.00017371731596148673,
+   "span_days": 6604.668354270529,
+   "free_shapiro": [
+    "H3",
+    "STIG"
+   ],
+   "extra_orbital_terms": [
+    "OMDOT",
+    "PBDOT"
+   ],
+   "parameter_form": "DDH",
+   "class": "BLOCKED",
+   "blocker": "extra orbital terms: OMDOT PBDOT",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J1603-7202",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 6.308629669834661,
+   "eccentricity": null,
+   "span_days": 6603.791826204455,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    63.086296698346615,
+    3301.8959131022275
+   ]
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J1643-1224",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 147.01739780607465,
+   "eccentricity": 0.0005057392572528649,
+   "span_days": 6600.9433250526345,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS MODEL TRANSLATION + RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    1470.1739780607465,
+    3300.4716625263172
+   ]
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J1713+0747",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 67.82513549358033,
+   "eccentricity": 7.494132762590157e-05,
+   "span_days": 6262.833808346186,
+   "free_shapiro": [
+    "M2"
+   ],
+   "extra_orbital_terms": [
+    "KOM",
+    "KIN",
+    "OMDOT",
+    "PBDOT"
+   ],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "extra orbital terms: KOM KIN OMDOT PBDOT",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J1741+1351",
+   "searched_before_in_any_data": false,
+   "binary_model": "ELL1",
+   "inner_period_days": 16.335348116752748,
+   "eccentricity": null,
+   "span_days": 934.4831076088012,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NATIVE",
+   "blocker": null,
+   "rough_outer_period_days": [
+    163.3534811675275,
+    467.2415538044006
+   ]
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J1857+0943",
+   "searched_before_in_any_data": true,
+   "binary_model": "T2",
+   "inner_period_days": 12.327171382750157,
+   "eccentricity": null,
+   "span_days": 6582.804778985046,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    123.27171382750157,
+    3291.402389492523
+   ]
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J1902-5105",
+   "searched_before_in_any_data": false,
+   "binary_model": "ELL1H",
+   "inner_period_days": 2.011803769826615,
+   "eccentricity": null,
+   "span_days": 1039.9480527453852,
+   "free_shapiro": [
+    "H3",
+    "STIG"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1H",
+   "class": "NEEDS SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    519.9740263726926
+   ]
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J1909-3744",
+   "searched_before_in_any_data": true,
+   "binary_model": "T2",
+   "inner_period_days": 1.5334494745717318,
+   "eccentricity": null,
+   "span_days": 6603.678080919766,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    3301.839040459883
+   ]
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J1933-6211",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1",
+   "inner_period_days": 12.81940671999434,
+   "eccentricity": null,
+   "span_days": 1159.5623783913034,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NATIVE",
+   "blocker": null,
+   "rough_outer_period_days": [
+    128.1940671999434,
+    579.7811891956517
+   ]
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J2129-5721",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 6.625493090381778,
+   "eccentricity": null,
+   "span_days": 6482.110823511117,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    66.25493090381778,
+    3241.0554117555585
+   ]
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J2145-0750",
+   "searched_before_in_any_data": true,
+   "binary_model": "T2",
+   "inner_period_days": 6.838902615328156,
+   "eccentricity": null,
+   "span_days": 6560.975802474146,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    68.38902615328155,
+    3280.487901237073
+   ]
+  },
+  {
+   "release": "PPTA DR3",
+   "target": "J2241-5236",
+   "searched_before_in_any_data": false,
+   "binary_model": "ELL1",
+   "inner_period_days": 0.14567224093488607,
+   "eccentricity": null,
+   "span_days": 4409.055151718174,
+   "free_shapiro": [],
+   "extra_orbital_terms": [
+    "FB1",
+    "FB2",
+    "FB3"
+   ],
+   "parameter_form": "ELL1",
+   "class": "BLOCKED",
+   "blocker": "extra orbital terms: FB1 FB2 FB3",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "EPTA DR2 (full)",
+   "target": "J0613-0200",
+   "searched_before_in_any_data": true,
+   "binary_model": "T2",
+   "inner_period_days": 1.1985125752056358,
+   "eccentricity": null,
+   "span_days": 8362.030428221507,
+   "free_shapiro": [
+    "H3",
+    "STIG"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    4181.015214110754
+   ]
+  },
+  {
+   "release": "EPTA DR2 (full)",
+   "target": "J0751+1807",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 0.2631442707885613,
+   "eccentricity": null,
+   "span_days": 8834.7496546603,
+   "free_shapiro": [
+    "H3",
+    "H4"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    4417.37482733015
+   ]
+  },
+  {
+   "release": "EPTA DR2 (full)",
+   "target": "J0900-3144",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 18.737636058477623,
+   "eccentricity": null,
+   "span_days": 4983.318897532408,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    187.37636058477622,
+    2491.659448766204
+   ]
+  },
+  {
+   "release": "EPTA DR2 (full)",
+   "target": "J1012+5307",
+   "searched_before_in_any_data": true,
+   "binary_model": "T2",
+   "inner_period_days": 0.6046727229204641,
+   "eccentricity": null,
+   "span_days": 8647.865714999425,
+   "free_shapiro": [
+    "H3",
+    "H4"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    4323.932857499713
+   ]
+  },
+  {
+   "release": "EPTA DR2 (full)",
+   "target": "J1022+1001",
+   "searched_before_in_any_data": false,
+   "binary_model": "DDH",
+   "inner_period_days": 7.80513401690026,
+   "eccentricity": 9.695450665079031e-05,
+   "span_days": 8933.799765372547,
+   "free_shapiro": [
+    "H3",
+    "STIG"
+   ],
+   "extra_orbital_terms": [
+    "OMDOT",
+    "PBDOT"
+   ],
+   "parameter_form": "DDH",
+   "class": "BLOCKED",
+   "blocker": "extra orbital terms: OMDOT PBDOT",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "EPTA DR2 (full)",
+   "target": "J1455-3330",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 76.17456860255713,
+   "eccentricity": 0.00016964661850303502,
+   "span_days": 5742.284118049938,
+   "free_shapiro": [],
+   "extra_orbital_terms": [
+    "PBDOT"
+   ],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "extra orbital terms: PBDOT",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "EPTA DR2 (full)",
+   "target": "J1600-3053",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 14.348464794642252,
+   "eccentricity": 0.00017375439151825082,
+   "span_days": 5231.698994125822,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [
+    "OMDOT",
+    "PBDOT"
+   ],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "extra orbital terms: OMDOT PBDOT",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "EPTA DR2 (full)",
+   "target": "J1640+2224",
+   "searched_before_in_any_data": false,
+   "binary_model": "DDH",
+   "inner_period_days": 175.46066456672628,
+   "eccentricity": 0.0007972832239256171,
+   "span_days": 8925.8661026736,
+   "free_shapiro": [
+    "H3",
+    "STIG"
+   ],
+   "extra_orbital_terms": [
+    "PBDOT"
+   ],
+   "parameter_form": "DDH",
+   "class": "BLOCKED",
+   "blocker": "extra orbital terms: PBDOT",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "EPTA DR2 (full)",
+   "target": "J1713+0747",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 67.82513097701121,
+   "eccentricity": 7.493827538884251e-05,
+   "span_days": 8935.225082919693,
+   "free_shapiro": [
+    "M2"
+   ],
+   "extra_orbital_terms": [
+    "KOM",
+    "KIN",
+    "PBDOT"
+   ],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "extra orbital terms: KOM KIN PBDOT",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "EPTA DR2 (full)",
+   "target": "J1738+0333",
+   "searched_before_in_any_data": true,
+   "binary_model": "T2",
+   "inner_period_days": 0.3547907400080838,
+   "eccentricity": null,
+   "span_days": 5155.897902631725,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    2577.9489513158624
+   ]
+  },
+  {
+   "release": "EPTA DR2 (full)",
+   "target": "J1751-2857",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 110.74646083259456,
+   "eccentricity": 0.00012790417710170076,
+   "span_days": 5365.3402227933475,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS MODEL TRANSLATION + RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    1107.4646083259456,
+    2682.6701113966737
+   ]
+  },
+  {
+   "release": "EPTA DR2 (full)",
+   "target": "J1804-2717",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 11.128711965325348,
+   "eccentricity": null,
+   "span_days": 5379.297655239032,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    111.28711965325348,
+    2689.648827619516
+   ]
+  },
+  {
+   "release": "EPTA DR2 (full)",
+   "target": "J1857+0943",
+   "searched_before_in_any_data": true,
+   "binary_model": "T2",
+   "inner_period_days": 12.327171382799897,
+   "eccentricity": null,
+   "span_days": 8799.856346998538,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    123.27171382799897,
+    4399.928173499269
+   ]
+  },
+  {
+   "release": "EPTA DR2 (full)",
+   "target": "J1909-3744",
+   "searched_before_in_any_data": true,
+   "binary_model": "T2",
+   "inner_period_days": 1.5334494742991596,
+   "eccentricity": null,
+   "span_days": 5747.265270896409,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    2873.6326354482044
+   ]
+  },
+  {
+   "release": "EPTA DR2 (full)",
+   "target": "J1910+1256",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 58.466742972413186,
+   "eccentricity": 0.00023025772558330347,
+   "span_days": 5557.062441632312,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS MODEL TRANSLATION + RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    584.6674297241318,
+    2778.531220816156
+   ]
+  },
+  {
+   "release": "EPTA DR2 (full)",
+   "target": "J1918-0642",
+   "searched_before_in_any_data": false,
+   "binary_model": "DDH",
+   "inner_period_days": 10.913177749957994,
+   "eccentricity": 2.033852578384976e-05,
+   "span_days": 7199.2848180972,
+   "free_shapiro": [
+    "H3",
+    "STIG"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "DDH",
+   "class": "NEEDS RE-EXPRESSION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    109.13177749957994,
+    3599.6424090486
+   ]
+  },
+  {
+   "release": "InPTA DR2",
+   "target": "J0034-0534",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 1.5892818255027952,
+   "eccentricity": null,
+   "span_days": 490.8835647119631,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "BLOCKED",
+   "blocker": "orbital parameters not fitted in the release: TASC EPS1 EPS2",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "InPTA DR2",
+   "target": "J0437-4715",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 5.741047107675197,
+   "eccentricity": 1.918941991276431e-05,
+   "span_days": 2490.2135563384218,
+   "free_shapiro": [],
+   "extra_orbital_terms": [
+    "KOM",
+    "KIN",
+    "OMDOT",
+    "PBDOT"
+   ],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "T0, OM or ECC not fitted",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "InPTA DR2",
+   "target": "J0613-0200",
+   "searched_before_in_any_data": true,
+   "binary_model": "T2",
+   "inner_period_days": 1.1985125752012598,
+   "eccentricity": null,
+   "span_days": 2624.647700585061,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "BLOCKED",
+   "blocker": "orbital parameters not fitted in the release: TASC",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "InPTA DR2",
+   "target": "J0740+6620",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1",
+   "inner_period_days": 4.766944693178734,
+   "eccentricity": null,
+   "span_days": 706.0376736556791,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "BLOCKED",
+   "blocker": "orbital parameters not fitted in the release: TASC EPS1 EPS2",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "InPTA DR2",
+   "target": "J0751+1807",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 0.26314427078954256,
+   "eccentricity": null,
+   "span_days": 2625.7294714843447,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "BLOCKED",
+   "blocker": "orbital parameters not fitted in the release: TASC EPS1 EPS2",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "InPTA DR2",
+   "target": "J0900-3144",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 18.73763605632287,
+   "eccentricity": null,
+   "span_days": 706.0862850809353,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "BLOCKED",
+   "blocker": "orbital parameters not fitted in the release: A1 TASC EPS1 EPS2",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "InPTA DR2",
+   "target": "J1012+5307",
+   "searched_before_in_any_data": true,
+   "binary_model": "T2",
+   "inner_period_days": 0.6046727229223813,
+   "eccentricity": null,
+   "span_days": 2593.8095059382686,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "BLOCKED",
+   "blocker": "orbital parameters not fitted in the release: TASC EPS1 EPS2",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "InPTA DR2",
+   "target": "J1022+1001",
+   "searched_before_in_any_data": false,
+   "binary_model": "DDH",
+   "inner_period_days": 7.805133969732054,
+   "eccentricity": 9.692985357794141e-05,
+   "span_days": 2625.6541817025864,
+   "free_shapiro": [],
+   "extra_orbital_terms": [
+    "OMDOT",
+    "PBDOT"
+   ],
+   "parameter_form": "DDH",
+   "class": "BLOCKED",
+   "blocker": "T0, OM or ECC not fitted",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "InPTA DR2",
+   "target": "J1125+7819",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1",
+   "inner_period_days": 15.355446205002059,
+   "eccentricity": null,
+   "span_days": 496.7718170632288,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "BLOCKED",
+   "blocker": "orbital parameters not fitted in the release: TASC EPS1 EPS2",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "InPTA DR2",
+   "target": "J1455-3330",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 76.17456860458076,
+   "eccentricity": 0.00016964643855016796,
+   "span_days": 798.6121211633872,
+   "free_shapiro": [],
+   "extra_orbital_terms": [
+    "PBDOT"
+   ],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "T0, OM or ECC not fitted",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "InPTA DR2",
+   "target": "J1600-3053",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 14.348463460715047,
+   "eccentricity": 0.00017372928144210765,
+   "span_days": 2138.15849544762,
+   "free_shapiro": [],
+   "extra_orbital_terms": [
+    "OMDOT",
+    "PBDOT"
+   ],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "T0, OM or ECC not fitted",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "InPTA DR2",
+   "target": "J1614-2230",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1",
+   "inner_period_days": 8.686619557837936,
+   "eccentricity": null,
+   "span_days": 798.6370055087536,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "BLOCKED",
+   "blocker": "orbital parameters not fitted in the release: PB A1 TASC EPS1 EPS2",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "InPTA DR2",
+   "target": "J1640+2224",
+   "searched_before_in_any_data": false,
+   "binary_model": "DDH",
+   "inner_period_days": 175.46066458293438,
+   "eccentricity": 0.0007972747661343614,
+   "span_days": 783.6665196863541,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DDH",
+   "class": "BLOCKED",
+   "blocker": "orbital parameters not fitted in the release: A1",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "InPTA DR2",
+   "target": "J1643-1224",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 147.01739781419127,
+   "eccentricity": 0.0005057402649286618,
+   "span_days": 2156.0289815668584,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "T0, OM or ECC not fitted",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "InPTA DR2",
+   "target": "J1713+0747",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 67.82513097459483,
+   "eccentricity": 7.494060730419643e-05,
+   "span_days": 1540.7858370699105,
+   "free_shapiro": [],
+   "extra_orbital_terms": [
+    "KOM",
+    "KIN"
+   ],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "orbital parameters not fitted in the release: A1",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "InPTA DR2",
+   "target": "J1857+0943",
+   "searched_before_in_any_data": true,
+   "binary_model": "T2",
+   "inner_period_days": 12.327171382802113,
+   "eccentricity": null,
+   "span_days": 2629.7536028233662,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "BLOCKED",
+   "blocker": "orbital parameters not fitted in the release: TASC EPS1 EPS2",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "InPTA DR2",
+   "target": "J1909-3744",
+   "searched_before_in_any_data": true,
+   "binary_model": "T2",
+   "inner_period_days": 1.5334494743107836,
+   "eccentricity": null,
+   "span_days": 2629.6746678668496,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "BLOCKED",
+   "blocker": "orbital parameters not fitted in the release: A1 TASC EPS1 EPS2",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "InPTA DR2",
+   "target": "J2145-0750",
+   "searched_before_in_any_data": true,
+   "binary_model": "T2",
+   "inner_period_days": 6.83890261532921,
+   "eccentricity": null,
+   "span_days": 2156.039455530299,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "BLOCKED",
+   "blocker": "orbital parameters not fitted in the release: TASC",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "InPTA DR2",
+   "target": "J2302+4442",
+   "searched_before_in_any_data": false,
+   "binary_model": "DD",
+   "inner_period_days": 125.93529892910799,
+   "eccentricity": 0.0005028858979127422,
+   "span_days": 2435.295964764009,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "T0, OM or ECC not fitted",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J0023+0923",
+   "searched_before_in_any_data": false,
+   "binary_model": "ELL1",
+   "inner_period_days": 0.13879914463140577,
+   "eccentricity": null,
+   "span_days": 842.7808173828089,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NATIVE",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    421.39040869140445
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J0034-0534",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 1.589281825324928,
+   "eccentricity": null,
+   "span_days": 4937.414925781253,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    2468.7074628906266
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J0218+4232",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 2.0288461155951634,
+   "eccentricity": null,
+   "span_days": 6417.743050781253,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    3208.8715253906266
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J0437-4715",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 5.741045811874238,
+   "eccentricity": 1.9181585801664936e-05,
+   "span_days": 6786.6913162006385,
+   "free_shapiro": [
+    "M2"
+   ],
+   "extra_orbital_terms": [
+    "KOM",
+    "KIN",
+    "OMDOT",
+    "PBDOT"
+   ],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "extra orbital terms: KOM KIN OMDOT PBDOT",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J0610-2100",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 0.2860160062246501,
+   "eccentricity": null,
+   "span_days": 2523.057015624996,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    1261.528507812498
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J0613-0200",
+   "searched_before_in_any_data": true,
+   "binary_model": "T2",
+   "inner_period_days": 1.1985125752171628,
+   "eccentricity": null,
+   "span_days": 5865.901300781254,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    2932.950650390627
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J0621+1002",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 8.318681232467636,
+   "eccentricity": 0.0024572483715998516,
+   "span_days": 4300.457847656253,
+   "free_shapiro": [],
+   "extra_orbital_terms": [
+    "OMDOT"
+   ],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "eccentric orbit (0.00246): re-expression does not apply; nonlinear orbit treatment needed",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J0751+1807",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 0.2631442707328469,
+   "eccentricity": null,
+   "span_days": 6430.425487824374,
+   "free_shapiro": [
+    "H3",
+    "STIG"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    3215.212743912187
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J0900-3144",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 18.737636059437055,
+   "eccentricity": null,
+   "span_days": 2509.1190839843766,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    187.37636059437054,
+    1254.5595419921883
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1012+5307",
+   "searched_before_in_any_data": true,
+   "binary_model": "T2",
+   "inner_period_days": 0.6046727230846841,
+   "eccentricity": null,
+   "span_days": 6149.581335937502,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    3074.790667968751
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1022+1001",
+   "searched_before_in_any_data": false,
+   "binary_model": "DDH",
+   "inner_period_days": 7.805136489212795,
+   "eccentricity": 9.703637813292537e-05,
+   "span_days": 6408.6777617187545,
+   "free_shapiro": [
+    "H3",
+    "STIG"
+   ],
+   "extra_orbital_terms": [
+    "OMDOT",
+    "PBDOT"
+   ],
+   "parameter_form": "DDH",
+   "class": "BLOCKED",
+   "blocker": "extra orbital terms: OMDOT PBDOT",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1045-4509",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 4.083529254782452,
+   "eccentricity": 2.3412564379643838e-05,
+   "span_days": 6214.027655725287,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS MODEL TRANSLATION + RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    40.83529254782452,
+    3107.0138278626437
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1455-3330",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 76.17456864587126,
+   "eccentricity": 0.00016966273366239047,
+   "span_days": 3535.0645619607967,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS MODEL TRANSLATION + RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    761.7456864587126,
+    1767.5322809803984
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1600-3053",
+   "searched_before_in_any_data": false,
+   "binary_model": "DDH",
+   "inner_period_days": 14.348462654492284,
+   "eccentricity": 0.00017372629025345495,
+   "span_days": 4495.052527343752,
+   "free_shapiro": [
+    "H3",
+    "STIG"
+   ],
+   "extra_orbital_terms": [
+    "OMDOT"
+   ],
+   "parameter_form": "DDH",
+   "class": "BLOCKED",
+   "blocker": "extra orbital terms: OMDOT",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1603-7202",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 6.308629670341386,
+   "eccentricity": 9.349364186139855e-06,
+   "span_days": 5594.690222656252,
+   "free_shapiro": [],
+   "extra_orbital_terms": [
+    "PBDOT"
+   ],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "extra orbital terms: PBDOT",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1614-2230",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1",
+   "inner_period_days": 8.686619556468575,
+   "eccentricity": null,
+   "span_days": 1862.9296962890658,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    86.86619556468574,
+    931.4648481445329
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1640+2224",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 175.46064240650637,
+   "eccentricity": 0.0007972723044857525,
+   "span_days": 6303.805550781246,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [
+    "OMDOT"
+   ],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "extra orbital terms: OMDOT",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1643-1224",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 147.01739778379365,
+   "eccentricity": 0.000505748510975839,
+   "span_days": 7356.240938340168,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS MODEL TRANSLATION + RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    1470.1739778379365,
+    3678.120469170084
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1713+0747",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 67.82513097460966,
+   "eccentricity": 7.494017877768097e-05,
+   "span_days": 8203.942710937503,
+   "free_shapiro": [
+    "M2"
+   ],
+   "extra_orbital_terms": [
+    "KOM",
+    "KIN",
+    "PBDOT"
+   ],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "extra orbital terms: KOM KIN PBDOT",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1732-5049",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1",
+   "inner_period_days": 5.262997218114336,
+   "eccentricity": null,
+   "span_days": 2937.1070078124976,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NATIVE",
+   "blocker": null,
+   "rough_outer_period_days": [
+    52.62997218114336,
+    1468.5535039062488
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1738+0333",
+   "searched_before_in_any_data": true,
+   "binary_model": "T2",
+   "inner_period_days": 0.3547907398517414,
+   "eccentricity": null,
+   "span_days": 2678.6916875000024,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    1339.3458437500012
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1741+1351",
+   "searched_before_in_any_data": false,
+   "binary_model": "ELL1",
+   "inner_period_days": 16.335348080358095,
+   "eccentricity": null,
+   "span_days": 1553.7898037109408,
+   "free_shapiro": [
+    "M2"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    163.35348080358096,
+    776.8949018554704
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1751-2857",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 110.74646080870416,
+   "eccentricity": 0.00012794711783642665,
+   "span_days": 3035.696404307615,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS MODEL TRANSLATION + RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    1107.4646080870416,
+    1517.8482021538075
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1802-2124",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 0.6988892542165377,
+   "eccentricity": null,
+   "span_days": 2644.885882812501,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    1322.4429414062506
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1804-2717",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 11.1287119659731,
+   "eccentricity": 3.409998670700575e-05,
+   "span_days": 3061.593768022285,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS MODEL TRANSLATION + RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    111.28711965973099,
+    1530.7968840111425
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1853+1303",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 115.65378822940367,
+   "eccentricity": 2.369656153430104e-05,
+   "span_days": 3068.473623046877,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS MODEL TRANSLATION + RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    1156.5378822940368,
+    1534.2368115234385
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1857+0943",
+   "searched_before_in_any_data": true,
+   "binary_model": "T2",
+   "inner_period_days": 12.327171382129292,
+   "eccentricity": 2.1666657587648073e-05,
+   "span_days": 10381.609843750004,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS MODEL TRANSLATION + RE-EXPRESSION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    123.27171382129292,
+    5190.804921875002
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1903+0327",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 95.17411880750697,
+   "eccentricity": 0.4366784138900478,
+   "span_days": 1458.00455371094,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [
+    "OMDOT"
+   ],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "eccentric orbit (0.437): re-expression does not apply; nonlinear orbit treatment needed",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1909-3744",
+   "searched_before_in_any_data": true,
+   "binary_model": "T2",
+   "inner_period_days": 1.5334494752782062,
+   "eccentricity": null,
+   "span_days": 3953.210683593752,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    1976.605341796876
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1910+1256",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 58.46674296807141,
+   "eccentricity": 0.00023023301077086745,
+   "span_days": 3459.608144531252,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS MODEL TRANSLATION + RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    584.6674296807141,
+    1729.804072265626
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1911-1114",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 2.716557661951876,
+   "eccentricity": null,
+   "span_days": 3212.3658512149923,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    1606.1829256074961
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1918-0642",
+   "searched_before_in_any_data": false,
+   "binary_model": "DDH",
+   "inner_period_days": 10.913177749244252,
+   "eccentricity": 2.034870677073519e-05,
+   "span_days": 4676.117910156252,
+   "free_shapiro": [
+    "H3",
+    "STIG"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "DDH",
+   "class": "NEEDS RE-EXPRESSION + SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    109.13177749244252,
+    2338.058955078126
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1949+3106",
+   "searched_before_in_any_data": false,
+   "binary_model": "ELL1",
+   "inner_period_days": 1.9495344460338673,
+   "eccentricity": null,
+   "span_days": 456.7752446289087,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    228.38762231445435
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J1955+2908",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 117.34909911073683,
+   "eccentricity": 0.0003302199327811114,
+   "span_days": 2969.89945117187,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS MODEL TRANSLATION + RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    1173.4909911073682,
+    1484.949725585935
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J2017+0603",
+   "searched_before_in_any_data": false,
+   "binary_model": "ELL1",
+   "inner_period_days": 2.1984811706451466,
+   "eccentricity": null,
+   "span_days": 611.3352421875024,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    305.6676210937512
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J2019+2425",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 76.51163604615178,
+   "eccentricity": 0.00011113551965749474,
+   "span_days": 3337.139756545832,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS MODEL TRANSLATION + RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    765.1163604615178,
+    1668.569878272916
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J2033+1734",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 56.307796172002384,
+   "eccentricity": 0.0001286071789840991,
+   "span_days": 2891.3578007506585,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS MODEL TRANSLATION + RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    563.0779617200238,
+    1445.6789003753292
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J2043+1711",
+   "searched_before_in_any_data": true,
+   "binary_model": "ELL1",
+   "inner_period_days": 1.4822908095194292,
+   "eccentricity": null,
+   "span_days": 835.7701503906283,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS SHAPIRO BASIS",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    417.88507519531413
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J2129-5721",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 6.625493096088281,
+   "eccentricity": 1.2169104454954887e-05,
+   "span_days": 5630.885701367391,
+   "free_shapiro": [],
+   "extra_orbital_terms": [
+    "PBDOT"
+   ],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "extra orbital terms: PBDOT",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J2145-0750",
+   "searched_before_in_any_data": true,
+   "binary_model": "T2",
+   "inner_period_days": 6.838902615426345,
+   "eccentricity": null,
+   "span_days": 7761.527718749996,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    68.38902615426345,
+    3880.763859374998
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J2214+3000",
+   "searched_before_in_any_data": false,
+   "binary_model": "ELL1",
+   "inner_period_days": 0.4166329521241894,
+   "eccentricity": null,
+   "span_days": 756.9316777343774,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NATIVE",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    378.4658388671887
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J2229+2643",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 93.0158938804153,
+   "eccentricity": 0.00025523003500772996,
+   "span_days": 3005.7750447656435,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "NEEDS MODEL TRANSLATION + RE-EXPRESSION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    930.1589388041531,
+    1502.8875223828218
+   ]
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J2302+4442",
+   "searched_before_in_any_data": false,
+   "binary_model": "T2",
+   "inner_period_days": 125.93529876986418,
+   "eccentricity": 0.0005030296724299768,
+   "span_days": 616.2865361328077,
+   "free_shapiro": [
+    "M2",
+    "SINI"
+   ],
+   "extra_orbital_terms": [],
+   "parameter_form": "DD",
+   "class": "BLOCKED",
+   "blocker": "no outer-period range (inner period 125.9 d, span 1.7 yr)",
+   "rough_outer_period_days": null
+  },
+  {
+   "release": "IPTA DR2 (version B)",
+   "target": "J2317+1439",
+   "searched_before_in_any_data": true,
+   "binary_model": "T2",
+   "inner_period_days": 2.45933150334371,
+   "eccentricity": null,
+   "span_days": 6337.559363281245,
+   "free_shapiro": [],
+   "extra_orbital_terms": [],
+   "parameter_form": "ELL1",
+   "class": "NEEDS MODEL TRANSLATION",
+   "blocker": null,
+   "rough_outer_period_days": [
+    30.0,
+    3168.7796816406226
+   ]
+  }
+ ]
+}

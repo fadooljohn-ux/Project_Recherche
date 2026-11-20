@@ -1,0 +1,32 @@
+{
+  "status": "COMPLETE",
+  "target": "J1125+7819",
+  "observed_outcome": "NO_TRIGGER",
+  "execution_failures": 0,
+  "noise_adequacy_flags": 0,
+  "calibration_nulls": 4096,
+  "injections_recovered": 95,
+  "injections_tested": 96,
+  "registered_targets": 783,
+  "observed_identities": 282,
+  "search_records": 356,
+  "prior_search_rows_preserved": 355,
+  "J1012_observed_search_repeated": false,
+  "J1012_covariance_only_verification": true,
+  "scientific_source_hashes_preserved": 71,
+  "noise_rule": "cover_search_band_v1",
+  "scope": "Explicit pre-search frequency coverage for released red noise; no red component added when absent from released model. Conditional fixed noise; not a noise-posterior validation.",
+  "evidence": {
+    "preparation.json": "a345692d7fdd4101b6efe5385b951c379a88692f382c31636adfb0cfb3e27484",
+    "execution-freeze.json": "0d9580f0f36563ff19a129b29ff99765f7c49967ca1cd210b24aa6b639a292e2",
+    "noise-coverage-verification.json": "c28da0d2824e7776e800970687a14260f2e174105b4b85eaf9aa7891f64bc610",
+    "selection.json": "e22eb574e26b361e50f8740bc3dea4a1c4967296120bf5c4c56adfc73c8850d1",
+    "J1125+7819/result.json": "59be9f8606fec83ceb59afb2635115eea2a2aecc648bef4d163c7a0951ba6e94",
+    "J1125+7819/calibration.json": "1399622b49990fca4d92519d336b00949d3ef7c37bb17a84e125c66ee76c0881",
+    "J1125+7819/periodogram.npz": "c9a4aa34a397e4d3a66e4fd4621f1754447a817357fd8f2860ec75a260a03fd0",
+    "J1125+7819/projection-and-sensitivity.npz": "75a91dc8c0aef189a40331892a640437a11278c7e759c46e68341b0887629b54",
+    "J1125+7819/null-maxima.npy": "68618d510d570f58b9918e22b01af33bbede02f679b2c2ef8583a6e6591e2895",
+    "J1125+7819/preparation-receipt.json": "b34c5d0d7fe8f857b8bbf3e02488056e65332f060a75962bfc991e5130c4553c",
+    "J1125+7819/profile.json": "ac9f74341a59e32c84df4b5f4936da34f13734aaefa7a7a9621a3a9de4d8544d"
+  }
+}

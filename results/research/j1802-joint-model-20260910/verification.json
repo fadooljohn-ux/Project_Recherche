@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "all_preparation_inputs_preserved": true,
+  "all_comparison_code_bindings_verified": true,
+  "publication_source_bindings_preserved": 71,
+  "native_shapiro_maximum_difference_seconds": 8.470329472543003e-22,
+  "pint_ell1h_source_sha256": "444fabb382b22deeb9e2164e883f7673256bde1a06a99abceb8f075eefb6e1ca",
+  "maximum_full_covariance_objective_difference_error": 2.446928704102902e-08,
+  "noise_models": 57,
+  "physical_scenarios": 9,
+  "synthetic_information_cases": 15,
+  "original_adequacy_report_sha256": "07d4190d3c342418da884cae653ca889f79728626bdb7c820ab060ec14c83362",
+  "adapter_regression": "Prior 19 passing checks reused; adapter unchanged. New comparison verified by direct native-formula and full-covariance calculations.",
+  "failure_repair": "Output parent absent on first attempt; create parent before calculation, retain first code/failure, repeat unchanged deterministic comparison. No threshold or observed-search destination consumed."
+}

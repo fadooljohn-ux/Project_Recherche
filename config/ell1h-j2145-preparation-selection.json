@@ -1,0 +1,7 @@
+{
+  "selected": ["J2145-0750"],
+  "seed": 2026093700,
+  "shapiro_mode": "h3_only",
+  "references": ["https://astrogeo.org/petrov/papers/psrpi_01.pdf"],
+  "selection_basis": "Bounded preparation of the assessed H3-only NHARMS=3 NG15 wideband model. Preserve all fitted parameters and extend red-frequency coverage before any later calibration. No calibration or observed launch in this scope."
+}

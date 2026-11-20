@@ -1,0 +1,36 @@
+{
+  "calibration_executed": false,
+  "coverage_code_sha256": "066dd27f662e971f2117d0ef84c4fbb7fc96a6f7da08735a328f9198c094e487",
+  "observed_residuals_read": false,
+  "observed_search_executed": false,
+  "original_J1012_search_coverage_plan": {
+    "extended": true,
+    "released_modes": 30,
+    "required_modes": 190,
+    "selected_modes": 256,
+    "shortest_released_period_days": 189.08713117808836,
+    "shortest_selected_period_days": 22.15864818493223
+  },
+  "reference_covariance_sha256": "a13eb49f4df6dbcf2c3bbffbcef48bd671113d9dd5c277b64f5747443552ab85",
+  "reference_matching_plan": {
+    "extended": true,
+    "limitation": "Fixed released amplitude/slope extrapolated when extended; frequency coverage is not noise-posterior validation.",
+    "maximum_modes": 256,
+    "minimum_search_period_days": 50.0,
+    "red_basis_span_days": 5672.613935342655,
+    "released_modes": 30,
+    "required_modes": 114,
+    "rule": "cover_search_band_v1",
+    "selected_modes": 128,
+    "selection_uses_observed_periodogram": false,
+    "shortest_released_period_days": 189.0871311780885,
+    "shortest_selected_period_days": 44.31729636986449,
+    "spectral_amplitude": 2.518524534967518e-13,
+    "spectral_gamma": 0.7911763562311424,
+    "status": "EXTENDED_BEFORE_CALIBRATION",
+    "verified_shortest_period_days": 44.317296369864465
+  },
+  "relative_covariance_error": 0.0,
+  "scope": "Recomputed covariance only at 128 modes to match the retained review reference. Actual 30-day J1012 scope would require 256 modes under this rule; no new J1012 search or calibration performed.",
+  "status": "VERIFIED_FROM_RETAINED_COVARIANCE"
+}

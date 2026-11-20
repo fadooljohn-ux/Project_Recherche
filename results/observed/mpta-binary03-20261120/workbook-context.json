@@ -1,0 +1,14 @@
+{
+ "evidence": "results/observed/mpta-binary03-20261120/closeout.json",
+ "entries": [
+  [
+   "mpta-binary03-20261120-closeout",
+   "Observed closeout",
+   "MeerKAT binaries batch 03 (2 re-expressed targets searched)",
+   "VERIFIED",
+   "Owner instruction 'Yes search both'. Released DD orbits re-expressed as ELL1 (equivalence 1e-7 TOA sigma). Searched once each, both NO_TRIGGER: J1933-6211 (4.52 / 18.17), J2322-2650 (7.42 / 21.36).",
+   "No crossing, so no second-stage test. run01 destinations consumed. Approved list now: 9 searched, 23 held."
+  ]
+ ],
+ "target_updates": []
+}

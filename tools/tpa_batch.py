@@ -19,8 +19,9 @@ import target_calibration as cal
 from pulsar_pilot.pilot1_runtime import prepare_covariance_gls_scanner
 from pulsar_pilot.pilot2_offline_resources import LocalPintRepository, NetworkDeny
 from pulsar_pilot.spin_phase import bind_precise_spin_phase
+from recherche_common import DATA_ROOT, require
 
-DATA = mpta.REPO.parent / "Project Recherche Data/tpa-batch01-20260908"
+DATA = DATA_ROOT / "tpa-batch01-20260908"
 PRIOR = mpta.DATA / "research"
 POLICY = {**mpta.POLICY, "search_count": 25, "seed": 2026091100}
 
@@ -203,7 +204,7 @@ def inventory_next(data, previous, batch_size=25):
     ns = {"s": "http://schemas.openxmlformats.org/spreadsheetml/2006/main"}
     with zipfile.ZipFile(master) as book:
         sheets = ET.fromstring(book.read("xl/workbook.xml")).find("s:sheets", ns)
-        assert sheets[1].attrib["name"] == "Targets"
+        require(sheets[1].attrib["name"] == "Targets", 'sheets[1].attrib["name"] == "Targets"')
         strings = ["".join(node.itertext()) for node in ET.fromstring(book.read("xl/sharedStrings.xml"))]
         master_rows = {}
         for row in ET.fromstring(book.read("xl/worksheets/sheet2.xml")).findall(".//s:sheetData/s:row", ns):
@@ -222,13 +223,13 @@ def inventory_next(data, previous, batch_size=25):
     if not chosen:
         raise ValueError("No remaining eligible targets in the master")
     for row in chosen:
-        assert master_rows[row["target"]]["S"] == row["par_sha256"]
-        assert master_rows[row["target"]]["T"] == row["tim_sha256"]
+        require(master_rows[row["target"]]["S"] == row["par_sha256"], 'master_rows[row["target"]]["S"] == row["par_sha256"]')
+        require(master_rows[row["target"]]["T"] == row["tim_sha256"], 'master_rows[row["target"]]["T"] == row["tim_sha256"]')
     data.mkdir(parents=True, exist_ok=False)
     (data / "original").mkdir()
     for name in ("tpa_data.zip", "tai2tt_bipm2019.clk", "mk2utc_observatory.clk"):
         source = previous / "original" / name
-        assert cal.digest(source) == prior["source_hashes"][str(source.resolve())]
+        require(cal.digest(source) == prior["source_hashes"][str(source.resolve())], 'cal.digest(source) == prior["source_hashes"][str(source.resolve())]')
         shutil.copy2(source, data / "original" / name)
     for row in prior["rows"]:
         row["selected"] = False
@@ -240,7 +241,7 @@ def inventory_next(data, previous, batch_size=25):
             folder.mkdir(parents=True)
             for suffix, source, key in ((".par", "_full.par", "par_sha256"), (".tim", ".tim", "tim_sha256")):
                 payload = archive.read("tpa_data/" + row["target"] + source)
-                assert hashlib.sha256(payload).hexdigest() == row[key]
+                require(hashlib.sha256(payload).hexdigest() == row[key], 'hashlib.sha256(payload).hexdigest() == row[key]')
                 (folder / (row["target"] + suffix)).write_bytes(payload)
     record = {**prior, "created_utc": mpta.now(), "selected": [r["target"] for r in chosen],
               "policy": {**prior["policy"], "search_count": len(chosen),
@@ -273,7 +274,7 @@ def prepare(data, target):
     output.mkdir(exist_ok=False)
     pint.logging.setup(level="INFO", sink=output / "pint.log", removeprior=True)
     par, tim = (root / "original" / (target + s) for s in (".par", ".tim"))
-    assert cal.digest(par) == row["par_sha256"] and cal.digest(tim) == row["tim_sha256"]
+    require(cal.digest(par) == row["par_sha256"] and cal.digest(tim) == row["tim_sha256"], 'cal.digest(par) == row["par_sha256"] and cal.digest(tim) == row["tim_sha256"]')
     content = "\n".join(line for line in par.read_text().splitlines()
                         if line.split() and line.split()[0] not in {"EPHVER", "NTOA", "CHI2R", "TRES"})
     model = get_model(io.StringIO(content), allow_tcb=True)
@@ -383,17 +384,17 @@ def calibrate(data):
 
 def freeze(data):
     preparation = cal.read(data / "preparation.json")
-    assert preparation["status"] == "PREPARED" and not preparation["observed_search_executed"]
-    assert preparation["selection_sha256"] == cal.digest(data / "selection.json")
+    require(preparation["status"] == "PREPARED" and not preparation["observed_search_executed"], 'preparation["status"] == "PREPARED" and not preparation["observed_search_executed"]')
+    require(preparation["selection_sha256"] == cal.digest(data / "selection.json"), 'preparation["selection_sha256"] == cal.digest(data / "selection.json")')
     for row in preparation["results"]:
         root = data / row["target"]
-        assert cal.digest(root / "profile/profile.json") == row["profile_sha256"]
+        require(cal.digest(root / "profile/profile.json") == row["profile_sha256"], 'cal.digest(root / "profile/profile.json") == row["profile_sha256"]')
         profile, _ = cal.load_profile(root / "profile/profile.json")
         cal.verify_cache(Path(row["calibration"]["path"]),
                          {"profile": profile, "implementation": cal.implementation()})
         receipt = cal.read(root / "prepared/receipt.json")
-        assert receipt["active_dm_columns"] == receipt["epochs"]
-        assert cal.digest(root / "prepared/observed.npz") == receipt["observed_sha256"]
+        require(receipt["active_dm_columns"] == receipt["epochs"], 'receipt["active_dm_columns"] == receipt["epochs"]')
+        require(cal.digest(root / "prepared/observed.npz") == receipt["observed_sha256"], 'cal.digest(root / "prepared/observed.npz") == receipt["observed_sha256"]')
         if (root / "run01").exists():
             raise FileExistsError("Selected observed destination already consumed")
     mpta.freeze(data)
@@ -409,9 +410,9 @@ def freeze(data):
 
 def run(data, target):
     frozen = cal.read(data / "execution-freeze.json")
-    assert frozen["tpa_adapter_sha256"] == cal.digest(__file__)
-    assert frozen["preparation_sha256"] == cal.digest(data / "preparation.json")
-    assert frozen["preparation_receipts"][target] == cal.digest(data / target / "prepared/receipt.json")
+    require(frozen["tpa_adapter_sha256"] == cal.digest(__file__), 'frozen["tpa_adapter_sha256"] == cal.digest(__file__)')
+    require(frozen["preparation_sha256"] == cal.digest(data / "preparation.json"), 'frozen["preparation_sha256"] == cal.digest(data / "preparation.json")')
+    require(frozen["preparation_receipts"][target] == cal.digest(data / target / "prepared/receipt.json"), 'frozen["preparation_receipts"][target] == cal.digest(data / target / "prepared/receipt.json")')
     try:
         mpta.run(data, target)
     finally:

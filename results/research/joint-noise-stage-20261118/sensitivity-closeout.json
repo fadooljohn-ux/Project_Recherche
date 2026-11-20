@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "closeout_id": "joint-noise-sensitivity-20261118",
+  "owner_instruction": "Let's tackle long period weakness; Yes, build it",
+  "observed_residuals_read": false,
+  "tool_sha256": {
+    "tools/joint_noise_sensitivity.py": "9b5ebe112d142a84bfeb03a99aa0d30e360fc37ecb678f7b7d78a984d143e721",
+    "tools/joint_noise_stage.py": "aa609b6c08740eb93cdcd3ff88e65c2510cb642cb518c119dda4222acb9d805c",
+    "tests/test_joint_noise_sensitivity.py": "82285adcc92839512a9aaa41dc376a5de32502458c32b56f6b76e60c9b6dfd47"
+  },
+  "retrospective_curves": {
+    "j1453": "58be2521a7261f840efa2df575a53771cf67212d5f7338433462621de8c29456",
+    "j1327": "12f9cd27cba20596c2b87233185e5b9834dc693e44a971bd00923ec39b7d62c5",
+    "j1359": "967845367698056d6aedac4587f37b2486345095a65f22873e4e16f730b3f17f",
+    "j0908": "e0bd8a44bbf75cd6edabd71ba5171ea35681b46af56acac934a6abc00a34a7e5",
+    "j1048": "a72fdb2a1b32d403be980110932d4f12c210a645cf5eacfbd6c1655274a8789d",
+    "j1939": "d2faf4f995fc8728c589c15ff94ef7c34190f1b1e358095d8f5831ad9f8e12c0"
+  },
+  "note": "Editing tools/joint_noise_stage.py invalidates all earlier preparations; all were consumed.",
+  "j1939_note": "Reduced size: 8 periods, 16 injections per step; added after the first closeout commit"
+}

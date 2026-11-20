@@ -1,0 +1,30 @@
+{
+  "J2317+1439/periodogram.npz": {
+    "archived_sha256": "f14c04e291b20544a7deba59ccb8c776130cf4c49fd4b59ab9d2014781d02d64",
+    "source_sha256": "f14c04e291b20544a7deba59ccb8c776130cf4c49fd4b59ab9d2014781d02d64"
+  },
+  "J2317+1439/preparation-receipt.json": {
+    "archived_sha256": "dcfaa58dd916fd594e0fa5cc17f695b77d5b342421084f3ddfcbef281ee4bf66",
+    "source_sha256": "dcfaa58dd916fd594e0fa5cc17f695b77d5b342421084f3ddfcbef281ee4bf66"
+  },
+  "J2317+1439/profile.json": {
+    "archived_sha256": "0912b307ec70db3c657dd0471385530780afe08cb6aa460f9699f37fff8b58de",
+    "source_sha256": "0912b307ec70db3c657dd0471385530780afe08cb6aa460f9699f37fff8b58de"
+  },
+  "J2317+1439/result.json": {
+    "archived_sha256": "5513eb42274139ab3aa6156bdbaa77c8915280993890c8912d4c0946e14128d1",
+    "source_sha256": "5513eb42274139ab3aa6156bdbaa77c8915280993890c8912d4c0946e14128d1"
+  },
+  "execution-freeze.json": {
+    "archived_sha256": "53db58ca0996a3ee54c46e5749440731e281a708ae13f1d08d78f7828ef8e575",
+    "source_sha256": "4daaac7732f25354e8cba41c3f16abd5bc640199f16248f6db3284284024a821"
+  },
+  "preparation.json": {
+    "archived_sha256": "6a57d621a54365ba351e00f4460fd449b22c752400810dd9be7737e5f40ea0b4",
+    "source_sha256": "a9cbd67f7feb33273d86b869ad061d67d8d48aa1cc4b277765c73d6e53687320"
+  },
+  "selection.json": {
+    "archived_sha256": "c809aea02a9f40dd669bd081b2d92f3095bbc0923b2bf0d7bc02f3f8bb784519",
+    "source_sha256": "c809aea02a9f40dd669bd081b2d92f3095bbc0923b2bf0d7bc02f3f8bb784519"
+  }
+}

@@ -1,0 +1,38 @@
+{
+ "evidence": "results/research/joint-noise-stage-20261118/closeout.json",
+ "entries": [
+  [
+   "joint-noise-stage-20261118-implementation",
+   "Implementation",
+   "Second-stage joint-noise test",
+   "VERIFIED",
+   "Owner decisions: grid profile, second stage, stop after stage 2. tools/joint_noise_stage.py: 105-member noise grid (no red or 5 strengths x 4 slopes; 5 white scales), threshold from five off-grid generators with 1024 calibration and 1024 validation nulls each. Matches September per-member objectives to 7e-10; direct-fit checks 8e-12; 3 unit tests.",
+   "Linear timing only. Stage 3 (nonlinear orbit, J2043) needs a new owner instruction."
+  ],
+  [
+   "joint-noise-stage-20261118-J1752-2806-run01",
+   "Joint-noise development run",
+   "J1752-2806; exposed data, regression",
+   "BELOW_JOINT_NOISE_THRESHOLD",
+   "Joint statistic 10.755 at 81.8 d against threshold 23.062; at the fixed-noise period 10.755 (fixed-noise 57.67 against 26.50). Fitted noise on a grid edge: yes. Validation false-alarm intervals include 1%.",
+   "run01 consumed; do not rerun. Development only: no Searches row, grade or threshold replaced."
+  ],
+  [
+   "joint-noise-stage-20261118-J1012+5307-run01",
+   "Joint-noise development run",
+   "J1012+5307; exposed data, regression",
+   "BELOW_JOINT_NOISE_THRESHOLD",
+   "Joint statistic 18.859 at 223.0 d against threshold 40.562; at the fixed-noise period 13.941 (fixed-noise 32.11 against 24.27). Fitted noise on a grid edge: yes. Validation false-alarm intervals include 1%.",
+   "run01 consumed; do not rerun. Development only: no Searches row, grade or threshold replaced."
+  ],
+  [
+   "joint-noise-stage-20261118-J1738+0333-run01",
+   "Joint-noise development run",
+   "J1738+0333; exposed data, quiet control",
+   "BELOW_JOINT_NOISE_THRESHOLD",
+   "Joint statistic 11.309 at 31.1 d against threshold 22.097; at the fixed-noise period 11.309 (fixed-noise 11.13 against 23.54). Fitted noise on a grid edge: no. Validation false-alarm intervals include 1%.",
+   "run01 consumed; do not rerun. Development only: no Searches row, grade or threshold replaced."
+  ]
+ ],
+ "target_updates": []
+}

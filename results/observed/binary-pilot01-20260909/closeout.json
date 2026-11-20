@@ -1,0 +1,65 @@
+{
+  "status": "COMPLETE_WITH_ONE_MODEL_HOLD",
+  "selected": 3,
+  "searched": 2,
+  "held": 1,
+  "candidates": 0,
+  "new_planets_confirmed": 0,
+  "original_three_target_allowance_retained": true,
+  "rows": [
+    {
+      "target": "J1614-2230",
+      "status": "NO_TRIGGER",
+      "candidate": false,
+      "peak_period_days": 765.3671653790116,
+      "peak_statistic": 12.693522779838176,
+      "threshold": 22.318207180027805,
+      "noise_adequacy_flag": false,
+      "search_bounds_days": [
+        86.86619423146924,
+        2000.0
+      ],
+      "result_sha256": "10a90dad4918fcdaf94983f48b9e9e1a01afec7f573a743e48525031e95613bb"
+    },
+    {
+      "target": "J1909-3744",
+      "status": "NO_TRIGGER",
+      "candidate": false,
+      "peak_period_days": 33.76709320751665,
+      "peak_statistic": 11.278076856476368,
+      "threshold": 25.0993246998405,
+      "noise_adequacy_flag": false,
+      "search_bounds_days": [
+        30.0,
+        2000.0
+      ],
+      "result_sha256": "2e95e03a0abb1743f2923c3947c6ae5a853fe97986d7383d2420b43a695fc8f6"
+    }
+  ],
+  "held_target": "J0613-0200",
+  "held_reason": "Strongly nonlinear SINI/Shapiro uncertainty; no observed search",
+  "execution_freeze_sha256": "d070affad5df4959a19a533ddf51091fe06787d813d20369961290db81177d90",
+  "binary_adapter_sha256": "2b7be82eefc4f39f131e21e311b94543bced5daafad33b0613f12e7c36b16034",
+  "calibration_nulls": 8192,
+  "injection_recoveries": 181,
+  "injection_trials": 192,
+  "injections_are_simulations": true,
+  "qualified_source_changed": false,
+  "scientific_jobs_remaining": 0,
+  "artifacts": {
+    "execution-freeze-view.json": "89218c2d5904048c6b269e25aefbd7a460c69418b8093c8f1f06b7e4e18631cb",
+    "selection.json": "2ba19b6a065970236ffdb67fdd6b3002a1dbaae03cabfbcdec44d4a51e2ad893",
+    "preparation-view.json": "9e2a5c3eef3d11366b4ccaabf89f656ff922f91e2fa3794676a4fb3fb5fc48df",
+    "J1909-3744/result.json": "2e95e03a0abb1743f2923c3947c6ae5a853fe97986d7383d2420b43a695fc8f6",
+    "J1909-3744/periodogram.npz": "2d32d6104872f29f4cc2653c875f7af47480759166349705f1f11c1f355f24ab",
+    "J1909-3744/prepared/receipt.json": "e922ee415e528788034128496d1deb4cd9ee3dd0b04e20e2325a28bdc2940390",
+    "J1909-3744/attempt01-failed/failure.json": "2108336db9fc67790762ee9736fe92200cf23e2d0b303e56e6d388758c1fd932",
+    "resources/binding.json": "f25218ef3ad378a61c3c7f6331e17a1155fa07fda1fd970d52ca3790e4ee4962",
+    "J0613-0200/prepared/failure.json": "c55840ed03f28a993c1f7e6235e81d788b77519c52cd1e8df93564a7208f330f",
+    "J1614-2230/result.json": "10a90dad4918fcdaf94983f48b9e9e1a01afec7f573a743e48525031e95613bb",
+    "J1614-2230/periodogram.npz": "e9f96613d5eee7b260b17ba780b47aa729fe163bfaae9e45530029c43d91f699",
+    "J1614-2230/attempt02-failed/failure.json": "bcc69f1b567dcd8aec35d7d702b5bc520fdcd08ceafd33a2933bc1a2cea2e151",
+    "J1614-2230/prepared/receipt.json": "bb6b125b865a022ab7a4ed75bd5ae4a33ca854ca2d3531c9bbe857ff4cfb0cc7",
+    "J1614-2230/attempt01-failed/failure.json": "4eca53361dc9826613436aa21a279d76236048d0521ee2c55fa368a358ca4d36"
+  }
+}

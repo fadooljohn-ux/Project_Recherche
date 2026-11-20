@@ -1,0 +1,615 @@
+{
+  "code": {
+    "tools/binary_noise_coverage.py": "066dd27f662e971f2117d0ef84c4fbb7fc96a6f7da08735a328f9198c094e487",
+    "tools/j1453_review.py": "b69eb86b1fc28da36dff4b6cece1d07c73324cabdb3b08419d1871f6177b844b",
+    "tools/joint_noise.py": "96313f340b97e01dc18efb3a4511415f7f00f7a473ef359d9047318d56e721ae",
+    "tools/mpta_batch.py": "fb54f8f9f06eaf5937009ca24860e5af5a4bd9d4e10ebfbf3c7b86eb44111b7a",
+    "tools/noise_development.py": "9fd280269b9fdbb490187b804ccb9c73746ed0ac5d6a982bd1e64d8652d8cf78",
+    "tools/target_calibration.py": "9d2d230f53521ce6f4ee55ab48d1c364d3db7543f1b5da26a5ecf902264092df"
+  },
+  "completed_utc": "2026-09-10T08:13:02.403843+00:00",
+  "ensemble_sha256": "23342ae5b0e371763a373ffafe006ec3fda29c89af19e78ad86f746696069612",
+  "experiments": [
+    {
+      "count": 256,
+      "generator": 0,
+      "kind": "calibration",
+      "start": 1,
+      "stop": 257,
+      "threshold_crossings": 0
+    },
+    {
+      "candidate_exceedances": 175,
+      "candidate_p_plus_one": 0.6848249027237354,
+      "count": 256,
+      "false_alarm_interval95": [
+        0.0,
+        0.014306362729039375
+      ],
+      "false_alarm_rate": 0.0,
+      "generator": 0,
+      "kind": "validation",
+      "start": 257,
+      "stop": 513,
+      "threshold_crossings": 0
+    },
+    {
+      "count": 16,
+      "factor": 1.0,
+      "generator": 0,
+      "kind": "injection",
+      "period_days": 59.94120139620912,
+      "recovered": 0,
+      "recovery_fraction": 0.0,
+      "recovery_interval95": [
+        0.0,
+        0.2059072142078227
+      ],
+      "start": 513,
+      "stop": 529,
+      "threshold_crossings": 0
+    },
+    {
+      "count": 16,
+      "factor": 5.0,
+      "generator": 0,
+      "kind": "injection",
+      "period_days": 59.94120139620912,
+      "recovered": 16,
+      "recovery_fraction": 1.0,
+      "recovery_interval95": [
+        0.7940927857921772,
+        1.0
+      ],
+      "start": 529,
+      "stop": 545,
+      "threshold_crossings": 16
+    },
+    {
+      "count": 16,
+      "factor": 1.0,
+      "generator": 0,
+      "kind": "injection",
+      "period_days": 138.9110415844769,
+      "recovered": 0,
+      "recovery_fraction": 0.0,
+      "recovery_interval95": [
+        0.0,
+        0.2059072142078227
+      ],
+      "start": 545,
+      "stop": 561,
+      "threshold_crossings": 0
+    },
+    {
+      "count": 16,
+      "factor": 5.0,
+      "generator": 0,
+      "kind": "injection",
+      "period_days": 138.9110415844769,
+      "recovered": 16,
+      "recovery_fraction": 1.0,
+      "recovery_interval95": [
+        0.7940927857921772,
+        1.0
+      ],
+      "start": 561,
+      "stop": 577,
+      "threshold_crossings": 16
+    },
+    {
+      "count": 16,
+      "factor": 1.0,
+      "generator": 0,
+      "kind": "injection",
+      "period_days": 301.1531902234625,
+      "recovered": 0,
+      "recovery_fraction": 0.0,
+      "recovery_interval95": [
+        0.0,
+        0.2059072142078227
+      ],
+      "start": 577,
+      "stop": 593,
+      "threshold_crossings": 0
+    },
+    {
+      "count": 16,
+      "factor": 5.0,
+      "generator": 0,
+      "kind": "injection",
+      "period_days": 301.1531902234625,
+      "recovered": 16,
+      "recovery_fraction": 1.0,
+      "recovery_interval95": [
+        0.7940927857921772,
+        1.0
+      ],
+      "start": 593,
+      "stop": 609,
+      "threshold_crossings": 16
+    },
+    {
+      "count": 256,
+      "generator": 1,
+      "kind": "calibration",
+      "start": 609,
+      "stop": 865,
+      "threshold_crossings": 1
+    },
+    {
+      "candidate_exceedances": 154,
+      "candidate_p_plus_one": 0.603112840466926,
+      "count": 256,
+      "false_alarm_interval95": [
+        9.889279722355363e-05,
+        0.021570890352533498
+      ],
+      "false_alarm_rate": 0.00390625,
+      "generator": 1,
+      "kind": "validation",
+      "start": 865,
+      "stop": 1121,
+      "threshold_crossings": 1
+    },
+    {
+      "count": 16,
+      "factor": 1.0,
+      "generator": 1,
+      "kind": "injection",
+      "period_days": 59.94120139620912,
+      "recovered": 0,
+      "recovery_fraction": 0.0,
+      "recovery_interval95": [
+        0.0,
+        0.2059072142078227
+      ],
+      "start": 1121,
+      "stop": 1137,
+      "threshold_crossings": 0
+    },
+    {
+      "count": 16,
+      "factor": 5.0,
+      "generator": 1,
+      "kind": "injection",
+      "period_days": 59.94120139620912,
+      "recovered": 16,
+      "recovery_fraction": 1.0,
+      "recovery_interval95": [
+        0.7940927857921772,
+        1.0
+      ],
+      "start": 1137,
+      "stop": 1153,
+      "threshold_crossings": 16
+    },
+    {
+      "count": 16,
+      "factor": 1.0,
+      "generator": 1,
+      "kind": "injection",
+      "period_days": 138.9110415844769,
+      "recovered": 0,
+      "recovery_fraction": 0.0,
+      "recovery_interval95": [
+        0.0,
+        0.2059072142078227
+      ],
+      "start": 1153,
+      "stop": 1169,
+      "threshold_crossings": 0
+    },
+    {
+      "count": 16,
+      "factor": 5.0,
+      "generator": 1,
+      "kind": "injection",
+      "period_days": 138.9110415844769,
+      "recovered": 16,
+      "recovery_fraction": 1.0,
+      "recovery_interval95": [
+        0.7940927857921772,
+        1.0
+      ],
+      "start": 1169,
+      "stop": 1185,
+      "threshold_crossings": 16
+    },
+    {
+      "count": 16,
+      "factor": 1.0,
+      "generator": 1,
+      "kind": "injection",
+      "period_days": 301.1531902234625,
+      "recovered": 0,
+      "recovery_fraction": 0.0,
+      "recovery_interval95": [
+        0.0,
+        0.2059072142078227
+      ],
+      "start": 1185,
+      "stop": 1201,
+      "threshold_crossings": 0
+    },
+    {
+      "count": 16,
+      "factor": 5.0,
+      "generator": 1,
+      "kind": "injection",
+      "period_days": 301.1531902234625,
+      "recovered": 3,
+      "recovery_fraction": 0.1875,
+      "recovery_interval95": [
+        0.040473733905945886,
+        0.4564565462316117
+      ],
+      "start": 1201,
+      "stop": 1217,
+      "threshold_crossings": 3
+    },
+    {
+      "count": 256,
+      "generator": 2,
+      "kind": "calibration",
+      "start": 1217,
+      "stop": 1473,
+      "threshold_crossings": 0
+    },
+    {
+      "candidate_exceedances": 170,
+      "candidate_p_plus_one": 0.6653696498054474,
+      "count": 256,
+      "false_alarm_interval95": [
+        0.0,
+        0.014306362729039375
+      ],
+      "false_alarm_rate": 0.0,
+      "generator": 2,
+      "kind": "validation",
+      "start": 1473,
+      "stop": 1729,
+      "threshold_crossings": 0
+    },
+    {
+      "count": 16,
+      "factor": 1.0,
+      "generator": 2,
+      "kind": "injection",
+      "period_days": 59.94120139620912,
+      "recovered": 0,
+      "recovery_fraction": 0.0,
+      "recovery_interval95": [
+        0.0,
+        0.2059072142078227
+      ],
+      "start": 1729,
+      "stop": 1745,
+      "threshold_crossings": 0
+    },
+    {
+      "count": 16,
+      "factor": 5.0,
+      "generator": 2,
+      "kind": "injection",
+      "period_days": 59.94120139620912,
+      "recovered": 16,
+      "recovery_fraction": 1.0,
+      "recovery_interval95": [
+        0.7940927857921772,
+        1.0
+      ],
+      "start": 1745,
+      "stop": 1761,
+      "threshold_crossings": 16
+    },
+    {
+      "count": 16,
+      "factor": 1.0,
+      "generator": 2,
+      "kind": "injection",
+      "period_days": 138.9110415844769,
+      "recovered": 0,
+      "recovery_fraction": 0.0,
+      "recovery_interval95": [
+        0.0,
+        0.2059072142078227
+      ],
+      "start": 1761,
+      "stop": 1777,
+      "threshold_crossings": 0
+    },
+    {
+      "count": 16,
+      "factor": 5.0,
+      "generator": 2,
+      "kind": "injection",
+      "period_days": 138.9110415844769,
+      "recovered": 16,
+      "recovery_fraction": 1.0,
+      "recovery_interval95": [
+        0.7940927857921772,
+        1.0
+      ],
+      "start": 1777,
+      "stop": 1793,
+      "threshold_crossings": 16
+    },
+    {
+      "count": 16,
+      "factor": 1.0,
+      "generator": 2,
+      "kind": "injection",
+      "period_days": 301.1531902234625,
+      "recovered": 0,
+      "recovery_fraction": 0.0,
+      "recovery_interval95": [
+        0.0,
+        0.2059072142078227
+      ],
+      "start": 1793,
+      "stop": 1809,
+      "threshold_crossings": 0
+    },
+    {
+      "count": 16,
+      "factor": 5.0,
+      "generator": 2,
+      "kind": "injection",
+      "period_days": 301.1531902234625,
+      "recovered": 16,
+      "recovery_fraction": 1.0,
+      "recovery_interval95": [
+        0.7940927857921772,
+        1.0
+      ],
+      "start": 1809,
+      "stop": 1825,
+      "threshold_crossings": 16
+    }
+  ],
+  "global_development_peak": {
+    "noise_only_model": 13,
+    "period_days": 223.0124814326369,
+    "signal_model": 13,
+    "statistic": 14.834053552976115
+  },
+  "interpretation": "Conditional development only. Historical candidate grades and survey thresholds unchanged. No independent planet confirmation.",
+  "limits": "Finite grid, fixed white noise and linear timing model; no noise posterior or survey-wide FAP. Boundary fits flag limited scope. Single-band chromatic ambiguity retained.",
+  "models": [
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 0.0,
+      "log10_amplitude": -13.098853813974781,
+      "model": 0,
+      "observed_null_objective": 825.3212228680163,
+      "observed_signal_objective": 793.0779531144373,
+      "peak_period_days": 223.0124814326369
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 0.0,
+      "log10_amplitude": -13.098853813974781,
+      "model": 1,
+      "observed_null_objective": 813.0240308016001,
+      "observed_signal_objective": 790.1489090056472,
+      "peak_period_days": 223.0124814326369
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 0.7911763562311424,
+      "log10_amplitude": -13.098853813974781,
+      "model": 2,
+      "observed_null_objective": 862.7956734697617,
+      "observed_signal_objective": 809.3630075067156,
+      "peak_period_days": 223.0124814326369
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 0.7911763562311424,
+      "log10_amplitude": -13.098853813974781,
+      "model": 3,
+      "observed_null_objective": 826.7279919274204,
+      "observed_signal_objective": 791.8978765272876,
+      "peak_period_days": 223.0124814326369
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 1.7911763562311425,
+      "log10_amplitude": -13.098853813974781,
+      "model": 4,
+      "observed_null_objective": 864.9051181519469,
+      "observed_signal_objective": 802.7052182440079,
+      "peak_period_days": 223.0124814326369
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 1.7911763562311425,
+      "log10_amplitude": -13.098853813974781,
+      "model": 5,
+      "observed_null_objective": 822.6383586836721,
+      "observed_signal_objective": 782.4808919686402,
+      "peak_period_days": 223.0124814326369
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 2.7911763562311425,
+      "log10_amplitude": -13.098853813974781,
+      "model": 6,
+      "observed_null_objective": 866.7281726043961,
+      "observed_signal_objective": 801.5685418465083,
+      "peak_period_days": 223.0124814326369
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 2.7911763562311425,
+      "log10_amplitude": -13.098853813974781,
+      "model": 7,
+      "observed_null_objective": 823.8399361799959,
+      "observed_signal_objective": 781.567635690561,
+      "peak_period_days": 223.0124814326369
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 0.0,
+      "log10_amplitude": -12.598853813974781,
+      "model": 8,
+      "observed_null_objective": 878.2883859131553,
+      "observed_signal_objective": 870.4855829556363,
+      "peak_period_days": 223.0124814326369
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 0.0,
+      "log10_amplitude": -12.598853813974781,
+      "model": 9,
+      "observed_null_objective": 889.6326086578806,
+      "observed_signal_objective": 883.2262986124744,
+      "peak_period_days": 223.0124814326369
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 0.7911763562311424,
+      "log10_amplitude": -12.598853813974781,
+      "model": 10,
+      "observed_null_objective": 789.3448635341522,
+      "observed_signal_objective": 775.3235477680081,
+      "peak_period_days": 223.0124814326369
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 0.7911763562311424,
+      "log10_amplitude": -12.598853813974781,
+      "model": 11,
+      "observed_null_objective": 793.1793915405988,
+      "observed_signal_objective": 781.8089762879977,
+      "peak_period_days": 223.0124814326369
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 1.7911763562311425,
+      "log10_amplitude": -12.598853813974781,
+      "model": 12,
+      "observed_null_objective": 783.9273693921193,
+      "observed_signal_objective": 765.5485254103179,
+      "peak_period_days": 223.0124814326369
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 1.7911763562311425,
+      "log10_amplitude": -12.598853813974781,
+      "model": 13,
+      "observed_null_objective": 778.5516836512072,
+      "observed_signal_objective": 763.7176300982311,
+      "peak_period_days": 223.0124814326369
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 2.7911763562311425,
+      "log10_amplitude": -12.598853813974781,
+      "model": 14,
+      "observed_null_objective": 824.757423902803,
+      "observed_signal_objective": 799.489213988148,
+      "peak_period_days": 223.0124814326369
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 2.7911763562311425,
+      "log10_amplitude": -12.598853813974781,
+      "model": 15,
+      "observed_null_objective": 805.6713193891144,
+      "observed_signal_objective": 784.5902886685969,
+      "peak_period_days": 69.3165924213023
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 0.0,
+      "log10_amplitude": -12.098853813974781,
+      "model": 16,
+      "observed_null_objective": 1172.800521670536,
+      "observed_signal_objective": 1170.4759907934472,
+      "peak_period_days": 60.45222919202261
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 0.0,
+      "log10_amplitude": -12.098853813974781,
+      "model": 17,
+      "observed_null_objective": 1191.6449081651836,
+      "observed_signal_objective": 1190.118583258772,
+      "peak_period_days": 60.58135053640219
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 0.7911763562311424,
+      "log10_amplitude": -12.098853813974781,
+      "model": 18,
+      "observed_null_objective": 984.2689867659517,
+      "observed_signal_objective": 980.9838856148427,
+      "peak_period_days": 33.0501980353791
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 0.7911763562311424,
+      "log10_amplitude": -12.098853813974781,
+      "model": 19,
+      "observed_null_objective": 1001.0471543818425,
+      "observed_signal_objective": 999.0097505621051,
+      "peak_period_days": 223.0124814326369
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 1.7911763562311425,
+      "log10_amplitude": -12.098853813974781,
+      "model": 20,
+      "observed_null_objective": 879.3314036199556,
+      "observed_signal_objective": 874.2303069571286,
+      "peak_period_days": 40.56610231171296
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 1.7911763562311425,
+      "log10_amplitude": -12.098853813974781,
+      "model": 21,
+      "observed_null_objective": 885.9279680092686,
+      "observed_signal_objective": 881.7616116307155,
+      "peak_period_days": 40.56610231171296
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 2.7911763562311425,
+      "log10_amplitude": -12.098853813974781,
+      "model": 22,
+      "observed_null_objective": 866.1270681848675,
+      "observed_signal_objective": 855.3986454348776,
+      "peak_period_days": 67.34167414912577
+    },
+    {
+      "chromatic_rms_us": 0.3,
+      "gamma": 2.7911763562311425,
+      "log10_amplitude": -12.098853813974781,
+      "model": 23,
+      "observed_null_objective": 865.4602678231722,
+      "observed_signal_objective": 854.4992180821954,
+      "peak_period_days": 67.18216533930794
+    }
+  ],
+  "null_at_grid_boundary": false,
+  "original_candidate": {
+    "amplitude_us": 0.49463067266540683,
+    "crosses_development_threshold": false,
+    "joint_statistic": 11.335781534129637,
+    "period_days": 138.9110415844769,
+    "signal_model": 13
+  },
+  "per_generator_calibration_thresholds": [
+    24.160802326801104,
+    33.3950860478883,
+    22.14458749117989
+  ],
+  "scope_sha256": "28a350b008a22f2ce6f758fb83f34b8274b9d16fc71156bf4f4ac1f01a9f06db",
+  "signal_at_grid_boundary": false,
+  "status": "BOUNDED_DEVELOPMENT_COMPLETE",
+  "target": "J1012+5307",
+  "threshold": 33.3950860478883
+}

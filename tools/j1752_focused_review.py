@@ -1,7 +1,5 @@
 """Three bounded follow-up checks; completed stages are read, never rerun."""
 import argparse
-import json
-from pathlib import Path
 
 import numpy as np
 from scipy.optimize import minimize
@@ -10,9 +8,10 @@ from scipy.stats import chi2, ncx2
 import j1453_review as common
 import mpta_batch as mpta
 import target_calibration as cal
+from recherche_common import DATA_ROOT, require
 
 REPO = mpta.REPO
-ROOT = REPO.parent / 'Project Recherche Data/j1752-focused-review-20260909'
+ROOT = DATA_ROOT / 'j1752-focused-review-20260909'
 OUT = REPO / 'results/research/j1752-focused-review-20260909'
 SOURCE = ROOT.parent / 'utmost-batch04-20260909/J1752-2806'
 FIRST = ROOT.parent / 'j1752-deep-review-20260909'
@@ -58,7 +57,7 @@ def ensure_scope():
                  limitations='White noise fixed. Local candidate period only. No global significance, new blind search, binary model or full noise posterior.')
     if (ROOT / 'scope.json').exists():
         previous = cal.read(ROOT / 'scope.json')
-        assert all(previous[k] == v for k, v in scope.items()), 'Bound scope changed'
+        require(all(previous[k] == v for k, v in scope.items()), 'Bound scope changed')
     else:
         save('scope.json', scope)
     return scope

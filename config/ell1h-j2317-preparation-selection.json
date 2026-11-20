@@ -1,0 +1,7 @@
+{
+  "selected": ["J2317+1439"],
+  "seed": 2026093800,
+  "shapiro_mode": "h3_only",
+  "references": ["https://arxiv.org/abs/1705.02593"],
+  "selection_basis": "Bounded preparation of the assessed H3-only NHARMS=3 NG15 wideband model. Preserve the weak signed H3 coefficient and all fitted terms. Assess real-data timing/noise compatibility, explicitly retaining absence of a released red component. No calibration or observed launch in this scope."
+}

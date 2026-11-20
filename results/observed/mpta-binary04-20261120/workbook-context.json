@@ -1,0 +1,14 @@
+{
+ "evidence": "results/observed/mpta-binary04-20261120/closeout.json",
+ "entries": [
+  [
+   "mpta-binary04-20261120-closeout",
+   "Observed closeout",
+   "MeerKAT binaries batch 04 (9 Shapiro-treated targets searched)",
+   "VERIFIED",
+   "Owner instruction 'Yes search all 9.' Free Shapiro parameters replaced by a verified nuisance basis (2-5 columns, at most 0.076 TOA sigma unremoved); four DD/DDH orbits also re-expressed as ELL1/ELL1H. Searched once each, all NO_TRIGGER: J1614-2230 (7.14 / 22.16), J2145-0750 (8.87 / 22.73), J1036-8317 (11.26 / 24.49), J1514-4946 (8.95 / 24.25), J1543-5149 (6.42 / 22.39), J1101-6424 (6.04 / 21.92), J1903-7051 (11.65 / 21.58), J1732-5049 (10.05 / 23.43), J2236-5527 (5.54 / 21.13).",
+   "No crossing, so no second-stage test. run01 destinations consumed. Approved list now: 18 searched, 14 held."
+  ]
+ ],
+ "target_updates": []
+}

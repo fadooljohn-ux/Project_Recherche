@@ -1,0 +1,6 @@
+{
+  "adapter_sha256": "1f0aa31a8e736cc54b60033e72665d8194cba91f26a8c490d7e27f3870ced94c",
+  "error": "Binary derivative/local-linearity mismatch: PB {\"step_in_parameter_units\": 7.359585850531617e-11, \"relative_derivative_error\": 0.001163207694868164, \"maximum_nonlinearity_in_TOA_sigma\": 0.001013155799212093}",
+  "status": "PREPARATION_FAILED",
+  "target": "J1614-2230"
+}

@@ -6,11 +6,12 @@ import numpy as np
 from loguru import logger
 logger.remove();logger.add(sys.stderr, level='WARNING')
 import mpta_batch as m
-from j1453_review import ROOT, REFERENCE, GLS, template, write
+from j1453_review import ROOT, GLS, template, write
 from pulsar_pilot.pilot2_offline_resources import NetworkDeny, LocalPintRepository
 from pulsar_pilot.spin_phase import bind_precise_spin_phase
 from pint.models import get_model_and_toas
 from pint.residuals import Residuals
+from recherche_common import require
 
 if (ROOT/'step4-narrowband.json').exists():
     raise FileExistsError('Narrowband closeout already exists')
@@ -26,7 +27,7 @@ with ExitStack() as stack:
     x,names,units=model.designmatrix(toas,incfrozen=False,incoffset=True)
     c=model.toa_covariance_matrix(toas)
     print('Prepared',len(t),'TOAs',x.shape,'components',list(model.components),flush=True)
-    assert not deny.attempts
+    require(not deny.attempts, 'not deny.attempts')
 np.savez_compressed(ROOT/'narrowband-prepared.npz',times=t,residuals=y,design=x,covariance=c)
 g=GLS(c,x)
 period=json.loads((ROOT/'step1.json').read_text())['refined']['period_days']

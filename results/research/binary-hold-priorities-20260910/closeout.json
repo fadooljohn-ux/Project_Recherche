@@ -1,0 +1,35 @@
+{
+  "status": "ASSESSMENT_COMPLETE_HOLDS_RETAINED",
+  "date": "2026-09-10",
+  "priority_order": [
+    "J1857+0943",
+    "J0740+6620",
+    "J0613-0200",
+    "J2043+1711"
+  ],
+  "ranking_type": "Qualitative engineering priority, not planet probability or sensitivity",
+  "original_input_hashes_verified": 8,
+  "failure_records_preserved": 4,
+  "publication_source_bindings_preserved": 71,
+  "binary_adapter_unchanged": true,
+  "historical_workbook_cells_preserved": true,
+  "timing_fit_executed": false,
+  "preparation_executed": false,
+  "calibration_executed": false,
+  "observed_search_executed": false,
+  "all_four_holds_retained": true,
+  "j1802_hold_retained": true,
+  "counts": {
+    "registered": 783,
+    "observed": 286,
+    "searches": 360,
+    "candidate_grades": 8
+  },
+  "next_step": "Bounded J1857 nonlinear-Shapiro compatibility prototype; not started",
+  "artifacts": {
+    "assessment.json": "44fde6d3aba25a1f02ac7a4cbd03ad136a6073f1d5ed8cae8c8a66c4ac03575c",
+    "workbook-closeout.json": "cecb647e70556efeb70fb2b0e560d2320945ccccec1e3b2ce7a0ed4b74b1b062"
+  },
+  "report_sha256": "61811c7af8f7394682787810f86904672b7c2575423057ab133bbc13b9ccaec2",
+  "code_sha256": "de58468a2e4281b4203ad79c21139709865e847624e6e034acc39c9044fd8cc1"
+}

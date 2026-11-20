@@ -1,0 +1,425 @@
+{
+  "status": "ASSESSMENT_COMPLETE_NOT_PREPARED",
+  "assessed": 14,
+  "recommended_preparation": [
+    "J1012+5307",
+    "J1738+0333",
+    "J1125+7819",
+    "J0509+0856",
+    "J0557+1551"
+  ],
+  "initial_development_targets": [
+    "J1012+5307",
+    "J1738+0333"
+  ],
+  "rows": [
+    {
+      "target": "J0023+0923",
+      "release_name": "J0023+0923",
+      "binary_model": "ELL1",
+      "status": "MISSING_REQUIRED_FREE_ORBITAL_PARAMETERS",
+      "missing_free_parameters": [
+        "PB",
+        "M2",
+        "SINI"
+      ],
+      "par_sha256": "f93321101d4ac1bb2a2c81b270e6248340722eab8048cee61b2467193b3f5c6c",
+      "tim_sha256": "509581091e7a3fb5f650041fbce7639e71977cfd2700b1ec76d8ebda1509c81d",
+      "assessment_status": "ORBITAL_FREQUENCY_POLYNOMIAL_DEFERRED",
+      "companion_evidence": "SEPARATE_OR_UNVERIFIED_CLASS",
+      "reference": null,
+      "priority": null,
+      "inner_period_days": 0.13879914222437062,
+      "par_summary_toas": 822,
+      "par_summary_span_days": 3262.096703408657,
+      "prospective_search_bounds_days": [
+        30,
+        1631.0483517043285
+      ],
+      "core_five_parameters_free": false,
+      "orbital_frequency_parameters": [
+        "FB0",
+        "FB1",
+        "FB2",
+        "FB3",
+        "FB4",
+        "FB5"
+      ],
+      "shapiro_terms_absent_from_released_par": true
+    },
+    {
+      "target": "J0406+3039",
+      "release_name": "J0406+3039",
+      "binary_model": "ELL1",
+      "status": "MISSING_REQUIRED_FREE_ORBITAL_PARAMETERS",
+      "missing_free_parameters": [
+        "M2",
+        "SINI"
+      ],
+      "par_sha256": "0a6fafc7f46efdd25b39d99e9e58d38b6e0c194aeef8bdf80dd3c879192ea098",
+      "tim_sha256": "4db255268354620bccea4a1a90e10c7e05d5a209636fcede6531941ea0d66530",
+      "assessment_status": "COMPANION_CLASSIFICATION_UNVERIFIED",
+      "companion_evidence": "SEPARATE_OR_UNVERIFIED_CLASS",
+      "reference": null,
+      "priority": null,
+      "inner_period_days": 6.955717213648717,
+      "par_summary_toas": 71,
+      "par_summary_span_days": 1301.461268648054,
+      "prospective_search_bounds_days": [
+        69.55717213648717,
+        650.730634324027
+      ],
+      "core_five_parameters_free": true,
+      "orbital_frequency_parameters": [],
+      "shapiro_terms_absent_from_released_par": true
+    },
+    {
+      "target": "J0509+0856",
+      "release_name": "J0509+0856",
+      "binary_model": "ELL1",
+      "status": "MISSING_REQUIRED_FREE_ORBITAL_PARAMETERS",
+      "missing_free_parameters": [
+        "M2",
+        "SINI"
+      ],
+      "par_sha256": "9e371568264c00d93162807b18ffcf23e3fc7b03d581e156e03d5bb5e13bdf57",
+      "tim_sha256": "5a33821d09895acf9d7de62556d1ad798c2e1bc723e050406c548d46f0deb4f6",
+      "assessment_status": "RECOMMENDED_CONDITIONAL_ADAPTER_PREPARATION",
+      "companion_evidence": "LIKELY_WHITE_DWARF",
+      "reference": "https://arxiv.org/abs/1906.05071",
+      "priority": 4,
+      "inner_period_days": 4.9079768737934195,
+      "par_summary_toas": 66,
+      "par_summary_span_days": 1301.4613935791058,
+      "prospective_search_bounds_days": [
+        49.079768737934195,
+        650.7306967895529
+      ],
+      "core_five_parameters_free": true,
+      "orbital_frequency_parameters": [],
+      "shapiro_terms_absent_from_released_par": true
+    },
+    {
+      "target": "J0557+1551",
+      "release_name": "J0557+1551",
+      "binary_model": "ELL1",
+      "status": "MISSING_REQUIRED_FREE_ORBITAL_PARAMETERS",
+      "missing_free_parameters": [
+        "M2",
+        "SINI"
+      ],
+      "par_sha256": "b9d290bbbf600d1a76778dbffd5f9f3dbe062e3a8461351d73b5bddbfd652776",
+      "tim_sha256": "049a72f9a88c19498ef4ff04aec0c630e89457aaa30f265d7ab0de15a0433468",
+      "assessment_status": "RECOMMENDED_CONDITIONAL_ADAPTER_PREPARATION",
+      "companion_evidence": "LIKELY_WHITE_DWARF",
+      "reference": "https://arxiv.org/abs/1501.03746",
+      "priority": 5,
+      "inner_period_days": 4.846550438655743,
+      "par_summary_toas": 47,
+      "par_summary_span_days": 1667.3786681814527,
+      "prospective_search_bounds_days": [
+        48.465504386557434,
+        833.6893340907263
+      ],
+      "core_five_parameters_free": true,
+      "orbital_frequency_parameters": [],
+      "shapiro_terms_absent_from_released_par": true
+    },
+    {
+      "target": "J0610-2100",
+      "release_name": "J0610-2100",
+      "binary_model": "ELL1",
+      "status": "MISSING_REQUIRED_FREE_ORBITAL_PARAMETERS",
+      "missing_free_parameters": [
+        "M2",
+        "SINI"
+      ],
+      "par_sha256": "270cad280054a3c6215a62b06e6678d51c47b6d62a745e7b7fdcaadbf8038bc6",
+      "tim_sha256": "b660fac441880ed6778f44f0b825e78255ab789bf5dc51e7e6b7f463d219d387",
+      "assessment_status": "BLACK_WIDOW_SCOPE_DEFERRED",
+      "companion_evidence": "SEPARATE_OR_UNVERIFIED_CLASS",
+      "reference": "https://adsabs.harvard.edu/pdf/2013IAUS..291..127R",
+      "priority": null,
+      "inner_period_days": 0.28601600164709123,
+      "par_summary_toas": 214,
+      "par_summary_span_days": 1229.6019284485155,
+      "prospective_search_bounds_days": [
+        30,
+        614.8009642242578
+      ],
+      "core_five_parameters_free": true,
+      "orbital_frequency_parameters": [],
+      "shapiro_terms_absent_from_released_par": true
+    },
+    {
+      "target": "J0636+5128",
+      "release_name": "J0636+5128",
+      "binary_model": "ELL1",
+      "status": "MISSING_REQUIRED_FREE_ORBITAL_PARAMETERS",
+      "missing_free_parameters": [
+        "PB",
+        "M2",
+        "SINI"
+      ],
+      "par_sha256": "5f1f393457132ef57d87db49c6ce0c63df66088b451dae903eff1ebcd188e0a7",
+      "tim_sha256": "d900820d487177141ddd4c2da056e623c962dc213adaf3ccbf92a8b45738ba66",
+      "assessment_status": "ORBITAL_FREQUENCY_POLYNOMIAL_DEFERRED",
+      "companion_evidence": "SEPARATE_OR_UNVERIFIED_CLASS",
+      "reference": null,
+      "priority": null,
+      "inner_period_days": 0.06655134206984306,
+      "par_summary_toas": 1221,
+      "par_summary_span_days": 2299.5760706434958,
+      "prospective_search_bounds_days": [
+        30,
+        1149.7880353217479
+      ],
+      "core_five_parameters_free": false,
+      "orbital_frequency_parameters": [
+        "FB0",
+        "FB1",
+        "FB2",
+        "FB3"
+      ],
+      "shapiro_terms_absent_from_released_par": true
+    },
+    {
+      "target": "J1012+5307",
+      "release_name": "J1012+5307",
+      "binary_model": "ELL1",
+      "status": "MISSING_REQUIRED_FREE_ORBITAL_PARAMETERS",
+      "missing_free_parameters": [
+        "M2",
+        "SINI"
+      ],
+      "par_sha256": "2422ce159b6cda417749fedf2b61d8151e9e0e0a40d43141547b3d41b93f39c0",
+      "tim_sha256": "3d04ccef8a56a850ce11e20cda3568e6442deedbf1c8ea07f1efb061a5563463",
+      "assessment_status": "RECOMMENDED_CONDITIONAL_ADAPTER_PREPARATION",
+      "companion_evidence": "OPTICAL_WHITE_DWARF",
+      "reference": "https://arxiv.org/abs/2004.02901",
+      "priority": 1,
+      "inner_period_days": 0.604672713829536,
+      "par_summary_toas": 624,
+      "par_summary_span_days": 5672.613877434487,
+      "prospective_search_bounds_days": [
+        30,
+        2000
+      ],
+      "core_five_parameters_free": true,
+      "orbital_frequency_parameters": [],
+      "shapiro_terms_absent_from_released_par": true
+    },
+    {
+      "target": "J1125+7819",
+      "release_name": "J1125+7819",
+      "binary_model": "ELL1",
+      "status": "MISSING_REQUIRED_FREE_ORBITAL_PARAMETERS",
+      "missing_free_parameters": [
+        "M2",
+        "SINI"
+      ],
+      "par_sha256": "ef793afa64ad552e69a91ff170edb028577134b17e3ce9e8983a76d1c10e0774",
+      "tim_sha256": "f1f529cc0d95d392c7c517f8cd32bdab8937a64fafd45c7ca78f80613eb59391",
+      "assessment_status": "RECOMMENDED_CONDITIONAL_ADAPTER_PREPARATION",
+      "companion_evidence": "LIKELY_WHITE_DWARF",
+      "reference": "https://par.nsf.gov/servlets/purl/10315467",
+      "priority": 3,
+      "inner_period_days": 15.355445961116056,
+      "par_summary_toas": 206,
+      "par_summary_span_days": 2299.5297714977787,
+      "prospective_search_bounds_days": [
+        153.55445961116055,
+        1149.7648857488894
+      ],
+      "core_five_parameters_free": true,
+      "orbital_frequency_parameters": [],
+      "shapiro_terms_absent_from_released_par": true
+    },
+    {
+      "target": "J1705-1903",
+      "release_name": "J1705-1903",
+      "binary_model": "ELL1",
+      "status": "MISSING_REQUIRED_FREE_ORBITAL_PARAMETERS",
+      "missing_free_parameters": [
+        "PB",
+        "M2",
+        "SINI"
+      ],
+      "par_sha256": "4e2a30674162e7fead2b63dea010fb65e339939234ee7a3fdc4f640a41258214",
+      "tim_sha256": "5940bd46ac63cf913400ecbc3b034a92efe2d98c5f17745dfe35a277ea715b73",
+      "assessment_status": "ORBITAL_FREQUENCY_POLYNOMIAL_DEFERRED",
+      "companion_evidence": "SEPARATE_OR_UNVERIFIED_CLASS",
+      "reference": null,
+      "priority": null,
+      "inner_period_days": 0.18395401097836994,
+      "par_summary_toas": 253,
+      "par_summary_span_days": 1360.2030799941276,
+      "prospective_search_bounds_days": [
+        30,
+        680.1015399970638
+      ],
+      "core_five_parameters_free": false,
+      "orbital_frequency_parameters": [
+        "FB0",
+        "FB1",
+        "FB2",
+        "FB3",
+        "FB4",
+        "FB5"
+      ],
+      "shapiro_terms_absent_from_released_par": true
+    },
+    {
+      "target": "J1719-1438",
+      "release_name": "J1719-1438",
+      "binary_model": "ELL1",
+      "status": "MISSING_REQUIRED_FREE_ORBITAL_PARAMETERS",
+      "missing_free_parameters": [
+        "M2",
+        "SINI"
+      ],
+      "par_sha256": "4966247dceb6fb9b143afc90c6ea791f8cfc526f9d15409ab339368854442423",
+      "tim_sha256": "1d177e92f171298e0533149fe3f6171b739b8788c05cb5730de14718dd2ec471",
+      "assessment_status": "KNOWN_COMPANION_BENCHMARK_SEPARATE_SCOPE",
+      "companion_evidence": "SEPARATE_OR_UNVERIFIED_CLASS",
+      "reference": null,
+      "priority": null,
+      "inner_period_days": 0.0907062818190678,
+      "par_summary_toas": 463,
+      "par_summary_span_days": 1257.5481331660194,
+      "prospective_search_bounds_days": [
+        30,
+        628.7740665830097
+      ],
+      "core_five_parameters_free": true,
+      "orbital_frequency_parameters": [],
+      "shapiro_terms_absent_from_released_par": true
+    },
+    {
+      "target": "J1738+0333",
+      "release_name": "J1738+0333",
+      "binary_model": "ELL1",
+      "status": "MISSING_REQUIRED_FREE_ORBITAL_PARAMETERS",
+      "missing_free_parameters": [
+        "M2",
+        "SINI"
+      ],
+      "par_sha256": "22cda89477c872f470dfe047485e5f4a49e65e226f314df46bd7379109b5188b",
+      "tim_sha256": "3f24e99d10a1333651ed46f87810755ea86fa4d8b692a987f15fb3bb1a63d0d9",
+      "assessment_status": "RECOMMENDED_CONDITIONAL_ADAPTER_PREPARATION",
+      "companion_evidence": "OPTICAL_WHITE_DWARF",
+      "reference": "https://arxiv.org/abs/1204.3948",
+      "priority": 2,
+      "inner_period_days": 0.3547907343158679,
+      "par_summary_toas": 336,
+      "par_summary_span_days": 3920.2532012012307,
+      "prospective_search_bounds_days": [
+        30,
+        1960.1266006006153
+      ],
+      "core_five_parameters_free": true,
+      "orbital_frequency_parameters": [],
+      "shapiro_terms_absent_from_released_par": true
+    },
+    {
+      "target": "J1745+1017",
+      "release_name": "J1745+1017",
+      "binary_model": "ELL1",
+      "status": "MISSING_REQUIRED_FREE_ORBITAL_PARAMETERS",
+      "missing_free_parameters": [
+        "M2",
+        "SINI"
+      ],
+      "par_sha256": "606c04ae2dc6bf662a3121529809d28723ffa1277a0d90c06fd6ce9ae2a8654a",
+      "tim_sha256": "ff49105852e6deee6b01118fb07b0122e34242ef556340c5b8306020eca9c7be",
+      "assessment_status": "BLACK_WIDOW_SCOPE_DEFERRED",
+      "companion_evidence": "SEPARATE_OR_UNVERIFIED_CLASS",
+      "reference": "https://adsabs.harvard.edu/pdf/2013IAUS..291..127R",
+      "priority": null,
+      "inner_period_days": 0.7302414215080226,
+      "par_summary_toas": 91,
+      "par_summary_span_days": 1660.4969663782758,
+      "prospective_search_bounds_days": [
+        30,
+        830.2484831891379
+      ],
+      "core_five_parameters_free": true,
+      "orbital_frequency_parameters": [],
+      "shapiro_terms_absent_from_released_par": true
+    },
+    {
+      "target": "J2214+3000",
+      "release_name": "J2214+3000",
+      "binary_model": "ELL1",
+      "status": "MISSING_REQUIRED_FREE_ORBITAL_PARAMETERS",
+      "missing_free_parameters": [
+        "PB",
+        "M2",
+        "SINI"
+      ],
+      "par_sha256": "92c189aaac2acdb9d5d3162353f0e2b6c56c512a16167bc499824de79234e63a",
+      "tim_sha256": "0fc66cba035af421ba4e40b4da2bf6db71ffc6c43a7c8d56a278394ce9a5d72a",
+      "assessment_status": "ORBITAL_FREQUENCY_POLYNOMIAL_DEFERRED",
+      "companion_evidence": "SEPARATE_OR_UNVERIFIED_CLASS",
+      "reference": null,
+      "priority": null,
+      "inner_period_days": 0.4166329461231113,
+      "par_summary_toas": 293,
+      "par_summary_span_days": 3152.4253185541675,
+      "prospective_search_bounds_days": [
+        30,
+        1576.2126592770837
+      ],
+      "core_five_parameters_free": false,
+      "orbital_frequency_parameters": [
+        "FB0",
+        "FB1",
+        "FB2",
+        "FB3"
+      ],
+      "shapiro_terms_absent_from_released_par": true
+    },
+    {
+      "target": "J2234+0944",
+      "release_name": "J2234+0944",
+      "binary_model": "ELL1",
+      "status": "MISSING_REQUIRED_FREE_ORBITAL_PARAMETERS",
+      "missing_free_parameters": [
+        "M2",
+        "SINI"
+      ],
+      "par_sha256": "7dab26ab95c94810cf3100b4ac29ccc4104d83dfd22b86b495eccb3c86e68092",
+      "tim_sha256": "54325bd3b7ffbbd213ed111299f8a03f0216086c32329ce1b073f78ccdda90e8",
+      "assessment_status": "BLACK_WIDOW_SCOPE_DEFERRED",
+      "companion_evidence": "SEPARATE_OR_UNVERIFIED_CLASS",
+      "reference": "https://adsabs.harvard.edu/pdf/2013IAUS..291..127R",
+      "priority": null,
+      "inner_period_days": 0.4196600374234342,
+      "par_summary_toas": 245,
+      "par_summary_span_days": 2592.9442450824426,
+      "prospective_search_bounds_days": [
+        30,
+        1296.4721225412213
+      ],
+      "core_five_parameters_free": true,
+      "orbital_frequency_parameters": [],
+      "shapiro_terms_absent_from_released_par": true
+    }
+  ],
+  "source_inventory_sha256": "432a0137f7e0c194506cd22656fb746103119544d6a71d88895ebb9cf0c106e5",
+  "counts": {
+    "optically_established_white_dwarf": 2,
+    "likely_white_dwarf": 3,
+    "classification_unverified": 1,
+    "orbital_frequency_polynomial": 4,
+    "black_widow_PB_model": 3,
+    "prior_known_companion_benchmark": 1
+  },
+  "data_extent_definition": "NTOA/START/FINISH from the pinned PAR summaries; actual ingestion and final eligible grid not yet verified",
+  "implementation_required": true,
+  "scientific_code_changed": false,
+  "preparations_executed": 0,
+  "calibrations_executed": 0,
+  "observed_searches_executed": 0,
+  "master_before_sha256": "c911b386c638d042c54baed26094743b547b94079d898ececca174fda30f2c26"
+}

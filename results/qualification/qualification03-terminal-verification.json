@@ -1,0 +1,341 @@
+{
+  "run_id": "pilot2-ioc-qualification-20261116-03",
+  "release_commit": "01e564ff2218b7ec6958b4363e2147524e55f590",
+  "terminal_state": "complete",
+  "elapsed_seconds": 7987.188,
+  "outer_artifacts_verified": 9,
+  "science_artifacts_verified": 4,
+  "ledger_artifacts_verified": {
+    "status": "pass",
+    "completed_cases": 344,
+    "stage_results": 2,
+    "failures": []
+  },
+  "case_count": 344,
+  "family_counts": {
+    "annual": 28,
+    "boundary": 16,
+    "main": 240,
+    "phase_reference": 60
+  },
+  "primary_fits": 688,
+  "solver_audits": 35,
+  "scientific_status": "pass",
+  "gates": [
+    {
+      "comparator": "==",
+      "limit": 240,
+      "name": "main_case_count",
+      "observed": 240,
+      "status": "pass"
+    },
+    {
+      "comparator": "==",
+      "limit": 60,
+      "name": "phase_reference_case_count",
+      "observed": 60,
+      "status": "pass"
+    },
+    {
+      "comparator": "==",
+      "limit": 28,
+      "name": "annual_case_count",
+      "observed": 28,
+      "status": "pass"
+    },
+    {
+      "comparator": "==",
+      "limit": 16,
+      "name": "boundary_case_count",
+      "observed": 16,
+      "status": "pass"
+    },
+    {
+      "comparator": "==",
+      "limit": 0,
+      "name": "canonical_toa_metrics",
+      "observed": 0,
+      "status": "pass"
+    },
+    {
+      "comparator": "<=",
+      "limit": 0.001,
+      "name": "toa_application_error",
+      "observed": 8.991132611546604e-06,
+      "status": "pass"
+    },
+    {
+      "comparator": "is",
+      "limit": true,
+      "name": "fit_convergence",
+      "observed": true,
+      "status": "pass"
+    },
+    {
+      "comparator": "==",
+      "limit": 35,
+      "name": "solver_audit_count",
+      "observed": 35,
+      "status": "pass"
+    },
+    {
+      "comparator": "==",
+      "limit": 0,
+      "name": "solver_audit_failures",
+      "observed": 0,
+      "status": "pass"
+    },
+    {
+      "comparator": ">=",
+      "limit": 0.9,
+      "name": "strong_control_recovery",
+      "observed": 1.0,
+      "status": "pass"
+    },
+    {
+      "comparator": ">=",
+      "limit": 0.95,
+      "name": "frequency_recovery",
+      "observed": 1.0,
+      "status": "pass"
+    },
+    {
+      "comparator": "<=",
+      "limit": 0.1,
+      "name": "median_amplitude_bias",
+      "observed": 0.09407504206945072,
+      "status": "pass"
+    },
+    {
+      "comparator": ">=",
+      "limit": 3,
+      "name": "monotonic_periods",
+      "observed": 5,
+      "status": "pass"
+    },
+    {
+      "comparator": ">=",
+      "limit": 3,
+      "name": "bracketed_periods",
+      "observed": 5,
+      "status": "pass"
+    },
+    {
+      "comparator": "==",
+      "limit": 60,
+      "name": "phase_reference_trigger_recovery",
+      "observed": 60,
+      "status": "pass"
+    },
+    {
+      "comparator": "<=",
+      "limit": 0.1,
+      "name": "phase_reference_error_p90",
+      "observed": 0.07013190157434498,
+      "status": "pass"
+    },
+    {
+      "comparator": "==",
+      "limit": 0,
+      "name": "annual_eligibility_violations",
+      "observed": 0,
+      "status": "pass"
+    },
+    {
+      "comparator": "<=",
+      "limit": 6.0,
+      "name": "injection_wall_hours",
+      "observed": 2.216721679722222,
+      "status": "pass"
+    },
+    {
+      "comparator": "<=",
+      "limit": 16.0,
+      "name": "peak_memory_gib",
+      "observed": 0.7635612487792969,
+      "status": "pass"
+    },
+    {
+      "comparator": "<=",
+      "limit": 1.5,
+      "name": "complete_data_root_gib",
+      "observed": 0.1266401968896389,
+      "status": "pass"
+    },
+    {
+      "comparator": "==",
+      "limit": "pass",
+      "name": "unexpected_material_warnings",
+      "observed": "pass",
+      "status": "pass"
+    }
+  ],
+  "diagnostics": {
+    "all_triggered_main_phase_error_p90_radians": 0.22696978295090353,
+    "all_triggered_main_phase_error_role": "diagnostic_not_hard_gate",
+    "bracketed_periods": 5,
+    "frequency_recovery_rate": 1.0,
+    "median_amplitude_bias_fraction": 0.09407504206945072,
+    "monotonic_periods": 5,
+    "phase_reference_error_p90_radians": 0.07013190157434498,
+    "strong_control_minimum_recovery": 1.0
+  },
+  "annual_mask": {
+    "execution_binding_sha256": "dd40901c62c9dee8e9613c668a0fdb26c0113a755e05b21842a8b574deaee93f",
+    "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
+    "periods": [
+      {
+        "candidate_eligible": true,
+        "contributing_artifact_sha256": [
+          "8a65fda5c169adb03b532a923da7db694fcf3aa8bacd32caf08ea5febc29023a",
+          "fdddf81e31ab2e483f818a1338789dd7acee5435247d26934dde74d18852ae5b",
+          "bc42e28821335943ec0964995943525b75d9c9da111983617bff22b6bf7487d9",
+          "2b5209381ab45eb89bb8837c2e9b29e53a8b596ade337071c863f146637861c5"
+        ],
+        "contributing_case_ids": [
+          "p2r3-inj-annual-p00-h00-n00",
+          "p2r3-inj-annual-p00-h01-n00",
+          "p2r3-inj-annual-p00-h02-n00",
+          "p2r3-inj-annual-p00-h03-n00"
+        ],
+        "maximum_ordinary_model_absorption_fraction": 0.007970611914734582,
+        "maximum_signal_astrometry_correlation": 0.10576382646676566,
+        "ordinary_model_absorption_fraction_limit": 0.8,
+        "period_days": 300.0,
+        "signal_astrometry_correlation_limit": 0.8
+      },
+      {
+        "candidate_eligible": true,
+        "contributing_artifact_sha256": [
+          "922bdac12ee12a0360accc160369b59a0ff4209a09f8f1fc8b99e95580376b61",
+          "b3a4e266ae4ddefd71029c21f807a8bd1a646faf481dcce1fc90118296502448",
+          "bf6876c3df731f8a6e00707c821378e23259d27b7a33cfa34840074ffd2fc904",
+          "713be4ae63bab03fee7c34025b21cf7cb8789a16edea765aadc1243d7e431385"
+        ],
+        "contributing_case_ids": [
+          "p2r3-inj-annual-p01-h00-n00",
+          "p2r3-inj-annual-p01-h01-n00",
+          "p2r3-inj-annual-p01-h02-n00",
+          "p2r3-inj-annual-p01-h03-n00"
+        ],
+        "maximum_ordinary_model_absorption_fraction": 0.005261907038303981,
+        "maximum_signal_astrometry_correlation": 0.14808072866858865,
+        "ordinary_model_absorption_fraction_limit": 0.8,
+        "period_days": 330.0,
+        "signal_astrometry_correlation_limit": 0.8
+      },
+      {
+        "candidate_eligible": true,
+        "contributing_artifact_sha256": [
+          "5c9fbd21018346a21d8879cb7bd4bea388420515a11d4aa471bf1ccd46238224",
+          "dbcb34ccad652e10322a2eab121971c87dca8cb408c9450093e0c51acdd8b243",
+          "a317ff9ab3ff5094ff65051fd4592d45d05e9e19d458a79db38fde1a6110aead",
+          "d2ee6fb83d314c72b68f130cdd50c5730b12bbb8e52abf43e4448128cb230467"
+        ],
+        "contributing_case_ids": [
+          "p2r3-inj-annual-p02-h00-n00",
+          "p2r3-inj-annual-p02-h01-n00",
+          "p2r3-inj-annual-p02-h02-n00",
+          "p2r3-inj-annual-p02-h03-n00"
+        ],
+        "maximum_ordinary_model_absorption_fraction": 0.014740573329576234,
+        "maximum_signal_astrometry_correlation": 0.7489807228800739,
+        "ordinary_model_absorption_fraction_limit": 0.8,
+        "period_days": 350.0,
+        "signal_astrometry_correlation_limit": 0.8
+      },
+      {
+        "candidate_eligible": false,
+        "contributing_artifact_sha256": [
+          "61b18d135b0f3d793021180d35ac0caf37c4456d9b137bd38c1868c556b123a2",
+          "6649e51002b2a0f5a57a472bb58e12631c68b5af65a609c0d32070248a591a0a",
+          "0df2ce17b560f82900365e38435d0546f930d77a20fec61e14e9e68a8ee45ff9",
+          "0366bcc7028e9825a02e07e6c5bc9e73ddd3f9cfe3408361146098fa7e69c9e9"
+        ],
+        "contributing_case_ids": [
+          "p2r3-inj-annual-p03-h00-n00",
+          "p2r3-inj-annual-p03-h01-n00",
+          "p2r3-inj-annual-p03-h02-n00",
+          "p2r3-inj-annual-p03-h03-n00"
+        ],
+        "maximum_ordinary_model_absorption_fraction": 0.0,
+        "maximum_signal_astrometry_correlation": 0.999970194283943,
+        "ordinary_model_absorption_fraction_limit": 0.8,
+        "period_days": 365.25,
+        "signal_astrometry_correlation_limit": 0.8
+      },
+      {
+        "candidate_eligible": true,
+        "contributing_artifact_sha256": [
+          "d8d60d760290adceef74b2bcfe79bd282a6c7f3daba1376c06ce90422a66af02",
+          "fb8198c5877135b324cfa67c6d46679b05571be7280ba1a8b68574ee6d5a8584",
+          "eeb784c27efc3c72ac57be8ce80c542416d3bb0f001b7299f13f5216a9bfddc9",
+          "7388b375d72a7f6fb0a873779c4e31596161967c3353ec5a3a55548ba4c29c08"
+        ],
+        "contributing_case_ids": [
+          "p2r3-inj-annual-p04-h00-n00",
+          "p2r3-inj-annual-p04-h01-n00",
+          "p2r3-inj-annual-p04-h02-n00",
+          "p2r3-inj-annual-p04-h03-n00"
+        ],
+        "maximum_ordinary_model_absorption_fraction": 0.010670865952736697,
+        "maximum_signal_astrometry_correlation": 0.7180739512602778,
+        "ordinary_model_absorption_fraction_limit": 0.8,
+        "period_days": 380.0,
+        "signal_astrometry_correlation_limit": 0.8
+      },
+      {
+        "candidate_eligible": true,
+        "contributing_artifact_sha256": [
+          "759fb9ba6a004b5ae1845f1389756bb5228af4a4ac25f90e6fc52758ac10b312",
+          "0d0b31620374c57ed9a1143177309991820f6fc3ca2e26f8581b204c2ae4faf0",
+          "506472577008a228be87f9e98fd62ad3337bf6f4d7b05b935f51051fe8de0430",
+          "8257bc3a4194926498da5e64877d4b9a5ed179e65fc0ea44ef2acd5b78ca9042"
+        ],
+        "contributing_case_ids": [
+          "p2r3-inj-annual-p05-h00-n00",
+          "p2r3-inj-annual-p05-h01-n00",
+          "p2r3-inj-annual-p05-h02-n00",
+          "p2r3-inj-annual-p05-h03-n00"
+        ],
+        "maximum_ordinary_model_absorption_fraction": 0.007184645894407482,
+        "maximum_signal_astrometry_correlation": 0.17357315736846302,
+        "ordinary_model_absorption_fraction_limit": 0.8,
+        "period_days": 400.0,
+        "signal_astrometry_correlation_limit": 0.8
+      },
+      {
+        "candidate_eligible": true,
+        "contributing_artifact_sha256": [
+          "9265c373c234f6d71b1eceb61830569114d1ce707daf83d8c01410e717ee6203",
+          "cdc021af5aa9dbf03262f43a320c2a63cea149deeeb6fdc0cdf915c76267849a",
+          "7c9039882bb05470a99a6c9b27f9479138370dc5030ef876b330594f834f959b",
+          "0d5cb6cee23d07cc4d85ae9797f2944bf7b79590811cd1a898ba973298b9d037"
+        ],
+        "contributing_case_ids": [
+          "p2r3-inj-annual-p06-h00-n00",
+          "p2r3-inj-annual-p06-h01-n00",
+          "p2r3-inj-annual-p06-h02-n00",
+          "p2r3-inj-annual-p06-h03-n00"
+        ],
+        "maximum_ordinary_model_absorption_fraction": 0.00810115991286564,
+        "maximum_signal_astrometry_correlation": 0.16993562553270194,
+        "ordinary_model_absorption_fraction_limit": 0.8,
+        "period_days": 450.0,
+        "signal_astrometry_correlation_limit": 0.8
+      }
+    ],
+    "run_id": "pilot2-b1937-injection-remediation-v0.2.8",
+    "schema_version": 1,
+    "status": "complete",
+    "updated_utc": "2026-11-17T05:51:14.749307+00:00"
+  },
+  "threshold_retuned": false,
+  "observed_residual_vector_used": false,
+  "observed_periodic_scan_executed": false,
+  "hard_stop": null,
+  "result_sha256": "41e123da9f84164c44692859046bd8f3d5c96685f4999ec77769b9cf8f193cf8",
+  "failed_solver_audits": [],
+  "annual_mask_source_hashes_and_eligibility_verified": true,
+  "release_freeze_verification": "pass"
+}

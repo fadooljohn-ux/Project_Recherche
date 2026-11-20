@@ -1,0 +1,14 @@
+{
+ "evidence": "results/observed/ppta-binary01-20261121/closeout.json",
+ "entries": [
+  [
+   "pta-binary01-20261121-closeout",
+   "Observed closeout",
+   "Parkes and European binaries batch 01 (18 searched)",
+   "VERIFIED",
+   "Owner instruction 'Search all 18'. All NO_TRIGGER. European: J0613-0200 (15.12 / 27.24), J0900-3144 (5.32 / 22.40), J1751-2857 (4.81 / 17.76), J1804-2717 (11.65 / 23.67), J1910+1256 (4.66 / 19.90), J1918-0642 (12.10 / 24.29). Parkes: J0125-2327 (3.35 / 22.73), J0900-3144 (3.71 / 20.07), J1545-4550 (8.89 / 25.66), J1933-6211 (6.91 / 21.40), J1902-5105 (3.99 / 24.39), J1045-4509 (9.88 / 27.53), J1446-4701 (6.52 / 27.19), J2129-5721 (9.49 / 26.50), J1643-1224 (5.53 / 18.07), J0614-3329 (0.59 / 15.57), J1125-6014 (11.74 / 25.49), J1857+0943 (10.63 / 25.24).",
+   "No crossing, so no second-stage test. run01 destinations consumed. Batch preparations agree with tempo2 (largest 0.015 TOA sigma). Eleven searches reach 2,000 days."
+  ]
+ ],
+ "target_updates": []
+}

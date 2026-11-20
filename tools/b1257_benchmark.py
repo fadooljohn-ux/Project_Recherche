@@ -21,10 +21,11 @@ from pulsar_pilot.pilot1_runtime import (
 )
 from pulsar_pilot.pilot2_offline_resources import LocalPintRepository, NetworkDeny
 from pulsar_pilot.spin_phase import bind_precise_spin_phase
+from recherche_common import DATA_ROOT
 
 REPO = Path(__file__).resolve().parents[1]
-DEFAULT_DATA = REPO.parent / "Project Recherche Data/b1257-benchmark-20260908"
-DEFAULT_RESOURCES = REPO.parent / "Project Recherche Data/operational-20260908"
+DEFAULT_DATA = DATA_ROOT / "b1257-benchmark-20260908"
+DEFAULT_RESOURCES = DATA_ROOT / "operational-20260908"
 SEED = 1257122026
 REFERENCE = [
     {"planet": "b", "period_days": 25.262, "amplitude_us": 3.0},

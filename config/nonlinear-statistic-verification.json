@@ -1,0 +1,28 @@
+{
+  "target": "J1857+0943",
+  "source_batch": "binary-pilot02-20260909",
+  "orbital_parameters": ["PB", "A1", "TASC", "EPS1", "EPS2", "M2", "SINI"],
+  "parameter_domain_published_sigma": 3.0,
+  "oversampling": 5,
+  "surrogate": {
+    "degree": 3, "training_points": 400, "training_seed": 20261117,
+    "validation_points": 100, "validation_seed": 20261118,
+    "maximum_projected_whitened_error_norm": 0.02
+  },
+  "reference": {
+    "seed": 20261119, "vectors": 8, "periods_days": [150, 300, 600, 1200, 1800],
+    "amplitudes_us": [0.0, 0.3], "optimizer_starts": [0.0, 0.5],
+    "maximum_function_evaluations": 120, "maximum_chi2_difference": 0.02
+  },
+  "nulls": {
+    "seed": 20261120, "count": 512,
+    "mean_cell_statistic_range": [1.8, 2.2], "maximum_boundary_cell_fraction": 0.1
+  },
+  "injections": {
+    "seed": 20261121, "periods_days": [150, 300, 600, 1200, 1800], "noncentralities": [25, 60],
+    "phases_per_case": 4, "strong_noncentrality": 60, "maximum_peak_offset_cells": 2.0,
+    "minimum_strong_cases": 20, "minimum_located_fraction": 0.9, "maximum_median_amplitude_bias": 0.2
+  },
+  "cost_projection": {"null_count": 4096, "injection_count": 96},
+  "scope": "Synthetic verification and cost benchmark of the reusable nonlinear statistic on one target; no calibration, threshold, observed scan or profile promotion. Criteria were fixed after two development attempts (development01, development02) and before attempt01."
+}

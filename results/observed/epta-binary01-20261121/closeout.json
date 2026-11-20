@@ -1,0 +1,243 @@
+{
+ "status": "CLOSEOUT_COMPLETE",
+ "date": "2026-11-21",
+ "owner_instruction": "Search all 18",
+ "selection_sha256": "0dfa1404f6f055791b0ddec507d56ee068ce58a206edda954dd1185513038b62",
+ "execution_freeze_sha256": "9480dc71239fd7c6f85539d784f4197e6b9e3201ba05ccbd6b6bb811537d1908",
+ "preparation_sha256": "d0512d5ae360e07eecb85fcdac09d9d6021e6f51afa347a485b353ce70ca007f",
+ "code_sha256": {
+  "adapter": "49748f4ee89761bb1bf388050376aaee0f543808b7cc1785c7df7330d09f8154",
+  "binary_wideband": "91f1a3fa712984a68c063acd5cd8778e297270b2b96c75475e934475208318d8",
+  "mpta_batch": "a1ac9b061dab020802c20146beefa1d3ab612059574b5aaba3d1b5dd27f2065f",
+  "mpta_binary": "17921a092b3cbbb1283c5a09328af1c0cea70c07b0134d39faccb8d0bfc5bcb1",
+  "ng15_binary": "1facf49220b03daf9e7427ad754525a46803b8101021cec5920eaa15bd2aabbf",
+  "orbit_reexpress": "a5034134ffbac8a7c77da3e28d824543d812d4397c8f2f0ed92fe0ae7c7dd536",
+  "orbit_refine": "cef1342473c6c4c4e3d13e60b6b0ccf79f480ce99836abcffea30f124522519b",
+  "orbit_translate": "f6b665703fa907bd5fcabe04d8983d93c0b67b9bfda2661580a83b6412cfb9a0",
+  "pta_campaign": "92448c791e67d97df7fd5a785ecbf9c19983c0de64c5be52a210ab11e8d4d8cf",
+  "shapiro_basis": "d264d8a590eb213c770d6649fe16fd7d87771bbe916cf76fdc9e491dae87daa9"
+ },
+ "searched": {
+  "J0613-0200": {
+   "result_sha256": "f4e8772f815e97a61dbce0254ae0aba04f0d475a33140c068b9067d8a34a868d",
+   "periodogram_sha256": "1d1887a1be503531a1e8e8c3113d530bba18eab637b8b66f3d9c7bc361925c7b",
+   "receipt_sha256": "99713018fb644eefb8f66816a80428746423308c5c97665c0a7f6b6e22ac9c1f",
+   "status": "NO_TRIGGER",
+   "peak_period_days": 67.7740451462723,
+   "peak_statistic": 15.122302304231724,
+   "threshold": 27.244822255996883,
+   "peak_amplitude_us": 0.1141468712943529,
+   "null_reduced_chi2": 0.9993844805574275,
+   "noise_adequacy_flag": false,
+   "released_binary_model": "T2",
+   "searched_binary_model": "ELL1H",
+   "model_steps": [
+    "shapiro_recentring",
+    "translation"
+   ],
+   "shapiro_basis_columns": 2,
+   "uncertainties_from_search_covariance": [],
+   "tempo2_difference_in_TOA_sigma": 0.005042879824019142,
+   "search_period_days": [
+    30.0,
+    2000.0
+   ],
+   "eligible_cells": 1362,
+   "grid_cells": 1374,
+   "minimum_mass_earth_95_range": [
+    0.00021215106636328975,
+    0.0010198057533970788
+   ],
+   "host_mass_solar_assumed": 1.6,
+   "toas": 2909,
+   "span_years": 22.89399178006123
+  },
+  "J0900-3144": {
+   "result_sha256": "37881ffa7d255c8ac29fd35caec3b04eebc7af0b30e63d659a12f77a829226cf",
+   "periodogram_sha256": "57bb4cc60e0fb830c69fb49eb726b6eb0bf8c2722ebb74202c1466d5650583dd",
+   "receipt_sha256": "ac508ff1a76f2561ad06fad28b822e1f75f1826e5af7a54d35589abfeda865c9",
+   "status": "NO_TRIGGER",
+   "peak_period_days": 291.56437103317097,
+   "peak_statistic": 5.3166423288096265,
+   "threshold": 22.401901399898804,
+   "peak_amplitude_us": 0.3471812595856554,
+   "null_reduced_chi2": 0.9954478376808867,
+   "noise_adequacy_flag": false,
+   "released_binary_model": "T2",
+   "searched_binary_model": "ELL1",
+   "model_steps": [
+    "translation"
+   ],
+   "shapiro_basis_columns": null,
+   "uncertainties_from_search_covariance": [],
+   "tempo2_difference_in_TOA_sigma": 0.0028092899624588457,
+   "search_period_days": [
+    187.37636058477622,
+    2000.0
+   ],
+   "eligible_cells": 115,
+   "grid_cells": 122,
+   "minimum_mass_earth_95_range": [
+    0.0008524085612437878,
+    0.0016871240398565425
+   ],
+   "host_mass_solar_assumed": 1.6,
+   "toas": 6064,
+   "span_years": 13.643583692933852
+  },
+  "J1751-2857": {
+   "result_sha256": "de91fa77f068c73678c0c891283fcb7a1c0b70a45f0b343c20b8d1bd75887a83",
+   "periodogram_sha256": "0fc91ab4c6538a3c0d506073749e30807f8fc1ce5550549e9a1900e3ecb7ffa7",
+   "receipt_sha256": "ef46e97a6b2251a68802c948aa7d13f84ef21d49daf20bd481bb71f6eb2e24f5",
+   "status": "NO_TRIGGER",
+   "peak_period_days": 1314.1743252006247,
+   "peak_statistic": 4.80823033551647,
+   "threshold": 17.763672610008292,
+   "peak_amplitude_us": 1.3508526312872922,
+   "null_reduced_chi2": 1.0196818893276889,
+   "noise_adequacy_flag": false,
+   "released_binary_model": "T2",
+   "searched_binary_model": "ELL1",
+   "model_steps": [
+    "reexpression",
+    "refinement",
+    "translation"
+   ],
+   "shapiro_basis_columns": null,
+   "uncertainties_from_search_covariance": [
+    "TASC"
+   ],
+   "tempo2_difference_in_TOA_sigma": 0.0007882788812792307,
+   "search_period_days": [
+    1107.4646083259456,
+    2000.0
+   ],
+   "eligible_cells": 12,
+   "grid_cells": 12,
+   "minimum_mass_earth_95_range": [
+    0.0013741538634735747,
+    0.0015189646320360663
+   ],
+   "host_mass_solar_assumed": 1.6,
+   "toas": 398,
+   "span_years": 14.689501078899088
+  },
+  "J1804-2717": {
+   "result_sha256": "39a6eae14976d4b695e5c82df8820bff58a515d2c0740cb9942dda6d6d50333d",
+   "periodogram_sha256": "610b14f6863a4e26e2855fb5eda7cc5a4a24a54347528e3d162dbf6409eb8d9b",
+   "receipt_sha256": "6d51e7908a4a1964fda2315ba0a91b872cabefd4bac9ac03c135f49b9e0cfa55",
+   "status": "NO_TRIGGER",
+   "peak_period_days": 171.9194014341885,
+   "peak_statistic": 11.65043459465719,
+   "threshold": 23.670017928278682,
+   "peak_amplitude_us": 0.6291775921978952,
+   "null_reduced_chi2": 1.0302266151473958,
+   "noise_adequacy_flag": false,
+   "released_binary_model": "T2",
+   "searched_binary_model": "ELL1",
+   "model_steps": [
+    "translation"
+   ],
+   "shapiro_basis_columns": null,
+   "uncertainties_from_search_covariance": [],
+   "tempo2_difference_in_TOA_sigma": 0.014853106226337598,
+   "search_period_days": [
+    111.28711965325347,
+    2000.0
+   ],
+   "eligible_cells": 220,
+   "grid_cells": 230,
+   "minimum_mass_earth_95_range": [
+    0.0005959830775599238,
+    0.0032735694709207603
+   ],
+   "host_mass_solar_assumed": 1.6,
+   "toas": 723,
+   "span_years": 14.727714446290294
+  },
+  "J1910+1256": {
+   "result_sha256": "d07f6d617895cec87402f59b569e3c1533badab4efa4abf6dd239cc195b6903e",
+   "periodogram_sha256": "84d8ae97633871ab95b55e98006a0d55591cf61bab7d6c96e1ab3520c6c0efad",
+   "receipt_sha256": "ae55579a15759698f560f986764c738e32696324fe8e03ce245a979a5f9101bc",
+   "status": "NO_TRIGGER",
+   "peak_period_days": 2000.0,
+   "peak_statistic": 4.6576594572472825,
+   "threshold": 19.90455543341112,
+   "peak_amplitude_us": 0.9070797290061343,
+   "null_reduced_chi2": 0.9972649803594601,
+   "noise_adequacy_flag": false,
+   "released_binary_model": "T2",
+   "searched_binary_model": "ELL1",
+   "model_steps": [
+    "reexpression",
+    "refinement",
+    "translation"
+   ],
+   "shapiro_basis_columns": null,
+   "uncertainties_from_search_covariance": [
+    "TASC"
+   ],
+   "tempo2_difference_in_TOA_sigma": 0.0012560610285735473,
+   "search_period_days": [
+    584.6674297241318,
+    2000.0
+   ],
+   "eligible_cells": 35,
+   "grid_cells": 35,
+   "minimum_mass_earth_95_range": [
+    0.0006128143834757212,
+    0.0007515632908353216
+   ],
+   "host_mass_solar_assumed": 1.6,
+   "toas": 538,
+   "span_years": 15.214407938464623
+  },
+  "J1918-0642": {
+   "result_sha256": "b53b2861430962435c20c91c78d5a3d83366ffd340bce989d58cd0cb4ed41e35",
+   "periodogram_sha256": "15d0a545b24b7b5158a5d3f1b0dc70d5eec9cb0db80cbcc91712ea97085e38f1",
+   "receipt_sha256": "e7c0f325576c6c9498a9033744c0c2f7e7a6e323e4976c11592fed74c31469b6",
+   "status": "NO_TRIGGER",
+   "peak_period_days": 176.4546070943601,
+   "peak_statistic": 12.096761940814538,
+   "threshold": 24.2862656915126,
+   "peak_amplitude_us": 0.18736545594540419,
+   "null_reduced_chi2": 1.0045819486043832,
+   "noise_adequacy_flag": false,
+   "released_binary_model": "DDH",
+   "searched_binary_model": "ELL1H",
+   "model_steps": [
+    "reexpression",
+    "refinement"
+   ],
+   "shapiro_basis_columns": 2,
+   "uncertainties_from_search_covariance": [
+    "TASC"
+   ],
+   "tempo2_difference_in_TOA_sigma": 0.00149589308285631,
+   "search_period_days": [
+    109.13177749957994,
+    2000.0
+   ],
+   "eligible_cells": 300,
+   "grid_cells": 313,
+   "minimum_mass_earth_95_range": [
+    0.0002677260110730883,
+    0.0008707671910832863
+   ],
+   "host_mass_solar_assumed": 1.6,
+   "toas": 1361,
+   "span_years": 19.710567764507815
+  }
+ },
+ "held": [],
+ "consumed": [
+  "J0613-0200/run01",
+  "J0900-3144/run01",
+  "J1751-2857/run01",
+  "J1804-2717/run01",
+  "J1910+1256/run01",
+  "J1918-0642/run01"
+ ],
+ "crossings": [],
+ "new_planets_confirmed": 0
+}

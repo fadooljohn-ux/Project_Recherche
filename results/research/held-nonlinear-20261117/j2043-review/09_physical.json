@@ -1,0 +1,65 @@
+{
+ "inner_binary": {
+  "mass_function_Msun": 0.0020928609399165072,
+  "pulsar_mass_Msun": 1.5879936215529509,
+  "companion_Msun": 0.18956002845614828,
+  "total_Msun": 1.7775536500090992,
+  "a_inner_AU": 0.030820264545866085,
+  "a_inner_lt_s": 15.379459452532762
+ },
+ "outer_37.48d": {
+  "period_d": 37.48056,
+  "amp_us": 0.0892,
+  "a_AU": 0.2655123970017911,
+  "a_over_a_inner": 8.61486430808084,
+  "m_sin_i_Msun": 1.1967351829540466e-09,
+  "m_sin_i_Mearth": 0.0003984461681018143,
+  "m_sin_i_kg": 2.3796002051376556e+21,
+  "m_sin_i_lunar": 0.03241079004545976,
+  "m_sin_i_ceres": 2.5368872123002726
+ },
+ "outer_37.48d_red_modelled_amp": {
+  "period_d": 37.48056,
+  "amp_us": 0.078,
+  "a_AU": 0.2655123970017911,
+  "a_over_a_inner": 8.61486430808084,
+  "m_sin_i_Msun": 1.0464724693992783e-09,
+  "m_sin_i_Mearth": 0.00034841705282445646,
+  "m_sin_i_kg": 2.080816322878219e+21,
+  "m_sin_i_lunar": 0.02834127380656795,
+  "m_sin_i_ceres": 2.2183542887827494
+ },
+ "daily_alias_1.0245d(inside the binary; not a valid circumbinary orbit)": {
+  "period_ratio_to_PB": 0.6911734252204691
+ },
+ "stability": {
+  "mass_ratio_mu": 0.10664096043187103,
+  "holman_wiegert_a_crit_over_a_bin": 1.9814757782703847,
+  "a_outer_over_a_bin": 8.61486430808084,
+  "period_ratio": 25.28556498104605,
+  "stable_by_this_criterion": true
+ },
+ "context": {
+  "B1257+12 A (smallest known pulsar planet)": "about 0.02 Earth masses",
+  "sensitivity_95pct_worst_phase_us": 0.125,
+  "note": "the fitted amplitude is below the calibrated 95% worst-phase amplitude, so recovered amplitude is biased upward if real (selection at threshold)"
+ },
+ "dmx_amplitude_poly3": {
+  "amp_pc_cm3": 5.000707836552696e-06,
+  "amp_err_pc_cm3": 6.385877225435616e-06,
+  "reduced_chi2": 2.836641739698602,
+  "implied_430MHz-only_delay_us": 0.1122064720278665,
+  "its_error_us": 0.14328706608926495,
+  "430-only_alternative_needs_us": 0.707,
+  "tension_sigma": 4.151062229172793
+ },
+ "dmx_amplitude_poly8": {
+  "amp_pc_cm3": 3.644170416519448e-06,
+  "amp_err_pc_cm3": 4.241147056597833e-06,
+  "reduced_chi2": 1.2738061424489162,
+  "implied_430MHz-only_delay_us": 0.08176832545927105,
+  "its_error_us": 0.09516335769383204,
+  "430-only_alternative_needs_us": 0.707,
+  "tension_sigma": 6.570088421556956
+ }
+}

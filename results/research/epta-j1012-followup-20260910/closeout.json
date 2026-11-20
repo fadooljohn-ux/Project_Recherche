@@ -1,0 +1,45 @@
+{
+  "status": "COMPLETE_NOT_CORROBORATED",
+  "target": "J1012+5307",
+  "scope": "Bounded native EPTA compatibility and fixed NG15 candidate-period comparison; no blind search",
+  "preparation01": "TIMING_MODEL_HOLD: one uncorrected effix arrival retained in original evidence",
+  "preparation02": "NATIVE_TIMING_COMPATIBLE: explicit single clock-coverage exclusion",
+  "comparison": "FIXED_PERIOD_COMPARISON_COMPLETE",
+  "toas": 5324,
+  "original_toas": 5325,
+  "current_grades": {
+    "statistical": "NOT_ESTABLISHED",
+    "robustness": "NOISE_SENSITIVE",
+    "independent_confirmation": "NOT_CORROBORATED"
+  },
+  "disposition": "INCONCLUSIVE_NOISE_SENSITIVE",
+  "source_hashes_verified": 71,
+  "unchanged_search_records": 356,
+  "observed_identities": 282,
+  "original_result_sha256": "da9fc747a4da30cb7af08fe6cad03e8b772f3a911b1bec65c621c3e475316870",
+  "evidence_sha256": {
+    "result.json": "4ddc5bc40a81d644d705f4a88cd219b56154d3fbc28cbd48929fb37f2203500e",
+    "comparison-freeze.json": "a89c860dc643d5fd6e952518f783286b25590e9756b5b446d50eb5e66e8247f6",
+    "assessments.json": "58bdd341caaf1e3eeb9517d6d12a41088a93e0f4bae8f85a1d96d95b06862f45",
+    "null-compatibility.json": "1d52e9a4ddab889f2bfc457fcd5f79a0ec1c8bb9a05122af5d3577a323c8c8d3",
+    "attempt02/timing.json": "d6d78abe524140974dfcee73180e3924d50e2a4a13f91386decc49d916d9bd20",
+    "attempt02/scope.json": "9f2328b6d69226c345039deb7db18bf2cd2576a46703d867fcd6a999e3506944",
+    "attempt02/clock-exclusions.json": "291148a12eea39ef27df3b0764ef03efebdf803b578d1201c5ac4fc1364f6013",
+    "attempt02/compatibility.json": "3e2d86fc040a3b0c5312debe906ced984babe5e4b130b0b6a9de879e19536b3d",
+    "attempt01/timing.json": "35fb5aba4475894172588f10b0b270aaa09040f29d6ba3b5926bedb8ec9d5e2b",
+    "attempt01/scope.json": "8959c2935ff8ce3e0cd26aa6cc3e73d90b98a527174c7c3ec2975dcf45b20f0b",
+    "attempt01/compatibility.json": "ea21958313c5aba8daca2047287f2c7ee1b72909015efa371222e2ca624d5fec",
+    "executed-code/epta_binary_followup.py.txt": "ab117b8a2ef1b21dc4cc10abe720df237b66ba3e45deba874907e411e648f02d"
+  },
+  "code_sha256": {
+    "tools/recherche": "c8072f68744d9a0c044a1bc06c61f3a8a03c5f19fb07ecd72705a7c7a1c58880",
+    "tools/epta_binary_export.py": "b6ae78e3194cc1a6692ac71c7b2d9220adfe5fb735f00714ce0fd605093119aa",
+    "tools/epta_binary_followup.py": "8dd5021658c5d2e0ce2265e166be13185964bd85f279db1b3af38078c33d9226",
+    "tools/epta_fixed_comparison.py": "97d5f83a20ce519fd3f971d77010c5ac7440e36ff917479cf7165e033f8d4edf",
+    "tools/epta_binary_reference.C": "f26f5cbfeeb0cfbc5f8280cd1c5ba8d2044e575f5458c032d37a007791f6ba71"
+  },
+  "external_evidence": "Original TOAs, native timing arrays, compiled plugin, logs and runtime remain in RECHERCHE_DATA; their hashes are bound by preparation receipts.",
+  "remaining": "No job active or new search queued. J0509+0856 is next in the bounded binary queue and requires new scope.",
+  "publication": "Local development only; no push or release",
+  "post_run_operator_change": "Reject an existing preparation before entering failure recording; verified exit 2 with every existing top-level artifact unchanged. Executed preparation code retained separately; no science rerun."
+}

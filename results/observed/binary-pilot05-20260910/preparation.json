@@ -1,0 +1,30 @@
+{
+  "held": [],
+  "observed_search_executed": false,
+  "results": [
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "3a7aa59cbb13832c16722badf12ae4b56af8f7f48433bcb39c7ba0e2357a2845",
+        "eligible_cells": 107,
+        "excluded_cells": 17,
+        "frequency_count": 124,
+        "median_worst_phase_amplitude_us": 7.729524530664062,
+        "observed_search_executed": false,
+        "path": "RECHERCHE_DATA/binary-pilot05-20260910/calibration-cache/3a7aa59cbb13832c16722badf12ae4b56af8f7f48433bcb39c7ba0e2357a2845",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J0509+0856",
+        "threshold": 18.850903503186256,
+        "timing_rank": 53
+      },
+      "conditional_injection_recovered": 91,
+      "conditional_injection_trials": 96,
+      "injection_scope": "Three eligible periods, two phases, 16 fixed-noise realizations each; diagnostic, not occurrence completeness",
+      "noiseless_relative_amplitude_error": 1.063541526889503e-15,
+      "profile_sha256": "57a9709bb9f8735ca07f11019e43699d32a4c2388c4ba13d5a197a2f805c32c1",
+      "target": "J0509+0856"
+    }
+  ],
+  "selection_sha256": "a2dc63c60a6b2ebf3daad93e30a82c85c372df046936ab51edb7d03c88ed99bf",
+  "status": "PREPARED"
+}

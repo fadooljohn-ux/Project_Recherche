@@ -1,0 +1,32 @@
+{
+  "binding_id": "recherche-environment-binding-20261116",
+  "bound": {
+    "macos": "27.2.1",
+    "python_executable_sha256": "dcde625543d188d73fdb7b67abb983294972ee31e5f798e6ede820d55becb6ce"
+  },
+  "checkout": ".",
+  "date": "2026-11-16",
+  "evidence": {
+    "path": "results/qualification/environment-binding-20261116.json",
+    "sha256": "53626997dd4c816e91f0a678fd9f4a8535571234711a8443f731d28296033bed"
+  },
+  "historical_host_qualification_transferred": false,
+  "owner_authorization": "Do the qualification binding.",
+  "schema_version": 1,
+  "status": "owner_authorized_host_binding",
+  "supersedes": {
+    "environment_manifest": "protocol/PILOT2_RUNTIME_ENVIRONMENT_MANIFEST_v0.2.8.json",
+    "environment_manifest_sha256": "7de148fe70b702293c6d97a891fe117023a3e74a8d0137ae0b2b312432cce633",
+    "macos": "26.6.2",
+    "python_executable_sha256": "93a407ec7f645575c3e7c0da3165c5e2aca5f07c5509c730313f1e6d38c9f4e9"
+  },
+  "unchanged": [
+    "python version",
+    "package closure (134)",
+    "critical modules",
+    "precision",
+    "environment-variable policy",
+    "repository lock files",
+    "qualified source (71 files)"
+  ]
+}

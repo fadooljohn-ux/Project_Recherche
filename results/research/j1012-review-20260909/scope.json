@@ -1,0 +1,24 @@
+{
+  "candidate_period_days": 138.9110415844769,
+  "family": [
+    "released30",
+    "red64",
+    "red128",
+    "red128_double_power",
+    "red128_chrom4"
+  ],
+  "influence": "Delete every observing-day TOA and corresponding DM rows; refit nuisance terms at the frozen candidate period; original and red128 covariance.",
+  "injections_each": 64,
+  "limits": "Conditional finite noise family, not global significance. Cross-source raw EPTA T2 H3/H4 model needs unsupported orthometric Shapiro preparation; no independent fit claimed.",
+  "noise_policy": "Keep released red amplitude/slope; extend 30 modes to 64/128, double red power at 128, or add 0.3 us RMS nu^-4 timing covariance at 1400 MHz with 100-day exponential correlation. No fitted noise selection.",
+  "nulls_each": 512,
+  "observed_sha256": "dc89f61f866731b09b30b599a462d71e11227c842df95f4d10879460f65d73df",
+  "original_result_sha256": "da9fc747a4da30cb7af08fe6cad03e8b772f3a911b1bec65c621c3e475316870",
+  "periodogram_sha256": "ebabebd757b660bcb7ad21f3a56d4c1f04b5d0a19ed15384f887dff8046ae167",
+  "profile_sha256": "db3dd8f35161ff74af82aadd7ab30e281275005dc5b8bc86999a8e982cc3cd03",
+  "review_code_sha256": "c610f1b0066d952fc79174414e206a698a8844e32dfd16c25ebdf34b6f0bd9f5",
+  "seed": 2026093300,
+  "simulation_policy": "Each model analyzed separately; all original eligible periods scanned for every null/injection; original-period statistic compared with null maxima. Report largest per-model plus-one tail without pooling.",
+  "subsets": "Full, first/second temporal halves, below/above 1000 MHz, GASP/GUPPI; joint TOA+DM rows retained; original and red128 covariances.",
+  "target": "J1012+5307"
+}

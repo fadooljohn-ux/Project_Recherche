@@ -1,0 +1,323 @@
+{
+  "best_grid_noise_orbital_fit": {
+    "coefficients_us": [
+      0.7916175708780792,
+      -1.3600405494038679,
+      -3.344281756267818,
+      0.007635196770201437,
+      -0.446874976442756,
+      1.667746271957438,
+      0.8011669260629559,
+      -0.3918344005334496,
+      0.4385652513762365,
+      -1.5911902809440586
+    ],
+    "columns": 10,
+    "conditional_chi2_tail": 0.004063169794992024,
+    "conditional_errors_us": [
+      4.083837689372728,
+      1.4025207031386633,
+      1.342852220304228,
+      3.0460583071216183,
+      2.13980457745086,
+      1.200388283915853,
+      0.8080867874237508,
+      1.2100591960498586,
+      0.7295211894108021,
+      0.6549281836640878
+    ],
+    "delta_chi2": 25.76930181698314,
+    "normalized_condition": 21.049215673914237,
+    "rank": 10
+  },
+  "best_noise_grid_member": {
+    "gamma": 1.5,
+    "improvement": 16.99108165199948,
+    "objective": 145.97298734681388,
+    "rms_us": 2.0
+  },
+  "bindings": {
+    "joint_noise": "96313f340b97e01dc18efb3a4511415f7f00f7a473ef359d9047318d56e721ae",
+    "mpta_batch": "fb54f8f9f06eaf5937009ca24860e5af5a4bd9d4e10ebfbf3c7b86eb44111b7a",
+    "observed": "ad957d6aa27b83a415cd81e2f0f3a431f843407b33714004ce9d87e250648e1f",
+    "phase": "3574724fad161256643bc8c28b6e51290fde7f5309141ce82eb8531e361f035d",
+    "profile": "65221fa075997f77c80ada661f43df9e660d4f6f9c2a6d614d76295d7e4bc9e9",
+    "receipt": "41089a21940fc210c5a22763a245002d6fafa3d40891b5b3a6ff0a029a0dc0e8",
+    "script": "752b0a4ff2f1b6090c8a3ed58c176764d0373da8852e74888d939b84b04be50f",
+    "selection": "331d6764a95009463d1240f7b52786ca5a33f34ea7e03b99f20a1ae09a7c78e8"
+  },
+  "calibration_executed": false,
+  "conditional_null_tail": 0.020054988937918735,
+  "discarded_fixed_noise_dimension": 79,
+  "holds": [
+    "OMITTED_ORBITAL_STRUCTURE_HOLD",
+    "WIDEBAND_NOISE_MODEL_HOLD",
+    "NOISE_GRID_BOUNDARY_HOLD"
+  ],
+  "limitations": "Fixed white/DM noise and linear timing nuisance projection. Finite red grid is not a posterior or calibrated model-selection significance; phase harmonics are diagnostics, not physical Shapiro inference. Synthetic unit-amplitude leakage does not bound a physical omitted delay. No observed planet-period scan.",
+  "noise_contrast_dimension": 107,
+  "noise_grid": [
+    {
+      "gamma": null,
+      "improvement": 0.0,
+      "objective": 162.96406899881336,
+      "rms_us": 0.0
+    },
+    {
+      "gamma": 1.5,
+      "improvement": 0.7123187453806565,
+      "objective": 162.2517502534327,
+      "rms_us": 0.25
+    },
+    {
+      "gamma": 1.5,
+      "improvement": 2.6185343164037818,
+      "objective": 160.34553468240958,
+      "rms_us": 0.5
+    },
+    {
+      "gamma": 1.5,
+      "improvement": 8.022258824974244,
+      "objective": 154.94181017383912,
+      "rms_us": 1.0
+    },
+    {
+      "gamma": 1.5,
+      "improvement": 16.99108165199948,
+      "objective": 145.97298734681388,
+      "rms_us": 2.0
+    },
+    {
+      "gamma": 3.0,
+      "improvement": 0.4271517482489742,
+      "objective": 162.5369172505644,
+      "rms_us": 0.25
+    },
+    {
+      "gamma": 3.0,
+      "improvement": 1.4831824090148018,
+      "objective": 161.48088658979856,
+      "rms_us": 0.5
+    },
+    {
+      "gamma": 3.0,
+      "improvement": 3.950131808210699,
+      "objective": 159.01393719060266,
+      "rms_us": 1.0
+    },
+    {
+      "gamma": 3.0,
+      "improvement": 6.975667295535544,
+      "objective": 155.98840170327782,
+      "rms_us": 2.0
+    },
+    {
+      "gamma": 4.33,
+      "improvement": 0.38959270614805064,
+      "objective": 162.5744762926653,
+      "rms_us": 0.25
+    },
+    {
+      "gamma": 4.33,
+      "improvement": 1.3425035993512608,
+      "objective": 161.6215653994621,
+      "rms_us": 0.5
+    },
+    {
+      "gamma": 4.33,
+      "improvement": 3.5056123347188475,
+      "objective": 159.4584566640945,
+      "rms_us": 1.0
+    },
+    {
+      "gamma": 4.33,
+      "improvement": 6.043372698033323,
+      "objective": 156.92069630078004,
+      "rms_us": 2.0
+    }
+  ],
+  "null_chi2": 227.6969096060889,
+  "null_dof": 186,
+  "observed_outer_periodogram_computed": false,
+  "orbital_labels": [
+    "sin3",
+    "cos3",
+    "sin4",
+    "cos4",
+    "sin5",
+    "cos5",
+    "sin6",
+    "cos6",
+    "sin7",
+    "cos7"
+  ],
+  "phase_cut": {
+    "histogram_20_bins": [
+      16,
+      7,
+      8,
+      0,
+      0,
+      0,
+      0,
+      9,
+      6,
+      14,
+      5,
+      8,
+      9,
+      2,
+      5,
+      5,
+      5,
+      4,
+      10,
+      13
+    ],
+    "range": [
+      0.15,
+      0.35
+    ],
+    "retained_TOAs_in_range": 0
+  },
+  "released_noise_orbital_fit": {
+    "coefficients_us": [
+      2.1999472830510225,
+      -1.5290613188222277,
+      -4.0439949774055455,
+      -0.6569786895382335,
+      -1.4193671251617517,
+      2.0184801273291755,
+      1.1586563322087886,
+      -0.19386171682303804,
+      0.5116748971885613,
+      -1.897122596689296
+    ],
+    "columns": 10,
+    "conditional_chi2_tail": 1.2966799396013307e-05,
+    "conditional_errors_us": [
+      3.8705401117108207,
+      1.3129715329881706,
+      1.2275516907451407,
+      2.8724460385316117,
+      2.011389192383044,
+      1.1053311402685515,
+      0.7258168614234475,
+      1.1347978719999838,
+      0.67802851413909,
+      0.5800990553487714
+    ],
+    "delta_chi2": 40.65872292164707,
+    "normalized_condition": 25.654423964525183,
+    "rank": 10
+  },
+  "settings": {
+    "criterion": "Conditional preparation diagnostics, not a noise posterior or signal significance. Retain hold if fixed-noise harmonic adequacy fails at p<0.0027 or a declared noise alternative improves timing-marginalized null objective by more than 10. Boundary optima flag insufficient noise scope. No observed outer-period scan.",
+    "orbital_harmonics": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "red_gamma": [
+      1.5,
+      3.0,
+      4.33
+    ],
+    "red_modes": 64,
+    "red_rms_us": [
+      0.25,
+      0.5,
+      1.0,
+      2.0
+    ],
+    "synthetic_harmonic_amplitude_us": 1.0
+  },
+  "shortest_red_period_days": 19.728499186949193,
+  "status": "PREPARATION_ADEQUACY_HOLD",
+  "synthetic_grid": {
+    "algorithm": "linear_frequency_independent_bin_oversampling",
+    "frequency_count": 202,
+    "frequency_step_per_day": 0.00015840029038130036,
+    "maximum_frequency_per_day": 0.03333333333333333,
+    "maximum_period_days": 631.3119739823742,
+    "minimum_frequency_per_day": 0.0015840029038130035,
+    "minimum_period_days": 30.0,
+    "oversampling": 5,
+    "span_days": 1262.6239479647484
+  },
+  "synthetic_leakage": [
+    {
+      "harmonic": "sin3",
+      "injected_amplitude_us": 1.0,
+      "maximum_synthetic_delta_chi2": 1.578328998660158,
+      "projected_norm_squared": 4.524618267001427,
+      "synthetic_peak_period_days": 90.1874248546249
+    },
+    {
+      "harmonic": "cos3",
+      "injected_amplitude_us": 1.0,
+      "maximum_synthetic_delta_chi2": 6.5508444288954895,
+      "projected_norm_squared": 9.610622089877939,
+      "synthetic_peak_period_days": 92.83999617387856
+    },
+    {
+      "harmonic": "sin4",
+      "injected_amplitude_us": 1.0,
+      "maximum_synthetic_delta_chi2": 3.1623080798846743,
+      "projected_norm_squared": 7.757071378936542,
+      "synthetic_peak_period_days": 35.8699985217258
+    },
+    {
+      "harmonic": "cos4",
+      "injected_amplitude_us": 1.0,
+      "maximum_synthetic_delta_chi2": 3.484219495421476,
+      "projected_norm_squared": 9.14533967574325,
+      "synthetic_peak_period_days": 140.2915497738609
+    },
+    {
+      "harmonic": "sin5",
+      "injected_amplitude_us": 1.0,
+      "maximum_synthetic_delta_chi2": 4.907730118138131,
+      "projected_norm_squared": 9.734258243517,
+      "synthetic_peak_period_days": 94.2256677585633
+    },
+    {
+      "harmonic": "cos5",
+      "injected_amplitude_us": 1.0,
+      "maximum_synthetic_delta_chi2": 6.4315564556504174,
+      "projected_norm_squared": 12.555962076644308,
+      "synthetic_peak_period_days": 44.14769048827791
+    },
+    {
+      "harmonic": "sin6",
+      "injected_amplitude_us": 1.0,
+      "maximum_synthetic_delta_chi2": 7.577092188697849,
+      "projected_norm_squared": 19.586841631859617,
+      "synthetic_peak_period_days": 33.402749946157364
+    },
+    {
+      "harmonic": "cos6",
+      "injected_amplitude_us": 1.0,
+      "maximum_synthetic_delta_chi2": 5.12717612288983,
+      "projected_norm_squared": 16.86296694963756,
+      "synthetic_peak_period_days": 110.7564866635744
+    },
+    {
+      "harmonic": "sin7",
+      "injected_amplitude_us": 1.0,
+      "maximum_synthetic_delta_chi2": 5.173324085158935,
+      "projected_norm_squared": 11.765883180593546,
+      "synthetic_peak_period_days": 95.65332939126881
+    },
+    {
+      "harmonic": "cos7",
+      "injected_amplitude_us": 1.0,
+      "maximum_synthetic_delta_chi2": 2.7898414213643634,
+      "projected_norm_squared": 10.462718386857114,
+      "synthetic_peak_period_days": 46.41999808693927
+    }
+  ],
+  "target": "J1802-2124"
+}

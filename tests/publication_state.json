@@ -1,0 +1,8 @@
+{
+  "reason": "These tests verify SHA-256 bindings of files whose bytes are changed by publication redaction (personal paths replaced). They pass on the private archive and are deselected only when publication-manifest.json is present. See docs/PUBLICATION_PROVENANCE.md.",
+  "tests": [
+    "tests/test_environment_binding.py::test_committed_binding_matches_the_frozen_manifest",
+    "tests/test_pilot2_controls_v028.py::test_repository_execution_gate_is_locked_before_execution_freeze",
+    "tests/test_pilot2_controls_v028.py::test_zero_case_dry_run_uses_only_temporary_root"
+  ]
+}

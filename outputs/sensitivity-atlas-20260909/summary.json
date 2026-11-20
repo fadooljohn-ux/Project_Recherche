@@ -1,0 +1,59 @@
+{
+  "schema": "recherche-sensitivity-atlas-v1",
+  "master_sha256": "d3774beb5ec634f2fcba1859450c5e9bc755b0fa8954fcbe0b03fc0a334e61e2",
+  "host_mass_solar": 1.4,
+  "definition": "95% detection probability at the injected grid frequency, circular orbit, phase extrema, fixed supplied noise and linear timing model",
+  "limitations": [
+    "Not a posterior mass upper limit or occurrence-rate estimate.",
+    "Unknown inclination permits a larger true mass.",
+    "Shared observations and repeated identities are not independent trials.",
+    "Masked cells have no sensitivity estimate; off-grid/eccentric sensitivity is not measured."
+  ],
+  "dataset_searches": 342,
+  "unique_targets": 273,
+  "excluded_records": [
+    {
+      "record_id": "COMPANION-J1719-1438-run01",
+      "reason": "NO_STANDARD_SAVED_CURVE; benchmark or legacy search"
+    },
+    {
+      "record_id": "COMPANION-J2322-2650-run01",
+      "reason": "NO_STANDARD_SAVED_CURVE; benchmark or legacy search"
+    },
+    {
+      "record_id": "COMPANION-J1544+4937-run01",
+      "reason": "NO_STANDARD_SAVED_CURVE; benchmark or legacy search"
+    },
+    {
+      "record_id": "B1937-20260908-01",
+      "reason": "NO_STANDARD_SAVED_CURVE; benchmark or legacy search"
+    },
+    {
+      "record_id": "B1257-run01",
+      "reason": "NO_STANDARD_SAVED_CURVE; benchmark or legacy search"
+    },
+    {
+      "record_id": "B1257-refinement01",
+      "reason": "NO_STANDARD_SAVED_CURVE; benchmark or legacy search"
+    },
+    {
+      "record_id": "pta-campaign01-20260908-epta-J1730-2304-run01",
+      "reason": "SUPERSEDED_INVALID_IMPORT"
+    },
+    {
+      "record_id": "pta-campaign01-20260908-epta-J1744-1134-run01",
+      "reason": "SUPERSEDED_INVALID_IMPORT"
+    },
+    {
+      "record_id": "pta-campaign01-20260908-epta-J1911+1347-run01",
+      "reason": "SUPERSEDED_INVALID_IMPORT"
+    }
+  ],
+  "scientific_runs_executed": 0,
+  "artifact_sha256": {
+    "atlas.json": "7d9a447c24c6fc2042b2354d9d9b45c3be1b866acaf481d0d6a6d48a3caa7f87",
+    "index.html": "c79c50b8fc372bab165e6bdc01b6d6e34a141b4c9df4765c3b51f1ca17511acc",
+    "sensitivity-cells.csv.gz": "2ae18f0a6d704c78e446a4c3fe75480b248630bf5bcbcda8ddfc644b763ae73e",
+    "sensitivity-overview.png": "8604ba84f396594b4f15654b5c3469e66ec2c9182a264fcaa326a38d35d5beb5"
+  }
+}

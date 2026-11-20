@@ -1,0 +1,58 @@
+{
+  "status": "CLOSED_ALL_SELECTED_HELD",
+  "inventoried_remaining_exclusions": 48,
+  "inventory_excluded": 45,
+  "selected": 3,
+  "compatible": 0,
+  "held": 3,
+  "observed_searches": 0,
+  "calibration_runs": 0,
+  "new_candidates": 0,
+  "rows": [
+    {
+      "target": "J0740+6620",
+      "status": "HELD_MODEL_NONLINEARITY",
+      "step_in_parameter_units": 0.00033759891811911637,
+      "relative_derivative_error": 7.325405324399884e-06,
+      "maximum_nonlinearity_in_TOA_sigma": 0.923575266881042,
+      "accepted_maximum_nonlinearity_in_TOA_sigma": 0.1,
+      "evidence": "results/observed/binary-pilot02-20260909/J0740+6620/prepared/failure.json",
+      "evidence_sha256": "ea237dd6c4f059a29ee569775a31917e3d8fddadd61b40e1986e39a5b9646b17"
+    },
+    {
+      "target": "J1857+0943",
+      "status": "HELD_MODEL_NONLINEARITY",
+      "step_in_parameter_units": 0.0006058312722153181,
+      "relative_derivative_error": 7.938695908510462e-06,
+      "maximum_nonlinearity_in_TOA_sigma": 0.40103383766506356,
+      "accepted_maximum_nonlinearity_in_TOA_sigma": 0.1,
+      "evidence": "results/observed/binary-pilot02-20260909/J1857+0943/prepared/failure.json",
+      "evidence_sha256": "0c82e8b7a5dfe42be22db85b33e5bb1f2d73e7407f128141631b8e40572dc20a"
+    },
+    {
+      "target": "J2043+1711",
+      "status": "HELD_MODEL_NONLINEARITY",
+      "step_in_parameter_units": 0.0031891555504500206,
+      "relative_derivative_error": 6.928063138841605e-06,
+      "maximum_nonlinearity_in_TOA_sigma": 1.8142353543833627,
+      "accepted_maximum_nonlinearity_in_TOA_sigma": 0.1,
+      "evidence": "results/observed/binary-pilot02-20260909/J2043+1711/prepared/failure.json",
+      "evidence_sha256": "be90d5ff614c2ae4cdbd0115af389f00f72c358d781afa560ab5b79ea8ad8dec"
+    }
+  ],
+  "numerical_derivative_checks_passed": true,
+  "model": "Published ELL1; same local linearity requirement as pilot01",
+  "new_numerical_model_implemented": false,
+  "selection_count": 3,
+  "selection_sha256": "d534495ae75baafa9c33782e6c9eb3e29e341f2e6f0954a5ce7e89f139de3f10",
+  "adapter_sha256": "b7515801b23359da67b8f8979b6e21a3b84d017e8539c197d0f7958ddacd0e6e",
+  "master_before_sha256": "f2dc316ddadb67b31c907c49d5ac1313f8bf100a10699ae1acfce768134ab4ec",
+  "original_pilot_preserved": true,
+  "artifacts": {
+    "selection.json": "d534495ae75baafa9c33782e6c9eb3e29e341f2e6f0954a5ce7e89f139de3f10",
+    "inventory-and-selection.json": "432a0137f7e0c194506cd22656fb746103119544d6a71d88895ebb9cf0c106e5",
+    "J2043+1711/prepared/failure.json": "be90d5ff614c2ae4cdbd0115af389f00f72c358d781afa560ab5b79ea8ad8dec",
+    "J0740+6620/prepared/failure.json": "ea237dd6c4f059a29ee569775a31917e3d8fddadd61b40e1986e39a5b9646b17",
+    "J1857+0943/prepared/failure.json": "0c82e8b7a5dfe42be22db85b33e5bb1f2d73e7407f128141631b8e40572dc20a"
+  }
+}

@@ -5,9 +5,10 @@ import numpy as np
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+from recherche_common import DATA_ROOT
 R=Path(__file__).resolve().parents[1]
 E=R/'results/research/j1752-focused-review-20260909'
-D=R.parent/'Project Recherche Data/j1752-focused-review-20260909'
+D=DATA_ROOT / 'j1752-focused-review-20260909'
 O=R/'output/pdf/j1752-figures';O.mkdir(parents=True,exist_ok=True)
 j=json.loads((E/'joint.json').read_text());n=json.loads((E/'null-generators.json').read_text());p=json.loads((E/'propagation.json').read_text())
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.spines.top':False,'axes.spines.right':False,'savefig.dpi':180})

@@ -1,0 +1,32 @@
+{
+  "status": "PREPARATION_VERIFIED_READY_FOR_CALIBRATION",
+  "target": "J2145-0750",
+  "binary_model": "ELL1H",
+  "shapiro_mode": "h3_only",
+  "date": "2026-09-10",
+  "preparation_attempts": 1,
+  "preparation_failures": 0,
+  "receipt_sha256": "85a50cc3dc8626082c85dfb12822052e2197b1235ad4281162004857c8f26feb",
+  "profile_sha256": "d4683653b47a6026db59732e234bf5099b821a980c9281ed260f5ecb9fca9442",
+  "adapter_sha256": "78eec2ad77ab4e96be7c83f84e6540ca67beb44c530a5720b4d2cce9cc04e8ed",
+  "previous_adapter_sha256": "2d0697fe759bfa7c50f34731002a615cb836fce5363a183160f4934087297ac3",
+  "regression_tests": {
+    "file": "tests/test_binary_h3_adapter.py",
+    "passed": 11,
+    "failed": 0
+  },
+  "publication_source_hashes_verified": 71,
+  "registered_targets": 783,
+  "observed_identities": 284,
+  "search_refinement_records": 358,
+  "candidate_grades": 8,
+  "calibration_executed": false,
+  "observed_search_executed": false,
+  "next_recommended_scope": "Calibrate J2145 threshold, annual/projection mask and conditional sensitivity on the preserved profile; perform existing bounded injections. Observed launch remains a subsequent step.",
+  "limitations": [
+    "Fixed released red amplitude/slope extrapolated to 128 Fourier modes, not a noise posterior.",
+    "Linear preparation at released model; no full nonlinear timing solution or general ELL1H qualification.",
+    "No sensitivity, threshold, mask or observed planet result yet.",
+    "J2317 preparation, J1802 model clarification and four earlier nonlinear holds remain separate."
+  ]
+}

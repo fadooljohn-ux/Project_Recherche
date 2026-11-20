@@ -1,0 +1,14 @@
+{
+  "archived_preparation_sha256": "52af6325307ac11f71f8096ff44fdcbbf3081b5459952ab3b7a507d053241b26",
+  "calibration_artifacts": {
+    "calibration-receipt.json": "e777f85ea127e017f007ab7f6f36be84e92d898cf3917612ab9f9492a4f7192f",
+    "calibration.json": "7f49ea72897723e34622a48ebfa2e2438096e1b343c093bd88ed59fc3d39ee94",
+    "null-maxima.npy": "15d9d608f331948ac02fc06f75dabb17b7e76f56404a2af829a5fda85c50dbf3",
+    "preparation.json": "52af6325307ac11f71f8096ff44fdcbbf3081b5459952ab3b7a507d053241b26",
+    "projection-and-sensitivity.npz": "4e707a412d2de0c746e5a93bc594b3122db4f583b2ede89d2b0259e5805eecf7"
+  },
+  "external_data_directory": "RECHERCHE_DATA/ell1h-j2145-preparation-20260910",
+  "original_preparation_sha256": "f40ac73036e4ed13d0d18ffa1440acab3cab6d665e151d4c39f345d518a18e9e",
+  "path_normalization_only": true,
+  "prior_profile_and_preparation_preserved": true
+}

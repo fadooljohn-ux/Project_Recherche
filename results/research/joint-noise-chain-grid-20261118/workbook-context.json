@@ -1,0 +1,14 @@
+{
+ "evidence": "results/research/joint-noise-chain-grid-20261118/closeout.json",
+ "entries": [
+  [
+   "joint-noise-chain-grid-20261118",
+   "Implementation",
+   "Second-stage joint-noise test; chain-bounded noise grid (J1453+1902, simulated data)",
+   "VERIFIED",
+   "Owner instruction 'Proceed with narrowing the noise grid to further boost recovery'. Optional chain_bound drops red members above the released chain's 99th-percentile amplitude at each slope (J1453: 8 of 20 red members). No long-period gain: 4.3 times the ideal amplitude at 1279 d with a comparable threshold against 4.0 for the wide grid; only a family with no red members recovers (1.5), which is the fixed-noise assumption. As calibrated the threshold rises to 33.87 because chain draws with slope below 1 and large amplitude are outside the grid.",
+   "Not adopted; option off by default. No observed residuals read; nothing frozen or run. Chain generator pairs red draws with released white noise and overstates total noise. J1453's consumed wide-grid threshold was not calibrated against chain draws; its below-threshold outcome does not depend on it."
+  ]
+ ],
+ "target_updates": []
+}

@@ -1,0 +1,26 @@
+{
+  "before_sha256": "f9fc6c996f4fd656ac1f5c932b56927e2f28ffb674c55f0dfd50da42b5d6bb3b",
+  "after_sha256": "ebd154c84a88a957540b49db0982587611b7d4827c0b1ba57927ef64e0c2d51a",
+  "registered_targets": 783,
+  "observed_identities": 281,
+  "search_records": 355,
+  "preserved_prior_search_rows": 353,
+  "preserved_prior_candidate_grades": 7,
+  "appended_search_rows": 2,
+  "appended_work_log_rows": 4,
+  "candidate_review_completed": "J1012+5307",
+  "preserved_operator_notes": true,
+  "workbook_backend": "Artifact-tool authoring with exact historical numeric preservation",
+  "run_updates": [
+    {
+      "previous_sha256": "f9fc6c996f4fd656ac1f5c932b56927e2f28ffb674c55f0dfd50da42b5d6bb3b",
+      "sha256": "b4203f5aaf4ac8dcd7f6315d8a80086914edb23099c70326af334169bc0081e9",
+      "preserved_existing_records": true
+    },
+    {
+      "previous_sha256": "b4203f5aaf4ac8dcd7f6315d8a80086914edb23099c70326af334169bc0081e9",
+      "sha256": "336223b8ef38e0ba00b2219a3987d40c071892afb9ed0e167f8e5cda774d47bf",
+      "preserved_existing_records": true
+    }
+  ]
+}

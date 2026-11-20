@@ -1,0 +1,131 @@
+{
+ "evidence": "results/research/held-nonlinear-20261117/closeout.json",
+ "entries": [
+  [
+   "held-nonlinear-20261117-J0740+6620-verification",
+   "Synthetic verification",
+   "J0740+6620; simulated data only",
+   "NONLINEAR_STATISTIC_VERIFIED",
+   "Surrogate 190 terms, error 0.00006 max; statistic within 0.00001 of native reference; 0 unconverged of 512 nulls x 233 periods; 20/20 strong injections located. 0.72 s per vector.",
+   "No threshold, mask, sensitivity or observed scan."
+  ],
+  [
+   "held-nonlinear-20261117-J0740+6620-preparation",
+   "Nonlinear preparation",
+   "J0740+6620",
+   "NONLINEAR_PREPARATION_COMPATIBLE",
+   "Eight orbit terms (PBDOT added), 5 published sigma. Observed null fit chi2 601.348/592; fast and native agree to 3.9e-6; orbit 4.32 sigma from nearest bound. No released red component. Pilot02 hold preserved.",
+   "Profile saved; no outer-period scan."
+  ],
+  [
+   "held-nonlinear-20261117-J0740+6620-calibration",
+   "Threshold / mask / sensitivity",
+   "J0740+6620",
+   "CALIBRATED_AND_FROZEN",
+   "Threshold 22.309642 (union bound; empirical 18.489080 from 4096 nulls). 222/233 eligible, 47.7-1152.5 d; annual and half-year cells excluded. Median worst-phase 95% amplitude 0.443 us. 94/96 injections recovered.",
+   "Execution frozen; owner had already authorized one observed run."
+  ],
+  [
+   "held-nonlinear-20261117-J0740+6620-run01",
+   "Observed search",
+   "J0740+6620",
+   "NO_TRIGGER",
+   "Owner instruction 'Once complete launch' on 2026-11-17. Peak statistic 8.191 at 62.98 d (amplitude 0.189 us) against threshold 22.309642; 222/233 eligible cells; 65.9% of 4096 simulated nulls have a larger maximum. Orbits inside the domain. Fixed released noise.",
+   "run01 consumed; do not rerun."
+  ],
+  [
+   "held-nonlinear-20261117-J2043+1711-verification",
+   "Synthetic verification",
+   "J2043+1711; simulated data only",
+   "NONLINEAR_STATISTIC_VERIFIED",
+   "Surrogate 190 terms, error 0.00001 max; statistic within 0.00001 of native reference; 0 unconverged of 512 nulls x 542 periods; 20/20 strong injections located. 1.66 s per vector.",
+   "No threshold, mask, sensitivity or observed scan."
+  ],
+  [
+   "held-nonlinear-20261117-J2043+1711-preparation",
+   "Nonlinear preparation",
+   "J2043+1711",
+   "NONLINEAR_PREPARATION_COMPATIBLE",
+   "Eight orbit terms (PBDOT added), 5 published sigma. Observed null fit chi2 714.392/676; fast and native agree to 8.0e-6; orbit 4.45 sigma from nearest bound. No released red component. Pilot02 hold preserved.",
+   "Profile saved; no outer-period scan."
+  ],
+  [
+   "held-nonlinear-20261117-J2043+1711-calibration",
+   "Threshold / mask / sensitivity",
+   "J2043+1711",
+   "CALIBRATED_AND_FROZEN",
+   "Threshold 23.998097 (union bound; empirical 20.457685 from 4096 nulls). 530/542 eligible, 30.0-1653.0 d; annual and half-year cells excluded. Median worst-phase 95% amplitude 0.129 us. 94/96 injections recovered.",
+   "Execution frozen; owner had already authorized one observed run."
+  ],
+  [
+   "held-nonlinear-20261117-J2043+1711-run01",
+   "Observed search",
+   "J2043+1711",
+   "PERIODIC_SIGNAL_CANDIDATE",
+   "Owner instruction 'Once complete launch' on 2026-11-17. Peak statistic 26.871 at 37.482 d (amplitude 0.089 us) against threshold 23.998097; three adjacent cells above threshold (one peak); 0 of 4096 simulated nulls reach it. Orbits inside the domain. Fixed released white-only noise. A crossing is a candidate for review, not a detection.",
+   "run01 consumed; do not rerun. Reviewed: see the J2043 review row and Candidate grades."
+  ],
+  [
+   "held-nonlinear-20261117-J0613-0200-verification",
+   "Synthetic verification",
+   "J0613-0200; simulated data only",
+   "NONLINEAR_STATISTIC_VERIFIED",
+   "Second attempt after raising the fit iteration limit from 60 to 200 (first held: UNCONVERGED_CELLS, one null fit needed 61). Surrogate 259 terms, error 0.0196 max (limit 0.02); statistic within 0.0008 of native reference; 0 unconverged of 512 nulls x 903 periods; 0.86% of cells on a bound; 20/20 strong injections located. 3.68 s per vector.",
+   "No threshold, mask, sensitivity or observed scan."
+  ],
+  [
+   "held-nonlinear-20261117-J0613-0200-preparation",
+   "Nonlinear preparation",
+   "J0613-0200",
+   "NONLINEAR_PREPARATION_COMPATIBLE",
+   "Eight orbit terms, 5 published sigma cut at declared physical floors (M2 >= 0, cos i >= 0.05). Observed null fit chi2 656.693/653; fast and native agree to 1.1e-7; orbit 3.60 sigma from nearest bound. Released red noise extended from 30 to 256 modes. Pilot02 hold preserved.",
+   "Profile saved; no outer-period scan."
+  ],
+  [
+   "held-nonlinear-20261117-J0613-0200-calibration",
+   "Threshold / mask / sensitivity",
+   "J0613-0200",
+   "CALIBRATED_AND_FROZEN",
+   "Threshold 25.019010 (union bound; empirical 21.301753 from 4096 nulls). 891/903 eligible, 30-2000 d; annual and half-year cells excluded. Median worst-phase 95% amplitude 0.294 us. 92/96 injections recovered. 18 of 4096 null fits ended on a domain bound.",
+   "Execution frozen; owner had already authorized one observed run."
+  ],
+  [
+   "held-nonlinear-20261117-J0613-0200-run01",
+   "Observed search",
+   "J0613-0200",
+   "NO_TRIGGER",
+   "Owner instruction 'Once complete launch' on 2026-11-17. Peak statistic 14.391 at 41.45 d (amplitude 0.169 us) against threshold 25.019010; 891/903 eligible cells; 20.2% of 4096 simulated nulls have a larger maximum. Orbits inside the domain. Fixed released noise.",
+   "run01 consumed; do not rerun."
+  ],
+  [
+   "j2043-review-20261118",
+   "Candidate review",
+   "J2043+1711; 37.48 d crossing",
+   "INCONCLUSIVE_NOISE_SENSITIVE",
+   "Owner instruction 'Assign a subagent to conduct further review for J2043'. Released par noise is the chain maximum-posterior sample without its red term; restoring it gives 18.18; over 500 joint white+red chain samples median 19.2, 91% below threshold. Reproduced independently (26.87); coherent across time splits; in narrowband TOAs of the same observations (23.54); not in DMX; daily aliases fit nearly as well; Arecibo only. Review by subagent; numbers not independently rerun by the recording agent.",
+   "Graded in Candidate grades. Independent confirmation needs other-telescope TOAs, not on disk. Owner decision open: noise-marginalised statistic."
+  ]
+ ],
+ "target_updates": [
+  {
+   "target": "J0740+6620",
+   "next_step": "Nonlinear search ran once 2026-11-18 UTC: NO_TRIGGER (Work log held-nonlinear-20261117-J0740+6620-run01). Do not rerun; new data or scope needs a new ID.",
+   "dataset_status": "NG15 NONLINEAR_SEARCHED_ONCE"
+  },
+  {
+   "target": "J2043+1711",
+   "next_step": "Nonlinear search ran once 2026-11-18 UTC: PERIODIC_SIGNAL_CANDIDATE (Work log held-nonlinear-20261117-J2043+1711-run01). Do not rerun; new data or scope needs a new ID. Candidate graded INCONCLUSIVE_NOISE_SENSITIVE; independent telescope data needed.",
+   "dataset_status": "NG15 NONLINEAR_SEARCHED_ONCE"
+  },
+  {
+   "target": "J0613-0200",
+   "next_step": "Nonlinear search ran once 2026-11-18 UTC: NO_TRIGGER (Work log held-nonlinear-20261117-J0613-0200-run01). Do not rerun; new data or scope needs a new ID.",
+   "dataset_status": "NG15 NONLINEAR_SEARCHED_ONCE"
+  },
+  {
+   "target": "J1857+0943",
+   "next_step": "Nonlinear search ran once 2026-11-17: NO_TRIGGER (Work log j1857-nonlinear-20261117-observed). Do not rerun; new data or scope needs a new ID.",
+   "dataset_status": "NG15 NONLINEAR_SEARCHED_ONCE"
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "WORKBOOK_CLOSEOUT_VERIFIED",
+  "before_sha256": "72fc949ea7d8e7a3ba78a84b6e358f822db58b69e0f4a8a852adcf13f0d2604d",
+  "after_sha256": "f29ee580b7a83229d2ed5ee2087354838d5e5b4df34f1ef23713c9a76aeefe00",
+  "historical_cells_preserved": 26240,
+  "work_log_rows_appended": 3,
+  "search_refinement_records": 359,
+  "observed_identities": 285,
+  "candidate_grades": 8,
+  "publication_source_hashes_verified": 71,
+  "new_preparations": 0,
+  "new_calibrations": 1,
+  "new_observed_searches": 0
+}

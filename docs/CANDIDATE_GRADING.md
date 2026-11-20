@@ -48,15 +48,36 @@ raise a grade. Grading itself launches no simulations or searches; bounded revie
 
 | Candidate | Statistical significance | Conditional diagnostic tail | Robustness | Independent confirmation |
 |---|---|---:|---|---|
-| J1453+1902, NG15 | Not established | 47/513 = 9.2% | Noise-sensitive | Unavailable; alternate reduction shares observations |
-| J1939+2134, InPTA, 567 days | Not established | 41/513 = 8.0% | Noise-sensitive | Not corroborated by overlapping PPTA data |
-| J1327-6222, UTMOST | Not established | 512/513 = 99.8% | Noise-sensitive | Underpowered TPA comparison, 11.7% conditional detection power |
-| J1359-6038, UTMOST | Not established | 481/513 = 93.8% | Noise-sensitive | Not corroborated; TPA conditional power 91.2% |
-| J0908-4913, UTMOST | Not established | 496/513 = 96.7% | Noise-sensitive | Not corroborated; TPA conditional power 79.4% |
-| J1048-5832, UTMOST | Not established | 513/513 = 100% | Noise-sensitive | Underpowered; TPA conditional power 2.8% |
+| J1453+1902, NG15 | Not established | 47/1025 = 4.6% | Noise-sensitive | Unavailable; alternate reduction shares observations |
+| J1939+2134, InPTA, 567 days | Not established | 813/1025 = 79.3% | Noise-sensitive | Not corroborated by overlapping PPTA data |
+| J1327-6222, UTMOST | Not established | 1007/1025 = 98.2% | Noise-sensitive | Underpowered TPA comparison, 11.7% conditional detection power |
+| J1359-6038, UTMOST | Not established | 241/1025 = 23.5% | Noise-sensitive | Not corroborated; TPA conditional power 91.2% |
+| J0908-4913, UTMOST | Not established | 477/1025 = 46.5% | Noise-sensitive | Not corroborated; TPA conditional power 79.4% |
+| J1048-5832, UTMOST | Not established | 836/1025 = 81.6% | Noise-sensitive | Underpowered; TPA conditional power 2.8% |
 | J1752-2806, UTMOST | Not established | 1/513 = 0.195% for each of four generators | Noise-sensitive | Underpowered; propagated median TPA power 22-31% |
+| J1012+5307, NG15 binary pilot | Not established | 513/513 for the 128-mode generator; 1/513 under released 30-mode noise | Noise-sensitive | Not corroborated by the bounded native EPTA fixed-period comparison |
+| J2043+1711, NG15 nonlinear, 37.48 days | Not established | 54/1025 = 5.3%, largest of seven generators in the second-stage joint-noise test (0/4096 under released white-only noise) | Noise-sensitive | Unavailable; Arecibo only, narrowband reduction shares observations |
 
 All retain INCONCLUSIVE_NOISE_SENSITIVE and their original historical crossing.
+All nine have now been through the [second-stage joint-noise test](JOINT_NOISE_STAGE_2026-11-18.md)
+and none crosses its joint threshold. The tails above for the first six and
+for J2043 are second-stage values: the largest per-generator count of 1,024
+validation nulls at or above the observed joint statistic, not pooled. The
+September deep-review tails they replace (47, 41, 512, 481, 496 and 513 of
+513) are kept in the predecessor assessments; the
+[successor assessment](../results/research/joint-noise-stage-20261118/candidates-assessments.json)
+binds both. J1752 and J1012 keep their review tails.
+J2043's [review and assessment](HELD_NONLINEAR_SEARCHES_2026-11-17.md#j20431711-candidate-and-review)
+were added on 18 November 2026.
+J1012's [bounded review](BINARY_PILOT03_2026-09-09.md) and
+[assessment](../results/research/j1012-review-20260909/assessments.json) preserve all
+five separate noise-generator tails. The largest is recorded without pooling;
+it is not a probability of a noise origin or a global FAP.
+The [EPTA follow-up](EPTA_J1012_FOLLOWUP_2026-09-10.md) subsequently resolved the
+native T2/H3/H4 compatibility gap and found no corroboration at the saved
+138.911-day period. Its [successor assessment](../results/research/epta-j1012-followup-20260910/assessments.json)
+updates independent confirmation only in that bounded sense, retains the earlier
+diagnostic tails, and records shared-noise and period/model-uncertainty limits.
 The owner also saved [hypothetical companion estimates](HYPOTHETICAL_COMPANIONS_2026-09-09.md)
 as motivation. Those estimates are separate from these evidence grades.
 Evidence hashes, individual explanations and source paths are in
@@ -64,6 +85,46 @@ Evidence hashes, individual explanations and source paths are in
 The four new UTMOST assessments are bound in [batch 04 grades](../results/research/candidate-grading-utmost-batch04-20260909/assessments.json) and explained in the [review report](UTMOST_BATCH04_CANDIDATE_REVIEWS_2026-09-09.md). J1752's zero exceedances are a finite conditional diagnostic, not zero FAP or established global significance.
 The two previously invalidated EPTA import crossings are preserved in Searches
 and Work log and excluded from this scientific candidate list.
+
+## Second-stage rule
+
+Adopted by the owner on 18 November 2026 ("Proceed with 1 & 2"), after all
+ten fixed-noise crossings put through the
+[second-stage joint-noise test](JOINT_NOISE_STAGE_2026-11-18.md) fell below
+its threshold.
+
+1. A fixed-noise threshold crossing is a trigger. It is recorded in Searches
+   as before, and enters Candidate grades as REVIEW_PENDING, but it is not
+   described as a candidate signal on that basis alone.
+2. Before grading, the crossing goes through the second stage once: noise
+   grid and null generators declared in a config file before the run,
+   calibration on simulated data, sensitivity curve, freeze, one observed
+   run. The grid is not
+   changed after the run; a fit on a grid edge is reported, not repaired.
+3. Below the joint threshold: record `BELOW_JOINT_NOISE_THRESHOLD`, grade
+   INCONCLUSIVE_NOISE_SENSITIVE with the second-stage tail, and stop. A deep
+   review is made only if the owner asks.
+4. Above the joint threshold: bounded deep review and three-measure grading
+   as described above. Crossing both stages is still not a detection.
+5. This rule covers the one second-stage run for a crossing produced by an
+   owner-authorized search. It authorizes no new search and no rerun.
+6. Added 19 November 2026 ("Proceed with steps 1-2"): where a released noise
+   chain exists for the target, the config declares a joint white-and-red
+   chain generator and a per-receiver white family (scales and floors
+   spanning the chain's EQUAD range). Without them the threshold can be too
+   low ([evidence](JOINT_NOISE_STAGE_2026-11-18.md#per-receiver-white-noise-the-threshold-holds-under-joint-chain-draws)).
+   Runs already consumed are not redone.
+7. A non-detection is reported with its
+   [detection limits](DETECTION_LIMITS_2026-11-19.md) where a sensitivity
+   curve exists.
+
+Known limit, measured on 18 November 2026 (see the
+[sensitivity curve](JOINT_NOISE_STAGE_2026-11-18.md#sensitivity-curve)):
+where the pulsar has strong red noise, long periods are hard for any test and
+the second stage stays within about twice the ideal amplitude. On a quiet
+pulsar the second stage itself needs 2–4 times the ideal amplitude beyond
+about 450 days. Every frozen second-stage test now carries its own
+period-by-period curve.
 
 ## Maintaining the register
 

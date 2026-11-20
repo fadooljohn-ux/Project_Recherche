@@ -1,0 +1,22 @@
+{
+  "target": "J2043+1711",
+  "role": "Simulation only: power of a receiver split and a time split to test the 37.48-day feature. Reads no observed residuals; authorizes no observed test.",
+  "source": "nonlinear-held-20261117/j2043",
+  "tim": "binary-pilot02-20260909/J2043+1711/original/J2043+1711.tim",
+  "period_days": 37.48230065939762,
+  "amplitude_us": 0.0892607439250184,
+  "receiver_part_a": "430",
+  "count": 4000,
+  "seed": 2026112001,
+  "analysis_models": [
+    {"name": "white_only", "red": null},
+    {"name": "reference_red", "red": [-14.10, 3.0]},
+    {"name": "fitted_red", "red": [-14.60, 4.0]}
+  ],
+  "generators": [
+    {"name": "white_only", "red": null},
+    {"name": "fitted_red", "red": [-14.60, 4.0]},
+    {"name": "reference_red", "red": [-14.10, 3.0]},
+    {"name": "stronger_steeper", "red": [-13.60, 4.0]}
+  ]
+}

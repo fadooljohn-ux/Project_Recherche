@@ -2,9 +2,9 @@
 from pathlib import Path
 import json
 import numpy as np
-from scipy.linalg import solve_triangular
 import pta_campaign as campaign
 from pulsar_pilot.pilot1_runtime import prepare_covariance_gls_scanner
+from recherche_common import require
 
 cal, mpta, ROOT = campaign.cal, campaign.mpta, campaign.ROOT
 REPORT = mpta.REPO / 'docs/PTA_CAMPAIGN_01_REPORT_2026-09-09.md'
@@ -39,7 +39,7 @@ def review_candidate(source, target, result, root=None):
     destination = root/'review01.json'
     if destination.exists():
         saved = cal.read(destination)
-        assert saved['original_result_sha256'] == cal.digest(root/'run01/result.json')
+        require(saved['original_result_sha256'] == cal.digest(root/'run01/result.json'), "saved['original_result_sha256'] == cal.digest(root/'run01/result.json')")
         return saved
     profile, arrays = cal.load_profile(root/'profile/profile.json')
     with np.load(root/'prepared/observed.npz') as a: residuals=a['residuals']
@@ -75,12 +75,12 @@ def main():
         source,target=item['source'],item['target'];root=ROOT/source/target
         replacement=next((r for r in replacements['datasets'] if r['source']==source and r['target']==target),None) if replacements else None
         if replacement:
-            assert cal.digest(replacement['superseded_result_path'])==replacement['superseded_result_sha256']
+            require(cal.digest(replacement['superseded_result_path'])==replacement['superseded_result_sha256'], "cal.digest(replacement['superseded_result_path'])==replacement['superseded_result_sha256']")
             root=Path(replacements['data_root'])/source/target
-            assert cal.digest(root/'run01/result.json')==replacement['replacement_result_sha256']
+            require(cal.digest(root/'run01/result.json')==replacement['replacement_result_sha256'], "cal.digest(root/'run01/result.json')==replacement['replacement_result_sha256']")
         result=cal.read(root/'run01/result.json');receipt=cal.read(root/'prepared/receipt.json')
-        assert result['execution_freeze_sha256']==cal.digest(root.parent/'execution-freeze.json')
-        assert result['periodogram_sha256']==cal.digest(root/'run01/periodogram.npz')
+        require(result['execution_freeze_sha256']==cal.digest(root.parent/'execution-freeze.json'), "result['execution_freeze_sha256']==cal.digest(root.parent/'execution-freeze.json')")
+        require(result['periodogram_sha256']==cal.digest(root/'run01/periodogram.npz'), "result['periodogram_sha256']==cal.digest(root/'run01/periodogram.npz')")
         rows.append({**item,**result,'data_root':str(root),'toas':receipt['toas'],'epochs':receipt['epochs'],'span_days':receipt['span_days'],'maximum_period_days':receipt['policy']['maximum_period_days']})
         if result['candidate']: reviews.append(review_candidate(source,target,result,root))
     comparisons=[]
@@ -100,7 +100,7 @@ def main():
                       'comparison_threshold':other['threshold'],'comparison_strongest_period_days':other['peak_period_days'],
                       'scope':'Existing grid comparison only; nearest-bin statistic is not an independent search or phase-coherence test.'})
     original=intake['historical_result_hashes']
-    for path,sha in original.items(): assert cal.digest(path)==sha
+    for path,sha in original.items(): require(cal.digest(path)==sha, 'cal.digest(path)==sha')
     summary={'campaign':'pta-campaign01-20260908','completed_utc':mpta.now(),'status':'COMPLETE','datasets':len(rows),'unique_targets':len({r['target'] for r in rows}),
              'candidate_datasets':sum(r['candidate'] for r in rows),'candidate_targets':len({r['target'] for r in rows if r['candidate']}),
              'no_trigger_datasets':sum(not r['candidate'] for r in rows),'confirmed_planets':0,'rows':rows,'reviews':reviews,'cross_source_comparisons':comparisons,

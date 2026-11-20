@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "closeout_id": "joint-noise-stage3-20261118",
+  "created": "2026-11-18",
+  "owner_instruction": "Proceed with stage 3",
+  "master_before_sha256": "134b1ee60c5d9ed4a194aae48711e43243c00ab6cde006baee1732d5fa58eeac",
+  "result": {
+    "status": "BELOW_JOINT_NOISE_THRESHOLD",
+    "peak_statistic": 18.418935209724793,
+    "peak_period_days": 37.567487706350796,
+    "threshold": 23.001185823013543,
+    "statistic_at_fixed_noise_period": 18.240155423621957,
+    "null_noise": {
+      "gamma": 4.0,
+      "log10_amplitude": -14.59651076704778,
+      "white_scale": 1.0
+    },
+    "signal_noise": {
+      "gamma": 5.0,
+      "log10_amplitude": -15.09651076704778,
+      "white_scale": 0.95
+    },
+    "validation_tail_plus_one_by_generator": {
+      "between_grid_stronger_steeper": 0.05170731707317073,
+      "reference_red": 0.0351219512195122,
+      "released_chain_red": 0.02829268292682927,
+      "released_white_only": 0.0175609756097561,
+      "strong_steep": 0.05268292682926829,
+      "weak_shallow_inflated_white": 0.023414634146341463,
+      "white_only_inflated": 0.025365853658536587
+    }
+  },
+  "validation_exceedances_by_generator": {
+    "released_white_only": 17,
+    "white_only_inflated": 25,
+    "reference_red": 35,
+    "between_grid_stronger_steeper": 52,
+    "strong_steep": 53,
+    "weak_shallow_inflated_white": 23,
+    "released_chain_red": 28
+  },
+  "files": {
+    "calibration.json": "ae2fbba0aa6ba49095e5414811d7f99cf9bc25ad02054f19121e6fa640b11f2c",
+    "execution-freeze.json": "19ed9b2e2e11ed2f8281b555cbc4b2c26c9b7fba5145e57b77cf695dbfa64703",
+    "nonlinear-check-observed.json": "1bb63acaef60ca30b9be1343c5f30704d9ef51b89b4d323f90156059fe442e00",
+    "nonlinear-check-simulated-trial1.json": "b44a08763215f9cc4ff6886bf3a68b1c54a2b9da2e4cc54ec73b4477a3e0dc13",
+    "nonlinear-check-simulated.json": "f1646614757da790a635fcbe58128a92b74eb1b0cea5192dc62f687f1de7aa1e",
+    "result.json": "ffa99cc2e9b1669e555aae3e414038740c7eb3dcedae2c4d066546f8b52a68db",
+    "scope.json": "7b13e8a9b92f762baa6aa6cbf999d6c44f2a7ffd12fbe13ca150e0128c284223"
+  },
+  "assessments_sha256": "874a64e98e5bcc9ef44e1a747bfee1cf6e33cfcc35a3428751f376fb6bcfaa58",
+  "consumed_preparations_note": "tools/joint_noise_stage.py changed after stage 2; the J1752, J1012 and J1738 preparations are consumed and can no longer be loaded, by design."
+}

@@ -1,0 +1,21 @@
+{
+  "status": "WORKBOOK_CLOSEOUT_VERIFIED",
+  "before_sha256": "a795838659e036d4fb551d62ef3acd88f804e9b8e3ca1caabbc7600b0bcee823",
+  "after_sha256": "6b968baca5a982009eb4483a88d406e57dba952a8d695e341fd2fb6ff8f6c471",
+  "historical_cells_preserved": 26168,
+  "authorized_existing_target_cells_updated": [
+    "Targets!C81",
+    "Targets!D81",
+    "Targets!E81",
+    "Targets!F81",
+    "Targets!G81"
+  ],
+  "observed_search_rows_added": 1,
+  "work_log_rows_added": 3,
+  "prior_search_rows_preserved": 358,
+  "search_refinement_records": 359,
+  "observed_identities": 285,
+  "candidate_grades": 8,
+  "publication_source_hashes_verified": 71,
+  "new_observed_searches": 1
+}

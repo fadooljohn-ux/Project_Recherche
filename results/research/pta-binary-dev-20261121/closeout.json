@@ -1,0 +1,693 @@
+{
+ "status": "DEVELOPMENT_COMPATIBILITY_CHECK",
+ "observed_search_executed": false,
+ "frozen": false,
+ "calibrated": false,
+ "rule": "Development roots: must not be calibrated, frozen or run. A real search needs a new root and a new owner instruction.",
+ "superseded_roots": [
+  "epta-binary-dev-20261121",
+  "ppta-binary-dev-20261121",
+  "epta-binary-dev2-20261121",
+  "ppta-binary-dev2-20261121"
+ ],
+ "roots": {
+  "ng15-binary-dev4-20261121": [
+   {
+    "target": "J1640+2224",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "DD",
+    "searched_binary_model": "ELL1",
+    "toas": 609,
+    "span_years": 15.470362652480606,
+    "search_range_days": [
+     1754.6066190184386,
+     2000.0
+    ],
+    "null_reduced_chi2": 1.0036648124495888,
+    "largest_orbit_shift_in_checked_sigma": 0.6223057327094283,
+    "uncertainties_from_search_covariance": [],
+    "translated": false,
+    "recentred": false,
+    "shapiro_basis_columns": 4,
+    "shapiro_unremoved": 0.05983790696677416,
+    "refinement": {
+     "rms_seconds_before": 8.348482253018941e-07,
+     "rms_seconds_after": 2.66291827230189e-09,
+     "iterations": 1
+    },
+    "reexpression_equivalence_in_TOA_sigma": 0.011787139155785553
+   },
+   {
+    "target": "J1643-1224",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "DD",
+    "searched_binary_model": "ELL1",
+    "toas": 478,
+    "span_years": 15.713620618289871,
+    "search_range_days": [
+     1470.173955288316,
+     2000.0
+    ],
+    "null_reduced_chi2": 1.085030073127881,
+    "largest_orbit_shift_in_checked_sigma": 0.003099709466249467,
+    "uncertainties_from_search_covariance": [],
+    "translated": false,
+    "recentred": false,
+    "shapiro_basis_columns": null,
+    "shapiro_unremoved": null,
+    "refinement": {
+     "rms_seconds_before": 1.0129405421984306e-07,
+     "rms_seconds_after": 3.289694367746621e-09,
+     "iterations": 2
+    },
+    "reexpression_equivalence_in_TOA_sigma": 5.467040855511879e-07
+   },
+   {
+    "target": "J2229+2643",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "DD",
+    "searched_binary_model": "ELL1",
+    "toas": 151,
+    "span_years": 7.0282363964855765,
+    "search_range_days": [
+     930.1589253440015,
+     1283.5316719081784
+    ],
+    "null_reduced_chi2": 1.099001392750004,
+    "largest_orbit_shift_in_checked_sigma": 0.00027144358541346896,
+    "uncertainties_from_search_covariance": [],
+    "translated": false,
+    "recentred": false,
+    "shapiro_basis_columns": null,
+    "shapiro_unremoved": null,
+    "refinement": {
+     "rms_seconds_before": 1.891734345298824e-08,
+     "rms_seconds_after": 1.1676743803945895e-10,
+     "iterations": 2
+    },
+    "reexpression_equivalence_in_TOA_sigma": 1.8875380192184818e-07
+   }
+  ],
+  "ppta-binary-dev3-20261121": [
+   {
+    "target": "J0125-2327",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "ELL1",
+    "searched_binary_model": "ELL1",
+    "toas": 2706,
+    "span_years": 3.1885463897810395,
+    "search_range_days": [
+     72.7719974873306,
+     582.3082844337623
+    ],
+    "null_reduced_chi2": 0.9765389944284869,
+    "largest_orbit_shift_in_checked_sigma": 0.23189239713620796,
+    "uncertainties_from_search_covariance": [
+     "A1",
+     "A1DOT",
+     "EPS1",
+     "EPS2",
+     "PB",
+     "PBDOT",
+     "TASC"
+    ],
+    "translated": false,
+    "recentred": false,
+    "shapiro_basis_columns": null,
+    "shapiro_unremoved": null,
+    "refinement": null,
+    "reexpression_equivalence_in_TOA_sigma": null
+   },
+   {
+    "target": "J0900-3144",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "ELL1",
+    "searched_binary_model": "ELL1",
+    "toas": 1832,
+    "span_years": 2.787669595714403,
+    "search_range_days": [
+     187.3763606342086,
+     509.09815991734285
+    ],
+    "null_reduced_chi2": 0.9824672757119606,
+    "largest_orbit_shift_in_checked_sigma": 1.5884418300852945,
+    "uncertainties_from_search_covariance": [
+     "A1",
+     "EPS1",
+     "EPS2",
+     "PB",
+     "TASC"
+    ],
+    "translated": false,
+    "recentred": false,
+    "shapiro_basis_columns": null,
+    "shapiro_unremoved": null,
+    "refinement": null,
+    "reexpression_equivalence_in_TOA_sigma": null
+   },
+   {
+    "target": "J1545-4550",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "ELL1H",
+    "searched_binary_model": "ELL1H",
+    "toas": 2454,
+    "span_years": 10.842482722181456,
+    "search_range_days": [
+     62.0306492616338,
+     1980.1084071383884
+    ],
+    "null_reduced_chi2": 0.9816418013377365,
+    "largest_orbit_shift_in_checked_sigma": 0.736956646892922,
+    "uncertainties_from_search_covariance": [
+     "A1",
+     "A1DOT",
+     "EPS1",
+     "EPS2",
+     "PB",
+     "TASC"
+    ],
+    "translated": false,
+    "recentred": true,
+    "shapiro_basis_columns": null,
+    "shapiro_unremoved": null,
+    "refinement": null,
+    "reexpression_equivalence_in_TOA_sigma": null
+   },
+   {
+    "target": "J1933-6211",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "ELL1",
+    "searched_binary_model": "ELL1",
+    "toas": 893,
+    "span_years": 3.174708770455111,
+    "search_range_days": [
+     128.1940671999434,
+     579.7811892043646
+    ],
+    "null_reduced_chi2": 1.0052651845549574,
+    "largest_orbit_shift_in_checked_sigma": 0.23645061363183428,
+    "uncertainties_from_search_covariance": [
+     "A1",
+     "EPS1",
+     "EPS2",
+     "PB",
+     "TASC"
+    ],
+    "translated": false,
+    "recentred": false,
+    "shapiro_basis_columns": null,
+    "shapiro_unremoved": null,
+    "refinement": null,
+    "reexpression_equivalence_in_TOA_sigma": null
+   },
+   {
+    "target": "J1902-5105",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "ELL1H",
+    "searched_binary_model": "ELL1H",
+    "toas": 501,
+    "span_years": 2.8472225947845327,
+    "search_range_days": [
+     30.0,
+     519.9740263725253
+    ],
+    "null_reduced_chi2": 0.9169294165669843,
+    "largest_orbit_shift_in_checked_sigma": 1.5393773139975293,
+    "uncertainties_from_search_covariance": [
+     "A1",
+     "EPS1",
+     "EPS2",
+     "H3",
+     "PB",
+     "STIGMA",
+     "TASC"
+    ],
+    "translated": false,
+    "recentred": true,
+    "shapiro_basis_columns": 4,
+    "shapiro_unremoved": 0.019166096665779443,
+    "refinement": null,
+    "reexpression_equivalence_in_TOA_sigma": null
+   },
+   {
+    "target": "J1045-4509",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "T2",
+    "searched_binary_model": "ELL1",
+    "toas": 4316,
+    "span_years": 18.077737342190332,
+    "search_range_days": [
+     40.835292544726514,
+     2000.0
+    ],
+    "null_reduced_chi2": 0.9339201022845597,
+    "largest_orbit_shift_in_checked_sigma": 1.1677863923498495,
+    "uncertainties_from_search_covariance": [
+     "A1",
+     "A1DOT",
+     "EPS1",
+     "EPS2",
+     "PB",
+     "TASC"
+    ],
+    "translated": true,
+    "recentred": false,
+    "shapiro_basis_columns": null,
+    "shapiro_unremoved": null,
+    "refinement": null,
+    "reexpression_equivalence_in_TOA_sigma": null
+   },
+   {
+    "target": "J1446-4701",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "T2",
+    "searched_binary_model": "ELL1",
+    "toas": 732,
+    "span_years": 11.091128633422286,
+    "search_range_days": [
+     30.0,
+     2000.0
+    ],
+    "null_reduced_chi2": 0.8174060474443902,
+    "largest_orbit_shift_in_checked_sigma": 0.659865221199379,
+    "uncertainties_from_search_covariance": [
+     "A1",
+     "EPS1",
+     "EPS2",
+     "PB",
+     "PBDOT",
+     "TASC"
+    ],
+    "translated": true,
+    "recentred": false,
+    "shapiro_basis_columns": null,
+    "shapiro_unremoved": null,
+    "refinement": null,
+    "reexpression_equivalence_in_TOA_sigma": null
+   },
+   {
+    "target": "J1603-7202",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "T2",
+    "searched_binary_model": "ELL1",
+    "toas": 5141,
+    "span_years": 18.08019680788801,
+    "search_range_days": [
+     63.086296698346615,
+     2000.0
+    ],
+    "null_reduced_chi2": 0.9629154722924442,
+    "largest_orbit_shift_in_checked_sigma": 0.607419823170924,
+    "uncertainties_from_search_covariance": [
+     "A1",
+     "A1DOT",
+     "EPS1",
+     "EPS2",
+     "PB",
+     "PBDOT",
+     "TASC"
+    ],
+    "translated": true,
+    "recentred": false,
+    "shapiro_basis_columns": null,
+    "shapiro_unremoved": null,
+    "refinement": null,
+    "reexpression_equivalence_in_TOA_sigma": null
+   },
+   {
+    "target": "J2129-5721",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "T2",
+    "searched_binary_model": "ELL1",
+    "toas": 2921,
+    "span_years": 17.74705237889107,
+    "search_range_days": [
+     66.25493090381778,
+     2000.0
+    ],
+    "null_reduced_chi2": 0.9825552558542606,
+    "largest_orbit_shift_in_checked_sigma": 1.2969052344583396,
+    "uncertainties_from_search_covariance": [
+     "A1",
+     "A1DOT",
+     "EPS1",
+     "EPS1DOT",
+     "EPS2",
+     "EPS2DOT",
+     "PB",
+     "PBDOT",
+     "TASC"
+    ],
+    "translated": true,
+    "recentred": false,
+    "shapiro_basis_columns": null,
+    "shapiro_unremoved": null,
+    "refinement": null,
+    "reexpression_equivalence_in_TOA_sigma": null
+   },
+   {
+    "target": "J2145-0750",
+    "status": "HELD",
+    "error": "Released orbit requires a shift outside the checked neighbourhood: {\"PB\": 0.35750540658087904, \"PBDOT\": 0.4231045664126444, \"A1\": 0.2052403023804799, \"A1DOT\": 0.38428346256973644, \"TASC\": 0.22577995038396262, \"EPS1\": 0.8891677045213897, \"EPS2\": 2.129187515751919, \"EPS1DOT\": 3.332450206191132, \"EPS2DOT\": 1.02215538866425}",
+    "recentred": false
+   },
+   {
+    "target": "J1643-1224",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "T2",
+    "searched_binary_model": "ELL1",
+    "toas": 4183,
+    "span_years": 18.07239803676578,
+    "search_range_days": [
+     1470.1739780607465,
+     2000.0
+    ],
+    "null_reduced_chi2": 0.9302332853383583,
+    "largest_orbit_shift_in_checked_sigma": 1.1109203472534026,
+    "uncertainties_from_search_covariance": [
+     "A1",
+     "A1DOT",
+     "EPS1",
+     "EPS2",
+     "PB",
+     "TASC"
+    ],
+    "translated": true,
+    "recentred": false,
+    "shapiro_basis_columns": null,
+    "shapiro_unremoved": null,
+    "refinement": {
+     "rms_seconds_before": 1.0340840053741084e-07,
+     "rms_seconds_after": 3.974272995352793e-09,
+     "iterations": 2
+    },
+    "reexpression_equivalence_in_TOA_sigma": 2.3636889674024338e-07
+   },
+   {
+    "target": "J0614-3329",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "T2",
+    "searched_binary_model": "ELL1",
+    "toas": 698,
+    "span_years": 3.185582804054041,
+    "search_range_days": [
+     535.8461336154492,
+     581.7670595903692
+    ],
+    "null_reduced_chi2": 0.9246873696219502,
+    "largest_orbit_shift_in_checked_sigma": 0.3514337143025331,
+    "uncertainties_from_search_covariance": [
+     "A1",
+     "EPS1",
+     "EPS2",
+     "M2",
+     "PB",
+     "SINI",
+     "TASC"
+    ],
+    "translated": true,
+    "recentred": false,
+    "shapiro_basis_columns": 2,
+    "shapiro_unremoved": 0.0011013350760377618,
+    "refinement": {
+     "rms_seconds_before": 7.180968785287432e-08,
+     "rms_seconds_after": 4.622440061056156e-08,
+     "iterations": 1
+    },
+    "reexpression_equivalence_in_TOA_sigma": 0.004282354618234241
+   },
+   {
+    "target": "J0613-0200",
+    "status": "HELD",
+    "error": "AstrometryEcliptic.ELAT",
+    "recentred": false
+   },
+   {
+    "target": "J1125-6014",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "T2",
+    "searched_binary_model": "ELL1",
+    "toas": 2832,
+    "span_years": 14.197666627986141,
+    "search_range_days": [
+     87.52603646790355,
+     2000.0
+    ],
+    "null_reduced_chi2": 0.9484936554813602,
+    "largest_orbit_shift_in_checked_sigma": 0.4882757926026736,
+    "uncertainties_from_search_covariance": [
+     "A1",
+     "EPS1",
+     "EPS2",
+     "M2",
+     "PB",
+     "PBDOT",
+     "SINI",
+     "TASC"
+    ],
+    "translated": true,
+    "recentred": false,
+    "shapiro_basis_columns": 1,
+    "shapiro_unremoved": 0.028623360852801608,
+    "refinement": null,
+    "reexpression_equivalence_in_TOA_sigma": null
+   },
+   {
+    "target": "J1857+0943",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "T2",
+    "searched_binary_model": "ELL1",
+    "toas": 2594,
+    "span_years": 18.0227374041269,
+    "search_range_days": [
+     123.27171382750157,
+     2000.0
+    ],
+    "null_reduced_chi2": 0.9402619573472115,
+    "largest_orbit_shift_in_checked_sigma": 0.962864336360415,
+    "uncertainties_from_search_covariance": [
+     "A1",
+     "EPS1",
+     "EPS2",
+     "M2",
+     "PB",
+     "SINI",
+     "TASC"
+    ],
+    "translated": true,
+    "recentred": false,
+    "shapiro_basis_columns": 2,
+    "shapiro_unremoved": 0.050450974839023555,
+    "refinement": null,
+    "reexpression_equivalence_in_TOA_sigma": null
+   },
+   {
+    "target": "J1909-3744",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "T2",
+    "searched_binary_model": "ELL1",
+    "toas": 9644,
+    "span_years": 18.079885390271052,
+    "search_range_days": [
+     30.0,
+     2000.0
+    ],
+    "null_reduced_chi2": 0.9833334109602869,
+    "largest_orbit_shift_in_checked_sigma": 1.05288934381089,
+    "uncertainties_from_search_covariance": [
+     "A1",
+     "A1DOT",
+     "EPS1",
+     "EPS2",
+     "M2",
+     "PB",
+     "PBDOT",
+     "SINI",
+     "TASC"
+    ],
+    "translated": true,
+    "recentred": false,
+    "shapiro_basis_columns": 1,
+    "shapiro_unremoved": 0.04536735346731997,
+    "refinement": null,
+    "reexpression_equivalence_in_TOA_sigma": null
+   }
+  ],
+  "epta-binary-dev3-20261121": [
+   {
+    "target": "J0613-0200",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "T2",
+    "searched_binary_model": "ELL1H",
+    "toas": 2909,
+    "span_years": 22.89399178006123,
+    "search_range_days": [
+     30.0,
+     2000.0
+    ],
+    "null_reduced_chi2": 0.9993844805574218,
+    "largest_orbit_shift_in_checked_sigma": 1.8391500884971665,
+    "uncertainties_from_search_covariance": [],
+    "translated": true,
+    "recentred": true,
+    "shapiro_basis_columns": 2,
+    "shapiro_unremoved": 0.05940016114881349,
+    "refinement": null,
+    "reexpression_equivalence_in_TOA_sigma": null
+   },
+   {
+    "target": "J0751+1807",
+    "status": "HELD",
+    "error": "Released orbit requires a shift outside the checked neighbourhood: {\"PB\": 0.8761861194379617, \"PBDOT\": 1.2993241561778903, \"A1\": 4.173725712229149, \"A1DOT\": 4.223424173488657, \"TASC\": 0.399562414249286, \"EPS1\": 0.27822440642560625, \"EPS2\": 0.520599485368335}",
+    "recentred": false
+   },
+   {
+    "target": "J0900-3144",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "T2",
+    "searched_binary_model": "ELL1",
+    "toas": 6064,
+    "span_years": 13.643583692933852,
+    "search_range_days": [
+     187.37636058477622,
+     2000.0
+    ],
+    "null_reduced_chi2": 0.9954478376808868,
+    "largest_orbit_shift_in_checked_sigma": 1.0751204763349453,
+    "uncertainties_from_search_covariance": [],
+    "translated": true,
+    "recentred": false,
+    "shapiro_basis_columns": null,
+    "shapiro_unremoved": null,
+    "refinement": null,
+    "reexpression_equivalence_in_TOA_sigma": null
+   },
+   {
+    "target": "J1012+5307",
+    "status": "HELD",
+    "error": "Data points out of range in clock file '../Project Recherche Data/epta-binary-dev3-20261121/J1012+5307/prepared/effix2gps-final-day.clk'",
+    "recentred": false
+   },
+   {
+    "target": "J1738+0333",
+    "status": "HELD",
+    "error": "Ambiguous pulse connection: 0.5099892831696152",
+    "recentred": false
+   },
+   {
+    "target": "J1751-2857",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "T2",
+    "searched_binary_model": "ELL1",
+    "toas": 398,
+    "span_years": 14.689501078899088,
+    "search_range_days": [
+     1107.4646083259456,
+     2000.0
+    ],
+    "null_reduced_chi2": 1.0196818893276889,
+    "largest_orbit_shift_in_checked_sigma": 1.517728520301017,
+    "uncertainties_from_search_covariance": [
+     "TASC"
+    ],
+    "translated": true,
+    "recentred": false,
+    "shapiro_basis_columns": null,
+    "shapiro_unremoved": null,
+    "refinement": {
+     "rms_seconds_before": 6.705860425794382e-08,
+     "rms_seconds_after": 5.092755523353503e-10,
+     "iterations": 1
+    },
+    "reexpression_equivalence_in_TOA_sigma": 1.477724160515128e-08
+   },
+   {
+    "target": "J1804-2717",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "T2",
+    "searched_binary_model": "ELL1",
+    "toas": 723,
+    "span_years": 14.727714446290294,
+    "search_range_days": [
+     111.28711965325348,
+     2000.0
+    ],
+    "null_reduced_chi2": 1.0302266151473958,
+    "largest_orbit_shift_in_checked_sigma": 2.492370891523586,
+    "uncertainties_from_search_covariance": [],
+    "translated": true,
+    "recentred": false,
+    "shapiro_basis_columns": null,
+    "shapiro_unremoved": null,
+    "refinement": null,
+    "reexpression_equivalence_in_TOA_sigma": null
+   },
+   {
+    "target": "J1857+0943",
+    "status": "HELD",
+    "error": "Data prefer Shapiro parameters outside the checked neighbourhood: M2 +0.60 widths, SINI -3.00 widths; expected chi-square change 9.3",
+    "recentred": false
+   },
+   {
+    "target": "J1909-3744",
+    "status": "HELD",
+    "error": "Released orbit requires a shift outside the checked neighbourhood: {\"PB\": 1.6843235431314634, \"PBDOT\": 1.4257546586645409, \"A1\": 0.06914020017528967, \"A1DOT\": 8.327342193550034, \"TASC\": 1.783269556153677, \"EPS1\": 2.395584898407036, \"EPS2\": 2.606291348993219}",
+    "recentred": false
+   },
+   {
+    "target": "J1910+1256",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "T2",
+    "searched_binary_model": "ELL1",
+    "toas": 538,
+    "span_years": 15.214407938464623,
+    "search_range_days": [
+     584.6674297241318,
+     2000.0
+    ],
+    "null_reduced_chi2": 0.9972649803594603,
+    "largest_orbit_shift_in_checked_sigma": 2.5841063234871875,
+    "uncertainties_from_search_covariance": [
+     "TASC"
+    ],
+    "translated": true,
+    "recentred": false,
+    "shapiro_basis_columns": null,
+    "shapiro_unremoved": null,
+    "refinement": {
+     "rms_seconds_before": 1.328269083267407e-07,
+     "rms_seconds_after": 6.017698015210033e-10,
+     "iterations": 2
+    },
+    "reexpression_equivalence_in_TOA_sigma": 3.1506526197009315e-08
+   },
+   {
+    "target": "J1918-0642",
+    "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+    "released_binary_model": "DDH",
+    "searched_binary_model": "ELL1H",
+    "toas": 1361,
+    "span_years": 19.710567764507815,
+    "search_range_days": [
+     109.13177749957994,
+     2000.0
+    ],
+    "null_reduced_chi2": 1.0045819486043837,
+    "largest_orbit_shift_in_checked_sigma": 2.0615482433610683,
+    "uncertainties_from_search_covariance": [
+     "TASC"
+    ],
+    "translated": false,
+    "recentred": false,
+    "shapiro_basis_columns": 2,
+    "shapiro_unremoved": 0.0725845756337115,
+    "refinement": {
+     "rms_seconds_before": 6.44391501125479e-09,
+     "rms_seconds_after": 1.633074412976404e-10,
+     "iterations": 1
+    },
+    "reexpression_equivalence_in_TOA_sigma": 0.0003429474678177674
+   }
+  ]
+ }
+}

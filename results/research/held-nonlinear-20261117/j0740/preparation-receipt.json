@@ -1,0 +1,107 @@
+{
+  "checks": {
+    "joint_columns": 128,
+    "joint_rank": 128,
+    "null_fit": {
+      "chi2": 601.3478670656666,
+      "conditional_chi2_tail": 0.38606082222197863,
+      "distance_to_domain_bound": 4.321424932377105,
+      "dof": 592,
+      "fast_minus_native_chi2": 3.931247647415148e-06,
+      "fast_orbit_difference_maximum": 0.00017377971572559965,
+      "fast_unconverged": false,
+      "multistart_chi2_difference": 8.012548278202303e-07,
+      "optimizer_success": true,
+      "orbit_shifts_domain_units": {
+        "A1": -0.0005626138686910753,
+        "EPS1": -0.0006168668698431969,
+        "EPS2": -0.00020874161468531605,
+        "M2": 0.0013318868097612344,
+        "PB": -0.0003166392744927654,
+        "PBDOT": -5.120910163278102e-05,
+        "SINI": 0.002632240752289661,
+        "TASC": 0.0002723214152833672
+      },
+      "reduced_chi2": 1.0157903159893018
+    },
+    "surrogate_monomials": 190,
+    "surrogate_retained_directions": 150,
+    "surrogate_validation_error_norm": {
+      "maximum": 5.8948691461897375e-05,
+      "median": 9.226029392847039e-06
+    }
+  },
+  "code": {
+    "binary_noise_coverage.py": "066dd27f662e971f2117d0ef84c4fbb7fc96a6f7da08735a328f9198c094e487",
+    "binary_wideband.py": "91f1a3fa712984a68c063acd5cd8778e297270b2b96c75475e934475208318d8",
+    "j1857_nonlinear.py": "d9abf8fc7ff054269b1e238d96d4c03f2b42c1335d59a0b83be46ccc6e23d0b5",
+    "nonlinear_calibration.py": "9b89bec8a3de172a8dc236e802c60e4d30a3e111621367f0873103d8dba090be",
+    "nonlinear_statistic.py": "cd24112a4aec06e5c6237e62aa077320df9c9bd4024121685c4b9224309266e0",
+    "nonlinear_verification.py": "5de761f5dadb1e772e7488e2504b8a69659572aacf3f2f2a19a3d92dd291804b",
+    "target_calibration.py": "9d2d230f53521ce6f4ee55ab48d1c364d3db7543f1b5da26a5ecf902264092df"
+  },
+  "created_utc": "2026-11-18T00:08:36.593307+00:00",
+  "data_rows": 720,
+  "frequency_grid": {
+    "algorithm": "linear_frequency_independent_bin_oversampling",
+    "frequency_count": 233,
+    "frequency_step_per_day": 8.6765215442745e-05,
+    "maximum_frequency_per_day": 0.02097779772661109,
+    "maximum_period_days": 1152.5356041556588,
+    "minimum_frequency_per_day": 0.00086765215442745,
+    "minimum_period_days": 47.66944619412857,
+    "oversampling": 5,
+    "span_days": 2305.0712083113176
+  },
+  "inputs": {
+    "par_sha256": "3df45ecd89ea189d3feeff8d1c7a8e5baed70537907b87aadd94554439c96dd4",
+    "selection_sha256": "d534495ae75baafa9c33782e6c9eb3e29e341f2e6f0954a5ce7e89f139de3f10",
+    "tim_sha256": "55f2fd0762c7be7ba02340d4b10846f0bed7a2ba52e96d8da121febb97a87b9f"
+  },
+  "linear_nuisance_columns": 120,
+  "noise_coverage": {
+    "limitation": "Released white-noise model retained; absence of a fitted red component is not proof of absent correlated noise.",
+    "maximum_modes": 256,
+    "minimum_search_period_days": 47.66944619412857,
+    "rule": "cover_search_band_v1",
+    "selection_uses_observed_periodogram": false,
+    "status": "NO_RELEASED_RED_COMPONENT"
+  },
+  "nonlinear_parameters": [
+    "PB",
+    "A1",
+    "TASC",
+    "EPS1",
+    "EPS2",
+    "PBDOT",
+    "M2",
+    "SINI"
+  ],
+  "observed_outer_period_scan_executed": false,
+  "observed_sha256": "98e13da40e2dd924fa182b0304d61ee9c4cfdbe70e814f827439a955a054ba1c",
+  "orbit_lower": [
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -5.0,
+    -6.5484266157474815
+  ],
+  "orbit_upper": [
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    4.324057173129394
+  ],
+  "parameter_domain_published_sigma": 5.0,
+  "scope_sha256": "e273ea6b8169d4fc9c5effe0b5f8e02957610b924877fac2cab23c80c4670817",
+  "status": "NONLINEAR_PREPARATION_COMPATIBLE",
+  "target": "J0740+6620",
+  "toas": 360
+}

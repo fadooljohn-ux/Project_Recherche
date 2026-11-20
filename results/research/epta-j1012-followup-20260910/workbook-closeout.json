@@ -1,0 +1,20 @@
+{
+  "previous_workbook_sha256": "7c27d73b8644d43d7e85bb2d6708c054e8539799e4d5030800766e81408bf481",
+  "workbook_sha256": "8234923a77ccc6a1a83d260b78c2e56a07a067c36ce099af3aa1eafa2af83607",
+  "closeout_sha256": "191486ab5ca3917027457064b6b36693e8e71672f4d90ee2c3c4491cf7437221",
+  "appended_work_log_records": 4,
+  "changed_grade_cells": [
+    "E9",
+    "L9",
+    "M9",
+    "O9",
+    "P9"
+  ],
+  "all_other_historical_candidate_cells_preserved": true,
+  "all_prior_targets_searches_work_log_cells_preserved": true,
+  "search_records": 356,
+  "candidate_grade_rows": 8,
+  "publication_source_hashes_unchanged": 71,
+  "existing_preparation_rejection_checked": true,
+  "observed_searches_executed_this_followup": 0
+}

@@ -1,0 +1,6 @@
+{
+  "adapter_sha256": "5e28385b381df11dc06ac3f5febf41600a512ba47e48f0eafa191f3375b949c9",
+  "error": "PINT clock file is outside the Gate 4A-R3 allowlist",
+  "status": "PREPARATION_FAILED",
+  "target": "J1909-3744"
+}

@@ -1,0 +1,38 @@
+{
+  "status": "PREPARATION_VERIFIED_READY_FOR_CALIBRATION",
+  "receipt_sha256": "dcfaa58dd916fd594e0fa5cc17f695b77d5b342421084f3ddfcbef281ee4bf66",
+  "profile_sha256": "0912b307ec70db3c657dd0471385530780afe08cb6aa460f9699f37fff8b58de",
+  "all_released_free_parameters_preserved": true,
+  "orbital_values_uncertainties_flags_unchanged": true,
+  "null_degrees_of_freedom": 1088,
+  "null_chi2": 1095.54334847434,
+  "conditional_null_upper_tail": 0.4302958814904634,
+  "array_shapes": {
+    "times": [
+      708
+    ],
+    "covariance": [
+      1416,
+      1416
+    ],
+    "design": [
+      1416,
+      328
+    ],
+    "baseline_design": [
+      1416,
+      315
+    ]
+  },
+  "regression_evidence_reused": {
+    "file": "results/research/ell1h-j2145-preparation-20260910/verification.json",
+    "sha256": "6dba3201d37b4bec5c1c5ed404cfc15e66aa4ac327aa5a5e9dcddbab0cafcf8c",
+    "reason": "Same unchanged H3-only adapter; no regression rerun needed"
+  },
+  "missing_released_red_component": true,
+  "h3_published_value_us": 0.0610151651883324,
+  "h3_published_uncertainty_us": 0.04453033640322639,
+  "publication_source_hashes_verified": 71,
+  "calibration_executed": false,
+  "observed_search_executed": false
+}

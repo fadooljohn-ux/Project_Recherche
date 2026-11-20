@@ -1,0 +1,7 @@
+{
+ "stat_orbit_fixed": 24.305352466552225,
+ "stat_orbit_linearised": 26.86663181299295,
+ "template_power_retained_after_orbit_projection": 0.8692990081031545,
+ "null_chi2_orbit_fixed": 714.3922390434989,
+ "null_chi2_orbit_free": 714.392238139961
+}

@@ -1,0 +1,14 @@
+{
+ "evidence": "results/research/split-test-power-20261120/power.json",
+ "entries": [
+  [
+   "j2043-split-test-power-20261120",
+   "Research",
+   "J2043+1711 split-test power (simulation)",
+   "VERIFIED",
+   "Owner instruction 'Simulate the split test'. Companion and conditional noise fluke both called inconsistent about 1% of the time in either split: no power to separate them. Receiver split uninformative (430 MHz alone 0.44 us against a 0.089 us feature). Time split catches a one-half-only signal 78-99% of the time.",
+   "Simulated data only; no observed residuals read; no observed test run or authorized. Depends on the assumed red-noise model."
+  ]
+ ],
+ "target_updates": []
+}

@@ -1,0 +1,19 @@
+{
+  "calibration_arrays_sha256": "24f19b74c14fad55c6febff06acae16ed0bfeb7ca362ee8df245a7e855c2b3e0",
+  "calibration_sha256": "b0e0aeac88e46d93dea684f3f7f820c855a8179661d9d3ef63fc3be4643e9b28",
+  "code": {
+    "binary_noise_coverage.py": "066dd27f662e971f2117d0ef84c4fbb7fc96a6f7da08735a328f9198c094e487",
+    "binary_wideband.py": "91f1a3fa712984a68c063acd5cd8778e297270b2b96c75475e934475208318d8",
+    "j1857_nonlinear.py": "d9abf8fc7ff054269b1e238d96d4c03f2b42c1335d59a0b83be46ccc6e23d0b5",
+    "nonlinear_calibration.py": "9b89bec8a3de172a8dc236e802c60e4d30a3e111621367f0873103d8dba090be",
+    "nonlinear_statistic.py": "cd24112a4aec06e5c6237e62aa077320df9c9bd4024121685c4b9224309266e0",
+    "nonlinear_verification.py": "5de761f5dadb1e772e7488e2504b8a69659572aacf3f2f2a19a3d92dd291804b",
+    "target_calibration.py": "9d2d230f53521ce6f4ee55ab48d1c364d3db7543f1b5da26a5ecf902264092df"
+  },
+  "created_utc": "2026-11-18T01:08:40.564827+00:00",
+  "observed_sha256": "98e13da40e2dd924fa182b0304d61ee9c4cfdbe70e814f827439a955a054ba1c",
+  "profile_sha256": "ffcc20b84a70dcd355a4d4d9c93817e35633a9929f0a43105ba0bd2c54fb0e52",
+  "search": "One nonlinear-orbit circular outer-companion scan over eligible cells; single execution",
+  "target": "J0740+6620",
+  "threshold": 22.309641856443804
+}

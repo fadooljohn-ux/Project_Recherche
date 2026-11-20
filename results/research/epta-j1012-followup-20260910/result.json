@@ -1,0 +1,105 @@
+{
+  "NG15_coefficient_covariance_us2": [
+    [
+      0.021622105834896873,
+      -6.934412555303857e-05
+    ],
+    [
+      -6.934412555303857e-05,
+      0.020075691376488517
+    ]
+  ],
+  "NG15_coefficients_us": [
+    -0.49135923963848976,
+    -0.05679436559482004
+  ],
+  "comparison_freeze_sha256": "a89c860dc643d5fd6e952518f783286b25590e9756b5b446d50eb5e66e8247f6",
+  "completed_utc": "2026-09-10T08:36:07.233778+00:00",
+  "epochs": 1974,
+  "interpretation": "Fixed-period conditional diagnostic only; no new survey detection or independent discovery significance.",
+  "mjd_tdb_range": [
+    50647.19759044645,
+    59294.06842705686
+  ],
+  "records": [
+    {
+      "NG15_waveform_detection_power_conditional": 0.9999999999999536,
+      "amplitude_us": 0.07453943093932698,
+      "coefficient_covariance_us2": [
+        [
+          0.0022699531399058776,
+          -2.9132288767606217e-05
+        ],
+        [
+          -2.9132288767606955e-05,
+          0.0021863071142689348
+        ]
+      ],
+      "coefficients_us": [
+        -0.05616820036934159,
+        0.04900265331620515
+      ],
+      "delta_chi2": 2.456261977730946,
+      "fixed_period_conditional_p": 0.2928393865998874,
+      "model": "published_red149_dm45",
+      "null_chi2": 5224.7670859193095,
+      "period_days": 138.9110415844769,
+      "source_coefficient_contrast_chi2": 8.446941937032015,
+      "source_contrast_conditional_p": 0.014647714412103786
+    },
+    {
+      "NG15_waveform_detection_power_conditional": 0.9999999999996122,
+      "amplitude_us": 0.0733170841927904,
+      "coefficient_covariance_us2": [
+        [
+          0.0023995298738874937,
+          -2.877213934978087e-05
+        ],
+        [
+          -2.8772139349782003e-05,
+          0.002325346963647091
+        ]
+      ],
+      "coefficients_us": [
+        -0.05168243383224474,
+        0.05200308517490438
+      ],
+      "delta_chi2": 2.2487564850010093,
+      "fixed_period_conditional_p": 0.32485438523013016,
+      "model": "covered_red256_dm64",
+      "null_chi2": 5143.60379972278,
+      "period_days": 138.9110415844769,
+      "source_coefficient_contrast_chi2": 8.593571666775777,
+      "source_contrast_conditional_p": 0.013612240784193087
+    },
+    {
+      "NG15_waveform_detection_power_conditional": 0.9999998001202935,
+      "amplitude_us": 0.07049106376704035,
+      "coefficient_covariance_us2": [
+        [
+          0.0038301921131936485,
+          -4.7498465883366775e-05
+        ],
+        [
+          -4.749846588336102e-05,
+          0.0037476861436557714
+        ]
+      ],
+      "coefficients_us": [
+        -0.03679317798936923,
+        0.060126966699240246
+      ],
+      "delta_chi2": 1.303665292490716,
+      "fixed_period_conditional_p": 0.5210899276624863,
+      "model": "covered_double_red_power",
+      "null_chi2": 5040.748613212903,
+      "period_days": 138.9110415844769,
+      "source_coefficient_contrast_chi2": 8.712846213303697,
+      "source_contrast_conditional_p": 0.012824176421276935
+    }
+  ],
+  "span_days": 8646.870836610411,
+  "status": "FIXED_PERIOD_COMPARISON_COMPLETE",
+  "target": "J1012+5307",
+  "toas": 5324
+}

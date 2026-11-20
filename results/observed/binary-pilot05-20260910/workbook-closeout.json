@@ -1,0 +1,12 @@
+{
+  "workbook_sha256": "b8f574d668673ff64ec212864e6ab01fd01b83aeb3108b4452306bd678c6aec3",
+  "pre_run_workbook_sha256": "8234923a77ccc6a1a83d260b78c2e56a07a067c36ce099af3aa1eafa2af83607",
+  "post_observed_workbook_sha256": "9242f15ba3022690f4f52b805fedaf695ee86d7dd84b517cfba20faa2ffa6b13",
+  "search_rows_added": 1,
+  "work_log_rows_added": 3,
+  "prior_search_rows_preserved": 356,
+  "candidate_grade_rows_preserved": 8,
+  "operator_notes_preserved": true,
+  "publication_source_hashes_preserved": 71,
+  "closeout_sha256": "5ac841ffb527aa1944fc4186a7bc852185f9863bec78f29a6cf022dd94901dfd"
+}

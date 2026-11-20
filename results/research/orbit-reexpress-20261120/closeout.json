@@ -1,0 +1,81 @@
+{
+ "status": "DEVELOPMENT_COMPATIBILITY_CHECK",
+ "root": "../Project Recherche Data/mpta-reexpress-dev-20261120",
+ "observed_search_executed": false,
+ "frozen": false,
+ "rule": "Development root: must not be frozen or run. A real search needs a new root and a new owner instruction.",
+ "targets": [
+  {
+   "target": "J1903-7051",
+   "status": "HELD",
+   "error": "Binary derivative/local-linearity mismatch: STIGMA {\"step_in_parameter_units\": 0.49811771780191183, \"released_uncertainty\": 0.03914398177062443, \"uncertainty_under_search_covariance\": 0.16603923926730393, \"relative_derivative_error\": 0.009988752505336642, \"maximum_nonlinearity_in_TOA_sigma\": 2428.604362370373}"
+  },
+  {
+   "target": "J1732-5049",
+   "status": "HELD",
+   "error": "SINI must be between 0 and 1"
+  },
+  {
+   "target": "J1933-6211",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "searched_binary_model": "ELL1",
+   "search_range_days": [
+    128.19406719508467,
+    400.0
+   ],
+   "null_reduced_chi2": 1.01071285054349,
+   "equivalence": {
+    "limit_in_TOA_sigma": 0.1,
+    "maximum_difference_in_TOA_sigma": 9.649944327623963e-08,
+    "maximum_difference_seconds_after_projection": 6.374713689864213e-14,
+    "maximum_difference_seconds_before_projection": 1.921778684887916e-09
+   },
+   "fitted_binary_shift_in_checked_sigma": {
+    "A1": 1.5869874664493577,
+    "A1DOT": 1.6123008967438681,
+    "EPS1": 0.020528301560314023,
+    "EPS2": 0.005782850241280223,
+    "PB": 1.1689563852563314,
+    "TASC": 1.1829889330416035
+   }
+  },
+  {
+   "target": "J1751-2857",
+   "status": "HELD",
+   "error": "Period bounds must be positive and increasing"
+  },
+  {
+   "target": "J1101-6424",
+   "status": "HELD",
+   "error": "Binary derivative/local-linearity mismatch: STIGMA {\"step_in_parameter_units\": 0.7835565058700916, \"released_uncertainty\": 0.08441659131912352, \"uncertainty_under_search_covariance\": 0.2611855019566972, \"relative_derivative_error\": 0.05063521714092776, \"maximum_nonlinearity_in_TOA_sigma\": 100.57367636870335}"
+  },
+  {
+   "target": "J2236-5527",
+   "status": "HELD",
+   "error": "SINI must be between 0 and 1"
+  },
+  {
+   "target": "J2322-2650",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "searched_binary_model": "ELL1",
+   "search_range_days": [
+    30.0,
+    400.0
+   ],
+   "null_reduced_chi2": 1.0116556753371593,
+   "equivalence": {
+    "limit_in_TOA_sigma": 0.1,
+    "maximum_difference_in_TOA_sigma": 1.253889271794188e-07,
+    "maximum_difference_seconds_after_projection": 6.030322752801763e-14,
+    "maximum_difference_seconds_before_projection": 1.3203424684144983e-13
+   },
+   "fitted_binary_shift_in_checked_sigma": {
+    "A1": 1.1678524506001053,
+    "EPS1": 0.23244979397638696,
+    "EPS2": 0.8230246461409461,
+    "PB": 0.6707729760939061,
+    "TASC": 0.698773277582153
+   }
+  }
+ ]
+}

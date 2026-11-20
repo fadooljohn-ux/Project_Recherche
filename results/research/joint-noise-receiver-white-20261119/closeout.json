@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "closeout_id": "receiver-white-and-limits-20261119",
+  "owner_instruction": "Proceed with steps 1-2. Do some research on the best sources for independent data for J2043 and J1453.",
+  "outcome": "THRESHOLD_HOLDS_UNDER_JOINT_CHAIN_DRAWS",
+  "observed_residuals_read": false,
+  "frozen": false,
+  "run": false,
+  "scales_only": {
+    "members": 1029,
+    "status": "JOINT_NOISE_CALIBRATED",
+    "threshold": 27.77,
+    "set_by": "released_chain_joint",
+    "joint_chain_validation_crossings": "10/1024"
+  },
+  "scales_and_floors": {
+    "members": 6300,
+    "status": "JOINT_NOISE_CALIBRATED",
+    "threshold": 23.04,
+    "set_by": "strong_steep",
+    "joint_chain_threshold": 22.1,
+    "joint_chain_validation_crossings": "4/1024",
+    "largest_validation_false_alarm_rate": "5/1024",
+    "half_detection_amplitude_rise_vs_consumed_run_curve": "4-17%"
+  },
+  "detection_limits": "docs/DETECTION_LIMITS_2026-11-19.md",
+  "independent_data_research": "docs/INDEPENDENT_DATA_SOURCES_2026-11-19.md (subagent web research; not re-verified; no request or download made)",
+  "sha256": {
+    "results/research/detection-limits-20261119/limits-j1453-consumed-run.json": "50cc0954bb77017d7b9e0e1911e2e25eeff91b5af29a354ea82defcd0fdb3f09",
+    "results/research/detection-limits-20261119/limits-j1453.json": "47f93fb3fcafe3594c67149e57193d16a3b4c7ffaf0e98d9dec849c4cfe83980",
+    "results/research/detection-limits-20261119/limits-other-targets.json": "93c6cd1fc8559099a2180fc48faf94157f2dc2ac728859587c80b3ebcf100687",
+    "results/research/joint-noise-receiver-white-20261119/j1453-scales-only/calibration.json": "53bcf79f209be143c62588747408b8478ff102e9dd35bf285dc54df3221f9a4a",
+    "results/research/joint-noise-receiver-white-20261119/j1453-scales-only/scope.json": "2f64771c66fd71a5b410518dea58e4fa48d19682c9155e3e5c9b299084ac0a0e",
+    "results/research/joint-noise-receiver-white-20261119/j1453/calibration.json": "aad28c5f59352aac15f3536ae66f94f636e8de937f2c4b8c09dfd89473cec2c6",
+    "results/research/joint-noise-receiver-white-20261119/j1453/scope.json": "94e634d9b4f18be280d5d874189b575eec138a6d7e0824b0b78d637a7aed5305",
+    "results/research/joint-noise-receiver-white-20261119/j1453/sensitivity.json": "2a39adbcce28ba34939d322857d40c06c5f88c289768b37d016e21ae8bcdcb56",
+    "config/j1453-joint-noise-receiver-white.json": "f1241659eae36e28a50055ece72062c6066a6ebd58f3726543164a0aa2ddee8c",
+    "config/j1453-joint-noise-receiver-white-scales-only.json": "10e5c62dcd921e600c038ace596add6794071aff56b613eefb072eb26b0bb941",
+    "tools/joint_noise_stage.py": "90484330307e025487286382584b1aaedfabac91b295ff3e268fda8496b86552",
+    "tools/detection_limits.py": "eedc4bd228f9086feff9352b59d69ae9f4bd066525b4fb99051a52eb3f34ddf2",
+    "tests/test_joint_noise_stage.py": "34f4cd711053d47e1cb05e629d457dc47e8416833268f4e208fc8917656c4acc",
+    "tests/test_detection_limits.py": "9cbcc4fe7f87f38e71f76a6078bc733f75a380fa9876916bf3941affcb89bbcb",
+    "docs/DETECTION_LIMITS_2026-11-19.md": "7f5f208f16dd60d5fbe3485fd337c9b8961b21457dd34e1ed31a8db7c07fc6fe",
+    "docs/INDEPENDENT_DATA_SOURCES_2026-11-19.md": "1a77a2e7d5181a2bb887e26078aab090b9e22416c47b923ef169f5e06c411be4"
+  },
+  "note": "Development roots; do not freeze or run. Consumed outcomes unchanged. J2043 not recalibrated."
+}

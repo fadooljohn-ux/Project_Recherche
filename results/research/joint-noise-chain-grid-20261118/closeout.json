@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "closeout_id": "joint-noise-chain-grid-20261118",
+  "owner_instruction": "Proceed with narrowing the noise grid to further boost recovery",
+  "outcome": "NO_GAIN_NOT_ADOPTED",
+  "observed_residuals_read": false,
+  "frozen": false,
+  "run": false,
+  "threshold_as_calibrated": 33.86614182390289,
+  "wide_grid_threshold": 22.345403660383454,
+  "joint_over_ideal_at_1279_days": {
+    "wide_grid": 4.0,
+    "chain_bounded_as_calibrated": 5.76,
+    "chain_bounded_threshold_23.94": 4.3,
+    "no_red_members_threshold_21.45": 1.52
+  },
+  "sha256": {
+    "results/research/joint-noise-chain-grid-20261118/j1453/scope.json": "f97696aed38e51e43f888d8886629136c2cdad31a4dd507711e631e9214c8ba8",
+    "results/research/joint-noise-chain-grid-20261118/j1453/calibration.json": "a14d219497ccaa7e898bdd8b3ca66e297d0c2f54c75de4b2fb4fb256a6bff15b",
+    "results/research/joint-noise-chain-grid-20261118/j1453/sensitivity.json": "1c8edf30e6cd3dc605297de4d4296d9fc7a4a678d4b34e0a9205a87e24404ba1",
+    "results/research/joint-noise-chain-grid-20261118/long_period_diagnostic.py": "79a0f8297363d2a0415363d5cb9f29c6d1775992405f8ccb94fdc6bbf69fb685",
+    "results/research/joint-noise-chain-grid-20261118/long-period-diagnostic.json": "919d73d4a0fbabba07f65813117d88a0d12f5ae504f4639cbdca7b5bd6844a64",
+    "config/j1453-joint-noise-chain-grid.json": "9bbe52dbf76c8e6abc7092b010973d1ecd73ada5b1d0672db96dad8a196c1d2b",
+    "tools/joint_noise_stage.py": "f35fb3fefb4356817b1b941c38c5aa0b914c2aa9979e6700c1c9a43514442216",
+    "tests/test_joint_noise_stage.py": "00c02c4d8a60f7a6d0c784131a2814c999890d6a5eac60b71e1a59bff22cb51f"
+  },
+  "note": "Development root; do not freeze or run. Editing tools/joint_noise_stage.py invalidates earlier preparations; all were consumed."
+}

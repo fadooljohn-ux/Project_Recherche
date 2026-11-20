@@ -1,0 +1,234 @@
+{
+  "calibration_executed": false,
+  "constraints_sha256": "2588cd16f8eb624ec560fd17cf43bd1f46a1842bc18e949916e72a868344f54e",
+  "leakage_code_sha256": "4c7254f7b3de616fb59b0ddb8f80d8eb8ea191ebde7e30bc5c1da36f773d764d",
+  "limitations": "Cartesian stress grid is not a posterior, continuous bound, calibration, significance estimate, or planet recovery. No observed periodogram computed. Phase and nuisance design fixed at released model.",
+  "observed_search_executed": false,
+  "results": [
+    {
+      "grid": {
+        "algorithm": "linear_frequency_independent_bin_oversampling",
+        "frequency_count": 933,
+        "frequency_step_per_day": 3.525711467052604e-05,
+        "maximum_frequency_per_day": 0.03333333333333333,
+        "maximum_period_days": 2000.0,
+        "minimum_frequency_per_day": 0.0005,
+        "minimum_period_days": 30.0,
+        "oversampling": 5,
+        "span_days": 5672.613935342655
+      },
+      "maximum_projected_whitened_norm_squared": 18.258226285056985,
+      "maximum_synthetic_delta_chi2": 1.2433973643585305,
+      "profile_sha256": "2173002f1e85df41dd2d4d27e25d441d0838658dc410e5fa02a3770b6ae3a2bc",
+      "receipt_sha256": "41d017d4b7c40f2a77af51a5ae9656cb3174386ce93e19bed2571a59cba9649d",
+      "scenarios": [
+        {
+          "inclination_degrees": 44.0,
+          "independent_projection_l2_error": 9.585059542347982e-13,
+          "mass_solar": 0.12,
+          "maximum_synthetic_delta_chi2": 0.07328842907277865,
+          "projected_whitened_norm_squared": 0.9814840414058734,
+          "raw_delay_peak_to_peak_us": 2.025828855573767,
+          "synthetic_peak_amplitude_us": 0.022119047010991377,
+          "synthetic_peak_period_days": 120.60075080387406
+        },
+        {
+          "inclination_degrees": 50.0,
+          "independent_projection_l2_error": 1.904994290316584e-12,
+          "mass_solar": 0.12,
+          "maximum_synthetic_delta_chi2": 0.17871852362518348,
+          "projected_whitened_norm_squared": 2.485068316964507,
+          "raw_delay_peak_to_peak_us": 2.389380052307353,
+          "synthetic_peak_amplitude_us": 0.034576798748467204,
+          "synthetic_peak_period_days": 120.60075080387406
+        },
+        {
+          "inclination_degrees": 56.0,
+          "independent_projection_l2_error": 2.9765859833467617e-12,
+          "mass_solar": 0.12,
+          "maximum_synthetic_delta_chi2": 0.40600730264768004,
+          "projected_whitened_norm_squared": 5.961869807365607,
+          "raw_delay_peak_to_peak_us": 2.80159272170812,
+          "synthetic_peak_amplitude_us": 0.052193136606595844,
+          "synthetic_peak_period_days": 120.60075080387406
+        },
+        {
+          "inclination_degrees": 44.0,
+          "independent_projection_l2_error": 1.4327089594338536e-12,
+          "mass_solar": 0.165,
+          "maximum_synthetic_delta_chi2": 0.1385609362157253,
+          "projected_whitened_norm_squared": 1.8556182657830282,
+          "raw_delay_peak_to_peak_us": 2.7855146764139302,
+          "synthetic_peak_amplitude_us": 0.030413689640113505,
+          "synthetic_peak_period_days": 120.60075080387406
+        },
+        {
+          "inclination_degrees": 50.0,
+          "independent_projection_l2_error": 2.679402946850922e-12,
+          "mass_solar": 0.165,
+          "maximum_synthetic_delta_chi2": 0.33788970872886775,
+          "projected_whitened_norm_squared": 4.698332286761052,
+          "raw_delay_peak_to_peak_us": 3.285397571922611,
+          "synthetic_peak_amplitude_us": 0.04754309827914276,
+          "synthetic_peak_period_days": 120.60075080387406
+        },
+        {
+          "inclination_degrees": 56.0,
+          "independent_projection_l2_error": 3.946939223166328e-12,
+          "mass_solar": 0.165,
+          "maximum_synthetic_delta_chi2": 0.7676075565682683,
+          "projected_whitened_norm_squared": 11.2716601045503,
+          "raw_delay_peak_to_peak_us": 3.852189992348665,
+          "synthetic_peak_amplitude_us": 0.07176556283406918,
+          "synthetic_peak_period_days": 120.60075080387406
+        },
+        {
+          "inclination_degrees": 44.0,
+          "independent_projection_l2_error": 1.7950136751955369e-12,
+          "mass_solar": 0.21,
+          "maximum_synthetic_delta_chi2": 0.22444581403538708,
+          "projected_whitened_norm_squared": 3.0057948768055387,
+          "raw_delay_peak_to_peak_us": 3.545200497254093,
+          "synthetic_peak_amplitude_us": 0.03870833226923513,
+          "synthetic_peak_period_days": 120.60075080387406
+        },
+        {
+          "inclination_degrees": 50.0,
+          "independent_projection_l2_error": 2.977035759861493e-12,
+          "mass_solar": 0.21,
+          "maximum_synthetic_delta_chi2": 0.5473254786021295,
+          "projected_whitened_norm_squared": 7.6105217207037885,
+          "raw_delay_peak_to_peak_us": 4.181415091537867,
+          "synthetic_peak_amplitude_us": 0.060509397809817865,
+          "synthetic_peak_period_days": 120.60075080387406
+        },
+        {
+          "inclination_degrees": 56.0,
+          "independent_projection_l2_error": 5.488644015181577e-12,
+          "mass_solar": 0.21,
+          "maximum_synthetic_delta_chi2": 1.2433973643585305,
+          "projected_whitened_norm_squared": 18.258226285056985,
+          "raw_delay_peak_to_peak_us": 4.90278726298921,
+          "synthetic_peak_amplitude_us": 0.0913379890615431,
+          "synthetic_peak_period_days": 120.60075080387406
+        }
+      ],
+      "status": "LEAKAGE_ASSESSED",
+      "target": "J1012+5307"
+    },
+    {
+      "grid": {
+        "algorithm": "linear_frequency_independent_bin_oversampling",
+        "frequency_count": 645,
+        "frequency_step_per_day": 5.101711240660438e-05,
+        "maximum_frequency_per_day": 0.03333333333333333,
+        "maximum_period_days": 1960.1266179670056,
+        "minimum_frequency_per_day": 0.0005101711240660438,
+        "minimum_period_days": 30.0,
+        "oversampling": 5,
+        "span_days": 3920.253235934011
+      },
+      "maximum_projected_whitened_norm_squared": 0.34495386716253096,
+      "maximum_synthetic_delta_chi2": 0.042398551490252435,
+      "profile_sha256": "f377e0035255af4f32a578b6a72c60ca2eb012633880afd6c1b02f9bcc41b3f9",
+      "receipt_sha256": "66de8609cb4c60f8a5a9877a4b53b7f4a3928aaf1915deca6b46a8171d37b8ff",
+      "scenarios": [
+        {
+          "inclination_degrees": 29.6,
+          "independent_projection_l2_error": 5.981925798066756e-14,
+          "mass_solar": 0.166,
+          "maximum_synthetic_delta_chi2": 0.009489723472299517,
+          "projected_whitened_norm_squared": 0.07120063900013757,
+          "raw_delay_peak_to_peak_us": 1.770142658988025,
+          "synthetic_peak_amplitude_us": 0.010519142832559475,
+          "synthetic_peak_period_days": 149.62798610435158
+        },
+        {
+          "inclination_degrees": 32.6,
+          "independent_projection_l2_error": 6.480937631708211e-14,
+          "mass_solar": 0.166,
+          "maximum_synthetic_delta_chi2": 0.01689507507331808,
+          "projected_whitened_norm_squared": 0.13176521517268197,
+          "raw_delay_peak_to_peak_us": 1.970167630528977,
+          "synthetic_peak_amplitude_us": 0.014038718645033508,
+          "synthetic_peak_period_days": 149.62798610435158
+        },
+        {
+          "inclination_degrees": 35.6,
+          "independent_projection_l2_error": 7.117915784920928e-14,
+          "mass_solar": 0.166,
+          "maximum_synthetic_delta_chi2": 0.02863284199748549,
+          "projected_whitened_norm_squared": 0.23295629750835053,
+          "raw_delay_peak_to_peak_us": 2.177011100600929,
+          "synthetic_peak_amplitude_us": 0.018280431327627206,
+          "synthetic_peak_period_days": 149.62798610435158
+        },
+        {
+          "inclination_degrees": 29.6,
+          "independent_projection_l2_error": 5.546849514818771e-14,
+          "mass_solar": 0.181,
+          "maximum_synthetic_delta_chi2": 0.011282219141965347,
+          "projected_whitened_norm_squared": 0.08464959117010692,
+          "raw_delay_peak_to_peak_us": 1.9300953088965813,
+          "synthetic_peak_amplitude_us": 0.011469667787308686,
+          "synthetic_peak_period_days": 149.62798610435158
+        },
+        {
+          "inclination_degrees": 32.6,
+          "independent_projection_l2_error": 7.720593692798072e-14,
+          "mass_solar": 0.181,
+          "maximum_synthetic_delta_chi2": 0.020086353406770563,
+          "projected_whitened_norm_squared": 0.1566540940003005,
+          "raw_delay_peak_to_peak_us": 2.148194826058704,
+          "synthetic_peak_amplitude_us": 0.015307277558741292,
+          "synthetic_peak_period_days": 149.62798610435158
+        },
+        {
+          "inclination_degrees": 35.6,
+          "independent_projection_l2_error": 8.553846323474742e-14,
+          "mass_solar": 0.181,
+          "maximum_synthetic_delta_chi2": 0.03404124461749226,
+          "projected_whitened_norm_squared": 0.27695896583941804,
+          "raw_delay_peak_to_peak_us": 2.3737289711371576,
+          "synthetic_peak_amplitude_us": 0.01993227753193081,
+          "synthetic_peak_period_days": 149.62798610435158
+        },
+        {
+          "inclination_degrees": 29.6,
+          "independent_projection_l2_error": 7.346641644193358e-14,
+          "mass_solar": 0.202,
+          "maximum_synthetic_delta_chi2": 0.01405206403555306,
+          "projected_whitened_norm_squared": 0.10543151668462586,
+          "raw_delay_peak_to_peak_us": 2.1540290187685605,
+          "synthetic_peak_amplitude_us": 0.01280040272395776,
+          "synthetic_peak_period_days": 149.62798610435158
+        },
+        {
+          "inclination_degrees": 32.6,
+          "independent_projection_l2_error": 7.972738622448823e-14,
+          "mass_solar": 0.202,
+          "maximum_synthetic_delta_chi2": 0.025017660157195414,
+          "projected_whitened_norm_squared": 0.1951135084883923,
+          "raw_delay_peak_to_peak_us": 2.3974328998003216,
+          "synthetic_peak_amplitude_us": 0.017083260037932414,
+          "synthetic_peak_period_days": 149.62798610435158
+        },
+        {
+          "inclination_degrees": 35.6,
+          "independent_projection_l2_error": 8.138990902335311e-14,
+          "mass_solar": 0.202,
+          "maximum_synthetic_delta_chi2": 0.042398551490252435,
+          "projected_whitened_norm_squared": 0.34495386716253096,
+          "raw_delay_peak_to_peak_us": 2.6491339898878783,
+          "synthetic_peak_amplitude_us": 0.022244862217955977,
+          "synthetic_peak_period_days": 149.62798610435158
+        }
+      ],
+      "status": "LEAKAGE_ASSESSED",
+      "target": "J1738+0333"
+    }
+  ],
+  "scope": "Nine deterministic Shapiro scenarios per compatible target; actual sampling and fixed released covariance; all free timing/orbit/DM nuisance columns projected; full unmasked prospective grid.",
+  "selection_sha256": "d8e00c7847af4bbe73551982254b9fe31f2d5ab683f71e01e7fabf502c272672",
+  "status": "DEVELOPMENT_ASSESSMENT_COMPLETE"
+}

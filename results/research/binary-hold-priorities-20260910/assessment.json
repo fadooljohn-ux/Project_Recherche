@@ -1,0 +1,341 @@
+{
+  "date": "2026-09-10",
+  "status": "ASSESSMENT_COMPLETE_HOLDS_RETAINED",
+  "scope": "Saved input verification and raw timing-file metadata only",
+  "priority_basis": "Qualitative engineering judgment, not planet probability or calibrated sensitivity",
+  "timing_fit_executed": false,
+  "calibration_executed": false,
+  "observed_search_executed": false,
+  "period_bounds_note": "Prospective existing rule on site times; not frozen barycentric bounds",
+  "rows": [
+    {
+      "priority": 1,
+      "target": "J1857+0943",
+      "release_name": "B1855+09",
+      "batch": "binary-pilot02-20260909",
+      "status": "NONLINEAR_SHAPIRO_HOLD_RETAINED",
+      "bindings": {
+        "par_sha256": "b58c8f48d9fb392db6030da0d92d3a95cb740ee40f78f842c3ef1a5ab106103d",
+        "tim_sha256": "3babc2cd9ab2469312f1d0261c7ebb9c338f5ab1560771ab20e9769c1afda797",
+        "selection_sha256": "d534495ae75baafa9c33782e6c9eb3e29e341f2e6f0954a5ce7e89f139de3f10",
+        "failure_sha256": "0c82e8b7a5dfe42be22db85b33e5bb1f2d73e7407f128141631b8e40572dc20a"
+      },
+      "toas": 364,
+      "paired_dm_toas": 364,
+      "site_mjd_days": 149,
+      "span_days": 5692.437477618628,
+      "span_years": 15.585044428798433,
+      "median_raw_toa_uncertainty_us": 0.388,
+      "observatories": [
+        "arecibo"
+      ],
+      "prospective_period_bounds_days": [
+        123.2717119145527,
+        2000.0
+      ],
+      "released_parameters": {
+        "BINARY": [
+          "ELL1"
+        ],
+        "PB": [
+          "12.327171191455268626",
+          "1",
+          "1.3417865479997387386e-10"
+        ],
+        "A1": [
+          "9.23078002676504",
+          "1",
+          "1.771202212387022e-07"
+        ],
+        "M2": [
+          "0.2632852323940117",
+          "1",
+          "0.009679736524549462"
+        ],
+        "SINI": [
+          "0.9989304509921549",
+          "1",
+          "0.00020194375740510606"
+        ],
+        "TASC": [
+          "56211.0879673709487570",
+          "1",
+          "1.5647065642448386618e-08"
+        ],
+        "EPS1": [
+          "-2.1541702317269154726e-05",
+          "1",
+          "1.933345771378434994e-08"
+        ],
+        "EPS2": [
+          "2.4381811312052936536e-06",
+          "1",
+          "1.2586372725487870583e-08"
+        ],
+        "RNAMP": [
+          "0.04183667784944694"
+        ],
+        "RNIDX": [
+          "-3.5544535384207827"
+        ]
+      },
+      "relative_M2_uncertainty_percent": 3.676520873021674,
+      "released_red_component": true,
+      "historical_linearity_diagnostic": {
+        "step_in_parameter_units": 0.0006058312722153181,
+        "relative_derivative_error": 7.938695908510462e-06,
+        "maximum_nonlinearity_in_TOA_sigma": 0.40103383766506356
+      },
+      "historical_adapter_sha256": "b7515801b23359da67b8f8979b6e21a3b84d017e8539c197d0f7958ddacd0e6e",
+      "diagnostic_comparability": "Shared pilot02 adapter and step convention"
+    },
+    {
+      "priority": 2,
+      "target": "J0740+6620",
+      "release_name": "J0740+6620",
+      "batch": "binary-pilot02-20260909",
+      "status": "NONLINEAR_SHAPIRO_HOLD_RETAINED",
+      "bindings": {
+        "par_sha256": "3df45ecd89ea189d3feeff8d1c7a8e5baed70537907b87aadd94554439c96dd4",
+        "tim_sha256": "55f2fd0762c7be7ba02340d4b10846f0bed7a2ba52e96d8da121febb97a87b9f",
+        "selection_sha256": "d534495ae75baafa9c33782e6c9eb3e29e341f2e6f0954a5ce7e89f139de3f10",
+        "failure_sha256": "ea237dd6c4f059a29ee569775a31917e3d8fddadd61b40e1986e39a5b9646b17"
+      },
+      "toas": 360,
+      "paired_dm_toas": 360,
+      "site_mjd_days": 226,
+      "span_days": 2305.0711851372776,
+      "span_years": 6.310940958623621,
+      "median_raw_toa_uncertainty_us": 0.454,
+      "observatories": [
+        "gbt"
+      ],
+      "prospective_period_bounds_days": [
+        47.66944619412857,
+        1152.5355925686388
+      ],
+      "released_parameters": {
+        "BINARY": [
+          "ELL1"
+        ],
+        "PB": [
+          "4.766944619412856443",
+          "1",
+          "8.3959990477214112336e-11"
+        ],
+        "PBDOT": [
+          "1.0807399707344809e-12",
+          "1",
+          "2.5291790730948886e-13"
+        ],
+        "A1": [
+          "3.9775561979343177",
+          "1",
+          "1.0829842676884244e-07"
+        ],
+        "M2": [
+          "0.24504630706909358",
+          "1",
+          "0.00531502675680129"
+        ],
+        "SINI": [
+          "0.9992204773248196",
+          "1",
+          "0.00011253297270637213"
+        ],
+        "TASC": [
+          "57795.1974196649621298",
+          "1",
+          "1.8886543210612051237e-08"
+        ],
+        "EPS1": [
+          "-5.6559684326866725745e-06",
+          "1",
+          "3.0244213611188621614e-08"
+        ],
+        "EPS2": [
+          "-1.8367315364306153174e-06",
+          "1",
+          "2.03572182782275475e-08"
+        ]
+      },
+      "relative_M2_uncertainty_percent": 2.168988719059805,
+      "released_red_component": false,
+      "historical_linearity_diagnostic": {
+        "step_in_parameter_units": 0.00033759891811911637,
+        "relative_derivative_error": 7.325405324399884e-06,
+        "maximum_nonlinearity_in_TOA_sigma": 0.923575266881042
+      },
+      "historical_adapter_sha256": "b7515801b23359da67b8f8979b6e21a3b84d017e8539c197d0f7958ddacd0e6e",
+      "diagnostic_comparability": "Shared pilot02 adapter and step convention"
+    },
+    {
+      "priority": 3,
+      "target": "J0613-0200",
+      "release_name": "J0613-0200",
+      "batch": "binary-pilot01-20260909",
+      "status": "NONLINEAR_SHAPIRO_HOLD_RETAINED",
+      "bindings": {
+        "par_sha256": "1650e3771978dfcd8ed86dc1c95eb6822ce65b5b6cc80436ea23edd73d68f74e",
+        "tim_sha256": "25dcd9a57977b4b502f493d8132e4ccb75b26fc37bc5d1faf2fd794f704c45b1",
+        "selection_sha256": "2ba19b6a065970236ffdb67fdd6b3002a1dbaae03cabfbcdec44d4a51e2ad893",
+        "failure_sha256": "c55840ed03f28a993c1f7e6235e81d788b77519c52cd1e8df93564a7208f330f"
+      },
+      "toas": 423,
+      "paired_dm_toas": 423,
+      "site_mjd_days": 327,
+      "span_days": 5494.157272187662,
+      "span_years": 15.042182812286548,
+      "median_raw_toa_uncertainty_us": 0.188,
+      "observatories": [
+        "gbt"
+      ],
+      "prospective_period_bounds_days": [
+        30.0,
+        2000.0
+      ],
+      "released_parameters": {
+        "BINARY": [
+          "ELL1"
+        ],
+        "PB": [
+          "1.1985125567193307318",
+          "1",
+          "5.5234625792085619187e-12"
+        ],
+        "PBDOT": [
+          "3.331060228001392e-14",
+          "1",
+          "6.1042074213962e-15"
+        ],
+        "A1": [
+          "1.0914412811760639",
+          "1",
+          "5.633752788498714e-07"
+        ],
+        "M2": [
+          "0.22827940237727778",
+          "1",
+          "0.06310095374575374"
+        ],
+        "SINI": [
+          "0.9017544674082982",
+          "1",
+          "0.031335875993622024"
+        ],
+        "TASC": [
+          "56196.3704953589172995",
+          "1",
+          "7.0484393633330495782e-09"
+        ],
+        "EPS1": [
+          "2.3454690312916515935e-06",
+          "1",
+          "2.1492569691134716371e-07"
+        ],
+        "EPS2": [
+          "3.537360600873092706e-06",
+          "1",
+          "4.6922180793800280928e-08"
+        ],
+        "RNAMP": [
+          "0.05686065483865815"
+        ],
+        "RNIDX": [
+          "-2.77217231312358"
+        ]
+      },
+      "relative_M2_uncertainty_percent": 27.641983064887597,
+      "released_red_component": true,
+      "historical_linearity_diagnostic": {
+        "step_in_parameter_units": 0.09400762798086607,
+        "relative_derivative_error": 0.5726347042906409,
+        "maximum_nonlinearity_in_TOA_sigma": 6.794351728823187
+      },
+      "historical_adapter_sha256": "f165c622b2cde1af74b2283f2587d97aca81423cebf293961fcd160d3026fe10",
+      "diagnostic_comparability": "Earlier adapter and step convention; not a current derivative test"
+    },
+    {
+      "priority": 4,
+      "target": "J2043+1711",
+      "release_name": "J2043+1711",
+      "batch": "binary-pilot02-20260909",
+      "status": "NONLINEAR_SHAPIRO_HOLD_RETAINED",
+      "bindings": {
+        "par_sha256": "901b46a54324dbca9c1ea91bc70994c407a74bf1ac396088402cc0a8b36cebbf",
+        "tim_sha256": "a9b02d6ea4d934004669fb1d718c36b4f880b468ec9bccaa24e8b36f5f82a2e5",
+        "selection_sha256": "d534495ae75baafa9c33782e6c9eb3e29e341f2e6f0954a5ce7e89f139de3f10",
+        "failure_sha256": "be90d5ff614c2ae4cdbd0115af389f00f72c358d781afa560ab5b79ea8ad8dec"
+      },
+      "toas": 459,
+      "paired_dm_toas": 459,
+      "site_mjd_days": 225,
+      "span_days": 3305.938883442659,
+      "span_years": 9.051167374244104,
+      "median_raw_toa_uncertainty_us": 0.21,
+      "observatories": [
+        "arecibo"
+      ],
+      "prospective_period_bounds_days": [
+        30.0,
+        1652.9694417213295
+      ],
+      "released_parameters": {
+        "BINARY": [
+          "ELL1"
+        ],
+        "PB": [
+          "1.4822907863872236006",
+          "1",
+          "5.6605795395169630303e-12"
+        ],
+        "PBDOT": [
+          "8.956057166903744e-14",
+          "1",
+          "1.197878980769742e-14"
+        ],
+        "A1": [
+          "1.6239581062963941",
+          "1",
+          "1.105682263447245e-07"
+        ],
+        "M2": [
+          "0.18956002845614828",
+          "1",
+          "0.007421907447368344"
+        ],
+        "SINI": [
+          "0.9901823268544552",
+          "1",
+          "0.0010630518501500068"
+        ],
+        "TASC": [
+          "57413.5013381163220281",
+          "1",
+          "3.146627208856038681e-09"
+        ],
+        "EPS1": [
+          "-4.2588765620751008648e-06",
+          "1",
+          "4.9942819192280255417e-08"
+        ],
+        "EPS2": [
+          "-2.6622933853074111001e-06",
+          "1",
+          "2.3646543234428894803e-08"
+        ]
+      },
+      "relative_M2_uncertainty_percent": 3.9153335794551674,
+      "released_red_component": false,
+      "historical_linearity_diagnostic": {
+        "step_in_parameter_units": 0.0031891555504500206,
+        "relative_derivative_error": 6.928063138841605e-06,
+        "maximum_nonlinearity_in_TOA_sigma": 1.8142353543833627
+      },
+      "historical_adapter_sha256": "b7515801b23359da67b8f8979b6e21a3b84d017e8539c197d0f7958ddacd0e6e",
+      "diagnostic_comparability": "Shared pilot02 adapter and step convention"
+    }
+  ],
+  "script_sha256": "de58468a2e4281b4203ad79c21139709865e847624e6e034acc39c9044fd8cc1",
+  "parser_sha256": "26c1400e20d6bdadd8704026ef57e45721fe9833f227c794a43784a08ac67739"
+}

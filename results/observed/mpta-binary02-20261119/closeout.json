@@ -1,0 +1,98 @@
+{
+ "status": "CLOSEOUT_COMPLETE",
+ "date": "2026-11-19",
+ "owner_instruction": "Proceed with all 26",
+ "selection_sha256": "0c3afe9a5a0d76de437aa976e7a766fefb4d0dc6c96dfc6ab87faf6b02813163",
+ "execution_freeze_sha256": "0c905635358b15661958992ec3663ac2893ac597e9dd70f1543351158e1726d2",
+ "preparation_sha256": "e71a3bbee5d8eb183ceeb7c58a9d004287c86e020f0d2b21c4bf1ef47e2fbb93",
+ "adapter_sha256": "5815969d7f466dfd1e6d6416bf0aa9c16edbdbf961a3c43f949d739c079ff1d6",
+ "searched": {
+  "J2234+0944": {
+   "result_sha256": "8125f7b2a184dac901ee68184fb2c52cef3efc0fba307323d91e4e8d4c848518",
+   "periodogram_sha256": "2d0c24f99581b19bdc0dff3a7bbf9da821a17b0e2c274100fbef144eaeb9b4d1",
+   "receipt_sha256": "131875cf6705db59fe548b741454d809bc02e645d63b90c083868ae03a8f15c7",
+   "status": "NO_TRIGGER",
+   "peak_period_days": 30.734081453516456,
+   "peak_statistic": 8.798178693120638,
+   "threshold": 26.401609607421783,
+   "peak_amplitude_us": 0.6379661400904263,
+   "null_reduced_chi2": 1.002701161531651
+  },
+  "J2317+1439": {
+   "result_sha256": "4b610ac707e54a2591ff463dc1633cd44ebb8b586169c616b008a33b203af365",
+   "periodogram_sha256": "729659d4b6418237ab7023713b9bac0075984b8df592d1389f738f8822ddf51e",
+   "receipt_sha256": "8286a2ddc0a06aa39d92ffc7c29fc72861154743982b987229444b0af8afefe1",
+   "status": "NO_TRIGGER",
+   "peak_period_days": 128.4437020939183,
+   "peak_statistic": 7.752680525897501,
+   "threshold": 26.439705997363173,
+   "peak_amplitude_us": 0.7746882908208045,
+   "null_reduced_chi2": 0.9957886072273734
+  },
+  "J1547-5709": {
+   "result_sha256": "8a3363a58ce1beeec2b689b3080710e367ddf02b421e42ddcbe901ffac4e4be8",
+   "periodogram_sha256": "55f6836e241dd887fec7e056b8a20787453777b82797f2e20a78d261c579cdc5",
+   "receipt_sha256": "88cf7d8c55d50b94eaf63df108fb893017c5d2a2020add757cf7a9e3a9224b6c",
+   "status": "NO_TRIGGER",
+   "peak_period_days": 73.13707443428981,
+   "peak_statistic": 8.82723650930923,
+   "threshold": 26.620008191351765,
+   "peak_amplitude_us": 1.2262057982221797,
+   "null_reduced_chi2": 1.0175697856978723
+  },
+  "J2039-3616": {
+   "result_sha256": "ba17ed153b5cca377a06147dc617c16c840ae76421e07249840913afe2e4bf5e",
+   "periodogram_sha256": "f2ec9b780f055bb72010a4fa422f6d649beaf8cf5f4287992f1e89faaaa2ec3b",
+   "receipt_sha256": "1242c0b0162f6f4057915c7dd03386cb2dff4fb4e4cb720c5a275f586fdbcbbe",
+   "status": "NO_TRIGGER",
+   "peak_period_days": 73.47778393080235,
+   "peak_statistic": 10.892914466255638,
+   "threshold": 25.145593850643817,
+   "peak_amplitude_us": 0.9370261387378824,
+   "null_reduced_chi2": 0.9903643312020901
+  },
+  "J1719-1438": {
+   "result_sha256": "e8d76fbc231590112b9daa163b6548a57ece418f8b4953cb07aba0df2d61c88e",
+   "periodogram_sha256": "a6ca4d33a433e5e7a3ebbc9ab735c1c2bcaa0febfa45bcabe44f59198c3d9777",
+   "receipt_sha256": "ecc9fe92eb27d4d38ee86e2ab6377efeae480d462ce1a1d913bf7822520054ec",
+   "status": "NO_TRIGGER",
+   "peak_period_days": 51.108057372584746,
+   "peak_statistic": 10.417680520887822,
+   "threshold": 26.70440890033252,
+   "peak_amplitude_us": 1.2076630532108725,
+   "null_reduced_chi2": 0.9894714394354454
+  }
+ },
+ "held": {
+  "J2145-0750": "Binary derivative/local-linearity mismatch: H3 {\"step_in_parameter_units\": 4.144909037508834e-07, \"released_uncertainty\": 2.7868656724030958e-08, \"uncertainty_under_search_covariance\": 1.3816363458362782e-07, \"relative_derivative_error\": 0.09323295948928201, \"maximum_nonlinearity_in_TOA_sigma\": 3.6874908007365126}",
+  "J1446-4701": "Binary derivative/local-linearity mismatch: FB0 {\"step_in_parameter_units\": 1.161370947419741e-09, \"released_uncertainty\": 1.1437054188333788e-10, \"uncertainty_under_search_covariance\": 3.8712364913991366e-10, \"relative_derivative_error\": 0.01015924228437097, \"maximum_nonlinearity_in_TOA_sigma\": 382312.50670224254}",
+  "J1946-5403": "Binary derivative/local-linearity mismatch: FB0 {\"step_in_parameter_units\": 1.2439600462145803e-09, \"released_uncertainty\": 9.38353790649361e-11, \"uncertainty_under_search_covariance\": 4.146533487381934e-10, \"relative_derivative_error\": 0.005233447673589654, \"maximum_nonlinearity_in_TOA_sigma\": 936867.952633914}",
+  "J1903-7051": "Binary derivative/local-linearity mismatch: T0 {\"step_in_parameter_units\": 0.8589943316396993, \"released_uncertainty\": 0.047473526082759204, \"uncertainty_under_search_covariance\": 0.2863314438798998, \"relative_derivative_error\": 0.00012142727856032925, \"maximum_nonlinearity_in_TOA_sigma\": 4832581.861537705}",
+  "J1125-5825": "Binary derivative/local-linearity mismatch: PB {\"step_in_parameter_units\": 0.0003111360807596991, \"released_uncertainty\": 4.1668500139800676e-05, \"uncertainty_under_search_covariance\": 0.0001037120269198997, \"relative_derivative_error\": 6.413655562473463e-09, \"maximum_nonlinearity_in_TOA_sigma\": 26.786575147514714}",
+  "J1732-5049": "Binary derivative/local-linearity mismatch: T0 {\"step_in_parameter_units\": 0.14824767830179364, \"released_uncertainty\": 0.015310562656528828, \"uncertainty_under_search_covariance\": 0.049415892767264546, \"relative_derivative_error\": 5.568077859177e-05, \"maximum_nonlinearity_in_TOA_sigma\": 290263.7423760159}",
+  "J1036-8317": "Binary derivative/local-linearity mismatch: STIGMA {\"step_in_parameter_units\": 1.1805957950317074, \"released_uncertainty\": 0.12093314788816133, \"uncertainty_under_search_covariance\": 0.39353193167723577, \"relative_derivative_error\": 0.05858064737898928, \"maximum_nonlinearity_in_TOA_sigma\": 7.872577190929129}",
+  "J1933-6211": "Binary derivative/local-linearity mismatch: T0 {\"step_in_parameter_units\": 0.1386764146186469, \"released_uncertainty\": 0.01098632989062673, \"uncertainty_under_search_covariance\": 0.04622547153954897, \"relative_derivative_error\": 4.832395118710174e-06, \"maximum_nonlinearity_in_TOA_sigma\": 62380.798019152586}",
+  "J1435-6100": "Binary derivative/local-linearity mismatch: STIGMA {\"step_in_parameter_units\": 0.09760703112107698, \"released_uncertainty\": 0.01054066126218648, \"uncertainty_under_search_covariance\": 0.03253567704035899, \"relative_derivative_error\": 0.0006957389324496326, \"maximum_nonlinearity_in_TOA_sigma\": 1.6049300199751138}",
+  "J1012-4235": "Binary derivative/local-linearity mismatch: PB {\"step_in_parameter_units\": 0.00015986024149082517, \"released_uncertainty\": 1.7282828265508586e-05, \"uncertainty_under_search_covariance\": 5.3286747163608386e-05, \"relative_derivative_error\": 1.0021903475345597e-08, \"maximum_nonlinearity_in_TOA_sigma\": 39.70657756138963}",
+  "J1751-2857": "Binary derivative/local-linearity mismatch: T0 {\"step_in_parameter_units\": 0.009089609192192809, \"released_uncertainty\": 0.0009958866642616484, \"uncertainty_under_search_covariance\": 0.003029869730730936, \"relative_derivative_error\": 5.3202074130443e-10, \"maximum_nonlinearity_in_TOA_sigma\": 1.4286455570152814}",
+  "J0101-6422": "Pulsar system/Binary model component T2 is not provided. Perhaps use DD?",
+  "J2322-2650": "Eccentricity should be in the range of [0,1).",
+  "J1101-6424": "Binary derivative/local-linearity mismatch: T0 {\"step_in_parameter_units\": 0.011102837138020379, \"released_uncertainty\": 0.0012060686945597342, \"uncertainty_under_search_covariance\": 0.0037009457126734595, \"relative_derivative_error\": 1.035997703648903e-07, \"maximum_nonlinearity_in_TOA_sigma\": 126.82743006605153}",
+  "J1455-3330": "Binary derivative/local-linearity mismatch: PB {\"step_in_parameter_units\": 0.0007772952146224445, \"released_uncertainty\": 6.414482134636618e-05, \"uncertainty_under_search_covariance\": 0.0002590984048741482, \"relative_derivative_error\": 1.4303211407376335e-08, \"maximum_nonlinearity_in_TOA_sigma\": 391.1455416676834}",
+  "J1653-2054": "Binary derivative/local-linearity mismatch: FB0 {\"step_in_parameter_units\": 3.890557939432013e-12, \"released_uncertainty\": 4.04229035520249e-13, \"uncertainty_under_search_covariance\": 1.2968526464773374e-12, \"relative_derivative_error\": 1.3026211356456032e-07, \"maximum_nonlinearity_in_TOA_sigma\": 18.652219172264395}",
+  "J1514-4946": "Binary derivative/local-linearity mismatch: STIGMA {\"step_in_parameter_units\": 1.6155655867227847, \"released_uncertainty\": 0.14065495069610578, \"uncertainty_under_search_covariance\": 0.5385218622409282, \"relative_derivative_error\": 0.08489196414146033, \"maximum_nonlinearity_in_TOA_sigma\": 33.32845409581247}",
+  "J1543-5149": "Binary derivative/local-linearity mismatch: STIGMA {\"step_in_parameter_units\": 0.10944028869164416, \"released_uncertainty\": 0.011114445278498869, \"uncertainty_under_search_covariance\": 0.03648009623054805, \"relative_derivative_error\": 0.022981739965718267, \"maximum_nonlinearity_in_TOA_sigma\": 5.246668128507339}",
+  "J2229+2643": "Pulsar system/Binary model component T2 is not provided. Perhaps use BT?",
+  "J1327-0755": "Binary derivative/local-linearity mismatch: H3 {\"step_in_parameter_units\": 2.5093813065157156e-07, \"released_uncertainty\": 7.366434962739967e-08, \"uncertainty_under_search_covariance\": 8.364604355052385e-08, \"relative_derivative_error\": 75529.16244259509, \"maximum_nonlinearity_in_TOA_sigma\": 57.675265111118236}",
+  "J2236-5527": "Binary derivative/local-linearity mismatch: T0 {\"step_in_parameter_units\": 0.08954370609081545, \"released_uncertainty\": 0.006146014451215886, \"uncertainty_under_search_covariance\": 0.02984790203027182, \"relative_derivative_error\": 1.5435623643485706e-06, \"maximum_nonlinearity_in_TOA_sigma\": 10192.485027553763}"
+ },
+ "consumed": [
+  "J2234+0944/run01",
+  "J2317+1439/run01",
+  "J1547-5709/run01",
+  "J2039-3616/run01",
+  "J1719-1438/run01"
+ ],
+ "crossings": 0,
+ "new_planets_confirmed": 0
+}

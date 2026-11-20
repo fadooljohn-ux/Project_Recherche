@@ -8,6 +8,7 @@ import tempfile
 
 import openpyxl
 import agent_workbook as register
+from recherche_common import require
 
 
 def rows(path, name):
@@ -33,12 +34,6 @@ def main():
             shutil.copy2(source / 'receipt.json', target / 'prepared/receipt.json')
             shutil.copy2(source / 'periodogram.npz', target / 'run01/periodogram.npz')
             result = register.read(source / 'result.json')
-            # Bind temporary bookkeeping fixtures to their copied publication bytes.
-            # Never alter archived science receipts to make their old hashes pass.
-            freeze = register.read(batch / 'execution-freeze.json')
-            freeze['selection_sha256'] = register.digest(batch / 'selection.json')
-            (batch / 'execution-freeze.json').write_text(json.dumps(freeze))
-            result['execution_freeze_sha256'] = register.digest(batch / 'execution-freeze.json')
             result['candidate'] = candidate  # bookkeeping branch fixture; not scientific evidence
             result_path = target / 'run01/result.json'
             result_path.write_text(json.dumps(result))
@@ -48,27 +43,27 @@ def main():
             saved = register.digest(master)
             executed = subprocess.run(command, capture_output=True, text=True)
             if executed.returncode: raise RuntimeError(executed.stderr)
-            assert register.digest(master) == saved, 'Idempotent update changed workbook'
+            require(register.digest(master) == saved, 'Idempotent update changed workbook')
             result['peak_statistic'] += 1
             result_path.write_text(json.dumps(result))
             failed = subprocess.run(command, capture_output=True, text=True)
-            assert failed.returncode != 0 and register.digest(master) == saved, 'Conflicting result did not fail atomically'
-            assert not master.with_name(master.name + '.update-lock').exists()
+            require(failed.returncode != 0 and register.digest(master) == saved, 'Conflicting result did not fail atomically')
+            require(not master.with_name(master.name + '.update-lock').exists(), "not master.with_name(master.name + '.update-lock').exists()")
             if not candidate:
                 old = next(r for r in historical['Targets'] if r[0] == 'J1939+2134')
                 current = next(r for r in rows(master, 'Targets') if r[0] == old[0])
-                assert current[2:5] == old[2:5], 'Prior candidate was demoted by new NO_TRIGGER'
+                require(current[2:5] == old[2:5], 'Prior candidate was demoted by new NO_TRIGGER')
         for name in ['Searches', 'Work log', 'Candidate grades']:
-            assert rows(master, name)[:len(historical[name])] == historical[name]
-        assert [r[15] for r in rows(master, 'Targets')] == [r[15] for r in historical['Targets']]
-        assert rows(master, 'Candidate grades')[-1][2] == 'REVIEW_PENDING'
+            require(rows(master, name)[:len(historical[name])] == historical[name], 'rows(master, name)[:len(historical[name])] == historical[name]')
+        require([r[15] for r in rows(master, 'Targets')] == [r[15] for r in historical['Targets']], "[r[15] for r in rows(master, 'Targets')] == [r[15] for r in historical['Targets']]")
+        require(rows(master, 'Candidate grades')[-1][2] == 'REVIEW_PENDING', "rows(master, 'Candidate grades')[-1][2] == 'REVIEW_PENDING'")
         evidence = root / 'review.json'
         evidence.write_text(json.dumps({'status': 'DEVELOPMENT_FIXTURE', 'master_before_sha256': register.digest(master)}))
         context = root / 'context.json'
         context.write_text(json.dumps({'evidence': str(evidence), 'entries': [['agent-fixture-review', 'Operator check', 'Temporary copy', 'PASS', 'No scientific execution', 'Discard fixture']]}))
         subprocess.run([sys.executable, str(register.REPO / 'tools/agent_workbook.py'), '--review', str(context), '--master', str(master)], check=True, capture_output=True, text=True)
-        assert rows(master, 'Work log')[-1][0] == 'agent-fixture-review'
-    assert register.digest(canonical) == before
+        require(rows(master, 'Work log')[-1][0] == 'agent-fixture-review', "rows(master, 'Work log')[-1][0] == 'agent-fixture-review'")
+    require(register.digest(canonical) == before, 'register.digest(canonical) == before')
     print(json.dumps({'status': 'PASS', 'temporary_observed_closeouts': 2, 'duplicate_updates_unchanged': 2,
                       'conflicting_evidence_rejections': 2, 'review_registration': 'PASS',
                       'historical_rows_notes_and_candidate_grades_preserved': True,

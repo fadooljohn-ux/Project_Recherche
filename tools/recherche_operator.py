@@ -15,9 +15,15 @@ from pulsar_pilot.pilot2_offline_resources import (
     load_resource_manifest,
     validate_environment_manifest,
 )
-from pulsar_pilot.pilot2_release_contract import verify_ioc_science_execution_authorization
+from pulsar_pilot.pilot2_release_contract import (
+    load_science_controls,
+    verify_ioc_science_execution_authorization,
+)
 
 REPO = Path(__file__).resolve().parents[1]
+BINDING = REPO / "protocol/RUNTIME_ENVIRONMENT_BINDING_20261116.json"
+# Source lock of the current formal qualification (qualification 03, 16 November 2026).
+SOURCE_LOCK = "results/qualification/qualification03-readiness.json"
 
 
 def read(path):
@@ -31,6 +37,46 @@ def sha(path):
 
 def write(path, value):
     path.write_text(json.dumps(value, indent=2, sort_keys=True) + "\n")
+
+
+def validate_bound_environment(manifest, resource_manifest_sha256):
+    """Verify the live environment, applying the owner-authorized host binding.
+
+    A manifest generated on this host is verified directly. The 16 November 2026
+    binding applies only to a manifest that still holds the qualification 02
+    values: then just the Python executable hash and macOS version are replaced,
+    and only in this checkout. Frozen manifests are never edited. Packages,
+    critical modules, precision and environment variables stay exact.
+    """
+    binding = read(BINDING) if BINDING.exists() else None
+    old = binding["supersedes"] if binding else None
+    validate_environment_manifest(
+        manifest,
+        repository_root=REPO,
+        resource_manifest_sha256=resource_manifest_sha256,
+        verify_live=False,
+    )
+    if (
+        binding is None
+        or manifest["python"]["executable_sha256"] != old["python_executable_sha256"]
+        or manifest["platform"]["macos"] != old["macos"]
+    ):
+        validate_environment_manifest(
+            manifest, repository_root=REPO, resource_manifest_sha256=resource_manifest_sha256
+        )
+        return "native"
+    if binding["checkout"] != str(REPO):
+        raise RuntimeError(
+            f"Environment binding is for {binding['checkout']}; another location needs a new binding"
+        )
+    new = binding["bound"]
+    rebound = json.loads(json.dumps(manifest))
+    rebound["python"]["executable_sha256"] = new["python_executable_sha256"]
+    rebound["platform"]["macos"] = new["macos"]
+    validate_environment_manifest(
+        rebound, repository_root=REPO, resource_manifest_sha256=resource_manifest_sha256
+    )
+    return binding["binding_id"]
 
 
 def verify_inputs(root):
@@ -52,10 +98,9 @@ def verify_inputs(root):
         ):
             raise RuntimeError(f"Input differs: {item['path']}")
     resources = load_resource_manifest(root / "metadata/resources.json", data_root=root)
-    validate_environment_manifest(
+    validate_bound_environment(
         read(root / "metadata/development-environment.json"),
-        repository_root=REPO,
-        resource_manifest_sha256=sha(root / "metadata/resources.json"),
+        sha(root / "metadata/resources.json"),
     )
     return {"inputs_verified": len(inputs), "resources_verified": len(resources["entries"])}
 
@@ -64,20 +109,19 @@ def doctor(root=None):
     frozen = verify_ioc_science_execution_authorization(root=REPO)
     if frozen["status"] != "pass":
         raise RuntimeError(f"Qualified implementation differs: {frozen['failures']}")
-    expected = read(REPO / "results/qualification/qualification02-readiness.json")["source_sha256"]
+    expected = read(REPO / SOURCE_LOCK)["source_sha256"]
     actual = {p.relative_to(REPO).as_posix(): sha(p) for p in (REPO / "src").rglob("*.py")}
     if actual != expected:
         raise RuntimeError("Python source differs from the qualified release")
-    environment = read(REPO / "protocol/PILOT2_RUNTIME_ENVIRONMENT_MANIFEST_v0.2.8.json")
-    validate_environment_manifest(
-        environment,
-        repository_root=REPO,
-        resource_manifest_sha256=sha(
-            REPO / "protocol/PILOT2_RUNTIME_RESOURCE_MANIFEST_v0.2.8.json"
-        ),
+    # The runner configuration names the manifests the formal qualification binds.
+    manifests = load_science_controls(REPO)[2]["manifests"]
+    environment = read(REPO / manifests["environment"])
+    environment_binding = validate_bound_environment(
+        environment, sha(REPO / manifests["resource"])
     )
     result = {
         "status": "PASS",
+        "environment_binding": environment_binding,
         "project_root": str(REPO),
         "python": sys.executable,
         "packages_verified": len(environment["packages"]),

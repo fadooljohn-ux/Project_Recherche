@@ -1,0 +1,1341 @@
+{
+ "status": "DEVELOPMENT_COMPATIBILITY_CHECK",
+ "observed_search_executed": false,
+ "frozen": false,
+ "rule": "Development roots: must not be frozen or run. A real search needs a new root and a new owner instruction.",
+ "attempts": [
+  {
+   "root": "../Project Recherche Data/mpta-shapiro-dev-20261120",
+   "note": "First version: basis columns orthogonal to the design and STIGMA sampled down to 0. Superseded.",
+   "targets": [
+    {
+     "target": "J1909-3744",
+     "status": "HELD",
+     "error": "Data prefer Shapiro parameters outside the checked neighbourhood: M2 +1.05 widths, SINI -3.00 widths; expected chi-square change 14.8"
+    },
+    {
+     "target": "J1614-2230",
+     "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+     "searched_binary_model": "ELL1",
+     "search_range_days": [
+      86.8661956150255,
+      400.0
+     ],
+     "null_reduced_chi2": 0.994992785837792,
+     "shapiro_basis": {
+      "chi2_released_minus_preferred": 4.118513687904851,
+      "components": 2,
+      "data_preferred_expected_chi2_change": 3.7906058880767994,
+      "data_preferred_shift_in_widths": {
+       "M2": -1.650000000000001,
+       "SINI": 1.6499999999996906
+      },
+      "grid_points": 1681,
+      "grid_points_in_neighbourhood": 725,
+      "largest_change_before_projection_in_TOA_sigma": 4.021240305577717,
+      "largest_unremoved_at_test_points_in_TOA_sigma": 0.07758173306887621,
+      "limit_in_TOA_sigma": 0.1,
+      "neighbourhood": "Expected chi-square change <= 9 under the search covariance, or within three released uncertainties; physical values only",
+      "neighbourhood_range": {
+       "M2": [
+        0.4917859265367811,
+        0.5714412126618087
+       ],
+       "SINI": [
+        0.9996203658198582,
+        0.9999025566272087
+       ]
+      },
+      "parameters": [
+       "M2",
+       "SINI"
+      ],
+      "released": {
+       "M2": [
+        0.5305923479823074,
+        0.006038946556882748
+       ],
+       "SINI": [
+        0.9997816177097728,
+        2.262109013778216e-05
+       ]
+      },
+      "rule": "Shapiro parameters frozen at the released values; principal directions of the arrival-time change over the neighbourhood projected as nuisance columns; accepted on independent test points",
+      "sampled_range": {
+       "M2": [
+        0.48974348330280604,
+        0.5714412126618087
+       ],
+       "SINI": [
+        0.9996203658198582,
+        0.9999428695996874
+       ]
+      },
+      "singular_values": [
+       44.07470039633398,
+       37.34463990651549,
+       2.483839656222637,
+       0.10694360634317152,
+       0.0038120247047565363
+      ],
+      "test_point_tries": 132,
+      "test_points": 64,
+      "uncertainty_under_search_covariance": {
+       "M2": 0.013616288226500435,
+       "SINI": 5.3750629971516574e-05
+      }
+     },
+     "reexpression_equivalence": null,
+     "fitted_binary_shift_in_checked_sigma": {
+      "A1": 0.5517012134947408,
+      "EPS1": 0.37155458964967397,
+      "EPS2": 1.1726976421268127,
+      "PB": 0.7502271998984726,
+      "TASC": 0.9915966720970472
+     }
+    },
+    {
+     "target": "J2145-0750",
+     "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+     "searched_binary_model": "ELL1H",
+     "search_range_days": [
+      68.38902615614504,
+      400.0
+     ],
+     "null_reduced_chi2": 0.9946225973130369,
+     "shapiro_basis": {
+      "chi2_released_minus_preferred": 6.068870195689669,
+      "components": 5,
+      "data_preferred_expected_chi2_change": 5.940677915777976,
+      "data_preferred_shift_in_widths": {
+       "H3": -0.3000000000000002,
+       "H4": 2.8500000000000005
+      },
+      "grid_points": 1681,
+      "grid_points_in_neighbourhood": 830,
+      "largest_change_before_projection_in_TOA_sigma": 14.569182234307016,
+      "largest_unremoved_at_test_points_in_TOA_sigma": 1.7564303998433856e-12,
+      "limit_in_TOA_sigma": 0.1,
+      "neighbourhood": "Expected chi-square change <= 9 under the search covariance, or within three released uncertainties; physical values only",
+      "neighbourhood_range": {
+       "H3": [
+        -2.1586130677391402e-07,
+        5.716550343139863e-07
+       ],
+       "H4": [
+        -4.99361295058812e-07,
+        1.5454242940498993e-07
+       ]
+      },
+      "parameters": [
+       "H3",
+       "H4"
+      ],
+      "released": {
+       "H3": [
+        1.571727495308809e-07,
+        2.7868656724030958e-08
+       ],
+       "H4": [
+        -1.8961742557595848e-07,
+        3.9046390775347976e-08
+       ]
+      },
+      "rule": "Shapiro parameters frozen at the released values; principal directions of the arrival-time change over the neighbourhood projected as nuisance columns; accepted on independent test points",
+      "sampled_range": {
+       "H3": [
+        -2.573095352522246e-07,
+        5.716550343139863e-07
+       ],
+       "H4": [
+        -5.337772805569068e-07,
+        1.5454242940498993e-07
+       ]
+      },
+      "singular_values": [
+       101.85223591813366,
+       41.4668409803498,
+       30.413100242752073,
+       9.854177611728131,
+       6.316918849677176,
+       2.1451270591866748e-10,
+       5.511557740831091e-11,
+       5.0620674876565696e-11
+      ],
+      "test_point_tries": 127,
+      "test_points": 64,
+      "uncertainty_under_search_covariance": {
+       "H3": 1.381607615943685e-07,
+       "H4": 1.1471995166031613e-07
+      }
+     },
+     "reexpression_equivalence": null,
+     "fitted_binary_shift_in_checked_sigma": {
+      "A1": 1.777200260940003,
+      "EPS1": 1.2289033057795742,
+      "EPS2": 2.1350527795674674,
+      "PB": 0.20113983879950806,
+      "TASC": 0.12272366034444182
+     }
+    },
+    {
+     "target": "J1036-8317",
+     "status": "HELD",
+     "error": "array must not contain infs or NaNs"
+    },
+    {
+     "target": "J1435-6100",
+     "status": "HELD",
+     "error": "Released orbit requires a shift outside the checked neighbourhood: {\"PB\": 0.37764754125556116, \"A1\": 3.8019008306370257, \"A1DOT\": 0.5508131904278118, \"TASC\": 0.44998434326584713, \"EPS1\": 18.831480351242895, \"EPS2\": 1.6250365635643644}"
+    },
+    {
+     "target": "J1514-4946",
+     "status": "HELD",
+     "error": "array must not contain infs or NaNs"
+    },
+    {
+     "target": "J1543-5149",
+     "status": "HELD",
+     "error": "Released orbit requires a shift outside the checked neighbourhood: {\"PB\": 1.3852056699471675, \"A1\": 12.909922731089338, \"TASC\": 1.4627908126003635, \"EPS1\": 6.016107924831729, \"EPS2\": 0.1802178733751839}"
+    },
+    {
+     "target": "J1327-0755",
+     "status": "HELD",
+     "error": "Data prefer Shapiro parameters outside the checked neighbourhood: H3 +3.00 widths, H4 +0.90 widths; expected chi-square change 21.3"
+    },
+    {
+     "target": "J1101-6424",
+     "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+     "searched_binary_model": "ELL1H",
+     "search_range_days": [
+      96.11708857087316,
+      400.0
+     ],
+     "null_reduced_chi2": 1.0048865158872806,
+     "shapiro_basis": {
+      "chi2_released_minus_preferred": 3.169723026036536,
+      "components": 2,
+      "data_preferred_expected_chi2_change": 1.8363822409464365,
+      "data_preferred_shift_in_widths": {
+       "H3": 1.05,
+       "STIGMA": -3.0
+      },
+      "grid_points": 1681,
+      "grid_points_in_neighbourhood": 1515,
+      "largest_change_before_projection_in_TOA_sigma": 358.0090749794713,
+      "largest_unremoved_at_test_points_in_TOA_sigma": 0.04979634108806821,
+      "limit_in_TOA_sigma": 0.1,
+      "neighbourhood": "Expected chi-square change <= 9 under the search covariance, or within three released uncertainties; physical values only",
+      "neighbourhood_range": {
+       "H3": [
+        -3.745949990022193e-07,
+        1.0322457077273924e-06
+       ],
+       "STIGMA": [
+        0.06556315416296055,
+        0.999
+       ]
+      },
+      "parameters": [
+       "H3",
+       "STIGMA"
+      ],
+      "released": {
+       "H3": [
+        3.2882535436258653e-07,
+        7.627388396521833e-08
+       ],
+       "STIGMA": [
+        0.8490530371838667,
+        0.08441659131912352
+       ]
+      },
+      "rule": "Shapiro parameters frozen at the released values; principal directions of the arrival-time change over the neighbourhood projected as nuisance columns; accepted on independent test points",
+      "sampled_range": {
+       "H3": [
+        -3.745949990022193e-07,
+        1.0322457077273924e-06
+       ],
+       "STIGMA": [
+        0.06556315416296055,
+        0.999
+       ]
+      },
+      "singular_values": [
+       61.524793640337606,
+       31.44574561127916,
+       8.338018991598535,
+       3.3311779814081586,
+       1.216175128087324
+      ],
+      "test_point_tries": 71,
+      "test_points": 64,
+      "uncertainty_under_search_covariance": {
+       "H3": 2.3447345112160194e-07,
+       "STIGMA": 0.26116329434030205
+      }
+     },
+     "reexpression_equivalence": {
+      "limit_in_TOA_sigma": 0.1,
+      "maximum_difference_in_TOA_sigma": 6.618419306839965e-06,
+      "maximum_difference_seconds_after_projection": 2.627601906277966e-11,
+      "maximum_difference_seconds_before_projection": 5.149812422691486e-08
+     },
+     "fitted_binary_shift_in_checked_sigma": {
+      "A1": 0.3370545794404469,
+      "EPS1": 0.9396271554248772,
+      "EPS2": 0.5519875215654191,
+      "PB": 0.9074817535232987,
+      "TASC": 1.1381922024390005
+     }
+    },
+    {
+     "target": "J1903-7051",
+     "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+     "searched_binary_model": "ELL1H",
+     "search_range_days": [
+      110.5079851516083,
+      400.0
+     ],
+     "null_reduced_chi2": 1.0038972202313314,
+     "shapiro_basis": {
+      "chi2_released_minus_preferred": 1.3891938098577157,
+      "components": 4,
+      "data_preferred_expected_chi2_change": 1.3737924330682305,
+      "data_preferred_shift_in_widths": {
+       "H3": -1.0500000000000003,
+       "STIGMA": -0.028304881100916276
+      },
+      "grid_points": 1681,
+      "grid_points_in_neighbourhood": 1242,
+      "largest_change_before_projection_in_TOA_sigma": 3378.160351523345,
+      "largest_unremoved_at_test_points_in_TOA_sigma": 0.033879100739274116,
+      "limit_in_TOA_sigma": 0.1,
+      "neighbourhood": "Expected chi-square change <= 9 under the search covariance, or within three released uncertainties; physical values only",
+      "neighbourhood_range": {
+       "H3": [
+        2.767221713037278e-07,
+        8.929065720283465e-07
+       ],
+       "STIGMA": [
+        0.059155937902742595,
+        0.999
+       ]
+      },
+      "parameters": [
+       "H3",
+       "STIGMA"
+      ],
+      "released": {
+       "H3": [
+        5.769145716567472e-07,
+        2.3664297781980378e-08
+       ],
+       "STIGMA": [
+        0.5572737927221045,
+        0.03914398177062443
+       ]
+      },
+      "rule": "Shapiro parameters frozen at the released values; principal directions of the arrival-time change over the neighbourhood projected as nuisance columns; accepted on independent test points",
+      "sampled_range": {
+       "H3": [
+        2.609225712851478e-07,
+        8.929065720283465e-07
+       ],
+       "STIGMA": [
+        0.059155937902742595,
+        0.999
+       ]
+      },
+      "singular_values": [
+       55.05069836379018,
+       47.71879597926214,
+       13.482871832143946,
+       3.241091827941981,
+       1.2014444646881703,
+       0.4610896969321189,
+       0.13647090187912325
+      ],
+      "test_point_tries": 80,
+      "test_points": 64,
+      "uncertainty_under_search_covariance": {
+       "H3": 1.0533066679053312e-07,
+       "STIGMA": 0.1660392849397873
+      }
+     },
+     "reexpression_equivalence": {
+      "limit_in_TOA_sigma": 0.1,
+      "maximum_difference_in_TOA_sigma": 2.464715053533336e-06,
+      "maximum_difference_seconds_after_projection": 3.59950628780977e-12,
+      "maximum_difference_seconds_before_projection": 6.546316755639514e-10
+     },
+     "fitted_binary_shift_in_checked_sigma": {
+      "A1": 0.2786653566259366,
+      "A1DOT": 0.2976855747484614,
+      "EPS1": 0.6474729356637589,
+      "EPS2": 0.6336951939131833,
+      "PB": 0.24650966057334384,
+      "TASC": 0.3107119607056769
+     }
+    },
+    {
+     "target": "J1732-5049",
+     "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+     "searched_binary_model": "ELL1",
+     "search_range_days": [
+      52.629972185232994,
+      400.0
+     ],
+     "null_reduced_chi2": 0.9926726066302224,
+     "shapiro_basis": {
+      "chi2_released_minus_preferred": 0.7464231060084785,
+      "components": 4,
+      "data_preferred_expected_chi2_change": 0.7296081419425557,
+      "data_preferred_shift_in_widths": {
+       "M2": 2.0380297336196698,
+       "SINI": -1.1976088564911682
+      },
+      "grid_points": 1681,
+      "grid_points_in_neighbourhood": 861,
+      "largest_change_before_projection_in_TOA_sigma": 138.80419459782087,
+      "largest_unremoved_at_test_points_in_TOA_sigma": 0.0778028504310628,
+      "limit_in_TOA_sigma": 0.1,
+      "neighbourhood": "Expected chi-square change <= 9 under the search covariance, or within three released uncertainties; physical values only",
+      "neighbourhood_range": {
+       "M2": [
+        0.0,
+        2.181899113900067
+       ],
+       "SINI": [
+        0.5092301216819296,
+        0.9999995
+       ]
+      },
+      "parameters": [
+       "M2",
+       "SINI"
+      ],
+      "released": {
+       "M2": [
+        0.48078173780638156,
+        0.18440800636362825
+       ],
+       "SINI": [
+        0.8918320700427099,
+        0.04473830644417611
+       ]
+      },
+      "rule": "Shapiro parameters frozen at the released values; principal directions of the arrival-time change over the neighbourhood projected as nuisance columns; accepted on independent test points",
+      "sampled_range": {
+       "M2": [
+        0.0,
+        2.181899113900067
+       ],
+       "SINI": [
+        0.4834001544020312,
+        0.9999995
+       ]
+      },
+      "singular_values": [
+       210.52353881120357,
+       57.29711039518626,
+       13.981050312895075,
+       4.3358271188375115,
+       0.6143613752266204,
+       0.1228010041044003,
+       0.01758976961636643
+      ],
+      "test_point_tries": 96,
+      "test_points": 64,
+      "uncertainty_under_search_covariance": {
+       "M2": 0.5670391253645619,
+       "SINI": 0.13614397188022623
+      }
+     },
+     "reexpression_equivalence": {
+      "limit_in_TOA_sigma": 0.1,
+      "maximum_difference_in_TOA_sigma": 5.880606329899681e-05,
+      "maximum_difference_seconds_after_projection": 6.467602623597044e-11,
+      "maximum_difference_seconds_before_projection": 2.8561452287717993e-10
+     },
+     "fitted_binary_shift_in_checked_sigma": {
+      "A1": 0.14147476898235578,
+      "EPS1": 0.9734225185481313,
+      "EPS2": 0.3526785330574623,
+      "PB": 0.9363398812761019,
+      "TASC": 1.0127722452874242
+     }
+    },
+    {
+     "target": "J2236-5527",
+     "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+     "searched_binary_model": "ELL1",
+     "search_range_days": [
+      126.89187069408946,
+      400.0
+     ],
+     "null_reduced_chi2": 1.0156816106861464,
+     "shapiro_basis": {
+      "chi2_released_minus_preferred": 2.47159622082836,
+      "components": 3,
+      "data_preferred_expected_chi2_change": 1.721497257505573,
+      "data_preferred_shift_in_widths": {
+       "M2": -0.23151948727585073,
+       "SINI": -1.849884244717495
+      },
+      "grid_points": 1681,
+      "grid_points_in_neighbourhood": 1389,
+      "largest_change_before_projection_in_TOA_sigma": 50.49055544997334,
+      "largest_unremoved_at_test_points_in_TOA_sigma": 0.01760517194457916,
+      "limit_in_TOA_sigma": 0.1,
+      "neighbourhood": "Expected chi-square change <= 9 under the search covariance, or within three released uncertainties; physical values only",
+      "neighbourhood_range": {
+       "M2": [
+        0.0,
+        5.958147964509911
+       ],
+       "SINI": [
+        0.0,
+        0.9999995
+       ]
+      },
+      "parameters": [
+       "M2",
+       "SINI"
+      ],
+      "released": {
+       "M2": [
+        0.42686648410708994,
+        0.39373863050707214
+       ],
+       "SINI": [
+        0.8970132585181918,
+        0.10854154430516523
+       ]
+      },
+      "rule": "Shapiro parameters frozen at the released values; principal directions of the arrival-time change over the neighbourhood projected as nuisance columns; accepted on independent test points",
+      "sampled_range": {
+       "M2": [
+        0.0,
+        5.958147964509911
+       ],
+       "SINI": [
+        0.0,
+        0.9999995
+       ]
+      },
+      "singular_values": [
+       74.99768397664418,
+       23.590729202351824,
+       8.509532211200677,
+       1.3793516790085685,
+       0.17332670974512415,
+       0.026192733158349097
+      ],
+      "test_point_tries": 72,
+      "test_points": 64,
+      "uncertainty_under_search_covariance": {
+       "M2": 1.8437604934676073,
+       "SINI": 0.4849023721779841
+      }
+     },
+     "reexpression_equivalence": {
+      "limit_in_TOA_sigma": 0.1,
+      "maximum_difference_in_TOA_sigma": 6.859444202306842e-05,
+      "maximum_difference_seconds_after_projection": 4.930634457547762e-10,
+      "maximum_difference_seconds_before_projection": 6.279918064001433e-09
+     },
+     "fitted_binary_shift_in_checked_sigma": {
+      "A1": 0.5608882486428779,
+      "A1DOT": 0.773011090575216,
+      "EPS1": 0.8786569548839089,
+      "EPS2": 0.2536497744518717,
+      "PB": 1.7065914728586646,
+      "TASC": 1.0201545581554023
+     }
+    }
+   ]
+  },
+  {
+   "root": "../Project Recherche Data/mpta-shapiro-dev2-20261120",
+   "note": "Second version (current code).",
+   "targets": [
+    {
+     "target": "J1909-3744",
+     "status": "HELD",
+     "error": "Data prefer Shapiro parameters outside the checked neighbourhood: M2 +1.05 widths, SINI -3.00 widths; expected chi-square change 14.8"
+    },
+    {
+     "target": "J1614-2230",
+     "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+     "searched_binary_model": "ELL1",
+     "search_range_days": [
+      86.8661956150255,
+      400.0
+     ],
+     "null_reduced_chi2": 0.9949927858377924,
+     "shapiro_basis": {
+      "chi2_released_minus_preferred": 4.118513687904851,
+      "components": 2,
+      "data_preferred_expected_chi2_change": 3.7906058880767994,
+      "data_preferred_shift_in_widths": {
+       "M2": -1.650000000000001,
+       "SINI": 1.6499999999996906
+      },
+      "grid_points": 1681,
+      "grid_points_in_neighbourhood": 725,
+      "largest_change_before_projection_in_TOA_sigma": 4.021240305577717,
+      "largest_unremoved_at_test_points_in_TOA_sigma": 0.07758173306887621,
+      "limit_in_TOA_sigma": 0.1,
+      "neighbourhood": "Expected chi-square change <= 9 under the search covariance, or within three released uncertainties; physical values only",
+      "neighbourhood_range": {
+       "M2": [
+        0.4917859265367811,
+        0.5714412126618087
+       ],
+       "SINI": [
+        0.9996203658198582,
+        0.9999025566272087
+       ]
+      },
+      "parameters": [
+       "M2",
+       "SINI"
+      ],
+      "released": {
+       "M2": [
+        0.5305923479823074,
+        0.006038946556882748
+       ],
+       "SINI": [
+        0.9997816177097728,
+        2.262109013778216e-05
+       ]
+      },
+      "rule": "Shapiro parameters frozen at the released values; principal directions of the arrival-time change over the neighbourhood projected as nuisance columns; accepted on independent test points",
+      "sampled_range": {
+       "M2": [
+        0.48974348330280604,
+        0.5714412126618087
+       ],
+       "SINI": [
+        0.9996203658198582,
+        0.9999428695996874
+       ]
+      },
+      "singular_values": [
+       44.07470039633398,
+       37.34463990651549,
+       2.483839656222637,
+       0.10694360634317152,
+       0.0038120247047565363
+      ],
+      "test_point_tries": 132,
+      "test_points": 64,
+      "uncertainty_under_search_covariance": {
+       "M2": 0.013616288226500435,
+       "SINI": 5.3750629971516574e-05
+      }
+     },
+     "reexpression_equivalence": null,
+     "fitted_binary_shift_in_checked_sigma": {
+      "A1": 1.476317680019576,
+      "EPS1": 1.089375024947793,
+      "EPS2": 1.2206581567744899,
+      "PB": 0.5313252613000664,
+      "TASC": 0.7606766322804972
+     }
+    },
+    {
+     "target": "J2145-0750",
+     "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+     "searched_binary_model": "ELL1H",
+     "search_range_days": [
+      68.38902615614504,
+      400.0
+     ],
+     "null_reduced_chi2": 0.9946225973130369,
+     "shapiro_basis": {
+      "chi2_released_minus_preferred": 6.068870195689669,
+      "components": 5,
+      "data_preferred_expected_chi2_change": 5.940677915777976,
+      "data_preferred_shift_in_widths": {
+       "H3": -0.3000000000000002,
+       "H4": 2.8500000000000005
+      },
+      "grid_points": 1681,
+      "grid_points_in_neighbourhood": 830,
+      "largest_change_before_projection_in_TOA_sigma": 14.569182234307016,
+      "largest_unremoved_at_test_points_in_TOA_sigma": 1.7564303998433856e-12,
+      "limit_in_TOA_sigma": 0.1,
+      "neighbourhood": "Expected chi-square change <= 9 under the search covariance, or within three released uncertainties; physical values only",
+      "neighbourhood_range": {
+       "H3": [
+        -2.1586130677391402e-07,
+        5.716550343139863e-07
+       ],
+       "H4": [
+        -4.99361295058812e-07,
+        1.5454242940498993e-07
+       ]
+      },
+      "parameters": [
+       "H3",
+       "H4"
+      ],
+      "released": {
+       "H3": [
+        1.571727495308809e-07,
+        2.7868656724030958e-08
+       ],
+       "H4": [
+        -1.8961742557595848e-07,
+        3.9046390775347976e-08
+       ]
+      },
+      "rule": "Shapiro parameters frozen at the released values; principal directions of the arrival-time change over the neighbourhood projected as nuisance columns; accepted on independent test points",
+      "sampled_range": {
+       "H3": [
+        -2.573095352522246e-07,
+        5.716550343139863e-07
+       ],
+       "H4": [
+        -5.337772805569068e-07,
+        1.5454242940498993e-07
+       ]
+      },
+      "singular_values": [
+       101.85223591813366,
+       41.4668409803498,
+       30.413100242752073,
+       9.854177611728131,
+       6.316918849677176,
+       2.1451270591866748e-10,
+       5.511557740831091e-11,
+       5.0620674876565696e-11
+      ],
+      "test_point_tries": 127,
+      "test_points": 64,
+      "uncertainty_under_search_covariance": {
+       "H3": 1.381607615943685e-07,
+       "H4": 1.1471995166031613e-07
+      }
+     },
+     "reexpression_equivalence": null,
+     "fitted_binary_shift_in_checked_sigma": {
+      "A1": 1.1461774630085348,
+      "EPS1": 1.049268596230837,
+      "EPS2": 1.7819476419122804,
+      "PB": 0.3395415743249345,
+      "TASC": 0.2760946374771494
+     }
+    },
+    {
+     "target": "J1036-8317",
+     "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+     "searched_binary_model": "ELL1H",
+     "search_range_days": [
+      30.0,
+      400.0
+     ],
+     "null_reduced_chi2": 0.9791939141240042,
+     "shapiro_basis": {
+      "chi2_released_minus_preferred": 0.28144823505158456,
+      "components": 2,
+      "data_preferred_expected_chi2_change": 0.1908675648888132,
+      "data_preferred_shift_in_widths": {
+       "H3": 0.0,
+       "STIGMA": -0.3817797901666286
+      },
+      "grid_points": 1681,
+      "grid_points_in_neighbourhood": 1326,
+      "largest_change_before_projection_in_TOA_sigma": 8759.183213301694,
+      "largest_unremoved_at_test_points_in_TOA_sigma": 0.07474870932478635,
+      "limit_in_TOA_sigma": 0.1,
+      "neighbourhood": "Expected chi-square change <= 9 under the search covariance, or within three released uncertainties; physical values only",
+      "neighbourhood_range": {
+       "H3": [
+        -1.478430309282246e-07,
+        7.774144335614419e-07
+       ],
+       "STIGMA": [
+        0.02,
+        0.999
+       ]
+      },
+      "parameters": [
+       "H3",
+       "STIGMA"
+      ],
+      "released": {
+       "H3": [
+        2.772752635670276e-07,
+        5.068733983091276e-08
+       ],
+       "STIGMA": [
+        0.7086885098479956,
+        0.12093314788816133
+       ]
+      },
+      "rule": "Shapiro parameters frozen at the released values; principal directions of the arrival-time change over the neighbourhood projected as nuisance columns; accepted on independent test points",
+      "sampled_range": {
+       "H3": [
+        -2.2286390642738673e-07,
+        7.774144335614419e-07
+       ],
+       "STIGMA": [
+        0.02,
+        0.999
+       ]
+      },
+      "singular_values": [
+       59.2275046705842,
+       30.841800674043345,
+       8.058441068290577,
+       2.740941981435406,
+       1.2509929740266794
+      ],
+      "test_point_tries": 79,
+      "test_points": 64,
+      "uncertainty_under_search_covariance": {
+       "H3": 1.6671305666480478e-07,
+       "STIGMA": 0.393521379909669
+      }
+     },
+     "reexpression_equivalence": null,
+     "fitted_binary_shift_in_checked_sigma": {
+      "A1": 0.3759321546395274,
+      "EPS1": 0.4672847140021548,
+      "EPS2": 0.6723841048676997,
+      "PB": 0.1871639702392664,
+      "TASC": 0.09494981071917306
+     }
+    },
+    {
+     "target": "J1435-6100",
+     "status": "HELD",
+     "error": "Released orbit requires a shift outside the checked neighbourhood: {\"PB\": 0.47327405628334107, \"A1\": 3.579449576115775, \"A1DOT\": 0.4744271246671721, \"TASC\": 0.5504975292792131, \"EPS1\": 8.217260582328079, \"EPS2\": 1.5912079507877894}"
+    },
+    {
+     "target": "J1514-4946",
+     "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+     "searched_binary_model": "ELL1H",
+     "search_range_days": [
+      30.0,
+      400.0
+     ],
+     "null_reduced_chi2": 0.9935721901593175,
+     "shapiro_basis": {
+      "chi2_released_minus_preferred": 0.4899093667319221,
+      "components": 2,
+      "data_preferred_expected_chi2_change": 0.4087494133000451,
+      "data_preferred_shift_in_widths": {
+       "H3": 0.6000000000000002,
+       "STIGMA": 0.32793336034186243
+      },
+      "grid_points": 1681,
+      "grid_points_in_neighbourhood": 1542,
+      "largest_change_before_projection_in_TOA_sigma": 31170.314720172613,
+      "largest_unremoved_at_test_points_in_TOA_sigma": 0.07171929745859872,
+      "limit_in_TOA_sigma": 0.1,
+      "neighbourhood": "Expected chi-square change <= 9 under the search covariance, or within three released uncertainties; physical values only",
+      "neighbourhood_range": {
+       "H3": [
+        -2.7100498028841164e-07,
+        1.0484468669031908e-06
+       ],
+       "STIGMA": [
+        0.02,
+        0.999
+       ]
+      },
+      "parameters": [
+       "H3",
+       "STIGMA"
+      ],
+      "released": {
+       "H3": [
+        3.7180489398442026e-07,
+        8.76329662606935e-08
+       ],
+       "STIGMA": [
+        0.8223913621069678,
+        0.14065495069610578
+       ]
+      },
+      "rule": "Shapiro parameters frozen at the released values; principal directions of the arrival-time change over the neighbourhood projected as nuisance columns; accepted on independent test points",
+      "sampled_range": {
+       "H3": [
+        -3.0483707893435014e-07,
+        1.0484468669031908e-06
+       ],
+       "STIGMA": [
+        0.02,
+        0.999
+       ]
+      },
+      "singular_values": [
+       63.853211402516024,
+       23.30614661829122,
+       5.1511375995283455,
+       2.4330164241064627,
+       0.5602145425568787
+      ],
+      "test_point_tries": 66,
+      "test_points": 64,
+      "uncertainty_under_search_covariance": {
+       "H3": 2.255473243062568e-07,
+       "STIGMA": 0.5385503863008082
+      }
+     },
+     "reexpression_equivalence": null,
+     "fitted_binary_shift_in_checked_sigma": {
+      "A1": 0.546564335380298,
+      "EPS1": 0.4417905209945,
+      "EPS2": 1.4228999659534431,
+      "PB": 1.727857774814712,
+      "TASC": 1.6043043406093607
+     }
+    },
+    {
+     "target": "J1543-5149",
+     "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+     "searched_binary_model": "ELL1H",
+     "search_range_days": [
+      80.60773136383466,
+      400.0
+     ],
+     "null_reduced_chi2": 0.9910311581192478,
+     "shapiro_basis": {
+      "chi2_released_minus_preferred": 2.6235697741476542,
+      "components": 3,
+      "data_preferred_expected_chi2_change": 2.306899542865812,
+      "data_preferred_shift_in_widths": {
+       "H3": -0.44999999999999973,
+       "STIGMA": -1.08749361640497
+      },
+      "grid_points": 1681,
+      "grid_points_in_neighbourhood": 1187,
+      "largest_change_before_projection_in_TOA_sigma": 5.155500534883484,
+      "largest_unremoved_at_test_points_in_TOA_sigma": 0.020880035528471536,
+      "limit_in_TOA_sigma": 0.1,
+      "neighbourhood": "Expected chi-square change <= 9 under the search covariance, or within three released uncertainties; physical values only",
+      "neighbourhood_range": {
+       "H3": [
+        5.543298078495021e-07,
+        1.794022374857803e-06
+       ],
+       "STIGMA": [
+        0.8521219428438025,
+        0.999
+       ]
+      },
+      "parameters": [
+       "H3",
+       "STIGMA"
+      ],
+      "released": {
+       "H3": [
+        1.1053042820754136e-06,
+        6.63166116147778e-08
+       ],
+       "STIGMA": [
+        0.9615601299489079,
+        0.011114445278498869
+       ]
+      },
+      "rule": "Shapiro parameters frozen at the released values; principal directions of the arrival-time change over the neighbourhood projected as nuisance columns; accepted on independent test points",
+      "sampled_range": {
+       "H3": [
+        4.165861892930242e-07,
+        1.794022374857803e-06
+       ],
+       "STIGMA": [
+        0.8521219428438025,
+        0.999
+       ]
+      },
+      "singular_values": [
+       54.89598122902967,
+       35.55924894916769,
+       9.884090328983737,
+       1.7753957927802362,
+       0.5802335261585252,
+       0.07482511847057655
+      ],
+      "test_point_tries": 87,
+      "test_points": 64,
+      "uncertainty_under_search_covariance": {
+       "H3": 2.295726975941298e-07,
+       "STIGMA": 0.0364793957017018
+      }
+     },
+     "reexpression_equivalence": null,
+     "fitted_binary_shift_in_checked_sigma": {
+      "A1": 2.256616076612737,
+      "EPS1": 2.439001461310271,
+      "EPS2": 0.3136852565219485,
+      "PB": 1.4544155672068064,
+      "TASC": 1.5417932797751956
+     }
+    },
+    {
+     "target": "J1327-0755",
+     "status": "HELD",
+     "error": "Data prefer Shapiro parameters outside the checked neighbourhood: H3 +3.00 widths, H4 +0.90 widths; expected chi-square change 21.3"
+    },
+    {
+     "target": "J1101-6424",
+     "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+     "searched_binary_model": "ELL1H",
+     "search_range_days": [
+      96.11708857087316,
+      400.0
+     ],
+     "null_reduced_chi2": 1.0048865158872802,
+     "shapiro_basis": {
+      "chi2_released_minus_preferred": 3.169723026036536,
+      "components": 2,
+      "data_preferred_expected_chi2_change": 1.8363822409464365,
+      "data_preferred_shift_in_widths": {
+       "H3": 1.05,
+       "STIGMA": -3.0
+      },
+      "grid_points": 1681,
+      "grid_points_in_neighbourhood": 1515,
+      "largest_change_before_projection_in_TOA_sigma": 358.0090749794713,
+      "largest_unremoved_at_test_points_in_TOA_sigma": 0.04979634108806821,
+      "limit_in_TOA_sigma": 0.1,
+      "neighbourhood": "Expected chi-square change <= 9 under the search covariance, or within three released uncertainties; physical values only",
+      "neighbourhood_range": {
+       "H3": [
+        -3.745949990022193e-07,
+        1.0322457077273924e-06
+       ],
+       "STIGMA": [
+        0.06556315416296055,
+        0.999
+       ]
+      },
+      "parameters": [
+       "H3",
+       "STIGMA"
+      ],
+      "released": {
+       "H3": [
+        3.2882535436258653e-07,
+        7.627388396521833e-08
+       ],
+       "STIGMA": [
+        0.8490530371838667,
+        0.08441659131912352
+       ]
+      },
+      "rule": "Shapiro parameters frozen at the released values; principal directions of the arrival-time change over the neighbourhood projected as nuisance columns; accepted on independent test points",
+      "sampled_range": {
+       "H3": [
+        -3.745949990022193e-07,
+        1.0322457077273924e-06
+       ],
+       "STIGMA": [
+        0.06556315416296055,
+        0.999
+       ]
+      },
+      "singular_values": [
+       61.524793640337606,
+       31.44574561127916,
+       8.338018991598535,
+       3.3311779814081586,
+       1.216175128087324
+      ],
+      "test_point_tries": 71,
+      "test_points": 64,
+      "uncertainty_under_search_covariance": {
+       "H3": 2.3447345112160194e-07,
+       "STIGMA": 0.26116329434030205
+      }
+     },
+     "reexpression_equivalence": {
+      "limit_in_TOA_sigma": 0.1,
+      "maximum_difference_in_TOA_sigma": 6.618419728674259e-06,
+      "maximum_difference_seconds_after_projection": 2.627601818653783e-11,
+      "maximum_difference_seconds_before_projection": 5.149812422691486e-08
+     },
+     "fitted_binary_shift_in_checked_sigma": {
+      "A1": 1.7493977354532877,
+      "EPS1": 1.7680418635669655,
+      "EPS2": 0.8093102611381864,
+      "PB": 0.9636506422429107,
+      "TASC": 1.1709903350800641
+     }
+    },
+    {
+     "target": "J1903-7051",
+     "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+     "searched_binary_model": "ELL1H",
+     "search_range_days": [
+      110.5079851516083,
+      400.0
+     ],
+     "null_reduced_chi2": 1.0038972202313312,
+     "shapiro_basis": {
+      "chi2_released_minus_preferred": 1.3891938098577157,
+      "components": 4,
+      "data_preferred_expected_chi2_change": 1.3737924330682305,
+      "data_preferred_shift_in_widths": {
+       "H3": -1.0500000000000003,
+       "STIGMA": -0.028304881100916276
+      },
+      "grid_points": 1681,
+      "grid_points_in_neighbourhood": 1242,
+      "largest_change_before_projection_in_TOA_sigma": 3378.160351523345,
+      "largest_unremoved_at_test_points_in_TOA_sigma": 0.033879100739274116,
+      "limit_in_TOA_sigma": 0.1,
+      "neighbourhood": "Expected chi-square change <= 9 under the search covariance, or within three released uncertainties; physical values only",
+      "neighbourhood_range": {
+       "H3": [
+        2.767221713037278e-07,
+        8.929065720283465e-07
+       ],
+       "STIGMA": [
+        0.059155937902742595,
+        0.999
+       ]
+      },
+      "parameters": [
+       "H3",
+       "STIGMA"
+      ],
+      "released": {
+       "H3": [
+        5.769145716567472e-07,
+        2.3664297781980378e-08
+       ],
+       "STIGMA": [
+        0.5572737927221045,
+        0.03914398177062443
+       ]
+      },
+      "rule": "Shapiro parameters frozen at the released values; principal directions of the arrival-time change over the neighbourhood projected as nuisance columns; accepted on independent test points",
+      "sampled_range": {
+       "H3": [
+        2.609225712851478e-07,
+        8.929065720283465e-07
+       ],
+       "STIGMA": [
+        0.059155937902742595,
+        0.999
+       ]
+      },
+      "singular_values": [
+       55.05069836379018,
+       47.71879597926214,
+       13.482871832143946,
+       3.241091827941981,
+       1.2014444646881703,
+       0.4610896969321189,
+       0.13647090187912325
+      ],
+      "test_point_tries": 80,
+      "test_points": 64,
+      "uncertainty_under_search_covariance": {
+       "H3": 1.0533066679053312e-07,
+       "STIGMA": 0.1660392849397873
+      }
+     },
+     "reexpression_equivalence": {
+      "limit_in_TOA_sigma": 0.1,
+      "maximum_difference_in_TOA_sigma": 2.4647150579327944e-06,
+      "maximum_difference_seconds_after_projection": 3.5995062942348037e-12,
+      "maximum_difference_seconds_before_projection": 6.546316755639514e-10
+     },
+     "fitted_binary_shift_in_checked_sigma": {
+      "A1": 0.49803134256046944,
+      "A1DOT": 0.4190323546806878,
+      "EPS1": 0.5034795405184945,
+      "EPS2": 0.7518327928748176,
+      "PB": 0.20903430366728545,
+      "TASC": 0.30469534001061543
+     }
+    },
+    {
+     "target": "J1732-5049",
+     "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+     "searched_binary_model": "ELL1",
+     "search_range_days": [
+      52.629972185232994,
+      400.0
+     ],
+     "null_reduced_chi2": 0.9926726066302226,
+     "shapiro_basis": {
+      "chi2_released_minus_preferred": 0.7464231060084785,
+      "components": 4,
+      "data_preferred_expected_chi2_change": 0.7296081419425557,
+      "data_preferred_shift_in_widths": {
+       "M2": 2.0380297336196698,
+       "SINI": -1.1976088564911682
+      },
+      "grid_points": 1681,
+      "grid_points_in_neighbourhood": 861,
+      "largest_change_before_projection_in_TOA_sigma": 138.80419459782087,
+      "largest_unremoved_at_test_points_in_TOA_sigma": 0.0778028504310628,
+      "limit_in_TOA_sigma": 0.1,
+      "neighbourhood": "Expected chi-square change <= 9 under the search covariance, or within three released uncertainties; physical values only",
+      "neighbourhood_range": {
+       "M2": [
+        0.0,
+        2.181899113900067
+       ],
+       "SINI": [
+        0.5092301216819296,
+        0.9999995
+       ]
+      },
+      "parameters": [
+       "M2",
+       "SINI"
+      ],
+      "released": {
+       "M2": [
+        0.48078173780638156,
+        0.18440800636362825
+       ],
+       "SINI": [
+        0.8918320700427099,
+        0.04473830644417611
+       ]
+      },
+      "rule": "Shapiro parameters frozen at the released values; principal directions of the arrival-time change over the neighbourhood projected as nuisance columns; accepted on independent test points",
+      "sampled_range": {
+       "M2": [
+        0.0,
+        2.181899113900067
+       ],
+       "SINI": [
+        0.4834001544020312,
+        0.9999995
+       ]
+      },
+      "singular_values": [
+       210.52353881120357,
+       57.29711039518626,
+       13.981050312895075,
+       4.3358271188375115,
+       0.6143613752266204,
+       0.1228010041044003,
+       0.01758976961636643
+      ],
+      "test_point_tries": 96,
+      "test_points": 64,
+      "uncertainty_under_search_covariance": {
+       "M2": 0.5670391253645619,
+       "SINI": 0.13614397188022623
+      }
+     },
+     "reexpression_equivalence": {
+      "limit_in_TOA_sigma": 0.1,
+      "maximum_difference_in_TOA_sigma": 5.880606328479187e-05,
+      "maximum_difference_seconds_after_projection": 6.467602625126619e-11,
+      "maximum_difference_seconds_before_projection": 2.8561452287717993e-10
+     },
+     "fitted_binary_shift_in_checked_sigma": {
+      "A1": 0.7703494196832344,
+      "EPS1": 0.6812022877698802,
+      "EPS2": 0.47485858628693633,
+      "PB": 1.001117671270998,
+      "TASC": 1.0860315519830723
+     }
+    },
+    {
+     "target": "J2236-5527",
+     "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+     "searched_binary_model": "ELL1",
+     "search_range_days": [
+      126.89187069408946,
+      400.0
+     ],
+     "null_reduced_chi2": 1.0156816106861464,
+     "shapiro_basis": {
+      "chi2_released_minus_preferred": 2.47159622082836,
+      "components": 3,
+      "data_preferred_expected_chi2_change": 1.721497257505573,
+      "data_preferred_shift_in_widths": {
+       "M2": -0.23151948727585073,
+       "SINI": -1.849884244717495
+      },
+      "grid_points": 1681,
+      "grid_points_in_neighbourhood": 1389,
+      "largest_change_before_projection_in_TOA_sigma": 50.49055544997334,
+      "largest_unremoved_at_test_points_in_TOA_sigma": 0.01760517194457916,
+      "limit_in_TOA_sigma": 0.1,
+      "neighbourhood": "Expected chi-square change <= 9 under the search covariance, or within three released uncertainties; physical values only",
+      "neighbourhood_range": {
+       "M2": [
+        0.0,
+        5.958147964509911
+       ],
+       "SINI": [
+        0.0,
+        0.9999995
+       ]
+      },
+      "parameters": [
+       "M2",
+       "SINI"
+      ],
+      "released": {
+       "M2": [
+        0.42686648410708994,
+        0.39373863050707214
+       ],
+       "SINI": [
+        0.8970132585181918,
+        0.10854154430516523
+       ]
+      },
+      "rule": "Shapiro parameters frozen at the released values; principal directions of the arrival-time change over the neighbourhood projected as nuisance columns; accepted on independent test points",
+      "sampled_range": {
+       "M2": [
+        0.0,
+        5.958147964509911
+       ],
+       "SINI": [
+        0.0,
+        0.9999995
+       ]
+      },
+      "singular_values": [
+       74.99768397664418,
+       23.590729202351824,
+       8.509532211200677,
+       1.3793516790085685,
+       0.17332670974512415,
+       0.026192733158349097
+      ],
+      "test_point_tries": 72,
+      "test_points": 64,
+      "uncertainty_under_search_covariance": {
+       "M2": 1.8437604934676073,
+       "SINI": 0.4849023721779841
+      }
+     },
+     "reexpression_equivalence": {
+      "limit_in_TOA_sigma": 0.1,
+      "maximum_difference_in_TOA_sigma": 6.859444198740371e-05,
+      "maximum_difference_seconds_after_projection": 4.930634456816466e-10,
+      "maximum_difference_seconds_before_projection": 6.279918064001433e-09
+     },
+     "fitted_binary_shift_in_checked_sigma": {
+      "A1": 0.06516852023413934,
+      "A1DOT": 0.42634996606114717,
+      "EPS1": 0.19901520071498496,
+      "EPS2": 0.4740045629309743,
+      "PB": 1.820492727057026,
+      "TASC": 0.5567879261855834
+     }
+    }
+   ]
+  }
+ ]
+}

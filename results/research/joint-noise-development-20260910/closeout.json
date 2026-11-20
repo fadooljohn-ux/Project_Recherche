@@ -1,0 +1,80 @@
+{
+  "status": "BOUNDED_IMPROVEMENT_COMPLETE",
+  "targets": [
+    {
+      "target": "J1012+5307",
+      "noise_models": 24,
+      "selected_modes": 256,
+      "candidate_statistic": 11.335781534129637,
+      "threshold": 33.3950860478883,
+      "candidate_crossing": false,
+      "validation_false_alarms_each": [
+        0,
+        1,
+        0
+      ],
+      "validation_count_each": 256,
+      "candidate_diagnostic_tail_range": [
+        0.603112840466926,
+        0.6848249027237354
+      ],
+      "original_amplitude_injections_recovered": 0,
+      "original_amplitude_injections_total": 144,
+      "strong_amplitude_injections_recovered": 131,
+      "strong_amplitude_injections_total": 144,
+      "aggregate_recovery_interpretation": "Descriptive count across different periods/generators, not an estimated universal sensitivity",
+      "boundary_fit": false
+    },
+    {
+      "target": "J1752-2806",
+      "noise_models": 12,
+      "selected_modes": 64,
+      "candidate_statistic": 11.536629847538507,
+      "threshold": 23.53611949228383,
+      "candidate_crossing": false,
+      "validation_false_alarms_each": [
+        0,
+        0,
+        2
+      ],
+      "validation_count_each": 256,
+      "candidate_diagnostic_tail_range": [
+        0.2178988326848249,
+        0.40077821011673154
+      ],
+      "original_amplitude_injections_recovered": 8,
+      "original_amplitude_injections_total": 144,
+      "strong_amplitude_injections_recovered": 109,
+      "strong_amplitude_injections_total": 144,
+      "aggregate_recovery_interpretation": "Descriptive count across different periods/generators, not an estimated universal sensitivity",
+      "boundary_fit": true
+    }
+  ],
+  "calibration_null_count": 1536,
+  "independent_validation_null_count": 1536,
+  "injection_count": 576,
+  "new_blind_searches": 0,
+  "prior_search_records_preserved": 356,
+  "candidate_grades_changed": false,
+  "qualified_source_files_unchanged": 71,
+  "preparation_failures_retained": 2,
+  "numerical_execution_failures": 0,
+  "followup_status": "Existing EPTA compatibility hold and TPA insufficient power; no new confirmation",
+  "operational_readiness": "Development procedure only; finite grid and sensitivity limits prevent general automatic adoption. Future UTMOST preparations now enforce frequency coverage.",
+  "new_publication": false,
+  "evidence": {
+    "J1012+5307/ensemble-results.npz": "23342ae5b0e371763a373ffafe006ec3fda29c89af19e78ad86f746696069612",
+    "J1012+5307/external-manifest.json": "f49e5403b3f8542675fa6193b87c3b99e50f12744851bf675f9c56d8dfefd4ff",
+    "J1012+5307/result.json": "7d8411e96eb90dcece86032ac3116d2946d96b6d81c24c5b71953ff5e6772bae",
+    "J1012+5307/scope.json": "28a350b008a22f2ce6f758fb83f34b8274b9d16fc71156bf4f4ac1f01a9f06db",
+    "J1012+5307/verification.json": "057eede980150e847f2b9661516e309f2e2773704f763c4b047c492dd36c98f7",
+    "J1012+5307-preparation-failure01.json": "aed1be58a424b7f4e9c57ec5a32bfd6f34b2ff4ef5b8ce75a75380878d5050c6",
+    "J1752-2806/ensemble-results.npz": "32481457d9eecc91db91574385852cd65a1d962eea4d67629041922507bc7a2b",
+    "J1752-2806/external-manifest.json": "94c6539f7b7733283ce5ca8c5607583dab316dd1087370a323c3e97bb175f213",
+    "J1752-2806/result.json": "cf1c336d8111476a0648198985e7a8b590bd4bb55a6410c7b398fc7b1a4d7cfd",
+    "J1752-2806/scope.json": "d73e7307a99f03b9474a89c8c95fb9444c09b2ce6ac1c66268993b386d2602a5",
+    "J1752-2806/verification.json": "548ac2ccc96e477f1060cbc4a16147494679f32d3e20c37c8b837b1b5c81f0b4",
+    "J1752-2806-preparation-failure01.json": "aed1be58a424b7f4e9c57ec5a32bfd6f34b2ff4ef5b8ce75a75380878d5050c6",
+    "follow-up-assessment.json": "ab3eb8cd9c9d4619dcb9bb94ba79956b8daab4f790c3b4b4b350d7c709d7221a"
+  }
+}

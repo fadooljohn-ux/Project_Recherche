@@ -1,6 +1,5 @@
 """Bounded follow-up of the consumed UTMOST J1327-6222 candidate."""
 import json
-from pathlib import Path
 import numpy as np
 from scipy.optimize import minimize_scalar
 from scipy.stats import chi2,ncx2
@@ -8,10 +7,11 @@ import mpta_batch as mpta
 import target_calibration as cal
 import j1453_review as common
 import tpa_batch
+from recherche_common import DATA_ROOT, require
 
 REPO=mpta.REPO
-ROOT=REPO.parent/'Project Recherche Data/j1327-deep-review-20260909'
-SOURCE=REPO.parent/'Project Recherche Data/utmost-batch02-20260909/J1327-6222'
+ROOT=DATA_ROOT / 'j1327-deep-review-20260909'
+SOURCE=DATA_ROOT / 'utmost-batch02-20260909/J1327-6222'
 EVIDENCE=REPO/'results/research/j1327-deep-review-20260909'
 
 
@@ -42,7 +42,7 @@ def main():
     if not (ROOT/'scope.json').exists(): save('scope.json',scope)
     else:
         old=cal.read(ROOT/'scope.json')
-        assert all(old[k]==json.loads(json.dumps(v)) for k,v in scope.items())
+        require(all(old[k]==json.loads(json.dumps(v)) for k,v in scope.items()), 'all(old[k]==json.loads(json.dumps(v)) for k,v in scope.items())')
     local=np.linspace(55.,70.,301)
     g=common.GLS(c,x);h=common.template(t,local,len(t));scores,_=g.scan(y,g.bank(h));j=int(np.argmax(scores))
     optimized=minimize_scalar(lambda p:-g.fit(y,t,p)['delta_chi2'],bounds=(local[max(0,j-1)],local[min(len(local)-1,j+1)]),method='bounded')

@@ -1,0 +1,80 @@
+{
+  "adapter_sha256": "78eec2ad77ab4e96be7c83f84e6540ca67beb44c530a5720b4d2cce9cc04e8ed",
+  "analytical_bound": 21.203244549214226,
+  "calibration_receipt_sha256": "e777f85ea127e017f007ab7f6f36be84e92d898cf3917612ab9f9492a4f7192f",
+  "candidate_grades": 8,
+  "conditional_false_alarm_allowance": 0.01,
+  "date": "2026-09-10",
+  "diagnostic_injections_recovered": 90,
+  "diagnostic_injections_total": 96,
+  "eligible_cells": 390,
+  "empirical_99_percent_quantile": 19.43255089178639,
+  "excluded_cells": 12,
+  "execution_frozen": false,
+  "grid_cells": 402,
+  "limitation": "Fixed supplied covariance and linear timing design. Conditional on-grid circular sensitivity; not a noise posterior, population completeness or observed detection. Diagnostic recovery is retained at 90/96 without repetition.",
+  "mask": {
+    "definition": "Grid-dependent timing-projection mask, including annual/astrometric losses; retained power must exceed 0.2 and template condition must be below 1e10. Listed intervals describe excluded grid cells, not interpolated continuous boundaries.",
+    "excluded_grid_intervals": [
+      {
+        "grid_cells": 8,
+        "maximum_period_days": 382.49709031714264,
+        "maximum_retained_power": 0.10955789793580527,
+        "minimum_period_days": 349.5185038294361
+      },
+      {
+        "grid_cells": 4,
+        "maximum_period_days": 184.04012830066003,
+        "maximum_retained_power": 0.1692116397135579,
+        "minimum_period_days": 180.52765357259003
+      }
+    ],
+    "nearest_annual_cell": {
+      "eligible": false,
+      "period_days": 362.9291263858819,
+      "retained_power": 8.033357455613003e-05
+    }
+  },
+  "noiseless_relative_amplitude_error": 1.232074519214128e-15,
+  "null_maxima_exceeding_threshold": 13,
+  "null_realizations": 4096,
+  "observed_identities": 284,
+  "observed_search_executed": false,
+  "period_bounds_days": [
+    68.38902509644943,
+    2000.0
+  ],
+  "preparation_receipt_sha256": "85a50cc3dc8626082c85dfb12822052e2197b1235ad4281162004857c8f26feb",
+  "profile_sha256": "d4683653b47a6026db59732e234bf5099b821a980c9281ed260f5ecb9fca9442",
+  "publication_source_hashes_verified": 71,
+  "registered_targets": 783,
+  "search_refinement_records": 358,
+  "sensitivity": {
+    "injection_grid_points": [
+      {
+        "best_phase_amplitude_us": 2.280651072517945,
+        "period_days": 2000.0,
+        "retained_power": 0.7391815076026043,
+        "worst_phase_amplitude_us": 2.501438555309285
+      },
+      {
+        "best_phase_amplitude_us": 0.6285884450102309,
+        "period_days": 128.87533823770048,
+        "retained_power": 0.8420069295877649,
+        "worst_phase_amplitude_us": 0.6877801327579007
+      },
+      {
+        "best_phase_amplitude_us": 0.6316219735413223,
+        "period_days": 68.38902509644943,
+        "retained_power": 0.8225101514157338,
+        "worst_phase_amplitude_us": 0.6612377159707118
+      }
+    ],
+    "maximum_worst_phase_amplitude_us": 2.501438555309285,
+    "median_worst_phase_amplitude_us": 0.685459429546466,
+    "minimum_worst_phase_amplitude_us": 0.6331528022915122
+  },
+  "status": "CALIBRATED_READY_FOR_FREEZE_AND_LAUNCH",
+  "target": "J2145-0750",
+  "threshold": 21.203244549214226
+}

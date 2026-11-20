@@ -1,0 +1,47 @@
+{
+  "arrays": "arrays.npz",
+  "arrays_sha256": "dd2457a461309007fd1a54fb1b6fc4b18380430b441381d62f3e61dceb8cf3d5",
+  "layout": "first len(times) rows are TOA seconds; remaining rows are auxiliary measurements",
+  "observed_residuals_included": false,
+  "policy": {
+    "detection_probability": 0.95,
+    "false_alarm_probability": 0.01,
+    "maximum_condition_number": 10000000000.0,
+    "maximum_period_days": 2000.0,
+    "minimum_period_days": 30.0,
+    "minimum_retained_power": 0.2,
+    "null_count": 4096,
+    "oversampling": 5,
+    "search_count": 2,
+    "seed": 2026093100
+  },
+  "provenance": {
+    "fixed_shapiro": {
+      "harmonic_recentring": {
+        "A1": {
+          "physical_reference": 0.581816283500721,
+          "released": 0.5818177993848596
+        },
+        "EPS1": {
+          "physical_reference": -1.2289300858453203e-08,
+          "released": 1.2026415625045133e-06
+        },
+        "EPS2": {
+          "physical_reference": 6.72779459303882e-07,
+          "released": 6.727777064257264e-07
+        }
+      },
+      "inclination_degrees": 50.0,
+      "mass_solar": 0.165,
+      "scope": "Fixed optical central values; first two Shapiro harmonics removed from released apparent orbit; original orbital uncertainties retained",
+      "sini": 0.766044443118978
+    },
+    "noise_model": "Released fixed NG15 wideband covariance; all free ELL1 binary, timing, DM and instrumental derivatives jointly projected",
+    "preparation_receipt_sha256": "3e40cb6e2160728bd180ea716eac539f72518773f64c1bb703680a939f3b8601",
+    "shapiro_mode": "fixed_from_literature",
+    "timing_model": "Released ELL1 binary model; local linear marginalization of all free orbital parameters"
+  },
+  "reference_epoch_mjd_tdb": 56104.0,
+  "schema": "recherche-target-calibration-v1",
+  "target": "J1012+5307"
+}

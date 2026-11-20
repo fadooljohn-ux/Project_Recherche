@@ -24,3 +24,6 @@ results/**/*.par
 # Reconstructable agent/operator runtime and local setup receipt
 .agent-venv/
 .agent-setup.json
+
+# Links into another application's runtime cache
+outputs/**/node_modules

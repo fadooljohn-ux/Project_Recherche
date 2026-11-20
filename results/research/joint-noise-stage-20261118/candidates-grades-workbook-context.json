@@ -1,0 +1,22 @@
+{
+ "evidence": "results/research/joint-noise-stage-20261118/candidates-assessments.json",
+ "entries": [
+  [
+   "second-stage-standing-rule-20261118",
+   "Owner decision",
+   "Second-stage joint-noise test; all future fixed-noise crossings",
+   "ADOPTED",
+   "Owner instruction 'Proceed with 1 & 2'. A fixed-noise threshold crossing is a trigger, not a candidate signal. Each new crossing goes through the second-stage joint-noise test once, with its noise grid and generators declared before the run, before it is graded. Written into AGENTS.md, AGENT_README.md and docs/CANDIDATE_GRADING.md.",
+   "No run was made. New searches still need an owner instruction."
+  ],
+  [
+   "candidates-joint-noise-stage-20261118-grades",
+   "Candidate grading",
+   "J1453+1902, J1939+2134, J1327-6222, J1359-6038, J0908-4913, J1048-5832",
+   "GRADE_ROWS_UPDATED",
+   "Owner instruction 'Proceed with 1 & 2'. The six Candidate grades rows now carry the second-stage tail (largest per-generator count of 1024 validation nulls at or above the observed joint statistic: 46, 812, 1006, 240, 476, 835) in place of the September deep-review tail, which stays in the predecessor assessments. Grades and dispositions unchanged.",
+   "No scientific run. J1752 and J1012 rows not changed."
+  ]
+ ],
+ "target_updates": []
+}

@@ -1,0 +1,17 @@
+{
+  "external_relative_directory": "j1857-nonlinear-prototype-20260910/attempt01",
+  "files": {
+    "half_amplitude.npz": "a7476db2782f3a46677248649fba651e485099c242eef735ccb556d5a896656f",
+    "scope.json": "de0b5f4b479bac417a951f71bcf7b41edee7329870729709321d0c099d4e17f5",
+    "pint.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "steeper.npz": "41041d1850b711141777ca21d62dfe3c4fc681e4edabb750faa4214184ff8805",
+    "shallower.npz": "13772ddc52212ebb83935648f257eccb6a39b257bb4cc5157829c4b2db2bfe2b",
+    "double_amplitude.npz": "473c111ee5c27b3367abb1673cd0a49fc5fd32a99a9586dabf774e04aa769d12",
+    "reference-model.par": "ae46a3348edcd0cbd628f7da9038266830a1c07eea7cfebec5873617955aac54",
+    "released.npz": "9a3e8b534b25a163d61d10af234b4596610000da5ba607a50bc21aa689c690a2",
+    "receipt.json": "584a91bb1f7bc3e16cf168607c1e1884eefceb05317d3908089e7d4025115451"
+  },
+  "clock_binding_sha256": "f25218ef3ad378a61c3c7f6331e17a1155fa07fda1fd970d52ca3790e4ee4962",
+  "clock_sha256": "fde7103aa67a3f8577c271e860ffb10806a0d19266df1d1cb1818af3a8d93103",
+  "science_resources_metadata_sha256": "70e6ecc3e9181fe2c8e5c51c4367942fb19b09f5cd40285b089bcc1e2cf2e317"
+}

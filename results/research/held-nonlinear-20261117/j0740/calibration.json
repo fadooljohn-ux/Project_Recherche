@@ -1,0 +1,93 @@
+{
+  "analytical_bound": 22.309641856443804,
+  "arrays_sha256": "24f19b74c14fad55c6febff06acae16ed0bfeb7ca362ee8df245a7e855c2b3e0",
+  "code": {
+    "binary_noise_coverage.py": "066dd27f662e971f2117d0ef84c4fbb7fc96a6f7da08735a328f9198c094e487",
+    "binary_wideband.py": "91f1a3fa712984a68c063acd5cd8778e297270b2b96c75475e934475208318d8",
+    "j1857_nonlinear.py": "d9abf8fc7ff054269b1e238d96d4c03f2b42c1335d59a0b83be46ccc6e23d0b5",
+    "nonlinear_calibration.py": "9b89bec8a3de172a8dc236e802c60e4d30a3e111621367f0873103d8dba090be",
+    "nonlinear_statistic.py": "cd24112a4aec06e5c6237e62aa077320df9c9bd4024121685c4b9224309266e0",
+    "nonlinear_verification.py": "5de761f5dadb1e772e7488e2504b8a69659572aacf3f2f2a19a3d92dd291804b",
+    "target_calibration.py": "9d2d230f53521ce6f4ee55ab48d1c364d3db7543f1b5da26a5ecf902264092df"
+  },
+  "created_utc": "2026-11-18T01:08:10.305776+00:00",
+  "eligible_cells": 222,
+  "empirical_quantile": 18.48907990378879,
+  "excluded_periods_days": [
+    411.619858627021,
+    397.42607039850304,
+    384.1785347185529,
+    371.7856787598899,
+    360.1673762986434,
+    349.25321338050264,
+    338.981060045782,
+    329.29588690161677,
+    185.89283937994497,
+    182.94215938978712,
+    180.0836881493217
+  ],
+  "false_alarm_probability": 0.01,
+  "frequency_count": 233,
+  "injection_cases": [
+    {
+      "amplitude_us": 0.5823663969262337,
+      "period_days": 1152.5356041556588,
+      "phase_radians": 0.0,
+      "recovered": 16,
+      "trials": 16
+    },
+    {
+      "amplitude_us": 0.5823663969262337,
+      "period_days": 1152.5356041556588,
+      "phase_radians": 1.5707963267948966,
+      "recovered": 16,
+      "trials": 16
+    },
+    {
+      "amplitude_us": 0.4341253314345235,
+      "period_days": 87.97981711111899,
+      "phase_radians": 0.0,
+      "recovered": 16,
+      "trials": 16
+    },
+    {
+      "amplitude_us": 0.4341253314345235,
+      "period_days": 87.97981711111899,
+      "phase_radians": 1.5707963267948966,
+      "recovered": 16,
+      "trials": 16
+    },
+    {
+      "amplitude_us": 0.44402715554673494,
+      "period_days": 47.66944619412857,
+      "phase_radians": 0.0,
+      "recovered": 16,
+      "trials": 16
+    },
+    {
+      "amplitude_us": 0.44402715554673494,
+      "period_days": 47.66944619412857,
+      "phase_radians": 1.5707963267948966,
+      "recovered": 14,
+      "trials": 16
+    }
+  ],
+  "injection_recovered": 94,
+  "injection_scope": "Bounded fixed-noise diagnostic at eligible periods; not occurrence completeness",
+  "injection_trials": 96,
+  "linearised_empirical_quantile": 18.487633143447894,
+  "median_best_phase_amplitude_us": 0.39694488921812066,
+  "median_worst_phase_amplitude_us": 0.4428685558959889,
+  "noise_assumption": "Gaussian with the fixed released covariance; orbit simulated at its published value",
+  "null_count": 4096,
+  "null_fits_on_domain_bound": 0,
+  "observed_residuals_read": false,
+  "profile_sha256": "ffcc20b84a70dcd355a4d4d9c93817e35633a9929f0a43105ba0bd2c54fb0e52",
+  "search_count": 3,
+  "seed": 2026093000,
+  "sensitivity_scope": "Linearised-orbit amplitude for the requested detection probability at the nonlinear threshold",
+  "status": "CALIBRATED",
+  "target": "J0740+6620",
+  "threshold": 22.309641856443804,
+  "threshold_rule": "max(empirical null quantile, union bound)"
+}

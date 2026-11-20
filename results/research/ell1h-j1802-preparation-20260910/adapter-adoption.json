@@ -1,0 +1,7 @@
+{
+  "reason": "Only add terminal adequacy enforcement before calibration/freeze; no preparation mathematics or inputs change. Original preparation and diagnostic result retained without rerun.",
+  "previous_adapter_sha256": "9c8ce8110f4fd83cdd0cf99a66bf1eabc817f4f5b1589784c146acbe7adc4af2",
+  "current_adapter_sha256": "91f1a3fa712984a68c063acd5cd8778e297270b2b96c75475e934475208318d8",
+  "previous_selection_sha256": "72535377818177c4e4e45d8c5e6a202858dd97ef5d5629dd8d4b2329a52adf9e",
+  "current_selection_sha256": "40ea5eb06f4dfd99a253fa954380ca2113fe23a985caf5bcf9182308b7e3597d"
+}

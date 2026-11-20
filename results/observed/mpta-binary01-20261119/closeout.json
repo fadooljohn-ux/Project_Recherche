@@ -1,0 +1,47 @@
+{
+ "status": "CLOSEOUT_COMPLETE",
+ "date": "2026-11-19",
+ "owner_instruction": "I approve the MeerKat binary list. Start on the most precise targets.",
+ "selection_sha256": "de039dce9e4b2d8a9a61580ca6b9cc630a6a08744613f0548e951a6e5f11f5b4",
+ "execution_freeze_sha256": "3b69ca90e95d45c93bfde4afbb98eb3d0640176a8fd605539089d54ba6c3bca2",
+ "preparation_sha256": "a70ef72aa932f1bfafa66dba514a4464b5fa3c79d0df8b0612d676df101384fd",
+ "adapter_sha256": "5815969d7f466dfd1e6d6416bf0aa9c16edbdbf961a3c43f949d739c079ff1d6",
+ "searched": {
+  "J0125-2327": {
+   "result_sha256": "33e3f7c27c6b2f83e97ed8a721afb66f3ca96ed41d9b2d853124a1f64d8712b0",
+   "periodogram_sha256": "9dd1d6b2018e07b97658c276edc571b555b2068d8458f59900ecfa1e5aee5f87",
+   "status": "NO_TRIGGER",
+   "peak_period_days": 126.43778650784108,
+   "peak_statistic": 5.042204797912258,
+   "threshold": 21.771132049896572,
+   "peak_amplitude_us": 0.1448185470631984,
+   "null_reduced_chi2": 0.977902985136524,
+   "receipt_sha256": "6f3acfcb9bfda24c619c00a79c943870a46cd8b7e63b59ef93be487f167c71ba"
+  },
+  "J1216-6410": {
+   "result_sha256": "97d1467a76c81721bff49222565b024815dd57c54d10bdbbf50db8f2ea89836a",
+   "periodogram_sha256": "e9f0c14a16ead4f97e6bbff8e18983fcf129b031f781def5bb35ad3cb12a7654",
+   "status": "NO_TRIGGER",
+   "peak_period_days": 142.8194545085897,
+   "peak_statistic": 6.285506645658827,
+   "threshold": 23.179773012212713,
+   "peak_amplitude_us": 0.23692624970107604,
+   "null_reduced_chi2": 1.013279662890421,
+   "receipt_sha256": "32f35594042d2727164d1e8e2b0776ac278e714bf8fa6db5513d22adb669be23"
+  }
+ },
+ "held": {
+  "J1909-3744": "Binary derivative/local-linearity mismatch: SINI {\"step_in_parameter_units\": 0.0002613335934847568, \"released_uncertainty\": 3.268814932550138e-05, \"uncertainty_under_search_covariance\": 8.711119782825227e-05, \"relative_derivative_error\": 4.819517265801032e-05, \"maximum_nonlinearity_in_TOA_sigma\": 0.16779154764004076}",
+  "J2241-5236": "Binary derivative/local-linearity mismatch: FB2 {\"step_in_parameter_units\": 2.1510682315315365e-27, \"released_uncertainty\": 1.5207070595300969e-28, \"uncertainty_under_search_covariance\": 7.170227438438456e-28, \"relative_derivative_error\": 1.0637456600164154e-08, \"maximum_nonlinearity_in_TOA_sigma\": 0.5040313161063}",
+  "J1811-2405": "Binary derivative/local-linearity mismatch: PB {\"step_in_parameter_units\": 0.0030665840063351844, \"released_uncertainty\": 9.500648177784373e-05, \"uncertainty_under_search_covariance\": 0.0010221946687783948, \"relative_derivative_error\": 0.0004014938130553326, \"maximum_nonlinearity_in_TOA_sigma\": 13894277.297665706}",
+  "J1614-2230": "Binary derivative/local-linearity mismatch: SINI {\"step_in_parameter_units\": 0.00016125171465022198, \"released_uncertainty\": 2.262109013778216e-05, \"uncertainty_under_search_covariance\": 5.375057155007399e-05, \"relative_derivative_error\": 5.722145851940514e-06, \"maximum_nonlinearity_in_TOA_sigma\": 2.9755440558394013}"
+ },
+ "retained_failed_attempts": [
+  "J0125-2327/attempt01-failed (shift measured in released sigma; check corrected before any search)"
+ ],
+ "consumed": [
+  "J0125-2327/run01",
+  "J1216-6410/run01"
+ ],
+ "new_planets_confirmed": 0
+}

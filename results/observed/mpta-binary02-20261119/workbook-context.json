@@ -1,0 +1,14 @@
+{
+ "evidence": "results/observed/mpta-binary02-20261119/closeout.json",
+ "entries": [
+  [
+   "mpta-binary02-20261119-closeout",
+   "Observed closeout",
+   "MeerKAT binaries batch 02 (26 targets: 5 searched, 21 held)",
+   "VERIFIED",
+   "Owner instruction 'Proceed with all 26'. Searched once each, all NO_TRIGGER: J2234+0944 (8.80 / 26.40), J2317+1439 (7.75 / 26.44), J1547-5709 (8.83 / 26.62), J2039-3616 (10.89 / 25.15), J1719-1438 (10.42 / 26.70). 21 held at preparation: 2 unsupported T2 models, 1 model load error, 18 linearity or derivative failures (mostly near-circular DD/DDH orbits with T0 and OM both free, Shapiro STIG/H3, orbital-frequency derivatives).",
+   "Holds are not non-detections and were not searched. No crossing, so no second-stage test. run01 destinations consumed. The approved 32-target list is now exhausted: 7 searched, 25 held."
+  ]
+ ],
+ "target_updates": []
+}

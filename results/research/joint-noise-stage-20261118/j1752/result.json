@@ -1,0 +1,45 @@
+{
+  "amplitude_at_fixed_noise_period_us": 132.23884113932516,
+  "completed_utc": "2026-11-18T06:36:59.240963+00:00",
+  "direct_fit_checks": [
+    {
+      "generator": "released",
+      "maximum_score_error": 1.1318723736053471e-13
+    },
+    {
+      "generator": "between_grid_stronger_steeper",
+      "maximum_score_error": 4.111710971699267e-13
+    }
+  ],
+  "execution_freeze_sha256": "5e3cb948171142b5ea6a182411083bc4315ac7c8d11ee83288bdd6c1b93cc512",
+  "fixed_noise_period_days": 81.78496479869125,
+  "fixed_noise_statistic": 57.67185510437747,
+  "fixed_noise_threshold": 26.49799205667539,
+  "interpretation": "Conditional on the declared finite noise grid and generators; not a detection, a global false-alarm probability or independent confirmation",
+  "null_fit_on_boundary": true,
+  "null_noise": {
+    "gamma": 2.8938800000000002,
+    "log10_amplitude": -9.72688,
+    "white_scale": 0.95
+  },
+  "peak_period_days": 81.78496479869125,
+  "peak_statistic": 10.754911716987863,
+  "periodogram_sha256": "3b536d797efb8f4aea6251e8dbbe11da4ac3685dbfd8fca6f4ecaf36cb83c8f7",
+  "signal_fit_on_boundary": true,
+  "signal_noise": {
+    "gamma": 3.8938800000000002,
+    "log10_amplitude": -9.72688,
+    "white_scale": 0.95
+  },
+  "statistic_at_fixed_noise_period": 10.754911716987863,
+  "status": "BELOW_JOINT_NOISE_THRESHOLD",
+  "target": "J1752-2806",
+  "threshold": 23.062411562283614,
+  "validation_tail_plus_one_by_generator": {
+    "between_grid_stronger_steeper": 0.44682926829268294,
+    "released": 0.32390243902439025,
+    "strong_steep": 0.45658536585365855,
+    "weak_shallow_inflated_white": 0.5463414634146342,
+    "white_only_inflated": 0.3297560975609756
+  }
+}

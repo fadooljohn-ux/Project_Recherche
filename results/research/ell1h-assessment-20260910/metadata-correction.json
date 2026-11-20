@@ -1,0 +1,6 @@
+{
+  "reason": "Initial report labelled the PINT linear red-noise amplitude as log10 amplitude. Corrected the label and added log10(A); no numerical model or coverage calculations changed. The model-only probe was rerun; no observed fit or search occurred.",
+  "initial_sha256": "904bc79c1ccc1866dba33905b876ba5791e5ca52485f2caca1446c6257e8bd6f",
+  "final_sha256": "a1dc514b7ae465996f0562b00928358da4a8592d85e25e2d4b7c593df089bc45",
+  "all_other_assessment_fields_identical": true
+}

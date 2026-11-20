@@ -1,0 +1,161 @@
+"""Bounded J1802 orbital/noise comparison, never an observed outer-period scan."""
+import argparse
+from itertools import product
+from pathlib import Path
+
+import astropy.units as u
+import numpy as np
+from scipy.linalg import solve_triangular, eigh
+from scipy.stats import chi2
+from pint import Tsun
+from pint.models import get_model
+from pint.models.stand_alone_psr_binaries.ELL1H_model import ELL1Hmodel
+import binary_wideband as binary
+import joint_noise
+import mpta_batch
+import target_calibration as cal
+from recherche_common import require
+
+
+def main():
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--data',type=Path,required=True)
+    parser.add_argument('--scope',type=Path,required=True)
+    parser.add_argument('--output',type=Path,required=True)
+    args=parser.parse_args()
+    if args.output.exists():raise FileExistsError('Joint comparison destination consumed')
+    args.output.parent.mkdir(parents=True,exist_ok=True)
+    scope=cal.read(args.scope);root=args.data/'J1802-2124'
+    require(scope['target']=='J1802-2124', "scope['target']=='J1802-2124'")
+    receipt=binary.verify_preparation(args.data,'J1802-2124')
+    profile,a=cal.load_profile(root/'profile/profile.json')
+    previous=cal.read(args.data/'preparation-diagnostics.json')
+    require(previous['bindings']['profile']==cal.digest(root/'profile/profile.json'), "previous['bindings']['profile']==cal.digest(root/'profile/profile.json')")
+    require(previous['bindings']['observed']==cal.digest(root/'prepared/observed.npz'), "previous['bindings']['observed']==cal.digest(root/'prepared/observed.npz')")
+    require(receipt['orbital_phase_sha256']==cal.digest(root/'prepared/orbital-phase.npz'), "receipt['orbital_phase_sha256']==cal.digest(root/'prepared/orbital-phase.npz')")
+    with np.load(root/'prepared/orbital-phase.npz') as z:phase=z['phase_radians']
+    with np.load(root/'prepared/observed.npz') as z:y=z['residuals']
+    times=a['times'];n=len(times);C=a['covariance'];D=a['design']
+    contrast=joint_noise.Contrast(C,D,n);z=contrast.data(y)
+    H=np.zeros((len(y),2*len(scope['orbital_harmonics'])))
+    for j,k in enumerate(scope['orbital_harmonics']):H[:n,2*j]=np.sin(k*phase);H[:n,2*j+1]=np.cos(k*phase)
+    h=contrast.data(H)
+    scenarios=[];waves=[];native_errors=[]
+    native=ELL1Hmodel();native.Phi=lambda:phase*u.rad
+    for mass,cosi in product(scope['companion_mass_solar'],scope['absolute_cos_inclination']):
+        s=np.sqrt(1-cosi*cosi);stigma=s/(1+cosi);r=Tsun.to_value(u.s)*mass
+        wave=-2*r*(np.log(1+stigma**2-2*stigma*np.sin(phase))+2*stigma*np.sin(phase)-stigma**2*np.cos(2*phase))
+        pint_wave=native.delayS3p_H3_STIGMA_exact(r*stigma**3*u.s,stigma).to_value(u.s)
+        native_errors.append(float(np.max(abs(wave-pint_wave))))
+        full=np.zeros(len(y));full[:n]=wave;waves.append(full)
+        scenarios.append({'mass_solar':mass,'absolute_cos_inclination':cosi,'inclination_degrees':float(np.degrees(np.arccos(cosi)))})
+    require(max(native_errors)<1e-18, 'max(native_errors)<1e-18')
+    physical=np.column_stack([z-contrast.data(w) for w in waves])
+    samples=np.column_stack([z,physical])
+    params=[{'rms_us':0.,'gamma':None}]+[{'rms_us':r,'gamma':g} for g,r in product(scope['red_gamma'],scope['red_rms_us'])]
+    unit={}
+    for gamma in scope['red_gamma']:
+        red=mpta_batch.red_covariance(times,-14.,gamma,scope['red_modes']);unit[gamma]=red/np.mean(np.diag(red))
+    def covariance(p):
+        red=np.zeros((n,n)) if not p['rms_us'] else unit[p['gamma']]*(p['rms_us']*1e-6)**2
+        full=C.copy();full[:n,:n]+=red
+        return contrast.covariance(red),full
+    rows=[]
+    for p in params:
+        c,_=covariance(p);L=np.linalg.cholesky(c)
+        w=solve_triangular(L,samples,lower=True);hh=solve_triangular(L,h,lower=True)
+        norms=np.linalg.norm(hh,axis=0);hh/=norms
+        q,R=np.linalg.qr(hh,mode='reduced')
+        if np.linalg.matrix_rank(hh)!=h.shape[1]:raise ValueError('Orbital harmonic rank lost')
+        objective=np.sum(w*w,axis=0)+2*np.log(np.diag(L)).sum()
+        scores=np.sum((q.T@w)**2,axis=0)
+        rows.append({**p,'omitted_objective':float(objective[0]),'physical_objectives':objective[1:].tolist(),
+                     'harmonic_objective':float(objective[0]-scores[0]),'residual_harmonic_delta_chi2':scores.tolist()})
+    ib=min(range(len(rows)),key=lambda i:rows[i]['omitted_objective'])
+    ih=min(range(len(rows)),key=lambda i:rows[i]['harmonic_objective'])
+    physical_bests=[]
+    for j,scenario in enumerate(scenarios):
+        i=min(range(len(rows)),key=lambda i:rows[i]['physical_objectives'][j])
+        physical_bests.append({**scenario,'noise_index':i,'noise':params[i],
+            'objective':rows[i]['physical_objectives'][j],
+            'improvement_from_best_omitted':rows[ib]['omitted_objective']-rows[i]['physical_objectives'][j],
+            'residual_harmonic_delta_chi2':rows[i]['residual_harmonic_delta_chi2'][j+1],
+            'conditional_residual_harmonic_tail':float(chi2.sf(rows[i]['residual_harmonic_delta_chi2'][j+1],h.shape[1]))})
+    jp=min(range(len(scenarios)),key=lambda j:physical_bests[j]['objective']);ip=physical_bests[jp]['noise_index']
+    model=get_model(root/'original/J1802-2124.par')
+    norm=np.linalg.norm(D,axis=0)
+    # Full-covariance calculation uses the same timing integration measure as Contrast.
+    def full_check(index,wave,free_harmonics):
+        _,c=covariance(params[index]);L=np.linalg.cholesky(c)
+        X=solve_triangular(L,D/norm,lower=True);q,R=np.linalg.qr(X,mode='reduced')
+        v=solve_triangular(L,y-wave,lower=True);proj=v-q@(q.T@v)
+        if free_harmonics:
+            W=np.column_stack([X,solve_triangular(L,H,lower=True)])
+            norms=np.linalg.norm(W,axis=0);coef=np.linalg.lstsq(W/norms,v,rcond=1e-12)[0]/norms
+            fitted=W@coef;beta=coef[:D.shape[1]]/norm
+        else:
+            beta=np.linalg.lstsq(X,v,rcond=1e-12)[0]/norm;fitted=solve_triangular(L,D,lower=True)@beta
+        residual=v-fitted
+        objective=float(residual@residual+2*np.log(np.diag(L)).sum()+2*np.log(abs(np.diag(R))).sum())
+        shifts={p:float(abs(beta[receipt['timing_names'].index(p)])/getattr(model,p).uncertainty_value) for p in receipt['checks']['binary_parameters']}
+        return objective,shifts,float(residual@residual)
+    f0,_,_=full_check(0,np.zeros(len(y)),False)
+    branches={}
+    for label,index,wave,free,obj in [('omitted',ib,np.zeros(len(y)),False,rows[ib]['omitted_objective']),
+            ('physical',ip,waves[jp],False,physical_bests[jp]['objective']),
+            ('harmonics',ih,np.zeros(len(y)),True,rows[ih]['harmonic_objective'])]:
+        full,shifts,stat=full_check(index,wave,free)
+        error=abs((f0-full)-(rows[0]['omitted_objective']-obj))
+        require(error<1e-5, (label,error))
+        p=params[index]
+        edges=[]
+        if p['rms_us'] in [min(scope['red_rms_us']),max(scope['red_rms_us'])]:edges.append('amplitude')
+        if p['gamma'] in [min(scope['red_gamma']),max(scope['red_gamma'])]:edges.append('slope')
+        branches[label]={'noise_index':index,'noise':p,'noise_edges':edges,'objective':obj,
+                         'improvement_from_best_omitted':rows[ib]['omitted_objective']-obj,
+                         'independent_objective_difference_error':error,'local_orbital_shifts_sigma':shifts,
+                         'conditional_full_residual_chi2':stat}
+    branches['physical']['scenario']=scenarios[jp]
+    branches['physical']['residual_harmonic_tail']=physical_bests[jp]['conditional_residual_harmonic_tail']
+    branches['omitted']['residual_harmonic_tail']=float(chi2.sf(rows[ib]['residual_harmonic_delta_chi2'][0],h.shape[1]))
+    # Information only: no observed values are passed to the declared period templates.
+    information=[]
+    for label in branches:
+        c,_=covariance(params[branches[label]['noise_index']]);L=np.linalg.cholesky(c)
+        hh=solve_triangular(L,h,lower=True);qh,_=np.linalg.qr(hh,mode='reduced')
+        for period in scope['synthetic_periods_days']:
+            phi=2*np.pi*(times-profile['reference_epoch_mjd_tdb'])/period
+            template=np.column_stack([np.sin(phi),np.cos(phi)])
+            b=contrast.toa@template;w=solve_triangular(L,b,lower=True);G=w.T@w
+            retained=w-qh@(qh.T@w);G1=retained.T@retained
+            ratios=eigh(G1,G,eigvals_only=True)
+            require(min(ratios)>0 and max(ratios)<1+1e-8, 'min(ratios)>0 and max(ratios)<1+1e-8')
+            Gpub=b.T@b
+            noise_ratio=eigh(G,Gpub,eigvals_only=True)
+            information.append({'branch':label,'period_days':period,'worst_phase_information_retained_with_extra_harmonics':float(min(ratios)),
+                                'extra_harmonic_amplitude_penalty':float(1/np.sqrt(min(ratios))),
+                                'noise_only_amplitude_penalty_vs_released':float(1/np.sqrt(min(noise_ratio)))})
+    holds=[]
+    if branches['omitted']['noise_edges']:holds.append('OMITTED_NOISE_BOUNDARY')
+    if branches['omitted']['residual_harmonic_tail']<.0027:holds.append('OMITTED_ORBITAL_STRUCTURE')
+    if branches['physical']['noise_edges']:holds.append('PHYSICAL_NOISE_BOUNDARY')
+    if branches['physical']['residual_harmonic_tail']<.0027:holds.append('PHYSICAL_ORBITAL_STRUCTURE')
+    for label,v in branches.items():
+        if max(v['local_orbital_shifts_sigma'].values())>3:holds.append(label.upper()+'_LOCAL_ORBIT_LIMIT')
+    if branches['harmonics']['noise_edges']:holds.append('HARMONIC_NOISE_BOUNDARY')
+    holds.append('NO_QUALIFIED_JOINT_MODEL_OR_CALIBRATION')
+    result={'status':'JOINT_MODEL_COMPARISON_COMPLETE_HOLD_RETAINED','target':scope['target'],
+            'branches':branches,'physical_scenarios':physical_bests,'noise_grid':rows,'information_checks':information,
+            'holds':holds,'native_shapiro_maximum_absolute_difference_s':max(native_errors),
+            'contrast_dimension':contrast.dimension,'physical_delay_convention':'Exact third-and-higher Shapiro harmonics, first two harmonics already absorbed in apparent released orbit; fixed native phase and local timing projection.',
+            'scope_sha256':cal.digest(args.scope),'inputs':{str(p.relative_to(args.data)):cal.digest(p) for p in [root/'profile/profile.json',root/'profile/arrays.npz',root/'prepared/observed.npz',root/'prepared/receipt.json',root/'prepared/orbital-phase.npz',args.data/'preparation-diagnostics.json']},
+            'code':{str(Path(p).resolve().relative_to(Path.cwd())):cal.digest(p) for p in [__file__,binary.__file__,joint_noise.__file__,mpta_batch.__file__]},
+            'calibration_executed':False,'observed_outer_period_scan_executed':False,
+            'limits':'Finite stress grids on previously exposed data; no global significance, model evidence, joint posterior or general qualification. Additional harmonic coefficients are profiled without a model-complexity penalty; their lower objective alone cannot select them. Physical scenarios are not a refitted nonlinear timing solution. Synthetic information ratios are not detection probability.'}
+    cal.write(args.output,result)
+    print(__import__('json').dumps({'status':result['status'],'branches':branches,'holds':holds,
+        'physical_improvement_range':[min(v['improvement_from_best_omitted'] for v in physical_bests),max(v['improvement_from_best_omitted'] for v in physical_bests)],
+        'harmonic_information_range':[min(v['worst_phase_information_retained_with_extra_harmonics'] for v in information if v['branch']=='harmonics'),max(v['worst_phase_information_retained_with_extra_harmonics'] for v in information if v['branch']=='harmonics')]},indent=2))
+
+
+if __name__=='__main__':main()

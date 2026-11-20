@@ -17,10 +17,11 @@ from scipy.optimize import minimize_scalar
 from pulsar_pilot.pilot1_runtime import prepare_covariance_gls_scanner
 from pulsar_pilot.pilot2_offline_resources import LocalPintRepository, NetworkDeny
 from pulsar_pilot.spin_phase import bind_precise_spin_phase
+from recherche_common import DATA_ROOT
 
 REPO = Path(__file__).resolve().parents[1]
-DATA = REPO.parent / "Project Recherche Data/five-companion-benchmark-20260908"
-RESOURCES = REPO.parent / "Project Recherche Data/operational-20260908"
+DATA = DATA_ROOT / "five-companion-benchmark-20260908"
+RESOURCES = DATA_ROOT / "operational-20260908"
 TARGETS = ("J1719-1438", "J2322-2650", "J1544+4937")
 
 

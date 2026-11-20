@@ -1,0 +1,14 @@
+{
+ "evidence": "results/research/binary-inventory-20261120/inventory.json",
+ "entries": [
+  [
+   "binary-inventory-20261120",
+   "Research",
+   "Binaries in releases on disk screened; other public data researched",
+   "VERIFIED",
+   "Owner instruction 'Do both'. 152 binary par files, 71 pulsars in NANOGrav 15, PPTA DR3, EPTA DR2, IPTA DR2, InPTA DR2: 62 pass a model-level screen in some release, 44 of them never searched; 30 of the 44 need no model translation; 9 blocked everywhere. Web research found no large ready-made new release.",
+   "Par files only; nothing prepared, downloaded or searched. Proposal, not an approved list. Release adapters and a T2 translation are not built; PPTA binary TOAs not on disk."
+  ]
+ ],
+ "target_updates": []
+}

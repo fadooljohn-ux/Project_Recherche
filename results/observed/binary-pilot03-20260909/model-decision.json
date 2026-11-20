@@ -1,0 +1,19 @@
+{
+  "status": "FINAL_MODELS_SELECTED_BEFORE_OBSERVED_PERIOD0GRAMS",
+  "observed_periodograms_inspected": false,
+  "selection_sha256": "bab03cf8647ef72c20ac250dd31147d5ced98554e00f2d1e675c38420d2bd37c",
+  "comparison_sha256": "709fd7c4df96af7e710b38e47565556b8d35530232fcac623987c6fcb985736d",
+  "policy": "Two target-specific grids sharing 1% conditional allowance; fixed released noise; no fitted mass/inclination posterior",
+  "models": {
+    "J1012+5307": {
+      "shapiro_mode": "fixed_from_literature",
+      "profile_sha256": "db3dd8f35161ff74af82aadd7ab30e281275005dc5b8bc86999a8e982cc3cd03",
+      "reason": "Fixed optical central Shapiro delay reduces tested maximum leakage from 1.2434 to 0.2852; harmonic recentering and local numerical checks passed"
+    },
+    "J1738+0333": {
+      "shapiro_mode": "omitted_in_release",
+      "profile_sha256": "f377e0035255af4f32a578b6a72c60ca2eb012633880afd6c1b02f9bcc41b3f9",
+      "reason": "Exact prior preparation reused; tested maximum omitted-delay leakage remains 0.04240"
+    }
+  }
+}

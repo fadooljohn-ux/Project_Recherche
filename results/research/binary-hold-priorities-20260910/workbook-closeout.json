@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "workbook": "outputs/recherche-master-20260908/Project-Recherche-Master.xlsx",
+  "previous_sha256": "86fa61ebd59f1812885a3681208e8f37d2afbe7b9bb8aefd288231d46e8effb0",
+  "sha256": "ea0a0d3730999a515adc6e694f193f35238772efb283709a026065f85f8a7ecf",
+  "historical_cells_preserved": 26415,
+  "work_log_rows_appended": 5,
+  "counts": {
+    "registered": 783,
+    "observed": 286,
+    "searches": 360,
+    "candidate_grades": 8
+  },
+  "held_targets_have_no_search_rows": true
+}

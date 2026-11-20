@@ -1,0 +1,20 @@
+{
+  "status": "MODEL_ONLY_ASSESSMENT_COMPLETE",
+  "date": "2026-09-10",
+  "assessment_sha256": "a1dc514b7ae465996f0562b00928358da4a8592d85e25e2d4b7c593df089bc45",
+  "dispositions": {
+    "J1802-2124": "MISSING_SHAPIRO_MODEL_HOLD",
+    "J2145-0750": "H3_ONLY_ADAPTER_CANDIDATE",
+    "J2317+1439": "H3_ONLY_ADAPTER_CANDIDATE"
+  },
+  "next_recommended_scope": "Implement strict H3-only NHARMS=3 adapter support and perform bounded timing/noise preparation of J2145-0750. Calibration and observed launch are subsequent steps.",
+  "registered_targets": 783,
+  "observed_identities": 284,
+  "search_refinement_records": 358,
+  "candidate_grades": 8,
+  "new_observed_searches": 0,
+  "actual_TOA_fits": 0,
+  "calibrations": 0,
+  "publication_source_files_verified_unchanged": 71,
+  "previous_nonlinear_Shapiro_holds_preserved": 4
+}

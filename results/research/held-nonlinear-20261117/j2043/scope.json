@@ -1,0 +1,56 @@
+{
+  "adequacy_tail_cutoff": 0.0027,
+  "injections": {
+    "periods": 3,
+    "phases_radians": [
+      0.0,
+      1.5707963267948966
+    ],
+    "realizations": 16
+  },
+  "maximum_chi2_difference": 0.02,
+  "maximum_function_evaluations": 120,
+  "maximum_multistart_chi2_difference": 0.01,
+  "minimum_distance_to_domain_bound": 0.01,
+  "optimizer_starts": [
+    0.0,
+    0.5
+  ],
+  "orbital_parameters": [
+    "PB",
+    "A1",
+    "TASC",
+    "EPS1",
+    "EPS2",
+    "PBDOT",
+    "M2",
+    "SINI"
+  ],
+  "parameter_domain_published_sigma": 5.0,
+  "policy": {
+    "detection_probability": 0.95,
+    "false_alarm_probability": 0.01,
+    "maximum_condition_number": 10000000000.0,
+    "minimum_retained_power": 0.2,
+    "null_count": 4096,
+    "oversampling": 5,
+    "search_count": 3,
+    "seed": 2026093002
+  },
+  "scope": "J2043+1711 preparation and calibration with the nonlinear orbit statistic. Owner instruction 2026-11-17: surrogate checks, preparation, calibration and launch for the three held targets. Orbit domain of five published standard errors where physical, as decided for J1857+0943. Policy, search count and seed follow the source batch (seed plus batch index 2). No observed outer-period scan before freeze.",
+  "source_batch": "binary-pilot02-20260909",
+  "surrogate": {
+    "degree": 3,
+    "maximum_projected_whitened_error_norm": 0.02,
+    "pair": [
+      "M2",
+      "SINI"
+    ],
+    "pair_degree": 7,
+    "training_points": 1000,
+    "training_seed": 2026111720,
+    "validation_points": 150,
+    "validation_seed": 2026111721
+  },
+  "target": "J2043+1711"
+}

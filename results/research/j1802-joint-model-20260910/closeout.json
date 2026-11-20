@@ -1,0 +1,41 @@
+{
+  "status": "JOINT_MODEL_COMPARISON_COMPLETE_HOLD_RETAINED",
+  "holds": [
+    "OMITTED_NOISE_BOUNDARY",
+    "PHYSICAL_NOISE_BOUNDARY",
+    "PHYSICAL_LOCAL_ORBIT_LIMIT",
+    "HARMONICS_LOCAL_ORBIT_LIMIT",
+    "HARMONIC_NOISE_BOUNDARY",
+    "NO_QUALIFIED_JOINT_MODEL_OR_CALIBRATION"
+  ],
+  "target": "J1802-2124",
+  "date": "2026-09-10",
+  "comparison_attempts": 2,
+  "retained_output_failures": 1,
+  "successful_comparisons": 1,
+  "noise_models": 57,
+  "physical_scenarios": 9,
+  "synthetic_information_checks": 15,
+  "calibration_executed": false,
+  "observed_outer_period_scan_executed": false,
+  "profile_promoted": false,
+  "preparation_preserved": true,
+  "publication_source_bindings_preserved": 71,
+  "counts": {
+    "registered": 783,
+    "observed": 286,
+    "searches": 360,
+    "candidate_grades": 8
+  },
+  "next_step": "Park J1802 and prioritize the four remaining binary holds; no further model comparison authorized by this closeout.",
+  "artifacts": {
+    "attempt01-failure.json": "9246ae6d8741cafdbaf9cafb6033bb0816da95db1231850dfd7d64349614d1a8",
+    "scope.json": "854237dd353a2624bc29b26b4a4014dedcca75f3d039021f2610f931cf1fdb3c",
+    "workbook-closeout.json": "5b718f4d57351f847669b239ea2bc1bec9df16958cbbfa6afd64aa5158cbdd1a",
+    "comparison.json": "fd9944fdc7623738a91f20628297241124f7f81898e0d27db225059317b6d930",
+    "attempt01-code.py.txt": "b6b9e20c05bf67deeac13617bc5637e528a1063bb5e26e13b92100949c38b24e",
+    "verification.json": "6570d971c42969a4ba7d610e4f766731e9fda084f68369b717eb26c04596812d"
+  },
+  "report_sha256": "50616083b748c99a3b7c86c4ff26336c25678f6b39a5b6d5b9b008b6ad8bedfc",
+  "code_sha256": "f5c599e17211ffab95d89b1dd90920a1e9f022d01628f95e0345183466aaf01d"
+}

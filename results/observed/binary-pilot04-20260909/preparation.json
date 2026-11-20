@@ -1,0 +1,34 @@
+{
+  "archival_derivative": true,
+  "original_sha256": "834017a10554a2cfd68f8a5fd2f8563403a09ad171bd0fe6a8282aaf7920e475",
+  "record": {
+    "held": [],
+    "observed_search_executed": false,
+    "results": [
+      {
+        "calibration": {
+          "cache_hit": false,
+          "cache_key": "c8602c3b2db32e31ff4333f6499e12de9952424de405e9cd36126221d2f9c96e",
+          "eligible_cells": 54,
+          "excluded_cells": 12,
+          "frequency_count": 66,
+          "median_worst_phase_amplitude_us": 1.4078065036442717,
+          "observed_search_executed": false,
+          "path": "$BINARY_DATA/calibration-cache/c8602c3b2db32e31ff4333f6499e12de9952424de405e9cd36126221d2f9c96e",
+          "status": "CALIBRATED_CONDITIONAL",
+          "target": "J1125+7819",
+          "threshold": 17.589649856029034,
+          "timing_rank": 96
+        },
+        "conditional_injection_recovered": 95,
+        "conditional_injection_trials": 96,
+        "injection_scope": "Three eligible periods, two phases, 16 fixed-noise realizations each; diagnostic, not occurrence completeness",
+        "noiseless_relative_amplitude_error": 1.1584065543367751e-15,
+        "profile_sha256": "ac9f74341a59e32c84df4b5f4936da34f13734aaefa7a7a9621a3a9de4d8544d",
+        "target": "J1125+7819"
+      }
+    ],
+    "selection_sha256": "e22eb574e26b361e50f8740bc3dea4a1c4967296120bf5c4c56adfc73c8850d1",
+    "status": "PREPARED"
+  }
+}

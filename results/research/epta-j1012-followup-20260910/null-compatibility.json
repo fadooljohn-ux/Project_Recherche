@@ -1,0 +1,26 @@
+{
+  "independent_augmented_chi2": 5224.7670859193095,
+  "joint_columns": 443,
+  "joint_rank": 443,
+  "marginal_null_chi2": 5224.7670859193095,
+  "no_periodic_fit_executed_yet": true,
+  "noise_factor_relative_errors": {
+    "dm": 3.558487470641545e-16,
+    "red": 9.409608796728758e-16
+  },
+  "null_reduced_chi2": 0.9916050647028486,
+  "orbital_shifts_in_published_sigma": {
+    "A1": 1.2061836658113751,
+    "EPS1": 0.008084644406960788,
+    "EPS2": 0.9147422870979203,
+    "H3": 1.6443254255037905,
+    "H4": 0.09257340677799832,
+    "PB": 0.1380113896485399,
+    "PBDOT": 0.44377723022577154,
+    "TASC": 1.2715706810646423,
+    "XDOT": 0.41102520783561103
+  },
+  "status": "TIMING_NOISE_COMPATIBLE",
+  "toas": 5324,
+  "white_relative_error": 4.21254321384574e-16
+}

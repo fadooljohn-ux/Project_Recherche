@@ -1,0 +1,107 @@
+{
+  "target": "J1939+2134",
+  "role": "Second stage: September 2026 fixed-noise crossing (InPTA DR1, 567.4 days)",
+  "source": "pta-campaign01-20260908/inpta/J1939+2134",
+  "released_noise": {
+    "adapter": "none"
+  },
+  "seed": 2026111806,
+  "family": {
+    "amplitude_offsets_dex": [
+      -1.0,
+      -0.5,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "gamma_offsets": [
+      -1.0,
+      0.0,
+      1.0,
+      2.0
+    ],
+    "include_no_red": true,
+    "white_scales": [
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2,
+      1.3
+    ],
+    "reference_gamma_without_released_red": 3.0
+  },
+  "generators": [
+    {
+      "name": "released_white_only",
+      "amplitude_offset_dex": null,
+      "gamma_offset": null,
+      "white_scale": 1.0
+    },
+    {
+      "name": "white_only_inflated",
+      "amplitude_offset_dex": null,
+      "gamma_offset": null,
+      "white_scale": 1.08
+    },
+    {
+      "name": "reference_red",
+      "amplitude_offset_dex": 0.0,
+      "gamma_offset": 0.0,
+      "white_scale": 1.0
+    },
+    {
+      "name": "between_grid_stronger_steeper",
+      "amplitude_offset_dex": 0.25,
+      "gamma_offset": 0.5,
+      "white_scale": 1.03
+    },
+    {
+      "name": "strong_steep",
+      "amplitude_offset_dex": 0.75,
+      "gamma_offset": 1.5,
+      "white_scale": 1.07
+    },
+    {
+      "name": "weak_shallow_inflated_white",
+      "amplitude_offset_dex": -0.75,
+      "gamma_offset": -0.5,
+      "white_scale": 1.15
+    },
+    {
+      "name": "white_only_deflated",
+      "amplitude_offset_dex": null,
+      "gamma_offset": null,
+      "white_scale": 0.47
+    },
+    {
+      "name": "weak_steeper_deflated_white",
+      "amplitude_offset_dex": -0.75,
+      "gamma_offset": 1.0,
+      "white_scale": 0.47
+    }
+  ],
+  "calibration_nulls_each": 1024,
+  "validation_nulls_each": 1024,
+  "alpha": 0.01,
+  "injection_periods_days": [
+    60.0,
+    200.0,
+    600.0
+  ],
+  "injection_amplitude_factors": [
+    1.0,
+    2.0,
+    4.0
+  ],
+  "injections_each_cell": 32,
+  "compression": "diagonal_subspace",
+  "declared_departures": "White-scale grid widened below 0.8 and two generators at white scale 0.47 added before the run: the consumed fixed-noise result records a noise-only reduced chi-square of 0.215 (white scale about 0.46), and the September review used 0.5. Diagonal covariance with 18,191 TOAs is reduced exactly to its timing, red and signal subspace."
+}

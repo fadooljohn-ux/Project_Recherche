@@ -1,0 +1,54 @@
+{
+  "external_data_directory": "RECHERCHE_DATA/ell1h-j2145-preparation-20260910",
+  "files": {
+    "J2145-0750/original/J2145-0750.par": {
+      "sha256": "38fb0484945f7cdb6b9a2ab407ba5faa2c30214d013f6f7b848eb23faaed5952",
+      "bytes": 28135
+    },
+    "J2145-0750/original/J2145-0750.tim": {
+      "sha256": "b06987b7c718f4db3a8ddb39b771a271f57da6c3c84b3af5227784f4162ece37",
+      "bytes": 221904
+    },
+    "J2145-0750/prepared/observed.npz": {
+      "sha256": "2e01633561a143b94515414ec584be4a4636df027ccaf645515198ec767f9c9f",
+      "bytes": 6101
+    },
+    "J2145-0750/prepared/pint.log": {
+      "sha256": "23534d1e0deed6a05cf41f82b7cdc3d20550bb4bcebd7b1b19fa492376a3a386",
+      "bytes": 993
+    },
+    "J2145-0750/prepared/receipt.json": {
+      "sha256": "85a50cc3dc8626082c85dfb12822052e2197b1235ad4281162004857c8f26feb",
+      "bytes": 7360
+    },
+    "J2145-0750/prepared/timing-model.par": {
+      "sha256": "14dab0085c4aeb0c38f9bfb4e2acf58c461af76ad17859191e5d5efebe6e30e6",
+      "bytes": 28619
+    },
+    "J2145-0750/profile/arrays.npz": {
+      "sha256": "8e96a8f2f06d3f6adde1fb53a319d30548f4b41eb0e1ccf886d107346e3043f0",
+      "bytes": 1264198
+    },
+    "J2145-0750/profile/profile.json": {
+      "sha256": "d4683653b47a6026db59732e234bf5099b821a980c9281ed260f5ecb9fca9442",
+      "bytes": 1199
+    },
+    "resources/binding.json": {
+      "sha256": "f25218ef3ad378a61c3c7f6331e17a1155fa07fda1fd970d52ca3790e4ee4962",
+      "bytes": 186
+    },
+    "resources/vla2gps.clk": {
+      "sha256": "fde7103aa67a3f8577c271e860ffb10806a0d19266df1d1cb1818af3a8d93103",
+      "bytes": 52733
+    },
+    "selection.json": {
+      "sha256": "d417299e09cf02f160fbf43993f86561e3c3bc5057c5969dc93c4c7f6f931134",
+      "bytes": 2050
+    },
+    "verification.json": {
+      "sha256": "6dba3201d37b4bec5c1c5ed404cfc15e66aa4ac327aa5a5e9dcddbab0cafcf8c",
+      "bytes": 889
+    }
+  },
+  "public_scope": "Manifests and receipts only. Original data, numerical arrays and runtime log remain in external data storage."
+}

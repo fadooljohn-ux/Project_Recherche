@@ -6,16 +6,15 @@ This is a diagnostic noise family, not a replacement survey calibration.
 """
 import argparse
 import os
-from pathlib import Path
-import shutil
 import numpy as np
 from scipy.linalg import eigh, solve_triangular
 from scipy.stats import chi2
 import target_calibration as cal
 import mpta_batch as mpta
+from recherche_common import DATA_ROOT, require
 
-ROOT = mpta.REPO.parent/'Project Recherche Data/j1939-deep-review-20260909'
-CAMPAIGN = mpta.REPO.parent/'Project Recherche Data/pta-campaign01-20260908'
+ROOT = DATA_ROOT / 'j1939-deep-review-20260909'
+CAMPAIGN = DATA_ROOT / 'pta-campaign01-20260908'
 SOURCE = CAMPAIGN/'inpta/J1939+2134'
 PPTA = CAMPAIGN/'ppta/J1939+2134'
 EVIDENCE = mpta.REPO/'results/research/j1939-deep-review-20260909'
@@ -73,7 +72,7 @@ def prepare():
     result=cal.read(SOURCE/'run01/result.json')
     with np.load(SOURCE/'profile/arrays.npz') as a:
         covariance=a['covariance'];n=len(covariance)
-        assert np.count_nonzero(covariance)==n and np.all(np.diag(covariance)>0)
+        require(np.count_nonzero(covariance)==n and np.all(np.diag(covariance)>0), 'np.count_nonzero(covariance)==n and np.all(np.diag(covariance)>0)')
         data={'times':a['times'],'design':a['design'],'sigma':np.sqrt(np.diag(covariance))}
     with np.load(SOURCE/'prepared/observed.npz') as a:data['residuals']=a['residuals']
     with np.load(SOURCE/'prepared/metadata.npz') as a:data['radio']=a['radio']
@@ -149,8 +148,8 @@ def direct_check():
 
 def run():
     scope=cal.read(ROOT/'scope.json')
-    assert cal.digest(ROOT/'data.npz')==scope['data_sha256']
-    assert cal.digest(SOURCE/'run01/result.json')==scope['original_result_sha256']
+    require(cal.digest(ROOT/'data.npz')==scope['data_sha256'], "cal.digest(ROOT/'data.npz')==scope['data_sha256']")
+    require(cal.digest(SOURCE/'run01/result.json')==scope['original_result_sha256'], "cal.digest(SOURCE/'run01/result.json')==scope['original_result_sha256']")
     if (ROOT/'step3.json').exists():
         pulse('NUMERICAL_REVIEW_ALREADY_COMPLETE');return
     with np.load(ROOT/'data.npz') as f:d={k:f[k] for k in f.files}
@@ -254,10 +253,10 @@ def report():
     """Summarize saved simulations; no repeated scans or realizations."""
     scope=cal.read(ROOT/'scope.json');a,b,c,d=[cal.read(ROOT/f'step{i}.json') for i in range(1,5)]
     rows=a['models'];candidate=min(r['null_objective'] for r in rows)-min(r['null_objective']-r['candidate_statistic'] for r in rows)
-    with np.load(ROOT/'simulations.npz') as f:stats=f['statistic'];recovered=f['recovered_period_days']
+    with np.load(ROOT/'simulations.npz') as f:stats=f['statistic']
     exceed=int(np.sum(stats[:512]>=candidate));p=(exceed+1)/513
     selected=rows[a['selected_null_index']]
-    assessment=save('candidate-assessment.json',{'original_period_days':scope['original_period_days'],'candidate_family_statistic':candidate,
+    save('candidate-assessment.json',{'original_period_days':scope['original_period_days'],'candidate_family_statistic':candidate,
         'null_global_max_exceedances':exceed,'null_count':512,'diagnostic_p_plus_one':p,
         'definition':'Compare the noise-family-profiled statistic at the original candidate period with each saved noise-only realization\'s maximum across the complete declared grid. This conservative candidate-specific comparison uses existing simulations and accounts for searching multiple periods within the finite family.',
         'different_global_peak_period_days':selected['peak_period_days'],'different_global_peak_statistic':a['family_statistic'],
@@ -266,7 +265,7 @@ def report():
     import matplotlib;matplotlib.use('Agg')
     import matplotlib.pyplot as plt
     out=mpta.REPO/'outputs/j1939-deep-review-20260909';out.mkdir(exist_ok=True)
-    with np.load(ROOT/'refinement.npz') as f:periods=f['periods'];scores=f['statistics'];local=f['local_periods'];window=f['window']
+    with np.load(ROOT/'refinement.npz') as f:periods=f['periods'];scores=f['statistics']
     fig,axs=plt.subplots(2,2,figsize=(11,7))
     mask=(periods>=400)&(periods<=800)
     axs[0,0].plot(periods[mask],scores[mask]);axs[0,0].axvline(scope['original_period_days'],color='grey',linestyle='--');axs[0,0].set(xlabel='Period (days)',ylabel='Released-noise statistic',title='Conditional local refinement')
@@ -315,7 +314,7 @@ def report():
       '- [NANOGrav ENTERPRISE](https://github.com/nanograv/enterprise) and [Fourier noise-model implementation](https://github.com/nanograv/enterprise_extensions/blob/master/enterprise_extensions/models.py).',
       '- Numerical receipts: `results/research/j1939-deep-review-20260909/`. Original inputs, saved simulation arrays and logs remain outside Git.','']
     report_path.write_text('\n'.join(lines))
-    for path,sha in scope['historical_hashes'].items():assert cal.digest(path)==sha
+    for path,sha in scope['historical_hashes'].items():require(cal.digest(path)==sha, 'cal.digest(path)==sha')
     save('closeout.json',{'status':'COMPLETE','disposition':'INCONCLUSIVE_NOISE_SENSITIVE','target':'J1939+2134','report_path':str(report_path),'report_sha256':cal.digest(report_path),'candidate_diagnostic_p':p,'candidate_null_exceedances':exceed,'historical_json_records_preserved':len(scope['historical_hashes']),'confirmed_planets':0,'original_result_sha256':scope['original_result_sha256'],'source_result_unchanged':cal.digest(SOURCE/'run01/result.json')==scope['original_result_sha256'],'step_hashes':{f'step{i}.json':cal.digest(ROOT/f'step{i}.json') for i in range(1,5)},'simulation_arrays_sha256':cal.digest(ROOT/'simulations.npz')})
     pulse('REPORT_COMPLETE_WORKBOOK_PENDING')
 

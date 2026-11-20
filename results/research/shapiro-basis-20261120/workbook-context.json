@@ -1,0 +1,14 @@
+{
+ "evidence": "results/research/shapiro-basis-20261120/closeout.json",
+ "entries": [
+  [
+   "shapiro-basis-20261120",
+   "Method development",
+   "Nonlinear Shapiro treatment (verified nuisance basis)",
+   "VERIFIED",
+   "Owner instruction 'Proceed with 1'. tools/shapiro_basis.py freezes free Shapiro parameters and projects the principal directions of the arrival-time change over the joint 3-sigma neighbourhood; accepted on independent test points at 0.1 TOA sigma. Development preparation of the 12 Shapiro-held targets, no search: 9 clear (J1614-2230, J2145-0750, J1036-8317, J1514-4946, J1543-5149, J1101-6424, J1903-7051, J1732-5049, J2236-5527); 3 held (J1909-3744 and J1327-0755: data prefer Shapiro values outside the neighbourhood; J1435-6100: EPS1 shift 8.2).",
+   "No observed search executed; development roots not frozen. The neighbourhood is joint (chi-square change <= 9), not a per-parameter box. Searching the nine needs a new root and a new owner instruction."
+  ]
+ ],
+ "target_updates": []
+}

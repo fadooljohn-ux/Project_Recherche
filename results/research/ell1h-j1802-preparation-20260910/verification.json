@@ -1,0 +1,24 @@
+{
+  "adapter_tests": "19 passed; first 18 checks passed before real preparation. A subsequent patch-script quoting error caused one missing-helper test failure; patch corrected and 19 passed. No science rerun.",
+  "all_free_parameters_preserved": true,
+  "calibration_gate_rejection": "Omitted ELL1H preparation adequacy remains held",
+  "independent_full_covariance_null_objective_difference_error": 1.0726466825872194e-08,
+  "independent_full_design_harmonic_delta_chi2_errors": [
+    4.072478532179957e-08,
+    3.041382612423149e-08
+  ],
+  "input_sha256": {
+    "J1802-2124/original/J1802-2124.par": "d1ca6f813d01ee79732b7a985f287bd8eb99833ab59e95bf4e7dccd62edb6040",
+    "J1802-2124/original/J1802-2124.tim": "6a55592a505a83666e2b9ad8798a46d4fda61645ab1ab8082f4c7140eb27e1eb",
+    "J1802-2124/prepared/observed.npz": "ad957d6aa27b83a415cd81e2f0f3a431f843407b33714004ce9d87e250648e1f",
+    "J1802-2124/prepared/orbital-phase.npz": "3574724fad161256643bc8c28b6e51290fde7f5309141ce82eb8531e361f035d",
+    "J1802-2124/prepared/receipt.json": "41089a21940fc210c5a22763a245002d6fafa3d40891b5b3a6ff0a029a0dc0e8",
+    "J1802-2124/profile/arrays.npz": "515802d02cfef8d5ededfc5087a39350be2096cc785561e820116ca6cc1a57e6",
+    "J1802-2124/profile/profile.json": "65221fa075997f77c80ada661f43df9e660d4f6f9c2a6d614d76295d7e4bc9e9",
+    "preparation-diagnostics.json": "07d4190d3c342418da884cae653ca889f79728626bdb7c820ab060ec14c83362"
+  },
+  "native_omitted_zero_shapiro_preserved": true,
+  "orbital_values_flags_uncertainties_preserved": true,
+  "publication_source_bindings_preserved": 71,
+  "status": "PASS"
+}

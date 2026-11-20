@@ -1,0 +1,17 @@
+{
+  "artifacts": {
+    "days.json": "ced13bba8e68af0b01b4840530ece50a2c5b76f70d53897b0114b1d02ea1ba3c",
+    "noise-inputs.json": "ce1f68415af12a69f6398fdff7b24e810fb4bd73d41218c70bdaa0e097e6d704",
+    "red128.json": "7542aff72051af6620eab552f57322ed8efe7cc918675c1fbbd99118fdc944a7",
+    "red128_chrom4.json": "a225d877eb8613c35ab9012f31f83d20122cf4ea33cdb8b1855a92e4dc4ec79e",
+    "red128_double_power.json": "f1e83d1a979d46eb060d511bb926916fcb89d0d44cae42b53deded7fb417c480",
+    "red64.json": "e30d4af305b3a3db3c8830d8eea551ec0d13e01b33e9e1d8e6cc45f6f6a70161",
+    "released30.json": "46a391438a428a5162ccfafa2bd8e2ab8b687b72ea297a7b1578869a76943527",
+    "scope.json": "f45ce164ddf4098715a6e39077af92e5a8f90c316cbe554eb45c5ef0a2a9c5f0",
+    "shapiro.json": "945e72a6695ce6df1a4fa3e986a35bb9d66600c27eaff6faa3ac244a67b6fcbf",
+    "subsets.json": "ebd4ca3bb09e23d0ca73e86175a5e4b26c7008fce2a272321f259e646540883b"
+  },
+  "original_result_sha256": "da9fc747a4da30cb7af08fe6cad03e8b772f3a911b1bec65c621c3e475316870",
+  "review_code_sha256": "c610f1b0066d952fc79174414e206a698a8844e32dfd16c25ebdf34b6f0bd9f5",
+  "status": "BOUNDED_REVIEW_COMPLETE"
+}

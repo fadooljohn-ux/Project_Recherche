@@ -36,19 +36,16 @@ print(json.dumps({'python':sys.version.split()[0], 'machine':platform.machine(),
     environment = json.loads(subprocess.check_output([str(python), '-c', code], text=True))
     if environment['machine'] != 'x86_64' or environment['longdouble_nmant'] != 63 or environment['python'].split('.')[:2] != ['3','11'] or environment['pint'] != '1.1.5':
         raise RuntimeError('Scientific platform/precision differs: ' + json.dumps(environment))
-    source_manifest = REPO / 'config/publication-source.json'
-    if not source_manifest.exists():
-        source_manifest = REPO / 'results/qualification/qualification02-readiness.json'
-    expected = json.loads(source_manifest.read_text())['source_sha256']
+    expected = json.loads((REPO / 'results/qualification/qualification03-readiness.json').read_text())['source_sha256']
     actual = {p.relative_to(REPO).as_posix(): digest(p) for p in (REPO / 'src').rglob('*.py')}
     if actual != expected:
-        raise RuntimeError('Recorded scientific source differs; inspect the diff')
+        raise RuntimeError('Qualified scientific source differs; inspect the diff')
     version = subprocess.check_output([str(operator), '-c', 'import openpyxl; print(openpyxl.__version__)'], text=True).strip()
     if version != '3.1.5': raise RuntimeError('Operator dependency differs')
     return {'status': 'AGENT_RUNTIME_READY', 'checkout': str(REPO), 'environment': environment,
             'scientific_lock_sha256': digest(REPO / 'pixi.lock'),
             'operator_requirements_sha256': digest(REPO / 'tools/requirements-agent.txt'),
-            'source_files_verified': len(expected), 'source_manifest': source_manifest.relative_to(REPO).as_posix(), 'workbook_backend': 'openpyxl 3.1.5',
+            'qualified_source_files_verified': len(expected), 'workbook_backend': 'openpyxl 3.1.5',
             'historical_host_qualification_transferred': False, 'observed_inputs_included': False,
             'scientific_fits_executed': 0,
             'next': 'Acquire/restore the selected source inputs, verify their provenance, and follow AGENT_README.md. This is not scientific qualification.'}

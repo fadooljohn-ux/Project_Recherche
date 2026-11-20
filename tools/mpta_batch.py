@@ -24,11 +24,12 @@ from scipy.stats import chi2
 from pulsar_pilot.pilot1_runtime import prepare_covariance_gls_scanner
 from pulsar_pilot.pilot2_offline_resources import LocalPintRepository, NetworkDeny
 from pulsar_pilot.spin_phase import bind_precise_spin_phase
+from recherche_common import DATA_ROOT, require
 
 REPO = Path(__file__).resolve().parents[1]
-DATA = REPO.parent / "Project Recherche Data/mpta-batch01-20260908"
-PREVIOUS = REPO.parent / "Project Recherche Data/five-companion-benchmark-20260908"
-RESOURCES = REPO.parent / "Project Recherche Data/operational-20260908"
+DATA = DATA_ROOT / "mpta-batch01-20260908"
+PREVIOUS = DATA_ROOT / "five-companion-benchmark-20260908"
+RESOURCES = DATA_ROOT / "operational-20260908"
 NOISE_NAMES = (
     "efac",
     "log10_equad",
@@ -124,15 +125,13 @@ def inventory(data):
     epta = set(re.findall(r"J\d{4}[+\-]\d{4}", (research / "epta-sample.html").read_text()))
     jbo_members = cal.read(research / "jbo-archive-inventory.json")
     jbo = {ALIASES.get(p.split("/")[1], p.split("/")[1]) for p in jbo_members if "/" in p}
-    assert len(noises) == 83 and len(ng) == 45 and len(epta) == 25
+    require(len(noises) == 83 and len(ng) == 45 and len(epta) == 25, 'len(noises) == 83 and len(ng) == 45 and len(epta) == 25')
     original = data / "original"
     original.mkdir(exist_ok=False)
     for name in ("mpta-partim.tar.gz", "mk2utc_observatory.clk", "tai2tt_bipm2020.clk"):
         shutil.copy2(PREVIOUS / "original" / name, original / name)
-    assert (
-        cal.digest(original / "mpta-partim.tar.gz")
-        == "172eb9472f4788f22bfe3b24faad2dc0169fca680b80340e4c829201fdafc393"
-    )
+    require(cal.digest(original / "mpta-partim.tar.gz")
+        == "172eb9472f4788f22bfe3b24faad2dc0169fca680b80340e4c829201fdafc393", 'cal.digest(original / "mpta-partim.tar.gz") == "172eb9472f4788f22bfe3b24faad2dc0169fca680b80340e4c829201fdafc393"')
     rows = []
     with tarfile.open(original / "mpta-partim.tar.gz") as archive:
         members = {Path(m.name).name: m for m in archive.getmembers() if m.isfile()}
@@ -301,7 +300,7 @@ def prepare(data, target):
     output.mkdir(exist_ok=False)
     pint.logging.setup(level="INFO", sink=output / "pint.log", removeprior=True)
     par, tim = [root / "original" / (target + suffix) for suffix in (".par", ".tim")]
-    assert cal.digest(par) == row["par_sha256"] and cal.digest(tim) == row["tim_sha256"]
+    require(cal.digest(par) == row["par_sha256"] and cal.digest(tim) == row["tim_sha256"], 'cal.digest(par) == row["par_sha256"] and cal.digest(tim) == row["tim_sha256"]')
     text = "\n".join(
         line
         for line in par.read_text().splitlines()
@@ -457,17 +456,17 @@ def circular_template(times, reference_epoch, frequency, data_dimension):
 
 def run(data, target):
     frozen = cal.read(data / "execution-freeze.json")
-    assert frozen["code_sha256"] == cal.digest(__file__)
-    assert frozen["implementation"] == cal.implementation()
+    require(frozen["code_sha256"] == cal.digest(__file__), 'frozen["code_sha256"] == cal.digest(__file__)')
+    require(frozen["implementation"] == cal.implementation(), 'frozen["implementation"] == cal.implementation()')
     if "chromatic_module_sha256" in frozen:
-        assert frozen["chromatic_module_sha256"] == cal.digest(chromatic.__file__)
-    assert frozen["selection_sha256"] == cal.digest(data / "selection.json")
+        require(frozen["chromatic_module_sha256"] == cal.digest(chromatic.__file__), 'frozen["chromatic_module_sha256"] == cal.digest(chromatic.__file__)')
+    require(frozen["selection_sha256"] == cal.digest(data / "selection.json"), 'frozen["selection_sha256"] == cal.digest(data / "selection.json")')
     binding = frozen["targets"][target]
     root = data / target
     profile_path = root / "profile/profile.json"
     observed = root / "prepared/observed.npz"
-    assert cal.digest(profile_path) == binding["profile_sha256"]
-    assert cal.digest(observed) == binding["observed_sha256"]
+    require(cal.digest(profile_path) == binding["profile_sha256"], 'cal.digest(profile_path) == binding["profile_sha256"]')
+    require(cal.digest(observed) == binding["observed_sha256"], 'cal.digest(observed) == binding["observed_sha256"]')
     profile, arrays = cal.load_profile(profile_path)
     calibration = binding["calibration"]
     cache = Path(calibration["path"])

@@ -1,0 +1,103 @@
+{
+  "checkout": ".",
+  "compatibility_benchmark": {
+    "benchmark": "B1257+12 known-system benchmark (docs/B1257_BENCHMARK_2026-09-08.md)",
+    "current_tool_repeat": {
+      "array_max_relative_difference": 1.8900131081325873,
+      "arrays_bitwise_identical": 30,
+      "arrays_compared": 34,
+      "comparison_sha256": "9c2a68893097f92cf6111354e3e6ce5ca34354af1cc4fe5d62d4916a940e1dce",
+      "description": "run and refine-existing repeated with the current tools/b1257_benchmark.py. Calibration, null maxima, projection map and first scan are bitwise identical. run01 orbit fits differ because the tool was repaired after the saved run01 (documented in the benchmark report); refinement01 orbit fit, post-fit residuals and final scan are identical.",
+      "files_compared": 21,
+      "json_max_relative_difference": 1.4522594090925367,
+      "json_nonnumeric_differences": 1,
+      "json_numeric_not_identical": 51,
+      "json_values_compared": 261,
+      "missing_saved_counterparts": [],
+      "structure_differences": 3
+    },
+    "exact_source_repeat": {
+      "array_max_relative_difference": 0.0,
+      "arrays_bitwise_identical": 34,
+      "arrays_compared": 34,
+      "comparison_sha256": "ab62692876c31b5d1e8076e8a2460962fdc384f73341c8867c699859225a8739",
+      "description": "run01 and refinement01 repeated with the exact saved source snapshots; the one non-numeric difference is the predecessor result.json hash, which covers elapsed_seconds.",
+      "files_compared": 21,
+      "json_max_relative_difference": 0.0,
+      "json_nonnumeric_differences": 1,
+      "json_numeric_not_identical": 0,
+      "json_values_compared": 261,
+      "missing_saved_counterparts": [],
+      "structure_differences": 0
+    },
+    "master_workbook_updated": false,
+    "network": "denied by sandbox-exec",
+    "preparation": "Repeated from the original PAR/TIM/clock inputs with the current tool through tools/recherche; prepared context.npz is byte-identical to the saved one.",
+    "saved_evidence": "Project Recherche Data/b1257-benchmark-20260908",
+    "saved_results_modified": false,
+    "work_area": "Project Recherche Data/environment-binding-20261116"
+  },
+  "date": "2026-11-16",
+  "frozen_environment_manifest": {
+    "edited": false,
+    "path": "protocol/PILOT2_RUNTIME_ENVIRONMENT_MANIFEST_v0.2.8.json",
+    "sha256": "7de148fe70b702293c6d97a891fe117023a3e74a8d0137ae0b2b312432cce633"
+  },
+  "host": {
+    "cpu": "Apple M5",
+    "macos": "27.2.1",
+    "model": "Mac17,2",
+    "process_machine": "x86_64",
+    "translation": "Rosetta 2"
+  },
+  "live_against_frozen": {
+    "critical_modules_identical": true,
+    "environment_policy_identical": true,
+    "kernel_process_pointer_equal": true,
+    "longdouble_mantissa_bits": 63,
+    "macos": {
+      "frozen": "26.6.2",
+      "live": "27.2.1"
+    },
+    "packages": {
+      "count": 134,
+      "identical": true
+    },
+    "precision_equal": true,
+    "python_executable_sha256": {
+      "frozen": "93a407ec7f645575c3e7c0da3165c5e2aca5f07c5509c730313f1e6d38c9f4e9",
+      "live": "dcde625543d188d73fdb7b67abb983294972ee31e5f798e6ede820d55becb6ce"
+    },
+    "python_version_equal": true,
+    "repository_files_identical": true
+  },
+  "not_covered": [
+    "The pilot 2 develop and formal conductor commands validate the frozen manifest inside qualified source and remain bound to the original host.",
+    "No new observed search, calibration or formal qualification case was run."
+  ],
+  "owner_authorization": "Do the qualification binding.",
+  "previous_checkout": ".",
+  "python_executable_byte_comparison": {
+    "differing_bytes": 53,
+    "differing_range": [
+      3939795,
+      3939848
+    ],
+    "embedded_prefix_range": [
+      3939766,
+      3940021
+    ],
+    "only_embedded_prefix_differs": true,
+    "qualified_copy": "Recherche Recovery/20260907T223404/stage6-original-environment/bin/python3.11",
+    "qualified_copy_sha256": "93a407ec7f645575c3e7c0da3165c5e2aca5f07c5509c730313f1e6d38c9f4e9",
+    "same_length": true
+  },
+  "qualified_source": {
+    "files": 71,
+    "ioc_execution_freeze_verification": "pass",
+    "unchanged": true
+  },
+  "record": "recherche-environment-binding-20261116-evidence",
+  "schema_version": 1,
+  "scope": "Environment binding and bounded compatibility assessment for this host and checkout. It is not a new formal qualification: the 21/21 qualification 02 record is unchanged and was produced on the original host."
+}

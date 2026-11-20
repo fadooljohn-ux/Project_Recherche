@@ -1,0 +1,69 @@
+{
+  "largest_cell_difference": 0.15238184763086338,
+  "largest_scan_minus_stage_linearised_score": 1.4849454998966394e-10,
+  "largest_statistic_change": 0.018862770945588636,
+  "observed_residuals_read": false,
+  "rows": [
+    {
+      "generator": "released_white_only",
+      "largest_cell_difference_at_signal_member": 0.036837237725894756,
+      "linearised_statistic": 8.719196185607132,
+      "nonlinear_minus_linearised": 2.2484311330117634e-05,
+      "scan_minus_stage_linearised_score": 1.3944401189291966e-13,
+      "unconverged": false
+    },
+    {
+      "generator": "white_only_inflated",
+      "largest_cell_difference_at_signal_member": 0.02841311318666495,
+      "linearised_statistic": 12.351029371321602,
+      "nonlinear_minus_linearised": 0.002399674943148966,
+      "scan_minus_stage_linearised_score": 1.971756091734278e-13,
+      "unconverged": false
+    },
+    {
+      "generator": "reference_red",
+      "largest_cell_difference_at_signal_member": 0.0963303268712874,
+      "linearised_statistic": 10.807595220245162,
+      "nonlinear_minus_linearised": -0.0011326822490218547,
+      "scan_minus_stage_linearised_score": 2.9043434324194095e-13,
+      "unconverged": false
+    },
+    {
+      "generator": "between_grid_stronger_steeper",
+      "largest_cell_difference_at_signal_member": 0.13117165817017007,
+      "linearised_statistic": 9.705015578395148,
+      "nonlinear_minus_linearised": -0.012903595564807802,
+      "scan_minus_stage_linearised_score": 1.8687273950490635e-12,
+      "unconverged": false
+    },
+    {
+      "generator": "strong_steep",
+      "largest_cell_difference_at_signal_member": 0.05899093068108474,
+      "linearised_statistic": 8.72074715611609,
+      "nonlinear_minus_linearised": -0.002015367421904557,
+      "scan_minus_stage_linearised_score": 1.4849454998966394e-10,
+      "unconverged": false
+    },
+    {
+      "generator": "weak_shallow_inflated_white",
+      "largest_cell_difference_at_signal_member": 0.05970546865336779,
+      "linearised_statistic": 13.131068359107417,
+      "nonlinear_minus_linearised": 0.0013494485206138052,
+      "scan_minus_stage_linearised_score": 1.723066134218243e-13,
+      "unconverged": false
+    },
+    {
+      "generator": "released_chain_red",
+      "largest_cell_difference_at_signal_member": 0.15238184763086338,
+      "linearised_statistic": 8.824673822504394,
+      "nonlinear_minus_linearised": -0.018862770945588636,
+      "scan_minus_stage_linearised_score": 2.19824158875781e-13,
+      "unconverged": false
+    }
+  ],
+  "scope_sha256": "7b13e8a9b92f762baa6aa6cbf999d6c44f2a7ffd12fbe13ca150e0128c284223",
+  "seed": 2026111850,
+  "status": "WITHIN_TOLERANCE",
+  "tolerance": 0.5,
+  "vectors": 7
+}

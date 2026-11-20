@@ -1,0 +1,61 @@
+{
+  "held": [
+    {
+      "adapter_sha256": "f165c622b2cde1af74b2283f2587d97aca81423cebf293961fcd160d3026fe10",
+      "error": "Binary derivative/local-linearity mismatch: SINI {\"step_in_parameter_units\": 0.09400762798086607, \"relative_derivative_error\": 0.5726347042906409, \"maximum_nonlinearity_in_TOA_sigma\": 6.794351728823187}",
+      "status": "PREPARATION_FAILED",
+      "target": "J0613-0200"
+    }
+  ],
+  "observed_search_executed": false,
+  "results": [
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "8b0700c9154932de2075654df9f7d60cc539303c85ec6a07e17636944ced3e23",
+        "eligible_cells": 224,
+        "excluded_cells": 10,
+        "frequency_count": 234,
+        "median_worst_phase_amplitude_us": 0.3350068201536141,
+        "observed_search_executed": false,
+        "path": "calibration-cache/8b0700c9154932de2075654df9f7d60cc539303c85ec6a07e17636944ced3e23",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1614-2230",
+        "threshold": 22.318207180027805,
+        "timing_rank": 170
+      },
+      "conditional_injection_recovered": 90,
+      "conditional_injection_trials": 96,
+      "injection_scope": "Three eligible periods, two phases, 16 fixed-noise realizations each; diagnostic, not occurrence completeness",
+      "noiseless_relative_amplitude_error": 9.92015255057218e-16,
+      "profile_sha256": "a6c99b4e075741afe168f3ad9e279c2ba3380ff7fa3e15407c837838c13222f7",
+      "target": "J1614-2230"
+    },
+    {
+      "calibration": {
+        "cache_hit": false,
+        "cache_key": "410c6df487fda6c10fddac334d4db493de9b44aacdbd5e4212db3edda476c35e",
+        "eligible_cells": 929,
+        "excluded_cells": 11,
+        "frequency_count": 940,
+        "median_worst_phase_amplitude_us": 0.06304100680902525,
+        "observed_search_executed": false,
+        "path": "calibration-cache/410c6df487fda6c10fddac334d4db493de9b44aacdbd5e4212db3edda476c35e",
+        "status": "CALIBRATED_CONDITIONAL",
+        "target": "J1909-3744",
+        "threshold": 25.0993246998405,
+        "timing_rank": 349
+      },
+      "conditional_injection_recovered": 91,
+      "conditional_injection_trials": 96,
+      "injection_scope": "Three eligible periods, two phases, 16 fixed-noise realizations each; diagnostic, not occurrence completeness",
+      "noiseless_relative_amplitude_error": 1.9764015560033455e-15,
+      "profile_sha256": "0b99d8ecffca84a4750267a14446ca40164f5176a40f49f5a70b0f12a1ece629",
+      "target": "J1909-3744"
+    }
+  ],
+  "selection_sha256": "2ba19b6a065970236ffdb67fdd6b3002a1dbaae03cabfbcdec44d4a51e2ad893",
+  "status": "PREPARED",
+  "original_sha256": "bf6098fd93241087996b46750158399e353fce883c77abec6c62d417ef4f47f7",
+  "path_mapping": "Calibration cache paths made relative; this is a derived view, not original frozen bytes"
+}

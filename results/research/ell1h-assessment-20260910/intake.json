@@ -1,0 +1,43 @@
+{
+  "scope": "Three released ELL1H models and coverage; model-only compatibility assessment, no TOA fit/calibration/search",
+  "archive_sha256": "91476bf20d4c8baa9f5ad39c6e114b581478a5a7e269876489cafc8f62c5708f",
+  "inventory_sha256": "8a7de27b4c5b4327824cf19fe845796d68848eeed24b51818f95f425939a3248",
+  "rows": [
+    {
+      "exclusion_reasons": [
+        "known_binary"
+      ],
+      "par_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J1802-2124_PINT_20230209.wb.par",
+      "par_sha256": "d1ca6f813d01ee79732b7a985f287bd8eb99833ab59e95bf4e7dccd62edb6040",
+      "release_name": "J1802-2124",
+      "selected": false,
+      "target": "J1802-2124",
+      "tim_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J1802-2124_PINT_20230224.wb.tim",
+      "tim_sha256": "6a55592a505a83666e2b9ad8798a46d4fda61645ab1ab8082f4c7140eb27e1eb"
+    },
+    {
+      "exclusion_reasons": [
+        "known_binary"
+      ],
+      "par_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2145-0750_PINT_20230222.wb.par",
+      "par_sha256": "38fb0484945f7cdb6b9a2ab407ba5faa2c30214d013f6f7b848eb23faaed5952",
+      "release_name": "J2145-0750",
+      "selected": false,
+      "target": "J2145-0750",
+      "tim_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J2145-0750_PINT_20230224.wb.tim",
+      "tim_sha256": "b06987b7c718f4db3a8ddb39b771a271f57da6c3c84b3af5227784f4162ece37"
+    },
+    {
+      "exclusion_reasons": [
+        "known_binary"
+      ],
+      "par_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/par/J2317+1439_PINT_20230131.wb.par",
+      "par_sha256": "565abfe5cd7ec515b4d01bd4007e9c4f1efb7451a0864e7e1a6b7696979120a5",
+      "release_name": "J2317+1439",
+      "selected": false,
+      "target": "J2317+1439",
+      "tim_member": "NANOGrav15yr_PulsarTiming_v2.1.0/wideband/tim/J2317+1439_PINT_20230131.wb.tim",
+      "tim_sha256": "110309e88376fa7bf7aba7b1bd8c653f5eb675c8de1d58cdcffc02ba0b05937f"
+    }
+  ]
+}

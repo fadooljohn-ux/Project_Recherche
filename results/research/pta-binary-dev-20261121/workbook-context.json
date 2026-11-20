@@ -1,0 +1,14 @@
+{
+ "evidence": "results/research/pta-binary-dev-20261121/closeout.json",
+ "entries": [
+  [
+   "pta-binary-dev-20261121",
+   "Engineering",
+   "Parkes/European binary adapter, translation, re-centring, refinement; development checks",
+   "VERIFIED",
+   "Owner instruction 'Proceed with all recommended steps and yes yes the searches own'. Preparation-only: 14 of 16 Parkes and 6 of 11 European binaries pass; NANOGrav J1640+2224 passes with refinement. tempo2 H3/STIG third-harmonic convention confirmed from its source and re-centred. SUPERB V: none qualify; GBNCC: three isolated pulsars qualify.",
+   "Nothing calibrated, frozen or searched. International adapter not built. Direct tempo2 comparison of the translation not done. Search-covariance uncertainty used where the release gives none (owner rule)."
+  ]
+ ],
+ "target_updates": []
+}

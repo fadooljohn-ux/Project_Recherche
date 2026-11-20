@@ -1,0 +1,148 @@
+{
+  "cases_compared": 344,
+  "records_identical_outside_bindings": 0,
+  "discrete_differences": [],
+  "discrete_difference_count": 0,
+  "excluded_fields": [
+    "execution_binding_sha256",
+    "input_binding"
+  ],
+  "timing_or_hash_fields_not_compared": [],
+  "largest_relative_float_difference_by_field": {
+    "solver_comparison.amplitude_difference_microseconds": {
+      "relative": 0.9955363433802648,
+      "absolute": 2.416261896120986e-08,
+      "case": "p2r3-inj-boundary-p00-a00-h01-n00"
+    },
+    "solver_comparison.phase_difference_radians": {
+      "relative": 0.9890222219787302,
+      "absolute": 8.084279936454442e-09,
+      "case": "p2r3-inj-phase-reference-p02-h00-n00"
+    },
+    "solver_comparison.chi2_difference": {
+      "relative": 0.9743330291556263,
+      "absolute": 1.2565646784423734e-05,
+      "case": "p2r3-inj-phase-reference-p00-h03-n02"
+    },
+    "recovered_cosine_microseconds": {
+      "relative": 0.00030753083688725907,
+      "absolute": 5.6377645751788446e-08,
+      "case": "p2r3-inj-main-p00-a01-h00-n02"
+    },
+    "phase_error_radians": {
+      "relative": 0.0003067043350508179,
+      "absolute": 1.355205335849645e-06,
+      "case": "p2r3-inj-main-p00-a01-h00-n02"
+    },
+    "recovered_phase_radians": {
+      "relative": 0.0003067043350508179,
+      "absolute": 1.355205335849645e-06,
+      "case": "p2r3-inj-main-p00-a01-h00-n02"
+    },
+    "signed_wrapped_phase_error_radians": {
+      "relative": 0.0003067043350508179,
+      "absolute": 1.355205335849645e-06,
+      "case": "p2r3-inj-main-p00-a01-h00-n02"
+    },
+    "ordinary_absorption_fraction": {
+      "relative": 0.00016074746628790104,
+      "absolute": 4.0398064093949415e-07,
+      "case": "p2r3-inj-main-p01-a01-h03-n02"
+    },
+    "amplitude_bias_fraction": {
+      "relative": 8.692099134585083e-05,
+      "absolute": 1.5032489419919415e-08,
+      "case": "p2r3-inj-main-p00-a03-h02-n00"
+    },
+    "recovered_sine_microseconds": {
+      "relative": 2.7557125312233928e-05,
+      "absolute": 6.186463372397782e-08,
+      "case": "p2r3-inj-main-p03-a02-h03-n02"
+    },
+    "phase_standard_error_radians": {
+      "relative": 1.9078287338143533e-05,
+      "absolute": 1.3846343546591866e-06,
+      "case": "p2r3-inj-annual-p03-h02-n00"
+    },
+    "full_covariance_solver.sine_us": {
+      "relative": 1.4218804396415203e-05,
+      "absolute": 3.821183610459508e-08,
+      "case": "p2r3-inj-main-p01-a02-h01-n00"
+    },
+    "full_covariance_solver.cosine_us": {
+      "relative": 1.1016773019535796e-05,
+      "absolute": 0.0004030176047606915,
+      "case": "p2r3-inj-annual-p03-h02-n00"
+    },
+    "full_covariance_solver.amplitude_us": {
+      "relative": 1.0954499899857907e-05,
+      "absolute": 0.0004144800201970611,
+      "case": "p2r3-inj-annual-p03-h02-n00"
+    },
+    "sine_cosine_covariance_microseconds_squared": {
+      "relative": 3.44483426199634e-06,
+      "absolute": 0.02285822753674438,
+      "case": "p2r3-inj-annual-p03-h00-n00"
+    },
+    "full_covariance_solver.phase_radians": {
+      "relative": 2.274237932043266e-06,
+      "absolute": 1.687643106651482e-07,
+      "case": "p2r3-inj-main-p02-a00-h00-n02"
+    },
+    "cosine_uncertainty_microseconds": {
+      "relative": 1.7218637911805106e-06,
+      "absolute": 0.000278820104085753,
+      "case": "p2r3-inj-annual-p03-h00-n00"
+    },
+    "sine_uncertainty_microseconds": {
+      "relative": 1.7179944473827888e-06,
+      "absolute": 7.050164702349093e-05,
+      "case": "p2r3-inj-annual-p03-h00-n00"
+    },
+    "full_covariance_solver.weighted_rms_us": {
+      "relative": 9.416157909224057e-07,
+      "absolute": 7.334334188868752e-06,
+      "case": "p2r3-inj-main-p02-a02-h01-n01"
+    },
+    "sine_cosine_correlation": {
+      "relative": 3.456172782324477e-07,
+      "absolute": 4.147707186388794e-10,
+      "case": "p2r3-inj-main-p04-a02-h00-n01"
+    },
+    "full_covariance_solver.returned_chi2": {
+      "relative": 1.8578233584389799e-07,
+      "absolute": 0.0001898063778753567,
+      "case": "p2r3-inj-main-p04-a01-h03-n01"
+    },
+    "full_covariance_solver.reduced_chi2": {
+      "relative": 1.647524782283902e-07,
+      "absolute": 1.5532919728222794e-07,
+      "case": "p2r3-inj-boundary-p00-a00-h01-n00"
+    },
+    "full_covariance_solver.chi2": {
+      "relative": 1.6475247814867035e-07,
+      "absolute": 0.00016061038991210808,
+      "case": "p2r3-inj-boundary-p00-a00-h01-n00"
+    },
+    "full_covariance_solver.cosine_uncertainty_us": {
+      "relative": 1.231223439721779e-07,
+      "absolute": 1.9937115411039485e-05,
+      "case": "p2r3-inj-annual-p03-h02-n00"
+    },
+    "full_covariance_solver.sine_uncertainty_us": {
+      "relative": 1.2258518537016414e-07,
+      "absolute": 5.030550461526673e-06,
+      "case": "p2r3-inj-annual-p03-h02-n00"
+    },
+    "signal_astrometry_correlation": {
+      "relative": 9.940632012814488e-09,
+      "absolute": 1.7254268847022303e-09,
+      "case": "p2r3-inj-annual-p05-h01-n00"
+    },
+    "global_maximum_delta_chi2": {
+      "relative": 1.2577377150010009e-13,
+      "absolute": 2.7426949600339867e-12,
+      "case": "p2r3-inj-main-p04-a02-h01-n02"
+    }
+  }
+}

@@ -1,9 +1,19 @@
 #!/bin/sh
-# Portable convenience entry point; installation never starts a scientific run.
+# Install only the locked environment; never resolve or update dependencies.
 set -eu
 recherche_repo=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
-if [ "$#" -ne 0 ]; then
-  echo 'Usage: tools/install (see AGENT_README.md for data preparation)' >&2
+# Canonical checkout of protocol/RUNTIME_ENVIRONMENT_BINDING_20261116.json. The
+# qualification 02 host path was ..
+recherche_qualified_repo='.'
+if [ "$recherche_repo" != "$recherche_qualified_repo" ]; then
+  echo "This release's Python identity requires installation at: $recherche_qualified_repo" >&2
+  echo 'A different location requires a new environment binding; see docs/OPERATOR_GUIDE.md.' >&2
   exit 2
 fi
-exec python3 "$recherche_repo/tools/agent_setup.py" --install
+recherche_pixi=${RECHERCHE_PIXI:-pixi}
+if ! command -v "$recherche_pixi" >/dev/null 2>&1; then
+  echo 'Pixi is required. Set RECHERCHE_PIXI to the bundled pixi executable.' >&2
+  exit 2
+fi
+"$recherche_pixi" install --locked --manifest-path "$recherche_repo/pixi.toml"
+exec "$recherche_repo/tools/recherche" doctor "$@"

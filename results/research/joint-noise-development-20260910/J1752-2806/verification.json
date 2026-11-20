@@ -1,0 +1,16 @@
+{
+  "comparisons": [
+    {
+      "generator": "published_extended",
+      "maximum_score_error": 1.5409895581797173e-13
+    },
+    {
+      "generator": "between_grid_stronger_steeper",
+      "maximum_score_error": 8.035794252236883e-13
+    }
+  ],
+  "contrast_dimension": 139,
+  "fixed_noise_only_dimensions_removed": 0,
+  "input_dimension": 145,
+  "timing_rank": 6
+}

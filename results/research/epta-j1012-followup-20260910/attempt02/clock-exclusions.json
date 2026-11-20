@@ -1,0 +1,16 @@
+{
+  "clock_span_mjd": [
+    55562.5,
+    59294.5
+  ],
+  "excluded": [
+    {
+      "file": "tims/EFF.P217.1380.tim",
+      "mjd": "59295.06689558536434603",
+      "reason": "Outside measured effix2gps clock coverage",
+      "toa": "J1012+5307_ASTERIX_P217-3_20210322_04950.0001_0000.clean"
+    }
+  ],
+  "original_toas": 5325,
+  "retained_toas": 5324
+}

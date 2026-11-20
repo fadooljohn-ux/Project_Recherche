@@ -1,0 +1,14 @@
+{
+ "evidence": "results/research/ng15-binary-dev-20261120/closeout.json",
+ "entries": [
+  [
+   "ng15-binary-tool-20261120",
+   "Engineering",
+   "NANOGrav binary tool with re-expression and Shapiro basis; development check",
+   "VERIFIED",
+   "Owner instruction 'Proceed with Nanograv.' tools/ng15_binary.py built and tested. Preparation-only check: 22 of 24 unsearched NANOGrav binaries pass the timing checks; J1853+1303 and J1640+2224 held; controls J1738+0333 (reproduces September preparation) and J1614-2230 pass.",
+   "Nothing calibrated, frozen or searched. Open: omitted-Shapiro rule for 14 targets; J1802-2124 September adequacy hold stands. Acquisition order of new sources recorded (accessibility first)."
+  ]
+ ],
+ "target_updates": []
+}

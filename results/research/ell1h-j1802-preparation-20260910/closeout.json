@@ -1,0 +1,38 @@
+{
+  "status": "PREPARATION_ADEQUACY_HOLD",
+  "holds": [
+    "OMITTED_ORBITAL_STRUCTURE_HOLD",
+    "WIDEBAND_NOISE_MODEL_HOLD",
+    "NOISE_GRID_BOUNDARY_HOLD"
+  ],
+  "target": "J1802-2124",
+  "date": "2026-09-10",
+  "preparation_attempts": 1,
+  "scientific_execution_failures": 0,
+  "adapter_tests_passed": 19,
+  "calibration_executed": false,
+  "observed_outer_periodogram_computed": false,
+  "publication_source_bindings_preserved": 71,
+  "counts": {
+    "registered": 783,
+    "observed": 286,
+    "searches": 360,
+    "candidate_grades": 8
+  },
+  "next_step": "Separately bounded joint orbital/Shapiro and noise comparison; no model promoted and no calibration ready.",
+  "artifacts": {
+    "workbook-closeout.json": "95a9ab4ef4b73d832f015aec0a5c7d4ecff0816e53d96969a47d4e85f791a500",
+    "adapter-at-preparation.py.txt": "9c8ce8110f4fd83cdd0cf99a66bf1eabc817f4f5b1589784c146acbe7adc4af2",
+    "selection-at-preparation.json": "72535377818177c4e4e45d8c5e6a202858dd97ef5d5629dd8d4b2329a52adf9e",
+    "adapter-adoption.json": "6a52af8de40efe0462620c08a9da479e8c4f83f6721786524aafa37366659977",
+    "selection.json": "40ea5eb06f4dfd99a253fa954380ca2113fe23a985caf5bcf9182308b7e3597d",
+    "verification.json": "45493367f4771899d6241332ce12357066f68d3a1882824990330f28212eebe8",
+    "profile.json": "65221fa075997f77c80ada661f43df9e660d4f6f9c2a6d614d76295d7e4bc9e9",
+    "receipt.json": "41089a21940fc210c5a22763a245002d6fafa3d40891b5b3a6ff0a029a0dc0e8",
+    "preparation-diagnostics.json": "07d4190d3c342418da884cae653ca889f79728626bdb7c820ab060ec14c83362"
+  },
+  "report_sha256": "bf0e3c2fde0435412cce0069c63dff4b6817d3e35b4fbe2d095d414dd17e0b88",
+  "current_adapter_sha256": "91f1a3fa712984a68c063acd5cd8778e297270b2b96c75475e934475208318d8",
+  "diagnostic_code_sha256": "752b0a4ff2f1b6090c8a3ed58c176764d0373da8852e74888d939b84b04be50f",
+  "selection_config_sha256": "331d6764a95009463d1240f7b52786ca5a33f34ea7e03b99f20a1ae09a7c78e8"
+}

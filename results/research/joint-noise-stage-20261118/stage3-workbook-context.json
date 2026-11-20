@@ -1,0 +1,22 @@
+{
+ "evidence": "results/research/joint-noise-stage-20261118/stage3-closeout.json",
+ "entries": [
+  [
+   "joint-noise-stage3-20261118-implementation",
+   "Implementation",
+   "Second-stage joint-noise test; nonlinear-orbit sources",
+   "VERIFIED",
+   "Owner instruction 'Proceed with stage 3'. Stage tool reads nonlinear-orbit preparations with the orbit linearised at published values and can draw nulls from a released noise chain. tools/joint_noise_nonlinear_check.py re-fits the orbit nonlinearly: 42 simulated vectors, largest statistic change 0.11 (tolerance 0.5). 5 unit tests.",
+   "Decision statistic is the linearised one; the nonlinear fit is a declared validity check."
+  ],
+  [
+   "joint-noise-stage-20261118-J2043+1711-run01",
+   "Second-stage joint-noise test",
+   "J2043+1711; fixed-noise crossing at 37.48 d",
+   "BELOW_JOINT_NOISE_THRESHOLD",
+   "189-member noise grid and seven generators (one from the released NANOGrav chain) declared before the run. Joint statistic 18.419 at 37.57 d (18.240 at 37.48 d) against threshold 23.001; fixed-noise 26.871 against 23.998. Nonlinear-orbit check 18.446, CONSISTENT. 17-53 of 1024 validation nulls per generator reach the observed value. Signal-hypothesis noise on a grid edge.",
+   "run01 consumed; do not rerun. Crossing does not survive; grade unchanged (INCONCLUSIVE_NOISE_SENSITIVE). Independent telescope data still needed."
+  ]
+ ],
+ "target_updates": []
+}

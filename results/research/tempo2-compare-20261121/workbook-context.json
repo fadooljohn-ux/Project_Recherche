@@ -1,0 +1,14 @@
+{
+ "evidence": "results/research/tempo2-compare-20261121/ppta.json",
+ "entries": [
+  [
+   "tempo2-compare-20261121",
+   "Verification",
+   "Translated Parkes/European binary models compared with native tempo2",
+   "VERIFIED",
+   "Owner instruction 'Yes, compare first'. 19 of 20 agree within 0.1 TOA sigma after the search projection (largest 0.061). Parkes J1603-7202 differs (0.44): a GAUS chromatic event the timing library drops. New guard holds targets with unimplemented terms (also Parkes J1909-3744, TNGROUPNOISE). September isolated searches of these releases contain no such term.",
+   "No periodogram; nothing calibrated, frozen or searched. Ready to propose: 12 Parkes, 6 European binaries."
+  ]
+ ],
+ "target_updates": []
+}

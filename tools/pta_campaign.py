@@ -5,7 +5,6 @@ import io
 import inspect
 import hashlib
 import subprocess
-import sys
 from pathlib import Path
 import shutil
 import numpy as np
@@ -13,9 +12,10 @@ import mpta_batch as mpta
 import target_calibration as cal
 from pulsar_pilot.pilot2_offline_resources import LocalPintRepository, NetworkDeny
 from pulsar_pilot.spin_phase import bind_precise_spin_phase
+from recherche_common import DATA_ROOT, require
 
-ROOT = mpta.REPO.parent / 'Project Recherche Data/pta-campaign01-20260908'
-INTAKE = mpta.REPO.parent / 'Project Recherche Data/source-compatibility-20260908'
+ROOT = DATA_ROOT / 'pta-campaign01-20260908'
+INTAKE = DATA_ROOT / 'source-compatibility-20260908'
 SOURCES = ('ppta', 'epta', 'inpta')
 POLICY = {**cal.DEFAULT_POLICY, 'minimum_period_days': 30., 'maximum_period_days': 2000.,
           'search_count': 18, 'seed': 2026092300}
@@ -57,7 +57,7 @@ def inventory():
                 original = INTAKE / 'ppta-v2'
                 par, tim = original / (target + '_singlePsrNoise_fit.par'), original / (target + '.tim')
                 for suffix in ('_singlePsrNoise_fit.par', '.tim'):
-                    assert cal.digest(original / (target + suffix)) == cal.digest(INTAKE / 'ppta' / (target + suffix))
+                    require(cal.digest(original / (target + suffix)) == cal.digest(INTAKE / 'ppta' / (target + suffix)), "cal.digest(original / (target + suffix)) == cal.digest(INTAKE / 'ppta' / (target + suffix))")
             elif source == 'epta':
                 original = INTAKE / 'epta-noise/EPTA-DR2/DR2full' / target
                 par, tim = original / (target + '.par'), original / (target + '_all.tim')
@@ -85,7 +85,7 @@ def inventory():
         records.extend({'source': source, 'target': r['target']} for r in rows)
     if not (ROOT / 'intake.json').exists():
         records = [{'source': s, 'target': t} for s in SOURCES for t in cal.read(ROOT / s / 'selection.json')['selected']]
-        assert len(records) == POLICY['search_count']
+        require(len(records) == POLICY['search_count'], "len(records) == POLICY['search_count']")
         cal.write(ROOT / 'intake.json', {'created_utc': mpta.now(), 'datasets': records,
             'unique_targets': len({r['target'] for r in records}), 'policy': POLICY,
             'ppta_revision': '59423 / v2; seven selected PAR/TIM pairs identical to v1',
@@ -224,7 +224,7 @@ def prepare(source, target):
     out.mkdir(exist_ok=True)
     pint.logging.setup(level='WARNING', sink=out / 'pint.log', removeprior=True)
     original = root / 'original'
-    for rel, sha in row['input_hashes'].items(): assert cal.digest(original / rel) == sha
+    for rel, sha in row['input_hashes'].items(): require(cal.digest(original / rel) == sha, 'cal.digest(original / rel) == sha')
     par = (original / (target + '.par')).read_text()
     omitted = {'EPHVER', 'NTOA', 'CHI2R', 'TRES', 'TNsubtractRed', 'TNsubtractDM', 'TNsubtractChrom', 'TNBandNoise'}
     lines = [line for line in par.splitlines() if line.split() and line.split()[0] not in omitted]
@@ -335,7 +335,7 @@ def calibrate(source, target):
     from pulsar_pilot.pilot1_runtime import prepare_covariance_gls_scanner
     root = ROOT / source / target
     receipt = cal.read(root / 'prepared/receipt.json')
-    assert preparation_matches(root, receipt)
+    require(preparation_matches(root, receipt), 'preparation_matches(root, receipt)')
     result = cal.run(root / 'profile/profile.json', ROOT / source / 'calibration-cache')
     profile, arrays = cal.load_profile(root / 'profile/profile.json')
     scanner = prepare_covariance_gls_scanner(arrays['covariance'], arrays['design'], arrays['times'], np.array([.01]), profile['reference_epoch_mjd_tdb'])
@@ -354,10 +354,10 @@ def freeze():
         for target in cal.read(ROOT/source/'selection.json')['selected']:
             root = ROOT/source/target
             row = cal.read(root/'calibrated.json')
-            assert preparation_matches(root, cal.read(root/'prepared/receipt.json'))
-            assert row['profile_sha256'] == cal.digest(root/'profile/profile.json')
-            assert row['preparation_sha256'] == cal.digest(root/'prepared/receipt.json')
-            assert not (root/'run01').exists()
+            require(preparation_matches(root, cal.read(root/'prepared/receipt.json')), "preparation_matches(root, cal.read(root/'prepared/receipt.json'))")
+            require(row['profile_sha256'] == cal.digest(root/'profile/profile.json'), "row['profile_sha256'] == cal.digest(root/'profile/profile.json')")
+            require(row['preparation_sha256'] == cal.digest(root/'prepared/receipt.json'), "row['preparation_sha256'] == cal.digest(root/'prepared/receipt.json')")
+            require(not (root/'run01').exists(), "not (root/'run01').exists()")
         if (ROOT/source/'execution-freeze.json').exists(): raise FileExistsError('Source already frozen')
     for source in SOURCES:
         data = ROOT / source
@@ -366,15 +366,15 @@ def freeze():
         for r in rows:
             root = data / r['target']
             receipt = cal.read(root / 'prepared/receipt.json')
-            assert preparation_matches(root, receipt)
-            assert receipt['toas'] >= 40 and receipt['epochs'] >= 40 and receipt['span_days'] >= 1200
-            assert receipt['policy']['search_count'] == 18
-            assert receipt['policy']['false_alarm_probability'] == .01
-            assert receipt['network_attempts'] == 0
-            for path, sha in receipt['clock_hashes'].items(): assert cal.digest(path) == sha
-            assert r['profile_sha256'] == cal.digest(root / 'profile/profile.json')
-            assert r['preparation_sha256'] == cal.digest(root / 'prepared/receipt.json')
-            assert not (root / 'run01').exists()
+            require(preparation_matches(root, receipt), 'preparation_matches(root, receipt)')
+            require(receipt['toas'] >= 40 and receipt['epochs'] >= 40 and receipt['span_days'] >= 1200, "receipt['toas'] >= 40 and receipt['epochs'] >= 40 and receipt['span_days'] >= 1200")
+            require(receipt['policy']['search_count'] == 18, "receipt['policy']['search_count'] == 18")
+            require(receipt['policy']['false_alarm_probability'] == .01, "receipt['policy']['false_alarm_probability'] == .01")
+            require(receipt['network_attempts'] == 0, "receipt['network_attempts'] == 0")
+            for path, sha in receipt['clock_hashes'].items(): require(cal.digest(path) == sha, 'cal.digest(path) == sha')
+            require(r['profile_sha256'] == cal.digest(root / 'profile/profile.json'), "r['profile_sha256'] == cal.digest(root / 'profile/profile.json')")
+            require(r['preparation_sha256'] == cal.digest(root / 'prepared/receipt.json'), "r['preparation_sha256'] == cal.digest(root / 'prepared/receipt.json')")
+            require(not (root / 'run01').exists(), "not (root / 'run01').exists()")
         prep = {'status':'PREPARED','created_utc':mpta.now(),'results':rows,'selection_sha256':cal.digest(data / 'selection.json'),'observed_search_executed':False}
         cal.write(data / 'preparation.json', prep)
         path = data / 'execution-freeze.json'
@@ -393,9 +393,9 @@ def run(source, target):
     data = ROOT / source
     campaign = cal.read(ROOT / 'campaign-freeze.json')
     frozen = cal.read(data / 'execution-freeze.json')
-    assert campaign['source_freezes'][source] == cal.digest(data / 'execution-freeze.json')
-    assert frozen['campaign_adapter_sha256'] == cal.digest(__file__)
-    assert frozen['preparation_sha256'] == cal.digest(data / 'preparation.json')
+    require(campaign['source_freezes'][source] == cal.digest(data / 'execution-freeze.json'), "campaign['source_freezes'][source] == cal.digest(data / 'execution-freeze.json')")
+    require(frozen['campaign_adapter_sha256'] == cal.digest(__file__), "frozen['campaign_adapter_sha256'] == cal.digest(__file__)")
+    require(frozen['preparation_sha256'] == cal.digest(data / 'preparation.json'), "frozen['preparation_sha256'] == cal.digest(data / 'preparation.json')")
     mpta.run(data, target)
     evidence = mpta.REPO / 'results/research' / ROOT.name
     evidence.mkdir(exist_ok=True, parents=True)

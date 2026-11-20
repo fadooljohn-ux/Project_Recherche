@@ -1,0 +1,552 @@
+{
+ "status": "DEVELOPMENT_COMPATIBILITY_CHECK",
+ "observed_search_executed": false,
+ "frozen": false,
+ "calibrated": false,
+ "rule": "Development roots: must not be calibrated, frozen or run. A real search needs a new root and a new owner instruction.",
+ "root": "../Project Recherche Data/ng15-binary-dev3-20261120",
+ "earlier_roots": {
+  "ng15-binary-dev-20261120": "Selection stopped: the re-expression refused zero-valued unused DD terms. Incomplete; no selection.json.",
+  "ng15-binary-dev2-20261120": "Superseded: the ELL1 Shapiro-derivative repair was applied only when M2 and SINI were fitted; control J1614-2230 held on the PB derivative check (0.00116 against 0.001)."
+ },
+ "targets": [
+  {
+   "target": "J1745+1017",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "ELL1",
+   "searched_binary_model": "ELL1",
+   "toas": 91,
+   "span_years": 4.546192958102603,
+   "search_range_days": [
+    30.0,
+    830.2484889734878
+   ],
+   "null_reduced_chi2": 1.0358317848190155,
+   "largest_orbit_shift_in_checked_sigma": 0.08659955912287653,
+   "largest_nonlinearity_in_TOA_sigma": 8.269929825810782e-06,
+   "largest_derivative_error": 2.497612185309707e-08,
+   "derivative_repair": false
+  },
+  {
+   "target": "J1802-2124",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "ELL1H",
+   "searched_binary_model": "ELL1H",
+   "toas": 126,
+   "span_years": 3.4568759697871276,
+   "search_range_days": [
+    30.0,
+    631.3119739823742
+   ],
+   "null_reduced_chi2": 1.2241769333778547,
+   "largest_orbit_shift_in_checked_sigma": 0.03858008896999717,
+   "largest_nonlinearity_in_TOA_sigma": 1.638508408761827e-06,
+   "largest_derivative_error": 6.031564780861251e-08,
+   "derivative_repair": false
+  },
+  {
+   "target": "J0610-2100",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "ELL1",
+   "searched_binary_model": "ELL1",
+   "toas": 214,
+   "span_years": 3.3664666394386193,
+   "search_range_days": [
+    30.0,
+    614.8009700274779
+   ],
+   "null_reduced_chi2": 1.0628664416631657,
+   "largest_orbit_shift_in_checked_sigma": 4.8550408709542116e-05,
+   "largest_nonlinearity_in_TOA_sigma": 6.376787795442195e-05,
+   "largest_derivative_error": 7.524578781371593e-08,
+   "derivative_repair": false
+  },
+  {
+   "target": "J0406+3039",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "ELL1",
+   "searched_binary_model": "ELL1",
+   "toas": 71,
+   "span_years": 3.5632067587715914,
+   "search_range_days": [
+    69.55717213648717,
+    650.7306343206619
+   ],
+   "null_reduced_chi2": 0.9760854776822598,
+   "largest_orbit_shift_in_checked_sigma": 0.000506115223929575,
+   "largest_nonlinearity_in_TOA_sigma": 1.0725947207570557e-05,
+   "largest_derivative_error": 4.542055529240828e-08,
+   "derivative_repair": false
+  },
+  {
+   "target": "J2017+0603",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "ELL1",
+   "searched_binary_model": "ELL1",
+   "toas": 154,
+   "span_years": 8.324932054906373,
+   "search_range_days": [
+    30.0,
+    1520.3407165272765
+   ],
+   "null_reduced_chi2": 0.9758036471481851,
+   "largest_orbit_shift_in_checked_sigma": 0.5025741027660351,
+   "largest_nonlinearity_in_TOA_sigma": 1.255561922530784e-05,
+   "largest_derivative_error": 1.3323160216082043e-07,
+   "derivative_repair": true,
+   "shapiro_basis": {
+    "parameters": [
+     "M2",
+     "SINI"
+    ],
+    "components": 4,
+    "unremoved": 0.054561230426320106,
+    "sign": 1.0,
+    "preferred_chi2_change": 0.005644077721694985
+   }
+  },
+  {
+   "target": "J1741+1351",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "ELL1",
+   "searched_binary_model": "ELL1",
+   "toas": 208,
+   "span_years": 9.051138120467003,
+   "search_range_days": [
+    163.35347829482407,
+    1652.9640992502864
+   ],
+   "null_reduced_chi2": 1.0854550825454607,
+   "largest_orbit_shift_in_checked_sigma": 0.8390803836286119,
+   "largest_nonlinearity_in_TOA_sigma": 1.693830266872842e-06,
+   "largest_derivative_error": 4.1258550951927427e-07,
+   "derivative_repair": true,
+   "shapiro_basis": {
+    "parameters": [
+     "M2",
+     "SINI"
+    ],
+    "components": 3,
+    "unremoved": 0.08198672322607425,
+    "sign": 1.0,
+    "preferred_chi2_change": 0.0360816982393797
+   }
+  },
+  {
+   "target": "J1811-2405",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "ELL1",
+   "searched_binary_model": "ELL1",
+   "toas": 103,
+   "span_years": 3.4568524892428343,
+   "search_range_days": [
+    62.72301969988267,
+    631.3076858479726
+   ],
+   "null_reduced_chi2": 0.9969239599023356,
+   "largest_orbit_shift_in_checked_sigma": 0.10298534837077677,
+   "largest_nonlinearity_in_TOA_sigma": 3.399467231589332e-06,
+   "largest_derivative_error": 1.3070069343279548e-07,
+   "derivative_repair": true,
+   "shapiro_basis": {
+    "parameters": [
+     "M2",
+     "SINI"
+    ],
+    "components": 3,
+    "unremoved": 0.011412482377973321,
+    "sign": 1.0,
+    "preferred_chi2_change": 0.017335357309192764
+   }
+  },
+  {
+   "target": "J2229+2643",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "DD",
+   "searched_binary_model": "ELL1",
+   "toas": 151,
+   "span_years": 7.0282363964855765,
+   "search_range_days": [
+    930.1589253440015,
+    1283.5316719081784
+   ],
+   "null_reduced_chi2": 1.0990013881602783,
+   "largest_orbit_shift_in_checked_sigma": 0.33239089408484856,
+   "largest_nonlinearity_in_TOA_sigma": 2.4558316155891674e-07,
+   "largest_derivative_error": 1.7425790989929076e-07,
+   "derivative_repair": false,
+   "reexpression_equivalence_in_TOA_sigma": 1.9536855688784271e-07,
+   "eccentricity": 0.00025530565613715464
+  },
+  {
+   "target": "J1910+1256",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "DD",
+   "searched_binary_model": "ELL1",
+   "toas": 216,
+   "span_years": 11.426439559461942,
+   "search_range_days": [
+    584.6674206207181,
+    2000.0
+   ],
+   "null_reduced_chi2": 1.0477064760758101,
+   "largest_orbit_shift_in_checked_sigma": 1.40964956264737,
+   "largest_nonlinearity_in_TOA_sigma": 1.4456450621593263e-07,
+   "largest_derivative_error": 1.0470588085145942e-07,
+   "derivative_repair": false,
+   "reexpression_equivalence_in_TOA_sigma": 8.046299626585096e-08,
+   "eccentricity": 0.00023025003634756402
+  },
+  {
+   "target": "J0437-4715",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "DD",
+   "searched_binary_model": "ELL1",
+   "toas": 117,
+   "span_years": 4.753672045564054,
+   "search_range_days": [
+    57.41042383612494,
+    868.1393573211353
+   ],
+   "null_reduced_chi2": 1.162444587946108,
+   "largest_orbit_shift_in_checked_sigma": 0.003240908645718985,
+   "largest_nonlinearity_in_TOA_sigma": 8.762221961032088e-07,
+   "largest_derivative_error": 1.4554499255488985e-07,
+   "derivative_repair": false,
+   "reexpression_equivalence_in_TOA_sigma": 1.8031430215614816e-07,
+   "eccentricity": 1.9293678693861453e-05
+  },
+  {
+   "target": "J1455-3330",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "DD",
+   "searched_binary_model": "ELL1",
+   "toas": 357,
+   "span_years": 15.669450675193616,
+   "search_range_days": [
+    761.7456747831073,
+    2000.0
+   ],
+   "null_reduced_chi2": 1.0709279250891908,
+   "largest_orbit_shift_in_checked_sigma": 0.7267521976854241,
+   "largest_nonlinearity_in_TOA_sigma": 3.8436490910960675e-07,
+   "largest_derivative_error": 8.192588668798271e-08,
+   "derivative_repair": false,
+   "reexpression_equivalence_in_TOA_sigma": 1.1540396371856332e-07,
+   "eccentricity": 0.00016964540648376468
+  },
+  {
+   "target": "J1643-1224",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "DD",
+   "searched_binary_model": "ELL1",
+   "toas": 478,
+   "span_years": 15.713620618289871,
+   "search_range_days": [
+    1470.173955288316,
+    2000.0
+   ],
+   "null_reduced_chi2": 1.0850300734215845,
+   "largest_orbit_shift_in_checked_sigma": 0.8949624945849992,
+   "largest_nonlinearity_in_TOA_sigma": 3.0074958725486905e-08,
+   "largest_derivative_error": 9.780963531999188e-08,
+   "derivative_repair": false,
+   "reexpression_equivalence_in_TOA_sigma": 5.364551661789288e-07,
+   "eccentricity": 0.0005057189615229531
+  },
+  {
+   "target": "J1022+1001",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "DD",
+   "searched_binary_model": "ELL1",
+   "toas": 116,
+   "span_years": 5.550842684774711,
+   "search_range_days": [
+    78.05130162135173,
+    1013.7226453069816
+   ],
+   "null_reduced_chi2": 1.3802823362014902,
+   "largest_orbit_shift_in_checked_sigma": 0.6082393110568171,
+   "largest_nonlinearity_in_TOA_sigma": 2.8011965059209683e-07,
+   "largest_derivative_error": 2.2990345215414868e-08,
+   "derivative_repair": false,
+   "reexpression_equivalence_in_TOA_sigma": 1.6534613678231835e-08,
+   "eccentricity": 9.719884659367994e-05
+  },
+  {
+   "target": "J2033+1734",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "DD",
+   "searched_binary_model": "ELL1",
+   "toas": 133,
+   "span_years": 6.970600976505466,
+   "search_range_days": [
+    563.0779529695905,
+    1273.0060033343107
+   ],
+   "null_reduced_chi2": 1.0665334076019424,
+   "largest_orbit_shift_in_checked_sigma": 0.6483931827391111,
+   "largest_nonlinearity_in_TOA_sigma": 3.0682270391279166e-07,
+   "largest_derivative_error": 9.070114100139056e-08,
+   "derivative_repair": false,
+   "reexpression_equivalence_in_TOA_sigma": 4.779212758876383e-08,
+   "eccentricity": 0.00012872432708289471
+  },
+  {
+   "target": "J0605+3757",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "DD",
+   "searched_binary_model": "ELL1",
+   "toas": 47,
+   "span_years": 3.36681022661473,
+   "search_range_days": [
+    556.7233370176874,
+    614.8637176355151
+   ],
+   "null_reduced_chi2": 1.0167119818623316,
+   "largest_orbit_shift_in_checked_sigma": 0.06306119898036228,
+   "largest_nonlinearity_in_TOA_sigma": 6.714811677195487e-05,
+   "largest_derivative_error": 5.950211917468441e-09,
+   "derivative_repair": false,
+   "reexpression_equivalence_in_TOA_sigma": 3.322672329648873e-08,
+   "eccentricity": 0.000375112408669959
+  },
+  {
+   "target": "J1955+2908",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "DD",
+   "searched_binary_model": "ELL1",
+   "toas": 173,
+   "span_years": 9.048526090511347,
+   "search_range_days": [
+    1173.490972692437,
+    1652.4870772796348
+   ],
+   "null_reduced_chi2": 1.072329454467906,
+   "largest_orbit_shift_in_checked_sigma": 0.9159637099387192,
+   "largest_nonlinearity_in_TOA_sigma": 2.8336301661667863e-08,
+   "largest_derivative_error": 8.707829792637799e-08,
+   "derivative_repair": false,
+   "reexpression_equivalence_in_TOA_sigma": 2.1159169733981174e-07,
+   "eccentricity": 0.0003302283355797336
+  },
+  {
+   "target": "J0709+0458",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "DD",
+   "searched_binary_model": "ELL1",
+   "toas": 91,
+   "span_years": 4.565136778101547,
+   "search_range_days": [
+    43.66676272210543,
+    833.708104100795
+   ],
+   "null_reduced_chi2": 1.1061488599890175,
+   "largest_orbit_shift_in_checked_sigma": 0.47487608521693125,
+   "largest_nonlinearity_in_TOA_sigma": 6.520580092661368e-06,
+   "largest_derivative_error": 9.016131972017852e-09,
+   "derivative_repair": false,
+   "reexpression_equivalence_in_TOA_sigma": 1.3271801435621455e-08,
+   "eccentricity": 0.00022508219920093842
+  },
+  {
+   "target": "J1918-0642",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "DD",
+   "searched_binary_model": "ELL1",
+   "toas": 487,
+   "span_years": 15.478590135869737,
+   "search_range_days": [
+    109.13177580159014,
+    2000.0
+   ],
+   "null_reduced_chi2": 1.0114979740006331,
+   "largest_orbit_shift_in_checked_sigma": 0.22042038321432122,
+   "largest_nonlinearity_in_TOA_sigma": 1.6250079933335778e-07,
+   "largest_derivative_error": 4.15726615925309e-07,
+   "derivative_repair": true,
+   "shapiro_basis": {
+    "parameters": [
+     "M2",
+     "SINI"
+    ],
+    "components": 2,
+    "unremoved": 0.048772862001004814,
+    "sign": 1.0,
+    "preferred_chi2_change": 0.0241692677228162
+   },
+   "reexpression_equivalence_in_TOA_sigma": 0.0022266089438370577,
+   "eccentricity": 2.034894777248526e-05
+  },
+  {
+   "target": "J1012-4235",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "DD",
+   "searched_binary_model": "ELL1",
+   "toas": 65,
+   "span_years": 3.3635843939484626,
+   "search_range_days": [
+    379.72463185604175,
+    614.274599944838
+   ],
+   "null_reduced_chi2": 1.0767086731006537,
+   "largest_orbit_shift_in_checked_sigma": 0.4260202326224988,
+   "largest_nonlinearity_in_TOA_sigma": 3.4118626788875633e-06,
+   "largest_derivative_error": 1.7248592928425647e-08,
+   "derivative_repair": true,
+   "shapiro_basis": {
+    "parameters": [
+     "M2",
+     "SINI"
+    ],
+    "components": 3,
+    "unremoved": 0.04681086230434421,
+    "sign": 1.0,
+    "preferred_chi2_change": 0.00042776367707786784
+   },
+   "reexpression_equivalence_in_TOA_sigma": 0.009065969314633548,
+   "eccentricity": 0.0003456604372490202
+  },
+  {
+   "target": "J2302+4442",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "DD",
+   "searched_binary_model": "ELL1",
+   "toas": 236,
+   "span_years": 8.1336249050474,
+   "search_range_days": [
+    1259.3529693816552,
+    1485.4032482842813
+   ],
+   "null_reduced_chi2": 0.9577679474221794,
+   "largest_orbit_shift_in_checked_sigma": 2.514661868074288,
+   "largest_nonlinearity_in_TOA_sigma": 1.0695634715917515e-06,
+   "largest_derivative_error": 5.981956278404866e-08,
+   "derivative_repair": true,
+   "shapiro_basis": {
+    "parameters": [
+     "M2",
+     "SINI"
+    ],
+    "components": 5,
+    "unremoved": 0.032194332491320976,
+    "sign": 1.0,
+    "preferred_chi2_change": 0.03443920371436424
+   },
+   "reexpression_equivalence_in_TOA_sigma": 0.01035410880103882,
+   "eccentricity": 0.0005030264224770972
+  },
+  {
+   "target": "J1853+1303",
+   "status": "HELD",
+   "error": "Data prefer Shapiro parameters outside the checked neighbourhood: M2 +3.00 widths, SINI -0.99 widths; expected chi-square change 10.2"
+  },
+  {
+   "target": "J1630+3734",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "DD",
+   "searched_binary_model": "ELL1",
+   "toas": 71,
+   "span_years": 3.4596804571311903,
+   "search_range_days": [
+    125.25025753997386,
+    631.8241434835836
+   ],
+   "null_reduced_chi2": 1.444451796266741,
+   "largest_orbit_shift_in_checked_sigma": 0.9656144800369607,
+   "largest_nonlinearity_in_TOA_sigma": 6.135751584718154e-06,
+   "largest_derivative_error": 3.99781072394313e-08,
+   "derivative_repair": true,
+   "shapiro_basis": {
+    "parameters": [
+     "M2",
+     "SINI"
+    ],
+    "components": 3,
+    "unremoved": 0.0789443830674057,
+    "sign": 1.0,
+    "preferred_chi2_change": 0.0032730396294744168
+   },
+   "reexpression_equivalence_in_TOA_sigma": 0.00039931489970967965,
+   "eccentricity": 5.1629668778546705e-05
+  },
+  {
+   "target": "J1600-3053",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "DD",
+   "searched_binary_model": "ELL1",
+   "toas": 481,
+   "span_years": 12.473105123336438,
+   "search_range_days": [
+    143.48457551197723,
+    2000.0
+   ],
+   "null_reduced_chi2": 1.0050167691301723,
+   "largest_orbit_shift_in_checked_sigma": 0.3329249666525348,
+   "largest_nonlinearity_in_TOA_sigma": 4.5673324726261257e-07,
+   "largest_derivative_error": 3.542632395315171e-07,
+   "derivative_repair": true,
+   "shapiro_basis": {
+    "parameters": [
+     "M2",
+     "SINI"
+    ],
+    "components": 5,
+    "unremoved": 0.040199424886092114,
+    "sign": 1.0,
+    "preferred_chi2_change": 0.020150595076428246
+   },
+   "reexpression_equivalence_in_TOA_sigma": 0.0026103272313918392,
+   "eccentricity": 0.00017373888645809865
+  },
+  {
+   "target": "J1640+2224",
+   "status": "HELD",
+   "error": "Released orbit requires a shift outside the checked neighbourhood: {\"PB\": 0.05669662580403251, \"A1\": 0.2153674437685354, \"A1DOT\": 0.4873003854830442, \"TASC\": 16.27834278795991, \"EPS1\": 0.08786567525397238, \"EPS2\": 0.053696871040337324}"
+  },
+  {
+   "target": "J1738+0333",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "ELL1",
+   "searched_binary_model": "ELL1",
+   "toas": 336,
+   "span_years": 10.7330684077591,
+   "search_range_days": [
+    30.0,
+    1960.1266179670056
+   ],
+   "null_reduced_chi2": 1.009399627275156,
+   "largest_orbit_shift_in_checked_sigma": 0.03278590844290445,
+   "largest_nonlinearity_in_TOA_sigma": 7.716380922610843e-07,
+   "largest_derivative_error": 1.5296752487595403e-07,
+   "derivative_repair": false
+  },
+  {
+   "target": "J1614-2230",
+   "status": "BINARY_TIMING_NOISE_COMPATIBLE",
+   "released_binary_model": "ELL1",
+   "searched_binary_model": "ELL1",
+   "toas": 367,
+   "span_years": 11.541192696681026,
+   "search_range_days": [
+    86.86619423146924,
+    2000.0
+   ],
+   "null_reduced_chi2": 0.9666265939015403,
+   "largest_orbit_shift_in_checked_sigma": 0.09367195018138436,
+   "largest_nonlinearity_in_TOA_sigma": 1.4560365139965022e-07,
+   "largest_derivative_error": 5.016366237517254e-07,
+   "derivative_repair": true,
+   "shapiro_basis": {
+    "parameters": [
+     "M2",
+     "SINI"
+    ],
+    "components": 2,
+    "unremoved": 0.008755706679336051,
+    "sign": 1.0,
+    "preferred_chi2_change": 0.0
+   }
+  }
+ ]
+}

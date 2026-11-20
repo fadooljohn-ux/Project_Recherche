@@ -1,0 +1,17 @@
+{
+  "calibration_sha256": "a47cd8a67288c19930ef4d03c736086e0b99bdbe1fc2e35c336eeb827c8ebe83",
+  "code": {
+    "tools/binary_noise_coverage.py": "066dd27f662e971f2117d0ef84c4fbb7fc96a6f7da08735a328f9198c094e487",
+    "tools/j1453_review.py": "67ef950c3974b27cfb303af08f657a3af6469c5f7fcfd93371bdc1f6bef10ac3",
+    "tools/joint_noise.py": "96313f340b97e01dc18efb3a4511415f7f00f7a473ef359d9047318d56e721ae",
+    "tools/joint_noise_stage.py": "9ccecaad8e62dedebe83aa991ab6c1b3a78cf47e22572fb8f9bc4c9bc1503eee",
+    "tools/mpta_batch.py": "a1ac9b061dab020802c20146beefa1d3ab612059574b5aaba3d1b5dd27f2065f",
+    "tools/target_calibration.py": "9d2d230f53521ce6f4ee55ab48d1c364d3db7543f1b5da26a5ecf902264092df"
+  },
+  "created_utc": "2026-11-18T06:36:57.781279+00:00",
+  "observed_sha256": "9c965355d1fabcd99439e709e6badfe9f1e71d25bc32420f754bdd89dbf1c797",
+  "scope_sha256": "9c958d9312f8b71839d02127fbe8425d98bf256ed72efb0f6bda3ac6f1ab2378",
+  "search": "One joint-noise profile over the fixed-noise eligible cells; single execution",
+  "target": "J1752-2806",
+  "threshold": 23.062411562283614
+}

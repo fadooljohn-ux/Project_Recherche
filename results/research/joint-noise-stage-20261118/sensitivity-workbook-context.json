@@ -1,0 +1,14 @@
+{
+ "evidence": "results/research/joint-noise-stage-20261118/sensitivity-closeout.json",
+ "entries": [
+  [
+   "joint-noise-sensitivity-20261118-implementation",
+   "Implementation",
+   "Second-stage joint-noise test; period-by-period sensitivity curve",
+   "VERIFIED",
+   "Owner instructions 'Let's tackle long period weakness' and 'Yes, build it'. tools/joint_noise_sensitivity.py compares the second stage with an ideal known-noise test at 12 periods per generator, injections scaled to each period; freeze now requires and binds the curve. Retrospective curves on simulated data for J1453, J1327, J1359, J0908 and J1048: UTMOST targets within 1.0-2.0 times the ideal amplitude at every period (the long-period loss is the red noise itself); J1453 needs 1.6-4.0 times the ideal amplitude from 457 to 1279 d. 3 unit tests; 368 tests pass.",
+   "No observed residuals read; no threshold or statistic changed. J1939 curve pending. Open decision: narrow the noise grid where a released chain exists."
+  ]
+ ],
+ "target_updates": []
+}

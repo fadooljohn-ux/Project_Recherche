@@ -5,16 +5,41 @@ recherche_repo=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
 cd "$recherche_repo"
 export PYTHONPATH="$recherche_repo/src"
 export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1
+# One setting locates external data; tools/recherche_common.py reads the same variable.
+recherche_data_root=${RECHERCHE_DATA_ROOT:-"$recherche_repo/../Project Recherche Data"}
+if [ -n "${RECHERCHE_DATA_ROOT:-}" ] && [ ! -d "$RECHERCHE_DATA_ROOT" ]; then
+  echo "RECHERCHE_DATA_ROOT is not a directory: $RECHERCHE_DATA_ROOT" >&2
+  exit 2
+fi
+# On hosts whose Command Line Tools libxcrun has no x86_64 slice, the /usr/bin/git
+# shim cannot start from the Intel runtime. Only then, put the native Git first.
+recherche_native_tools=/Library/Developer/CommandLineTools/usr/bin
+if [ -x "$recherche_native_tools/git" ] && \
+   ! /usr/bin/arch -x86_64 /usr/bin/git --version >/dev/null 2>&1; then
+  PATH="$recherche_native_tools:$PATH"
+  export PATH
+fi
 update_master_workbook() {
-  recherche_artifact_node="$HOME/.cache/codex-runtimes/codex-primary-runtime/dependencies/node"
-  recherche_master_dir="$recherche_repo/outputs/recherche-master-20260908"
-  if [ "${RECHERCHE_WORKBOOK_BACKEND:-}" = portable ] || [ "${1:-}" = --review ] || [ ! -x "$recherche_artifact_node/bin/node" ]; then
+  if [ -n "${RECHERCHE_WORKBOOK_HOOK:-}" ]; then
+    "$RECHERCHE_WORKBOOK_HOOK" "$@"
+    return $?
+  fi
+  # The hash-pinned openpyxl backend is the single supported path. The original
+  # updater, which borrows the Codex app's private Node runtime, runs only on
+  # explicit request for its legacy preparation and candidate modes.
+  if [ "${RECHERCHE_WORKBOOK_BACKEND:-portable}" != codex-node ]; then
     if [ ! -x "$recherche_repo/.agent-venv/bin/python" ]; then
       echo 'Workbook runtime missing. Run python3 tools/agent_setup.py --install, then retry master-workbook only.' >&2
       return 1
     fi
     "$recherche_repo/.agent-venv/bin/python" "$recherche_repo/tools/agent_workbook.py" "$@"
     return $?
+  fi
+  recherche_artifact_node="$HOME/.cache/codex-runtimes/codex-primary-runtime/dependencies/node"
+  recherche_master_dir="$recherche_repo/outputs/recherche-master-20260908"
+  if [ ! -x "$recherche_artifact_node/bin/node" ]; then
+    echo 'RECHERCHE_WORKBOOK_BACKEND=codex-node needs the Codex app Node runtime, which is absent.' >&2
+    return 1
   fi
   if [ ! -e "$recherche_master_dir/node_modules" ]; then
     ln -s "$recherche_artifact_node/node_modules" "$recherche_master_dir/node_modules"
@@ -31,6 +56,148 @@ if [ ! -x "$recherche_repo/.pixi/envs/default/bin/python" ]; then
   exit 2
 fi
 case "${1:-}" in
+  j1857-nonlinear)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/j1857_nonlinear.py" "$@"
+    ;;
+  nonlinear-verification)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/nonlinear_verification.py" "$@"
+    ;;
+  nonlinear-calibration)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" -u "$recherche_repo/tools/nonlinear_calibration.py" "$@"
+    ;;
+  epta-fixed-comparison)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/epta_fixed_comparison.py" "$@"
+    ;;
+  epta-binary-followup)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/epta_binary_followup.py" "$@"
+    ;;
+  joint-noise-stage)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" -u "$recherche_repo/tools/joint_noise_stage.py" "$@"
+    ;;
+  joint-noise-sensitivity)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" -u "$recherche_repo/tools/joint_noise_sensitivity.py" "$@"
+    ;;
+  detection-limits)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" -u "$recherche_repo/tools/detection_limits.py" "$@"
+    ;;
+  population-limits)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" -u "$recherche_repo/tools/population_limits.py" "$@"
+    ;;
+  joint-noise-nonlinear-check)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" -u "$recherche_repo/tools/joint_noise_nonlinear_check.py" "$@"
+    ;;
+  joint-noise)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/noise_development.py" "$@"
+    ;;
+  j1012-review)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/j1012_review.py" "$@"
+    ;;
+  ell1-shapiro-leakage)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/ell1_shapiro_leakage.py" "$@"
+    ;;
+  binary-pilot)
+    shift
+    recherche_binary_action=${1:-}
+    recherche_binary_data=''
+    recherche_previous_arg=''
+    for recherche_arg in "$@"; do
+      if [ "$recherche_previous_arg" = --data ]; then recherche_binary_data="$recherche_arg"; fi
+      case "$recherche_arg" in --data=*) recherche_binary_data=${recherche_arg#--data=} ;; esac
+      recherche_previous_arg="$recherche_arg"
+    done
+    recherche_binary_exit=0
+    /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/binary_wideband.py" "$@" || recherche_binary_exit=$?
+    if [ "$recherche_binary_action" = run ]; then
+      RECHERCHE_WORKBOOK_BACKEND=portable update_master_workbook "$recherche_binary_data" --binary-observed
+    fi
+    exit "$recherche_binary_exit"
+    ;;
+  mpta-binary)
+    shift
+    recherche_binary_action=${1:-}
+    recherche_binary_data=''
+    recherche_previous_arg=''
+    for recherche_arg in "$@"; do
+      if [ "$recherche_previous_arg" = --data ]; then recherche_binary_data="$recherche_arg"; fi
+      case "$recherche_arg" in --data=*) recherche_binary_data=${recherche_arg#--data=} ;; esac
+      recherche_previous_arg="$recherche_arg"
+    done
+    recherche_binary_exit=0
+    /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/mpta_binary.py" "$@" || recherche_binary_exit=$?
+    if [ "$recherche_binary_action" = run ]; then
+      RECHERCHE_WORKBOOK_BACKEND=portable update_master_workbook "$recherche_binary_data" --binary-observed
+    fi
+    exit "$recherche_binary_exit"
+    ;;
+  ng15-binary)
+    shift
+    recherche_binary_action=${1:-}
+    recherche_binary_data=''
+    recherche_previous_arg=''
+    for recherche_arg in "$@"; do
+      if [ "$recherche_previous_arg" = --data ]; then recherche_binary_data="$recherche_arg"; fi
+      case "$recherche_arg" in --data=*) recherche_binary_data=${recherche_arg#--data=} ;; esac
+      recherche_previous_arg="$recherche_arg"
+    done
+    recherche_binary_exit=0
+    /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/ng15_binary.py" "$@" || recherche_binary_exit=$?
+    if [ "$recherche_binary_action" = run ]; then
+      RECHERCHE_WORKBOOK_BACKEND=portable update_master_workbook "$recherche_binary_data" --binary-observed
+    fi
+    exit "$recherche_binary_exit"
+    ;;
+  pta-binary)
+    shift
+    recherche_binary_action=${1:-}
+    recherche_binary_data=''
+    recherche_previous_arg=''
+    for recherche_arg in "$@"; do
+      if [ "$recherche_previous_arg" = --data ]; then recherche_binary_data="$recherche_arg"; fi
+      case "$recherche_arg" in --data=*) recherche_binary_data=${recherche_arg#--data=} ;; esac
+      recherche_previous_arg="$recherche_arg"
+    done
+    recherche_binary_exit=0
+    /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/pta_binary.py" "$@" || recherche_binary_exit=$?
+    if [ "$recherche_binary_action" = run ]; then
+      RECHERCHE_WORKBOOK_BACKEND=portable update_master_workbook "$recherche_binary_data" --binary-observed
+    fi
+    exit "$recherche_binary_exit"
+    ;;
+  sensitivity-atlas)
+    shift
+    exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
+      "$recherche_repo/.pixi/envs/default/bin/python" "$recherche_repo/tools/sensitivity_atlas.py" "$@"
+    ;;
   ipta-campaign)
     shift
     exec /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' \
@@ -62,7 +229,7 @@ case "${1:-}" in
   utmost-search)
     shift
     recherche_utmost_action=${1:-}
-    recherche_utmost_data="$recherche_repo/../Project Recherche Data/utmost-preparation01-20260909"
+    recherche_utmost_data="$recherche_data_root/utmost-preparation01-20260909"
     recherche_previous_arg=''
     for recherche_arg in "$@"; do
       if [ "$recherche_previous_arg" = --data ]; then recherche_utmost_data="$recherche_arg"; fi
@@ -95,7 +262,7 @@ case "${1:-}" in
     shift
     recherche_campaign_action=${1:-}
     recherche_campaign_source=''
-    recherche_campaign_data="$recherche_repo/../Project Recherche Data/pta-campaign01-20260908"
+    recherche_campaign_data="$recherche_data_root/pta-campaign01-20260908"
     recherche_previous_arg=''
     for recherche_arg in "$@"; do
       if [ "$recherche_previous_arg" = --source ]; then recherche_campaign_source="$recherche_arg"; fi
@@ -123,7 +290,7 @@ case "${1:-}" in
     recherche_batch_kind=${1%-batch}
     shift
     if [ "${1:-}" = run ]; then
-      recherche_batch_data="$recherche_repo/../Project Recherche Data/${recherche_batch_kind}-batch01-20260908"
+      recherche_batch_data="$recherche_data_root/${recherche_batch_kind}-batch01-20260908"
       recherche_previous_arg=''
       for recherche_arg in "$@"; do
         if [ "$recherche_previous_arg" = --data ]; then recherche_batch_data="$recherche_arg"; fi
@@ -153,7 +320,7 @@ case "${1:-}" in
   mpta-batch)
     shift
     if [ "${1:-}" = run ]; then
-      recherche_batch_data="$recherche_repo/../Project Recherche Data/mpta-batch01-20260908"
+      recherche_batch_data="$recherche_data_root/mpta-batch01-20260908"
       recherche_previous_arg=''
       for recherche_arg in "$@"; do
         if [ "$recherche_previous_arg" = --data ]; then

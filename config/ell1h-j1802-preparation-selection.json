@@ -1,0 +1,16 @@
+{
+  "selected": ["J1802-2124"],
+  "seed": 2026093900,
+  "shapiro_mode": "ell1h_omitted_in_release",
+  "references": ["https://zenodo.org/records/16051178", "https://arxiv.org/abs/1002.0514"],
+  "selection_basis": "Bounded source-documented omitted-Shapiro ELL1H preparation. Preserve native NHARMS 7, original five free orbital terms, paired DM and published phase cuts. No calibration or planet search.",
+  "source_review": "results/research/j1802-model-review-20260910/comparison.json",
+  "diagnostics": {
+    "orbital_harmonics": [3, 4, 5, 6, 7],
+    "synthetic_harmonic_amplitude_us": 1.0,
+    "red_gamma": [1.5, 3.0, 4.33],
+    "red_rms_us": [0.25, 0.5, 1.0, 2.0],
+    "red_modes": 64,
+    "criterion": "Conditional preparation diagnostics, not a noise posterior or signal significance. Retain hold if fixed-noise harmonic adequacy fails at p<0.0027 or a declared noise alternative improves timing-marginalized null objective by more than 10. Boundary optima flag insufficient noise scope. No observed outer-period scan."
+  }
+}

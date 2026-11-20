@@ -1,0 +1,22 @@
+{
+ "evidence": "results/observed/ng15-binary01b-20261120/closeout.json",
+ "entries": [
+  [
+   "ng15-binary01b-20261120-closeout",
+   "Observed closeout",
+   "NANOGrav binaries batch 01 (7 searched, 1 held)",
+   "VERIFIED",
+   "Owner instruction '1. Search the eight fully cleared'. Searched once each, all NO_TRIGGER: J2017+0603 (8.32 / 25.79), J1741+1351 (11.67 / 22.43), J1811-2405 (5.58 / 22.41), J1918-0642 (6.74 / 24.38), J1600-3053 (9.88 / 23.38), J1630+3734 (12.94 / 20.84), J2302+4442 (1.89 / 15.57; 3 cells). J1012-4235 held at calibration: no searchable period.",
+   "No crossing, so no second-stage test. run01 destinations consumed. First root ng15-binary01-20261120 prepared only, never frozen or run."
+  ],
+  [
+   "omitted-shapiro-leakage-20261120",
+   "Research",
+   "Leakage test for 13 NANOGrav binaries without Shapiro terms",
+   "VERIFIED",
+   "Owner instruction '2. Test first. Run the leakage test on the 13.' Three negligible on the generic grid (J1745+1017, J0605+3757, J1643-1224); ten not negligible (0.2 to 454 at 85 degrees). Control J1738+0333 fails the generic grid (7.6) though it passed in September with its measured inclination.",
+   "Synthetic delays only; no residuals loaded; nothing calibrated or searched. Limit 0.1 and deciding inclination 85 degrees declared before the run."
+  ]
+ ],
+ "target_updates": []
+}

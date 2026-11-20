@@ -1,6 +1,6 @@
 {
   "discovery_claim_authorized": false,
-  "environment_manifest_sha256": "7de148fe70b702293c6d97a891fe117023a3e74a8d0137ae0b2b312432cce633",
+  "environment_manifest_sha256": "35ce09f8e193e0472d75a5c2f1c2334d2c92819e7e871af4705a05ac652ee8b1",
   "execution_authorized": true,
   "expected_accounting": {
     "cases": 344,
@@ -23,7 +23,6 @@
     "src/pulsar_pilot/pilot2_injection_executor_v028.py": "9e6ad9488ecf2729663210306ecc87be1011c3fbc5aaf04bdcd15db2a83ab3e4",
     "src/pulsar_pilot/pilot2_injection_remediation.py": "769af23c507cd820d5e8c92bcd1b371f1c17ce4ce56539250b11cddd5c5076aa",
     "src/pulsar_pilot/pilot2_injection_remediation_v023.py": "f5755c7af0545eb06d339384d579d7f78202aa84e2f3e2d313f01ad7b9d2ab40",
-    "src/pulsar_pilot/pilot2_injection_runner_v022.py": "57f93c591bb5158e475a4a380d8ae7c0dab2a6d9758b32ff150e650f2d2da927",
     "src/pulsar_pilot/pilot2_injection_runner_v028.py": "cf7e1bef345a98e7f097cc1007ade6c414e399511690f2e3bb1cecff0bd7eb95",
     "src/pulsar_pilot/pilot2_ioc_harness.py": "a3d269702997bda536eb4d28de3b9f18544baf1d27921f9dbd2448bba69e9734",
     "src/pulsar_pilot/pilot2_offline_resources.py": "55cb3dd0074005bf980603bbb8b47eaba102c3cd2b297f9711358a279ef9a96b",
@@ -36,9 +35,9 @@
     "src/pulsar_pilot/spin_phase.py": "177e4032c586da453dbbfe8c5a83e61a513779681b2d994a0b480e4aba629cad",
     "tests/test_pilot2_controls_v028.py": "0e2257dda8ee49d84a8bf389de23668c789f9ac3c4ceceaf4451595fa6b4ff3c"
   },
-  "implementation_sha256": "5a90dbc982a2883189836e8a6a90a38a8006df42771d75e3244e0efdf072de4d",
+  "implementation_sha256": "6fb978b2a58f97cafffae04fce2a995d02e73be729d20c2de7417c2e96613876",
   "inventory_sha256": "811c46d4d7e6137df8e50ac560449132f590e8abbbc6c851bf77e9e4214eac7b",
-  "ioc_run_id": "pilot2-ioc-qualification-20260908-02",
+  "ioc_run_id": "pilot2-ioc-qualification-20261116-03",
   "launch_contract": {
     "adapter_path": "pulsar_pilot.pilot2_science_module:SCIENCE_MODULE.run",
     "foreground": true,
@@ -51,19 +50,19 @@
   "observed_periodic_search_authorized": false,
   "observed_residual_access_authorized": false,
   "promotion_grade_authorized": false,
-  "recorded_utc": "2026-09-08T03:19:53.693315+00:00",
+  "recorded_utc": "2026-11-17T03:41:52.045956+00:00",
   "resource_manifest_sha256": "70e6ecc3e9181fe2c8e5c51c4367942fb19b09f5cd40285b089bcc1e2cf2e317",
   "resume_authorized": false,
   "schema": "pilot2-ioc-science-execution-freeze-v1",
-  "science_control_sha256": "fad047c507bbcf8dedf6c4c0bf5505528821524c9e05e7a15714c57ddef80d8c",
+  "science_control_sha256": "0ede95b5270e8c3bd176bc42abd2fd519b2922bbc4d85c82ede505a896ba0adb",
   "science_data_root": {
-    "data_root_id": "recherche-qualification-20260908-02",
-    "marker_sha256": "be3802351025de5db816627dd915fdc30f240adf95c0b1fa7512dcf3bc4fe840"
+    "data_root_id": "recherche-qualification-20261116-03",
+    "marker_sha256": "2d91eefde8e56f68784849a71c77b23b0235b08e3959cdd3ee57c8bb210586a0"
   },
   "science_run_id": "pilot2-b1937-injection-remediation-v0.2.8",
-  "scope": "Second owner-authorized 344-case synthetic qualification after demonstrated spin-phase precision repair and readiness PASS. Original formal FAIL preserved.",
+  "scope": "Third owner-authorized 344-case synthetic qualification: unchanged inventory, seeds, thresholds and gates, on the relocated checkout and macOS 27.2.1 host with a host-generated environment manifest, after retiring unused runner and executor versions from src/. Qualification 01 FAIL and qualification 02 PASS are preserved.",
   "status": "frozen_before_first_ioc_science_case",
   "stop_rule": "any_stop_or_failure_consumes_outer_and_inner_identity_without_resume",
   "threshold_lock_sha256": "6e624af784aabd92ce8b28babdaed4c863ca12c94caad756da005f14bf9b5117",
-  "user_authorization": "Proceed with steps 1-4. If readiness it determined to meet criteria proceed with another qualification run."
+  "user_authorization": "Proceed with requal"
 }

@@ -10,9 +10,10 @@ import numpy as np
 from scipy import linalg
 import target_calibration as cal
 from ipta_likelihood_audit import audit as audit_likelihood
+from recherche_common import DATA_ROOT
 
 REPO = Path(__file__).resolve().parents[1]
-DEFAULT = REPO.parent / 'Project Recherche Data/ipta-adapter01-20260909'
+DEFAULT = DATA_ROOT / 'ipta-adapter01-20260909'
 TARGET = 'J1721-2457'
 
 

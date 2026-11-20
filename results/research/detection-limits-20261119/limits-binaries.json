@@ -1,0 +1,432 @@
+{
+  "pulsar_mass_solar": 1.6,
+  "targets": [
+    {
+      "target": "J1738+0333",
+      "curve": "results/research/retrospective-curves-20261119/j1738/sensitivity.json",
+      "threshold": 22.097018895793894,
+      "injections_each_step": 32,
+      "retrospective": false,
+      "reference_generator": "released",
+      "limits": [
+        {
+          "period_days": 1960.1266179670054,
+          "reference_amplitude_50_us": 4.288493983607828,
+          "reference_minimum_mass_50_earth": 0.0012770107039878512,
+          "largest_amplitude_50_us": 23.354591900731926,
+          "largest_minimum_mass_50_earth": 0.006954437608750528,
+          "reference_amplitude_95_us": 7.582603676844528,
+          "reference_minimum_mass_95_earth": 0.002257917603811565,
+          "largest_amplitude_95_us": 36.22635289158488,
+          "largest_minimum_mass_95_earth": 0.0107873394683129
+        },
+        {
+          "period_days": 1306.7510786446703,
+          "reference_amplitude_50_us": 1.719433070523211,
+          "reference_minimum_mass_50_earth": 0.0006709175935322008,
+          "largest_amplitude_50_us": 7.481328514931255,
+          "largest_minimum_mass_50_earth": 0.0029191918020595926,
+          "reference_amplitude_95_us": 3.443684949232032,
+          "reference_minimum_mass_95_earth": 0.0013437154714715162,
+          "largest_amplitude_95_us": 13.133197793718653,
+          "largest_minimum_mass_95_earth": 0.005124534132906327
+        },
+        {
+          "period_days": 933.3936276033359,
+          "reference_amplitude_50_us": 1.006755232126927,
+          "reference_minimum_mass_50_earth": 0.0004916165456546973,
+          "largest_amplitude_50_us": 2.396917549048246,
+          "largest_minimum_mass_50_earth": 0.0011704576128129418,
+          "reference_amplitude_95_us": 2.2084685740701504,
+          "reference_minimum_mass_95_earth": 0.0010784346154105108,
+          "largest_amplitude_95_us": 4.393145728558538,
+          "largest_minimum_mass_95_earth": 0.00214525145607522
+        },
+        {
+          "period_days": 632.2989090216146,
+          "reference_amplitude_50_us": 0.5785722029062695,
+          "reference_minimum_mass_50_earth": 0.0003662872143606666,
+          "largest_amplitude_50_us": 0.9006152895318708,
+          "largest_minimum_mass_50_earth": 0.0005701688811805851,
+          "reference_amplitude_95_us": 0.9471599788064393,
+          "reference_minimum_mass_95_earth": 0.0005996357731121812,
+          "largest_amplitude_95_us": 1.4462492474422974,
+          "largest_minimum_mass_95_earth": 0.0009156032824526648
+        },
+        {
+          "period_days": 426.11448216674034,
+          "reference_amplitude_50_us": 0.6252319309553827,
+          "reference_minimum_mass_50_earth": 0.0005149551863297049,
+          "largest_amplitude_50_us": 0.8087183182388865,
+          "largest_minimum_mass_50_earth": 0.0006660787327681609,
+          "reference_amplitude_95_us": 0.8521208939565188,
+          "reference_minimum_mass_95_earth": 0.0007018260776481801,
+          "largest_amplitude_95_us": 1.1704331437416582,
+          "largest_minimum_mass_95_earth": 0.0009639952596486292
+        },
+        {
+          "period_days": 292.55621163686646,
+          "reference_amplitude_50_us": 0.5931292169243217,
+          "reference_minimum_mass_50_earth": 0.0006277049956137955,
+          "largest_amplitude_50_us": 0.6769559468807165,
+          "largest_minimum_mass_50_earth": 0.0007164183074153136,
+          "reference_amplitude_95_us": 0.8122409098192589,
+          "reference_minimum_mass_95_earth": 0.0008595895501139938,
+          "largest_amplitude_95_us": 0.9526796987646862,
+          "largest_minimum_mass_95_earth": 0.0010082150551196658
+        },
+        {
+          "period_days": 200.01292020071483,
+          "reference_amplitude_50_us": 0.5997610535088569,
+          "reference_minimum_mass_50_earth": 0.0008178720689774253,
+          "largest_amplitude_50_us": 0.6372160929947887,
+          "largest_minimum_mass_50_earth": 0.0008689481274489977,
+          "reference_amplitude_95_us": 0.8473196695416676,
+          "reference_minimum_mass_95_earth": 0.001155458640001669,
+          "largest_amplitude_95_us": 0.9763977545584819,
+          "largest_minimum_mass_95_earth": 0.0013314776726392843
+        },
+        {
+          "period_days": 137.07179146622414,
+          "reference_amplitude_50_us": 0.5891230799119743,
+          "reference_minimum_mass_50_earth": 0.0010335221643592433,
+          "largest_amplitude_50_us": 0.6179726272424604,
+          "largest_minimum_mass_50_earth": 0.0010841340782605684,
+          "reference_amplitude_95_us": 0.8063168392791676,
+          "reference_minimum_mass_95_earth": 0.0014145538569217597,
+          "largest_amplitude_95_us": 1.01166101237109,
+          "largest_minimum_mass_95_earth": 0.0017747973466934277
+        },
+        {
+          "period_days": 93.78596258215336,
+          "reference_amplitude_50_us": 0.5469272150443001,
+          "reference_minimum_mass_50_earth": 0.0012357106534022823,
+          "largest_amplitude_50_us": 0.5962362671848022,
+          "largest_minimum_mass_50_earth": 0.0013471180205311087,
+          "reference_amplitude_95_us": 0.9127613738822603,
+          "reference_minimum_mass_95_earth": 0.0020622651839130994,
+          "largest_amplitude_95_us": 0.9127613738822603,
+          "largest_minimum_mass_95_earth": 0.0020622651839130994
+        },
+        {
+          "period_days": 64.05642542375836,
+          "reference_amplitude_50_us": 0.5665015006459462,
+          "reference_minimum_mass_50_earth": 0.0016503336238002323,
+          "largest_amplitude_50_us": 0.6105027747183408,
+          "largest_minimum_mass_50_earth": 0.0017785182482167997,
+          "reference_amplitude_95_us": 0.827790633737124,
+          "reference_minimum_mass_95_earth": 0.002411521796086269,
+          "largest_amplitude_95_us": 0.8771704468541779,
+          "largest_minimum_mass_95_earth": 0.0025553751942345958
+        },
+        {
+          "period_days": 43.85070733706948,
+          "reference_amplitude_50_us": 0.5370781074576796,
+          "reference_minimum_mass_50_earth": 0.0020143373138730154,
+          "largest_amplitude_50_us": 0.6425753302545992,
+          "largest_minimum_mass_50_earth": 0.0024100097299313357,
+          "reference_amplitude_95_us": 0.7703886565162194,
+          "reference_minimum_mass_95_earth": 0.002889379767033983,
+          "largest_amplitude_95_us": 0.8909800345224712,
+          "largest_minimum_mass_95_earth": 0.0033416635393128586
+        },
+        {
+          "period_days": 30.0,
+          "reference_amplitude_50_us": 0.5176761154202681,
+          "reference_minimum_mass_50_earth": 0.002500670330628272,
+          "largest_amplitude_50_us": 0.5821158377919616,
+          "largest_minimum_mass_50_earth": 0.002811950872744834,
+          "reference_amplitude_95_us": 0.767221074191421,
+          "reference_minimum_mass_95_earth": 0.0037061145378624962,
+          "largest_amplitude_95_us": 0.8192112700230364,
+          "largest_minimum_mass_95_earth": 0.003957256779752731
+        }
+      ]
+    },
+    {
+      "target": "J1012+5307",
+      "curve": "results/research/retrospective-curves-20261119/j1012/sensitivity.json",
+      "threshold": 40.56197300066651,
+      "injections_each_step": 32,
+      "retrospective": false,
+      "reference_generator": "released",
+      "limits": [
+        {
+          "period_days": 2000.0,
+          "reference_amplitude_50_us": 2.601511080772977,
+          "reference_minimum_mass_50_earth": 0.0007643369111299304,
+          "largest_amplitude_50_us": 120.72069054643573,
+          "largest_minimum_mass_50_earth": 0.035468340074999286,
+          "reference_amplitude_95_us": 3.797850683741507,
+          "reference_minimum_mass_95_earth": 0.0011158274442871752,
+          "largest_amplitude_95_us": 156.37461114237092,
+          "largest_minimum_mass_95_earth": 0.04594363950361896
+        },
+        {
+          "period_days": 1339.0469526009954,
+          "reference_amplitude_50_us": 2.211848287138736,
+          "reference_minimum_mass_50_earth": 0.0008491230194517575,
+          "largest_amplitude_50_us": 70.71151685958992,
+          "largest_minimum_mass_50_earth": 0.027145974276337297,
+          "reference_amplitude_95_us": 3.052962138628419,
+          "reference_minimum_mass_95_earth": 0.0011720245210748742,
+          "largest_amplitude_95_us": 82.25634827550793,
+          "largest_minimum_mass_95_earth": 0.031578006151193876
+        },
+        {
+          "period_days": 939.7490826300741,
+          "reference_amplitude_50_us": 2.052926518344599,
+          "reference_minimum_mass_50_earth": 0.0009979557412864066,
+          "largest_amplitude_50_us": 42.76038381901758,
+          "largest_minimum_mass_50_earth": 0.02078640913373207,
+          "reference_amplitude_95_us": 2.696957491979287,
+          "reference_minimum_mass_95_earth": 0.001311028031970864,
+          "largest_amplitude_95_us": 54.36940158800801,
+          "largest_minimum_mass_95_earth": 0.026429711916240738
+        },
+        {
+          "period_days": 641.9665994059037,
+          "reference_amplitude_50_us": 1.776492942003755,
+          "reference_minimum_mass_50_earth": 0.0011133567531669338,
+          "largest_amplitude_50_us": 25.567791407992555,
+          "largest_minimum_mass_50_earth": 0.016023746874864783,
+          "reference_amplitude_95_us": 2.3762408632655574,
+          "reference_minimum_mass_95_earth": 0.0014892284397617045,
+          "largest_amplitude_95_us": 28.566564489063495,
+          "largest_minimum_mass_95_earth": 0.01790312628701135
+        },
+        {
+          "period_days": 435.13964111232895,
+          "reference_amplitude_50_us": 1.8035212682165098,
+          "reference_minimum_mass_50_earth": 0.0014648100758371796,
+          "largest_amplitude_50_us": 15.485598296491167,
+          "largest_minimum_mass_50_earth": 0.012577317947294765,
+          "reference_amplitude_95_us": 2.2823166660456446,
+          "reference_minimum_mass_95_earth": 0.001853685070196488,
+          "largest_amplitude_95_us": 18.4492056712505,
+          "largest_minimum_mass_95_earth": 0.01498434359200244
+        },
+        {
+          "period_days": 297.98920268391606,
+          "reference_amplitude_50_us": 1.5354669451194316,
+          "reference_minimum_mass_50_earth": 0.0016051634768065007,
+          "largest_amplitude_50_us": 8.903630348806889,
+          "largest_minimum_mass_50_earth": 0.009307775912935138,
+          "reference_amplitude_95_us": 2.0169620627831915,
+          "reference_minimum_mass_95_earth": 0.0021085141868892893,
+          "largest_amplitude_95_us": 11.635656075864171,
+          "largest_minimum_mass_95_earth": 0.012163811289474604
+        },
+        {
+          "period_days": 202.33099679939116,
+          "reference_amplitude_50_us": 1.341613224971986,
+          "reference_minimum_mass_50_earth": 0.0018155081377099062,
+          "largest_amplitude_50_us": 5.659907892487193,
+          "largest_minimum_mass_50_earth": 0.00765914396655831,
+          "reference_amplitude_95_us": 1.924419550152681,
+          "reference_minimum_mass_95_earth": 0.0026041777828652384,
+          "largest_amplitude_95_us": 7.0277324934778855,
+          "largest_minimum_mass_95_earth": 0.009510122063550654
+        },
+        {
+          "period_days": 138.23402626877655,
+          "reference_amplitude_50_us": 1.272451761596051,
+          "reference_minimum_mass_50_earth": 0.0022197829203674047,
+          "largest_amplitude_50_us": 3.1503711240196584,
+          "largest_minimum_mass_50_earth": 0.0054957997033584375,
+          "reference_amplitude_95_us": 1.7702176531044171,
+          "reference_minimum_mass_95_earth": 0.0030881319278973996,
+          "largest_amplitude_95_us": 4.366970858846177,
+          "largest_minimum_mass_95_earth": 0.007618149165866974
+        },
+        {
+          "period_days": 94.1726712825727,
+          "reference_amplitude_50_us": 1.2618779400974427,
+          "reference_minimum_mass_50_earth": 0.0028432381536501166,
+          "largest_amplitude_50_us": 2.3042892630251526,
+          "largest_minimum_mass_50_earth": 0.005191978511941894,
+          "reference_amplitude_95_us": 1.8197969617699632,
+          "reference_minimum_mass_95_earth": 0.004100330142233388,
+          "largest_amplitude_95_us": 3.184327011745913,
+          "largest_minimum_mass_95_earth": 0.007174861978168431
+        },
+        {
+          "period_days": 64.43493747898525,
+          "reference_amplitude_50_us": 1.1824159990926666,
+          "reference_minimum_mass_50_earth": 0.003431114199390367,
+          "largest_amplitude_50_us": 1.6590866641992703,
+          "largest_minimum_mass_50_earth": 0.004814308852317202,
+          "reference_amplitude_95_us": 1.609019867611496,
+          "reference_minimum_mass_95_earth": 0.004669025891986725,
+          "largest_amplitude_95_us": 2.2698728279215517,
+          "largest_minimum_mass_95_earth": 0.006586677528609487
+        },
+        {
+          "period_days": 43.96137853483259,
+          "reference_amplitude_50_us": 1.2221737664805035,
+          "reference_minimum_mass_50_earth": 0.0045761252824241365,
+          "largest_amplitude_50_us": 1.838699644809796,
+          "largest_minimum_mass_50_earth": 0.006884552886148543,
+          "reference_amplitude_95_us": 1.593652543958478,
+          "reference_minimum_mass_95_earth": 0.0059670350467502615,
+          "largest_amplitude_95_us": 2.3378882615158036,
+          "largest_minimum_mass_95_earth": 0.008753640336933011
+        },
+        {
+          "period_days": 30.0,
+          "reference_amplitude_50_us": 1.4018582250016274,
+          "reference_minimum_mass_50_earth": 0.006771773250853619,
+          "largest_amplitude_50_us": 2.0956456416543228,
+          "largest_minimum_mass_50_earth": 0.01012316141984061,
+          "reference_amplitude_95_us": 1.8513918715832351,
+          "reference_minimum_mass_95_earth": 0.008943276666098397,
+          "largest_amplitude_95_us": 3.0075879150054994,
+          "largest_minimum_mass_95_earth": 0.014528361733870203
+        }
+      ]
+    },
+    {
+      "target": "J2043+1711",
+      "curve": "results/research/retrospective-curves-20261119/j2043-consumed/sensitivity.json",
+      "threshold": 23.001185823013543,
+      "injections_each_step": 32,
+      "retrospective": false,
+      "reference_generator": "released_white_only",
+      "limits": [
+        {
+          "period_days": 1652.9694590794352,
+          "reference_amplitude_50_us": 0.35362401693014106,
+          "reference_minimum_mass_50_earth": 0.00011797165809190412,
+          "largest_amplitude_50_us": 12.061204750791887,
+          "largest_minimum_mass_50_earth": 0.0040237095189096335,
+          "reference_amplitude_95_us": 0.6533837373358046,
+          "reference_minimum_mass_95_earth": 0.00021797377772284467,
+          "largest_amplitude_95_us": 15.279003893364923,
+          "largest_minimum_mass_95_earth": 0.005097191754509714
+        },
+        {
+          "period_days": 1180.6924707710252,
+          "reference_amplitude_50_us": 0.19886392965376687,
+          "reference_minimum_mass_50_earth": 8.302533523314181e-05,
+          "largest_amplitude_50_us": 4.611298192856742,
+          "largest_minimum_mass_50_earth": 0.0019252087544909882,
+          "reference_amplitude_95_us": 0.3610973121481292,
+          "reference_minimum_mass_95_earth": 0.00015075748249107878,
+          "largest_amplitude_95_us": 7.695749558836238,
+          "largest_minimum_mass_95_earth": 0.003212961687446867
+        },
+        {
+          "period_days": 787.1283138473501,
+          "reference_amplitude_50_us": 0.13809569829751292,
+          "reference_minimum_mass_50_earth": 7.554903892152981e-05,
+          "largest_amplitude_50_us": 1.654626854577969,
+          "largest_minimum_mass_50_earth": 0.0009052089976605067,
+          "reference_amplitude_95_us": 0.31726060293303987,
+          "reference_minimum_mass_95_earth": 0.0001735661134615365,
+          "largest_amplitude_95_us": 2.6601468727254494,
+          "largest_minimum_mass_95_earth": 0.0014553062991980268
+        },
+        {
+          "period_days": 550.9898196931451,
+          "reference_amplitude_50_us": 0.1092990110179333,
+          "reference_minimum_mass_50_earth": 7.584605543088105e-05,
+          "largest_amplitude_50_us": 0.8872935281286729,
+          "largest_minimum_mass_50_earth": 0.0006157211624437061,
+          "reference_amplitude_95_us": 0.1561103360593051,
+          "reference_minimum_mass_95_earth": 0.00010832992075422174,
+          "largest_amplitude_95_us": 1.1740743358380026,
+          "largest_minimum_mass_95_earth": 0.0008147274739872373
+        },
+        {
+          "period_days": 403.1632827023013,
+          "reference_amplitude_50_us": 0.14626429932125673,
+          "reference_minimum_mass_50_earth": 0.00012499620755198858,
+          "largest_amplitude_50_us": 0.7259586266807555,
+          "largest_minimum_mass_50_earth": 0.0006203979754173456,
+          "reference_amplitude_95_us": 0.26758666945278026,
+          "reference_minimum_mass_95_earth": 0.00022867725773328309,
+          "largest_amplitude_95_us": 1.0809637992402754,
+          "largest_minimum_mass_95_earth": 0.0009237823312526339
+        },
+        {
+          "period_days": 266.60797727087663,
+          "reference_amplitude_50_us": 0.09518940420426404,
+          "reference_minimum_mass_50_earth": 0.00010717306848377065,
+          "largest_amplitude_50_us": 0.24963289608160946,
+          "largest_minimum_mass_50_earth": 0.00028105988992373465,
+          "reference_amplitude_95_us": 0.1295327893637193,
+          "reference_minimum_mass_95_earth": 0.00014584003988071876,
+          "largest_amplitude_95_us": 0.4174127673267633,
+          "largest_minimum_mass_95_earth": 0.0004699620453839072
+        },
+        {
+          "period_days": 187.837438531754,
+          "reference_amplitude_50_us": 0.11701857337602792,
+          "reference_minimum_mass_50_earth": 0.00016639713493614848,
+          "largest_amplitude_50_us": 0.22463114762605407,
+          "largest_minimum_mass_50_earth": 0.00031941920247381477,
+          "reference_amplitude_95_us": 0.1773669902554581,
+          "reference_minimum_mass_95_earth": 0.0002522108940425864,
+          "largest_amplitude_95_us": 0.32467280750447586,
+          "largest_minimum_mass_95_earth": 0.00046167564175318996
+        },
+        {
+          "period_days": 129.13823899058087,
+          "reference_amplitude_50_us": 0.0888351577910555,
+          "reference_minimum_mass_50_earth": 0.00016216636731053568,
+          "largest_amplitude_50_us": 0.13296272943184773,
+          "largest_minimum_mass_50_earth": 0.00024272014994751776,
+          "reference_amplitude_95_us": 0.12347360437635695,
+          "reference_minimum_mass_95_earth": 0.00022539798857055821,
+          "largest_amplitude_95_us": 0.17130766067151051,
+          "largest_minimum_mass_95_earth": 0.0003127178666008053
+        },
+        {
+          "period_days": 89.34970049078028,
+          "reference_amplitude_50_us": 0.0823786576702086,
+          "reference_minimum_mass_50_earth": 0.00019223470414032634,
+          "largest_amplitude_50_us": 0.11907296978285498,
+          "largest_minimum_mass_50_earth": 0.00027786271061800837,
+          "reference_amplitude_95_us": 0.12238728096121668,
+          "reference_minimum_mass_95_earth": 0.0002855968209667346,
+          "largest_amplitude_95_us": 0.18174894135180691,
+          "largest_minimum_mass_95_earth": 0.00042412021458826534
+        },
+        {
+          "period_days": 62.14170898794869,
+          "reference_amplitude_50_us": 0.09391097821381973,
+          "reference_minimum_mass_50_earth": 0.0002791729821603367,
+          "largest_amplitude_50_us": 0.12590745364452785,
+          "largest_minimum_mass_50_earth": 0.0003742902052423153,
+          "reference_amplitude_95_us": 0.12391627866155605,
+          "reference_minimum_mass_95_earth": 0.0003683709584346243,
+          "largest_amplitude_95_us": 0.16263929443316477,
+          "largest_minimum_mass_95_earth": 0.0004834844414034443
+        },
+        {
+          "period_days": 43.15847151643434,
+          "reference_amplitude_50_us": 0.08783366221815032,
+          "reference_minimum_mass_50_earth": 0.00033293754333330977,
+          "largest_amplitude_50_us": 0.11843049275176842,
+          "largest_minimum_mass_50_earth": 0.0004489162391361515,
+          "reference_amplitude_95_us": 0.12507001691326483,
+          "reference_minimum_mass_95_earth": 0.0004740836613681938,
+          "largest_amplitude_95_us": 0.14784040202350343,
+          "largest_minimum_mass_95_earth": 0.0005603958552116792
+        },
+        {
+          "period_days": 30.0,
+          "reference_amplitude_50_us": 0.08599369267518116,
+          "reference_minimum_mass_50_earth": 0.00041539848853063764,
+          "largest_amplitude_50_us": 0.11425514875157812,
+          "largest_minimum_mass_50_earth": 0.0005519174095421381,
+          "reference_amplitude_95_us": 0.11922868095158666,
+          "reference_minimum_mass_95_earth": 0.0005759424013092178,
+          "largest_amplitude_95_us": 0.17768183739243257,
+          "largest_minimum_mass_95_earth": 0.0008583044220575162
+        }
+      ]
+    }
+  ],
+  "limits": "Detection probabilities from a finite ladder and a finite number of simulated injections; conditional on the declared generators; circular orbits; not a posterior upper limit"
+}

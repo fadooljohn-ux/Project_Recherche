@@ -8,6 +8,7 @@ import tarfile
 import mpta_batch as mpta
 import target_calibration as cal
 import utmost_prepare as prep
+from recherche_common import require
 
 DATA = prep.DATA
 EVIDENCE = prep.REPO/'results/observed/utmost-batch01-20260909'
@@ -37,24 +38,25 @@ def freeze():
         receipt = cal.read(root/'prepared/receipt.json')
         calibrated = cal.read(root/'calibrated.json')
         if (root/'run01').exists(): raise FileExistsError('Target destination consumed')
-        assert receipt['adapter_sha256'] == cal.digest(prep.__file__)
-        assert receipt['shared_adapter_sha256'] == cal.digest(mpta.__file__)
-        assert receipt['selection_sha256'] == cal.digest(DATA/'selection.json')
-        assert calibrated['preparation_sha256'] == cal.digest(root/'prepared/receipt.json')
-        assert calibrated['profile_sha256'] == cal.digest(root/'prepared/profile/profile.json')
-        assert receipt['observed_sha256'] == cal.digest(root/'prepared/observed.npz')
-        assert receipt['clock_replay_sha256'] == cal.digest(root/'prepared/mo2gps-sampled.clk')
-        assert receipt['normalized_tim_sha256'] == cal.digest(root/'prepared/format1.tim')
+        require(receipt['adapter_sha256'] == cal.digest(prep.__file__), "receipt['adapter_sha256'] == cal.digest(prep.__file__)")
+        require(receipt['shared_adapter_sha256'] == cal.digest(mpta.__file__), "receipt['shared_adapter_sha256'] == cal.digest(mpta.__file__)")
+        require(receipt['noise_coverage_code_sha256'] == cal.digest(prep.noise_coverage.__file__), "receipt['noise_coverage_code_sha256'] == cal.digest(prep.noise_coverage.__file__)")
+        require(receipt['selection_sha256'] == cal.digest(DATA/'selection.json'), "receipt['selection_sha256'] == cal.digest(DATA/'selection.json')")
+        require(calibrated['preparation_sha256'] == cal.digest(root/'prepared/receipt.json'), "calibrated['preparation_sha256'] == cal.digest(root/'prepared/receipt.json')")
+        require(calibrated['profile_sha256'] == cal.digest(root/'prepared/profile/profile.json'), "calibrated['profile_sha256'] == cal.digest(root/'prepared/profile/profile.json')")
+        require(receipt['observed_sha256'] == cal.digest(root/'prepared/observed.npz'), "receipt['observed_sha256'] == cal.digest(root/'prepared/observed.npz')")
+        require(receipt['clock_replay_sha256'] == cal.digest(root/'prepared/mo2gps-sampled.clk'), "receipt['clock_replay_sha256'] == cal.digest(root/'prepared/mo2gps-sampled.clk')")
+        require(receipt['normalized_tim_sha256'] == cal.digest(root/'prepared/format1.tim'), "receipt['normalized_tim_sha256'] == cal.digest(root/'prepared/format1.tim')")
         profile, arrays = cal.load_profile(root/'prepared/profile/profile.json')
-        assert profile['policy'] == receipt['policy']
-        assert profile['policy']['search_count'] == len(selection['selected'])
+        require(profile['policy'] == receipt['policy'], "profile['policy'] == receipt['policy']")
+        require(profile['policy']['search_count'] == len(selection['selected']), "profile['policy']['search_count'] == len(selection['selected'])")
         cache = Path(calibrated['calibration']['path'])
         cal.verify_cache(cache, {'profile':profile,'implementation':cal.implementation()})
         # The existing observed runner expects a profile alongside prepared/.
         # An alias preserves the original profile bytes and calibration key.
         alias = root/'profile'
         if not alias.exists(): alias.symlink_to('prepared/profile',target_is_directory=True)
-        assert alias.resolve() == (root/'prepared/profile').resolve()
+        require(alias.resolve() == (root/'prepared/profile').resolve(), "alias.resolve() == (root/'prepared/profile').resolve()")
         bindings[target] = {'profile_sha256':calibrated['profile_sha256'],
                             'observed_sha256':receipt['observed_sha256'],
                             'preparation_sha256':calibrated['preparation_sha256'],
@@ -70,10 +72,11 @@ def freeze():
     with tarfile.open(backup) as archive:
         for member in archive.getmembers():
             if member.isfile():
-                assert hashlib.sha256(archive.extractfile(member).read()).hexdigest()==cal.digest(DATA/member.name)
+                require(hashlib.sha256(archive.extractfile(member).read()).hexdigest()==cal.digest(DATA/member.name), 'hashlib.sha256(archive.extractfile(member).read()).hexdigest()==cal.digest(DATA/member.name)')
     record={'created_utc':mpta.now(),'selection_sha256':cal.digest(DATA/'selection.json'),
             'code_sha256':cal.digest(mpta.__file__),'implementation':cal.implementation(),
             'utmost_runner_sha256':cal.digest(__file__),'preparation_adapter_sha256':cal.digest(prep.__file__),
+            'noise_coverage_code_sha256':cal.digest(prep.noise_coverage.__file__),
             'targets':bindings,'search':'One frozen 30-400 day circular grid per target; no period seeds',
             'batch_alpha_conditional':.01,'max_targets':len(selection['selected']),'authorization':'Owner authorized preparation and launch of saved batch, 2026-09-09',
             'source_commit':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),
@@ -86,8 +89,9 @@ def freeze():
 
 def run(target):
     frozen=cal.read(DATA/'execution-freeze.json')
-    assert frozen['utmost_runner_sha256']==cal.digest(__file__)
-    assert frozen['preparation_adapter_sha256']==cal.digest(prep.__file__)
+    require(frozen['utmost_runner_sha256']==cal.digest(__file__), "frozen['utmost_runner_sha256']==cal.digest(__file__)")
+    require(frozen['preparation_adapter_sha256']==cal.digest(prep.__file__), "frozen['preparation_adapter_sha256']==cal.digest(prep.__file__)")
+    require(frozen['noise_coverage_code_sha256']==cal.digest(prep.noise_coverage.__file__), "frozen['noise_coverage_code_sha256']==cal.digest(prep.noise_coverage.__file__)")
     mpta.run(DATA,target)
     destination=EVIDENCE/target
     destination.mkdir(exist_ok=False)

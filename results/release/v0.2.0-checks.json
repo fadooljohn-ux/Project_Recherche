@@ -1,0 +1,14 @@
+{
+  "release": "v0.2.0",
+  "date": "2026-11-21",
+  "status": "PASS",
+  "publication_check": "PASS: tools/check_publication.py; every distributed file matches the manifest; no local home path in any file or zip member",
+  "sensitive_string_scan": "PASS: no personal home path, personal email address, access token or private key found in the built tree",
+  "test_suite_on_built_edition": "460 passed, 6 deselected (3 historical release-state checks; 3 tests bound to redacted bytes, listed in tests/publication_state.json)",
+  "test_suite_on_private_archive": "463 passed, 3 deselected",
+  "files_reused_byte_identical_from_v0.1.0": 1939,
+  "files_changed_for_publication": 636,
+  "files_omitted": 7,
+  "runtime_check": "Tests run with the existing locked runtime of the private archive against the built tree; not an independent fresh-install qualification",
+  "scientific_runs_executed": 0
+}

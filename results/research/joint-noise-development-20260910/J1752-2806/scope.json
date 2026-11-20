@@ -1,0 +1,147 @@
+{
+  "alpha": 0.01,
+  "amplitude_offsets_dex": [
+    -0.5,
+    0.0,
+    0.5
+  ],
+  "calibration_nulls_each": 256,
+  "candidate_period_days": 81.78496479869125,
+  "code": {
+    "tools/binary_noise_coverage.py": "066dd27f662e971f2117d0ef84c4fbb7fc96a6f7da08735a328f9198c094e487",
+    "tools/j1453_review.py": "b69eb86b1fc28da36dff4b6cece1d07c73324cabdb3b08419d1871f6177b844b",
+    "tools/joint_noise.py": "96313f340b97e01dc18efb3a4511415f7f00f7a473ef359d9047318d56e721ae",
+    "tools/mpta_batch.py": "fb54f8f9f06eaf5937009ca24860e5af5a4bd9d4e10ebfbf3c7b86eb44111b7a",
+    "tools/noise_development.py": "9fd280269b9fdbb490187b804ccb9c73746ed0ac5d6a982bd1e64d8652d8cf78",
+    "tools/target_calibration.py": "9d2d230f53521ce6f4ee55ab48d1c364d3db7543f1b5da26a5ecf902264092df"
+  },
+  "coverage": {
+    "extended": true,
+    "released_modes": 12,
+    "required_modes": 49,
+    "selected_modes": 64,
+    "shortest_released_period_days": 121.65217140109114,
+    "shortest_selected_period_days": 22.809782137704588
+  },
+  "family": [
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 0.89388,
+      "log10_amplitude": -10.22688
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 1.89388,
+      "log10_amplitude": -10.22688
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 2.8938800000000002,
+      "log10_amplitude": -10.22688
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 3.8938800000000002,
+      "log10_amplitude": -10.22688
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 0.89388,
+      "log10_amplitude": -9.72688
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 1.89388,
+      "log10_amplitude": -9.72688
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 2.8938800000000002,
+      "log10_amplitude": -9.72688
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 3.8938800000000002,
+      "log10_amplitude": -9.72688
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 0.89388,
+      "log10_amplitude": -9.22688
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 1.89388,
+      "log10_amplitude": -9.22688
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 2.8938800000000002,
+      "log10_amplitude": -9.22688
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 3.8938800000000002,
+      "log10_amplitude": -9.22688
+    }
+  ],
+  "gamma_grid": [
+    0.89388,
+    1.89388,
+    2.8938800000000002,
+    3.8938800000000002
+  ],
+  "generators": [
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 1.89388,
+      "log10_amplitude": -9.72688,
+      "name": "published_extended"
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 2.3938800000000002,
+      "log10_amplitude": -9.47688,
+      "name": "between_grid_stronger_steeper"
+    },
+    {
+      "chromatic_rms_us": 0.0,
+      "gamma": 2.8938800000000002,
+      "log10_amplitude": -9.72688,
+      "name": "steeper_with_chromatic_if_identifiable"
+    }
+  ],
+  "injection_amplitude_factors": [
+    1.0,
+    5.0
+  ],
+  "injection_periods_days": [
+    60.20009217743535,
+    81.78496479869125,
+    201.36739627996047
+  ],
+  "injection_reference_amplitude_us": 137.1962246887286,
+  "injections_each_cell": 16,
+  "inputs": {
+    "utmost-batch04-20260909/J1752-2806/prepared/metadata.npz": "18e5a0e207e46df8722dd7981bde2c1376bd4602e3a36f8a381cf66924a95ed4",
+    "utmost-batch04-20260909/J1752-2806/prepared/observed.npz": "9c965355d1fabcd99439e709e6badfe9f1e71d25bc32420f754bdd89dbf1c797",
+    "utmost-batch04-20260909/J1752-2806/prepared/receipt.json": "4b7016f54b0b0a174da2d94ca8fea72d7ba23218da8c0f2229df9e5cb98a2549",
+    "utmost-batch04-20260909/J1752-2806/profile/arrays.npz": "75cdfb8a72dabf68ade141b2b672cddf89defc7ff977c46a3de23d3aea77632a",
+    "utmost-batch04-20260909/J1752-2806/profile/profile.json": "0282f3b85a65935e8ca20445e111d65520609380102b088944074550d0bd8050",
+    "utmost-batch04-20260909/J1752-2806/run01/periodogram.npz": "dbb5bd9c4f6c3150ffd7d856fb8412f909d4b40cffe812c0983d3308aa9762a4",
+    "utmost-batch04-20260909/J1752-2806/run01/result.json": "95eeadd38dcb16ded708638fa9493b512365a4d82d13ff852081da5af89bb84a"
+  },
+  "limits": "Finite grid, fixed white noise and linear timing model; no noise posterior or survey-wide FAP. Boundary fits flag limited scope. Single-band chromatic ambiguity retained.",
+  "objective": "Timing-marginalized Gaussian objective with covariance determinant; discrete noise and circular coefficients profiled separately under null/signal",
+  "old_covariance_relative_error": 0.0,
+  "prepared_sha256": "0df41e9be427665703eaa29c64d9f3549f72a2ae2167d758641ec2590aa3ceab",
+  "reference_epoch": 57600.0,
+  "released_gamma": 1.89388,
+  "released_log10_amplitude": -9.72688,
+  "scope": "Exposed-data development reanalysis; not a new blind search",
+  "seed": 2026091002,
+  "source": "utmost-batch04-20260909/J1752-2806",
+  "target": "J1752-2806",
+  "threshold": "Maximum 1% finite-sample order threshold across three declared generators; independent validation ensembles; no original threshold reused",
+  "validation_nulls_each": 256
+}
